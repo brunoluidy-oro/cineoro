@@ -1,0 +1,17 @@
+{
+  "eval_id": 1,
+  "eval_name": "pescador-rede-ptbr",
+  "prompt": "Monta o prompt dessa cena pro Seedance 2.5 no Higgsfield: um pescador velho no litoral do Ceará ensina o neto de 10 anos a consertar uma rede ao amanhecer, na praia, antes de saírem pro mar. O avô fala uma frase só: 'Nó frouxo, peixe solto.' Quero algo bem cinematográfico e real, 16:9. Tenho a foto do rosto do avô, a do neto e uma foto da jangada.",
+  "assertions": [
+    "Delivers a single Seedance 2.5 prompt in English with the spoken line kept verbatim in Portuguese ('Nó frouxo, peixe solto.')",
+    "The line is labelled with speaker, start/end seconds and a named language/accent (Brazilian Portuguese / Ceará)",
+    "The grandson's mouth is explicitly locked shut / only the grandfather speaks",
+    "Each of the three photos is given one explicit job (identity, identity, object/boat) and a scope excluding their background/light",
+    "Both faces get an acting task built on a tactic (verbs at the partner), not emotion adjectives",
+    "Net mending is written as mechanics (needle/shuttle, knot, pull, resistance or test), not just 'mends the net'",
+    "Music is explicitly banned with at least one synonym (score, BGM, soundtrack, instrumental)",
+    "Subtitles / on-screen text are explicitly banned",
+    "A motivated, directional dawn light source is named with its side/direction",
+    "Generation settings are given: duration that equals the sum of the timed beats, 16:9, and which references to attach"
+  ]
+}

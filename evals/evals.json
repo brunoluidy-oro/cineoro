@@ -1,0 +1,56 @@
+{
+  "skill_name": "cineoro-director",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Monta o prompt dessa cena pro Seedance 2.5 no Higgsfield: um pescador velho no litoral do Ceará ensina o neto de 10 anos a consertar uma rede ao amanhecer, na praia, antes de saírem pro mar. O avô fala uma frase só: 'Nó frouxo, peixe solto.' Quero algo bem cinematográfico e real, 16:9. Tenho a foto do rosto do avô, a do neto e uma foto da jangada.",
+      "expected_output": "One Seedance 2.5 prompt (single generation) with references mapped to roles, the line in Brazilian Portuguese labelled with speaker/seconds/accent, an acting task for both faces, net-mending as mechanics, motivated dawn light, music ban, plus generation settings (duration = timeline, 16:9, attachments in order).",
+      "files": [],
+      "expectations": [
+        "Delivers a single Seedance 2.5 prompt in English with the spoken line kept verbatim in Portuguese ('Nó frouxo, peixe solto.')",
+        "The line is labelled with speaker, start/end seconds and a named language/accent (Brazilian Portuguese / Ceará)",
+        "The grandson's mouth is explicitly locked shut / only the grandfather speaks",
+        "Each of the three photos is given one explicit job (identity, identity, object/boat) and a scope excluding their background/light",
+        "Both faces get an acting task built on a tactic (verbs at the partner), not emotion adjectives",
+        "Net mending is written as mechanics (needle/shuttle, knot, pull, resistance or test), not just 'mends the net'",
+        "Music is explicitly banned with at least one synonym (score, BGM, soundtrack, instrumental)",
+        "Subtitles / on-screen text are explicitly banned",
+        "A motivated, directional dawn light source is named with its side/direction",
+        "Generation settings are given: duration that equals the sum of the timed beats, 16:9, and which references to attach"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Decupa esse trecho em prompts pro Seedance 2.5 (21:9) e me dá o shotlist:\n\nINT. HOSPITAL — CORREDOR DA UTI — NOITE\nCLARA (40) espera sentada, segurando um copo de café que já esfriou. A porta da UTI abre. DR. RUIZ (55) sai tirando a máscara.\nRUIZ: Ele está estável. Mas não acordou.\nCLARA: Posso entrar?\nRUIZ: Só cinco minutos.\nClara entra. Pela janelinha da porta vemos ela segurar a mão do pai. Ruiz fica olhando pela janelinha um instante, depois vai embora pelo corredor.",
+      "expected_output": "An HTML shotlist (and the prompts) splitting the scene into one or more Seedance 2.5 generations with timed shots, PT-BR lines labelled, acting tasks for Clara and Ruiz (including Ruiz as the observer at the end), axis/continuity locks, generation cards.",
+      "files": [],
+      "expectations": [
+        "An HTML shotlist file is produced with the prompts inside copyable blocks",
+        "The scene is split into generations whose timed shots add up to each generation's stated duration, each within Seedance 2.5's 30 s limit",
+        "The three dialogue lines are kept verbatim in Portuguese and labelled by speaker with seconds",
+        "Dr. Ruiz has an acting task that covers the final silent beat watching through the door window",
+        "The shot through the small door window of Clara holding her father's hand is covered",
+        "A spatial/axis or screen-side continuity lock is stated for Clara and Ruiz",
+        "Music is explicitly banned in every prompt",
+        "Each generation has settings (duration, 21:9 aspect, references/attachments) listed",
+        "The user's script is not rewritten (no new dialogue lines added)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Gerei esse take no Seedance 2.5 e ficou ruim. Era pra ser uma mulher de uns 30 anos, sozinha numa floresta à noite, acendendo uma fogueira com pederneira, 15 segundos. Saiu com música de fundo, a fogueira já aparece acesa logo no começo, a luz parece de estúdio e o rosto dela ficou com olhar vidrado de boneca. O prompt que usei foi: 'A woman lights a campfire in a dark forest at night, cinematic, dramatic lighting, 4k, beautiful, emotional.' Me ajuda a consertar.",
+      "expected_output": "A diagnosis of each failure (music, skipped process, flat studio light, glassy eyes) with causes, and a rebuilt Seedance 2.5 prompt with the fire-making process as timed mechanics, a single motivated light source, an acting task + living eyes, a music ban with synonyms, and generation settings.",
+      "files": [],
+      "expectations": [
+        "Diagnoses all four reported failures (background music, fire already lit at the start, studio-like light, glassy doll eyes) with a cause for each",
+        "Explains why the original prompt's words (cinematic, dramatic lighting, beautiful, emotional, 4k) contributed to the failure",
+        "The rebuilt prompt shows the fire-making process in timed steps starting before any flame exists (strike, sparks, tinder catching, blowing, flame)",
+        "The rebuilt prompt names a single motivated light source and states what stays dark / exposure decision",
+        "The rebuilt prompt contains an acting task with a tactic and a living-eyes / anti-frozen-pupil instruction",
+        "Music is banned with synonyms in the rebuilt prompt",
+        "The timeline adds up to 15 seconds and the duration setting is 15 s",
+        "The prompt opens with the action already in progress and/or ends hard mid-action"
+      ]
+    }
+  ]
+}
