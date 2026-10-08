@@ -71,7 +71,8 @@ source stays small and contained within itself.
 ```
 
 Paste-ready looks for common worlds (night by fire, polar/blue dusk, overcast day, harsh sun,
-interior by window, urban night, candle/oil lamp, moonlight, mixed practicals):
+interior by window, urban night, candle/oil lamp, moonlight, mixed practicals) and for **light that is
+born or changes during the take** (a fire being lit, a lamp switched on — START / DURING / END):
 **`references/film-locks.md`**.
 
 ---

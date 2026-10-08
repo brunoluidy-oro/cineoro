@@ -85,8 +85,9 @@ prompt structure and length · draft, edit, extend · platform notes · known fa
 - Official 2.5 order: asset mapping → one-sentence summary → timeline / Shot N → notes on what stays
   constant [official]. The CINEORO spine follows it and adds locks, departments and a closing recap.
 - Official length guidance: ≤1,000 English words [official]. Production prompts reached ~19,000
-  characters (~3,000 words) on Higgsfield and were followed [observed]. **[policy]** aim 600–1,200
-  words; exceed only with control text.
+  characters (~3,000 words) on Higgsfield and were followed [observed]. **[policy]** full prompts
+  usually land at 1,000–2,000 words of control text; above ~2,000 run the compression pass
+  (`prompt-spine.md`); never add decoration.
 - Camera vocabulary the model knows: extreme wide/wide/medium/medium close-up/close-up; push in, pull
   out, pan, track, follow, orbit, tilt, handheld shake; low angle, overhead, first-person; one-shot,
   dolly zoom, FPV, bullet time, speed ramp; niche terms as "[term + descriptive explanation]"

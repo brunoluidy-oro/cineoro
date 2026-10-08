@@ -54,6 +54,18 @@ Check:
 
 ## Repair protocol (Mode C)
 
+**First, what kind of prompt failed?**
+- **A CINEORO prompt** (it has the spine blocks) → follow steps 1–6 below: change one block, keep the
+  rest identical.
+- **A one-line or mood prompt** ("a woman lights a campfire, cinematic, dramatic lighting, 4k") → there
+  is no block to change. Map each symptom to the words (or the missing instruction) that caused it,
+  then **rebuild the whole prompt in the spine** and deliver it like Mode A (header + prompt + card),
+  preceded by the diagnosis table. Say plainly that the rebuild replaces the old prompt. Don't attach
+  frames of the failed take as keyframes — they carry the failure (dead eyes, wrong light) into the
+  new generation.
+- **Someone else's structured prompt** (another template) → keep its working parts, move them into the
+  spine, and fix the failing parts; note what you moved.
+
 1. **Name the symptom** precisely (which shot, which second, what is wrong).
 2. **Find the cause** in `cineoro-realism/references/diagnosis.md`; identify the **one block** (or the
    one lock) responsible.
@@ -76,6 +88,10 @@ Check:
 | Systemic (axis, clones, light, look) | fix the block, repeat the invariant in four places, regenerate (draft first) |
 
 ## The repair deliverable
+
+For a one-line/mood prompt: a diagnosis table (symptom · cause in the old wording · fix ·
+department), then the full Mode A deliverable, then "what to check in the draft" and the fallback
+ladder (audio edit → first-frame keyframe → ACTING-only regenerate). For a CINEORO prompt:
 
 ```
 DIAGNOSIS: [symptom] → [cause] ([department]).

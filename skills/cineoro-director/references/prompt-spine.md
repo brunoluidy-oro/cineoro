@@ -6,7 +6,7 @@ dropped when the shot doesn't need them; nothing is added that the shot doesn't 
 **Contents:** assembly rules · 0 CONTRACT · 1 REFERENCES · 2 WHO IS WHO · 3 SCENE & SOUL · 4 ABSOLUTE
 LOCKS · 5 TIMELINE · 6 DIALOGUE & VOICE · 7 ACTING · 8 CAMERA · 9 GEOMETRY · 10 PHYSICS & MATERIAL ·
 11 LIGHT · 12 FILM LOOK · 13 SOUND · 14 WORLD · 15 NEGATIVE · 16 ORDER · single-take variant ·
-minimal variant
+compression pass · minimal variant
 
 ---
 
@@ -212,6 +212,18 @@ LOOK]. Only [@A] speaks — [N] lines. NO music, NO subtitles.]
 
 For a one-shot generation, TIMELINE uses BEATS, CONTRACT says "ONE continuous take, no cuts", ORDER
 recaps the beats. Add to LOCKS: "ONE continuous take — WRONG if the camera cuts".
+
+## Compression pass (when a prompt passes ~2,000 words)
+
+Cut in this order and stop as soon as it fits:
+1. Decorative adjectives and anything a reference already shows (wardrobe detail on a referenced
+   face, architecture on a world plate).
+2. NEGATIVE items that the spine and the locks already cover twice; keep the shot-specific ones.
+3. ACTING for faces under ~10% of the frame → the short form.
+4. GEOMETRY duplicated in the TIMELINE shot lines → keep the numbers in one place.
+5. PHYSICS & MATERIAL → keep resistance, gradual states and the OVER-REAL list; drop generic weather.
+Never cut: the critical-few repetitions, the music/subtitle bans, the ORDER recap, the voice locks,
+the lit-side lock.
 
 ## Minimal variant (insert, b-roll, quick test)
 

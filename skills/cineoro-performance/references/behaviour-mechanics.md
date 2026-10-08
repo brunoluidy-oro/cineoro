@@ -68,6 +68,28 @@ bow with twisted cord, spindle charred at one end, bone bearing block, hearth bo
 sockets and a V-notch, tinder bundle — the drilling, smoke, an ember tipped into the tinder, the
 blowing in short breaths, flame. Not "she lights a fire".
 
+### Fire-starting methods (pick one, name it, write its own mechanics)
+
+Words like "flint", "pederneira", "firesteel" are ambiguous — decide which object it is, say so to the
+user, and write that object's process:
+- **Ferrocerium rod + steel scraper** (modern bushcraft): rod tip planted in the tinder, scraper held
+  still, the rod pulled back hard (so the nest isn't scattered); a white-orange spark shower; often 2–4
+  strikes; a fluffy nest (dry grass, birch-bark shavings, cotton) catches as a glow, then is blown.
+- **Flint and steel + char cloth** (traditional): a sharp flint in one hand with a piece of char cloth
+  held on top of it; the C-shaped steel struck downward across the flint's edge; tiny orange sparks
+  land on the char cloth until one glows; the glowing cloth is folded into a tinder nest and blown
+  into flame.
+- **Bow drill** (primitive): see the example above — slow, full process, the most belief per second.
+- **Matches / lighter** (modern, everyday): the match struck away from the body, the flame cupped
+  against wind, held under the thinnest twigs; wind kills the first match.
+Every method: no flame before the tinder catches; smoke first, then a glow, then flame; the hands
+protect the ember from wind; the first twigs are pencil-thin.
+
+### Ambiguous tool names
+
+When the user's word could be two different objects (pederneira, "lantern", "knife" in a period
+film), choose the one that fits the world, state the choice in one line, and offer the other.
+
 ## Contact between people
 
 - **Who touches whom is a lock.** State it, and state who nobody touches. The engine invents grabs,

@@ -6,7 +6,8 @@ freeze the result in the project bible and paste it verbatim from then on. Add t
 
 **Contents:** 1 night by fire · 2 single practical interior (lamp/candle) · 3 blue dusk / polar
 twilight (mid-key) · 4 overcast day · 5 harsh midday sun · 6 interior by window · 7 urban night ·
-8 moonlight · 9 burning interior (fire as the scene) · 10 dawn grey, cold ruin
+8 moonlight · 9 burning interior (fire as the scene) · 10 dawn grey, cold ruin · 11 light that is
+born or changes during the take
 
 ---
 
@@ -117,3 +118,27 @@ DARK, muted frame. FILM LOOK core: whites suppressed, blacks deep and soft, razo
 the face, halation on backlit lashes and the sky hole. NOT: fire, embers, glowing coals, warm glow,
 orange light, smoke, sunbeams, golden light.
 ```
+
+## 11 · Light that is born or changes during the take
+
+A fire being lit, a lamp switched on, a door opened onto sun, a car's headlights arriving. The
+engine's instinct is to show the end state from frame one (the fire already burning) and to pre-light
+the dark part with an invisible studio key. Write the light as **START / DURING / END with seconds**,
+tie every change to the physical event, and lock that nothing glows before its cause.
+
+```
+LIGHT — MOTIVATED LIGHT ONLY, [time], [two words] (KEY):
+START (0–Ns): the only light is [the ambient that already exists: weak cold moonlight from behind
+frame-right, ~8000 K] — [the subject] dim but readable; [brief flashes from the event, e.g. each spark
+shower lights her hands for a split second].
+DURING (N–Ms): [the new source is born: a coin-sized ember, ~1800 K, a tiny orange glow on fingertips
+and chin, brightening with each breath and dulling between].
+END (M–Ts): [the new source is now the key: the small flame low in front of her, ~1900 K, flickering
+on the underside of her face; it reaches 2–3 m and dies].
+EXPOSURE: exposed for the subject in whatever light exists each second; the frame brightens ONLY
+because the source grows — never by an invisible lamp. Shadows breathing, NO vignette.
+LOCK: no glow, flame or [lamp light] before Ns — WRONG if the end-state light exists in frame one.
+NOT: studio light, frontal fill, headlamp, a bright moon, warm light before the source exists.
+```
+Repeat the "nothing before Ns" lock in ABSOLUTE LOCKS, in the timeline beats, in NEGATIVE and in
+ORDER — it is one of the critical few.

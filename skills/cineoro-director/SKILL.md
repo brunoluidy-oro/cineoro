@@ -93,9 +93,11 @@ recap at the end (recency). Full templates for every block, with assembly rules:
 | 15 | **NEGATIVE** — this shot's failures → scene type → standing spine | realism | always |
 | 16 | **[ORDER: …]** — compressed recap of the timeline + critical invariants + look + music/subtitle ban | director | if more than one beat |
 
-**Length:** the official guidance is ≤1,000 English words; aim for 600–1,200. Production prompts on
-Higgsfield ran up to ~3,000 words and still held — go longer only when the extra text is control
-(locks, mechanics, geometry), never decoration.
+**Length:** the official guidance is ≤1,000 English words. Full CINEORO prompts usually land at
+1,000–2,000 words because locks, mechanics and geometry are control text, and production prompts of
+~3,000 words held on Higgsfield. Above ~2,000 words, run the compression pass
+(`references/prompt-spine.md`); for inserts, b-roll and quick tests use the minimal variant. Never
+lengthen with decoration.
 
 ---
 
@@ -103,6 +105,11 @@ Higgsfield ran up to ~3,000 words and still held — go longer only when the ext
 
 Consult the department skill when the shot touches its area. If a department skill isn't available,
 apply its minimum law below — it is the floor, not the craft.
+
+**Reading budget:** read the SKILL.md of each department the shot touches; open a department's
+reference files only when its SKILL.md sends you there for this case (staging map only with a frame to
+map, diagnosis only in repair, voice-and-language only with speech, previz only with blocking
+problems). Read `references/worked-examples.md` once per session to calibrate density.
 
 | Department | Consult when | Minimum law (fallback) |
 |---|---|---|
@@ -140,8 +147,9 @@ Attach in this order: 1) [file/@TAG] — [job]  2) …
 Notes: [draft first to check blocking / what to look at in QA / the risk most likely to fail]
 ```
 
-Never output the diagnosis, the checklist or the department reasoning — the deliverable is the header,
-the prompt and the card. In Mode C, the deliverable is the diagnosis line, the changed block and the
+Write the header, the card and any notes in the user's language; the prompt is always English (with
+spoken lines in their own language). Never output the diagnosis, the checklist or the department
+reasoning — the deliverable is the header, the prompt and the card. In Mode C, the deliverable is the diagnosis line, the changed block and the
 regeneration path.
 
 ## Final checklist (silent)
