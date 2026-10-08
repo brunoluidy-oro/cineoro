@@ -1,0 +1,66 @@
+{
+  "expectations": [
+    {
+      "text": "Delivers a single Seedance 2.5 prompt in English with the spoken line kept verbatim in Portuguese ('Nó frouxo, peixe solto.')",
+      "passed": true,
+      "evidence": "English spine prompt; line kept verbatim: \"Nó frouxo, peixe solto.\""
+    },
+    {
+      "text": "The line is labelled with speaker, start/end seconds and a named language/accent (Brazilian Portuguese / Ceará)",
+      "passed": true,
+      "evidence": "[9–12s] @GRANDPA (on camera, Brazilian Portuguese, native coastal Ceará accent, ...)"
+    },
+    {
+      "text": "The grandson's mouth is explicitly locked shut / only the grandfather speaks",
+      "passed": true,
+      "evidence": "LOCK 2: 'Only @GRANDPA speaks ... @BOY's mouth stays closed the whole clip'"
+    },
+    {
+      "text": "Each of the three photos is given one explicit job (identity, identity, object/boat) and a scope excluding their background/light",
+      "passed": true,
+      "evidence": "REFERENCES: Image 1/2 IDENTITY, Image 3 OBJECT ONLY + REFERENCE SCOPE ignoring backdrops, light, grade"
+    },
+    {
+      "text": "Both faces get an acting task built on a tactic (verbs at the partner), not emotion adjectives",
+      "passed": true,
+      "evidence": "ACTING blocks for both: grandpa 'test, never praise'; boy 'copy the old man's hands exactly'"
+    },
+    {
+      "text": "Net mending is written as mechanics (needle/shuttle, knot, pull, resistance or test), not just 'mends the net'",
+      "passed": true,
+      "evidence": "Shuttle snags, thumb pins the crossing, wrap, thread, two hard pulls, knot seats with a snap; first knot slides open under the yank"
+    },
+    {
+      "text": "Music is explicitly banned with at least one synonym (score, BGM, soundtrack, instrumental)",
+      "passed": true,
+      "evidence": "SOUND: NO music, NO score, NO BGM, NO instrumental, NO melody, NO synth, NO ambient pad"
+    },
+    {
+      "text": "Subtitles / on-screen text are explicitly banned",
+      "passed": true,
+      "evidence": "CONTRACT and DIALOGUE: NO subtitles, NO on-screen text"
+    },
+    {
+      "text": "A motivated, directional dawn light source is named with its side/direction",
+      "passed": true,
+      "evidence": "LIGHT: pre-sunrise sky band low at frame-right (east) ~3200 K, cool sky fill; lit sides never flip"
+    },
+    {
+      "text": "Generation settings are given: duration that equals the sum of the timed beats, 16:9, and which references to attach",
+      "passed": true,
+      "evidence": "Card: Duration 23 s (= timeline: 0–6, 6–13, 13–18, 18–23), 16:9, attach 1) grandpa 2) boy 3) jangada"
+    }
+  ],
+  "summary": {
+    "passed": 10,
+    "failed": 0,
+    "total": 10,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_duration_seconds": 650.1
+  },
+  "execution_metrics": {
+    "output_chars": 21431
+  }
+}

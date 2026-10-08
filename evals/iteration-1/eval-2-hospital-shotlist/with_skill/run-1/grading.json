@@ -1,0 +1,61 @@
+{
+  "expectations": [
+    {
+      "text": "An HTML shotlist file is produced with the prompts inside copyable blocks",
+      "passed": true,
+      "evidence": "shotlist.html with copy buttons for prompt and card (8 copy-btn)"
+    },
+    {
+      "text": "The scene is split into generations whose timed shots add up to each generation's stated duration, each within Seedance 2.5's 30 s limit",
+      "passed": true,
+      "evidence": "1a: 0–7, 7–11, 11–20, 20–26 = 26 s; 1b: 0–7, 7–15, 15–25 = 25 s; both ≤30 s"
+    },
+    {
+      "text": "The three dialogue lines are kept verbatim in Portuguese and labelled by speaker with seconds",
+      "passed": true,
+      "evidence": "Four lines verbatim, labelled e.g. [8–10s] @RUIZ (on camera, Brazilian Portuguese, São Paulo accent...)"
+    },
+    {
+      "text": "Dr. Ruiz has an acting task that covers the final silent beat watching through the door window",
+      "passed": true,
+      "evidence": "1b SHOT 3 (15–25s) Ruiz at the window with a full ACTING — @RUIZ block for the watching beat"
+    },
+    {
+      "text": "The shot through the small door window of Clara holding her father's hand is covered",
+      "passed": true,
+      "evidence": "1b SHOT 2 (7–15s) through the small door window: she holds her father's hand"
+    },
+    {
+      "text": "A spatial/axis or screen-side continuity lock is stated for Clara and Ruiz",
+      "passed": true,
+      "evidence": "LOCK 1: Clara owns frame-LEFT, Ruiz and the door frame-RIGHT; camera stays south of the line"
+    },
+    {
+      "text": "Music is explicitly banned in every prompt",
+      "passed": true,
+      "evidence": "'NO music' in both prompts and in the ORDER recaps"
+    },
+    {
+      "text": "Each generation has settings (duration, 21:9 aspect, references/attachments) listed",
+      "passed": true,
+      "evidence": "Generation cards with duration (= timeline), 21:9, attachments in order"
+    },
+    {
+      "text": "The user's script is not rewritten (no new dialogue lines added)",
+      "passed": true,
+      "evidence": "No new lines; 'Mas não acordou' delivered off-screen over Clara's face (coverage choice, words unchanged)"
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_duration_seconds": 1024.4
+  },
+  "execution_metrics": {
+    "output_chars": 85773
+  }
+}

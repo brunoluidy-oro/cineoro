@@ -1,0 +1,15 @@
+{
+  "eval_id": 3,
+  "eval_name": "fogueira-reparo",
+  "prompt": "Gerei esse take no Seedance 2.5 e ficou ruim. Era pra ser uma mulher de uns 30 anos, sozinha numa floresta à noite, acendendo uma fogueira com pederneira, 15 segundos. Saiu com música de fundo, a fogueira já aparece acesa logo no começo, a luz parece de estúdio e o rosto dela ficou com olhar vidrado de boneca. O prompt que usei foi: 'A woman lights a campfire in a dark forest at night, cinematic, dramatic lighting, 4k, beautiful, emotional.' Me ajuda a consertar.",
+  "assertions": [
+    "Diagnoses all four reported failures (background music, fire already lit at the start, studio-like light, glassy doll eyes) with a cause for each",
+    "Explains why the original prompt's words (cinematic, dramatic lighting, beautiful, emotional, 4k) contributed to the failure",
+    "The rebuilt prompt shows the fire-making process in timed steps starting before any flame exists (strike, sparks, tinder catching, blowing, flame)",
+    "The rebuilt prompt names a single motivated light source and states what stays dark / exposure decision",
+    "The rebuilt prompt contains an acting task with a tactic and a living-eyes / anti-frozen-pupil instruction",
+    "Music is banned with synonyms in the rebuilt prompt",
+    "The timeline adds up to 15 seconds and the duration setting is 15 s",
+    "The prompt opens with the action already in progress and/or ends hard mid-action"
+  ]
+}

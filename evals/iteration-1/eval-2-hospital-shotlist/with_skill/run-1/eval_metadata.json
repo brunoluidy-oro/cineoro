@@ -1,0 +1,16 @@
+{
+  "eval_id": 2,
+  "eval_name": "hospital-shotlist",
+  "prompt": "Decupa esse trecho em prompts pro Seedance 2.5 (21:9) e me dá o shotlist:\n\nINT. HOSPITAL — CORREDOR DA UTI — NOITE\nCLARA (40) espera sentada, segurando um copo de café que já esfriou. A porta da UTI abre. DR. RUIZ (55) sai tirando a máscara.\nRUIZ: Ele está estável. Mas não acordou.\nCLARA: Posso entrar?\nRUIZ: Só cinco minutos.\nClara entra. Pela janelinha da porta vemos ela segurar a mão do pai. Ruiz fica olhando pela janelinha um instante, depois vai embora pelo corredor.",
+  "assertions": [
+    "An HTML shotlist file is produced with the prompts inside copyable blocks",
+    "The scene is split into generations whose timed shots add up to each generation's stated duration, each within Seedance 2.5's 30 s limit",
+    "The three dialogue lines are kept verbatim in Portuguese and labelled by speaker with seconds",
+    "Dr. Ruiz has an acting task that covers the final silent beat watching through the door window",
+    "The shot through the small door window of Clara holding her father's hand is covered",
+    "A spatial/axis or screen-side continuity lock is stated for Clara and Ruiz",
+    "Music is explicitly banned in every prompt",
+    "Each generation has settings (duration, 21:9 aspect, references/attachments) listed",
+    "The user's script is not rewritten (no new dialogue lines added)"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "expectations": [
+    {
+      "text": "An HTML shotlist file is produced with the prompts inside copyable blocks",
+      "passed": true,
+      "evidence": "shotlist.html with copy buttons (9 copy-btn) and localStorage checkboxes"
+    },
+    {
+      "text": "The scene is split into generations whose timed shots add up to each generation's stated duration, each within Seedance 2.5's 30 s limit",
+      "passed": true,
+      "evidence": "Five prompts 1a–1e, each 15 s, shot ranges summing to 15 s"
+    },
+    {
+      "text": "The three dialogue lines are kept verbatim in Portuguese and labelled by speaker with seconds",
+      "passed": true,
+      "evidence": "Lines verbatim with timing, e.g. '0.5–2.0s: Ruiz says: \"Ele está estável.\"'"
+    },
+    {
+      "text": "Dr. Ruiz has an acting task that covers the final silent beat watching through the door window",
+      "passed": true,
+      "evidence": "1e: CU Ruiz at the window with ACTING TASK — DR. RUIZ"
+    },
+    {
+      "text": "The shot through the small door window of Clara holding her father's hand is covered",
+      "passed": true,
+      "evidence": "1d: single shot through the door window, Clara holds her father's hand"
+    },
+    {
+      "text": "A spatial/axis or screen-side continuity lock is stated for Clara and Ruiz",
+      "passed": true,
+      "evidence": "Blocking and POSITIVE LOCKS fix Clara screen-right / Ruiz screen-left across prompts"
+    },
+    {
+      "text": "Music is explicitly banned in every prompt",
+      "passed": true,
+      "evidence": "'No music' present in every prompt's AUDIO"
+    },
+    {
+      "text": "Each generation has settings (duration, 21:9 aspect, references/attachments) listed",
+      "passed": true,
+      "evidence": "Each prompt header lists 15s and its refs; 21:9 stated in OUTPUT SETTINGS"
+    },
+    {
+      "text": "The user's script is not rewritten (no new dialogue lines added)",
+      "passed": true,
+      "evidence": "No new dialogue lines added"
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  },
+  "timing": {
+    "total_duration_seconds": 804.3
+  },
+  "execution_metrics": {
+    "output_chars": 108629
+  }
+}

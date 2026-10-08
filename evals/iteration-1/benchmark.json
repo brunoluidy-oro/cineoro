@@ -1,0 +1,450 @@
+{
+  "metadata": {
+    "skill_name": "cineoro-director",
+    "skill_path": "<path/to/skill>",
+    "executor_model": "<model-name>",
+    "analyzer_model": "<model-name>",
+    "timestamp": "2026-10-08T21:56:59Z",
+    "evals_run": [
+      1,
+      2,
+      3
+    ],
+    "runs_per_configuration": 3
+  },
+  "runs": [
+    {
+      "eval_id": 1,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.8,
+        "passed": 8,
+        "failed": 2,
+        "total": 10,
+        "time_seconds": 419.9,
+        "tokens": 17039,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Delivers a single Seedance 2.5 prompt in English with the spoken line kept verbatim in Portuguese ('Nó frouxo, peixe solto.')",
+          "passed": true,
+          "evidence": "Prompt in English; line \"Nó frouxo, peixe solto.\" kept"
+        },
+        {
+          "text": "The line is labelled with speaker, start/end seconds and a named language/accent (Brazilian Portuguese / Ceará)",
+          "passed": true,
+          "evidence": "'At 6.8s he says ... \"Nó frouxo, peixe solto.\"' and AUDIO names Brazilian Portuguese with a Ceará accent"
+        },
+        {
+          "text": "The grandson's mouth is explicitly locked shut / only the grandfather speaks",
+          "passed": true,
+          "evidence": "AUDIO: 'The grandson's lips stay closed for the whole video'"
+        },
+        {
+          "text": "Each of the three photos is given one explicit job (identity, identity, object/boat) and a scope excluding their background/light",
+          "passed": false,
+          "evidence": "ACTIVE REFERENCES map each image to a subject, but no scope excludes the photos' backgrounds, lighting or grade"
+        },
+        {
+          "text": "Both faces get an acting task built on a tactic (verbs at the partner), not emotion adjectives",
+          "passed": true,
+          "evidence": "ACTING TASK blocks for grandfather and grandson with tactics"
+        },
+        {
+          "text": "Net mending is written as mechanics (needle/shuttle, knot, pull, resistance or test), not just 'mends the net'",
+          "passed": true,
+          "evidence": "Needle threaded, pull, tug at 4.3s opens the knot, two-handed cinch at 12.4s, test tug"
+        },
+        {
+          "text": "Music is explicitly banned with at least one synonym (score, BGM, soundtrack, instrumental)",
+          "passed": false,
+          "evidence": "Only 'No music, no narration, no subtitles' — no synonym (score/BGM/instrumental) given"
+        },
+        {
+          "text": "Subtitles / on-screen text are explicitly banned",
+          "passed": true,
+          "evidence": "AUDIO: 'No music, no narration, no subtitles'"
+        },
+        {
+          "text": "A motivated, directional dawn light source is named with its side/direction",
+          "passed": true,
+          "evidence": "LIGHTING: single natural source, the sun 3° above the horizon behind the pair, slightly screen-right"
+        },
+        {
+          "text": "Generation settings are given: duration that equals the sum of the timed beats, 16:9, and which references to attach",
+          "passed": true,
+          "evidence": "Reply: configure 16:9 and 15 s; refs @image1/@image2/@image3 in order; timeline ends at 15.0s"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 9,
+        "failed": 0,
+        "total": 9,
+        "time_seconds": 804.3,
+        "tokens": 108629,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "An HTML shotlist file is produced with the prompts inside copyable blocks",
+          "passed": true,
+          "evidence": "shotlist.html with copy buttons (9 copy-btn) and localStorage checkboxes"
+        },
+        {
+          "text": "The scene is split into generations whose timed shots add up to each generation's stated duration, each within Seedance 2.5's 30 s limit",
+          "passed": true,
+          "evidence": "Five prompts 1a–1e, each 15 s, shot ranges summing to 15 s"
+        },
+        {
+          "text": "The three dialogue lines are kept verbatim in Portuguese and labelled by speaker with seconds",
+          "passed": true,
+          "evidence": "Lines verbatim with timing, e.g. '0.5–2.0s: Ruiz says: \"Ele está estável.\"'"
+        },
+        {
+          "text": "Dr. Ruiz has an acting task that covers the final silent beat watching through the door window",
+          "passed": true,
+          "evidence": "1e: CU Ruiz at the window with ACTING TASK — DR. RUIZ"
+        },
+        {
+          "text": "The shot through the small door window of Clara holding her father's hand is covered",
+          "passed": true,
+          "evidence": "1d: single shot through the door window, Clara holds her father's hand"
+        },
+        {
+          "text": "A spatial/axis or screen-side continuity lock is stated for Clara and Ruiz",
+          "passed": true,
+          "evidence": "Blocking and POSITIVE LOCKS fix Clara screen-right / Ruiz screen-left across prompts"
+        },
+        {
+          "text": "Music is explicitly banned in every prompt",
+          "passed": true,
+          "evidence": "'No music' present in every prompt's AUDIO"
+        },
+        {
+          "text": "Each generation has settings (duration, 21:9 aspect, references/attachments) listed",
+          "passed": true,
+          "evidence": "Each prompt header lists 15s and its refs; 21:9 stated in OUTPUT SETTINGS"
+        },
+        {
+          "text": "The user's script is not rewritten (no new dialogue lines added)",
+          "passed": true,
+          "evidence": "No new dialogue lines added"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "old_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 0.88,
+        "passed": 7,
+        "failed": 1,
+        "total": 8,
+        "time_seconds": 309.1,
+        "tokens": 13088,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Diagnoses all four reported failures (background music, fire already lit at the start, studio-like light, glassy doll eyes) with a cause for each",
+          "passed": true,
+          "evidence": "Four bullets diagnose music, fire already lit, studio light, glassy eyes, each with a cause"
+        },
+        {
+          "text": "Explains why the original prompt's words (cinematic, dramatic lighting, beautiful, emotional, 4k) contributed to the failure",
+          "passed": true,
+          "evidence": "Explains 'cinematic/emotional' pulling a trailer score, 'dramatic lighting' giving a studio key/fill/rim, 'beautiful' smoothing skin; removed '4k'"
+        },
+        {
+          "text": "The rebuilt prompt shows the fire-making process in timed steps starting before any flame exists (strike, sparks, tinder catching, blowing, flame)",
+          "passed": true,
+          "evidence": "ACTION: strikes at 0–1.5, 2.0–3.5, 4.0–5.0s, glow at 5.0s, blowing 6.5–10s, flame at 8.5s"
+        },
+        {
+          "text": "The rebuilt prompt names a single motivated light source and states what stays dark / exposure decision",
+          "passed": true,
+          "evidence": "LIGHTING: moon + fire only; exposure set for the flame; face allowed into deep shadow"
+        },
+        {
+          "text": "The rebuilt prompt contains an acting task with a tactic and a living-eyes / anti-frozen-pupil instruction",
+          "passed": true,
+          "evidence": "ACTING TASK with tactic 'she courts the nest' + safety line against a frozen glassy stare"
+        },
+        {
+          "text": "Music is banned with synonyms in the rebuilt prompt",
+          "passed": true,
+          "evidence": "AUDIO: 'No music, no score, no voice, no narration' (one synonym)"
+        },
+        {
+          "text": "The timeline adds up to 15 seconds and the duration setting is 15 s",
+          "passed": true,
+          "evidence": "ACTION runs 0.0–15.0s; reply tells the user to set 15 s"
+        },
+        {
+          "text": "The prompt opens with the action already in progress and/or ends hard mid-action",
+          "passed": false,
+          "evidence": "First frame is 'ready to strike' (not mid-action) and the take 'ends on her firelit face' — no hard end mid-action"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 1,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 10,
+        "failed": 0,
+        "total": 10,
+        "time_seconds": 650.1,
+        "tokens": 21431,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Delivers a single Seedance 2.5 prompt in English with the spoken line kept verbatim in Portuguese ('Nó frouxo, peixe solto.')",
+          "passed": true,
+          "evidence": "English spine prompt; line kept verbatim: \"Nó frouxo, peixe solto.\""
+        },
+        {
+          "text": "The line is labelled with speaker, start/end seconds and a named language/accent (Brazilian Portuguese / Ceará)",
+          "passed": true,
+          "evidence": "[9–12s] @GRANDPA (on camera, Brazilian Portuguese, native coastal Ceará accent, ...)"
+        },
+        {
+          "text": "The grandson's mouth is explicitly locked shut / only the grandfather speaks",
+          "passed": true,
+          "evidence": "LOCK 2: 'Only @GRANDPA speaks ... @BOY's mouth stays closed the whole clip'"
+        },
+        {
+          "text": "Each of the three photos is given one explicit job (identity, identity, object/boat) and a scope excluding their background/light",
+          "passed": true,
+          "evidence": "REFERENCES: Image 1/2 IDENTITY, Image 3 OBJECT ONLY + REFERENCE SCOPE ignoring backdrops, light, grade"
+        },
+        {
+          "text": "Both faces get an acting task built on a tactic (verbs at the partner), not emotion adjectives",
+          "passed": true,
+          "evidence": "ACTING blocks for both: grandpa 'test, never praise'; boy 'copy the old man's hands exactly'"
+        },
+        {
+          "text": "Net mending is written as mechanics (needle/shuttle, knot, pull, resistance or test), not just 'mends the net'",
+          "passed": true,
+          "evidence": "Shuttle snags, thumb pins the crossing, wrap, thread, two hard pulls, knot seats with a snap; first knot slides open under the yank"
+        },
+        {
+          "text": "Music is explicitly banned with at least one synonym (score, BGM, soundtrack, instrumental)",
+          "passed": true,
+          "evidence": "SOUND: NO music, NO score, NO BGM, NO instrumental, NO melody, NO synth, NO ambient pad"
+        },
+        {
+          "text": "Subtitles / on-screen text are explicitly banned",
+          "passed": true,
+          "evidence": "CONTRACT and DIALOGUE: NO subtitles, NO on-screen text"
+        },
+        {
+          "text": "A motivated, directional dawn light source is named with its side/direction",
+          "passed": true,
+          "evidence": "LIGHT: pre-sunrise sky band low at frame-right (east) ~3200 K, cool sky fill; lit sides never flip"
+        },
+        {
+          "text": "Generation settings are given: duration that equals the sum of the timed beats, 16:9, and which references to attach",
+          "passed": true,
+          "evidence": "Card: Duration 23 s (= timeline: 0–6, 6–13, 13–18, 18–23), 16:9, attach 1) grandpa 2) boy 3) jangada"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 2,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 9,
+        "failed": 0,
+        "total": 9,
+        "time_seconds": 1024.4,
+        "tokens": 85773,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "An HTML shotlist file is produced with the prompts inside copyable blocks",
+          "passed": true,
+          "evidence": "shotlist.html with copy buttons for prompt and card (8 copy-btn)"
+        },
+        {
+          "text": "The scene is split into generations whose timed shots add up to each generation's stated duration, each within Seedance 2.5's 30 s limit",
+          "passed": true,
+          "evidence": "1a: 0–7, 7–11, 11–20, 20–26 = 26 s; 1b: 0–7, 7–15, 15–25 = 25 s; both ≤30 s"
+        },
+        {
+          "text": "The three dialogue lines are kept verbatim in Portuguese and labelled by speaker with seconds",
+          "passed": true,
+          "evidence": "Four lines verbatim, labelled e.g. [8–10s] @RUIZ (on camera, Brazilian Portuguese, São Paulo accent...)"
+        },
+        {
+          "text": "Dr. Ruiz has an acting task that covers the final silent beat watching through the door window",
+          "passed": true,
+          "evidence": "1b SHOT 3 (15–25s) Ruiz at the window with a full ACTING — @RUIZ block for the watching beat"
+        },
+        {
+          "text": "The shot through the small door window of Clara holding her father's hand is covered",
+          "passed": true,
+          "evidence": "1b SHOT 2 (7–15s) through the small door window: she holds her father's hand"
+        },
+        {
+          "text": "A spatial/axis or screen-side continuity lock is stated for Clara and Ruiz",
+          "passed": true,
+          "evidence": "LOCK 1: Clara owns frame-LEFT, Ruiz and the door frame-RIGHT; camera stays south of the line"
+        },
+        {
+          "text": "Music is explicitly banned in every prompt",
+          "passed": true,
+          "evidence": "'NO music' in both prompts and in the ORDER recaps"
+        },
+        {
+          "text": "Each generation has settings (duration, 21:9 aspect, references/attachments) listed",
+          "passed": true,
+          "evidence": "Generation cards with duration (= timeline), 21:9, attachments in order"
+        },
+        {
+          "text": "The user's script is not rewritten (no new dialogue lines added)",
+          "passed": true,
+          "evidence": "No new lines; 'Mas não acordou' delivered off-screen over Clara's face (coverage choice, words unchanged)"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "eval_id": 3,
+      "configuration": "with_skill",
+      "run_number": 1,
+      "result": {
+        "pass_rate": 1.0,
+        "passed": 8,
+        "failed": 0,
+        "total": 8,
+        "time_seconds": 400.6,
+        "tokens": 20741,
+        "tool_calls": 0,
+        "errors": 0
+      },
+      "expectations": [
+        {
+          "text": "Diagnoses all four reported failures (background music, fire already lit at the start, studio-like light, glassy doll eyes) with a cause for each",
+          "passed": true,
+          "evidence": "Diagnosis table covers music, fire already lit, studio light, glassy eyes (+4k), each with a cause"
+        },
+        {
+          "text": "Explains why the original prompt's words (cinematic, dramatic lighting, beautiful, emotional, 4k) contributed to the failure",
+          "passed": true,
+          "evidence": "Explains 'cinematic/emotional' pulling a score, 'lights a campfire' skipping to the result, 'dramatic lighting' not being a source, 'beautiful' giving model skin"
+        },
+        {
+          "text": "The rebuilt prompt shows the fire-making process in timed steps starting before any flame exists (strike, sparks, tinder catching, blowing, flame)",
+          "passed": true,
+          "evidence": "BEAT 1–4: weak strikes (0–3s), hard strike and ember at 6s, blowing and flame at 10s, into the twigs (11–15s)"
+        },
+        {
+          "text": "The rebuilt prompt names a single motivated light source and states what stays dark / exposure decision",
+          "passed": true,
+          "evidence": "LIGHT: moon ambience then the growing fire as key; 'the frame brightens only because the fire grows'; exposure stated"
+        },
+        {
+          "text": "The rebuilt prompt contains an acting task with a tactic and a living-eyes / anti-frozen-pupil instruction",
+          "passed": true,
+          "evidence": "ACTING with tactic 'coax the fire' + LIVING EYES with an involuntary detail and frozen-pupil clause"
+        },
+        {
+          "text": "Music is banned with synonyms in the rebuilt prompt",
+          "passed": true,
+          "evidence": "SOUND: NO music, NO score, NO BGM, NO instrumental, NO melody, NO synth, NO ambient pad"
+        },
+        {
+          "text": "The timeline adds up to 15 seconds and the duration setting is 15 s",
+          "passed": true,
+          "evidence": "Beats sum to 15 s; card Duration 15s (= timeline)"
+        },
+        {
+          "text": "The prompt opens with the action already in progress and/or ends hard mid-action",
+          "passed": true,
+          "evidence": "'already in progress at the first frame' (mid-strike) and 'Hard end mid-reach'"
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "run_summary": {
+    "old_skill": {
+      "pass_rate": {
+        "mean": 0.8933,
+        "stddev": 0.1007,
+        "min": 0.8,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 511.1,
+        "stddev": 259.892,
+        "min": 309.1,
+        "max": 804.3
+      },
+      "tokens": {
+        "mean": 46252.0,
+        "stddev": 54056.1763,
+        "min": 13088,
+        "max": 108629
+      }
+    },
+    "with_skill": {
+      "pass_rate": {
+        "mean": 1.0,
+        "stddev": 0.0,
+        "min": 1.0,
+        "max": 1.0
+      },
+      "time_seconds": {
+        "mean": 691.7,
+        "stddev": 313.9738,
+        "min": 400.6,
+        "max": 1024.4
+      },
+      "tokens": {
+        "mean": 42648.3333,
+        "stddev": 37348.6503,
+        "min": 20741,
+        "max": 85773
+      }
+    },
+    "delta": {
+      "pass_rate": "-0.11",
+      "time_seconds": "-180.6",
+      "tokens": "+3604"
+    }
+  },
+  "notes": [
+    "Delta sign: configs are ordered alphabetically (old_skill first); with_skill is +0.11 over old_skill (100% vs 89.3%).",
+    "Assertions on the hospital shotlist were non-discriminating (both 9/9); the qualitative difference is coverage: CINEORO used 2 generations of 25-26 s with a last-frame hand-off and an edit path; cinedance used 5 x 15 s prompts (Seedance 2.0 habit).",
+    "Discriminating checks: reference scope, music ban with synonyms, hard end mid-action. CINEORO also added NEGATIVE blocks, ORDER recaps and generation cards in every case; cinedance outputs had none.",
+    "Cost: CINEORO runs read 27-32 skill files and used ~1.6-1.9x the tokens and 1.3-1.5x the time of cinedance runs. Acceptable for production prompts; a lighter path for quick shots is a candidate improvement.",
+    "Friction reported by the with-skill runs: repair of non-spine prompts not covered, no guidance for light that grows during a take, 'pederneira' ambiguity, prompts landing at ~1,800-2,000 words (above the stated 600-1,200 target).",
+    "One run claimed cineoro-story references were missing; verified false (files present and committed before the run)."
+  ]
+}

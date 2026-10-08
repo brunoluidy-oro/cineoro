@@ -1,0 +1,66 @@
+{
+  "expectations": [
+    {
+      "text": "Delivers a single Seedance 2.5 prompt in English with the spoken line kept verbatim in Portuguese ('Nó frouxo, peixe solto.')",
+      "passed": true,
+      "evidence": "Prompt in English; line \"Nó frouxo, peixe solto.\" kept"
+    },
+    {
+      "text": "The line is labelled with speaker, start/end seconds and a named language/accent (Brazilian Portuguese / Ceará)",
+      "passed": true,
+      "evidence": "'At 6.8s he says ... \"Nó frouxo, peixe solto.\"' and AUDIO names Brazilian Portuguese with a Ceará accent"
+    },
+    {
+      "text": "The grandson's mouth is explicitly locked shut / only the grandfather speaks",
+      "passed": true,
+      "evidence": "AUDIO: 'The grandson's lips stay closed for the whole video'"
+    },
+    {
+      "text": "Each of the three photos is given one explicit job (identity, identity, object/boat) and a scope excluding their background/light",
+      "passed": false,
+      "evidence": "ACTIVE REFERENCES map each image to a subject, but no scope excludes the photos' backgrounds, lighting or grade"
+    },
+    {
+      "text": "Both faces get an acting task built on a tactic (verbs at the partner), not emotion adjectives",
+      "passed": true,
+      "evidence": "ACTING TASK blocks for grandfather and grandson with tactics"
+    },
+    {
+      "text": "Net mending is written as mechanics (needle/shuttle, knot, pull, resistance or test), not just 'mends the net'",
+      "passed": true,
+      "evidence": "Needle threaded, pull, tug at 4.3s opens the knot, two-handed cinch at 12.4s, test tug"
+    },
+    {
+      "text": "Music is explicitly banned with at least one synonym (score, BGM, soundtrack, instrumental)",
+      "passed": false,
+      "evidence": "Only 'No music, no narration, no subtitles' — no synonym (score/BGM/instrumental) given"
+    },
+    {
+      "text": "Subtitles / on-screen text are explicitly banned",
+      "passed": true,
+      "evidence": "AUDIO: 'No music, no narration, no subtitles'"
+    },
+    {
+      "text": "A motivated, directional dawn light source is named with its side/direction",
+      "passed": true,
+      "evidence": "LIGHTING: single natural source, the sun 3° above the horizon behind the pair, slightly screen-right"
+    },
+    {
+      "text": "Generation settings are given: duration that equals the sum of the timed beats, 16:9, and which references to attach",
+      "passed": true,
+      "evidence": "Reply: configure 16:9 and 15 s; refs @image1/@image2/@image3 in order; timeline ends at 15.0s"
+    }
+  ],
+  "summary": {
+    "passed": 8,
+    "failed": 2,
+    "total": 10,
+    "pass_rate": 0.8
+  },
+  "timing": {
+    "total_duration_seconds": 419.9
+  },
+  "execution_metrics": {
+    "output_chars": 17039
+  }
+}

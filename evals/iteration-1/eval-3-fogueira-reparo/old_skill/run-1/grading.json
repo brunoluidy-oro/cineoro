@@ -1,0 +1,56 @@
+{
+  "expectations": [
+    {
+      "text": "Diagnoses all four reported failures (background music, fire already lit at the start, studio-like light, glassy doll eyes) with a cause for each",
+      "passed": true,
+      "evidence": "Four bullets diagnose music, fire already lit, studio light, glassy eyes, each with a cause"
+    },
+    {
+      "text": "Explains why the original prompt's words (cinematic, dramatic lighting, beautiful, emotional, 4k) contributed to the failure",
+      "passed": true,
+      "evidence": "Explains 'cinematic/emotional' pulling a trailer score, 'dramatic lighting' giving a studio key/fill/rim, 'beautiful' smoothing skin; removed '4k'"
+    },
+    {
+      "text": "The rebuilt prompt shows the fire-making process in timed steps starting before any flame exists (strike, sparks, tinder catching, blowing, flame)",
+      "passed": true,
+      "evidence": "ACTION: strikes at 0–1.5, 2.0–3.5, 4.0–5.0s, glow at 5.0s, blowing 6.5–10s, flame at 8.5s"
+    },
+    {
+      "text": "The rebuilt prompt names a single motivated light source and states what stays dark / exposure decision",
+      "passed": true,
+      "evidence": "LIGHTING: moon + fire only; exposure set for the flame; face allowed into deep shadow"
+    },
+    {
+      "text": "The rebuilt prompt contains an acting task with a tactic and a living-eyes / anti-frozen-pupil instruction",
+      "passed": true,
+      "evidence": "ACTING TASK with tactic 'she courts the nest' + safety line against a frozen glassy stare"
+    },
+    {
+      "text": "Music is banned with synonyms in the rebuilt prompt",
+      "passed": true,
+      "evidence": "AUDIO: 'No music, no score, no voice, no narration' (one synonym)"
+    },
+    {
+      "text": "The timeline adds up to 15 seconds and the duration setting is 15 s",
+      "passed": true,
+      "evidence": "ACTION runs 0.0–15.0s; reply tells the user to set 15 s"
+    },
+    {
+      "text": "The prompt opens with the action already in progress and/or ends hard mid-action",
+      "passed": false,
+      "evidence": "First frame is 'ready to strike' (not mid-action) and the take 'ends on her firelit face' — no hard end mid-action"
+    }
+  ],
+  "summary": {
+    "passed": 7,
+    "failed": 1,
+    "total": 8,
+    "pass_rate": 0.88
+  },
+  "timing": {
+    "total_duration_seconds": 309.1
+  },
+  "execution_metrics": {
+    "output_chars": 13088
+  }
+}
