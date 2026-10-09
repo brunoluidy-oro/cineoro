@@ -63,14 +63,24 @@ FILM LOOK core: muted natural colour, slightly cool, soft contrast, fine grain, 
 pores and blemishes.
 ```
 
-## 5 · Harsh midday sun
+## 5 · Harsh midday sun (drought, desert, white sky)
 
 ```
-LIGHT — HARD MIDDAY SUN, ~5600 K, high and slightly behind [frame-left]: short hard shadows under
-brows, nose and chin; eyes in shadow unless the face tilts up; hot specular highlights on sweat; the
-ground bounces warm light into the shadows. Highlights clip gently and roll off; shadows dense but
-detailed. NOT: soft beauty light, fill reflector look, HDR, flattened contrast.
+LIGHT — NATURAL LIGHT ONLY, HARD MIDDAY SUN, DRY & WHITE (KEY):
+SOURCE: the sun ~5600 K high and slightly behind [frame-left]; a pale washed-out sky with no clouds
+acting as a weak cool top fill; the bare ground as the only bounce, warm and dusty.
+REACH: short hard shadows under brows, nose and chin; hat brims throw a hard band of shadow across
+the eyes (the eyes read only in the bounce); hot specular highlights on sweat and leather.
+EXPOSURE: exposed for skin in the bounce; the sky allowed to go near-white but holding a trace of
+tone; highlights roll off, never clipped flat; shadows dense but detailed; even exposure, NO
+vignette.
+CONTINUITY: the sun stays on the same side for the same time of day across all shots of the scene;
+lit sides never flip.
+NOT: soft beauty light, reflector fill, golden hour, saturated blue sky, clouds (if drought), HDR,
+flattened contrast, lens flare streaks.
 ```
+Note: with the sun near frame, anamorphic looks pull streak flares — prefer a spherical lens look, or
+keep the sun well out of frame and fence flares.
 
 ## 6 · Interior by window
 

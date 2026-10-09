@@ -91,6 +91,18 @@ default (often English or Mandarin), name the language and accent in the CONTRAC
 | Singing / humming | "a wordless lullaby, mmm… mm-mmm… hmm, breaking off mid-phrase" | "beautiful song" |
 | Muffled / through a wall | "muffled by the hide wall and the wind, far, the high frequencies gone" | "distant voice" |
 
+## Regional sung calls (herding calls, work songs, chants)
+
+A melodic call that belongs to a culture (a cattle call, a work song, a muezzin, a fado line) pulls the
+engine toward that culture's instruments. Write it as a **voice**, not as music:
+```
+HERDING CALL — @NAME (on camera, [language/region], unaccompanied voice only): a long open-vowel call
+rising and falling, [breath breaks, cracks], carried on the wind, echoing off nothing; it is a work
+call to the animals, not a song.
+```
+Then fence the instruments by name in the NEGATIVE (e.g. accordion, zabumba, triangle, viola, fife,
+guitar, drums, backing track) next to the usual music synonyms.
+
 ## Writing lines for the engine
 
 - **Short lines.** Long lines drift out of sync; split them across beats.

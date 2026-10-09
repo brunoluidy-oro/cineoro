@@ -57,7 +57,9 @@ Os pacotes prontos estão em [`dist/`](dist/), um `.skill` por skill (o arquivo 
 - [`docs/research/02-seedance-2.5-tecnico.md`](docs/research/02-seedance-2.5-tecnico.md): brief técnico do Seedance 2.5 com fontes, separando o que é oficial, o que foi relatado e o que não foi verificado.
 - [`docs/research/03-comparacao-cinedance-anerneq-cineoro.md`](docs/research/03-comparacao-cinedance-anerneq-cineoro.md): o que cada skill faz e o que a árvore herdou.
 - [`docs/arquitetura.md`](docs/arquitetura.md): a espinha do prompt, os donos de cada bloco e os modos.
-- [`evals/`](evals/): testes da árvore contra a cinedance em 3 pedidos reais.
+- [`evals/`](evals/): testes da árvore.
+  - **Iteração 1** (`evals/iteration-1/review.html`): a CINEORO contra a cinedance em 3 pedidos reais. Resultado: 27/27 critérios para a CINEORO e 24/27 para a cinedance.
+  - **Iteração 2**: a `cineoro-bible` gerou uma bíblia completa para um curta de exemplo ("CABRESTO", sertão da Paraíba, 1958) em `evals/iteration-2/.../project-sertao/`, com um `.skill` pronto ao lado. Use como modelo do que a bíblia entrega.
 
 ## Idioma
 

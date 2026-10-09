@@ -60,11 +60,15 @@ One element, one name — identical in the asset, the prompt and the table. A ch
 
 ## 1.3 Verbatim templates — paste, never rewrite
 
-**CONTRACT line pattern:**
+**CONTRACT line pattern** (the spine's form):
 ```
-Live-action photoreal film, [aspect], [N]s, [N] shots / [N] cuts, [camera language], [real-time],
-dialogue as spoken audio in [language], NO music, NO subtitles.
+CONTRACT — Live-action photoreal film footage, [aspect], [N] seconds total, [N] shots with [N] hard
+cuts at [s, s] / ONE continuous take with no cuts, [camera language], real-time motion, dialogue as
+spoken on-camera audio in [language + accent] / no dialogue. NO music, NO score, NO subtitles, NO
+on-screen text.
 ```
+*Template budget: all always-on templates together ≤ ~600 words; never fence one item in two
+templates.*
 
 **FILM LOOK:**
 ```

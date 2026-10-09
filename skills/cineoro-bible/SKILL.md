@@ -28,28 +28,51 @@ For a one-off shot, skip the bible; the director writes the look inline.
 
 ---
 
+## Reading list for this mode
+
+A bible touches every department, so read only this list (not every department reference):
+`assets/project-skill-template.md`, `references/bible-sections.md`, `references/interview.md`, then
+`cineoro-director/references/prompt-spine.md` and `worked-examples.md`,
+`cineoro-light/references/film-locks.md`, `cineoro-camera/references/format-and-lens-looks.md`,
+`cineoro-sound/references/voice-and-language.md` (if there is speech),
+`cineoro-performance/references/acting-task.md`, `cineoro-realism/references/negative-library.md`,
+and `cineoro-assets/references/asset-pipeline.md` (the registry format and asset image prompts).
+
 ## Procedure
 
 1. **Gather** — read whatever the user has (logline, treatment, script, mood references, asset images).
    Ask only for what is missing and decisive; offer defaults for the rest. Use the interview in
-   `references/interview.md`, in the user's language.
+   `references/interview.md`, in the user's language. **If the user gives only a logline**, you will
+   have to propose beats, lines and endings: mark every invented element as a *director's proposal*
+   (in the script header, the dialogue table and the reply) so the user can accept or rewrite it — the
+   user's own material is never changed.
 2. **Decide the functional rules** — the director's statement turned into rules (light system,
    camera language, editing grammar, sound policy, palette with its one exception, motifs). Every rule
    must say *what story mechanism it serves*.
 3. **Lock the verbatim templates** — CONTRACT line pattern, FILM LOOK, base LIGHT block(s), LENS LOOK,
    NO LENS FLARES, standing NEGATIVE spine for this world, WORLD block. Pull starting points from
-   `cineoro-light` and `cineoro-camera`, adapt once, then freeze.
+   `cineoro-light` and `cineoro-camera`, adapt once, then freeze. **Template budget:** the always-on
+   templates together stay under ~600 words, and no item is fenced in two templates (an anachronism
+   banned in WORLD is not repeated in the NEGATIVE spine). Every word in a template is paid in every
+   prompt of the film — a bloated bible pushes every shot past 2,500 words.
 4. **Register the assets** — every character, location, prop, state and voice with one `@TAG`
-   (`cineoro-assets` registry format).
+   (registry format in `cineoro-assets/references/asset-pipeline.md`). On Higgsfield, name each saved
+   Element exactly as its tag without the `@`, so the picker and the prompt agree.
 5. **Cast sheets** — per character: tag, age, look, hands, temperament, super-objective, what they never
    do, VOICE LOCK (`cineoro-sound` format).
 6. **World and daily life** — what exists, what doesn't, how things are made and used; props master list
    with function; the objects that carry more than themselves (locked harder).
-7. **Reference prompts** — one complete prompt per main scene type of this project, in the CINEORO
-   spine, so most shots start from a copy.
+7. **Reference prompts** — one complete model prompt in SKILL.md §4.1, plus complete prompts for the
+   2–3 other main scene types in `references/reference-prompts.md`, all in the CINEORO spine (use the
+   spine's CONTRACT form), so most shots start from a copy.
 8. **Write the project skill** from `assets/project-skill-template.md`, filling every section; long
-   material (full script, dictionary) goes into the project skill's own `references/`.
-9. **Validate** — run the checklist below; then package the folder as a skill for the user to install.
+   material (full script, dictionary, extra reference prompts, registry) goes into the project skill's
+   own `references/`. Paste blocks are always English; the human-facing prose (statement, acting
+   notes, structure, production notes) is written in the user's language.
+9. **Mark it v1 — to test.** Templates freeze only after drafts of 2–3 scene types (list them in §11 as
+   the test plan); after the test, issue v1.1 and freeze.
+10. **Validate and package** — run the checklist below; then zip the folder as `project-[slug].skill`
+    (a zip of the folder; if the skill-creator packager is available use it) so the user can install it.
 
 Detailed guidance per section, with examples of good and bad entries: `references/bible-sections.md`.
 
@@ -61,9 +84,10 @@ Detailed guidance per section, with examples of good and bad entries: `reference
 project-[slug]/
 ├── SKILL.md                  ← from assets/project-skill-template.md
 └── references/
-    ├── script.md             ← scenes and dialogue in the original language (if any)
-    ├── language.md           ← dictionary + grammar (if an invented language)
-    └── asset-registry.md     ← the full @TAG table (if long)
+    ├── script.md             ← generations with entry/exit states and lines in the original language
+    ├── asset-registry.md     ← the full @TAG table + image prompts for each asset
+    ├── reference-prompts.md  ← complete prompts for the other main scene types
+    └── language.md           ← dictionary + grammar (only if an invented language)
 ```
 
 The project skill's `name` is `project-[slug]` (kebab-case). Its description names the project, the main

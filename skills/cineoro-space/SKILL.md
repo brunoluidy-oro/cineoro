@@ -81,6 +81,19 @@ For a 20–30 s generation with 3–6 cuts, hold across every cut:
 Do not reset action after a cut. Do not teleport characters. Distances to landmarks change only when
 time and movement justify it.
 
+## Continuity of a journey (across generations)
+
+Road, travel and chase films need rules that hold for the whole film, written once in the bible:
+- **Direction of travel:** the journey always moves the same way across the frame (e.g. left to
+  right); a reversal of direction is a story event, not an accident.
+- **Who leads owns a side:** e.g. the leader is always frame-right; a change of leader is shown by a
+  change of side.
+- **The camera owns one side of the trail** for the whole journey.
+- **Sun side by time of day:** morning sun on one side, afternoon on the other — derived from the
+  direction of travel, stated per generation.
+- **Order of the group** (who rides first, where the animals walk) stays fixed unless the story
+  changes it.
+
 ## Crowds — solve them physically
 
 - Count, spacing, rows, who occludes whom, and where visibility falls off. Spears/staffs/props in a
