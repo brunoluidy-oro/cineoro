@@ -30,8 +30,8 @@ time (start/end/duration) · sound and text · implied action · the "every bloc
   darkness."
 - Crowds: background in darkness and out of focus; about a metre apart; at most six prop-bearers;
   never clustered; nobody looking at the lens.
-- Asymmetry, off-centre framing, a tilted horizon (only for loss of control), chiaroscuro and a dark
-  background together read as cinema rather than render.
+- The engine defaults to a centred, evenly lit frame: state the composition (symmetrical or
+  off-centre) and the background treatment you chose.
 - **Clean frames:** one clear readable composition per beat; no accidental crops through faces.
 
 ## Engine weak spots

@@ -30,12 +30,16 @@ hand the director the audio locks and negatives.
    instruction. Write each line in the native orthography of the language you want to hear
    (Portuguese with its accents, Spanish with its ñ). For an invented language, pick a script whose
    phonetics match the sound you want and never romanize it — Latin letters pull English phonetics in.
-5. **Sound is specific, diegetic and sourced.** List what the world sounds like, each with behaviour
+5. **Sound is specific and sourced** (diegetic in a realist film; heightened, comic or stylized design
+   when the STYLE INTENT asks — still specific). List what the world sounds like, each with behaviour
    ("fine snow ticking on hide", "the rawhide creaking against the wood and the small snap as each
    knot seats"). The sound of hands working is part of believable behaviour.
-6. **The music policy is repeated, with synonyms.** If the film has no score, ban it at the top and at
-   the end, naming the synonyms the engine slips through: music, score, BGM, instrumental, melody,
-   synth, ambient pad, drone, swell, chimes, ringing.
+6. **The music policy is explicit and repeated.** The engine adds music when not told. If the film has
+   no score, ban it at the top and the end with the synonyms it slips through (music, score, BGM,
+   instrumental, melody, synth, ambient pad, drone, swell, chimes). If it has one, describe it
+   precisely — instrumentation, entry second, level under dialogue, build, stop. For a music video, the
+   user's track is attached as an audio reference; lip-sync and movement are timed to its beats and
+   no other music is allowed. See `references/soundscape.md` → "When the film has music".
 7. **No text on screen.** Subtitles appear when tone tags are attached to single words or dialogue words
    are repeated. Keep one emotion note per line, never per word, and state "no subtitles, no
    captions, no on-screen text — the words exist only as sound".

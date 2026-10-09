@@ -51,7 +51,7 @@ light and look · physics and behaviour · time and structure · sound and speec
 | Moves when it should hold | movement words leaked | STAYS PUT sentence + "no pan, no push-in" | camera |
 | Lens drifted | no FOV / mixed content | FOV per shot + outcome stack + anti-drift | camera |
 | Zoom instead of push-in | "push in/zoom" wording | "rough human walk-in, footstep bounce" | camera |
-| Centred symmetrical frame | no composition rule | screen positions + off-centre + negative | camera |
+| Framing differs from the chosen composition | composition not stated | screen positions + the chosen composition + negative against its opposite | camera |
 | Mushy framing | crowded beat | clean frames rule; fewer subjects | camera |
 
 ## Light and look

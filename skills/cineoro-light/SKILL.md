@@ -17,10 +17,11 @@ the **NO LENS FLARES** fence, and you hand the director the light locks that mus
 
 ## Six laws
 
-1. **Every light has a source that could exist in this world.** Name it (a campfire, a stone lamp, a
-   window, a sodium street lamp, the sky after sunset), its **direction**, its **height**, its
-   **side** relative to the camera, and its **colour temperature** in Kelvin. If nothing in the world
-   could emit it, it doesn't exist.
+1. **Every light has a defined source and behaviour.** In a realist world: a campfire, a window, a
+   street lamp, the sky. In a stylized one: neon tubes, theatrical gels, a magic flame that glows blue
+   and flickers on the beat, a high-key studio box for a commercial. Name its **direction**, **height**,
+   **side**, **colour** (Kelvin or hue) and what it does. The engine's default is a sourceless flat
+   fill — that is the only light that is never allowed.
 2. **Say what stays dark.** Exposure is a decision: "exposed for the flame-lit faces; everything beyond
    a metre falls into shadow". The engine fills any darkness you don't defend.
 3. **Dark is not underexposed.** Asking for "dark, underexposed, low-key" makes the engine crush
@@ -33,8 +34,10 @@ the **NO LENS FLARES** fence, and you hand the director the light locks that mus
    catching the cold spill from the corridor". A film's palette is functional: a permanent state and
    a rare exception that means something.
 6. **The look is a lock, pasted verbatim.** One FILM LOOK block per project (or per sequence), never
-   rewritten per shot. Flares get their own fence, because folded into anything else the engine keeps
-   adding them.
+   rewritten per shot. The **flare/glow policy** is stated explicitly: realist films fence flares in their own
+   block (folded into anything else, the engine keeps adding them); neon, fantasy, dream and music-video
+   worlds may *want* halation, bloom, glow and flares — then describe them (where, how strong,
+   anamorphic streak or soft bloom) and never fence them.
 
 ---
 
@@ -63,7 +66,7 @@ FILM LOOK (KEY — reproduce this exact photographic character): [capture: real 
 fur; muted and filmic, never teal-and-orange, never saturated]; [contrast: highlights roll off and
 bloom with halation; shadows deep but breathing]; [grain: heavy organic MOVING grain, most visible
 in the shadows/sky]; [softness: softer than digital]; [frame: even exposure to all four corners, NO
-vignette, NO edge falloff]. MEGA-REAL — NOT a render, NOT 3D, NOT AI-CGI, NOT digital-clean, NOT HDR.
+vignette, NO edge falloff]. [Medium anchor — live action: MEGA-REAL, NOT a render, NOT AI-CGI, NOT HDR; stylized/animation: the medium's own material truth, NOT the generic AI-CGI look].
 [+ the lens-look paragraph from cineoro-camera]
 
 NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs, no glow overlays; every light

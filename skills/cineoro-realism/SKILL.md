@@ -28,9 +28,9 @@ get **repeated**, and own the **diagnosis** of failed takes.
    used the way its owner uses it, and the function is named.
 4. **Material resists before it gives.** Rope springs back, ice cracks from the edges, a door sticks.
    Gradual is the default: death, freezing, wetting, burning take time — write START / DURING / END.
-5. **Over-real, specifically.** Name the textures that prove the surface is real in *this* shot
+5. **Material truth, specifically** (OVER-REAL in live action). Name the textures that prove the surface is real in *this* shot
    (frost in stubble, greasy soot rim, cracked knuckles, the worn polish where hands have gripped wood
-   for years). "If any surface looks clean, smooth, plastic, CGI or rendered — WRONG."
+   for years). In a stylized world, the list is that world's material truth (clay fingerprints, lacquered pastel surfaces, dragon scales) — never grime pasted onto a pristine idiom. For live-action realism: "If any surface looks clean, smooth, plastic, CGI or rendered — WRONG."
 6. **Positive first, negative as a fence.** Write the desired state in its block; then fence the known
    failure in the NEGATIVE. Never name a style you don't want primed if the word itself can leak (keep
    graphic vocabulary out of video prompts entirely).
@@ -63,18 +63,19 @@ NEGATIVE: [this shot's specific failures — the wrong performances, wrong posit
 wrong light, wrong sound, listed concretely] + [scene-type set] + [standing spine].
 ```
 
-**Standing spine** (adapt to the project's format and world):
+The spine has two layers. **Engine-failure spine** — always (these are failures in any style):
 ```
-centred, symmetrical, bright light, flat even light, milky blacks, crushed blacks, vignette, plastic
-skin, waxy, smooth skin, beauty retouching, porcelain, doll face, glassy stare, frozen pupils, glowing
-eyes, clean faces, clean dry clothing, modern objects (if period), lens flare, HDR glow, looping
-motion, floaty motion, subtitles, captions, on-screen text, letters, watermark, logo, static locked
-camera, tripod, gimbal, stabilized footage, drone, over-sharpened, clean 4K, digital clean, CGI, 3D
-render, warped hands, extra fingers, duplicated characters, twins, clones, music, score, BGM, wrong
-aspect ratio.
+glassy stare, frozen pupils, doll eyes (in live action), warped hands, extra fingers, duplicated
+characters, twins, clones, looping motion, garbled text, watermark, logo (unless asked), wrong aspect
+ratio.
 ```
-Remove from the spine anything the shot actually wants (a locked tripod shot, a level horizon in a
-calm scene, music in a film with a score). Scene-type sets (face close-up, night/fire, violence,
+**Style spine** — generated from the STYLE INTENT, never pasted blind: it fences the *opposite* of
+the chosen style. Realist preset example: "bright flat even light, beauty retouching, porcelain skin,
+clean CGI look, gimbal glide, drone, lens flare, HDR glow, music, score, subtitles". A symmetrical
+pastel comedy instead fences "shaky handheld, canted horizon, dirt, grain, gritty grade"; a neon clip
+fences "flat daylight, muted colours, documentary look"; a claymation fences "smooth CGI, photoreal
+skin, plastic sheen". **Never put in the NEGATIVE anything the intent requires** (contradiction
+check, `cineoro-director/references/style-and-divergence.md`). Scene-type sets (face close-up, night/fire, violence,
 crowd, animals, water/ice, interiors, city, children, vehicles) and the "don't name it, describe its
 geometry" method: **`references/negative-library.md`**.
 
@@ -86,8 +87,8 @@ geometry" method: **`references/negative-library.md`**.
 2. Glassy eyes are a frozen pupil, not a highlight; fix with a task and physiology.
 3. Believable acting is pauses plus micro-expression, caused by a tactic.
 4. Separate "the camera travels" from "the camera stays put".
-5. Asymmetry + off-centre + tilted horizon (when control is lost) + chiaroscuro + a dark background
-   read as cinema.
+5. The engine defaults to a centred, evenly lit, readable frame — state the composition you want
+   (symmetrical or off-centre, dark or bright background) so the default doesn't win.
 6. Kill flat crowds of sharp faces: darkness and softness for the background.
 7. For a new angle, drop the anchor image; for a wide from a close reference, build the wide still first.
 8. Speech is generated: re-generate with a different delivery description before rewriting the line.

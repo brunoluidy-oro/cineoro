@@ -26,9 +26,14 @@
   labels.
 
 **Camera, space, light**
-- FOV in degrees per shot; TRAVELS/STAYS PUT; operator physical; composition off-centre.
+- FOV in degrees per shot; camera body and movement stated; composition as chosen in the STYLE INTENT.
 - Measurable distances; axis side; prop hands; orientation across cuts.
-- Motivated source, reach, exposure, NO vignette; lit side locked; NO LENS FLARES.
+- Every source defined (natural or stylized), reach, exposure, NO vignette; lit side locked; flare/glow policy stated.
+
+**Style fidelity (contradiction check)**
+- Does anything in LOCKS, NEGATIVE, fences or look phrases forbid what the STYLE INTENT asks for?
+- Is any realist-preset default present without a reason from this brief?
+- Would the prompt look the same for a different scene? Then it is a template, not a direction.
 
 **Sound**
 - Lines labelled (speaker, ON/OFF, seconds, language/accent, delivery); others' mouths shut.

@@ -1,7 +1,9 @@
 # Worked examples
 
-Three complete deliverables in the CINEORO spine. Use them to calibrate density, tone and order — not
-to copy their content.
+Three complete deliverables in the CINEORO spine. Use them to calibrate density and order — **never
+to inherit their style**. Both examples use the realist preset (handheld, natural light, no score)
+because their briefs asked for it; a neon clip, a pastel comedy or an animation makes different
+choices in every block. Derive each choice from your scene.
 
 **Contents:** 1 · quiet two-hander with a craft process, Brazilian Portuguese dialogue (3 shots, 20 s)
 · 2 · crowd confrontation in the rain, English dialogue (5 shots, 24 s) · 3 · repair of example 2

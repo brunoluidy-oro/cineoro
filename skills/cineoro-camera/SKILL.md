@@ -22,13 +22,16 @@ lens, movement), and — with `cineoro-light` — the optical half of the **FILM
 2. **The camera either TRAVELS or STAYS PUT — say which, explicitly.** The engine conflates "handheld"
    with "moving". "The camera DOES NOT TRAVEL — it stays in one place and breathes" and "the camera
    WALKS WITH HIM at shoulder height" are different shots. One movement per shot; no compound moves.
-3. **A physical operator, not a floating eye.** Height (at ice level, hip height, eye level, above
+3. **A defined camera body, not a floating eye** — a human operator, a dolly, a crane, a locked
+   tripod, a drone, or an impossible camera (through a keyhole, inside a mouth) are all valid; the
+   engine's default is a weightless drift, so state which one and how it moves. Height (at ice level, hip height, eye level, above
    the head), distance (in metres), side (which side of the axis, shadow side or light side), angle
    to the subject's axis (degrees). Handheld is described as a body: breath, weight shifts, late
    corrections, footfalls landing in the frame.
-4. **Composition is a decision, not a default.** Off-centre, asymmetric, a background that falls into
-   darkness, one clear focal point per frame, intentional edges. Centred symmetry and level
-   horizons read as render unless the scene's meaning asks for them.
+4. **Composition is a decision, not a default.** The engine centres and evenly fills the frame
+   unless told otherwise. Choose — rigorous symmetry (authored, comic, ritual), off-centre asymmetry
+   (observed), extreme negative space, frontal tableau — and state screen positions and the focal
+   point. One clear focal point and intentional edges in any style.
 5. **Lens look = outcomes, optionally anchored by a format name.** "true 65mm anamorphic" may anchor
    texture, but the control comes from the observable outcomes next to it: oval bokeh, horizontal
    squeeze, edge stretch, shallow cinemascope focus, breathing. A name alone does nothing reliable.
@@ -114,11 +117,15 @@ Full library, including slow-motion rules, POV, vehicle and multi-shot camera co
 
 ---
 
-## Composition rules that read as cinema, not render
+## Composition — tools, not a dogma
 
-- **Off-centre** placement, **asymmetry**, **a background in darkness** beyond a stated distance
-  ("everything beyond two metres falls into darkness"), **chiaroscuro**, a **tilted horizon only when
-  the scene loses control**. Together they read as cinema.
+- **Observed realist toolkit:** off-centre placement, asymmetry, a background in darkness beyond a
+  stated distance, chiaroscuro, a tilted horizon only when the scene loses control.
+- **Authored/formal toolkit:** centred symmetry, frontal tableaux, level horizons, planimetric staging,
+  locked frames, matched cuts.
+- **Spectacle toolkit:** scale against people, crane and aerial reveals, orbit and speed ramps when the
+  genre wants them.
+  Pick from the STYLE INTENT; mixing toolkits inside one shot is the usual cause of mush.
 - **Clean frames rule:** every shot is one clear, deliberate, readable composition — one focal
   point, intentional edges, no accidental crop through a face, no mushy half-framing. Foreground blur
   only as one soft shape at a frame edge.
@@ -156,6 +163,6 @@ Return to `cineoro-director`:
 - Operator height, distance, side and angle written physically?
 - Focus behaviour stated (what, when it moves)?
 - Horizon choice justified by the scene's state of control?
-- Composition: off-centre, layered, one focal point, background treatment stated?
+- Composition chosen from the STYLE INTENT, screen positions stated, one focal point, background treatment stated?
 - Lens look written as outcomes (with an optional format anchor), not as gear alone?
 - Multi-shot: FOV and position per shot, same side of the axis, "no lens drift inside the shot"?

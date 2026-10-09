@@ -1,0 +1,894 @@
+{
+  "summary": "Audit the CINEORO skill tree for rigidity and probe it with off-style briefs, then judge",
+  "agentCount": 8,
+  "logs": [
+    "Probes: p1-clipe-neon=done, p2-comercial-simetrico=done, p3-sonho-na-biblia=done, p4-fantasia-dragao=done, p5-stopmotion=done"
+  ],
+  "result": {
+    "audit": {
+      "rules": [
+        {
+          "file": "cineoro-director/references/prompt-spine.md",
+          "quote": "CONTRACT — Live-action photoreal film footage, [aspect ratio] ... [camera language: raw breathing handheld documentary], real-time motion ... NO music, NO score, NO subtitles, NO on-screen text.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The 'always' CONTRACT hard-codes photoreal live-action, a handheld-documentary example, real-time motion and a music ban as the frame of every prompt; animation, stylised, scored or slow-motion work must fight the first line.",
+          "suggestion": "Turn into slots: 'CONTRACT — [medium: live-action photoreal / stop-motion / 2D anime / ...], [aspect], [N]s, [cuts], [camera language], [motion: real-time / slow-motion at X], [dialogue], [MUSIC POLICY: none — ban with synonyms / score: describe / source music only], [text policy].' Move the example values to a comment."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "| 0 | **CONTRACT** — format, aspect, total seconds, shots/cuts, camera language, language, NO music, NO subtitles | director | always |",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The root routing table lists 'NO music' as part of an always-on block; the music ban becomes structural instead of a project decision.",
+          "suggestion": "Write 'music policy (stated explicitly: banned with synonyms, or described)' and keep 'NO subtitles' only as a default the bible can override."
+        },
+        {
+          "file": "cineoro-director/references/prompt-spine.md",
+          "quote": "## 13 · SOUND (always) ... SOUND — DIEGETIC ONLY, dirty-real: ... NO music, NO score, NO BGM, NO instrumental, NO melody, NO ambient pad, NO drone, NO chimes",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The SOUND template has no branch for a score, source music, a needle-drop or a music video; the engine-law fact (music sneaks in unless banned) is fused with the aesthetic choice (no music).",
+          "suggestion": "Split: engine law = 'state a music policy explicitly, because the engine adds music when it isn't told'. Give two templates: SOUND (no score) with the synonym ban, and SOUND (scored) describing instrumentation, entry second, level under dialogue, diegetic vs non-diegetic."
+        },
+        {
+          "file": "cineoro-director/references/prompt-spine.md",
+          "quote": "Never cut: the critical-few repetitions, the music/subtitle bans, the ORDER recap, the voice locks, the lit-side lock.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The compression pass protects the music ban as if it were an engine invariant.",
+          "suggestion": "'Never cut: the critical-few repetitions, the music policy (whatever it is), the ORDER recap, voice locks, continuity locks.'"
+        },
+        {
+          "file": "cineoro-sound/SKILL.md",
+          "quote": "SOUND — DIEGETIC ONLY, dirty-real location sound: ... NO clean digital sheen.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": false,
+          "risk": "The only SOUND template is dirty-real diegetic. Law 6 does say 'If the film has no score', but no template exists for when it does, so the default wins in practice.",
+          "suggestion": "Add a 'SOUND — with score' template and a 'stylised/hyper-real sound design' template next to the diegetic one."
+        },
+        {
+          "file": "cineoro-realism/SKILL.md",
+          "quote": "**Standing spine** ... centred, symmetrical, bright light, flat even light, ... static locked camera, tripod, gimbal, stabilized footage, drone, ... music, score, BGM",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The 'standing' negative bans symmetry, bright light, tripod, gimbal, drone, stabilisation and music in every shot. A Wes Anderson-style, high-key comedy, a commercial or a composed tripod film gets negatives against its own style. The opt-out ('Remove from the spine anything the shot actually wants') sits after the list and is easy to skip.",
+          "suggestion": "Split the spine into an ENGINE-FAILURE spine (plastic skin, glassy stare, warped hands, clones, watermark, garbled text, looping motion, wrong aspect) and a STYLE spine generated from the project's declared style (e.g. a handheld-doc project adds tripod/gimbal; a composed project adds 'shaky handheld')."
+        },
+        {
+          "file": "cineoro-camera/SKILL.md",
+          "quote": "**Composition is a decision, not a default.** Off-centre, asymmetric, a background that falls into darkness, one clear focal point per frame, intentional edges. Centred symmetry and level",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "It says 'a decision, not a default' and then supplies a single default (off-centre, asymmetric, dark background). Symmetry gets framed as the AI look, and the camera checklist enforces it ('Composition: off-centre, layered...?').",
+          "suggestion": "Keep the craft principle (state screen positions and the focal point, because the engine centres by default) and make the style a choice: 'centred-symmetrical (authored, formal) / off-centre-asymmetric (observed) / ...; state which and why'."
+        },
+        {
+          "file": "cineoro-camera/references/operator-and-composition.md",
+          "quote": "**Off-centre + asymmetry + dark background + chiaroscuro + a canted horizon in moments of lost control** → cinema. Centred + symmetrical + evenly lit + readable background → render.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "This equates one arthouse vocabulary with 'cinema' and the opposite with 'render', which disqualifies Kubrick, Ozu, Anderson, sitcom lighting and musicals.",
+          "suggestion": "Reframe: 'the engine's default is centred + evenly lit + readable background; whatever composition you choose, state it so the default doesn't win'."
+        },
+        {
+          "file": "cineoro-realism/references/anti-ai-tells.md",
+          "quote": "Asymmetry, off-centre framing, a tilted horizon (only for loss of control), chiaroscuro and a dark",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The anti-AI catalogue (repeated as catalogue item 5 in realism SKILL.md) lists a style as a believability fix.",
+          "suggestion": "Move it to an 'observational/chiaroscuro look' entry, labelled as one option."
+        },
+        {
+          "file": "cineoro-realism/references/diagnosis.md",
+          "quote": "| Centred symmetrical frame | no composition rule | screen positions + off-centre + negative | camera |",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "Repair mode treats a centred frame as a failure even when the project wanted it.",
+          "suggestion": "Diagnosis should be 'framing differs from the declared composition'. Fix: state screen positions, plus a negative against the opposite style."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "| `cineoro-camera` | always | shot size + FOV in degrees; TRAVELS or STAYS PUT; physical operator (height, distance, side); off-centre composition; lens look as outcomes |",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The root routing table hard-wires 'off-centre composition' and a 'physical operator' (a human body) into every camera block, so crane, drone, motion-control and impossible cameras are excluded.",
+          "suggestion": "'composition stated with screen positions; camera body (human operator / rig / impossible camera) stated physically'."
+        },
+        {
+          "file": "cineoro-director/references/prompt-spine.md",
+          "quote": "NOT: [gimbal, drone, tripod lock, zoom, orbit, slow motion …]",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The CAMERA template's example NOT list bans whole rig categories and slow motion. Copied as written, every prompt becomes handheld real-time.",
+          "suggestion": "'NOT: [the rigs/moves that contradict THIS camera language, e.g. for handheld: gimbal, drone; for locked-off: shake, drift]'."
+        },
+        {
+          "file": "cineoro-director/references/prompt-spine.md",
+          "quote": "Typical: ... tempo (calm, not frantic); camera never static; nothing burns / no source in frame.",
+          "tier": "project_leak",
+          "presented_as_universal": false,
+          "risk": "The 'typical' lock list carries the source film's locks ('camera never static', 'nothing burns') as if they were generic.",
+          "suggestion": "Replace with neutral lock types: 'camera state (moving/static as chosen); source visibility (in/out of frame as chosen)'."
+        },
+        {
+          "file": "cineoro-camera/references/operator-and-composition.md",
+          "quote": "when handheld is the language, lock it — \"NOT ONE SECOND static, locked or stabilized, never a glide; NOT a gimbal, NOT a drone, NOT a slider\".",
+          "tier": "engine_law",
+          "presented_as_universal": false,
+          "risk": "This one is fine: it is conditional, and the engine really does smooth handheld. There is no mirror rule for the opposite case (the engine adding drift or shake to a locked shot).",
+          "suggestion": "Add the symmetric lock for composed cameras: 'LOCKED-OFF: no drift, no shake, no handheld breathing'."
+        },
+        {
+          "file": "cineoro-camera/SKILL.md",
+          "quote": "CAMERA — [HANDHELD documentary / shoulder-mounted / locked-off tripod / slow dolly], the operator",
+          "tier": "aesthetic_default",
+          "presented_as_universal": false,
+          "risk": "Handheld documentary comes first, and the movement library that follows details only breathing and walking handheld; composed moves get almost no worked vocabulary.",
+          "suggestion": "Give equal paste-ready entries for dolly, crane, Steadicam, motion-control, static tableau and drone, with each one's engine pitfalls."
+        },
+        {
+          "file": "cineoro-camera/SKILL.md",
+          "quote": "never \"dolly in\" or \"zoom\", which the engine renders as a",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "This is presented as an engine fact, but it only holds when the intended look is handheld. A deliberate dolly-in or snap zoom (a valid style) gets banned.",
+          "suggestion": "Scope it: 'when you want a human walking-in feel, don't write dolly/zoom. When you want a mechanical push or a zoom, write it and specify the speed'."
+        },
+        {
+          "file": "cineoro-camera/references/operator-and-composition.md",
+          "quote": "Slow motion must be motivated (impact, memory, sensory overload)",
+          "tier": "craft_principle",
+          "presented_as_universal": false,
+          "risk": "The craft principle is reasonable, but elsewhere slow motion sits in standing negatives (negative-library camera set, worked examples, spine CAMERA NOT), so in practice it is banned by default.",
+          "suggestion": "Remove slow motion from default NOT lists. Keep it only as a negative when the CONTRACT declares real-time."
+        },
+        {
+          "file": "cineoro-realism/references/negative-library.md",
+          "quote": "crane, smooth dolly, orbiting camera, 360 spin, zoom, mechanical push-in, slow motion, speed ramp,",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "A 'library' set bans the whole composed-camera grammar.",
+          "suggestion": "Label the set 'for observational/handheld projects only' and add an opposite set for composed projects."
+        },
+        {
+          "file": "cineoro-light/SKILL.md",
+          "quote": "LIGHT — [NATURAL / MOTIVATED] LIGHT ONLY, [time of day], [two mood words] (KEY):",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The only LIGHT template forces 'LIGHT ONLY' from a source in the world. Expressionist, theatrical, music-video, neon-stylised and high-key commercial lighting have no slot.",
+          "suggestion": "Offer light systems: motivated-naturalist / stylised-expressionist (coloured gels, unmotivated rim) / high-key commercial / theatrical spot. The engine-law core (name the source or direction, defend the dark, the engine floods otherwise) applies to all of them."
+        },
+        {
+          "file": "cineoro-light/SKILL.md",
+          "quote": "**Every light has a source that could exist in this world.** ... If nothing in the world could emit it, it doesn't exist.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "Listed as Law 1 of the light department, it rules out unmotivated or symbolic light (a dream glow, a spotlight on a stage-like moment).",
+          "suggestion": "Make it a craft principle: 'Every light has a stated direction, height, side and colour; in naturalist projects it also has a source in the world'."
+        },
+        {
+          "file": "cineoro-light/SKILL.md",
+          "quote": "MEGA-REAL — NOT a render, NOT 3D, NOT AI-CGI, NOT digital-clean, NOT HDR.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The FILM LOOK template assumes celluloid-like photoreal. Clean digital, stylised 3D, animation and HDR-commercial looks are banned in the template itself.",
+          "suggestion": "Make the NOT tail fill-in: '[the 2–4 defaults this look must not fall back to]', as format-and-lens-looks.md already advises."
+        },
+        {
+          "file": "cineoro-light/SKILL.md",
+          "quote": "[colour: two temperatures — cool desaturated X in the shadows and sky against warm Y in skin, wood, fur; muted and filmic, never teal-and-orange, never saturated]",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "A muted two-temperature palette (with 'fur' leaking from the source film) is the template's skeleton, so saturated, monochrome, pastel and pop palettes are excluded.",
+          "suggestion": "'[colour: palette system and its role — e.g. muted two-temperature / saturated primaries / monochrome / pastel]'. Drop 'fur'."
+        },
+        {
+          "file": "cineoro-light/SKILL.md",
+          "quote": "[grain: heavy organic MOVING grain, most visible in the shadows/sky]; [softness: softer than digital]",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The template example defaults to heavy grain and softness.",
+          "suggestion": "'[grain: none / fine / heavy — dosed]; [sharpness: clinical / natural / soft]'."
+        },
+        {
+          "file": "cineoro-director/references/prompt-spine.md",
+          "quote": "NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs, no glow overlays; every light source stays small and contained.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "An 'always' block (also verbatim in the bible template) bans flares and glow for every film, including anamorphic sci-fi, music videos, dream sequences and Abrams-style flare looks.",
+          "suggestion": "Make it conditional: 'FLARE POLICY (always state one): none — fence / controlled — describe flare shape, colour, when it appears'."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "| `cineoro-light` | always | one motivated source with direction, side, reach and Kelvin; say what stays dark; \"breathing shadows, NO vignette\"; lit side never flips; NO LENS FLARES fence |",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "'One motivated source' and 'say what stays dark' push low-key chiaroscuro on every project.",
+          "suggestion": "'the light system (sources or stylised direction), what is lit and what isn't, continuity of key side'."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "**Realism is what you subtract.** Fewer subjects, darker backgrounds, fewer sharp faces, fewer adjectives",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "A founding principle of the root couples a valid engine observation (fewer subjects mean fewer artifacts) with a dark-background aesthetic.",
+          "suggestion": "'Fewer subjects and fewer adjectives mean fewer artifacts (engine). Darkness and softness are one way to hide background faces; others are distance, blur, empty frames and composition'."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "that read as believable live-action, not AI",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The whole tree's scope is live-action believability; anime, claymation, stylised 3D, surreal and music-video projects have no entry point, and the realism department runs 'always'.",
+          "suggestion": "Declare a 'medium/register' decision in Step 0 (photoreal naturalist / heightened / stylised / animated). Make cineoro-realism 'always for engine failures (hands, faces, physics); style rules only for naturalist projects'."
+        },
+        {
+          "file": "cineoro-realism/SKILL.md",
+          "quote": "OVER-REAL: [5–8 specific textures of this shot]. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "Spine block 10 is 'always', so every film gets grime and over-real texture. A clean sci-fi, a luxury product ad or a sleek interior gets penalised.",
+          "suggestion": "'TEXTURE: [the texture register of this world: over-real/worn | clean/precise | stylised]'. Keep 'nothing floats, nothing loops' as engine law."
+        },
+        {
+          "file": "cineoro-realism/references/negative-library.md",
+          "quote": "**Animals:** glowing animal, magical animal, spirit animal, transparent animal, cartoon animal",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The library bans magic, glow and the spirit world as categories. A fantasy film, a myth or a dream sequence with a spirit animal is pre-negated.",
+          "suggestion": "Mark these as 'naturalist projects only' and note: 'if the project includes the uncanny or supernatural, describe it physically instead of banning it'."
+        },
+        {
+          "file": "cineoro-realism/references/negative-library.md",
+          "quote": "doll eyes, frozen pupils, glassy stare, dead stare, glowing eyes, symmetrical face, ... looking into the lens",
+          "tier": "engine_law",
+          "presented_as_universal": true,
+          "risk": "This mixes real engine failures (frozen pupils, glassy stare) with style choices (looking into the lens). Direct address (Bergman, Fleabag, UGC, documentary interviews) gets banned by default, even though scene type M allows it.",
+          "suggestion": "Keep the eye failures. Move 'looking into the lens' to a conditional: 'unless direct address is chosen'."
+        },
+        {
+          "file": "cineoro-realism/references/anti-ai-tells.md",
+          "quote": "never clustered; nobody looking at the lens.",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "The same lens-address ban appears in the crowd rules.",
+          "suggestion": "Add 'unless the scene uses address to camera'."
+        },
+        {
+          "file": "cineoro-realism/references/anti-ai-tells.md",
+          "quote": "**Blood** is dark, near-black, viscous; it wells and travels with gravity over time; never bright red;",
+          "tier": "aesthetic_default",
+          "presented_as_universal": true,
+          "risk": "Bright-red stylised blood (Tarantino, giallo, anime) is excluded.",
+          "suggestion": "Keep the physics (viscous, gravity, time) as engine/craft guidance. Make the colour a project choice."
+        },
+        {
+          "file": "cineoro-story/SKILL.md",
+          "quote": "- **Observed (documentary):** jump cuts, small time-skips, the camera repositioned at each cut, always on the same side of the axis. Strips out stagedness and routes around the engine's hardest",
+          "tier": "aesthetic_default",
+          "presented_as_universal": false,
+          "risk": "Documentary jump cuts are sold as a workaround for engine weakness, which biases editing grammar toward the source film. Scene types G and I also default to jump cuts.",
+          "suggestion": "List editing grammars on equal terms (classical continuity, long-take choreography, montage, match-cut/rhythmic, documentary) and state the engine trade-off for each."
+        },
+        {
+          "file": "cineoro-story/references/coverage-and-editing.md",
+          "quote": "`HARD CUT` (default) · `JUMP CUT` (same subject, time-skip, new position, same axis side) · `SMASH CUT`",
+          "tier": "craft_principle",
+          "presented_as_universal": false,
+          "risk": "The cut menu has no dissolves, match cuts, crossfades or wipes, which flashbacks, dreams and montages need.",
+          "suggestion": "Add DISSOLVE / MATCH CUT / FADE, with a note on how Seedance handles transitions inside one generation versus in the edit."
+        },
+        {
+          "file": "cineoro-story/references/coverage-and-editing.md",
+          "quote": "*A body surviving next to a mind coming apart* → natural light only, people small in vast space, a live handheld operator walking with them.",
+          "tier": "project_leak",
+          "presented_as_universal": false,
+          "risk": "The source film's director's statement is the generic tree's only worked example of 'statement as function', so it seeds natural light, handheld and the cold/warm palette in new bibles.",
+          "suggestion": "Give 3–4 contrasting examples (e.g. 'a family performing happiness → symmetrical tableau, high-key, locked-off'; 'a memory collapsing → dissolves, score enters') and mark the original as one of them."
+        },
+        {
+          "file": "cineoro-story/references/coverage-and-editing.md",
+          "quote": "*Cold is the permanent state, warmth is man-made* → palette and light system.",
+          "tier": "project_leak",
+          "presented_as_universal": false,
+          "risk": "This is the source film's palette thesis.",
+          "suggestion": "Replace it with a neutral pattern ('the permanent state vs the rare exception') plus varied examples."
+        },
+        {
+          "file": "cineoro-bible/SKILL.md",
+          "quote": "\"create a project skill like ANERNEQ\"",
+          "tier": "project_leak",
+          "presented_as_universal": false,
+          "risk": "The source film's name is a trigger phrase in the generic bible builder's description, which anchors new bibles on it.",
+          "suggestion": "Remove the name from the description."
+        },
+        {
+          "file": "cineoro-light/SKILL.md",
+          "quote": "\"the big fire behind and beside the camera, never in frame; warm live flicker on the camera-facing side of every face\"",
+          "tier": "project_leak",
+          "presented_as_universal": false,
+          "risk": "The multi-shot light section is built on the source film's campfire world (as are the 'snow bounce' and '10000 K+ polar night' entries).",
+          "suggestion": "Use neutral or varied examples (a neon sign, an office window, a stage spot) next to the fire one."
+        },
+        {
+          "file": "cineoro-camera/SKILL.md",
+          "quote": "On Seedance 2.5 the anamorphic character was held from the prompt itself, shot after shot, without baking it into the location plates (observed in production).",
+          "tier": "engine_law",
+          "presented_as_universal": false,
+          "risk": "A valid engine observation, but because it is the only production evidence given, anamorphic becomes the implied default lens look.",
+          "suggestion": "Keep it as an engine note and generalise it: 'a lens look held from prompt text alone'."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "**Every prompt is an island.** The engine has no memory. Light, optics, wardrobe, props, voice and geometry are re-specified in every prompt",
+          "tier": "engine_law",
+          "presented_as_universal": true,
+          "risk": "Correct as an engine law. The risk is that it is used to justify freezing all look text verbatim (a style decision) rather than only re-specifying it.",
+          "suggestion": "Keep it, and add: 're-specify does not mean identical; a deliberate change is written as a new specification'."
+        },
+        {
+          "file": "cineoro-director/references/seedance-2.5.md",
+          "quote": "ban with synonyms top and bottom",
+          "tier": "engine_law",
+          "presented_as_universal": true,
+          "risk": "This is the true engine law (music leaks unless banned). Elsewhere it is restated as 'NO music' rather than 'state a music policy'.",
+          "suggestion": "Name it the 'music-policy law' everywhere and make the ban one branch of it."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "**Write the visible.** The engine reacts to what can be seen and measured, never to mood words.",
+          "tier": "craft_principle",
+          "presented_as_universal": true,
+          "risk": "Good universal principle, low risk.",
+          "suggestion": "Keep it, and note that stylised projects write their style as visible outcomes too."
+        },
+        {
+          "file": "cineoro-director/SKILL.md",
+          "quote": "**Direct, don't describe.** Event, motive, goal, obstacle, tactic",
+          "tier": "craft_principle",
+          "presented_as_universal": true,
+          "risk": "Universal for drama. It fits poorly with non-narrative work (music video, product, abstract), which may need rhythm or graphic intent instead.",
+          "suggestion": "Add a non-narrative path: 'for non-dramatic shots, the intent is rhythmic/graphic/sensory; state it as visible outcomes'."
+        },
+        {
+          "file": "cineoro-camera/references/format-and-lens-looks.md",
+          "quote": "A project's lens look is decided once ... and pasted verbatim into every prompt. Never rewrite it per shot",
+          "tier": "craft_principle",
+          "presented_as_universal": true,
+          "risk": "Consistency is valid, but 'never' leaves no sanctioned path for a lens change in a flashback, POV or dream.",
+          "suggestion": "'...pasted verbatim into every prompt of the same register. A sequence with a deliberate register change uses its own registered variant block'."
+        }
+      ],
+      "copy_traps": [
+        {
+          "file": "cineoro-director/references/worked-examples.md",
+          "issue": "Every complete worked example shares one aesthetic: photoreal, handheld ('quiet breathing handheld', 'raw breathing handheld documentary'), 'NO music, NO score', grain and halation, 'never teal-and-orange', one practical source, and NOT lists with slow motion, gimbal and dolly. One of them is the source film's look: '65mm film, 500-speed tungsten stock pushed ... HARD ANAMORPHIC LOOK'. Models copy the closest example, so every output inherits it.",
+          "suggestion": "Add contrasting examples: a composed tripod/symmetric scene with a score, a high-key commercial, a stylised or animated piece, a dream sequence with a register break. Annotate each line as LAW, CRAFT or THIS FILM'S STYLE."
+        },
+        {
+          "file": "cineoro-director/references/prompt-spine.md",
+          "issue": "Seventeen labelled blocks, many marked 'always' (including CAMERA, PHYSICS & MATERIAL, LIGHT, FILM LOOK, NO LENS FLARES, SOUND, NEGATIVE), with example values baked into the slots. Every prompt gets the same shape, length and default content, and even the 'minimal variant' keeps FILM LOOK and NO LENS FLARES.",
+          "suggestion": "Split mandatory engine slots (duration/timeline, cuts, references, music policy, text policy, locks) from optional style blocks. Replace example values in brackets with option lists or empty slots."
+        },
+        {
+          "file": "cineoro-director/references/scene-types.md",
+          "issue": "'Copy the closest type': thirteen skeletons, 'generalized from a production that found six reference prompts covered ~90% of a film's shots'. They carry fixed camera, light and negative choices (e.g. A: 'level horizon', 'darkness beyond 2 m'; D: 'handheld'; I: 'walking/running handheld'; K: negatives 'glowing, magical, cartoon').",
+          "suggestion": "Reframe the skeletons as engine-risk checklists per scene type (what fails), with camera and light shown as two or three alternative treatments, not one."
+        },
+        {
+          "file": "cineoro-bible/assets/project-skill-template.md",
+          "issue": "The bible template pre-fills the CONTRACT with 'Live-action photoreal film footage ... NO music, NO score' and pre-fills NO LENS FLARES verbatim, and its artifact note assumes grain and gate weave. Every bible starts with the source film's policy.",
+          "suggestion": "Leave these as decision slots: '[medium]', '[music policy]', '[flare policy]'. Put the artifact note in a conditional ('if the look uses film-emulation artifacts')."
+        },
+        {
+          "file": "cineoro-camera/references/format-and-lens-looks.md",
+          "issue": "Look A ('Hard anamorphic, large format', the source film's look) is listed first and in the most detail; most looks are film-emulation with grain.",
+          "suggestion": "Order the looks neutrally and add clean digital, stylised (anime, painterly, claymation) and high-key commercial looks."
+        },
+        {
+          "file": "cineoro-light/references/film-locks.md",
+          "issue": "The paste-ready looks are organised by naturalistic world (fire, polar dusk, candle, moonlight), and the source film's worlds come first.",
+          "suggestion": "Add stylised and expressionist entries (neon/gel, theatrical spot, high-key studio, dreamlike diffusion)."
+        },
+        {
+          "file": "cineoro-realism/SKILL.md",
+          "issue": "The standing NEGATIVE spine is a long paste-ready string. Copied as written, it bans tripod, gimbal, symmetry, bright light and music everywhere.",
+          "suggestion": "Ship it in two clearly labelled halves (engine failures vs style)."
+        },
+        {
+          "file": "cineoro-bible/SKILL.md",
+          "issue": "Step 7 says reference prompts exist 'so most shots start from a copy'.",
+          "suggestion": "Require at least one 'deviation' reference prompt (a register break) and say copies are starting points to be re-decided per scene."
+        }
+      ],
+      "divergence_gaps": [
+        {
+          "where": "cineoro-director/SKILL.md, Modes / pipeline",
+          "issue": "For an ambiguous idea the director should 'decide and state your defaults on the generation card'. Nothing in the pipeline proposes alternative directorial approaches. The tree only converges.",
+          "suggestion": "Add a step 1.5 'Treatments': for new scenes or projects without a bible, propose 2–3 distinct directorial approaches (e.g. observed-handheld / composed-tableau / stylised-subjective), each with camera, light, sound and edit, then let the user pick before writing the prompt."
+        },
+        {
+          "where": "cineoro-bible/SKILL.md procedure step 1-3",
+          "issue": "'offer defaults for the rest', then 'Pull starting points from cineoro-light and cineoro-camera, adapt once, then freeze'. The defaults come from the source film's vocabulary.",
+          "suggestion": "Before freezing, present two or three contrasting look and sound packages (with test prompts) and make the user choose. Record the rejected ones as alternatives."
+        },
+        {
+          "where": "cineoro-bible/references/interview.md §4-6",
+          "issue": "The questions are framed from the source film: 'Light system: natural-only?', 'What is the permanent state, what is the rare man-made exception', 'Score or no score? If none: what replaces it'. Each question assumes that answer.",
+          "suggestion": "Ask open questions ('How does light behave in this film: naturalist, expressionist, stylised, high-key?'; 'What role does music play?') and offer examples spanning several styles."
+        },
+        {
+          "where": "cineoro-story/SKILL.md editing grammar",
+          "issue": "It offers two grammars (documentary 'Observed' vs 'authored moments'), and documentary is argued as the engine-safe one.",
+          "suggestion": "Present a wider menu and suggest one per scene with reasons, plus an alternative."
+        },
+        {
+          "where": "cineoro-realism / qa-and-repair.md",
+          "issue": "The QA checklist enforces 'composition off-centre', 'no music', 'no glowing eyes' as pass/fail, so QA pulls deliberate choices back to the house style.",
+          "suggestion": "QA against the project's declared intent (bible or CONTRACT), not fixed style items. Engine-failure items stay fixed."
+        },
+        {
+          "where": "cineoro-director/references/scene-types.md",
+          "issue": "One skeleton per scene type means one camera/light answer per scene type.",
+          "suggestion": "Give each type two or three alternative treatments with their engine trade-offs."
+        }
+      ],
+      "bible_rigidity": [
+        {
+          "where": "cineoro-bible/SKILL.md 'Rules for a good bible'",
+          "issue": "'Verbatim means verbatim. Templates are never paraphrased per shot. Change them only by issuing a new version of the bible.' There is no mechanism for a scoped deviation (a dream, a flashback, a style break, a single music cue), so the only route is a whole-bible version bump.",
+          "suggestion": "Add REGISTERS/VARIANTS: the bible holds a base register plus named variant blocks (e.g. FILM LOOK — FLASHBACK, SOUND — CUE 1), each with the scenes it applies to and its story function. Templates stay verbatim within a register."
+        },
+        {
+          "where": "cineoro-director/SKILL.md Step 0",
+          "issue": "'Its templates (look, light, lens, negatives, world, voice locks) are pasted verbatim; its tags are the only tags.' The director can't weigh a scene's intent against the bible.",
+          "suggestion": "Add: 'if the scene's intent calls for a deliberate deviation, propose it explicitly as a variant (what changes, why, which blocks) and get confirmation before writing'."
+        },
+        {
+          "where": "cineoro-bible/assets/project-skill-template.md §1.3",
+          "issue": "The CONTRACT line pattern, with 'NO music, NO score', and the NO LENS FLARES block are frozen 'paste, never rewrite'. A single scored scene or a flare-heavy dream conflicts with the frozen ban, and the ban is also repeated in the ORDER recap and the 'never cut' list.",
+          "suggestion": "Make the music policy and flare policy per-register fields. Add a §1.5 'Sanctioned deviations' table: scene, blocks replaced, replacement text, function."
+        },
+        {
+          "where": "cineoro-light/SKILL.md law 6 and format-and-lens-looks.md",
+          "issue": "'One FILM LOOK block per project (or per sequence), never rewritten per shot'. The '(or per sequence)' allows variants but the bible template has no slot for per-sequence looks.",
+          "suggestion": "Add per-sequence FILM LOOK/LIGHT slots to the template, keyed by register."
+        },
+        {
+          "where": "cineoro-realism/SKILL.md standing spine + bible 'Standing NEGATIVE spine for this project'",
+          "issue": "The project spine is pasted into every prompt. A dream sequence wanting glow, symmetry or slow motion would carry negatives against itself unless someone strips them by hand, and the 'never fence one item in two templates' rule makes the bans hard to locate.",
+          "suggestion": "Make negatives register-aware, generated from the active register's look, sound and camera declarations."
+        },
+        {
+          "where": "cineoro-sound/SKILL.md VOICE LOCK",
+          "issue": "'VOICE LOCK ... fixed and identical across all shots of the film' blocks deliberate voice changes (a younger self in a flashback, a distorted voice in a dream, a phone filter).",
+          "suggestion": "Allow state-tagged voice variants (@NAME_YOUNG_VOICE, @NAME_PHONE), as the tag registry already does for visual states."
+        },
+        {
+          "where": "cineoro-bible/SKILL.md step 9",
+          "issue": "'Templates freeze only after drafts of 2–3 scene types'. The test plan covers only the main scene types, so variant registers are never tested before freezing.",
+          "suggestion": "Include at least one planned deviation scene (flashback, dream or cue) in the test plan before freezing."
+        }
+      ],
+      "summary": "The tree's engine knowledge is solid and mostly correct: no memory between generations, duration equal to the timeline, whole-second timestamps, music leaking in unless a policy is stated, glassy eyes and clones as failure modes, and references doing one job each. Its craft core is also sound: the acting task, writing the visible, motivated choices and measurable space.\n\nThe rigidity problem is that the source film's aesthetic is built into the structural, always-on layer, not only into the examples:\n- **CONTRACT** (spine block 0) hard-codes 'Live-action photoreal' and 'NO music, NO score', with 'raw breathing handheld documentary' and 'real-time motion' as the example values.\n- **SOUND** (always) is diegetic-only with a music ban, and the compression pass protects that ban as 'never cut'.\n- **NO LENS FLARES** is an always-on fence.\n- **LIGHT** has a single template, 'NATURAL/MOTIVATED LIGHT ONLY'. Law 1 says a light with no source in the world 'doesn't exist'.\n- **FILM LOOK** carries 'MEGA-REAL — NOT a render, NOT 3D', a muted two-temperature palette and heavy grain.\n- **The standing NEGATIVE spine** bans symmetry, bright light, tripod, gimbal, drone, music, glow and magic.\n- **Composition**: camera and realism define off-centre, asymmetric chiaroscuro as 'cinema' and centred symmetry as 'render'. The QA and diagnosis tables then enforce that as pass/fail.\n\nProject leaks:\n- The ANERNEQ trigger phrase in the bible builder's description.\n- The 'body surviving / mind coming apart' and 'cold is permanent, warmth is man-made' director's statements.\n- Campfire, polar and fur examples in the light department.\n- 65mm anamorphic as the first, most detailed lens look and the production-proven one.\n\nCopy traps:\n- Every worked example uses the same look.\n- The scene-type skeletons are meant to be copied.\n- The bible template pre-fills the CONTRACT and the flare fence.\n\nThe workflow never diverges. It decides defaults and freezes them, and nowhere offers alternative directorial treatments. The bible interview's questions assume the source film's answers ('natural-only?', 'if no score, what replaces it').\n\nThe bible's 'verbatim means verbatim; change only by new version' rule has no register or variant mechanism. Dream sequences, flashbacks, a single music cue, style breaks and voice changes can't be expressed without breaking the system.\n\nRecommended fixes:\n- Split engine laws from style.\n- Make the music, flare, light, medium, composition and texture policies explicit decision slots.\n- Generate negatives from the declared style.\n- Add a treatments step that proposes two or three approaches.\n- Diversify the worked examples.\n- Add named registers or sanctioned-deviation variants to the bible."
+    },
+    "probeStatus": [
+      {
+        "id": "p1-clipe-neon",
+        "status": "done"
+      },
+      {
+        "id": "p2-comercial-simetrico",
+        "status": "done"
+      },
+      {
+        "id": "p3-sonho-na-biblia",
+        "status": "done"
+      },
+      {
+        "id": "p4-fantasia-dragao",
+        "status": "done"
+      },
+      {
+        "id": "p5-stopmotion",
+        "status": "done"
+      }
+    ],
+    "judges": [
+      {
+        "probes": [
+          {
+            "id": "p1-clipe-neon",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "Over-real realism spine forced onto a stylized clip: \"OVER-REAL: damp concrete with oil stains... fine skin pores and a sweat line at the hairline... scuffed sneaker soles\"",
+              "Glow suppressed in a neon clip: \"NO LENS FLARES: no flares, no light streaks, no floating orbs, no glow overlays; every neon tube stays a clean contained line of light\" and LIGHT \"NOT: ... HDR glow\"; NEGATIVE \"lens flare, light streaks, HDR glow, vignette\". These are music-video staples the brief's 'bem estilizado' invites",
+              "Slow motion and speed ramps banned without the user asking: \"NOT: ... slow motion\", NEGATIVE \"slow motion, speed ramp\"",
+              "Arthouse subtext added: \"Soul... she is dancing the decision out of her body — every hit lands like a door closing\" and TACTIC \"to shut the door on someone\"",
+              "Anti-render clause: \"NOT a render, NOT 3D, NOT CGI, NOT plastic skin\" and \"real in skin and material\""
+            ],
+            "contradictions": [
+              "FILM LOOK asks for \"soft halation around the neon tubes\" while NO LENS FLARES forbids \"glow overlays\" and requires each tube to be \"a clean contained line of light\", and NEGATIVE bans \"HDR glow\"",
+              "WHO IS WHO says \"She stays in the centre third\" while CAMERA composition says \"slightly off-centre toward the side the camera is moving away from\". This is minor"
+            ],
+            "notes": "Serves the brief well. The music ban was inverted correctly so the song is Audio 1 only, the lip-sync window is precise, colour is saturated and the prompt says 'NOT documentary, NOT desaturated'. The leftover house style is the over-real texture list, a ban on glow and flares in a neon clip, and an invented dramatic subtext. The executor's notes admit the tree has no music-video mode."
+          },
+          {
+            "id": "p2-comercial-simetrico",
+            "fidelity": 4,
+            "creativity": 3,
+            "craft": 4,
+            "imposed_house_style": [
+              "Pristine pastel tableau dirtied by the realism spine: \"OVER-REAL: matte ceramic glaze with a tiny chip on one saucer rim... morning puffiness under the eyes, a stray hair on the girl's shoulder, slightly uneven paint on the wall\"",
+              "Film stock and saturation imposed: \"real 35mm film look, fine organic grain... muted saturation\" and \"MEGA-REAL live action — NOT a render... NOT digital-clean\" on a glossy deadpan commercial",
+              "Natural light dogma kept: \"LIGHT — NATURAL LIGHT ONLY\", then the prompt contorts itself to justify frontal flat light with \"lit evenly and frontally on purpose — this is the style\"",
+              "Leftover boilerplate negatives: \"beauty retouching... over-sharpened, HDR glow\" on a brand ad that may want a clean, retouched finish",
+              "Living-eyes micro-acting added to a deadpan brief: \"FILHO's eyes flick once toward his cup and straight back to the lens\"; \"FILHA blinks a beat later than the others\". This slightly undermines total synchrony"
+            ],
+            "contradictions": [
+              "Lock 1 demands \"the frame is perfectly symmetrical\" and COMPOSITION \"rigorous bilateral symmetry\", while OVER-REAL adds asymmetric flaws (\"tiny chip on one saucer rim\", \"stray hair on the girl's shoulder\", \"uneven paint\")",
+              "Lock 5 demands \"in unison... within a few frames\", while ACTING scripts deliberate desynchrony (\"FILHA blinks a beat later\", \"FILHO's eyes flick... toward his cup\")",
+              "The light block says \"NOT: ... flat\" in spirit (the light skill's anti-flat stance) but then asks for even frontal light. It is resolved in the text but remains awkward"
+            ],
+            "notes": "Symmetry, the locked tripod, looking into the lens and the ukulele jingle were all honoured. The executor explicitly removed 'centred, symmetrical' and 'tripod' from the standing negatives. What remains is house realism (grain, imperfections, muted saturation) bleeding into a pastel deadpan look that wants clean perfection."
+          },
+          {
+            "id": "p3-sonho-na-biblia",
+            "fidelity": 3,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "Handheld forced onto a dream: \"handheld, no dialogue\" in CONTRACT; \"camera handheld at knee height... STAYS PUT and breathes\"; \"CAMERA — handheld, the operator on foot, a real body in the rain... slow-motion tremor\"",
+              "Dream language banned: \"NOT: ... dream blur, soft-focus filter\"; NEGATIVE \"a fantasy painting look, dream blur, soft-focus filter, sparkles, light particles, rainbow, sunbeams, god rays\"",
+              "Photoreal anchor overrides the oneiric look: \"Live-action photoreal film footage\"; \"the image stays real film footage\"; Lock 2 \"WRONG if it looks like... a glowing fairy tale\"; \"NOT a fantasy grade\"",
+              "Natural light only in a dream: \"LIGHT — NATURAL LIGHT ONLY\"; \"NOT: ... a backlight or halo behind @ESPOSA, a glow around her, golden light\"",
+              "Composition dogma: NEGATIVE \"centred symmetrical framing\"; \"Composition off-centre\"",
+              "Wife de-mystified: \"NEVER glows\", \"NOT ghostly\", Lock 3 \"solid, wet, real woman\". This is defensible, but it narrows the brief's apparition"
+            ],
+            "contradictions": [
+              "The CONTRACT promises a dream where \"only the colour, the rain and the time are changed\", yet it imposes a handheld breathing operator with \"slow-motion tremor\" and bans every dream-optic device (blur, glow, soft focus)",
+              "Lock 1 asks for \"SLOW MOTION throughout, real and heavy\", while the camera is described as handheld breathing. Handheld shake in 4x slow motion reads as floaty, which the prompt itself forbids (\"floaty weightless motion\")"
+            ],
+            "notes": "It honoured the core asks: slow motion, saturated colour, intense green, the wife in white, and a faint accordion against an explicit bible ban. It was transparent about the bible conflicts. But it kept the film's gritty grammar (handheld, natural light, photoreal, 'no dream blur') inside the one scene the user wanted to break from that grammar, so the dream feels like realism with saturation turned up."
+          },
+          {
+            "id": "p4-fantasia-dragao",
+            "fidelity": 3,
+            "creativity": 3,
+            "craft": 4,
+            "imposed_house_style": [
+              "Desaturation imposed on epic fantasy: \"muted and filmic, never teal-and-orange, never saturated\"; \"no warm colour anywhere\"",
+              "Gritty handheld for an epic: \"shots 1–3 handheld by a physical operator\"; \"HORIZON: canted ~3° and wandering in shots 1–2 (loss of control)\"",
+              "Photoreal or anti-spectacle anchor: \"live-action epic fantasy film, photographed as real footage\"; \"MEGA-REAL — NOT a render, NOT a video game cinematic\"; OVER-REAL rust, soot and moss lists",
+              "Heroism suppressed: ACTING \"NOT: a heroic pose, a battle cry to the camera, slow-motion hair\"; SOUL \"she has come to cross, not to win\"",
+              "Slow motion and centred composition banned unasked: NEGATIVE \"slow motion; a drone shot... centred symmetrical composition\"",
+              "Magic constrained into physical light: Lock 3 \"WRONG if it looks like a glow overlay or a cartoon effect\"; \"NO LENS FLARES... no glow overlays; every light source stays contained within itself\"",
+              "Lightning reach reduced: \"the cliffs and depth fall into darkness\", against the brief's \"raios iluminam tudo\""
+            ],
+            "contradictions": [
+              "The brief and the prompt want the dragon's \"eyes that glow a cold electric blue\" and \"highlights bloom with halation around the fire and flashes\", while NO LENS FLARES demands \"no glow overlays; every light source stays contained within itself\"",
+              "The epic orchestral score with a choir that swells is paired with an anti-epic acting note (\"NOT a heroic pose\") and a desaturated arthouse grade",
+              "\"raios iluminam tudo\" against EXPOSURE \"the cliffs and depth fall into darkness\" and \"the chasm stays black except where fire or lightning reaches it\""
+            ],
+            "notes": "It kept the music, the blue fire, the glowing eyes and the crane reveal. The crane is protected, and the music ban was overridden. But the visual register was dragged toward grim prestige realism: muted, desaturated, handheld with a canted horizon, no heroism, no slow motion. Only the skill's house style asked for that."
+          },
+          {
+            "id": "p5-stopmotion",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 5,
+            "imposed_house_style": [
+              "The live-action acting scaffold was transplanted onto a clay puppet: \"LIVING EYES (stop-motion version)... look, settle, look again\" and TACTIC \"to master the pancake\". It is adapted, but it is still the house template",
+              "Glow and flare bans by reflex: \"NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs, no glow overlays\"; LIGHT \"NOT: ... colourful theatrical gels, glow\"",
+              "Standing boilerplate: \"even exposure corner to corner, NO vignette\"; NEGATIVE \"HDR glow, crushed blacks, warped paws, extra fingers\"",
+              "The OVER-REAL block is kept, though it is well reframed to handmade texture (\"fingerprints... lint caught in the clay\")"
+            ],
+            "contradictions": [
+              "The brief accepts \"slight motion-blur smear made of stretched clay\", while the NEGATIVE bans \"smooth fluid motion\". These are compatible but need care",
+              "LIGHT says the shadows are \"not dark\" and \"soft\", while CONTINUITY adds \"real light flicker between frames\". This is minor and intentional"
+            ],
+            "notes": "The best of the five. The executor replaced 'Live-action photoreal' with claymation, kept the cheerful music, and turned realism into stop-motion craft (shooting on twos, boil, fingerprints). The house style that remains is cosmetic boilerplate, not overriding the brief."
+          }
+        ],
+        "overall": "The systemic pattern is a gritty live-action arthouse spine that every output has to fight. The most consistent override is the default music ban: all five executors had to work around 'NO music' in the CONTRACT, sound law 6, the realism spine and the ORDER recap. They succeeded, but only through manual effort the notes document, and p3 and p4 still frame music as risky and offer 'add in post'. Second, the photoreal and over-real anchor ('MEGA-REAL', 'NOT a render', OVER-REAL grime lists, 35mm grain) gets pasted onto stylized briefs: the pastel commercial gets chipped saucers and stray hairs that break its symmetry, the fantasy gets 'never saturated' and 'no warm colour', and the dream gets 'stays real film footage'. Third, camera dogma (handheld, a 'breathing operator', bans on centred symmetry and slow motion) returns whenever the brief doesn't explicitly forbid it: p3's dream and p4's epic both went handheld, and p4 has a wandering canted horizon. Fourth, the boilerplate NO LENS FLARES / 'no glow overlays' / 'HDR glow' bans survive into a neon music video, a magic dragon and a dream, which creates internal contradictions with requested halation and glowing eyes. Fifth, the performance template adds subtext and suppresses heroism or synchrony ('NOT a heroic pose', a staggered blink that breaks unison). Fidelity was rescued by the executors, not by the skill: the tree has no stylized, music-video, commercial or animation modes, so the defaults have to be subtracted every time, and whatever is not subtracted leaks through.\""
+      },
+      {
+        "probes": [
+          {
+            "id": "p1-clipe-neon",
+            "fidelity": 4,
+            "creativity": 3,
+            "craft": 4,
+            "imposed_house_style": [
+              "Over-real realism block pasted into a stylized music video: \"OVER-REAL: damp concrete with oil stains... fine skin pores and a sweat line at the hairline... scuffed sneaker soles\"",
+              "Camera made to feel like a person instead of a graphic music-video move: \"a slight human float on the operator's steps, never a mechanical turntable spin\". A precise, mechanical orbit is exactly the clip idiom the brief describes",
+              "Glow and flare idiom banned in a neon clip: \"NO LENS FLARES: no flares, no light streaks, no floating orbs, no glow overlays\"; NEGATIVE \"HDR glow\"",
+              "Boilerplate \"even exposure corner to corner, NO vignette\" and \"NOT plastic skin\" reflexes",
+              "Speed ramps, slow motion and zooms all banned (\"NOT: ... a zoom, a whip, slow motion\", \"no speed ramp\"), which strips standard clip grammar the user didn't rule out"
+            ],
+            "contradictions": [
+              "FILM LOOK asks for \"soft halation around the neon tubes\" while NEGATIVE bans \"HDR glow\" and NO LENS FLARES bans \"glow overlays\"",
+              "LIGHT says \"the only light is the ring of neon tubes... no other source\" while GEOMETRY adds \"the city glow are beyond the ring\"",
+              "\"stays in the centre third\" and \"she does not travel more than one step from her mark\" sit awkwardly with BEAT 3's \"fast spin... a floor-hit drop to one knee\". Workable, but tight"
+            ],
+            "notes": "Strong on the hard problems: the audio-reference role, lip-sync window, pink-right/blue-left continuity lock, and the subtext \"every hit lands like a door closing... like a verdict\". But the visual ambition is timid for a pop clip. One half-revolution in 15s at walking pace is a slow, safe arc, not 'câmera girando'. Nothing is synced to the edit or the beat as camera grammar, and the over-real and no-glow reflexes pull it toward a grounded fashion film. Glossy, saturated pink/blue with violet overlap is correct but generic."
+          },
+          {
+            "id": "p2-comercial-simetrico",
+            "fidelity": 4,
+            "creativity": 3,
+            "craft": 4,
+            "imposed_house_style": [
+              "Over-real dirt imposed on a pristine pastel tableau: \"a tiny chip on one saucer rim... morning puffiness under the eyes, a stray hair on the girl's shoulder, slightly uneven paint on the wall\"",
+              "Photoreal film reflex: \"real 35mm film look... muted saturation\" and \"MEGA-REAL live action — NOT a render... NOT digital-clean\". The deadpan symmetric idiom wants crisp, controlled pastels",
+              "\"NATURAL LIGHT ONLY\" label, though it is justified as frontal and soft",
+              "\"mild real-lens softness at the edges\" works against rigorous graphic symmetry",
+              "\"NO vignette\" / \"NO LENS FLARES\" boilerplate"
+            ],
+            "contradictions": [
+              "COMPOSITION demands \"rigorous bilateral symmetry\" while OVER-REAL plants asymmetric defects (stray hair on one shoulder, a chip on one saucer, uneven wall paint)",
+              "ACTING calls for \"FILHO's eyes flick once toward his cup\" and \"FILHA blinks a beat later\" under LOCK 3's still deadpan. The intent is defensible, but it risks the unison the gag needs",
+              "Shots 3 and 4 repeat \"the exact framing of shot 1\" across a HARD CUT, which makes an unmotivated jump cut on an identical frame mid-action"
+            ],
+            "notes": "It correctly reverses the skill's anti-symmetry and anti-tripod defaults (symmetry is a lock; handheld is in the NEGATIVE), and the ukulele is kept. Good comedic specifics: the late blink, the single synchronized clink, steam still moving at the hard end. But the creative ceiling is the brief itself, with no extra gag beat or timing idea. The realism-imperfection reflex muddies the very idiom it is trying to serve. Splitting the lift and the sip across an identical-frame cut is a craft error."
+          },
+          {
+            "id": "p3-sonho-na-biblia",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "Handheld forced on a dream with no brief basis: \"camera handheld at knee height... STAYS PUT and breathes\", \"slow-motion tremor\"",
+              "Dream idiom banned: NEGATIVE \"dream blur, soft-focus filter, sparkles, light particles, rainbow, sunbeams, god rays\"; CAMERA NOT \"crane... a push into her face\"",
+              "Wife de-mythologized: \"NEVER glows\", \"NOT ghostly\", \"WRONG if she glows, is translucent... has a halo or a light behind her\". This is defensible, but it is the house anti-glow reflex",
+              "\"NATURAL LIGHT ONLY\" and \"NOT a fantasy grade\" still applied to the only fantasy scene in the film",
+              "Saturation hedged: \"Saturated by the film stock and the wet world, never by a filter\"",
+              "NEGATIVE keeps \"centred symmetrical framing\" and \"looking into the lens\""
+            ],
+            "contradictions": [
+              "LOCK 2 / SCENE want \"an intense, impossible green\" while FILM LOOK forbids \"a fantasy grade\" and requires it to stay \"never by a filter\". An 'impossible' colour cannot be purely photographic",
+              "\"gentle halation\" vs \"no glow overlays\"",
+              "Handheld \"breathes\" under 4x slow motion produces slowed tremor, which fights the stillness the soul asks for (\"He doesn't move, because moving might end it\")"
+            ],
+            "notes": "The best directing of the set: the restored-sight idea (\"his own sight\"), \"moving might end it\", her single step with mud lifting off a bare heel, the over-the-shoulder geometry that keeps him from crossing to her, and the rack focus at 9s. It handled the bible conflict transparently. But it fenced the dream back into the film's realist grammar, with handheld, a ban on every dream signifier, and anti-glow. So the 'other world' reads mostly through colour and speed, not through camera or light."
+          },
+          {
+            "id": "p4-fantasia-dragao",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "Epic fantasy desaturated: \"muted and filmic, never teal-and-orange, never saturated\", \"no warm colour anywhere\"",
+              "Spectacle disowned: \"MEGA-REAL — NOT a render, NOT a video game cinematic\", NEGATIVE \"video-game cinematic; CGI; 3D render; clean 4K\"",
+              "Heroism banned: \"NOT: a heroic pose, a battle cry to the camera, slow-motion hair\"; NEGATIVE \"slow motion\"",
+              "Handheld docu reflex in shots 1–3: \"handheld by a physical operator... canted ~3° and wandering\"",
+              "Sound labelled \"diegetic, dirty-real\" in a mythic epic",
+              "Magic glow fenced: \"WRONG if it looks like a glow overlay\" and \"NO LENS FLARES... no glow overlays\" even though the eyes and fire are magical light"
+            ],
+            "contradictions": [
+              "The brief wants glowing eyes and magic fire, but NO LENS FLARES forbids \"glow overlays\" and requires every source to stay \"contained within itself\", while FILM LOOK asks that \"highlights bloom with halation around the fire\"",
+              "\"MOTIVATED LIGHT ONLY\" and \"NOT a render\" set against a magical blue-fire, glowing-eyed dragon: the house realism undercuts the fantasy the brief celebrates",
+              "NEGATIVE \"centred symmetrical composition\" while the ending describes \"the two small in the centre of the narrow bridge\" (header)"
+            ],
+            "notes": "Real directorial ideas: \"she has come to cross, not to win\", the dragon testing her, the abyss locked to shot 4, the crane given mass and lag, the score crescendo tied to the crane, the eyes as the only colour left in a lightning whiteout, and the fire as a true light source. All of these are engine-aware and specific. But it converts epic fantasy into grim arthouse realism (muted, handheld, no heroics, no slow motion). That is a taste imposition the brief ('épica') did not ask for."
+          },
+          {
+            "id": "p5-stopmotion",
+            "fidelity": 5,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "Residual live-action spine: an \"OVER-REAL (handmade)\" block, \"LIVING EYES\", and \"even exposure corner to corner, NO vignette\" carried over by template",
+              "\"NO LENS FLARES\" and \"glow\" in the light NOT list. Harmless but reflexive",
+              "\"MOTIVATED miniature-studio light\" label"
+            ],
+            "contradictions": [
+              "NEGATIVE bans \"smooth fluid motion\" while BEAT 3 asks for \"a slight motion-blur smear\". It is clarified as a clay smear, but the engine may read it as blur",
+              "CAMERA says \"the camera STAYS PUT\" while adding a frame \"boil\" that \"makes the image feel handmade\". This is mild ambiguity about whether the frame or the clay boils"
+            ],
+            "notes": "The cleanest translation of the brief. It specifies 'on twos', boil, the replacement-lid blink, fingerprints that stay dented, the stepped bubbles, the classic smear frame, and Foley spotted to each action with the music kept under it. The comic arc (crooked landing, fussy fix, hard end mid-push) is a nice small story. It plays the camera very safe: a single locked shot, with no stop-motion camera charm like a stepped push-in. The template LIVING EYES and OVER-REAL blocks are adapted rather than dropped."
+          }
+        ],
+        "overall": "The executors repeatedly recognized the skill's pressure and overrode the most glaring bans, such as music and the rule against symmetry or tripod. The resulting prompts are dense, timeline-specific and engine-aware, and they usually carry a real subtext line. But the photoreal-arthouse house style leaks through in every probe. It shows up as a template OVER-REAL block that dirties pristine idioms (the stray hair and chipped saucer in the pastel ad, sweat lines in the neon clip), boilerplate \\\"NO vignette / NO LENS FLARES / no glow overlays\\\", handheld 'breathing' operators with no basis in the brief (the dream, the fantasy), and muted or 'never saturated' grades that hedge against the genre (dragon epic, dream). Every probe also bans glow in some form, even where glow is the point (neon, magic fire, glowing eyes, dream). The recurring internal contradiction is halation or bloom requested in FILM LOOK while 'glow' is forbidden in NEGATIVE/NO LENS FLARES. Creative choices are strongest where they go to subtext (restored sight in the dream, 'cross, not win'). They are weakest where genre spectacle is wanted: the neon orbit is timid, the epic carries no heroism, and the dream has no dream grammar. The skill needs a style-mode switch that removes the realism spine wholesale rather than leaving each executor to patch it piece by piece.\""
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Audit & Probe"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Judge"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "audit:rules",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit & Probe",
+      "agentId": "a214c114bda6a8eab",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577315635,
+      "queuedAt": 1791577315574,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "The tree's engine knowledge is solid and mostly correct: no…",
+      "promptPreview": "You are auditing a family of Claude skills for RIGIDITY — the risk that they freeze prompt-writing and ideas into one house style instead of serving each project's intent.\n\nThe skills live under /home/user/cineoro/skills/ (10 folders: cineoro-director is the root; the others are departments: story, performance, camera, light, sound, space, assets, realism, bible). Read every SKILL.md and every fil…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577456555,
+      "tokens": 112286,
+      "toolCalls": 8,
+      "durationMs": 140919,
+      "resultPreview": "{\"rules\":[{\"file\":\"cineoro-director/references/prompt-spine.md\",\"quote\":\"CONTRACT — Live-action photoreal film footage, [aspect ratio] ... [camera language: raw breathing handheld documentary], real-time motion ... NO music, NO score, NO subtitles, NO on-screen text.\",\"tier\":\"aesthetic_default\",\"presented_as_universal\":true,\"risk\":\"The 'always' CONTRACT hard-codes photoreal live-action, a handheld…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "probe:p1-clipe-neon",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit & Probe",
+      "agentId": "ab5b5fc90b6d3cbc8",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577315640,
+      "queuedAt": 1791577315574,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/home/user/cineoro/evals/rigidity/before/p1-clipe-neon/outp…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md (cineoro-story, cineoro-performance, cineoro-camera, cineoro-light, cineoro-sound,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577398458,
+      "tokens": 110871,
+      "toolCalls": 11,
+      "durationMs": 82817,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "probe:p2-comercial-simetrico",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit & Probe",
+      "agentId": "a4ad270d43ce4e8b5",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577398466,
+      "queuedAt": 1791577315574,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/home/user/cineoro/evals/rigidity/before/p2-comercial-simet…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md (cineoro-story, cineoro-performance, cineoro-camera, cineoro-light, cineoro-sound,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577488247,
+      "tokens": 117926,
+      "toolCalls": 6,
+      "durationMs": 89781,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "probe:p3-sonho-na-biblia",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit & Probe",
+      "agentId": "a7fac09ba375659b3",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577456617,
+      "queuedAt": 1791577315574,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/home/user/cineoro/evals/rigidity/before/p3-sonho-na-biblia…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md (cineoro-story, cineoro-performance, cineoro-camera, cineoro-light, cineoro-sound,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577571785,
+      "tokens": 135032,
+      "toolCalls": 8,
+      "durationMs": 115167,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "probe:p4-fantasia-dragao",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit & Probe",
+      "agentId": "a929ad93bd9cd998f",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577488252,
+      "queuedAt": 1791577315574,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/home/user/cineoro/evals/rigidity/before/p4-fantasia-dragao…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md (cineoro-story, cineoro-performance, cineoro-camera, cineoro-light, cineoro-sound,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577574493,
+      "tokens": 110668,
+      "toolCalls": 5,
+      "durationMs": 86240,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "probe:p5-stopmotion",
+      "phaseIndex": 1,
+      "phaseTitle": "Audit & Probe",
+      "agentId": "a576fd5dcf2e23375",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577571791,
+      "queuedAt": 1791577315574,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/home/user/cineoro/evals/rigidity/before/p5-stopmotion/outp…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md (cineoro-story, cineoro-performance, cineoro-camera, cineoro-light, cineoro-sound,…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577647655,
+      "tokens": 107805,
+      "toolCalls": 5,
+      "durationMs": 75863,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "judge:fidelity",
+      "phaseIndex": 2,
+      "phaseTitle": "Judge",
+      "agentId": "a009108b7a78a5c11",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577647709,
+      "queuedAt": 1791577647659,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "The systemic pattern is a gritty live-action arthouse spine…",
+      "promptPreview": "You are judging five outputs produced by a Claude skill for writing Seedance 2.5 video prompts. Each output answered a user brief that deliberately asks for a style far from a gritty photoreal-arthouse house style.\n\nFor each probe id in [p1-clipe-neon, p2-comercial-simetrico, p3-sonho-na-biblia, p4-fantasia-dragao, p5-stopmotion], read /home/user/cineoro/evals/rigidity/before/<id>/outputs/answer.m…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577710974,
+      "tokens": 107240,
+      "toolCalls": 5,
+      "durationMs": 63262,
+      "resultPreview": "{\"probes\":[{\"id\":\"p1-clipe-neon\",\"fidelity\":4,\"creativity\":4,\"craft\":4,\"imposed_house_style\":[\"Over-real realism spine forced onto a stylized clip: \\\"OVER-REAL: damp concrete with oil stains... fine skin pores and a sweat line at the hairline... scuffed sneaker soles\\\"\",\"Glow suppressed in a neon clip: \\\"NO LENS FLARES: no flares, no light streaks, no floating orbs, no glow overlays; every neon tu…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "judge:directing",
+      "phaseIndex": 2,
+      "phaseTitle": "Judge",
+      "agentId": "a30cf268a392bf8e1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791577647710,
+      "queuedAt": 1791577647660,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "The executors repeatedly recognized the skill's pressure an…",
+      "promptPreview": "You are judging five outputs produced by a Claude skill for writing Seedance 2.5 video prompts. Each output answered a user brief that deliberately asks for a style far from a gritty photoreal-arthouse house style.\n\nFor each probe id in [p1-clipe-neon, p2-comercial-simetrico, p3-sonho-na-biblia, p4-fantasia-dragao, p5-stopmotion], read /home/user/cineoro/evals/rigidity/before/<id>/outputs/answer.m…",
+      "promptFramed": true,
+      "lastProgressAt": 1791577706995,
+      "tokens": 105801,
+      "toolCalls": 3,
+      "durationMs": 58327,
+      "resultPreview": "{\"probes\":[{\"id\":\"p1-clipe-neon\",\"fidelity\":4,\"creativity\":3,\"craft\":4,\"imposed_house_style\":[\"Over-real realism block pasted into a stylized music video: \\\"OVER-REAL: damp concrete with oil stains... fine skin pores and a sweat line at the hairline... scuffed sneaker soles\\\"\",\"Camera made to feel like a person instead of a graphic music-video move: \\\"a slight human float on the operator's steps, …"
+    }
+  ],
+  "totalTokens": 907629,
+  "totalToolCalls": 51
+}

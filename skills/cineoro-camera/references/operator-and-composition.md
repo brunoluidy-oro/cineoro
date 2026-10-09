@@ -68,8 +68,9 @@ duration and a single movement.
 
 - **Thirds and weight:** the subject in a third, the look-room on the side of the gaze; negative space
   on the side the danger or the absent person is.
-- **Off-centre + asymmetry + dark background + chiaroscuro + a canted horizon in moments of lost
-  control** → cinema. Centred + symmetrical + evenly lit + readable background → render.
+- The engine's default is centred, evenly lit, background readable. Whatever composition you choose —
+  off-centre chiaroscuro (observed) or rigorous symmetry (authored, comic, ritual) — state it, so the
+  default doesn't win.
 - **Foreground:** one soft shape at a frame edge (a shoulder, a post, a fur ruff) adds depth and
   realism; a frame-filling blur is mush.
 - **Background:** state a distance beyond which everything falls into darkness or softness ("nothing

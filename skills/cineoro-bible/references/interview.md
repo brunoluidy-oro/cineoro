@@ -23,22 +23,29 @@ answer "ok". Skip what the material already answers. Stop asking when the decisi
 - Animals and their role.
 
 ## 4 · The look
-- Light system: natural-only? What is the permanent state, what is the rare man-made exception, what
-  colour appears only once?
+- Medium and register: photoreal live action, stylized live action, animation (which kind)? Observed,
+  authored, subjective, spectacle, graphic, music video?
+- Light logic: natural, stylized practicals, studio high-key, fantastical sources? Is there a
+  permanent state and a meaningful exception (a colour that appears once)?
 - Key level per type of scene (low-key nights, mid-key days).
 - Lens look (anamorphic / spherical large-format / 16mm / modern digital / phone).
 - Reference films or photographers (optional — used only as anchors next to observable descriptions).
 
 ## 5 · The camera and the cut
 - Who is the camera: an observer walking alongside, an author composing, a character?
-- Handheld or composed by default; when does it switch?
+- Handheld, locked, dolly/crane, impossible camera? When does it switch?
 - Editing grammar: jump cuts, long takes, alternating singles, composed key moments.
 - Rules: low angle when…, canted horizon only when…, never…
 
 ## 6 · The sound
-- Score or no score? If none: what replaces it (wind, breath, a drum, a lullaby)?
+- Music policy: no score / score (what kind, where) / source music / the user's tracks? What carries
+  the emotion if there is no music?
 - Where silence is used.
 - Voice continuity: audio references available?
+
+## 6b · Registers and exceptions
+- Are there scenes that must look or sound different (dream, flashback, memory, a musical number, a
+  style break)? Each becomes a declared exception with its own blocks.
 
 ## 7 · Structure and motifs
 - Acts/blocks and their events.
@@ -49,6 +56,7 @@ answer "ok". Skip what the material already answers. Stop asking when the decisi
 - What already exists (faces, turnarounds, plates, props, voice clips)? What must be built?
 - Naming preferences for tags.
 
-Defaults if the user wants to move fast: 16:9 · 1080p · Seedance 2.5 · audio on · natural motivated
-light · spherical large-format look · observer handheld with authored key moments · no score ·
-dialogue in the characters' native language.
+Defaults if the user wants to move fast: 16:9 · 1080p · Seedance 2.5 · audio on · dialogue in the
+characters' native language. For the look, never default silently — offer the 2–3 directions
+(step 2) and let the user pick; the CINEORO realist preset (natural light, observed handheld, no score)
+is only one of them.

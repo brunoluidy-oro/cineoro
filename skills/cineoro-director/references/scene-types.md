@@ -1,5 +1,10 @@
 # Scene types — starting skeletons
 
+> **Calibration, not templates.** These skeletons show what each scene type tends to need and
+> where it fails. Their camera/light/sound choices assume the realist preset — when the STYLE INTENT
+> differs, keep the failure warnings and replace the choices.
+
+
 Copy the closest type, then let the departments specialize it. Each entry: structure · camera · light
 · locks · negatives to add · pitfall. Generalized from a production that found six reference prompts
 covered ~90% of a film's shots; extended for ads and social formats.

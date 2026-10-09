@@ -50,11 +50,17 @@ Drums, footsteps, heartbeats, machines and chanting turn into a score unless hel
 "a single huge hollow low BOOM out of the dark… BOOM, closer… diegetic, slow, spaced — NOT music,
 NOT a rhythm pattern, NO score". Name the spacing, the source, the distance.
 
-## When the film has a score
+## When the film has music
 
-If music is part of the design, describe it as a source (diegetic radio, a singer in the room) or as
-a specific cue with entry second, instrument and level ("a solo cello enters at 18s, very low, under
-the breath"). The engine's default score is generic; a specific cue is the only kind that holds.
+- **Score:** describe it like a cue sheet — instrumentation, entry second, level under dialogue, how it
+  builds, where it stops ("solo cello enters at 18s, very low, under the breath; strings join at 22s;
+  cut dead at the hard end"). Generic "epic music" is replaced by the engine's stock score.
+- **Source music:** a radio, a band in the room, a singer — place it in the world and give it a
+  distance and an acoustic.
+- **Music video / the user's track:** attach the song as an audio reference with the job "the only
+  music; the performer lip-syncs the line '…' at [s–s]"; map the timeline onto the song's beats
+  (downbeats, the drop, the chorus entry) and say "no other music, no added instruments".
+- **Regional or period music:** name the instruments that belong and fence the ones that don't.
 
 ## Audio artifacts (official notes + production)
 

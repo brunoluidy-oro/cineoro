@@ -62,10 +62,10 @@ One element, one name — identical in the asset, the prompt and the table. A ch
 
 **CONTRACT line pattern** (the spine's form):
 ```
-CONTRACT — Live-action photoreal film footage, [aspect], [N] seconds total, [N] shots with [N] hard
+CONTRACT — [medium of this film] footage, [aspect], [N] seconds total, [N] shots with [N] hard
 cuts at [s, s] / ONE continuous take with no cuts, [camera language], real-time motion, dialogue as
-spoken on-camera audio in [language + accent] / no dialogue. NO music, NO score, NO subtitles, NO
-on-screen text.
+spoken on-camera audio in [language + accent] / no dialogue. [This film's music policy]. [Text policy: NO subtitles, NO
+on-screen text].
 ```
 *Template budget: all always-on templates together ≤ ~600 words; never fence one item in two
 templates.*
@@ -90,7 +90,7 @@ templates.*
 [frozen block]
 ```
 
-**NO LENS FLARES:**
+**FLARE/GLOW POLICY** (fence them, or describe the ones the film wants):
 ```
 No lens flares, no light streaks, no floating bokeh orbs, no glow overlays. Every light source stays
 small and contained within itself.
@@ -116,6 +116,18 @@ aberration" together and keep grain moderate.*
 - …
 
 ---
+
+# 1.5 · REGISTERS & EXCEPTIONS
+
+The film's deliberate breaks. Inside an exception's scope, its blocks REPLACE the standard templates
+and the style spine is regenerated for it. New exceptions: proposed by the director, approved by the
+user, bible version bumped.
+
+| Exception | Scope (scenes/generations) | What changes | Replacement blocks |
+|---|---|---|---|
+| [e.g. DREAM] | [G12, G18] | [slow motion, saturated, the one green, soft bloom allowed, score of a single accordion far away] | [FILM LOOK — DREAM · LIGHT — DREAM · CAMERA — DREAM · SOUND — DREAM · NEGATIVE — DREAM] |
+
+**Directions considered and not taken** (useful for deliberate breaks): [one line each].
 
 # 2 · PROJECT ANTI-AI-TELL RULES
 

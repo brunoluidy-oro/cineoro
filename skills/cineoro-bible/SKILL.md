@@ -1,6 +1,6 @@
 ---
 name: cineoro-bible
-description: Project-bible builder of the CINEORO directing tree for Seedance 2.5 films, series, ads and music videos. Interviews the user (or reads the treatment, script and references) and generates a dedicated PROJECT SKILL - the film's bible - with look templates pasted verbatim into every prompt, the @TAG registry, cast sheets with voice locks, props with their functions, world rules, project anti-AI-tell rules and negatives, reference prompts by scene type, the script in its original language, an optional invented-language dictionary, and the director's statement as functional rules. Use it whenever the user starts a new film or series, says "new project", "bíblia do filme", "skill do projeto", "lock the style for the whole film", "create a project skill like ANERNEQ", or when prompts for one project keep drifting in look, voice or naming. Works with cineoro-director, which uses the project skill as its source of verbatim templates.
+description: Project-bible builder of the CINEORO directing tree for Seedance 2.5 films, series, ads and music videos. Interviews the user (or reads the treatment, script and references) and generates a dedicated PROJECT SKILL - the film's bible - with look templates pasted verbatim into every prompt, the @TAG registry, cast sheets with voice locks, props with their functions, world rules, project anti-AI-tell rules and negatives, reference prompts by scene type, the script in its original language, an optional invented-language dictionary, and the director's statement as functional rules. Use it whenever the user starts a new film or series, says "new project", "bíblia do filme", "skill do projeto", "lock the style for the whole film", "create a project bible for my film", or when prompts for one project keep drifting in look, voice or naming. Works with cineoro-director, which uses the project skill as its source of verbatim templates.
 ---
 
 # CINEORO · BIBLE
@@ -46,32 +46,36 @@ and `cineoro-assets/references/asset-pipeline.md` (the registry format and asset
    have to propose beats, lines and endings: mark every invented element as a *director's proposal*
    (in the script header, the dialogue table and the reply) so the user can accept or rewrite it — the
    user's own material is never changed.
-2. **Decide the functional rules** — the director's statement turned into rules (light system,
+2. **Open 2–3 directions first** — genuinely different readings of the film (e.g. observed / authored /
+   subjective; restraint / spectacle), each with camera language, light logic, sound policy and what
+   the audience feels. The user picks or mixes; record the rejected ones in the bible (they feed later
+   deliberate breaks). See `cineoro-director/references/style-and-divergence.md`.
+3. **Decide the functional rules** — the director's statement turned into rules (light system,
    camera language, editing grammar, sound policy, palette with its one exception, motifs). Every rule
    must say *what story mechanism it serves*.
-3. **Lock the verbatim templates** — CONTRACT line pattern, FILM LOOK, base LIGHT block(s), LENS LOOK,
+4. **Lock the verbatim templates** — CONTRACT line pattern, FILM LOOK, base LIGHT block(s), LENS LOOK,
    NO LENS FLARES, standing NEGATIVE spine for this world, WORLD block. Pull starting points from
    `cineoro-light` and `cineoro-camera`, adapt once, then freeze. **Template budget:** the always-on
    templates together stay under ~600 words, and no item is fenced in two templates (an anachronism
    banned in WORLD is not repeated in the NEGATIVE spine). Every word in a template is paid in every
    prompt of the film — a bloated bible pushes every shot past 2,500 words.
-4. **Register the assets** — every character, location, prop, state and voice with one `@TAG`
+5. **Register the assets** — every character, location, prop, state and voice with one `@TAG`
    (registry format in `cineoro-assets/references/asset-pipeline.md`). On Higgsfield, name each saved
    Element exactly as its tag without the `@`, so the picker and the prompt agree.
-5. **Cast sheets** — per character: tag, age, look, hands, temperament, super-objective, what they never
+6. **Cast sheets** — per character: tag, age, look, hands, temperament, super-objective, what they never
    do, VOICE LOCK (`cineoro-sound` format).
-6. **World and daily life** — what exists, what doesn't, how things are made and used; props master list
+7. **World and daily life** — what exists, what doesn't, how things are made and used; props master list
    with function; the objects that carry more than themselves (locked harder).
-7. **Reference prompts** — one complete model prompt in SKILL.md §4.1, plus complete prompts for the
+8. **Reference prompts** — one complete model prompt in SKILL.md §4.1, plus complete prompts for the
    2–3 other main scene types in `references/reference-prompts.md`, all in the CINEORO spine (use the
    spine's CONTRACT form), so most shots start from a copy.
-8. **Write the project skill** from `assets/project-skill-template.md`, filling every section; long
+9. **Write the project skill** from `assets/project-skill-template.md`, filling every section; long
    material (full script, dictionary, extra reference prompts, registry) goes into the project skill's
    own `references/`. Paste blocks are always English; the human-facing prose (statement, acting
    notes, structure, production notes) is written in the user's language.
-9. **Mark it v1 — to test.** Templates freeze only after drafts of 2–3 scene types (list them in §11 as
+10. **Mark it v1 — to test.** Templates freeze only after drafts of 2–3 scene types (list them in §11 as
    the test plan); after the test, issue v1.1 and freeze.
-10. **Validate and package** — run the checklist below; then zip the folder as `project-[slug].skill`
+11. **Validate and package** — run the checklist below; then zip the folder as `project-[slug].skill`
     (a zip of the folder; if the skill-creator packager is available use it) so the user can install it.
 
 Detailed guidance per section, with examples of good and bad entries: `references/bible-sections.md`.
@@ -95,8 +99,15 @@ characters and locations, and says it is used with `cineoro-director` for every 
 
 ## Rules for a good bible
 
-- **Verbatim means verbatim.** Templates are never paraphrased per shot. Change them only by issuing a
-  new version of the bible.
+- **Verbatim means verbatim — within its scope.** Templates are never paraphrased per shot; they
+  change by issuing a new version. But a film is allowed to break its own rules on purpose: the bible
+  holds a **REGISTERS & EXCEPTIONS** section (dream, flashback, memory, a scored scene, a style break,
+  a voice heard through a phone) where each exception has a name, a scope (which scenes), and its own
+  replacement blocks (look, light, camera, sound, voice variant, negatives). Inside an exception, its
+  blocks replace the standard templates and the style spine is regenerated for it.
+- **New exceptions are proposed, not improvised.** When a scene needs to break the bible, the
+  director proposes the exception in one line, the user approves, the bible goes up a version.
+- **The bible serves the film.** If a rule keeps fighting good scenes, the rule is wrong — change it.
 - **One word, one meaning.** No synonyms in names, tags, templates or an invented language.
 - **Function over style.** Every visual, sonic and cultural rule names the story mechanism it serves.
 - **Composite, not reconstruction** — when a world draws on a real culture, say whether it is a

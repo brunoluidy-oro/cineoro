@@ -20,7 +20,7 @@ compression pass · minimal variant
    context only, not visual content: '…'".
 5. **The critical few (≤5)** appear in LOCKS, in the shot text where they can fail, in NEGATIVE and in
    ORDER. Music and subtitle bans appear in CONTRACT and in ORDER/NEGATIVE.
-6. **Project templates are pasted verbatim** (FILM LOOK, LENS LOOK, LIGHT base, NO LENS FLARES, WORLD,
+6. **Project templates are pasted verbatim** within their scope — a declared bible EXCEPTION replaces them for its scenes (FILM LOOK, LENS LOOK, LIGHT base, flare policy, WORLD,
    NEGATIVE spine, VOICE LOCKS).
 7. **Whole-second ranges**, contiguous; total = the generation's duration.
 8. **Descriptive style lives in its home block** (light in LIGHT, lens in CAMERA/FILM LOOK, skin in
@@ -31,10 +31,12 @@ compression pass · minimal variant
 ## 0 · CONTRACT (always)
 
 ```
-CONTRACT — Live-action photoreal film footage, [aspect ratio], [N] seconds total, [N] shots with
-[N] hard cuts at [s, s, s] / ONE continuous take with no cuts, [camera language: raw breathing
-handheld documentary], real-time motion, dialogue as spoken on-camera audio in [language + accent] /
-no dialogue. NO music, NO score, NO subtitles, NO on-screen text.
+CONTRACT — [MEDIUM: live-action photoreal / stylized live-action / stop-motion / 2D or 3D animation]
+footage, [aspect ratio], [N] seconds total, [N] shots with [N] hard cuts at [s, s, s] / ONE continuous
+take, [camera language from the STYLE INTENT], [motion: real-time / slow motion in shot N / stepped
+animation], dialogue as spoken on-camera audio in [language + accent] / no dialogue / lip-sync to the
+song in [audio ref]. [MUSIC POLICY: NO music, NO score / score: … / the user's track only]. [TEXT
+POLICY: NO subtitles, NO on-screen text / the title card "…" spelled exactly].
 ```
 
 ## 1 · REFERENCES (conditional — any attachment)
@@ -81,8 +83,9 @@ ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 2. …
 ```
 Typical: side of frame / axis; prop in hand; who is touched; body orientation across cuts; face always
-visible (or never shown); background populated; mouth shut for non-speakers; tempo (calm, not
-frantic); camera never static; nothing burns / no source in frame.
+visible (or never shown); background populated; mouth shut for non-speakers; tempo as chosen; camera
+state as chosen (moving / locked); source visibility (in or out of frame); composition as chosen
+(symmetrical / off-centre).
 
 ## 5 · TIMELINE (always)
 
@@ -136,7 +139,7 @@ CAMERA — [rig/style], the operator [position], [distance], on the [shadow] sid
 MOVEMENT: the camera [STAYS PUT and breathes / TRAVELS …]; one movement per shot.
 OPTICS: [default FOV]° unless a shot states otherwise; [outcomes]; no lens drift inside a shot.
 FOCUS: … · HORIZON: …
-NOT: [gimbal, drone, tripod lock, zoom, orbit, slow motion …]
+NOT: [the rigs/moves that contradict THIS camera language — e.g. handheld film: gimbal glide, drone; locked/symmetrical film: shake, drift, canted horizon]
 ```
 
 ## 9 · GEOMETRY (conditional — blocking matters)
@@ -165,13 +168,13 @@ LIGHT — [MOTIVATED] LIGHT ONLY, [time], [two words] (KEY): SOURCE … · REACH
 deep but breathing, even exposure, NO vignette) · CONTINUITY … · NOT …
 ```
 
-## 12 · FILM LOOK + NO LENS FLARES (always)
+## 12 · FILM LOOK + flare/glow policy (always)
 
 From the bible (verbatim) or `cineoro-light` + `cineoro-camera`.
 ```
 FILM LOOK (KEY — reproduce this exact photographic character): [capture, key, colour, contrast,
 grain, softness, frame]. [Lens look paragraph.]
-NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs, no glow overlays; every light
+[FLARE/GLOW POLICY — realist default:] NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs, no glow overlays; every light
 source stays small and contained.
 ```
 
@@ -179,9 +182,11 @@ source stays small and contained.
 
 From `cineoro-sound`.
 ```
-SOUND — DIEGETIC ONLY, dirty-real: [sources in order, with behaviour]; [silence]; [cues with seconds].
-NO music, NO score, NO BGM, NO instrumental, NO melody, NO ambient pad, NO drone, NO chimes, NO
-reverb unless the space has it.
+SOUND — [sources in order, with behaviour]; [silence]; [cues with seconds]. [MUSIC POLICY, one of:]
+· no score: NO music, NO score, NO BGM, NO instrumental, NO melody, NO ambient pad, NO drone, NO chimes.
+· score: [instrumentation, entry second, level under dialogue, how it grows, where it stops].
+· the user's track: the song in [audio ref] is the only music; lip-sync and movement land on its
+  beats [list the beats/seconds]; no other music.
 ```
 
 ## 14 · WORLD (conditional — specific period/place)
@@ -203,7 +208,7 @@ NEGATIVE: [shot-specific failures], [scene-type set], [standing spine].
 ```
 [ORDER: [N] shots, [N] hard cuts, [N]s, [camera language] — (1, 0–5s) …; (2, 5–10s) …; (3, 10–21s)
 … hard end mid-[…]. Invariants: [the critical few, one phrase each]. Look: [5–8 words of the FILM
-LOOK]. Only [@A] speaks — [N] lines. NO music, NO subtitles.]
+LOOK]. Only [@A] speaks — [N] lines. [Music policy]. [Text policy].]
 ```
 
 ---
@@ -222,11 +227,11 @@ Cut in this order and stop as soon as it fits:
 3. ACTING for faces under ~10% of the frame → the short form.
 4. GEOMETRY duplicated in the TIMELINE shot lines → keep the numbers in one place.
 5. PHYSICS & MATERIAL → keep resistance, gradual states and the OVER-REAL list; drop generic weather.
-Never cut: the critical-few repetitions, the music/subtitle bans, the ORDER recap, the voice locks,
+Never cut: the critical-few repetitions, the music and text policy (whatever it is), the ORDER recap, the voice locks,
 the lit-side lock.
 
 ## Minimal variant (insert, b-roll, quick test)
 
-CONTRACT · SCENE · TIMELINE (one shot) · CAMERA · LIGHT · FILM LOOK + NO LENS FLARES · SOUND ·
+CONTRACT · SCENE · TIMELINE (one shot) · CAMERA · LIGHT · FILM LOOK + flare policy · SOUND ·
 NEGATIVE. Even a 5-second insert keeps the light source, the camera physics and the look — that is
 what lets it cut against the rest of the film.

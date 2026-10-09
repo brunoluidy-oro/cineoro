@@ -35,6 +35,18 @@ Five principles run through everything:
 - **Seedance 2.5 facts** (limits, reference syntax, timestamps, draft/edit/extend, failure modes):
   `references/seedance-2.5.md`. Read it when settings, references or platform syntax matter.
 
+## Step 0.5 — style intent, before anything else
+
+Rules here come in three tiers: **engine laws** (facts about Seedance — never broken), **method**
+(directing craft — always applied, in the project's own idiom) and **style** (aesthetic choices — the
+brief and the bible decide). Before consulting any department, fix the **STYLE INTENT** (medium,
+register, camera language, light logic, music policy, colour/texture, motion) and list which rules of
+the CINEORO REALIST preset are switched off. The realist preset (natural light, observed handheld, no
+score, grain, off-centre, real-time, photoreal) is only the fallback when the user expresses no style.
+For a new project, open **2–3 directions** before locking; for key scenes, add one
+`ALTERNATIVE DIRECTION:` line. Full rules, the intent block and the contradiction check:
+**`references/style-and-divergence.md`** — read it at the start of every project.
+
 ## Modes
 
 | Mode | When | Output |
@@ -44,6 +56,13 @@ Five principles run through everything:
 | **C · Repair** | "this take failed", a video or description of what went wrong | diagnosis + the one changed block + the cheapest regeneration path — read `references/qa-and-repair.md` |
 | **D · Project** | new film/series/campaign | the project bible via `cineoro-bible` |
 | **E · Assets** | faces, turnarounds, props, plates, keyframes | image prompts + registry via `cineoro-assets` |
+
+**The bible is optional.** Modes A–C work without one: the director writes look, light and sound
+inside each prompt. For a long project (script → many generations) the lifecycle is: style intent and
+2–3 directions → bible v1 (Mode D, with declared exceptions) → assets (Mode E) → drafts of 2–3 scene
+types → bible v1.1 frozen → shotlist (Mode B) → generate, QA, repair (Mode C) → lessons and approved
+exceptions go back into the bible as a new version → only the affected prompts are rewritten. The
+deliverable is always prompts; the bible is the film's memory.
 
 If the idea is ambiguous in a way that changes the shot (who is in the first frame, how it ends,
 dialogue or not, aspect ratio), ask in one short message; otherwise decide and state your defaults on
@@ -75,7 +94,7 @@ recap at the end (recency). Full templates for every block, with assembly rules:
 
 | # | Block | Department | Use |
 |---|---|---|---|
-| 0 | **CONTRACT** — format, aspect, total seconds, shots/cuts, camera language, language, NO music, NO subtitles | director | always |
+| 0 | **CONTRACT** — medium, aspect, total seconds, shots/cuts, camera language, motion, language, music policy, text policy | director | always |
 | 1 | **REFERENCES** — each attachment → one job + SCOPE | assets | if references |
 | 2 | **WHO IS WHO** — roles, NEVER lists, frame sides, anti-clone, contact map | space | if people/animals |
 | 3 | **SCENE & SOUL** — what happens; the inner logic "to be played, never explained" | story + performance | always |
@@ -87,11 +106,11 @@ recap at the end (recency). Full templates for every block, with assembly rules:
 | 9 | **GEOMETRY** — positions, distances, angles, camera placement, axis, lit side | space | if blocking matters |
 | 10 | **PHYSICS & MATERIAL** — mass, resistance, gradual states, OVER-REAL | realism | always |
 | 11 | **LIGHT** — source, direction, reach, exposure, continuity, NOT | light | always |
-| 12 | **FILM LOOK** + **NO LENS FLARES** | light + camera | always |
-| 13 | **SOUND** — diegetic list, silence, music ban with synonyms | sound | always |
+| 12 | **FILM LOOK** (+ flare/glow policy) | light + camera | always |
+| 13 | **SOUND** — sources, silence, and the music policy (banned with synonyms, or the score/track described) | sound | always |
 | 14 | **WORLD** — period, place, what exists and doesn't | bible / story | if specific |
 | 15 | **NEGATIVE** — this shot's failures → scene type → standing spine | realism | always |
-| 16 | **[ORDER: …]** — compressed recap of the timeline + critical invariants + look + music/subtitle ban | director | if more than one beat |
+| 16 | **[ORDER: …]** — compressed recap of the timeline + critical invariants + look + music and text policy | director | if more than one beat |
 
 **Length:** the official guidance is ≤1,000 English words. Full CINEORO prompts usually land at
 1,000–2,000 words because locks, mechanics and geometry are control text, and production prompts of
@@ -115,9 +134,9 @@ problems). Read `references/worked-examples.md` once per session to calibrate de
 |---|---|---|
 | `cineoro-story` | any script/beat; shot count; cuts; pacing | cut on tactic switches and the reversal; reversal in one sustained shot; whole-second contiguous ranges; duration = sum; start in progress, hard end |
 | `cineoro-performance` | any face, animal or crowd | tactic (verb at a partner) instead of emotion; eyes with a job; living-eyes physiology + one involuntary detail; behaviour as mechanics |
-| `cineoro-camera` | always | shot size + FOV in degrees; TRAVELS or STAYS PUT; physical operator (height, distance, side); off-centre composition; lens look as outcomes |
-| `cineoro-light` | always | one motivated source with direction, side, reach and Kelvin; say what stays dark; "breathing shadows, NO vignette"; lit side never flips; NO LENS FLARES fence |
-| `cineoro-sound` | speech; always for the music policy | only scripted lines, labelled ON/OFF with seconds and language; delivery as mouth physics; voice lock verbatim; native orthography; music banned with synonyms top and bottom |
+| `cineoro-camera` | always | shot size + FOV in degrees; TRAVELS or STAYS PUT; physical operator (height, distance, side); composition stated with screen positions (symmetrical or off-centre — a choice); camera body stated physically (operator, rig or impossible camera); lens look as outcomes |
+| `cineoro-light` | always | every source with direction, side, reach and colour — natural, stylized or fantastical, but defined; say what stays dark; "breathing shadows, NO vignette"; lit side never flips; NO LENS FLARES fence |
+| `cineoro-sound` | speech; always for the music policy | only scripted lines, labelled ON/OFF with seconds and language; delivery as mouth physics; voice lock verbatim; native orthography; music policy stated top and bottom (banned with synonyms, or described precisely) |
 | `cineoro-space` | 2+ people, props in hands, crowds, cuts | WHO IS WHO with sides and NEVER lists; measurable distances; first frame occupied; axis and prop-hand locks; anti-clone; ≤4 referenced people |
 | `cineoro-assets` | any reference; identity drift; repairs | one job per reference + SCOPE; upload order = first appearance; keyframes bound to shots; new state → new tag; draft → final; edit the seconds instead of regenerating |
 | `cineoro-realism` | always; every repair | physics with resistance and gradual states; OVER-REAL textures; negative = shot failures → scene type → spine; diagnose before fixing |
@@ -154,7 +173,7 @@ regeneration path.
 
 ## Final checklist (silent)
 
-- Header written; every beat has seconds; total = generation duration (4–30 s)?
+- Header written with a DIRECTION line; every beat has seconds; total = generation duration (4–30 s)?
 - Spine order respected; CONTRACT opens; ORDER recap closes (multi-beat)?
 - Every reference has one job and a scope; tags present in this shot only; upload order stated?
 - WHO IS WHO with sides, NEVER lists, contact map, anti-clone (if people)?
@@ -162,8 +181,9 @@ regeneration path.
 - First frame occupied, action already in progress; hard end mid-action?
 - An ACTING block for every face, including listeners?
 - FOV in degrees per shot; TRAVELS / STAYS PUT stated; operator physical?
-- A motivated light source with reach and exposure; lit side locked; NO vignette; NO LENS FLARES?
+- STYLE INTENT fixed; nothing in locks/NEGATIVE/fences contradicts it; DIRECTION line justifies the key choices?
+- Every light source defined (natural or stylized) with reach and exposure; lit side locked; flare/glow policy stated?
 - Dialogue labelled (speaker, ON/OFF, seconds, language/accent, delivery); other mouths shut?
-- Music and subtitles banned at the top and the end?
+- Music and text policy stated at the top and the end (banned with synonyms, or described)?
 - Physics with resistance; OVER-REAL specific; negatives specific first?
 - Project templates pasted verbatim (if a bible exists); English prompt, lines in their own language?
