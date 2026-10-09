@@ -1,0 +1,418 @@
+{
+  "summary": "Re-run the 5 off-style probes plus a realism regression on the revised skill, then judge",
+  "agentCount": 8,
+  "logs": [
+    "Probes: p1-clipe-neon=done, p2-comercial-simetrico=done, p3-sonho-na-biblia=done, p4-fantasia-dragao=done, p5-stopmotion=done, r1-pescador-regressao=done"
+  ],
+  "result": {
+    "judges": [
+      {
+        "probes": [
+          {
+            "id": "p1-clipe-neon",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "THE SOUL OF THE SCENE ... 'she has said it before and gone back' (an invented psychological backstory for a pop clip)",
+              "ACTING ladder EVENT/MOTIVE/GOAL/OBSTACLE/TACTIC plus 'LIVING EYES: ... blinks uneven ... slight asymmetry in the mouth corners' for a choreographed lip-sync",
+              "MATERIAL TRUTH: '... oil stains ... scuffed white bay lines' (grime vocabulary)",
+              "'shadows breathing, never crushed, NO vignette' (realist exposure boilerplate)",
+              "'Hard end mid-beat, the camera still moving' (house hard-cut ending applied to a music clip)"
+            ],
+            "contradictions": [
+              "Lock 3 says she is 'CLOSED (breath through the nose, jaw set)' outside the line, but DIALOGUE asks for 'a breath taken through the mouth just before the line', which falls inside the closed-mouth window",
+              "The 4–9s lip-sync window is guessed without the user's audio; the card admits it and asks the user to trim the track to fit"
+            ],
+            "notes": "Serves the brief well: saturated magenta/cyan, neon as the only light, a rig orbit with explicit 'no shake', centred symmetry, eyes to the lens for the verse, the user's track as the only music, a 'NOT a documentary look' fence, and bloom allowed. The world-space colour swap during the orbit is a smart idea. The leftover house style (motive backstory, living-eyes physiology, grime textures) dilutes the pop gloss a little but does not reverse it. The notes say the skill's acting-task reference was skipped."
+          },
+          {
+            "id": "p2-comercial-simetrico",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "'LIVING EYES: ... tiny saccades ... one slow blink ... slight facial asymmetry. Involuntary detail: one small swallow' against the brief's 'sem expressão' (notes.md admits the risk)",
+              "A full ACTING ladder with 'OBSTACLE: he has not had his coffee yet' for a deadpan tableau",
+              "'real skin with pores and light freckles' / 'Clean on purpose, but real'",
+              "'Hard end mid-bar of the jingle', where a commercial normally resolves its jingle on the packshot",
+              "Involuntary details given to every family member (sniff, feet) that work against mechanical sameness"
+            ],
+            "contradictions": [
+              "Lock 1 says 'every shot is frontal ... the camera is locked' and the brief asks for 'cortes secos entre planos frontais centrados', but SHOT 4 is a 'top-down insert ... directly above the table', and CAMERA puts the tripod 'at seated eye height' for every shot",
+              "'Each mug ... handle pointing right' breaks the mirror symmetry that GEOMETRY insists is 'identical left and right'",
+              "Lock 2 has all four 'looking straight into the lens', yet @MAE 'checks the lens once at the end of his line', which implies she was looking elsewhere"
+            ],
+            "notes": "Mostly faithful: locked tripod, centred frontal shots, pastel high-key light with no vignette or grain, sync sip, ukulele described as the only music, packshot as an object-only reference, gritty grade banned in the NEGATIVE. The main faults are the top-down shot breaking its own frontal lock and realist acting physiology working against the requested blank deadpan."
+          },
+          {
+            "id": "p3-sonho-na-biblia",
+            "fidelity": 4,
+            "creativity": 5,
+            "craft": 4,
+            "imposed_house_style": [
+              "Bible/house OVER-REAL inside a dream: 'If any surface looks clean, plastic, CGI or rendered — WRONG', 'mud splashed on her bare ankles'",
+              "Realist fences in the NEGATIVE: 'centred symmetrical framing, flat even light, beauty light', which close off dream-like options the brief did not exclude",
+              "'a tripod that breathes slightly' (handheld residue on an authored frame)",
+              "Full 35mm grain and halation kept, so the dream stays in the film's stock (defensible, but a choice the brief did not make)"
+            ],
+            "contradictions": [
+              "The CONTRACT says 21:9 while the user gave no aspect ratio; consistent with the bible, so not an error",
+              "'NEVER glows ... no halo' is reasonable, but the dream gives up nearly all of its unreality, so only slow motion and colour separate it from the film",
+              "GEOMETRY says 'camera 8 m from him' yet 'deep enough to hold both faces' at 47° with her 6 m further away: plausible but thin for reading eyes"
+            ],
+            "notes": "An excellent handling of the hard case. The answer declares the bible exception openly, keeps the engine laws, and delivers slow motion, saturated green, the white dress, the smile and a distant solo accordion with an anti-forró fence. Inverting the gaze rule (he sees at once in the dream) is a real directorial idea. The leftover gritty texture policy is the only clear house imposition."
+          },
+          {
+            "id": "p4-fantasia-dragao",
+            "fidelity": 5,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "Invented backstory: 'the bridge behind her is already gone' (notes.md admits this as overreach)",
+              "'If any surface looks clean, smooth, plastic or toy-like — WRONG' plus moss/lichen grime",
+              "'shadows deep but breathing, never crushed; even exposure corner to corner, NO vignette' on a storm-and-abyss night",
+              "A shoulder-rig 'operator pushing forward' and a ~4° horizon tilt that the brief did not ask for"
+            ],
+            "contradictions": [
+              "Lightning 'fill[s] the whole frame white' yet 'even exposure corner to corner'; the abyss is 'near-black between flashes' yet must be revealed in the crane shot, with only one flash at 17s to do it",
+              "'the lit side of her face is always her right side' while she faces frame-right into a key from frame-right: the key hits her front, so 'right side' is ambiguous"
+            ],
+            "notes": "Every element of the brief is present: 21:9, 20s, armour, black scales, blue magic fire, glowing eyes scoped to the dragon, lightning, an orchestral score building to a peak, and a final crane reveal of the abyss. Glow and bloom are allowed. The house style shows up mainly as grime and an invented motive, neither of which works against the brief."
+          },
+          {
+            "id": "p5-stopmotion",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "'ACTING — ... the work happens in the eyes' with EVENT/GOAL/OBSTACLE/TACTIC for a 10s gag mouse",
+              "'OVER-REAL ... If any surface looks smooth ... — WRONG' (relabelled for clay, but still the house framing)",
+              "'Hard end mid-pose' and music that 'cuts dead at 10s', where 'musiquinha alegre' suggests a resolved button ending (notes.md flags this)",
+              "An unrequested cut (2 shots)"
+            ],
+            "contradictions": [
+              "The mouse is about 9 cm tall standing on a spool behind the stove, but the camera is 'at the mouse's eye height (about 6 cm above the tabletop)'",
+              "'NO lens flares' alongside 'the tiny flame may glow softly' is fine; 'clean image, no film grain' is consistent"
+            ],
+            "notes": "The medium is honoured strongly: claymation, stepped motion on twos, fingerprints, cotton-wool steam, a locked tripod as the stop-motion idiom, comic Foley and a described pizzicato/ukulele/glockenspiel score, with CGI and photoreal fur banned. The house imposition is structural (acting ladder, hard cut) rather than aesthetic."
+          },
+          {
+            "id": "r1-pescador-regressao",
+            "fidelity": 5,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [],
+            "contradictions": [
+              "Spatial geometry conflicts: 'the camera stays on the sea side of the AVO–NETO line' while GEOMETRY puts 'the sea's edge 10 m to frame-right' and the wides show 'the sea and the sun in the gap between them'. With the camera on the sea side, the sea would be behind the camera, not in frame-right or between them",
+              "Lock 4: 'The low sun stays ... behind the boy', but the boy faces frame-left toward the grandfather, so the sun is behind him and both faces are rim-lit only. Workable, but SHOT 3's MCU of @AVO 'from @NETO's side' places the camera roughly into the sun"
+            ],
+            "notes": "Realist rigour is intact, with no regression. Both characters get full acting tasks with living eyes. Physics is specific (cord springs back, a knot seats only under a hard pull, the net drags, sand clings). There is one named light source (low sun frame-right) with sky fill and a ban on frontal or beauty light. The music ban uses synonyms. Five locks, a voice lock with a Ceará accent, references with one job each, and a 35mm/MEGA-REAL look. The only weakness is a real axis and sea-side geometry inconsistency, plus a ~2,000-word length that the notes flag as over the official guidance."
+          }
+        ],
+        "overall": "After the change, the skill mostly serves the brief rather than its own aesthetic. All five non-realist briefs got the style they asked for: saturated neon with a rig orbit, pastel high-key with a locked tripod, a saturated slow-motion dream with an accordion, epic fantasy with glow and a crane, and stepped claymation with a score. In each case the realist defaults (handheld, music ban, no flares, grain) were explicitly turned off. The house style that remains is structural and verbal, not visual. Every output carries the full ACTING ladder and LIVING EYES physiology (most harmful in p2, where it fights 'sem expressão'), the 'If any surface looks clean — WRONG' or OVER-REAL grime clause (p3, p4, p5), 'shadows breathing / NO vignette' boilerplate, invented motives in THE SOUL lines (p1, p4), and the compulsory hard cut mid-action (p1, p2, p5) even where a clip, jingle or gag would want a resolved ending. Craft errors are mostly self-contradictions: p2's top-down insert breaks its own frontal-shot lock and the brief's 'frontal' cuts, p5's camera height doesn't match the mouse's eye height, p4's lightning versus 'even exposure', and in r1 the camera is on the sea side yet the sea is in frame. The r1 control shows no loss of realist rigour: full acting tasks, specific physics, a single motivated sun source, a music ban with synonyms, and five clear locks all hold. The skill's own notes are candid about the remaining pulls, which points to the department templates (performance, realism, story endings) as the next places to make style-conditional."
+      },
+      {
+        "probes": [
+          {
+            "id": "p1-clipe-neon",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "\"LIVING EYES: pupils move with the task; blinks uneven... involuntary detail: a quick exhale through the nose\" (arthouse micro-behaviour on a pop clip)",
+              "\"ACTING — @SINGER (fully invested in the tactic; the work happens in the eyes)\" with EVENT/MOTIVE/OBSTACLE ladder",
+              "\"MATERIAL TRUTH: ... scuffed white bay lines, oil stains\"",
+              "\"Hard end mid-beat\" / \"corte seco no meio da batida final\" (anti-resolution habit; a clip normally lands on the beat)"
+            ],
+            "contradictions": [
+              "Lock 3: mouth \"CLOSED (breath through the nose...)\" outside 4–9s vs DIALOGUE \"a breath taken through the mouth just before the line\" (at ~4s)",
+              "DIREÇÃO says she looks at the lens \"só no verso\", but BEAT 1 has her \"pivots a quarter turn to find the lens\""
+            ],
+            "notes": "Strong, specific concept: rig orbit mirrors precise choreography, world-space pink-left/blue-right so colors swap on screen each half-turn - a genuinely engine-aware continuity lock. Correctly treats @Audio 1 as sole music, asks user to trim so the verse lands at 4–9s, flags engine voice-generation risk. 9:16 stylized look, bloom/halation allowed. Choreography beats concrete (V-arms, finger slash on each 'mais'). Deductions: realist acting/eyes scaffolding imported wholesale; the 'precision IS defiance' soul line is generic-arthouse framing for a pop clip; minor internal breath conflict."
+          },
+          {
+            "id": "p2-comercial-simetrico",
+            "fidelity": 4,
+            "creativity": 3,
+            "craft": 4,
+            "imposed_house_style": [
+              "\"LIVING EYES: ... tiny saccades between the two sides of the lens, one slow blink... slight facial asymmetry\" (fights 'sem expressão' deadpan; notes admit it)",
+              "\"OBSTACLE: he has not had his coffee yet, so speaking at all costs him effort\" (psychological ladder on a sight gag)",
+              "\"real skin with pores and light freckles\" / \"NOT a render, NOT AI-CGI\"",
+              "\"Hard end mid-bar of the jingle\" on a commercial packshot",
+              "\"one small sniff\", \"one small swallow\" involuntary details"
+            ],
+            "contradictions": [
+              "Lock 5 \"SEATING ORDER ... in every shot\" vs SHOT 2 \"MCU of @PAI alone\" and SHOT 4/5 with no visible row",
+              "Lock 2 \"all four faces ... looking straight into the lens\" vs SHOT 4 \"Hands only, no faces\"",
+              "@MAE \"checks the lens once at the end of his line\" while she is supposed to be staring into the lens the whole time"
+            ],
+            "notes": "Executes the Andersonian brief well: locked tripod, numeric symmetric geometry (−0.85/−0.30/+0.30/+0.85 m), high-key frontal light with an actual source, pastel palette, ukulele that drops under the line and stops dead for the clack - a nice comic-timing device. Object-only packshot handling and label-risk note are engine-aware. But choices are largely the obvious ones; the deadpan is undercut by mandated eye micro-life; lock wording is copy-paste and collides with its own shot list."
+          },
+          {
+            "id": "p3-sonho-na-biblia",
+            "fidelity": 4,
+            "creativity": 5,
+            "craft": 4,
+            "imposed_house_style": [
+              "\"OVER-REAL: ... If any surface looks clean, plastic, CGI or rendered — WRONG\" in a dream",
+              "\"a tripod that breathes slightly (small slow drift)\" (operator-body habit)",
+              "NEGATIVE includes \"centred symmetrical framing, flat even light\" - dream could legitimately use them",
+              "\"real 35mm colour negative, moderate organic MOVING grain\" retained (defensible as bible continuity)"
+            ],
+            "contradictions": [
+              "@ESPOSA \"NEVER glows\" / negative \"halo, glow\" vs FILM LOOK \"gentle halation on the white dress and the rain\"",
+              "LIGHT \"soft and shadowless\" vs \"a soft brighter edge on the frame-right side of each face\" (minor)"
+            ],
+            "notes": "Best directorial thinking of the set: treats dream as a declared exception, and inverts the bible's signature gaze-miss rule so in the dream his eyes land 'first try' - a surprising, meaning-bearing choice. Placement G15b, @ESPOSA registry flag, alternative where she never appears. Slow-motion one-speed-per-shot, 6 m gap lock, accordion fenced from forró. Some realist grit language leaks into what should be a luminous dream, but mostly bible-justified."
+          },
+          {
+            "id": "p4-fantasia-dragao",
+            "fidelity": 4,
+            "creativity": 4,
+            "craft": 3,
+            "imposed_house_style": [
+              "\"If any surface looks clean, smooth, plastic or toy-like — WRONG\"",
+              "\"NOT: ... a heroic pose\" in an epic-fantasy brief",
+              "\"LIVING EYES ... she spits rainwater from her lips\" / full EVENT-MOTIVE ladder; invented \"the bridge behind her is already gone\"",
+              "\"shoulder rig ... the operator pushing forward one step\" and \"tilts ~4°\" (operator-body habit)",
+              "\"even exposure corner to corner, NO vignette\" boilerplate in a lightning-storm night"
+            ],
+            "contradictions": [
+              "\"even exposure corner to corner\" vs abyss/sky \"fall to near-black between flashes\" and full-frame white lightning",
+              "CONTINUITY \"lit sides never flip\" vs lightning from behind the dragon as a second key (notes concede)",
+              "Lock 1 \"camera never crosses the bridge axis\" with SHOT 3 camera '2 m from the dragon's head' and her 'behind him' - spatially muddled"
+            ],
+            "notes": "Good engine-aware locks (fire always BLUE, shield/sword hands, nothing but abyss below, crane as one unbroken rise) and a smart two-light dramaturgy (constant blue vs timed lightning) with scored orchestral cue map peaking at 17s synced to a flash. Crane reveal correctly reserved for the end. But realist fences undercut epic grandeur (no heroic pose, grime-mandate), boilerplate exposure clauses conflict with the storm design, and shot 3 geometry is unclear."
+          },
+          {
+            "id": "p5-stopmotion",
+            "fidelity": 5,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [
+              "\"ACTING — @CHEF MOUSE (fully invested in the tactic; the work happens in the eyes)\" with EVENT/GOAL/OBSTACLE",
+              "\"LIVING EYES: ... involuntary detail\"",
+              "\"Hard end mid-pose\" with music \"cuts dead at 10s\" on a cheerful gag",
+              "\"NEVER looks into the lens\" (claymation gags often play to camera)"
+            ],
+            "contradictions": [
+              "NOT \"cartoon-squash-and-stretch exaggeration\" vs SOUND \"cartoonish pops\", squeaky 'boing' and clay that \"squashes and flattens on landing\" (mild tension)"
+            ],
+            "notes": "Most medium-native answer: animated on twos (12 poses/s), locked tripod as real stop-motion idiom, cotton-wool steam on wire, cellophane flame, clay 'boiling', blinks as eyelid replacements, fingerprint whorls - concrete, surprising, engine-aware (negatives against interpolation/motion blur, draft check for fluid motion). Music cue holds a suspended note on the throw and resolves on landing. Over-structured acting and the forced hard-cut ending are the only house residue."
+          },
+          {
+            "id": "r1-pescador-regressao",
+            "fidelity": 5,
+            "creativity": 4,
+            "craft": 4,
+            "imposed_house_style": [],
+            "contradictions": [
+              "Camera kept \"on the sea side of the AVO–NETO line\" yet the sea and sun are \"frame-right\" behind the boy (\"the sea's edge 10 m to frame-right\") - if the camera were on the sea side, the sea/sun would be behind the camera, not in frame",
+              "CONTRACT \"handheld... breathes\" while every shot \"STAYS PUT\" - deliberate softening, not a contradiction per se"
+            ],
+            "notes": "No loss of realist rigor: full acting tasks for both (test the work not the boy; steal glances at hands), knot physics with resistance and a self-mending-net lock, single named light source (low sun ~3000 K + 7500 K sky fill, long shadows), exhaustive music ban with synonyms, one-line dialogue lock with accent and VOICE LOCK, reference scoping (jangada object-only), Higgsfield token note, child-face provider warning. Directorial idea (affection shown only by letting go silently, eyes already on the sea) is specific. Only real flaw is the axis/sun geometry inconsistency and ~2,000-word length."
+          }
+        ],
+        "overall": "Across the five off-style briefs, the skill now honors the requested aesthetic in the parts that matter most: saturated neon and orbit (p1), a locked, symmetrical high-key frame (p2), slow motion and saturated green with a declared exception to the bible (p3), magic glow and a crane (p4), and stepped claymation (p5). The best answers, p3 and p5, make directorial choices that are specific to the medium and aware of what the engine can do: the gaze inversion in the dream, and stop-motion animated on twos with practical-effect steam. The remaining house style is structural rather than aesthetic. Every answer carries the arthouse acting ladder (\"the work happens in the eyes\", LIVING EYES, involuntary details), a material-grime mandate (\"If any surface looks clean… WRONG\"), \"hard end mid-X\" endings, and an \"even exposure, NO vignette\" boilerplate. This residue undercuts deadpan comedy (p2) and epic grandeur (p4). It also creates small internal contradictions: lock wording copied from the template that clashes with the shot lists (p2, p4), and a mouth-versus-nose breath conflict in p1. The regression case r1 keeps full realist rigor (acting tasks, knot physics, a single sun source, the music ban, locks and reference scoping). Its one real defect is a camera-axis versus sun/sea geometry inconsistency. Net: style fidelity is good. Creativity is strongest where the brief invites conceptual inversion. Craft loses points for template boilerplate that is not adapted to non-realist genres."
+      }
+    ]
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Probe"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Judge"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "probe:p1-clipe-neon",
+      "phaseIndex": 1,
+      "phaseTitle": "Probe",
+      "agentId": "a2be28b7e71b06b74",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578477259,
+      "queuedAt": 1791578477246,
+      "attempt": 1,
+      "lastToolName": "Bash",
+      "lastToolSummary": "mkdir -p /home/user/cineoro/evals/rigidity/after/p1-clipe-n…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md. Read what the skill tells you to read for this task (respect its reading budget).…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578559892,
+      "tokens": 121685,
+      "toolCalls": 9,
+      "durationMs": 82631,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "probe:p2-comercial-simetrico",
+      "phaseIndex": 1,
+      "phaseTitle": "Probe",
+      "agentId": "a0351f5a67b9bf5b6",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578477259,
+      "queuedAt": 1791578477247,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/home/user/cineoro/evals/rigidity/after/p2-comercial-simetr…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md. Read what the skill tells you to read for this task (respect its reading budget).…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578583832,
+      "tokens": 129678,
+      "toolCalls": 9,
+      "durationMs": 105972,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "probe:p3-sonho-na-biblia",
+      "phaseIndex": 1,
+      "phaseTitle": "Probe",
+      "agentId": "a5a9248456492ff2b",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578559897,
+      "queuedAt": 1791578477247,
+      "attempt": 1,
+      "lastToolName": "Bash",
+      "lastToolSummary": "mkdir -p /home/user/cineoro/evals/rigidity/after/p3-sonho-n…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md. Read what the skill tells you to read for this task (respect its reading budget).…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578672543,
+      "tokens": 157501,
+      "toolCalls": 9,
+      "durationMs": 112645,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "probe:p4-fantasia-dragao",
+      "phaseIndex": 1,
+      "phaseTitle": "Probe",
+      "agentId": "ab8eb49e6d8766d9c",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578583837,
+      "queuedAt": 1791578477247,
+      "attempt": 1,
+      "lastToolName": "Bash",
+      "lastToolSummary": "mkdir -p /home/user/cineoro/evals/rigidity/after/p4-fantasi…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md. Read what the skill tells you to read for this task (respect its reading budget).…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578675348,
+      "tokens": 123963,
+      "toolCalls": 5,
+      "durationMs": 91511,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "probe:p5-stopmotion",
+      "phaseIndex": 1,
+      "phaseTitle": "Probe",
+      "agentId": "afb23289cdef61872",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578672547,
+      "queuedAt": 1791578477247,
+      "attempt": 1,
+      "lastToolName": "Bash",
+      "lastToolSummary": "mkdir -p /home/user/cineoro/evals/rigidity/after/p5-stopmot…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md. Read what the skill tells you to read for this task (respect its reading budget).…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578737000,
+      "tokens": 114257,
+      "toolCalls": 5,
+      "durationMs": 64453,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "probe:r1-pescador-regressao",
+      "phaseIndex": 1,
+      "phaseTitle": "Probe",
+      "agentId": "a3109485f71b181ec",
+      "agentType": "general-purpose",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578675352,
+      "queuedAt": 1791578477248,
+      "attempt": 1,
+      "lastToolName": "Bash",
+      "lastToolSummary": "mkdir -p /home/user/cineoro/evals/rigidity/after/r1-pescado…",
+      "promptPreview": "You are testing a Claude skill. Act exactly as Claude would when a user sends the task below and this skill is installed.\n\nSkill: the CINEORO directing tree. Start by reading /home/user/cineoro/skills/cineoro-director/SKILL.md and follow it. It routes to department skills at /home/user/cineoro/skills/<name>/SKILL.md. Read what the skill tells you to read for this task (respect its reading budget).…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578771637,
+      "tokens": 144486,
+      "toolCalls": 10,
+      "durationMs": 96284,
+      "resultPreview": "DONE"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "judge:fidelity",
+      "phaseIndex": 2,
+      "phaseTitle": "Judge",
+      "agentId": "af0d9f5a4437495da",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578771692,
+      "queuedAt": 1791578771641,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "After the change, the skill mostly serves the brief rather …",
+      "promptPreview": "You are judging six outputs produced by a Claude skill for writing Seedance 2.5 video prompts. Five answered briefs that deliberately ask for styles far from a gritty photoreal-arthouse house style; the sixth (r1-pescador-regressao) asks for exactly that realist style and checks it did not get weaker.\n\nFor each id in [p1-clipe-neon, p2-comercial-simetrico, p3-sonho-na-biblia, p4-fantasia-dragao, p…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578829079,
+      "tokens": 116605,
+      "toolCalls": 3,
+      "durationMs": 57386,
+      "resultPreview": "{\"probes\":[{\"id\":\"p1-clipe-neon\",\"fidelity\":4,\"creativity\":4,\"craft\":4,\"imposed_house_style\":[\"THE SOUL OF THE SCENE ... 'she has said it before and gone back' (an invented psychological backstory for a pop clip)\",\"ACTING ladder EVENT/MOTIVE/GOAL/OBSTACLE/TACTIC plus 'LIVING EYES: ... blinks uneven ... slight asymmetry in the mouth corners' for a choreographed lip-sync\",\"MATERIAL TRUTH: '... oil s…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "judge:directing",
+      "phaseIndex": 2,
+      "phaseTitle": "Judge",
+      "agentId": "a3b2a8fbe90375b85",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791578771693,
+      "queuedAt": 1791578771641,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Across the five off-style briefs, the skill now honors the …",
+      "promptPreview": "You are judging six outputs produced by a Claude skill for writing Seedance 2.5 video prompts. Five answered briefs that deliberately ask for styles far from a gritty photoreal-arthouse house style; the sixth (r1-pescador-regressao) asks for exactly that realist style and checks it did not get weaker.\n\nFor each id in [p1-clipe-neon, p2-comercial-simetrico, p3-sonho-na-biblia, p4-fantasia-dragao, p…",
+      "promptFramed": true,
+      "lastProgressAt": 1791578832583,
+      "tokens": 116592,
+      "toolCalls": 3,
+      "durationMs": 60228,
+      "resultPreview": "{\"probes\":[{\"id\":\"p1-clipe-neon\",\"fidelity\":4,\"creativity\":4,\"craft\":4,\"imposed_house_style\":[\"\\\"LIVING EYES: pupils move with the task; blinks uneven... involuntary detail: a quick exhale through the nose\\\" (arthouse micro-behaviour on a pop clip)\",\"\\\"ACTING — @SINGER (fully invested in the tactic; the work happens in the eyes)\\\" with EVENT/MOTIVE/OBSTACLE ladder\",\"\\\"MATERIAL TRUTH: ... scuffed w…"
+    }
+  ],
+  "totalTokens": 1024767,
+  "totalToolCalls": 53
+}
