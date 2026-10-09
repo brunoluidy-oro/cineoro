@@ -22,7 +22,8 @@ action-critical details (+ voice, if the character speaks)`.
 1. **Pass one — the face.** Generated once, always in close-up, neutral expression, soft directional
    light, real skin texture (pores, asymmetry, marks). This portrait is the anchor every other asset is
    checked against.
-2. **Pass two — the look.** Full figure (front/side/back turnaround on a neutral grey ground),
+2. **Pass two — the character sheet.** The standard template (`character-sheet.md`): close-up +
+   full-body front + full-body back on neutral grey,
    wardrobe materials and wear, silhouette, built to the locked face.
 3. **Hands** if they matter (they usually do): a close-up of the hands with their marks, size and
    condition — two characters' hands must never look alike if they touch on screen.
@@ -65,13 +66,9 @@ asymmetry and marks [list], no makeup, no retouching, plain dark grey background
 perspective, photoreal, not a render.
 ```
 
-**Look / turnaround**
-```
-Full-body character turnaround of the same person as the reference portrait — front, side, back —
-standing neutral, on a plain mid-grey seamless background, even soft light; wardrobe: [materials, wear,
-fit, how it is fastened, what hangs from the belt and why]; photoreal documentary costume photography,
-real fabric weight and dirt; same face exactly as the reference.
-```
+**Character sheet (face + front + back)** — always use the standard template in
+`character-sheet.md`, adapted to the request (3D, art style, creature, other views). Never write a
+free-form turnaround prompt.
 
 **Prop**
 ```

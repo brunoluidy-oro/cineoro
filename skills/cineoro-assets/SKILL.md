@@ -92,6 +92,9 @@ Official 2.5 phrasing for keyframe chains also works: "Use Images 2 to 4 in orde
 | The take is good but ends too early | **extend** forward from it |
 | Testing blocking/timing cheaply | **draft** (480p) → finalize the same draft to 1080p |
 
+**Character sheets** always use the standard template in **`references/character-sheet.md`**,
+adapted (never replaced) for 3D, art styles, creatures or other views.
+
 Full iteration loop, chaining, edit/extend wording and the draft workflow:
 **`references/reference-usage.md`**. How to build each asset (face anchor, turnaround, props,
 location plates, state variants, voice clips) with ready image prompts:
