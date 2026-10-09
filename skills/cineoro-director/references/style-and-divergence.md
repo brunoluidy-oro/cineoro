@@ -76,6 +76,19 @@ In the plain-language header, add one line: `DIRECTION: [the 2–3 choices that 
 shot, and why]`. A choice that can't be justified from the scene or the project is a default — either
 justify it or change it.
 
+## Residual house habits to drop when the intent differs (found in testing)
+
+- **Acting depth follows the register.** Full ladder (motive, obstacle, tactic) for drama; for a
+  deadpan gag, choreography or a lip-synced clip, use the short form — the task is the performance
+  idiom itself ("hold a blank stare in perfect unison", "sell the line to the lens"). Living-eyes
+  physiology is a safety for long holds on live-action faces, not a rule for blank tableaux or puppets.
+- **Endings follow the form.** "Hard end mid-action" is for observed drama; a commercial resolves on the
+  packshot, a song phrase resolves on the beat, a gag lands on the button.
+- **Material truth, not grime.** Never add dirt, sweat or "WRONG if clean" to pristine idioms.
+- **Exposure boilerplate** ("breathing shadows, NO vignette") only where the engine's darkening is a
+  risk; a high-key or graphic look states its own exposure.
+- **No invented backstory** in the SOUL line beyond what the scene needs.
+
 ## Contradiction check (QA)
 
 Before delivering, read the prompt against the STYLE INTENT: anything the intent asks for that a lock,
