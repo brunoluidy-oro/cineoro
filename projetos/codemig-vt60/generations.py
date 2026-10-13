@@ -86,93 +86,101 @@ def cut_list(cuts):
     return ", ".join(f"{c}s" for c in cuts)
 
 
-# ---------------------------------------------------------------- T01 (+ mergulho na terra)
-T01 = join(
-    contract(13, "2 shots with 1 hard cut at 4s", "handheld throughout; shot 2 ends with the camera plunging down into the earth until the frame is black"),
+# ---------------------------------------------------------------- T01-A (aberto, ele vira)
+T01A = join(
+    contract(5, "ONE continuous take, no cuts", "handheld, drifting slowly", dialogue=False),
     f"""REFERENCES — each reference has ONE job:
-@JOVEM — IDENTITY of @JOVEM: face, hair, build, hands and wardrobe. 100% matches.
-@PICO — WORLD: the summit — grey rock, low grass, the layered sea of green hills beyond; the world for both shots.
-{SCOPE_ID} @PICO supplies geography and materials ONLY — its light is replaced by the LIGHT block.""",
-    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST: looks at the hills, turns, speaks once; NEVER walks away, NEVER raises his arms; owns the frame-LEFT third in shot 1.
-FACES: his face exists once; nobody else in the frame.""",
-    """SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil. @JOVEM is already standing near the edge with his back to the camera, looking over a sea of green hills that runs in layers to the horizon.
-THE SOUL OF THE SCENE (play it, never explain it): he loves where he comes from and can't wait to tell you why — then the film dives into the ground he is talking about.""",
-    f"""{LOCKS_HEAD}
-1. Exactly 2 shots, 1 hard cut at 4s; shot 2 is ONE continuous movement from his face down into the earth — WRONG if there are extra cuts.
-2. Handheld in both shots — WRONG if the camera is locked or glides.
-3. The take ENDS on a completely black frame inside the earth — WRONG if it ends on anything else.
-4. His eyes are alive and on the lens while he speaks — WRONG if glassy.
-5. Only @JOVEM speaks, one line — NO music.""",
-    timeline(2, [4], [
-        "SHOT 1 (0–4s) — WS, 63°, handheld from 8 m behind him, drifting slowly: @JOVEM at the frame-LEFT third, back to camera, the sea of hills filling the right two-thirds; at 2–4s he turns toward the camera over his left shoulder, already smiling. HARD CUT.",
-        "SHOT 2 (4–13s) — CU, 29°, handheld 1 m from his face: at 4–7s he speaks to the lens, proud and happy; at 7–8s he holds your eyes with the smile; at 8–10s the camera drops — it tilts and sinks down past his chest and his boots to the ground; at 10–12s it plunges straight into the earth: the grass and the surface pass the lens, roots, layers of red soil and rock slide upward, a dark seam of iron ore glints for a moment; at 12–13s the earth closes in and the frame goes completely black. Hard end on black.",
-    ]),
-    dialogue(line(4, 7, "JOVEM", "Em Minas, terra não é só terra."), "JOVEM"),
-    acting("JOVEM", "he grew up here and is proud of this land.",
-           "turn to you like to a friend who just arrived and show it off — say it with the pleasure of good news.",
-           "in shot 1 they travel the hills; after the turn they find the lens and check both of your eyes.",
-           "the wind lifts his collar and he laughs a little through his nose", "a heroic pose, open arms"),
-    T.handheld("\nSHOT 2 MOVEMENT: after the line the operator drops the camera down his body and into the ground in one continuous move — a real camera body going down, small sway and tremor, never a CGI fly-through."),
-    """PHYSICS & MATERIAL — the wind from frame-left combs the grass and moves his overshirt; his boots shift on the rock when he turns; in the descent, loose soil and small stones fall past the lens at the speed of the movement, roots hang and sway, the soil is denser and darker with depth, the ore heavy with metallic glints. """ + REAL + """ MATERIAL TRUTH: lichen on the grey rock, the weave of his overshirt, stubble and pores on his skin, roots with soil clinging, the banded grey hematite of the ore.""",
-    T.LIGHT_EXT + "\nIN THE EARTH (10–13s): only the daylight falling in from above, weaker with every layer, until nothing is left and the frame is black; NO invented lamp underground.",
-    T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: wind across the open summit; dry grass hissing; his boots on grit as he turns; a hawk far off; in the descent, soil scraping and crumbling, stones ticking, the wind cut off as the ground closes, a deep low rumble of rock, then near silence on the black. {T.MUSIC_POLICY}""",
-    T.WORLD,
-    f"""NEGATIVE: extra cuts, a dolly or drone move, a CGI cross-section, a game-style cutaway, glowing ore, gold, gems, lava, a headlamp underground, ending on anything but black, a second person, raised arms, sun disc in frame, {T.NEG_SPINE}.""",
-    """[ORDER: 2 shots, 1 hard cut at 4s, 13s, handheld — (1, 0–4s) wide: his back to camera at the frame-LEFT third, the sea of hills; he turns, smiling — (2, 4–13s) close-up: his line to the lens, proud and happy; then the camera drops down his body and plunges into the earth — roots, soil, rock, a glint of ore — to complete black. Invariants: one cut only; handheld; ends on black; living eyes; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
-)
-
-# ---------------------------------------------------------------- T02 (aço → sala, T02-B2 + T03)
-T02 = join(
-    contract(14, "3 shots with 2 hard cuts at 5s and 11s", "handheld throughout; shot 1 is an impossible camera that comes out of darkness, through a steel roof structure and down into a classroom", extra=" (shot 1 travels fast; all speech happens after it lands)"),
-    f"""REFERENCES — each reference has ONE job:
-@ALUNO — IDENTITY of @ALUNO: face, hair, build, hands and wardrobe. 100% matches.
-@PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands and wardrobe. 100% matches.
+@JOVEM — IDENTITY of @JOVEM: face, hair, build, hands, wardrobe and backpack. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@ALUNO ({ANCH['ALUNO']}) — the STUDENT: raises his hand, answers, beams; NEVER stands; owns the frame-LEFT half.
-@PROFESSORA ({ANCH['PROFESSORA']}) — the TEACHER: comes to his desk, completes the idea; NEVER sits; owns the frame-RIGHT half.
-FACES: each face exists once; the classmates are distinct Brazilian children, soft in the background, silent, mouths closed; no twins, no clones.
-CONTACT: the only touch is @PROFESSORA's right hand on @ALUNO's shoulder in shot 3; nobody else touches anyone.""",
-    """SCENE — A bright, recently built Brazilian public school classroom in Minas Gerais on a weekday afternoon; a lesson is under way. The camera arrives out of darkness through the steel of the roof and lands on a student who already knows the answer.
-THE SOUL OF THE SCENE (play it, never explain it): the boy's short answer is the thesis of the film and he is delighted to give it; the teacher, proud of him, turns it into the lesson.""",
+@JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST: looks at the hills, turns toward the camera; NEVER speaks in this take, NEVER walks away, NEVER raises his arms; owns the frame-LEFT third.
+FACES: his face exists once; nobody else in the frame.""",
+    """SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil. @JOVEM is already standing near the edge with his back to the camera, looking over a sea of green hills that runs in layers to the horizon.
+THE SOUL OF THE SCENE (play it, never explain it): he loves where he comes from and is about to tell you why.""",
     f"""{LOCKS_HEAD}
-1. Exactly 3 shots, 2 hard cuts at 5s and 11s — WRONG if there are extra cuts.
-2. Nobody speaks during shot 1; both lines happen in shot 2 — WRONG if anyone speaks while the camera travels.
-3. @ALUNO frame-LEFT seated, @PROFESSORA frame-RIGHT standing — WRONG if they swap sides or she sits.
-4. @ALUNO speaks only "É futuro."; @PROFESSORA only "Minério não é só minério."; every other mouth closed.
-5. Handheld in every shot; daylight from frame-LEFT — NO music.""",
-    timeline(3, [5, 11], [
-        "SHOT 1 (0–5s) — impossible camera with a handheld body: the frame starts completely black; at 1–2s slim steel beams of a modern roof structure emerge from the dark and rise past the lens as the camera descends between them; at 2–3s it passes a gap in the ceiling and enters the classroom from above, decelerating; at 3–5s it arrives in a CU, 47°, of @ALUNO's hand shooting up from his desk to answer. HARD CUT.",
-        "SHOT 2 (5–11s) — MWS (from the knees up, the classroom around them), 47°, handheld drifting slowly: @ALUNO seated at his desk in the frame-LEFT half, hand still up, @PROFESSORA arriving beside him in the frame-RIGHT half; at 6–7s he answers to the lens; at 8–10s she completes it to the lens, as to the whole class. HARD CUT.",
-        "SHOT 3 (11–14s) — CU, 29°, handheld: @ALUNO beaming, @PROFESSORA's hand landing on his shoulder, two classmates behind him grinning, soft. Hard end mid-moment.",
+1. ONE continuous handheld take, no cuts — WRONG if it cuts or the camera is locked.
+2. @JOVEM is in frame from the first frame, at the frame-LEFT third, back to camera — WRONG if the first frame is empty or he walks.
+3. NO dialogue — his mouth stays closed — WRONG if he speaks.
+4. Sun from frame-LEFT — NO music.""",
+    timeline(1, [], [
+        "BEAT 1 (0–3s) — WS, 63°, handheld from 8 m behind him, drifting slowly: @JOVEM at the frame-LEFT third, back to camera, his backpack on both shoulders, the sea of hills filling the right two-thirds; his eyes travel the horizon.",
+        "BEAT 2 (3–5s) — he turns toward the camera over his left shoulder, already smiling, and his eyes find the lens. Hard end the moment he faces the camera.",
     ]),
-    dialogue(line(6, 7, "ALUNO", "É futuro."), line(8, 10, "PROFESSORA", "Minério não é só minério."),
-             "ALUNO", "PROFESSORA"),
-    acting("ALUNO", "he knows the answer and loves being right.",
-           "answer fast and bright and check in your eyes that you're impressed.",
-           "on the lens when he answers, then up at her.",
-           "his feet swing under the desk", "a cute pose, a child-actor performance"),
-    acting("PROFESSORA", "she is proud of her student.",
-           "take his answer and hand it to everyone as the lesson, delighted.",
-           "a quick proud look at him, then to the lens as to the whole class.",
-           "she squeezes his shoulder a little", "lecturing, pointing a finger"),
-    "ACTING — classmates (background): follow the exchange, a few smile; NOT looking at the lens, NOT speaking.",
-    T.handheld("\nSHOT 1 MOVEMENT: a real camera body descending fast through the roof structure and decelerating into the room — small sway, never a CGI fly-through."),
-    """GEOMETRY — large windows along the frame-LEFT wall; @ALUNO at a second-row desk facing the camera; @PROFESSORA standing 60 cm to his right (frame-RIGHT); in shot 2 the camera 2.5 m in front of his desk at 1.1 m height; classmates 1.5–5 m behind them, soft.""",
-    """PHYSICS & MATERIAL — in shot 1, dust motes stream past the steel; the beams are solid and painted; the boy's arm shoots up with a little jolt of the chair; the desk shifts a centimetre; her hand lands with real weight on his shoulder. """ + REAL + """ MATERIAL TRUTH: the matte paint of the steel beams, new laminate desks, a clean whiteboard with no writing, colourful backpacks on the chairs, the cotton of the green school T-shirt, sunlight on the floor.""",
-    """LIGHT — MOTIVATED LIGHT ONLY, afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
-START (0–1s): black.
-DURING (1–3s): thin blades of daylight from the roof gaps cross the steel beams from frame-LEFT; between them, shade.
-END (3s on): the key is daylight through the big windows on frame-LEFT, ~5600 K, on the frame-LEFT side of every face; the room behind a stop darker; blacks slightly lifted; corners allowed to fall into shade.
-CONTINUITY: once inside, the daylight stays frame-LEFT in every shot.
-NOT: flat ceiling-panel light as the key, frontal fill, beauty light, sunbeam shafts.""",
+    """ACTING — @JOVEM: TACTIC take in the view he loves, then turn to share it with you; eyes on the far ridges, then on the lens; involuntary detail: the wind lifts his collar; NOT a heroic pose, open arms, a solemn face.""",
+    T.handheld(),
+    """PHYSICS & MATERIAL — the wind from frame-left combs the grass and moves his overshirt; his boots shift on the rock when he turns; the backpack sways with the turn. """ + REAL + """ MATERIAL TRUTH: lichen on the grey rock, the weave of his overshirt, the backpack's fabric and straps.""",
+    T.LIGHT_EXT,
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: a low rumble in the dark; a metallic hum as the steel passes; then the classroom: a low murmur that drops as he answers, the chair creaking, a pencil rolling, children in the schoolyard far off, a bus passing outside. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: wind across the open summit; dry grass hissing; his boots on grit as he turns; a hawk far off. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: speech during shot 1, swapped sides, @PROFESSORA sitting, lines in the wrong mouth, a classmate speaking, writing on the whiteboard, a school emblem, an old or run-down classroom, a chalkboard, a CGI fly-through, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 3 shots, 2 hard cuts at 5s and 11s, 14s, handheld — (1, 0–5s) from black, steel beams rise past, through the ceiling, into a close-up of @ALUNO's hand shooting up — (2, 5–11s) medium-wide two-shot: he answers "É futuro.", she completes "Minério não é só minério." — (3, 11–14s) close-up: he beams, her hand on his shoulder. Invariants: no speech in shot 1; he left seated, she right standing; one line each, other mouths closed; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: speaking, a cut, a dolly or drone move, a second person, raised arms, sun disc in frame, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 5s, wide — (0–3s) his back to camera at the frame-LEFT third, backpack on, the sea of hills — (3–5s) he turns over his left shoulder, smiling, eyes to the lens; hard end. Invariants: occupied first frame; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
+)
+
+# ---------------------------------------------------------------- T01-B (bloqueio 3D: close → terra → minério → aço → sala)
+T01B = join(
+    contract(18, "ONE continuous take, no cuts", "a single continuous vertical camera descent that follows the attached 3D blocking video, with a light handheld texture", extra=" (fast travel during the descent; speech only when the camera is still)"),
+    f"""REFERENCES — each reference has ONE job:
+@JOVEM — IDENTITY of @JOVEM: face, hair, build, hands, wardrobe and backpack. 100% matches.
+@ALUNO — IDENTITY of @ALUNO: face, hair, build, hands and wardrobe. 100% matches.
+@PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands and wardrobe. 100% matches.
+@Video1 — MOTION ONLY: the camera path, framing and timing of this 3D blocking — the close-up on the man, the straight vertical descent down his body and into the ground, through the earth, the ore and the steel beams, down through the classroom ceiling past the fan, and the landing on the seated boy with the teacher standing behind him at frame-left. Take NOTHING else from it: ignore its flat colours, blocky low-poly shapes, sky-blue placeholder areas and every word or label written in it — none of them exist in the film.
+{SCOPE_ID}""",
+    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST, on the summit: speaks one line in close-up, then stays where he is as the camera leaves him; seen only during 0–7s.
+@ALUNO ({ANCH['ALUNO']}) — the STUDENT: seated at his desk in the centre of the frame, answers; NEVER stands.
+@PROFESSORA ({ANCH['PROFESSORA']}) — the TEACHER: standing behind the student at frame-left, completes the idea; NEVER sits.
+FACES: each face exists once; the classmates are distinct Brazilian children, soft in the background, silent, mouths closed; no twins, no clones.
+CONTACT: nobody touches anyone.""",
+    """SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil, @JOVEM already in close-up, looking at you. When he has spoken, the camera sinks straight down through the ground he stands on — earth, iron ore, the steel of a roof — and arrives in a bright, recently built Brazilian public school classroom, where a student is about to answer.
+THE SOUL OF THE SCENE (play it, never explain it): earth, ore, steel, school — one chain, one movement; the man who loves the land hands the film to the boy who is its future.""",
+    f"""{LOCKS_HEAD}
+1. ONE continuous take with ONE vertical descent that follows @Video1 — WRONG if it cuts or the path differs.
+2. The camera stays level and facing forward while it sinks — it does NOT tilt down; the body, then the ground in cross-section, slide up past the lens — WRONG if it tilts or flies like a drone.
+3. No speech while the camera travels: @JOVEM speaks at 1–4s, @ALUNO at 13–14s, @PROFESSORA at 15–17s — WRONG if anyone speaks during 5–12s or a line goes to the wrong mouth.
+4. NO text, labels or words anywhere in the frame — WRONG if any letters from the blocking appear.
+5. Handheld texture; sun from frame-LEFT on the summit, window daylight from frame-LEFT in the classroom — NO music.""",
+    timeline(1, [], [
+        "BEAT 1 (0–5s) — CU, 47°, handheld, frontal: @JOVEM's face and shoulders, backpack straps visible, the sea of hills soft behind him; at 1–4s he speaks to the lens; at 4–5s he holds your eyes with a smile.",
+        "BEAT 2 (5–7s) — the camera begins to sink straight down, level and facing forward: his chest, the overshirt, his hands, his legs and his boots on the rock slide up past the lens.",
+        "BEAT 3 (7–9s) — the camera passes below the ground line: the earth is seen in cross-section in front of the lens — grass roots, layers of red soil and rock sliding upward — then a dark seam of banded iron ore with metallic glints.",
+        "BEAT 4 (9–11s) — out of the ore, the steel beams of a modern roof structure rise past the lens; the camera passes between them and down through the gridded ceiling of a classroom, beside a white ceiling fan turning slowly.",
+        "BEAT 5 (11–13s) — it descends into the bright classroom, decelerating, rows of desks rising into view, and lands at a seated child's eye height on a medium shot of @ALUNO at his desk in the centre of the frame, @PROFESSORA standing behind him at frame-left; it settles and stays.",
+        "BEAT 6 (13–18s) — the camera is still apart from a light handheld breath: at 13–14s @ALUNO answers to the lens; at 15–17s @PROFESSORA completes it to the lens, as to the whole class; at 17–18s both hold your eyes. Hard end on the held look.",
+    ]),
+    dialogue(line(1, 4, "JOVEM", "Em Minas, terra não é só terra."), line(13, 14, "ALUNO", "É futuro."),
+             line(15, 17, "PROFESSORA", "Minério não é só minério."), "JOVEM", "ALUNO", "PROFESSORA"),
+    acting("JOVEM", "he grew up here and is proud of this land.",
+           "say it to you like good news to a friend who just arrived.",
+           "on the lens, checking both of your eyes.",
+           "the wind lifts his collar", "a heroic pose"),
+    acting("ALUNO", "he knows the answer and likes being right.",
+           "answer simply and look for your approval.",
+           "on the lens when he answers.",
+           "a small proud breath after the line", "a cute pose, a child-actor performance"),
+    acting("PROFESSORA", "she is proud of her student.",
+           "take his answer and hand it to everyone as the lesson.",
+           "a quick proud look at him, then to the lens as to the whole class.",
+           "a small nod to herself after the line", "lecturing, pointing a finger"),
+    "ACTING — classmates (background): follow the exchange, a few smile; NOT looking at the lens, NOT speaking.",
+    """CAMERA — follows @Video1's path and timing exactly, with a light handheld texture (small human sway and late corrections) rather than a mechanical glide; level and facing forward the whole way, never tilting.
+OPTICS: 47° throughout; no zoom, no lens drift.
+FOCUS: on @JOVEM's eyes in beat 1; on whatever passes the lens during the descent; on @ALUNO's eyes after the landing, then on @PROFESSORA's eyes when she speaks.
+HORIZON: level.
+NOT: a cut, a tilt down, a drone, a CGI fly-through, a zoom, a locked tripod frame.""",
+    """GEOMETRY — on the summit, @JOVEM stands 1.2 m from the lens, frontal. In the classroom: windows along the frame-LEFT wall; @ALUNO seated at a desk in the centre of the frame, 1.6 m from the lens, facing it; @PROFESSORA standing about 1.5 m behind him at frame-left; desks to both sides, classmates soft beyond.""",
+    """PHYSICS & MATERIAL — wind moves his collar on the summit; in the descent, loose soil and small stones fall past the lens at the speed of the movement, roots hang and sway, the ore is heavy with metallic glints; dust motes drift past the steel; the fan's blades turn slowly; in the classroom a chair creaks and a pencil rolls. """ + REAL + """ MATERIAL TRUTH: the weave of his overshirt, roots with soil clinging, banded grey hematite, the matte paint of the steel beams, the white ceiling grid and fan, new laminate desks, the cotton of the green school T-shirt, a clean whiteboard with no writing.""",
+    """LIGHT — MOTIVATED LIGHT ONLY (KEY): one dominant motivated natural source per place, with real falloff and soft-edged shadows.
+SUMMIT (0–7s): the low late-afternoon sun ~4300 K from frame-LEFT on his face; open sky as soft fill.
+THE GROUND (7–9s): the earth and the ore are seen as if the ground were sliced open beside the lens and photographed in that same soft daylight from above — readable, never black, no invented lamp.
+STEEL AND CEILING (9–11s): daylight from the classroom windows below and blades of daylight between the beams.
+CLASSROOM (11–18s): daylight through the big windows on frame-LEFT, ~5600 K, on the frame-LEFT side of the faces; the room behind a stop darker; blacks slightly lifted; corners allowed to fall into shade.
+NOT: a headlamp, a glowing underground light, flat ceiling-panel light as the key, frontal fill, sunbeam shafts.""",
+    T.FILM_LOOK,
+    f"""SOUND — LOCATION SOUND ONLY: wind across the summit; in the descent, soil scraping and crumbling, stones ticking, a deep low rumble of rock, a metallic hum at the steel; then the soft whir of the ceiling fan and the classroom: a low murmur that drops as he answers, a chair creaking, children in the schoolyard far off. {T.MUSIC_POLICY}""",
+    T.WORLD,
+    f"""NEGATIVE: any text, labels or words from the blocking video, low-poly shapes, flat 3D colours, a cut, a tilt down, speech during the descent, swapped speakers, a classmate speaking, @PROFESSORA sitting, a CGI cross-section, a game-style cutaway, glowing ore, gold, gems, lava, a black frame, writing on the whiteboard, a school emblem, an old or run-down classroom, {T.NEG_SPINE}.""",
+    """[ORDER: ONE continuous take, 18s, following @Video1 — (0–5s) close-up: @JOVEM's line to the lens, a smile — (5–7s) the camera sinks level down his body to his boots — (7–9s) into the ground: roots, soil, rock, a seam of iron ore — (9–11s) steel beams, the classroom ceiling, the turning fan — (11–13s) lands on @ALUNO seated centre, @PROFESSORA standing behind at frame-left — (13–18s) "É futuro.", "Minério não é só minério.", both hold. Invariants: one take, one level descent, no tilt; no speech while travelling; no text from the blocking. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 
@@ -367,8 +375,7 @@ T09 = join(
     contract(15, "3 shots with 2 hard cuts at 3s and 12s", "handheld in every shot; one focus rack at the start of shot 2"),
     f"""REFERENCES — each reference has ONE job:
 @FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
-@MINA — WORLD: the open-pit niobium mine — terraced benches, haul roads, a stockpile of ore; the world for all shots.
-{SCOPE_ID} @MINA supplies geography and materials ONLY — its light is replaced by the LIGHT block.""",
+{SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @FUNCIONARIO ({ANCH['FUNCIONARIO']}) — the MINE WORKER: holds a piece of ore, speaks, looks down at it and back up; NEVER removes any safety equipment, NEVER walks away.
 FACES: his face exists once; the haul trucks far behind have no visible drivers.
@@ -483,8 +490,7 @@ T12 = join(
     f"""REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
-@ONIBUS_INT — WORLD: the inside of a modern Brazilian city bus — driver's cab, glass folding door, low floor, seats, handrails; the world for all shots.
-{SCOPE_ID} @ONIBUS_INT supplies the space and materials ONLY — its light is replaced by the LIGHT block.""",
+{SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @MOTORISTA ({ANCH['MOTORISTA']}) — the BUS DRIVER: at the wheel on the bus's left side, greets the boy, drives, speaks once in shot 3; NEVER stands.
 @ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
@@ -616,8 +622,7 @@ T16 = join(
     contract(12, "ONE continuous take, no cuts", "handheld, close and breathing, tight close-up"),
     f"""REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe 100% matches.
-@PICO — WORLD: the same summit as the opening; only its soft layered hills appear behind him.
-{SCOPE_ID} @PICO supplies the background landscape ONLY — its light is replaced by the LIGHT block.""",
+{SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST: speaks his last words to you; his face fills the frame just left of centre.
 FACES: his face exists once; nobody else.""",
