@@ -1,218 +1,140 @@
-# CODEMIG · VT 60" — Shotlist CINEORO v1
+# CODEMIG · VT 60" — Shotlist CINEORO v2
 
-Seedance 2.5 via Higgsfield · 16:9 · ~60s no corte. Prompts em inglês com as falas em português; header, card e notas em português.
+Seedance 2.5 via Higgsfield · 16:9 · ~60s no corte.
 
-## Direção (STYLE INTENT)
+## Direção
+
+- **Tom:** Feliz e orgulhoso. Cada personagem conta uma boa notícia sobre o estado a um amigo, que é a lente. As táticas de atuação são de mostrar, celebrar e convidar, e o NOT de todo prompt proíbe cara séria e discurso.
+- **Falas:** Só o texto da fala, com o segundo em que entra. Nenhuma indicação de pausa ou entrega. O sotaque ficou num voice lock curto (R caipira ou R de BH, de P3) e o tom vem da atuação.
+- **Gramática:** Câmera na mão o tempo todo. Subações antes e depois da fala em close ou detalhe, e a fala no plano mais aberto do take (médio-aberto, do joelho pra cima, com o lugar em volta), com corte seco entre eles. Exceções: o T01, com a fala no close como você pediu, e o T16, o close final.
+- **Revezamento:** Em todos os planos, inclusive nos closes, a câmera anda de lado da esquerda pra direita e nunca para. Cada take tem 3 ou 4 subações para a montagem apoiar a locução em off.
+- **Mundo:** Minas e Brasil modernos: arquitetura contemporânea, equipamento novo, espaços públicos bem cuidados e "Brazilian" espalhado pelos prompts. Nada rústico, pobre, velho ou colonial; isso está no template WORLD e na espinha do NEGATIVE.
+- **Look:** O seu style ref de 35mm color negative, sem o parágrafo de cor e sem "tactile surfaces": a cor sai do ambiente de cada cena. A regra de luz é uma fonte natural dominante por cena, sempre do lado esquerdo do quadro.
 
 ```
-STYLE INTENT — CODEMIG VT 60"
+STYLE INTENT — CODEMIG VT 60" (v2)
 MEDIUM: live-action photoreal
-REGISTER: hybrid — observed-realist in the relay and connection blocks (T04–T08, T14–T15);
-          authored-composed at the hinges (T01, T02/T03, T09, T10–T12 match series, T16)
-CAMERA LANGUAGE: observed = a breathing handheld operator; relay (P1) = handheld crab-walk
-          frame-left → frame-right at one constant pace, cut on the comma; hinges = one deliberate
-          move per take (dolly, impossible descent, focus rack) or a locked frame
-LIGHT LOGIC: natural motivated; one state-wide rule — the key is always on the frame-LEFT side of
-          every face (late-afternoon low sun outside, window daylight inside)
-SOUND/MUSIC POLICY: NO music in generation (the score is added in post); location sound only
-COLOUR & TEXTURE: muted and true; the red-ochre of Minas earth as the constant; mid-key; very fine
-          grain; spherical, round bokeh; no flares
-MOTION: real-time; only the T02 descent travels fast, speech always at 1x
-REALIST PRESET RULES SWITCHED OFF: "never look into the lens" (direct address is the film's form —
-          the viewer is the scene partner); "no score" applies to generation only; "observed
-          handheld everywhere" (hinges are composed); "hard end mid-action" (pieces end on a held
-          look, the edit's handle)
+REGISTER: warm, proud institutional film — direct address, happy people, a modern Brazil
+CAMERA LANGUAGE: handheld in every shot of the film; sub-actions in close-ups and
+          details, the line in the most open shot of the take, hard cuts between them;
+          relay (P1) = the camera travels frame-left → frame-right in every shot
+LIGHT LOGIC: one dominant motivated natural source per scene with real falloff, always
+          on the frame-LEFT side of the faces (low late sun outside, window inside)
+SOUND/MUSIC POLICY: NO music in generation (the score is added in post); location sound
+COLOUR & TEXTURE: 35mm color negative (client style ref) — organic grain, warm halation,
+          lifted blacks with a faint teal-green, vintage spherical glass, gentle vignette;
+          colour comes from each location, never a grade on top
+WORLD: modern Minas Gerais and Brazil — nothing rustic, rural-poor, old or colonial
+MOTION: real-time 24 fps with natural motion blur
+REALIST PRESET RULES SWITCHED OFF: "never look into the lens" (direct address);
+          "no vignette" and "no teal" (client look); "grime / over-real wear" (modern
+          world: material truth without decay); "locked composed frames" (handheld always)
 ```
 
 ## Takes
 
-### T01 · Pico da montanha (Abertura, ~4.7s no corte)
+### T01 · Pico e mergulho na terra (Abertura, ~5.7s no corte)
 
-O jovem, de costas pro mar de morros, vira e diz a primeira frase do filme.
+De costas pro mar de morros, o jovem vira; corte seco pro close, ele fala e a câmera desce para dentro da terra até o preto.
 
-#### Geração T01 · 8s · 1 take · 16:9
+#### Geração T01 · 13s · 2 plano(s)
 
-```
-O QUE ACONTECE: No alto de um pico, o jovem olha o mar de morros de costas pra câmera; vira e fala com quem assiste, enquanto a câmera chega nele num único travelling.
-O QUE É DITO: JOVEM: "Em Minas, terra não é só terra."
-TEMPO: olha o horizonte, câmera avançando — 3s · vira — 1s · fala — 3s · segura o olhar — 1s = 8s
-COMO TERMINA: corte seco com ele sustentando seu olhar, boca fechada.
-DIREÇÃO: abertura composta (registro autoral): um travelling único e lento leva do plano aberto ao médio, para a terra ser o assunto antes do rosto e o lipsync ter leitura. A luz baixa da esquerda volta idêntica no T16.
-```
+- **O que acontece:** No alto do pico, de costas pro mar de morros, o jovem vira pra câmera. Corte seco pro close: ele fala, sorri, e a câmera desce pelo corpo dele, entra na terra e atravessa raízes, solo e minério até a tela ficar preta.
+- **O que é dito:** JOVEM: "Em Minas, terra não é só terra."
+- **Tempo:** aberto, ele vira — 4s · close, fala — 3s · sorriso — 1s · câmera desce pelo corpo — 2s · entra na terra — 2s · preto — 1s = 13s
+- **Como termina:** tela totalmente preta, de onde nasce o T02.
+- **Direção:** Do jeito que você descreveu: aberto, virada, corte seco pro rosto e o mergulho na terra no mesmo plano do close. O preto é a emenda com a sala de aula.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 8 seconds total, ONE continuous take, no cuts, an authored composed frame with ONE slow deliberate dolly move, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 13 seconds total, 2 shots with 1 hard cut at 4s, handheld throughout; shot 2 ends with the camera plunging down into the earth until the frame is black, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, hair, build, hands and wardrobe. 100% matches.
-@PICO — WORLD: the summit — exposed grey rock with ochre lichen, patches of red earth, low dry grass, the layered sea of hills beyond; the world for the whole take.
+@PICO — WORLD: the summit — grey rock, low grass, the layered sea of green hills beyond; the world for both shots.
 REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies geography and materials ONLY — its light is replaced by the LIGHT block.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM (25, lean, sun-weathered brown skin, short dark curly hair, light stubble, a thin scar through the left eyebrow, faded rust-red cotton work shirt with the sleeves rolled to the forearm, khaki canvas trousers, dusty brown leather work boots) — the PROTAGONIST: stands, looks, turns, speaks once; NEVER walks, NEVER raises his arms, NEVER smiles broadly; owns the frame-LEFT third.
+@JOVEM (25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, a thin scar through the left eyebrow, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots) — the PROTAGONIST: looks at the hills, turns, speaks once; NEVER walks away, NEVER raises his arms; owns the frame-LEFT third in shot 1.
 FACES: his face exists once; nobody else in the frame.
 
-SCENE — Late afternoon on a rock summit in Minas Gerais. @JOVEM is already standing near the edge with his back to the camera, looking over a sea of hills that runs in layers to the horizon; the wind moves the grass.
-THE SOUL OF THE SCENE (play it, never explain it): he climbed up here to confirm something he already knows about where he comes from — and then he tells you, one local to another, not as a speech.
+SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil. @JOVEM is already standing near the edge with his back to the camera, looking over a sea of green hills that runs in layers to the horizon.
+THE SOUL OF THE SCENE (play it, never explain it): he loves where he comes from and can't wait to tell you why — then the film dives into the ground he is talking about.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE continuous take with ONE slow forward dolly move, no cuts — WRONG if the camera cuts, orbits or rises like a drone.
-2. @JOVEM is in frame from the first frame, at the frame-LEFT third, standing still on the rock — WRONG if the first frame is empty or he walks.
-3. After the turn his eyes find the lens and stay there, alive — WRONG if the stare is glassy or he looks past the camera.
-4. The sun stays frame-LEFT and lights the frame-LEFT side of his face — WRONG if the light flips or comes from the front.
-5. Only @JOVEM speaks, one line, in Brazilian Portuguese — NO music.
+1. Exactly 2 shots, 1 hard cut at 4s; shot 2 is ONE continuous movement from his face down into the earth — WRONG if there are extra cuts.
+2. Handheld in both shots — WRONG if the camera is locked or glides.
+3. The take ENDS on a completely black frame inside the earth — WRONG if it ends on anything else.
+4. His eyes are alive and on the lens while he speaks — WRONG if glassy.
+5. Only @JOVEM speaks, one line — NO music.
 
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–3s) — WS from behind, 47°, camera at chest height 6 m behind him, already dollying forward, slow and steady: @JOVEM at the frame-LEFT third, back to camera, weight on his right leg, eyes travelling the horizon from frame-left to frame-right like someone checking an inheritance; the hills fill the right two-thirds of the frame in layers fading into haze.
-BEAT 2 (3–4s) — he turns toward the camera over his left shoulder, head first and then the shoulders, unhurried, his boots re-planting on the rock; the dolly keeps coming.
-BEAT 3 (4–7s) — the dolly arrives at a medium shot, waist up, @JOVEM still at the frame-LEFT third with the sea of hills behind him to frame-right; at 4–7s he speaks to the lens.
-BEAT 4 (7–8s) — the dolly settles to a stop; he holds your eyes, mouth closed, waiting to see if it reached you. Hard end on the held look.
+TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–4s) — WS, 63°, handheld from 8 m behind him, drifting slowly: @JOVEM at the frame-LEFT third, back to camera, the sea of hills filling the right two-thirds; at 2–4s he turns toward the camera over his left shoulder, already smiling. HARD CUT.
+SHOT 2 (4–13s) — CU, 29°, handheld 1 m from his face: at 4–7s he speaks to the lens, proud and happy; at 7–8s he holds your eyes with the smile; at 8–10s the camera drops — it tilts and sinks down past his chest and his boots to the ground; at 10–12s it plunges straight into the earth: the grass and the surface pass the lens, roots, layers of red soil and rock slide upward, a dark seam of iron ore glints for a moment; at 12–13s the earth closes in and the frame goes completely black. Hard end on black.
 
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[4–7s] @JOVEM (on camera, Brazilian Portuguese, light Minas Gerais interior accent, low and close, not projected, a small breath before the last word): "Em Minas, terra não é só terra."
-VOICE LOCK — @JOVEM: young man, 25, warm untrained baritone in the chest, a little grain, speaks low and close without projecting; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never an announcer voice, never a radio voice, never a speech. This voice identity is fixed and identical in every generation of the film.
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[4–7s] @JOVEM (on camera, Brazilian Portuguese): "Em Minas, terra não é só terra."
+VOICE LOCK — @JOVEM: young Brazilian man, 25, warm baritone; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @JOVEM (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: a man shares what this ground means before anyone has asked.
-MOTIVE: he grew up on this earth and has heard it treated as only dirt.
-GOAL: that you see what he sees.
-OBSTACLE: the moment it sounds like a speech, it is lost.
-TACTIC: check the horizon like an inheritance, then turn and test you — say it plainly and watch whether it lands.
-MOMENT TO MOMENT: — [0–3s] eyes travel the hills, settle on one far ridge, move on — [3–4s] the turn: his eyes reach the lens a beat after his head — [4–7s] the line to you, his eyes checking both of yours — [7–8s] he waits for your answer.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: the wind lifts his collar and he does not fix it. The low sun puts a small live point in his frame-left eye; a frozen pupil is wrong.
-NOT: a heroic pose, open arms, a broad smile, a nod to the camera, narrating, squinting into the sun.
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: he grew up here and is proud of this land.
+TACTIC: turn to you like to a friend who just arrived and show it off — say it with the pleasure of good news.
+EYES: in shot 1 they travel the hills; after the turn they find the lens and check both of your eyes. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: the wind lifts his collar and he laughs a little through his nose. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a heroic pose, open arms.
 
-CAMERA — authored composition: a dolly on a short track laid over the rock, lens at chest height (1.4 m); the track runs parallel to his line of sight, offset 1.5 m to his right, so he holds the frame-LEFT third; it starts 6 m from him and ends 2.5 m from him.
-MOVEMENT: the camera TRAVELS forward in one slow, constant dolly move from 0s to 7s, then settles; no other movement, no handheld shake.
-OPTICS: 47° for the whole take; natural perspective; no zoom, no lens drift.
-FOCUS: on @JOVEM throughout; the hills slightly soft but readable.
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+SHOT 2 MOVEMENT: after the line the operator drops the camera down his body and into the ground in one continuous move — a real camera body going down, small sway and tremor, never a CGI fly-through.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-COMPOSITION: off-centre — he holds the frame-LEFT third, the hills the right two-thirds; his eyes on the upper-third line after the turn.
-NOT: drone, aerial, crane rise, orbit, zoom, gimbal float, handheld shake, centred symmetrical framing.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-GEOMETRY — the rock edge runs left to right across the lower frame; @JOVEM stands 1 m back from it, facing the valley at the start and the camera after the turn; the camera at 1.4 m height on the track, offset 1.5 m to his right; the nearest ridge about 2 km away, the farthest dissolving into haze.
+PHYSICS & MATERIAL — the wind from frame-left combs the grass and moves his overshirt; his boots shift on the rock when he turns; in the descent, loose soil and small stones fall past the lens at the speed of the movement, roots hang and sway, the soil is denser and darker with depth, the ore heavy with metallic glints. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: lichen on the grey rock, the weave of his overshirt, stubble and pores on his skin, roots with soil clinging, the banded grey hematite of the ore.
 
-PHYSICS & MATERIAL — the wind blows steadily from frame-left, combing the dry grass in waves and pressing his shirt against his back; his weight shifts on the uneven rock and his boots grind grit when he turns; small puffs of red dust lift off the earth and drift right. Nothing floats, nothing loops. OVER-REAL: ochre lichen on the grey rock, red laterite earth packed in the cracks, dry seed heads of capim grass, a dried sweat line on his collar, dust on his boots, sun-cracked lips. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+IN THE EARTH (10–13s): only the daylight falling in from above, weaker with every layer, until nothing is left and the frame is black; NO invented lamp underground.
 
-LIGHT — NATURAL LIGHT ONLY, late afternoon, LOW & CLEAR (KEY):
-SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky ~7000 K as the soft fill on the other side.
-REACH: the sun lights the frame-LEFT side of every face and lays a warm edge along hair, shoulders and the crests of the terrain; the frame-RIGHT side of each face sits in soft open shade, readable.
-EXPOSURE: exposed for skin; the sky holds tone, never blown white; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the sun stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: golden-hour postcard glow, orange sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+SOUND — LOCATION SOUND ONLY: wind across the open summit; dry grass hissing; his boots on grit as he turns; a hawk far off; in the descent, soil scraping and crumbling, stones ticking, the wind cut off as the ground closes, a deep low rumble of rock, then near silence on the black. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-SOUND — LOCATION SOUND ONLY: wind across the open summit, steady, one gust at 2s; dry grass hissing; his boots grinding grit on the turn; a hawk's call far off at 1s; his breath before the line; after the line, only the wind. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
+NEGATIVE: extra cuts, a dolly or drone move, a CGI cross-section, a game-style cutaway, glowing ore, gold, gems, lava, a headlamp underground, ending on anything but black, a second person, raised arms, sun disc in frame, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-NEGATIVE: empty first frame, @JOVEM walking, raised arms, broad smile, squinting, a second person, drone shot, aerial, orbit, crane rise, zoom, centred composition, sun disc in frame, sunbeams, light from the front, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 8s, one slow forward dolly from WS to MS — (0–3s) his back to camera at the frame-LEFT third, eyes on the hills — (3–4s) he turns over his left shoulder — (4–7s) his line to the lens — (7–8s) the dolly settles, he holds your eyes. Invariants: one take, one dolly move; first frame occupied; eyes alive on the lens; sun frame-LEFT. Look: large-format spherical, mid-key, red-ochre earth, fine grain, no vignette. Only @JOVEM speaks, one line, Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 4s, 13s, handheld — (1, 0–4s) wide: his back to camera at the frame-LEFT third, the sea of hills; he turns, smiling — (2, 4–13s) close-up: his line to the lens, proud and happy; then the camera drops down his body and plunges into the earth — roots, soil, rock, a glint of ore — to complete black. Invariants: one cut only; handheld; ends on black; living eyes; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 8s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 13s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @JOVEM (character sheet) — identidade
   2) @PICO (plate) — mundo
-Notas: draft primeiro: conferir se o primeiro frame já tem ele no terço esquerdo e se o dolly não vira drone. No corte entra só o trecho de 1,5s antes da virada até o fim da fala (~4,7s).
+Notas: risco: o modelo cortar dentro do plano 2 ou não chegar ao preto. Se não chegar, a montagem fecha no preto a partir do último frame de terra.
 ```
 
-ALTERNATIVE DIRECTION: o EWS original — câmera parada a ~40 m, ele minúsculo na pedra, a fala com lipsync quase ilegível. Mais escala e mais terra, menos rosto.
+### T02 · Do preto à sala de aula (Abertura, ~3.5s no corte)
 
-### T02 · A terra vira escola (transição + T03) (Abertura, ~4.5s no corte)
+Do preto surgem as vigas de aço do teto; a câmera pousa na sala, o aluno responde e a professora completa.
 
-A câmera afunda na terra, passa pelo minério e pelo aço do teto e pousa na sala de aula.
+#### Geração T02 + T03 · 14s · 3 plano(s)
 
-#### Geração T02-B1 · 5s · 1 take · 16:9
-
-```
-O QUE ACONTECE: A câmera desce dos pés do jovem e mergulha na terra: raízes, solo, rocha, até um veio escuro de minério de ferro encher o quadro.
-O QUE É DITO: nada.
-TEMPO: botas na terra vermelha — 1s · entra no chão — 1s · camadas passando, acelerando — 2s · minério enche o quadro — 1s = 5s
-COMO TERMINA: quadro tomado de minério escuro, a câmera ainda descendo. É ali que fica o corte escondido para o B2.
-DIREÇÃO: câmera impossível, mas com corpo de câmera real (descendo um talude de escavação), para não virar corte geológico em CGI. A luz do dia morre com a profundidade, sem lanterna inventada.
-```
+- **O que acontece:** Do preto surgem vigas de aço; a câmera desce pela estrutura do teto e chega no close da mão do aluno se levantando. Corte: no médio-aberto ele responde e a professora completa. Corte: close dele radiante, a mão dela no ombro.
+- **O que é dito:** ALUNO: "É futuro." / PROFESSORA: "Minério não é só minério."
+- **Tempo:** preto, vigas, teto, mão levantando — 5s · as duas falas — 6s · close radiante — 3s = 14s
+- **Como termina:** close do aluno sorrindo; corte seco.
+- **Direção:** Continua a cadeia terra, minério, aço e escola a partir do preto do T01. Ninguém fala enquanto a câmera viaja. As falas ficam no médio-aberto, com quem fala onde travado.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, an impossible camera that tilts down and then travels straight down through the ground, photographed like a real camera descending a freshly cut excavation wall, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@JOVEM — OBJECT ONLY: his dusty brown leather work boots and the hems of his khaki canvas trousers — nothing else of him appears.
-@PICO — WORLD for the first second only: the red earth and dry grass of the summit floor.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies ground materials ONLY — its light is replaced by the LIGHT block.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM — seen ONLY as his two boots planted on the red earth during 0–1s; his face, hands and body NEVER appear. Nobody else exists in this take.
-
-SCENE — On the summit, the camera looks down at @JOVEM's boots on the red earth and then dives into the ground: grass roots, soil, rock layers and finally a dark seam of iron ore.
-THE SOUL OF THE SCENE (play it, never explain it): what is under his feet is the beginning of everything that follows — earth becoming ore.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE continuous downward movement, no cuts — WRONG if it cuts, reverses or rises.
-2. The descent looks photographed, not animated: real soil, real rock, real roots — WRONG if it looks like a CGI render or a game cutaway.
-3. The take ENDS on a frame almost completely filled with dark banded ore, the camera still descending — WRONG if it ends on anything else or on black.
-4. NO people besides the two boots in the first second — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–1s) — CU, 47°, the camera already tilting down from knee height onto @JOVEM's two boots planted on red earth with dry grass, frame-centre-left; the tilt completes and the lens points straight down.
-BEAT 2 (1–2s) — the camera travels straight down past the boots and into the ground: the surface passes the lens and becomes a vertical wall of earth sliding upward through the frame, grass roots hanging in it.
-BEAT 3 (2–4s) — the descent accelerates: red laterite soil, then mottled saprolite in ochre and cream, then fractured grey rock pass upward; small stones and crumbs fall with the movement.
-BEAT 4 (4–5s) — a seam of dark banded iron ore fills the frame — steel-grey hematite layers with metallic glints between thin ochre bands — the camera still descending. Hard end mid-descent.
-
-CAMERA — an impossible camera with a real body: it behaves like a camera lowered down a vertical excavation wall on a cable, close to the wall (about 40 cm), slight sway and a tremor from the cable.
-MOVEMENT: the camera TRAVELS — a tilt down (0–1s) and then a straight vertical descent that accelerates (1–4s) and keeps its speed to the end; one continuous movement.
-OPTICS: 47°, no lens drift; the wall surface sharp, the depth beyond falling into shadow.
-FOCUS: on the wall surface passing the lens.
-NOT: a CGI fly-through, a game-style cross-section, a zoom, a cut, a reversal, a rise, a spin.
-
-PHYSICS & MATERIAL — gravity is real: loose crumbs and pebbles fall past the lens at the same speed as the descent, never float; roots hang and sway with the passing air; the soil is damp and compact in the deeper layers, dry and crumbling near the surface; the ore is heavy, dense, glinting where fresh fractures catch the light. Nothing floats, nothing loops. OVER-REAL: dry capim roots with earth clinging to them, the brick-red of laterite with black manganese specks, cream-and-ochre mottling of saprolite, rough fracture faces of grey rock, thin metallic hematite bands in the ore. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — MOTIVATED LIGHT ONLY, late afternoon above ground (KEY):
-START (0–1s): the low sun ~4300 K from frame-LEFT on the boots and the red earth.
-DURING (1–4s): underground, the only light is the daylight falling in from the opening above and from frame-LEFT; it weakens with depth — each layer is a little darker and cooler than the one before.
-END (4–5s): the ore is lit only by that last faint top light; the hematite bands catch it in small metallic glints; the frame is dark but readable, never black.
-EXPOSURE: exposed for the wall surface in whatever light exists each second; NO invented lamp underground; shadows soft and readable; NO vignette.
-NOT: a headlamp, a glowing underground light, magical glow, a bright evenly lit cross-section, sunbeams.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — the wind of the summit for the first second, then cut off as the ground closes over; the dry rustle of grass; soil scraping and crumbling past; small stones ticking; a deep low rumble of rock pressure growing with depth; a faint metallic resonance as the ore passes. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-NEGATIVE: @JOVEM's face, his hands, a second person, a CGI cross-section, game graphics, glowing ore, gold, lava, crystals, gems, magical light, a headlamp, black frame at the end, a cut, the camera rising, a spin, floating particles, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 5s, impossible camera descending a real excavation wall — (0–1s) tilt down onto his boots on red earth — (1–2s) into the ground, roots — (2–4s) laterite, saprolite, grey rock pass upward, accelerating — (4–5s) dark banded iron ore fills the frame, still descending; hard end. Invariants: one movement; photographed, not CGI; ends on the ore; only his boots. Look: large-format spherical, red-ochre earth, fine grain, no vignette. No dialogue. NO music. NO subtitles, NO text.]
-```
-
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 5s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @JOVEM — só as botas (objeto)
-  2) @PICO (plate) — chão do pico no primeiro segundo
-Notas: se as botas não baterem com o T01 aprovado, use um frame do T01 (pés) como keyframe do beat 1. O corte escondido entra no último frame escuro de minério.
-```
-
-#### Geração T02-B2 + T03 · 12s · 1 take · 16:9
-
-```
-O QUE ACONTECE: Do escuro do minério surgem vigas de aço; a câmera passa entre elas, atravessa o forro e desce na sala de aula até pousar no aluno, que responde. A professora entra ao lado e arremata.
-O QUE É DITO: ALUNO: "É futuro." / PROFESSORA: "Minério não é só minério."
-TEMPO: minério vira aço — 2s · entre as vigas e pelo forro — 2s · desce e pousa no aluno — 2s · "É futuro." — 1s · ela entra — 1s · "Minério não é só minério." — 2s · os dois seguram — 2s = 12s
-COMO TERMINA: os dois sustentam o olhar; corte seco.
-DIREÇÃO: a câmera viaja rápido na terra e no aço e fica parada assim que pousa. Toda fala acontece em 1x, depois do pouso, o que resolve o risco do speed ramp. Ele ocupa a esquerda sentado, ela a direita em pé, e o prompt trava quem fala quando.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, ONE continuous take, no cuts, an authored impossible camera that travels from inside the earth through a steel roof into a classroom and lands, real-time motion (fast travel during the descent, everything after the landing in real time), dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 14 seconds total, 3 shots with 2 hard cuts at 5s and 11s, handheld throughout; shot 1 is an impossible camera that comes out of darkness, through a steel roof structure and down into a classroom, real-time motion (shot 1 travels fast; all speech happens after it lands), dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ALUNO — IDENTITY of @ALUNO: face, hair, build, hands and wardrobe. 100% matches.
@@ -220,782 +142,76 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ALUNO (10, slim Black boy, short tight curls, round face, a small gap between his front teeth, plain white school T-shirt with no emblem) — the STUDENT: sits at his desk, answers, listens; NEVER stands, NEVER speaks after his line; owns the frame-LEFT half.
-@PROFESSORA (40, white woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse with the sleeves pushed up, a chalk smudge on the right sleeve) — the TEACHER: steps into frame from frame-RIGHT and stands beside his desk, speaks once; NEVER sits, NEVER touches the student; owns the frame-RIGHT half.
-FACES: each face exists once; the 6–8 classmates in the soft background are distinct children, silent, mouths closed, none with @ALUNO's face; no twins, no clones.
-CONTACT: the only touch is @PROFESSORA's right hand resting on the back of @ALUNO's chair; nobody touches anyone.
+@ALUNO (10, Black Brazilian boy, slim, short tight curls, round face, a small gap between his front teeth, plain white school polo shirt with no emblem) — the STUDENT: raises his hand, answers, beams; NEVER stands; owns the frame-LEFT half.
+@PROFESSORA (40, white Brazilian woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse, dark grey trousers) — the TEACHER: comes to his desk, completes the idea; NEVER sits; owns the frame-RIGHT half.
+FACES: each face exists once; the classmates are distinct Brazilian children, soft in the background, silent, mouths closed; no twins, no clones.
+CONTACT: the only touch is @PROFESSORA's right hand on @ALUNO's shoulder in shot 3; nobody else touches anyone.
 
-SCENE — A state school classroom in Minas Gerais on a weekday afternoon; a lesson is already happening. The camera arrives from inside the earth, through the steel of the roof, and lands on a student who is about to answer.
-THE SOUL OF THE SCENE (play it, never explain it): the boy's short answer is the thesis of the whole film, and the teacher knows it — she makes it the lesson.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE continuous take from the ore to the classroom, no cuts — WRONG if it cuts.
-2. Once landed, the camera stays put; the speech happens only after the landing, in real time — WRONG if anyone speaks while the camera is travelling.
-3. @ALUNO frame-LEFT seated, @PROFESSORA frame-RIGHT standing, in that order — WRONG if they swap sides or she sits.
-4. @ALUNO speaks only "É futuro."; @PROFESSORA speaks only "Minério não é só minério."; every other mouth is closed — WRONG if the lines swap mouths or a classmate speaks.
-5. Daylight from frame-LEFT — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — the frame is filled with dark banded iron ore, the camera already descending; the ore gives way to darkness and out of it heavy steel roof trusses rise past the lens.
-BEAT 2 (2–4s) — the camera threads between two steel trusses, passes through a gap in the ceiling lining and enters the classroom from above, decelerating.
-BEAT 3 (4–6s) — it descends to a boy's eye height and lands softly in an MCU, 29°, of @ALUNO seated at his desk in the frame-LEFT half, already looking at the lens; it settles and STAYS PUT.
-BEAT 4 (6–7s) — @ALUNO answers to the lens.
-BEAT 5 (7–8s) — @PROFESSORA steps into the frame-RIGHT half from frame-right and rests her right hand on the back of his chair; her eyes go to him once.
-BEAT 6 (8–10s) — she turns her eyes to the lens and speaks, as to the whole class.
-BEAT 7 (10–12s) — both hold; her eyes check you; his flick to her and back to you. Hard end on the held look.
-
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[6–7s] @ALUNO (on camera, Brazilian Portuguese, Belo Horizonte accent, quick and a little unsure, rising slightly at the end): "É futuro."
-[8–10s] @PROFESSORA (on camera, Brazilian Portuguese, Belo Horizonte accent, warm teacher's tone, each word placed, completing his thought): "Minério não é só minério."
-VOICE LOCK — @ALUNO: boy of 10, clear high child's voice, quick, a little breathy with eagerness; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never an adult dubbing a child, never a cartoon voice. This voice identity is fixed and identical in every generation of the film.
-VOICE LOCK — @PROFESSORA: woman, 40, mid register, a teacher's trained projection used gently, warm and precise, each word placed; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never stern, never an announcer. This voice identity is fixed and identical in every generation of the film.
-
-ACTING — @ALUNO (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: a child gives the answer and the teacher turns it into the lesson.
-MOTIVE: he just answered in class and wants to have got it right.
-GOAL: to be right.
-OBSTACLE: maybe it was a silly answer.
-TACTIC: answer short and search your eyes for the "right?".
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: he presses his lips together right after the line. A frozen pupil is wrong.
-NOT: a cute pose, a big grin, a child-actor performance.
-
-ACTING — @PROFESSORA (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-MOTIVE: she wants to turn his answer into the lesson for everyone.
-GOAL: that the idea sticks.
-OBSTACLE: a lesson that sounds like a lecture gets lost.
-TACTIC: validate him with one look, then turn to you as to the whole class and check that it landed.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: a small nod to herself after the line. A frozen pupil is wrong.
-NOT: lecturing, pointing a finger, a broad smile, patting the student.
-
-ACTING — classmates (background): follow the exchange with their eyes; NOT looking at the lens, NOT speaking.
-
-CAMERA — authored: an impossible camera that, once inside the room, becomes a crane arriving and settling.
-MOVEMENT: the camera TRAVELS down through the dark ore, between the steel roof trusses and through the gap in the ceiling lining, fast and continuous, decelerating as it descends into the room; it lands softly at @ALUNO's eye height and from then on STAYS PUT — a locked frame with only a faint settle.
-OPTICS: 47° during the descent; 29° MCU from the landing; no zoom.
-FOCUS: on the surfaces passing during the descent; on @ALUNO's eyes after the landing; on @PROFESSORA's eyes when she speaks; @ALUNO stays in focus beside her.
-HORIZON: level after the landing.
-COMPOSITION: off-centre two-shot after she enters — @ALUNO in the frame-LEFT half, @PROFESSORA in the frame-RIGHT half, both eyelines on the upper-third line; the classroom soft behind.
-NOT: a cut, a CGI fly-through, a drone, an orbit, handheld shake after the landing, centred symmetrical framing.
-
-GEOMETRY — windows along the frame-LEFT wall; @ALUNO seated at a second-row desk facing the camera; @PROFESSORA standing 60 cm to his right (frame-RIGHT); the camera at 1.1 m height, 1.8 m in front of his desk after the landing; classmates 1.5–5 m behind them, soft.
-
-PHYSICS & MATERIAL — during the descent, dust motes stream past the steel; the steel trusses are heavy, riveted and painted, flaking; the ceiling lining has a gap the camera passes cleanly; in the room, chairs creak when weight shifts, a pencil rolls a few centimetres on a desk, her hand presses the chair back slightly. Nothing floats, nothing loops. OVER-REAL: rust blooming through grey paint on the trusses, worn formica desks with pen marks, chalk dust on her sleeve, sun-faded curtains, scuffed floor tiles. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — MOTIVATED LIGHT ONLY, afternoon (KEY):
-START (0–2s): the dark banded ore lit only by faint top light, hematite glints.
-DURING (2–4s): thin blades of daylight from gaps in the roof tiles cross the steel trusses from frame-LEFT; between them, shadow.
-END (4s on): inside the classroom — the key is daylight through the windows on frame-LEFT, ~5600 K, soft and directional, on the frame-LEFT side of both faces; the classroom behind about one stop darker, readable, never black.
-EXPOSURE: exposed for whatever the camera is passing each second, then for skin; shadows soft and readable; even exposure, NO vignette.
-CONTINUITY: once inside, the window light stays frame-LEFT; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, a glowing underground light, sunbeam shafts, beauty light.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — a deep rock rumble at the start; a metallic hum as the steel passes; the dry tick of the roof tiles; then the classroom: low murmur that stops as the boy answers, a chair creak, a pencil rolling, a bus passing outside far off, children's voices from the yard, distant. After her line, the room is quiet for two seconds. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
-
-NEGATIVE: speech during the descent, swapped sides, @PROFESSORA sitting, lines in the wrong mouth, a classmate speaking, readable writing on the chalkboard, a school emblem, a cut, a CGI fly-through, glowing ore, handheld shake after the landing, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 12s — (0–2s) dark ore, then steel trusses rise past — (2–4s) between the trusses, through the ceiling — (4–6s) lands on @ALUNO, MCU 29°, frame-LEFT, and stays put — (6–7s) "É futuro." — (7–8s) @PROFESSORA enters frame-RIGHT, hand on his chair — (8–10s) "Minério não é só minério." to the lens — (10–12s) both hold. Invariants: one take; speech only after the landing; he left seated, she right standing; one line each, other mouths closed. Look: large-format spherical, mid-key, red-ochre and steel, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
-```
-
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @ALUNO (character sheet) — identidade
-  2) @PROFESSORA (character sheet) — identidade
-  3) opcional: @SALA_ESTADUAL — mundo (se a sala sair genérica)
-Notas: o risco nº 1 é a fala ir para a boca errada. No draft, confira só isso. Fallback: ElevenLabs só na voz da professora. O speed ramp, se ainda quiser, vai na pós e só no trecho de 0 a 6s.
-```
-
-#### Geração T02-B3 (alternativa) · 17s · 1 take · 16:9
-
-```
-O QUE ACONTECE: Versão inteiriça: das botas no pico, terra adentro, minério, aço, forro, sala, aluno e professora, tudo numa geração.
-O QUE É DITO: ALUNO: "É futuro." / PROFESSORA: "Minério não é só minério."
-TEMPO: botas — 1s · terra — 3s · minério e aço — 2s · forro — 2s · pouso — 2s · "É futuro." — 1s · ela entra — 1s · fala dela — 3s · seguram — 2s = 17s
-COMO TERMINA: os dois sustentam o olhar; corte seco.
-DIREÇÃO: mesma lógica do B1 + B2, sem corte escondido. É mais orgânico, mas um erro em qualquer trecho obriga a refazer tudo.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 17 seconds total, ONE continuous take, no cuts, an authored impossible camera that goes from a man's boots on a summit down through the earth, through a steel roof and into a classroom, and lands, real-time motion (fast travel during the descent, everything after the landing in real time), dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@JOVEM — OBJECT ONLY: his dusty brown leather work boots and trouser hems — nothing else of him appears.
-@ALUNO — IDENTITY of @ALUNO: face, hair, build, hands and wardrobe. 100% matches.
-@PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@ALUNO (10, slim Black boy, short tight curls, round face, a small gap between his front teeth, plain white school T-shirt with no emblem) — the STUDENT: sits at his desk, answers, listens; NEVER stands, NEVER speaks after his line; owns the frame-LEFT half.
-@PROFESSORA (40, white woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse with the sleeves pushed up, a chalk smudge on the right sleeve) — the TEACHER: steps into frame from frame-RIGHT and stands beside his desk, speaks once; NEVER sits, NEVER touches the student; owns the frame-RIGHT half.
-FACES: each face exists once; the 6–8 classmates in the soft background are distinct children, silent, mouths closed, none with @ALUNO's face; no twins, no clones.
-CONTACT: the only touch is @PROFESSORA's right hand resting on the back of @ALUNO's chair; nobody touches anyone.
-@JOVEM — seen ONLY as his two boots on the red earth during 0–1s; his face and body NEVER appear.
-
-SCENE — From a man's boots on a summit, the camera dives through the earth — roots, soil, rock, iron ore — then through the steel of a school roof, and lands on a student who is about to answer.
-THE SOUL OF THE SCENE (play it, never explain it): earth, ore, steel, school — one chain; the boy's short answer is the thesis of the film and the teacher makes it the lesson.
+SCENE — A bright, recently built Brazilian public school classroom in Minas Gerais on a weekday afternoon; a lesson is under way. The camera arrives out of darkness through the steel of the roof and lands on a student who already knows the answer.
+THE SOUL OF THE SCENE (play it, never explain it): the boy's short answer is the thesis of the film and he is delighted to give it; the teacher, proud of him, turns it into the lesson.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE continuous take from the boots to the classroom, no cuts — WRONG if it cuts.
-2. The descent looks photographed, not animated — WRONG if it looks like a CGI cross-section.
-3. Speech only after the landing, in real time; @ALUNO frame-LEFT seated, @PROFESSORA frame-RIGHT standing — WRONG if anyone speaks while travelling or they swap sides.
+1. Exactly 3 shots, 2 hard cuts at 5s and 11s — WRONG if there are extra cuts.
+2. Nobody speaks during shot 1; both lines happen in shot 2 — WRONG if anyone speaks while the camera travels.
+3. @ALUNO frame-LEFT seated, @PROFESSORA frame-RIGHT standing — WRONG if they swap sides or she sits.
 4. @ALUNO speaks only "É futuro."; @PROFESSORA only "Minério não é só minério."; every other mouth closed.
-5. NO music.
+5. Handheld in every shot; daylight from frame-LEFT — NO music.
 
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–1s) — CU, 47°, the camera tilting down onto @JOVEM's boots planted on red earth in low sun from frame-left.
-BEAT 2 (1–4s) — straight down into the ground: roots, red laterite, mottled saprolite, grey rock pass upward, accelerating; crumbs fall with the movement.
-BEAT 3 (4–6s) — dark banded iron ore fills the frame; out of its darkness heavy steel roof trusses rise past the lens.
-BEAT 4 (6–8s) — between two trusses, through the gap in the ceiling lining, into the classroom from above, decelerating.
-BEAT 5 (8–10s) — lands softly in an MCU, 29°, of @ALUNO seated in the frame-LEFT half, already looking at the lens; STAYS PUT.
-BEAT 6 (10–11s) — @ALUNO answers to the lens.
-BEAT 7 (11–12s) — @PROFESSORA steps into the frame-RIGHT half and rests her right hand on the back of his chair; her eyes go to him once.
-BEAT 8 (12–15s) — she turns to the lens and speaks, as to the whole class.
-BEAT 9 (15–17s) — both hold; her eyes check you. Hard end on the held look.
+TIMELINE — 3 shots, 2 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–5s) — impossible camera with a handheld body: the frame starts completely black; at 1–2s slim steel beams of a modern roof structure emerge from the dark and rise past the lens as the camera descends between them; at 2–3s it passes a gap in the ceiling and enters the classroom from above, decelerating; at 3–5s it arrives in a CU, 47°, of @ALUNO's hand shooting up from his desk to answer. HARD CUT.
+SHOT 2 (5–11s) — MWS (from the knees up, the classroom around them), 47°, handheld drifting slowly: @ALUNO seated at his desk in the frame-LEFT half, hand still up, @PROFESSORA arriving beside him in the frame-RIGHT half; at 6–7s he answers to the lens; at 8–10s she completes it to the lens, as to the whole class. HARD CUT.
+SHOT 3 (11–14s) — CU, 29°, handheld: @ALUNO beaming, @PROFESSORA's hand landing on his shoulder, two classmates behind him grinning, soft. Hard end mid-moment.
 
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[10–11s] @ALUNO (on camera, Brazilian Portuguese, Belo Horizonte accent, quick and a little unsure, rising slightly at the end): "É futuro."
-[12–15s] @PROFESSORA (on camera, Brazilian Portuguese, Belo Horizonte accent, warm teacher's tone, each word placed, completing his thought): "Minério não é só minério."
-VOICE LOCK — @ALUNO: boy of 10, clear high child's voice, quick, a little breathy with eagerness; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never an adult dubbing a child, never a cartoon voice. This voice identity is fixed and identical in every generation of the film.
-VOICE LOCK — @PROFESSORA: woman, 40, mid register, a teacher's trained projection used gently, warm and precise, each word placed; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never stern, never an announcer. This voice identity is fixed and identical in every generation of the film.
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–7s] @ALUNO (on camera, Brazilian Portuguese): "É futuro."
+[8–10s] @PROFESSORA (on camera, Brazilian Portuguese): "Minério não é só minério."
+VOICE LOCK — @ALUNO: Brazilian boy, 10, clear bright child's voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @PROFESSORA: Brazilian woman, 40, warm mid voice of a teacher; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @ALUNO (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: a child gives the answer and the teacher turns it into the lesson.
-MOTIVE: he just answered in class and wants to have got it right.
-GOAL: to be right.
-OBSTACLE: maybe it was a silly answer.
-TACTIC: answer short and search your eyes for the "right?".
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: he presses his lips together right after the line. A frozen pupil is wrong.
-NOT: a cute pose, a big grin, a child-actor performance.
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: he knows the answer and loves being right.
+TACTIC: answer fast and bright and check in your eyes that you're impressed.
+EYES: on the lens when he answers, then up at her. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his feet swing under the desk. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a cute pose, a child-actor performance.
 
 ACTING — @PROFESSORA (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-MOTIVE: she wants to turn his answer into the lesson for everyone.
-GOAL: that the idea sticks.
-OBSTACLE: a lesson that sounds like a lecture gets lost.
-TACTIC: validate him with one look, then turn to you as to the whole class and check that it landed.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: a small nod to herself after the line. A frozen pupil is wrong.
-NOT: lecturing, pointing a finger, a broad smile, patting the student.
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: she is proud of her student.
+TACTIC: take his answer and hand it to everyone as the lesson, delighted.
+EYES: a quick proud look at him, then to the lens as to the whole class. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she squeezes his shoulder a little. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, lecturing, pointing a finger.
 
-ACTING — classmates (background): follow the exchange with their eyes; NOT looking at the lens, NOT speaking.
+ACTING — classmates (background): follow the exchange, a few smile; NOT looking at the lens, NOT speaking.
 
-CAMERA — authored: an impossible camera that, once inside the room, becomes a crane arriving and settling.
-MOVEMENT: the camera TRAVELS down from the boots, through the earth and the dark ore, between the steel roof trusses and through the gap in the ceiling lining, fast and continuous, decelerating as it descends into the room; it lands softly at @ALUNO's eye height and from then on STAYS PUT — a locked frame with only a faint settle.
-OPTICS: 47° during the descent; 29° MCU from the landing; no zoom.
-FOCUS: on the surfaces passing during the descent; on @ALUNO's eyes after the landing; on @PROFESSORA's eyes when she speaks; @ALUNO stays in focus beside her.
-HORIZON: level after the landing.
-COMPOSITION: off-centre two-shot after she enters — @ALUNO in the frame-LEFT half, @PROFESSORA in the frame-RIGHT half, both eyelines on the upper-third line; the classroom soft behind.
-NOT: a cut, a CGI fly-through, a drone, an orbit, handheld shake after the landing, centred symmetrical framing.
-
-GEOMETRY — windows along the frame-LEFT wall; @ALUNO seated at a second-row desk facing the camera; @PROFESSORA standing 60 cm to his right (frame-RIGHT); the camera at 1.1 m height, 1.8 m in front of his desk after the landing; classmates 1.5–5 m behind them, soft.
-
-PHYSICS & MATERIAL — in the earth, crumbs and pebbles fall past the lens at the speed of the descent, roots sway; at the roof, dust motes stream past the steel; the steel trusses are heavy, riveted and painted, flaking; the ceiling lining has a gap the camera passes cleanly; in the room, chairs creak when weight shifts, a pencil rolls a few centimetres on a desk, her hand presses the chair back slightly. Nothing floats, nothing loops. OVER-REAL: rust blooming through grey paint on the trusses, worn formica desks with pen marks, chalk dust on her sleeve, sun-faded curtains, scuffed floor tiles. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — MOTIVATED LIGHT ONLY, afternoon (KEY):
-START (0–1s): the low sun ~4300 K from frame-LEFT on the boots and the red earth.
-DURING (1–6s): underground, only the daylight falling in from above, weaker and cooler with depth; the ore lit by a faint top light, hematite glints; then thin blades of daylight from gaps in the roof tiles cross the steel from frame-LEFT.
-END (8s on): inside the classroom — the key is daylight through the windows on frame-LEFT, ~5600 K, soft and directional, on the frame-LEFT side of both faces; the room behind one stop darker, readable.
-EXPOSURE: exposed for whatever the camera passes, then for skin; NO invented lamp; shadows soft and readable; NO vignette.
-NOT: headlamp, glowing underground light, flat ceiling-panel light, frontal fill, sunbeam shafts.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — summit wind cut off as the ground closes; soil scraping, stones ticking, a deep rock rumble; a metallic hum at the steel; the tick of roof tiles; then the classroom murmur that stops as he answers, a chair creak, children in the yard far off; after her line, two seconds of quiet room. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
-
-NEGATIVE: @JOVEM's face or body, speech during the descent, swapped sides, @PROFESSORA sitting, lines in the wrong mouth, a classmate speaking, readable chalkboard writing, school emblem, a cut, a CGI cross-section, glowing ore, gems, lava, handheld shake after the landing, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 17s — (0–1s) tilt onto his boots — (1–4s) down through roots, soil, rock — (4–6s) iron ore, steel trusses rise — (6–8s) through the ceiling — (8–10s) lands on @ALUNO, MCU 29°, frame-LEFT, stays put — (10–11s) "É futuro." — (11–12s) @PROFESSORA enters frame-RIGHT — (12–15s) "Minério não é só minério." — (15–17s) both hold. Invariants: one take; photographed descent; speech only after landing, he left, she right; one line each. Look: large-format spherical, mid-key, red-ochre and steel, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
-```
-
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 17s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @JOVEM — só as botas (objeto)
-  2) @ALUNO (character sheet) — identidade
-  3) @PROFESSORA (character sheet) — identidade
-Notas: só vale gerar depois que B1 e B2 estiverem aprovados como plano B. É mais caro de acertar.
-```
-
-ALTERNATIVE DIRECTION: o T02-A original — drone FPV saindo do ombro do jovem, descendo a encosta, cruzando morros e telhados e entrando pela janela da escola. Conta a mesma cadeia pela superfície em vez de por dentro da terra.
-
-### T04 · Estacionamento com eletroposto (Revezamento, ~2.8s no corte)
-
-Homem encaixa o plugue no carro elétrico e fala de lado para a câmera, que passa da esquerda pra direita.
-
-#### Geração T04 · 6s · 1 take · 16:9
-
-```
-O QUE ACONTECE: Num estacionamento aberto, o homem encaixa o plugue no carro elétrico (a trava só fecha na segunda empurrada) e fala de lado para a lente, enquanto a câmera passa.
-O QUE É DITO: HOMEM: "É a possibilidade de um mundo mais verde,"
-TEMPO: encaixa o plugue — 2s · fala de lado — 3s · volta ao cabo — 1s = 6s
-COMO TERMINA: a câmera ainda andando; o corte cai na vírgula, na montagem.
-DIREÇÃO: P1: travelling lateral constante, esquerda → direita, na mesma velocidade em todo o revezamento. A direção de tela é o que costura os cinco takes.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 6 seconds total, ONE continuous take, no cuts, observed handheld with the camera travelling sideways from frame-left to frame-right at a constant pace, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@HOMEM_EV — IDENTITY of @HOMEM_EV: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@HOMEM_EV (40, mixed-race brown man, stocky, short black hair greying at the temples, trimmed beard, untucked light-grey linen shirt, wedding ring on the left hand) — the CAR OWNER: plugs in the charger, speaks once; NEVER poses with the car, NEVER points at it, NEVER walks out of frame.
-FACES: his face exists once; any passer-by far in the background is a distinct soft figure.
-CONTACT: nobody touches him.
-
-SCENE — Late afternoon in an open-air parking lot in a Minas Gerais city; @HOMEM_EV is already at a public charging post beside his compact electric car, connector in hand.
-THE SOUL OF THE SCENE (play it, never explain it): he did the maths before switching cars and is quietly proud of it — he half-suspects you think it is a luxury and disarms that without a fuss.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera TRAVELS frame-left to frame-right at one constant walking pace from the first frame to the last — WRONG if it stops, reverses, pushes in or glides like a gimbal.
-2. @HOMEM_EV is in frame from the first frame, already working — WRONG if the frame starts empty.
-3. When @HOMEM_EV speaks, the eyes are on the lens and alive — WRONG if the stare is glassy.
-4. Only @HOMEM_EV speaks, only "É a possibilidade de um mundo mais verde," — every other mouth closed.
-5. Light from frame-LEFT — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — MS, 63°, the camera already travelling left to right: @HOMEM_EV at the right third, connector in his right hand, guiding it into the car's charging port at hip height; the first push meets resistance, he lines it up and presses again until the latch clicks.
-BEAT 2 (2–5s) — still with his hand on the connector, he turns his head toward the lens with a sidelong look and speaks; he drifts toward the centre as the camera passes.
-BEAT 3 (5–6s) — he lets go of the connector and checks the cable hangs right, eyes back on the car; the camera still travelling. Hard end mid-movement.
-
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[2–5s] @HOMEM_EV (on camera, Brazilian Portuguese, Belo Horizonte accent, relaxed and conversational, a half-smile in the breath): "É a possibilidade de um mundo mais verde,"
-VOICE LOCK — @HOMEM_EV: man, 40, relaxed baritone, conversational, a half-smile in the breath; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never a salesman, never an announcer. This voice identity is fixed and identical in every generation of the film.
-
-ACTING — @HOMEM_EV (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-MOTIVE: he did the maths and it paid off.
-GOAL: that you don't take him for someone showing off.
-OBSTACLE: an electric car still reads as a luxury.
-TACTIC: keep doing the ordinary task and say it sideways, casually, checking from the corner of his eye whether you think it's luxury.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: he blows a short breath through his nose when the latch clicks. A frozen pupil is wrong.
-NOT: a salesman smile, showing the car off, a thumbs-up, posing, a speech.
-
-CAMERA — observed handheld: the operator crab-walks sideways at an even slow walking pace (about 0.5 m per second) from frame-LEFT to frame-RIGHT, lens at shoulder height (1.5 m), 2.5 m from the subject, on the shadow side of the face.
-MOVEMENT: the camera TRAVELS frame-left to frame-right at that same constant pace from the first frame to the last — it never stops, never reverses, never pushes in; small human footfall bounce, a late correction now and then.
-OPTICS: MS at 63°, natural perspective; no lens drift inside the take.
-FOCUS: on the speaker's eyes; the background slides past, soft but readable.
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+SHOT 1 MOVEMENT: a real camera body descending fast through the roof structure and decelerating into the room — small sway, never a CGI fly-through.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-COMPOSITION: off-centre; the subject drifts from the right third toward the left third as the camera passes; the eyes stay on the upper-third line.
-NOT: gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, whip pan, the camera stopping, the camera reversing, centred symmetrical framing.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the connector is heavy, its thick cable stiff and coiling, dragging on the ground; the port flap springs open; the latch seats with a click only on the second push. Nothing floats, nothing loops. OVER-REAL: road dust on the car's lower doors, a scuffed rubber cable sheath, a scratched charging post with no brand and a dark blank screen, painted parking lines worn grey, a dry leaf against the kerb, his fingertips pressing white on the grip. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+GEOMETRY — large windows along the frame-LEFT wall; @ALUNO at a second-row desk facing the camera; @PROFESSORA standing 60 cm to his right (frame-RIGHT); in shot 2 the camera 2.5 m in front of his desk at 1.1 m height; classmates 1.5–5 m behind them, soft.
 
-LIGHT — NATURAL LIGHT ONLY, late afternoon, LOW & CLEAR (KEY):
-SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky ~7000 K as the soft fill on the other side.
-REACH: the sun lights the frame-LEFT side of every face and lays a warm edge along hair, shoulders and the crests of the terrain; the frame-RIGHT side of each face sits in soft open shade, readable.
-EXPOSURE: exposed for skin; the sky holds tone, never blown white; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the sun stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: golden-hour postcard glow, orange sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+PHYSICS & MATERIAL — in shot 1, dust motes stream past the steel; the beams are solid and painted; the boy's arm shoots up with a little jolt of the chair; the desk shifts a centimetre; her hand lands with real weight on his shoulder. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the matte paint of the steel beams, new laminate desks, a clean whiteboard with no writing, colourful backpacks on the chairs, the cotton weave of the school polo, sunlight on the floor.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+LIGHT — MOTIVATED LIGHT ONLY, afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+START (0–1s): black.
+DURING (1–3s): thin blades of daylight from the roof gaps cross the steel beams from frame-LEFT; between them, shade.
+END (3s on): the key is daylight through the big windows on frame-LEFT, ~5600 K, on the frame-LEFT side of every face; the room behind a stop darker; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: once inside, the daylight stays frame-LEFT in every shot.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, sunbeam shafts.
 
-SOUND — LOCATION SOUND ONLY: city traffic two streets away, steady; the cable dragging on asphalt; the port flap; the latch click at 1.5s; a short electronic beep from the charger (one tone, not a melody); his footfall; a car door closing far off. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
+SOUND — LOCATION SOUND ONLY: a low rumble in the dark; a metallic hum as the steel passes; then the classroom: a low murmur that drops as he answers, the chair creaking, a pencil rolling, children in the schoolyard far off, a bus passing outside. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-NEGATIVE: car brand badge, readable charger screen, logos, a salesman smile, thumbs-up, posing beside the car, the camera stopping, push-in, gimbal glide, a second speaker, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-[ORDER: ONE continuous take, 6s, handheld travelling left to right at constant pace — (0–2s) he seats the connector, latch clicks on the second push — (2–5s) sidelong to the lens, his line — (5–6s) back to the cable, camera still travelling. Invariants: constant lateral travel; occupied first frame; living eyes on the lens; only his one line. Look: large-format spherical, mid-key, red-ochre earth, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
-```
+NEGATIVE: speech during shot 1, swapped sides, @PROFESSORA sitting, lines in the wrong mouth, a classmate speaking, writing on the whiteboard, a school emblem, an old or run-down classroom, a chalkboard, a CGI fly-through, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 6s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @HOMEM_EV (character sheet) — identidade
-  2) opcional: @CARRO_EV — objeto
-Notas: conferir no draft se a câmera não para nem empurra. O corte entra na vírgula; a sobra antes e depois é a alça de montagem.
-```
-
-### T05 · Indústria (Revezamento, ~1.8s no corte)
-
-Operário na metalúrgica olha a linha de bobinas, fala por cima do barulho e volta à linha.
-
-#### Geração T05 · 6s · 1 take · 16:9
-
-```
-O QUE ACONTECE: No chão de uma usina siderúrgica, o operário acompanha uma bobina de aço passando nos roletes, faz um sinal com a mão, fala para a lente e volta os olhos para a linha.
-O QUE É DITO: OPERÁRIO: "de uma indústria mais eficiente,"
-TEMPO: olha a linha, sinal com a mão — 2s · fala — 2s · volta à linha, confere você — 2s = 6s
-COMO TERMINA: a câmera ainda andando; corte na vírgula.
-DIREÇÃO: mesmo travelling lateral do revezamento. O olhar vai da máquina pra você, para a fala apontar o que funciona sem ele precisar apontar.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 6 seconds total, ONE continuous take, no cuts, observed handheld with the camera travelling sideways from frame-left to frame-right at a constant pace, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@OPERARIO — IDENTITY of @OPERARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@OPERARIO (30, Black man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, leather gloves) — the STEELWORKER: watches the line, speaks once; NEVER removes his helmet or glasses, NEVER poses, NEVER walks out of frame.
-FACES: his face exists once; the two workers far in the background are distinct soft figures, mouths closed.
-CONTACT: nobody touches anyone.
-
-SCENE — Inside a working steel mill in Minas Gerais in the afternoon; behind @OPERARIO a line of hot-rolled steel coils moves on rollers; he is already at his post watching it.
-THE SOUL OF THE SCENE (play it, never explain it): he has seen this plant change from the inside and wants someone from outside to see it too.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera TRAVELS frame-left to frame-right at one constant walking pace from the first frame to the last — WRONG if it stops, reverses, pushes in or glides like a gimbal.
-2. @OPERARIO is in frame from the first frame, already working — WRONG if the frame starts empty.
-3. When @OPERARIO speaks, the eyes are on the lens and alive — WRONG if the stare is glassy.
-4. Only @OPERARIO speaks, only "de uma indústria mais eficiente," — every other mouth closed.
-5. Light from frame-LEFT — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — MS, 63°, the camera already travelling left to right: @OPERARIO at the right third, eyes on the steel coil rolling past behind him; he raises a gloved hand and signals once to someone off-screen frame-right.
-BEAT 2 (2–4s) — his eyes come from the line to the lens and he speaks, a little louder over the hall.
-BEAT 3 (4–6s) — his eyes go back to the line, checking it, then flick once to the lens to see if you saw; the camera still travelling. Hard end mid-movement.
-
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[2–4s] @OPERARIO (on camera, Brazilian Portuguese, light Minas Gerais interior accent, pushed slightly louder over the machines, plain and certain): "de uma indústria mais eficiente,"
-VOICE LOCK — @OPERARIO: man, 30, mid-low voice, a little hoarse from talking over machines, short phrases pushed slightly louder than normal; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never an announcer. This voice identity is fixed and identical in every generation of the film.
-
-ACTING — @OPERARIO (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-MOTIVE: he saw the plant change and nobody outside knows.
-GOAL: that you see what works here.
-OBSTACLE: the line needs his eyes — he can't stop watching it.
-TACTIC: show you with his eyes — the line, then you — and check you looked.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: he squints once against the heat shimmer. The clear safety glasses show a soft reflection of the hall; a frozen pupil behind them is wrong.
-NOT: removing the glasses, a proud pose, a speech, a smile at the camera, folded arms.
-
-CAMERA — observed handheld: the operator crab-walks sideways at an even slow walking pace (about 0.5 m per second) from frame-LEFT to frame-RIGHT, lens at shoulder height (1.5 m), 2.5 m from the subject, on the shadow side of the face.
-MOVEMENT: the camera TRAVELS frame-left to frame-right at that same constant pace from the first frame to the last — it never stops, never reverses, never pushes in; small human footfall bounce, a late correction now and then.
-OPTICS: MS at 63°, natural perspective; no lens drift inside the take.
-FOCUS: on the speaker's eyes; the background slides past, soft but readable.
-HORIZON: level.
-COMPOSITION: off-centre; the subject drifts from the right third toward the left third as the camera passes; the eyes stay on the upper-third line.
-NOT: gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, whip pan, the camera stopping, the camera reversing, centred symmetrical framing.
-
-PHYSICS & MATERIAL — the steel coil is enormous and heavy, rolling slowly on the rollers with a deep grind; heat shimmer rises off it and bends the air behind him; his coverall is stiff and creased; dust and scale drift in the light. Nothing floats, nothing loops. OVER-REAL: blue-black mill scale on the hot steel, oil-dark concrete floor, scratches and dents on his helmet, sweat at his temple under the helmet band, worn leather of his gloves, yellow safety rails with paint chipped to the metal. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY):
-SOURCE: the key is daylight through tall dusty side windows of the mill hall on frame-LEFT, ~5600 K, soft and directional; the faint orange glow of hot steel far in the background frame-right ~1800 K, never on his face.
-REACH: the daylight lights the frame-LEFT side of his face and the edge of his helmet; the frame-RIGHT side in soft shade; the hall falls off into dim depth behind him.
-EXPOSURE: exposed for skin; the room behind about one stop darker, readable, never black; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the daylight stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — LOCATION SOUND ONLY: the deep grinding roll of the coil on the rollers; a constant industrial hum; a hydraulic hiss at 1s; an overhead crane's warning beep far off (single repeated tone, not a melody); a metal clank at 4s; his voice over it. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
-
-NEGATIVE: helmet off, glasses off, company logo on the helmet or coverall, sparks fountain, molten-metal spectacle, fire, the camera stopping, push-in, gimbal glide, a second speaker, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 6s, handheld travelling left to right at constant pace — (0–2s) eyes on the coil, a hand signal — (2–4s) to the lens, his line over the noise — (4–6s) back to the line, a flick to you. Invariants: constant lateral travel; full safety equipment on; living eyes; only his one line. Look: large-format spherical, mid-key, red-ochre and steel, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
-```
-
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 6s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @OPERARIO (character sheet) — identidade + EPI
-Notas: conferir EPI completo e sem logo, e se os olhos estão vivos atrás dos óculos.
-```
-
-### T06 · Laboratório (Revezamento, ~1.2s no corte)
-
-Pesquisadora tira os olhos da pipeta só pelo tempo da frase.
-
-#### Geração T06 · 5s · 1 take · 16:9
-
-```
-O QUE ACONTECE: Num laboratório de medicamentos, a pesquisadora pipeta amostras, levanta os olhos para a lente só pelo tempo da frase e volta ao trabalho.
-O QUE É DITO: PESQUISADORA: "de novas tecnologias,"
-TEMPO: pipetando — 2s · olha e fala — 2s · troca a ponteira — 1s = 5s
-COMO TERMINA: a câmera ainda andando; corte na vírgula.
-DIREÇÃO: é o take mais curto do filme, então a tática é emprestar dois segundos do experimento e devolver.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, observed handheld with the camera travelling sideways from frame-left to frame-right at a constant pace, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@PESQUISADORA — IDENTITY of @PESQUISADORA: face, hair, build, hands, wardrobe and safety equipment. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@PESQUISADORA (30, Black woman, slim, natural hair in a tight bun, small gold stud earrings, buttoned white lab coat, purple nitrile gloves, clear safety glasses) — the RESEARCHER: works at the bench, speaks once; NEVER stops the experiment, NEVER removes gloves or glasses, NEVER walks out of frame.
-FACES: her face exists once; one colleague far in the background is a distinct soft figure, mouth closed.
-CONTACT: nobody touches anyone.
-
-SCENE — Afternoon in a pharmaceutical research laboratory in Minas Gerais; @PESQUISADORA is already pipetting samples into a well plate at her bench.
-THE SOUL OF THE SCENE (play it, never explain it): almost nobody ever asks what she does — she gives you exactly one phrase and goes back to work.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera TRAVELS frame-left to frame-right at one constant walking pace from the first frame to the last — WRONG if it stops, reverses, pushes in or glides like a gimbal.
-2. @PESQUISADORA is in frame from the first frame, already working — WRONG if the frame starts empty.
-3. When @PESQUISADORA speaks, the eyes are on the lens and alive — WRONG if the stare is glassy.
-4. Only @PESQUISADORA speaks, only "de novas tecnologias," — every other mouth closed.
-5. Light from frame-LEFT — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — MS, 63°, the camera already travelling left to right: @PESQUISADORA at the right third, a pipette in her right hand, dispensing into a row of wells, eyes on the tip; she ejects the tip into a waste container.
-BEAT 2 (2–4s) — she lifts her eyes from the plate to the lens for the length of the phrase only, and speaks.
-BEAT 3 (4–5s) — her eyes return to the plate and she loads a fresh tip; the camera still travelling. Hard end mid-movement.
-
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[2–4s] @PESQUISADORA (on camera, Brazilian Portuguese, Belo Horizonte accent, quiet, quick and exact, the voice of someone mid-task): "de novas tecnologias,"
-VOICE LOCK — @PESQUISADORA: woman, 30, light mid voice, quick and exact, quiet, the voice of someone mid-task; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never breathy, never a TV presenter. This voice identity is fixed and identical in every generation of the film.
-
-ACTING — @PESQUISADORA (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-MOTIVE: nobody ever asks what she does.
-GOAL: that you get it in one phrase.
-OBSTACLE: the samples can't wait.
-TACTIC: borrow two seconds from the experiment, check that you followed, give the time back.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: she pushes her glasses up with the back of her wrist. A frozen pupil is wrong.
-NOT: smiling for the camera, holding up a test tube, posing, a speech, stopping the work.
-
-CAMERA — observed handheld: the operator crab-walks sideways at an even slow walking pace (about 0.5 m per second) from frame-LEFT to frame-RIGHT, lens at shoulder height (1.5 m), 2 m from the subject, on the shadow side of the face.
-MOVEMENT: the camera TRAVELS frame-left to frame-right at that same constant pace from the first frame to the last — it never stops, never reverses, never pushes in; small human footfall bounce, a late correction now and then.
-OPTICS: MS at 63°, natural perspective; no lens drift inside the take.
-FOCUS: on the speaker's eyes; the background slides past, soft but readable.
-HORIZON: level.
-COMPOSITION: off-centre; the subject drifts from the right third toward the left third as the camera passes; the eyes stay on the upper-third line.
-NOT: gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, whip pan, the camera stopping, the camera reversing, centred symmetrical framing.
-
-PHYSICS & MATERIAL — the pipette plunger resists her thumb and springs back; liquid draws up and dispenses in small clear drops; the used tip pops off into the bin; the nitrile gloves wrinkle at the knuckles. Nothing floats, nothing loops. OVER-REAL: a hand-written strip of tape on a rack with unreadable marks, a scratched bench surface, a tiny droplet on the glove, condensation on a sample tube, a worn pipette grip, a faint crease line on the lab coat. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY):
-SOURCE: the key is daylight through a wide lab window on frame-LEFT, ~5600 K, soft and directional; the white work light under the shelf above the bench ~5000 K as a low secondary on the plate and her hands, never flattening her face.
-REACH: the daylight lights the frame-LEFT side of her face; the frame-RIGHT side in soft shade; the lab behind falls off a stop, readable.
-EXPOSURE: exposed for skin; the room behind about one stop darker, readable, never black; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the daylight stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — LOCATION SOUND ONLY: the fume hood's steady airflow; the pipette's soft click and the tip popping into the bin; glass tapping glass; a centrifuge winding down far off; her breath. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
-
-NEGATIVE: glowing liquids, coloured smoke, sci-fi lab, holograms, readable labels, logos, gloves off, glasses off, holding up a tube to the camera, the camera stopping, push-in, gimbal glide, a second speaker, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 5s, handheld travelling left to right at constant pace — (0–2s) pipetting, tip ejected — (2–4s) eyes up to the lens, her phrase — (4–5s) back to the plate, new tip. Invariants: constant lateral travel; occupied first frame; living eyes; only her one line. Look: large-format spherical, mid-key, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
-```
-
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 5s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @PESQUISADORA (character sheet) — identidade + EPI
-Notas: no corte ficam ~1,2s. Se o draft sair com rótulos legíveis nos frascos, refaça: texto não pode aparecer.
-```
-
-### T07 · Restaurante (Revezamento, ~1.8s no corte)
-
-Dono serve o prato, espera a reação da cliente e te inclui com um olhar cúmplice.
-
-#### Geração T07 · 6s · 1 take · 16:9
-
-```
-O QUE ACONTECE: No restaurante de comida saudável, o dono põe o prato diante de uma cliente antiga, espera a primeira olhada dela e então vira o olhar para a lente, cúmplice.
-O QUE É DITO: DONO: "de uma economia mais sustentável."
-TEMPO: serve — 2s · espera a reação dela — 1s · fala para a lente — 2s · volta a ela — 1s = 6s
-COMO TERMINA: a câmera ainda andando; corte no ponto final.
-DIREÇÃO: resolve o que estava em aberto: o olhar sai da cliente no segundo 3, depois que ela olha o prato. A cliente fica de costas, em primeiro plano suave, para não disputar a fala.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 6 seconds total, ONE continuous take, no cuts, observed handheld with the camera travelling sideways from frame-left to frame-right at a constant pace, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@DONO (60, white man, heavyset, sun-reddened skin, thick white moustache, balding with white hair at the sides, brown-and-cream checked short-sleeved shirt, canvas apron, a small old burn mark on the back of his left hand) — the OWNER: stands at the table, serves, speaks once; NEVER sits, NEVER walks out of frame.
-CUSTOMER (unreferenced: a woman about 35, seen from behind and in partial profile, dark hair, olive cardigan) — seated at the table in the frame-LEFT foreground, soft; NEVER speaks, mouth closed, NEVER looks at the lens.
-FACES: each face exists once; no twins, no clones.
-CONTACT: nobody touches anyone; the plate passes from his hands to the table, never into her hands.
-
-SCENE — Lunchtime in a small healthy-food restaurant in an interior town of Minas Gerais; @DONO is already setting a full plate in front of a regular customer.
-THE SOUL OF THE SCENE (play it, never explain it): he has watched the town change across decades of counter, and this restaurant is his proof — he lets you in on it like an old regular.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera TRAVELS frame-left to frame-right at one constant walking pace from the first frame to the last — WRONG if it stops, reverses, pushes in or glides like a gimbal.
-2. @DONO is in frame from the first frame, already working — WRONG if the frame starts empty.
-3. When @DONO speaks, the eyes are on the lens and alive — WRONG if the stare is glassy.
-4. Only @DONO speaks, only "de uma economia mais sustentável." — every other mouth closed.
-5. Light from frame-LEFT — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — MS, 63°, the camera already travelling left to right: @DONO at the right third, standing at the table, setting down a heavy ceramic plate of rice, beans, greens and grilled vegetables in front of the CUSTOMER, who sits soft in the frame-LEFT foreground.
-BEAT 2 (2–3s) — he watches her take the first look at the plate, waiting for her verdict.
-BEAT 3 (3–5s) — he turns his eyes to the lens with a complicit look, like to an old regular, and speaks.
-BEAT 4 (5–6s) — his eyes go back to her; he wipes his hands on the apron; the camera still travelling. Hard end mid-movement.
-
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[3–5s] @DONO (on camera, Brazilian Portuguese, light Minas Gerais interior accent, deep and unhurried, a complicit warmth, the last word landing low): "de uma economia mais sustentável."
-VOICE LOCK — @DONO: man, 60, deep, slow, slightly rough, the easy voice of a man who has talked across a counter for decades; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never a caricature of a country man. This voice identity is fixed and identical in every generation of the film.
-
-ACTING — @DONO (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-MOTIVE: decades behind this counter, and the restaurant is the proof that things changed.
-GOAL: to bring you into the joke and the pride.
-OBSTACLE: the customer is right there — the plate comes first.
-TACTIC: serve without hurry, then include you like an old regular with a sideways look.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: his moustache lifts on one side before the line. A frozen pupil is wrong.
-NOT: a waiter's bow, presenting the plate to the camera, a big laugh, a thumbs-up, a speech.
-
-ACTING — CUSTOMER: TACTIC check the plate and trust him; eyes on the food, then up to him; involuntary detail: she pulls the napkin closer; NOT speaking, NOT looking at the lens.
-
-CAMERA — observed handheld: the operator crab-walks sideways at an even slow walking pace (about 0.5 m per second) from frame-LEFT to frame-RIGHT, lens at shoulder height (1.5 m), 2.2 m from the subject, on the shadow side of the face.
-MOVEMENT: the camera TRAVELS frame-left to frame-right at that same constant pace from the first frame to the last — it never stops, never reverses, never pushes in; small human footfall bounce, a late correction now and then.
-OPTICS: MS at 63°, natural perspective; no lens drift inside the take.
-FOCUS: on the speaker's eyes; the background slides past, soft but readable.
-HORIZON: level.
-COMPOSITION: off-centre; the subject drifts from the right third toward the left third as the camera passes; the eyes stay on the upper-third line.
-NOT: gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, whip pan, the camera stopping, the camera reversing, centred symmetrical framing.
-
-PHYSICS & MATERIAL — the ceramic plate is heavy and touches down with a dull knock; steam rises off the beans and bends in the air from the window; the apron is stiff canvas with old stains; the chair scrapes when she settles. Nothing floats, nothing loops. OVER-REAL: a chipped enamel jug on the table, a worn wooden tabletop polished by elbows, faded checked oilcloth on the next table, a small old burn mark on the back of his left hand, flour or stain marks on the apron, a handwritten menu board in the background with unreadable chalk. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY):
-SOURCE: the key is daylight through the street window of the restaurant on frame-LEFT, ~5600 K, soft and directional; a warm pendant bulb over the counter in the background ~2800 K, small, never on the faces.
-REACH: the daylight lights the frame-LEFT side of his face and the steam over the plate; the frame-RIGHT side in soft shade; the back of the room falls off a stop, readable.
-EXPOSURE: exposed for skin; the room behind about one stop darker, readable, never black; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the daylight stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — LOCATION SOUND ONLY: the plate's dull knock on wood; cutlery on plates at other tables; a low murmur of other diners with no words standing out; a pan sizzling in the kitchen off-screen; the street through the open door; the chair scrape. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
-
-NEGATIVE: the customer speaking, the customer looking at the lens, the plate handed into her hands, presenting the plate to the camera, a waiter's bow, readable menu, logos, the camera stopping, push-in, gimbal glide, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 6s, handheld travelling left to right at constant pace — (0–2s) he sets the plate before the customer — (2–3s) he waits for her look — (3–5s) to the lens, complicit, his line — (5–6s) back to her, hands on the apron. Invariants: constant lateral travel; occupied first frame; living eyes; only his one line, the customer silent. Look: large-format spherical, mid-key, red-ochre earth, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
-```
-
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 6s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @DONO (character sheet) — identidade
-Notas: conferir se a boca da cliente fica fechada e se ela não olha pra lente.
-```
-
-### T08 · Plantação (Revezamento, ~8.3s no corte)
-
-Agricultora caminha pela soja falando com você; em "mais raro" ela para, e a câmera para junto.
-
-#### Geração T08 · 11s · 1 take · 16:9
-
-```
-O QUE ACONTECE: A agricultora caminha pela lavoura de soja, da esquerda pra direita, mão nas plantas, falando com a lente. Em "mais raro" ela para de avaliar as plantas e procura seus olhos, e a câmera para junto.
-O QUE É DITO: AGRICULTORA: "Enquanto o mundo olha para o nióbio e as terras raras de Minas," / "Minas olha para o que há de mais raro na nossa terra:"
-TEMPO: caminha — 1s · 1ª frase andando — 4s · confere uma vagem — 1s · 2ª frase começa — 2s · para em "mais raro" e termina — 2s · segura — 1s = 11s
-COMO TERMINA: parada, segurando seu olhar; corte para a mina.
-DIREÇÃO: o travelling lateral do revezamento termina aqui. Quando ela para, a câmera para, e a quietude já prepara a virada.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 11 seconds total, ONE continuous take, no cuts, observed handheld walk-and-talk: the camera travels sideways from frame-left to frame-right with her and stops when she stops, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@AGRICULTORA (40, mixed-race brown woman, strong build, sun lines at the eyes, long black hair in a single braid, wide-brim straw hat pushed back off the forehead, long-sleeved khaki field shirt, jeans, leather boots) — the FARMER: walks the soybean rows, checks the plants, speaks two lines, stops; NEVER poses, NEVER takes the hat off, NEVER walks toward the camera.
-FACES: her face exists once; nobody else in frame.
-CONTACT: only her right hand brushing the tops of the plants.
-
-SCENE — Late afternoon in a soybean field in the interior of Minas Gerais; @AGRICULTORA is already walking along a row, her right hand brushing the tops of the knee-high plants, checking the pods.
-THE SOUL OF THE SCENE (play it, never explain it): she talks about what is hers — the land she looks after — and walks you through it; on "mais raro" she stops judging the plants and looks for you.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera TRAVELS frame-left to frame-right with her at her walking pace from the first frame until 8s, then STAYS PUT when she stops — WRONG if it stops early, reverses, pushes in or glides like a gimbal.
-2. @AGRICULTORA walks frame-left to frame-right and stops at 8s — WRONG if she walks toward or away from the camera.
-3. Her eyes are alive: on the plants, then on the lens; at 8s they find the lens and stay — WRONG if glassy or hidden by the hat brim.
-4. Only @AGRICULTORA speaks, only these two lines.
-5. Sun from frame-LEFT — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–1s) — MS, 63°, the camera already travelling left to right beside her: @AGRICULTORA walking left to right at the left-centre of the frame, right hand brushing the plants, eyes on the pods.
-BEAT 2 (1–5s) — still walking, she turns her head to the lens and speaks the first line, eyes moving between you and the plants.
-BEAT 3 (5–6s) — a breath; she bends a stem to look at a pod and lets it spring back.
-BEAT 4 (6–8s) — walking, she starts the second line to the lens.
-BEAT 5 (8–10s) — on "mais raro" she stops walking, turns her body toward the lens and stops judging the plants; the camera stops with her and STAYS PUT; she finishes the line.
-BEAT 6 (10–11s) — she holds your eyes, waiting. Hard end on the held look.
-
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[1–5s] @AGRICULTORA (on camera, Brazilian Portuguese, light Minas Gerais interior accent, steady, a walking breath under the words): "Enquanto o mundo olha para o nióbio e as terras raras de Minas,"
-[6–10s] @AGRICULTORA (on camera, Brazilian Portuguese, light Minas Gerais interior accent, slowing, the last words given straight to you): "Minas olha para o que há de mais raro na nossa terra:"
-VOICE LOCK — @AGRICULTORA: woman, 40, mid-low, dry and steady, a walking breath under the words; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never an announcer, never a caricature. This voice identity is fixed and identical in every generation of the film.
-
-ACTING — @AGRICULTORA (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: a woman walking her field turns the talk from what is under the ground to who is on it.
-MOTIVE: she looks after this land and knows what it is worth.
-GOAL: to bring you along to the point.
-OBSTACLE: the world only talks about what's under the ground.
-TACTIC: walk you through the field like a neighbour, judging the plants as she goes — then stop and look for you.
-MOMENT TO MOMENT: — [0–5s] eyes split between the pods and you — [5–6s] she checks one pod — [6–8s] back to you, still walking — [8–10s] she stops; her eyes leave the plants for good and search both of yours — [10–11s] she waits.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: she breathes out through her nose when she stops. The hat brim is pushed back so the sun reaches her eyes; a frozen pupil is wrong.
-NOT: a speech, a proud pose, arms spread over the field, a broad smile, taking the hat off.
-
-CAMERA — observed handheld: the operator crab-walks sideways at her walking pace (about 0.8 m per second) from frame-LEFT to frame-RIGHT along the next row, lens at shoulder height (1.5 m), 2.5 m from her, on the shadow side of her face.
-MOVEMENT: the camera TRAVELS frame-left to frame-right with her from the first frame until 8s, with human footfall bounce; at 8s it stops with her and STAYS PUT, breathing, to the end. One movement, then stillness.
-OPTICS: MS at 63°, natural perspective; no lens drift inside the take.
-FOCUS: on her eyes; the field behind soft but readable.
-HORIZON: level.
-COMPOSITION: off-centre; she holds the left-centre while walking; when she stops she is just left of centre with the field running to the horizon frame-right; her eyes on the upper-third line.
-NOT: gimbal glide, drone, aerial, orbit, push-in, zoom, the camera stopping before 8s, the camera reversing, centred symmetrical framing.
-
-GEOMETRY — the soybean rows run left to right across the frame; @AGRICULTORA walks along one row, the camera along the parallel row 2.5 m away on her right-hand side; the plants knee-high; the field runs flat to a line of trees about 400 m away; the sun low on frame-LEFT.
-
-PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod she checks resists, bends and springs back; her boots press into the soft red soil between rows and lift dust; her braid swings with each step and settles when she stops. Nothing floats, nothing loops. OVER-REAL: fine hairs on the green soybean pods, a few yellowing leaves with holes, red soil caked on her boots, sun lines at her eyes, a frayed edge on the straw brim, a sweat patch on the back of her shirt. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — NATURAL LIGHT ONLY, late afternoon, LOW & CLEAR (KEY):
-SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky ~7000 K as the soft fill on the other side.
-REACH: the sun lights the frame-LEFT side of every face and lays a warm edge along hair, shoulders and the crests of the terrain; the frame-RIGHT side of each face sits in soft open shade, readable.
-EXPOSURE: exposed for skin; the sky holds tone, never blown white; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the sun stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: golden-hour postcard glow, orange sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — LOCATION SOUND ONLY: the leaves brushing her hand and her trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling twice far off; insects in the late afternoon; when she stops, the brushing stops and only wind and insects remain. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
-
-NEGATIVE: walking toward the camera, the camera stopping early, the camera reversing, arms spread over the field, hat off, eyes hidden in the hat's shadow, a tractor in the foreground, drone shot, a second person, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 11s, handheld walk-and-talk travelling left to right, then still — (0–1s) she walks, hand on the plants — (1–5s) first line to the lens, walking — (5–6s) checks a pod — (6–8s) second line begins — (8–10s) she stops on "mais raro", the camera stops with her, she finishes the line — (10–11s) she holds your eyes. Invariants: lateral travel until 8s then still; she walks left to right; living eyes on the lens; only her two lines; sun frame-LEFT. Look: large-format spherical, mid-key, red-ochre earth, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
-```
-
-```
-GENERATION CARD
-Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 11s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
-Anexar nesta ordem:
-  1) @AGRICULTORA (character sheet) — identidade
-Notas: a aba do chapéu precisa deixar os olhos à vista. Conferir se a parada cai em "mais raro".
-```
-
-### T09 · Mina de nióbio (Virada, ~4.8s no corte)
-
-Onde se espera o minério, aparece a pessoa: o foco sai do minério e vai para ele.
-
-#### Geração T09 · 14s · 1 take · 16:9
-
-```
-O QUE ACONTECE: Na beira da cava da mina, o quadro abre no minério nítido; o foco passa para o funcionário, que já te olhava. Ele fala, baixa os olhos para o minério e os levanta para você em "novos caminhos", terminando a frase inteira.
-O QUE É DITO: FUNCIONÁRIO: "a nossa gente." / "Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
-TEMPO: minério nítido — 1s · rack para ele — 1s · "a nossa gente." — 2s · olhar desce ao minério — 1s · 2ª frase, olhar sobe em "novos caminhos" — 4s · termina a frase — 3s · segura — 2s = 14s
-COMO TERMINA: segurando seu olhar; na montagem o corte cai em "para quem nasce" e entra o T10.
-DIREÇÃO: virada composta: quadro travado e um único gesto de câmera, o rack de foco do minério para o homem. Ele diz a frase inteira on camera; esse áudio vira a V.O. do T10 ao T12, com a mesma voz sem esforço. O levantar do olhar dele abre a série do match cut.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 14 seconds total, ONE continuous take, no cuts, an authored locked frame on a tripod whose only movement is one focus rack, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
-
-REFERENCES — each reference has ONE job:
-@FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
-@MINA — WORLD: the open-pit niobium mine — terraced benches of ochre and brown earth, haul roads, a stockpile of ore; the world for the whole take.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @MINA supplies geography and materials ONLY — its light is replaced by the LIGHT block.
-
-WHO IS WHO — READ FIRST, ABSOLUTE:
-@FUNCIONARIO (30, mixed-race brown man, medium build, short black hair, a moustache, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, leather gloves, ear plugs on a cord around his neck, fine ore dust on everything) — the MINE WORKER: stands still, speaks, looks down once, looks back up; NEVER removes any safety equipment, NEVER walks, NEVER gestures toward the mine.
-FACES: his face exists once; the haul trucks far in the background have no visible drivers.
-CONTACT: nobody touches anyone.
-
-SCENE — Late afternoon at the edge of an open-pit niobium mine in the interior of Minas Gerais. The frame opens on the ore; only then does the man behind it come into focus — he is already looking at you.
-THE SOUL OF THE SCENE (play it, never explain it): the world comes here for the ore and nobody asks about him; he waits, without hurry, for the moment you understand that the rare thing is him.
-
-ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE continuous take, the camera LOCKED; the only movement is the focus rack from the ore to his face at 1–2s — WRONG if the camera moves or cuts.
-2. Full mining safety equipment on at all times: hard hat with chin strap, safety glasses, high-visibility vest, gloves — WRONG if any piece is missing, unbuckled or carries a logo.
-3. His eyes are alive and on the lens, except one look down at the ore at 4–5s and the rise back at 7–8s, landing on the upper-third line at about 45% of the frame width — WRONG if glassy or landing elsewhere.
-4. Only @FUNCIONARIO speaks, only these lines, with the pause after "a nossa gente."
-5. Sun from frame-LEFT — NO music.
-
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–1s) — the frame opens with the rough edge of an ore stockpile sharp in the frame-RIGHT lower foreground, 0.8 m from the lens; @FUNCIONARIO stands 1.6 m from the lens, just left of centre, soft, already looking at the lens.
-BEAT 2 (1–2s) — the focus racks from the ore to his face; the ore goes soft.
-BEAT 3 (2–4s) — he speaks the first line, plain and low.
-BEAT 4 (4–5s) — the pause: his eyes drop to the ore in the frame-RIGHT foreground.
-BEAT 5 (5–9s) — he starts the second line with his eyes still on the ore; on "construir novos caminhos" (7–8s) his eyes rise and land on the lens.
-BEAT 6 (9–12s) — he finishes the sentence to the lens, small pauses between "nasce", "vive" and "trabalha".
-BEAT 7 (12–14s) — he holds your eyes, mouth closed, checking that it landed. Hard end on the held look.
-
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[2–4s] @FUNCIONARIO (on camera, Brazilian Portuguese, light Minas Gerais interior accent, low, plain, unhurried): "a nossa gente."
-[5–12s] @FUNCIONARIO (on camera, Brazilian Portuguese, light Minas Gerais interior accent, calm and weighted, a breath at each comma): "Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
-VOICE LOCK — @FUNCIONARIO: man, 30, low, calm, unhurried, weighted pauses between phrases, chest voice; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never a dramatic narrator, never a movie-trailer voice. This voice identity is fixed and identical in every generation of the film.
-
-ACTING — @FUNCIONARIO (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: where you expected the ore to be the star, a person appears.
-MOTIVE: the world comes for the ore and never asks about him.
-GOAL: that you see who is standing here.
-OBSTACLE: he is not used to being the subject.
-TACTIC: hold your gaze without hurry and wait for it to land; look at the ore once as if to say "that's not it", then come back to you.
-MOMENT TO MOMENT: — [0–4s] steady on you, the first line plain — [4–5s] eyes to the ore — [5–8s] the thought builds, eyes still on the ore — [7–8s] eyes rise and land on you — [8–14s] he checks both of your eyes and waits for the penny to drop.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: he swallows once after "a nossa gente.". The clear safety glasses show a soft reflection of the sky; a frozen pupil behind them is wrong.
-NOT: a heroic pose, a proud smile, gesturing at the mine, a speech, raising his voice.
-
-MATCH FRAME (KEY — identical in every shot of the match series): MCU at 29°, camera locked on a tripod or a fixed rig at the subject's eye height, 1.6 m from the face, frontal to the face; the face sits just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft at least 4 m behind.
-
-CAMERA — authored: a locked tripod at his eye height (1.65 m), 1.6 m from his face, frontal; the ore stockpile edge 0.8 m from the lens in the frame-RIGHT lower foreground.
-MOVEMENT: the camera STAYS PUT for the whole take — no drift, no push, no shake.
-OPTICS: MCU at 29°; no zoom, no lens drift.
-FOCUS: starts on the ore in the foreground, his face soft; racks once to his face at 1–2s and stays on his eyes to the end.
-HORIZON: level; the far benches of the pit soft behind him.
-COMPOSITION: off-centre — his face just left of centre, the soft ore at frame-right bottom, the pit's terraced benches soft beyond.
-NOT: handheld, push-in, zoom, dolly, drone, orbit, a second focus rack, centred symmetrical framing.
-
-PHYSICS & MATERIAL — the ore lumps are dense and heavy, sharp-edged, dull brown with darker grains; fine dust lifts off the pit in the wind and drifts slowly right; the vest is stiff and scuffed; his breath moves the dust on his upper lip. Nothing floats, nothing loops. OVER-REAL: fine ore dust settled in the creases of his vest and gloves and in his moustache, scratches on the helmet, the chin strap's worn buckle, a red-brown film on his boots, sweat at the temple under the helmet band, terraced bench walls with drill marks in the background. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
-
-LIGHT — NATURAL LIGHT ONLY, late afternoon, LOW & CLEAR (KEY):
-SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky ~7000 K as the soft fill on the other side.
-REACH: the sun lights the frame-LEFT side of every face and lays a warm edge along hair, shoulders and the crests of the terrain; the frame-RIGHT side of each face sits in soft open shade, readable.
-EXPOSURE: exposed for skin; the sky holds tone, never blown white; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the sun stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: golden-hour postcard glow, orange sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
-
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
-
-SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine labouring far off, steady; a reversing alarm far away (single repeated tone, not a melody); gravel shifting on the stockpile; his breath before each line; after his last word, only wind and the distant truck. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post). Mining safety equipment is complete and correct; nobody in the pit without it.
-
-NEGATIVE: missing helmet, unbuckled chin strap, no glasses, no vest, logos on the equipment, company name on trucks, gesturing at the mine, a second focus rack, camera movement, handheld shake, a cut, eyes landing off the upper third, a second speaker, glowing ore, gold, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: ONE continuous take, 14s, locked tripod, one focus rack — (0–1s) ore sharp frame-right, he is soft — (1–2s) rack to his face — (2–4s) "a nossa gente." — (4–5s) eyes to the ore — (5–9s) second line begins, eyes rise to the lens at 7–8s — (9–12s) the sentence finished to you — (12–14s) he holds. Invariants: locked frame, one rack; full safety equipment; living eyes landing at the upper third, 45% width; only his lines. Look: large-format spherical, mid-key, red-ochre earth, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 3 shots, 2 hard cuts at 5s and 11s, 14s, handheld — (1, 0–5s) from black, steel beams rise past, through the ceiling, into a close-up of @ALUNO's hand shooting up — (2, 5–11s) medium-wide two-shot: he answers "É futuro.", she completes "Minério não é só minério." — (3, 11–14s) close-up: he beams, her hand on his shoulder. Invariants: no speech in shot 1; he left seated, she right standing; one line each, other mouths closed; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1003,87 +219,613 @@ GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 14s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
-  1) @FUNCIONARIO (character sheet) — identidade + EPI
-  2) @MINA (plate) — mundo
-Notas: o áudio de 9 a 12s ("para quem nasce, vive e trabalha aqui.") vai para baixo do T10–T12 na montagem. Validar EPI com a SST da operadora antes do final. A pausa depois de "a nossa gente." pode ser apertada na montagem.
+  1) @ALUNO (character sheet) — identidade
+  2) @PROFESSORA (character sheet) — identidade
+  3) opcional: @SALA_ESTADUAL (plate) — mundo
+Notas: risco nº 1: a fala ir para a boca errada. Confira só isso no draft. Fallback: ElevenLabs na voz da professora.
 ```
 
-ALTERNATIVE DIRECTION: em vez do rack, um plano geral da cava com ele pequeno na borda e um corte seco para o MCU na fala. É mais didático, perde o gesto de "onde se espera o minério, aparece a pessoa".
+### T04 · Eletroposto (Revezamento, ~2.8s no corte)
 
-### T10 · Mãe com recém-nascido (Match cut, ~1.2s no corte)
+Plugue entrando no carro elétrico, a luz acendendo, o homem fala de lado e dá um tapinha no teto.
+
+#### Geração T04 · 12s · 4 plano(s)
+
+- **O que acontece:** Num estacionamento moderno com ipês floridos: detalhe do plugue entrando no carro elétrico, close da luz da porta acendendo, o homem fala de lado pra lente e dá um tapinha satisfeito no teto.
+- **O que é dito:** HOMEM: "É a possibilidade de um mundo mais verde,"
+- **Tempo:** plugue — 3s · luz acende — 2s · fala — 5s · tapinha — 2s = 12s
+- **Como termina:** ele saindo de quadro pela direita, câmera ainda andando.
+- **Direção:** P1 em todos os planos, inclusive nos closes: a câmera anda de lado da esquerda pra direita e nunca para. As subações em close cobrem a locução em off na montagem.
+
+```
+CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+
+REFERENCES — each reference has ONE job:
+@HOMEM_EV — IDENTITY of @HOMEM_EV: face, hair, build, hands and wardrobe. 100% matches.
+REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@HOMEM_EV (40, mixed-race Brazilian man, stocky, short black hair greying at the temples, trimmed beard, untucked light-grey linen shirt, wedding ring on the left hand) — the CAR OWNER: plugs in the charger, speaks once, pats the car; NEVER poses beside the car, NEVER walks out of frame before shot 4.
+FACES: his face exists once; passers-by far behind are distinct soft Brazilian figures.
+CONTACT: nobody touches him.
+
+SCENE — Late afternoon at the charging bays of a modern office building's open-air parking lot in Belo Horizonte, Brazil; flowering ipê trees along the edge. @HOMEM_EV is already plugging his compact electric car in.
+THE SOUL OF THE SCENE (play it, never explain it): he did the maths, switched to electric and loves it — he tells you like someone who found a great deal.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. Exactly 4 shots with hard cuts at 3s, 5s, 10s — WRONG if there are extra cuts.
+2. In EVERY shot the handheld camera travels sideways from frame-left to frame-right at the same steady pace — WRONG if it stops, reverses, pushes in or glides.
+3. The close-ups show hands and objects only; @HOMEM_EV speaks only in the medium-wide shot, eyes alive on the lens — WRONG if glassy.
+4. Only @HOMEM_EV speaks, only "É a possibilidade de um mundo mais verde," — every other mouth closed.
+5. Light from frame-LEFT — NO music.
+
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — ECU, 47°, lens 40 cm from the car: his hand guides the charging connector into the car's port; the first push meets resistance, he lines it up and pushes again until it seats with a click. HARD CUT.
+SHOT 2 (3–5s) — CU, 47°: the light ring around the charging port glows on; his hand lets go of the connector and the thick cable settles. HARD CUT.
+SHOT 3 (5–10s) — MWS (from the knees up, the car and the trees around him), 63°: @HOMEM_EV standing by the car at the right third, turns to the lens and speaks at 6–9s, a pleased half-smile; he drifts toward the centre as the camera passes. HARD CUT.
+SHOT 4 (10–12s) — CU, 47°: his hand pats the car roof twice, satisfied, and he steps off frame-right. Hard end mid-step.
+
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–9s] @HOMEM_EV (on camera, Brazilian Portuguese): "É a possibilidade de um mundo mais verde,"
+VOICE LOCK — @HOMEM_EV: Brazilian man, 40, relaxed baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+
+ACTING — @HOMEM_EV (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: he made a smart choice and it paid off.
+TACTIC: share it casually, with the pleasure of someone who found a good deal — check from the corner of his eye that you're convinced.
+EYES: on the connector, then a sidelong look to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: he blows a short pleased breath through his nose. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a salesman pitch, a thumbs-up.
+
+CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
+
+PHYSICS & MATERIAL — the connector is heavy, its thick cable stiff and coiling; the port flap springs open; the connector seats only on the second push; ipê blossoms drift in the light wind. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the satin paint of the car, a fingerprint on the port cover, the rubber cable sheath, the brushed-steel charging post with a dark blank screen, fresh painted parking lines, pink ipê petals on the asphalt.
+
+LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+
+SOUND — LOCATION SOUND ONLY: city traffic two streets away; the cable dragging; the port flap; the latch click at 2s; a soft single beep from the charger; his footstep; birds in the ipê trees. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
+
+NEGATIVE: car badge, readable charger screen, posing beside the car, a thumbs-up, speaking in the close-ups, the camera stopping, push-in, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld travelling left to right in every shot — (1, 0–3s) ECU: the connector seats on the second push — (2, 3–5s) CU: the port light glows on, his hand lets go — (3, 5–10s) medium-wide: he turns to the lens and says his line, pleased — (4, 10–12s) CU: he pats the roof twice and steps off. Invariants: constant lateral travel; hands only in the close-ups; living eyes on the lens; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+```
+
+```
+GENERATION CARD
+Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
+Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Anexar nesta ordem:
+  1) @HOMEM_EV (character sheet) — identidade
+  2) opcional: @CARRO_EV — objeto
+Notas: conferir se a câmera anda em todos os planos. A resistência do plugue é só para não parecer mágica; se entrar de primeira, tudo bem.
+```
+
+### T05 · Indústria (Revezamento, ~1.8s no corte)
+
+Laminação moderna: placa incandescente nos rolos, a mão no joystick, o operário fala, a bobina pronta rola.
+
+#### Geração T05 · 12s · 4 plano(s)
+
+- **O que acontece:** Numa laminação moderna e automatizada: a placa de aço incandescente passa nos rolos, a mão do operário empurra o joystick, ele fala orgulhoso e a bobina pronta rola para o lugar.
+- **O que é dito:** OPERÁRIO: "de uma indústria mais eficiente,"
+- **Tempo:** placa nos rolos — 3s · joystick — 2s · fala — 5s · bobina — 2s = 12s
+- **Como termina:** a bobina rolando, câmera ainda andando.
+- **Direção:** Mesmo travelling lateral do revezamento em todos os planos. Fábrica limpa e automatizada, nada de chão de fábrica velho.
+
+```
+CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+
+REFERENCES — each reference has ONE job:
+@OPERARIO — IDENTITY of @OPERARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
+REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@OPERARIO (30, Black Brazilian man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, grey work gloves) — the STEELWORKER: runs the line from the console, speaks once; NEVER removes helmet or glasses, NEVER walks out of frame.
+FACES: his face exists once; two colleagues far behind are distinct soft figures, mouths closed.
+CONTACT: nobody touches anyone.
+
+SCENE — Afternoon inside a modern, automated steel rolling mill in Minas Gerais, Brazil: clean painted floor lanes, a glowing steel slab moving through the rollers. @OPERARIO is already at his console beside the line.
+THE SOUL OF THE SCENE (play it, never explain it): he has watched this plant become one of the most efficient anywhere and is proud to show it off.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. Exactly 4 shots with hard cuts at 3s, 5s, 10s — WRONG if there are extra cuts.
+2. In EVERY shot the handheld camera travels sideways from frame-left to frame-right at the same steady pace — WRONG if it stops, reverses, pushes in or glides.
+3. The close-ups show hands and objects only; @OPERARIO speaks only in the medium-wide shot, eyes alive on the lens — WRONG if glassy.
+4. Only @OPERARIO speaks, only "de uma indústria mais eficiente," — every other mouth closed.
+4b. Full safety equipment on in every shot: hard hat, glasses, gloves.
+5. Light from frame-LEFT — NO music.
+
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — CU, 47°: a red-hot steel slab glides through the rolling-mill rollers, steam hissing off it where water sprays. HARD CUT.
+SHOT 2 (3–5s) — CU, 47°: his gloved hand pushes a joystick forward on a modern control console; the console lights are on, the screens show only abstract shapes. HARD CUT.
+SHOT 3 (5–10s) — MWS (from the knees up, the line glowing behind him), 63°: @OPERARIO at the console at the right third, turns to the lens and speaks at 6–8s, a proud grin, then glances back to the line. HARD CUT.
+SHOT 4 (10–12s) — CU, 47°: a finished steel coil, still warm, rolls smoothly into its place on the conveyor. Hard end mid-roll.
+
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–8s] @OPERARIO (on camera, Brazilian Portuguese): "de uma indústria mais eficiente,"
+VOICE LOCK — @OPERARIO: Brazilian man, 30, mid-low voice, slightly raised over the machines; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+
+ACTING — @OPERARIO (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: he has seen the plant transform and wants people outside to see it.
+TACTIC: show it off — the line, then you — checking that you are impressed.
+EYES: from the line to the lens and back. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: he nods once at the line, satisfied. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, removing the glasses, folded arms.
+
+CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
+
+PHYSICS & MATERIAL — the slab is enormous and heavy, moving steadily on the rollers; heat shimmer bends the air above it; water spray flashes to steam; the coil is dense and rolls with weight, settling into the cradle. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: blue-black mill scale on the hot steel, the glowing orange core, brushed steel of the console, the matte plastic of the joystick, the weave of the flame-retardant coverall, painted yellow safety lanes on a clean floor.
+
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through tall windows along the mill hall on frame-LEFT, ~5600 K, soft and directional; the orange glow of the hot steel as a strong secondary on the line, never the key on his face.
+REACH: the daylight lights the frame-LEFT side of his face and the helmet; the hot steel adds a warm edge on the line side; the hall falls off into depth.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+
+SOUND — LOCATION SOUND ONLY: the deep roll of steel on the rollers; water spray hissing to steam; a steady industrial hum; the joystick's click; a crane's warning tone far off (single repeated tone, not a melody); his voice over it. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
+
+NEGATIVE: helmet off, glasses off, logos on helmet or coverall, a dirty old factory, sparks fountain, explosion, readable screens, speaking in the close-ups, the camera stopping, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld travelling left to right in every shot — (1, 0–3s) CU: the red-hot slab through the rollers — (2, 3–5s) CU: his gloved hand on the joystick — (3, 5–10s) medium-wide: he turns to the lens and says his line, proud — (4, 10–12s) CU: the finished coil rolls into place. Invariants: constant lateral travel; full safety equipment; living eyes; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+```
+
+```
+GENERATION CARD
+Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
+Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Anexar nesta ordem:
+  1) @OPERARIO (character sheet) — identidade + EPI
+Notas: conferir EPI completo e sem logo, e telas do console sem texto legível.
+```
+
+### T06 · Laboratório (Revezamento, ~1.2s no corte)
+
+Uma gota azul se mistura no vórtice do béquer, o rack entra no analisador, a pesquisadora fala e confere um frasco.
+
+#### Geração T06 · 11s · 4 plano(s)
+
+- **O que acontece:** Num laboratório farmacêutico moderno: detalhe do vórtice no béquer com uma gota azul se misturando, o rack de tubos entrando no analisador, a pesquisadora levanta os olhos e fala, depois confere um frasco contra a janela.
+- **O que é dito:** PESQUISADORA: "de novas tecnologias,"
+- **Tempo:** vórtice — 3s · analisador — 2s · fala — 4s · frasco — 2s = 11s
+- **Como termina:** ela conferindo o frasco, câmera ainda andando.
+- **Direção:** O close de algo sendo misturado que você pediu abre o take. É o trecho mais curto do filme no corte, então as subações seguram a locução.
+
+```
+CONTRACT — Live-action photoreal film footage, 16:9, 11 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 9s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+
+REFERENCES — each reference has ONE job:
+@PESQUISADORA — IDENTITY of @PESQUISADORA: face, hair, build, hands, wardrobe and safety equipment. 100% matches.
+REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@PESQUISADORA (30, Black Brazilian woman, slim, natural hair in a tight bun, small gold stud earrings, buttoned white lab coat, purple nitrile gloves, clear safety glasses) — the RESEARCHER: works at the bench, speaks once; NEVER removes gloves or glasses, NEVER walks out of frame.
+FACES: her face exists once; one colleague far behind is a distinct soft figure, mouth closed.
+CONTACT: nobody touches anyone.
+
+SCENE — Afternoon in a modern pharmaceutical research laboratory in Minas Gerais, Brazil, glass walls and white benches. @PESQUISADORA is already preparing a solution.
+THE SOUL OF THE SCENE (play it, never explain it): she loves what she does and almost nobody asks — she gives you one bright phrase between two steps of the experiment.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. Exactly 4 shots with hard cuts at 3s, 5s, 9s — WRONG if there are extra cuts.
+2. In EVERY shot the handheld camera travels sideways from frame-left to frame-right at the same steady pace — WRONG if it stops, reverses, pushes in or glides.
+3. The close-ups show hands and objects only; @PESQUISADORA speaks only in the medium-wide shot, eyes alive on the lens — WRONG if glassy.
+4. Only @PESQUISADORA speaks, only "de novas tecnologias," — every other mouth closed.
+5. Light from frame-LEFT — NO music.
+
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — ECU, 47°, lens 30 cm from the glass: a clear solution spins in a vortex in a glass beaker on a magnetic stirrer; a pipette tip releases a drop of blue reagent that blooms and is pulled into the swirl. HARD CUT.
+SHOT 2 (3–5s) — CU, 47°: her gloved hand slides a rack of sample tubes into a modern automated analyser; its arm moves over the tubes. HARD CUT.
+SHOT 3 (5–9s) — MWS (from the knees up, the bright lab around her), 63°: @PESQUISADORA at the bench at the right third, lifts her eyes to the lens and speaks at 6–8s with a quick smile, then looks back at the beaker. HARD CUT.
+SHOT 4 (9–11s) — CU, 47°: she holds a small vial up to the window light and checks its clarity, pleased. Hard end mid-gesture.
+
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–8s] @PESQUISADORA (on camera, Brazilian Portuguese): "de novas tecnologias,"
+VOICE LOCK — @PESQUISADORA: Brazilian woman, 30, light quick mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+
+ACTING — @PESQUISADORA (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: she loves her work and rarely gets to talk about it.
+TACTIC: borrow two seconds from the experiment to share it, light and quick, then go back.
+EYES: from the beaker to the lens and back. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she pushes her glasses up with the back of her wrist. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, holding a test tube up to the camera.
+
+CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
+
+PHYSICS & MATERIAL — the liquid spins with a real vortex and a dimple at the centre; the reagent drop falls, blooms in tendrils and is drawn into the swirl; the tube rack clicks into place; the gloves wrinkle at the knuckles. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: graduation marks on the borosilicate glass (unreadable), condensation on a cold tube, the satin white of the bench, the nitrile texture of the gloves, the cotton twill of the lab coat.
+
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through the lab's tall glass windows on frame-LEFT, ~5600 K, soft and directional; a soft under-shelf work light ~5000 K on the bench only.
+REACH: the daylight lights the frame-LEFT side of her face and makes the glass glow; the lab behind falls off a stop.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+
+SOUND — LOCATION SOUND ONLY: the stirrer's soft whirr and the liquid swirling; the pipette click; the analyser's motor; glass touching glass; the hood's airflow. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
+
+NEGATIVE: glowing liquids, coloured smoke, sci-fi holograms, readable labels or screens, gloves off, speaking in the close-ups, the camera stopping, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld travelling left to right in every shot — (1, 0–3s) ECU: the vortex in the beaker, a blue drop blooms into it — (2, 3–5s) CU: the tube rack into the analyser — (3, 5–9s) medium-wide: she looks up and says her line with a quick smile — (4, 9–11s) CU: she checks a vial against the window. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only her one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+```
+
+```
+GENERATION CARD
+Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
+Duração: 11s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Anexar nesta ordem:
+  1) @PESQUISADORA (character sheet) — identidade + EPI
+Notas: se sair rótulo legível em frasco ou tela, regerar: texto não pode aparecer.
+```
+
+### T07 · Restaurante (Revezamento, ~1.8s no corte)
+
+As mãos montam o prato, o prato chega à mesa, o dono fala cúmplice e a cliente aprova.
+
+#### Geração T07 · 12s · 4 plano(s)
+
+- **O que acontece:** Num restaurante saudável contemporâneo em BH: as mãos do dono finalizam o prato, o prato chega à mesa, ele vira pra lente com um sorriso cúmplice e fala, e a cliente aprova na primeira garfada.
+- **O que é dito:** DONO: "de uma economia mais sustentável."
+- **Tempo:** montando o prato — 3s · prato na mesa — 2s · fala — 5s · garfada — 2s = 12s
+- **Como termina:** a cliente acenando que aprovou, câmera ainda andando.
+- **Direção:** Restaurante claro, madeira clara e plantas, cozinha aberta. Nada de toalha xadrez ou cara de interior antigo.
+
+```
+CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+
+REFERENCES — each reference has ONE job:
+@DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
+REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@DONO (60, white Brazilian man, solid build, thick white moustache, short white hair, light linen short-sleeved shirt, charcoal canvas apron) — the OWNER: plates, serves, speaks once; NEVER sits, NEVER walks out of frame.
+CUSTOMER (unreferenced: a Brazilian woman about 35, dark hair, olive cardigan) — seated at the table, in the frame-LEFT foreground in shot 3; NEVER speaks, NEVER looks at the lens.
+FACES: each face exists once; other diners far behind are distinct and soft.
+CONTACT: nobody touches anyone; the plate goes from his hands to the table.
+
+SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen. @DONO is already finishing a plate for a regular customer.
+THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in this city for decades and this one is his pride — he lets you in on it like an old friend.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. Exactly 4 shots with hard cuts at 3s, 5s, 10s — WRONG if there are extra cuts.
+2. In EVERY shot the handheld camera travels sideways from frame-left to frame-right at the same steady pace — WRONG if it stops, reverses, pushes in or glides.
+3. The close-ups show hands and objects only; @DONO speaks only in the medium-wide shot, eyes alive on the lens — WRONG if glassy.
+4. Only @DONO speaks, only "de uma economia mais sustentável." — every other mouth closed.
+5. Light from frame-LEFT — NO music.
+
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — CU, 47°: his hands finish a plate — fresh greens, grilled vegetables, rice and beans, a drizzle of olive oil. HARD CUT.
+SHOT 2 (3–5s) — CU, 47°: the plate lands on the light wood table in front of the CUSTOMER; her hands pick up the fork. HARD CUT.
+SHOT 3 (5–10s) — MWS (from the knees up, the restaurant around him), 63°: @DONO standing at the table at the right third, the CUSTOMER soft in the frame-LEFT foreground; he turns to the lens with a complicit smile and speaks at 6–9s. HARD CUT.
+SHOT 4 (10–12s) — CU, 47°: the CUSTOMER takes the first bite, chews and nods, smiling with her mouth closed. Hard end mid-nod.
+
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–9s] @DONO (on camera, Brazilian Portuguese): "de uma economia mais sustentável."
+VOICE LOCK — @DONO: Brazilian man, 60, deep easy voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+
+ACTING — @DONO (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: decades in this city's kitchens, and this place is his pride.
+TACTIC: serve with pleasure and let you in on it with a complicit look, like to an old friend.
+EYES: on the plate and the customer, then a warm sidelong look to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his moustache lifts on one side before he speaks. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a waiter's bow, presenting the plate to the camera.
+
+ACTING — CUSTOMER: TACTIC enjoy the food and approve; eyes on the plate; NOT speaking, NOT looking at the lens.
+
+CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
+
+PHYSICS & MATERIAL — the oil falls in a thin stream and beads on the greens; the ceramic plate is heavy and touches down with a soft knock; steam rises from the rice and bends in the window air; the fork pierces a vegetable with slight resistance. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the grain of the light wood table, the glaze of the handmade ceramic plate, glossy oil on the leaves, linen napkins, potted plants by the window, the canvas weave of his apron.
+
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through the restaurant's big street windows on frame-LEFT, ~5600 K, soft and directional; warm pendant lights over the counter in the background, small, never on the faces.
+REACH: the daylight lights the frame-LEFT side of his face, the steam and the plate; the back of the room falls off a stop.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+
+SOUND — LOCATION SOUND ONLY: the plate's soft knock on wood; cutlery on plates; a low murmur of diners with no words standing out; a pan sizzling in the open kitchen; the street through the door. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
+
+NEGATIVE: the customer speaking or looking at the lens, a rustic old eatery, oilcloth, plastic chairs, readable menu, speaking in the close-ups, the camera stopping, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld travelling left to right in every shot — (1, 0–3s) CU: his hands finish the plate — (2, 3–5s) CU: the plate lands, she picks up the fork — (3, 5–10s) medium-wide: he turns to the lens with a complicit smile and says his line — (4, 10–12s) CU: her first bite, she nods. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only his one line, the customer silent. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+```
+
+```
+GENERATION CARD
+Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
+Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Anexar nesta ordem:
+  1) @DONO (character sheet) — identidade
+Notas: conferir se a boca da cliente fica fechada e se ela não olha pra lente.
+```
+
+### T08 · Plantação (Revezamento, ~8.3s no corte)
+
+A mão passa pelas plantas, abre uma vagem; a agricultora caminha e fala, sorrindo.
+
+#### Geração T08 · 17s · 4 plano(s)
+
+- **O que acontece:** Numa fazenda de soja moderna no Triângulo, com pivô central ao fundo: close da mão passando nas plantas, detalhe da vagem aberta, a agricultora caminha falando com a lente e termina num close sorrindo.
+- **O que é dito:** AGRICULTORA: "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"
+- **Tempo:** mão nas plantas — 3s · vagem — 2s · caminha e fala — 10s · close sorrindo — 2s = 17s
+- **Como termina:** close dela caminhando, olhando pra você; corte pra mina.
+- **Direção:** Ela não para mais de andar, porque no revezamento a câmera não fica parada. Fazenda moderna, sem chapéu de palha.
+
+```
+CONTRACT — Live-action photoreal film footage, 16:9, 17 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 15s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+
+REFERENCES — each reference has ONE job:
+@AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
+REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@AGRICULTORA (40, mixed-race Brazilian woman, strong build, long black hair in a single braid, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar) — the FARMER: walks her soybean field, checks the plants, speaks; NEVER walks toward the camera, NEVER stops walking.
+FACES: her face exists once; nobody else in frame.
+CONTACT: only her hands on the plants.
+
+SCENE — Late afternoon in a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: perfect rows, a centre-pivot irrigation arm in the distance. @AGRICULTORA is already walking along a row, her open hand passing over the tops of the plants.
+THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs it with pride; she walks you through it, delighted to get to the point.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. Exactly 4 shots with hard cuts at 3s, 5s, 15s — WRONG if there are extra cuts.
+2. In EVERY shot the handheld camera travels sideways from frame-left to frame-right at the same steady pace — WRONG if it stops, reverses, pushes in or glides.
+3. The close-ups show hands and objects only; @AGRICULTORA speaks only in the medium-wide shot, eyes alive on the lens — WRONG if glassy.
+4. Only @AGRICULTORA speaks, only "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:" — every other mouth closed.
+4b. She walks from frame-left to frame-right in every shot — WRONG if she walks toward or away from the camera.
+5. Light from frame-LEFT — NO music.
+
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — CU, 47°: her open hand passes over the tops of the soybean plants as she walks, the leaves brushing her palm and springing back. HARD CUT.
+SHOT 2 (3–5s) — ECU, 47°: without stopping, her fingers split a green pod and show the plump beans inside. HARD CUT.
+SHOT 3 (5–15s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 6–14s, eyes moving between you and the field, smiling more as she goes. HARD CUT.
+SHOT 4 (15–17s) — CU, 29°: her face as she walks, a warm smile, eyes on you. Hard end mid-step.
+
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–14s] @AGRICULTORA (on camera, Brazilian Portuguese): "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"
+VOICE LOCK — @AGRICULTORA: Brazilian woman, 40, steady mid-low voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+
+ACTING — @AGRICULTORA (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: she runs this land and knows what it is worth.
+TACTIC: walk you through her field like a proud host and get to the point with a smile.
+EYES: split between the plants and the lens; toward the end of the line they stay on you. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she breathes a short laugh through her nose. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, arms spread over the field.
+
+CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
+
+GEOMETRY — the rows run left to right across the frame; @AGRICULTORA walks along one row, the camera along the parallel row 2.5 m away; the plants knee-high; the centre-pivot arm about 300 m away; the sun low on frame-LEFT.
+
+PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod resists and splits along its seam; her boots press into the soft soil between rows; her braid swings with each step. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: fine hairs on the green pods, glossy healthy leaves, the technical fabric of her shirt, the spray of the irrigation catching the sun far off.
+
+LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+
+SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
+
+NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 15s, 17s, handheld travelling left to right in every shot — (1, 0–3s) CU: her hand over the plants — (2, 3–5s) ECU: she splits a pod — (3, 5–15s) medium-wide walk-and-talk: her line to the lens, smiling — (4, 15–17s) CU: her face, smiling, still walking. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+```
+
+```
+GENERATION CARD
+Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
+Duração: 17s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Anexar nesta ordem:
+  1) @AGRICULTORA (character sheet) — identidade
+Notas: fala longa: se o lipsync escorregar no fim, a montagem cobre o final com o close dela ou com a mão nas plantas.
+```
+
+### T09 · Mina de nióbio (Virada, ~4.8s no corte)
+
+O minério gira na luva; o foco sai do minério e chega nele, que fala; no close, o olhar desce e sobe para a lente.
+
+#### Geração T09 · 15s · 3 plano(s)
+
+- **O que acontece:** Na beira de uma cava moderna em Araxá: detalhe do minério girando na luva; no médio-aberto o foco sai do minério e chega no funcionário, que fala; no close, o olhar desce para o minério e sobe para a lente.
+- **O que é dito:** FUNCIONÁRIO: "a nossa gente. Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
+- **Tempo:** minério na luva — 3s · rack e fala — 9s · close, olhar sobe — 3s = 15s
+- **Como termina:** o olhar pousado na lente, sorrindo; match cut com o T10.
+- **Direção:** O rack de foco segue sendo o gesto da virada: onde se espera o minério, aparece a pessoa. O close final abre o match cut do olhar. A frase inteira está na fala, então o áudio de "para quem nasce, vive e trabalha aqui" vai para baixo do T10 ao T12.
+
+```
+CONTRACT — Live-action photoreal film footage, 16:9, 15 seconds total, 3 shots with 2 hard cuts at 3s and 12s, handheld in every shot; one focus rack at the start of shot 2, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+
+REFERENCES — each reference has ONE job:
+@FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
+@MINA — WORLD: the open-pit niobium mine — terraced benches, haul roads, a stockpile of ore; the world for all shots.
+REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @MINA supplies geography and materials ONLY — its light is replaced by the LIGHT block.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@FUNCIONARIO (30, mixed-race Brazilian man, medium build, short black hair, a moustache, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck) — the MINE WORKER: holds a piece of ore, speaks, looks down at it and back up; NEVER removes any safety equipment, NEVER walks away.
+FACES: his face exists once; the haul trucks far behind have no visible drivers.
+CONTACT: nobody touches anyone.
+
+SCENE — Late afternoon at the edge of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far below. @FUNCIONARIO is already turning a piece of ore in his gloved hand.
+THE SOUL OF THE SCENE (play it, never explain it): the world comes here for the ore; he is happy to tell you the real treasure is the people — and he is one of them.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. Exactly 3 shots, 2 hard cuts at 3s and 12s; handheld in every shot — WRONG if extra cuts or a locked camera.
+2. Full mining safety equipment on in every shot: hard hat with chin strap fastened, glasses, high-visibility vest, gloves — WRONG if any piece is missing or carries a logo.
+3. He speaks only in shot 2; in shot 3 his mouth is closed — WRONG if he speaks in shot 3.
+4. In shot 3 his eyes rise from the ore and land on the lens on the upper-third line at about 45% of the frame width, alive — WRONG if glassy or landing elsewhere.
+5. Sun from frame-LEFT — NO music.
+
+TIMELINE — 3 shots, 2 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — ECU, 47°: his gloved hand turns a chunk of dark brown ore in the palm; fine dust slides off its edges. HARD CUT.
+SHOT 2 (3–12s) — MWS (from the knees up, the open pit behind him), 47°, handheld drifting slowly: the frame opens with the edge of the ore stockpile sharp in the frame-RIGHT foreground and @FUNCIONARIO soft behind it; at 3–4s the focus racks to him — he is already looking at the lens with a quiet smile; at 4–11s he speaks, proud and warm. HARD CUT.
+SHOT 3 (12–15s) — the MATCH FRAME, CU: his eyes on the ore in his hand below frame; at 13–14s his eyes rise and land on the lens; a warm smile. Hard end on the held look.
+
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[4–11s] @FUNCIONARIO (on camera, Brazilian Portuguese): "a nossa gente. Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
+VOICE LOCK — @FUNCIONARIO: Brazilian man, 30, low calm chest voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+
+ACTING — @FUNCIONARIO (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: the world comes for the ore and rarely asks about the people.
+TACTIC: tell you, with quiet pride and a smile, that the treasure here is the people — and check that you got it.
+EYES: steady on the lens in shot 2; in shot 3 down to the ore and back up to you. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: he swallows once and smiles. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a heroic pose, gesturing at the mine.
+
+MATCH FRAME (KEY — identical in every shot of the match series): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft.
+
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
+
+PHYSICS & MATERIAL — the ore is dense and heavy for its size, sharp-edged; dust lifts off the pit in the wind and drifts right; the vest is stiff; the haul trucks move slowly and heavily far below. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the granular dark-brown surface of the ore, reflective tape on the vest, the matte helmet shell, the chin-strap buckle, drill marks on the bench walls, the scale of the modern trucks against the pit.
+
+LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+
+SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); gravel shifting on the stockpile; after his line, only wind and the distant truck. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes. Mining safety equipment is complete and correct; nobody in the pit without it.
+
+NEGATIVE: missing helmet, unfastened chin strap, no glasses, no vest, logos on equipment or trucks, speaking in shot 3, gesturing at the mine, glowing ore, gold, eyes landing off the upper third, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+
+[ORDER: 3 shots, 2 hard cuts at 3s and 12s, 15s, handheld — (1, 0–3s) ECU: the ore turning in his gloved hand — (2, 3–12s) medium-wide at the pit: focus racks from the ore to him, his line to the lens, warm and proud — (3, 12–15s) MATCH FRAME close-up: eyes down on the ore, rising to the lens at 13–14s, a smile. Invariants: full safety equipment; he speaks only in shot 2; eyes landing at the upper third, 45% width; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+```
+
+```
+GENERATION CARD
+Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
+Duração: 15s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Anexar nesta ordem:
+  1) @FUNCIONARIO (character sheet) — identidade + EPI
+  2) @MINA (plate) — mundo
+Notas: validar o EPI com a SST da operadora antes do final (P11).
+```
+
+### T10 · Mãe e recém-nascido (Match cut, ~1.2s no corte)
 
 A mãe olha o bebê e levanta os olhos para você, no mesmo ponto da tela do funcionário.
 
-#### Geração T10 · 5s · 1 take · 16:9 · sem fala
+#### Geração T10 · 5s · 1 plano(s)
+
+- **O que acontece:** Num apartamento claro em BH, a mãe confere a respiração do recém-nascido e levanta os olhos para a lente, sorrindo; os olhos pousam onde pousaram os do funcionário.
+- **O que é dito:** nada na geração. Na montagem: V.O. do T09, "para quem nasce,"
+- **Tempo:** olhos no bebê — 2s · olhar sobe — 1s · sorriso — 2s = 5s
+- **Como termina:** segurando seu olhar; corte para o T11.
+- **Direção:** P2, o match cut pelo olhar: o mesmo close do T09 ao T12. Geração sem fala, para nenhuma boca formar palavras.
 
 ```
-O QUE ACONTECE: A mãe confere a respiração do recém-nascido no colo e levanta os olhos para a lente; os olhos pousam no mesmo ponto da tela onde pousaram os do funcionário.
-O QUE É DITO: nada na geração. Na montagem entra a V.O. do T09: "para quem nasce,"
-TEMPO: olhos no bebê — 2s · olhos sobem para a lente — 1s · segura — 2s = 5s
-COMO TERMINA: segurando seu olhar; corte para o T11.
-DIREÇÃO: P2, o match cut pelo levantar do olhar: mesmo quadro (MCU 29°, câmera travada, olhos a 45% da largura no terço superior) do T09 ao T12. Geração muda, para nenhuma boca formar palavras.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, an authored locked frame on a tripod, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, handheld, close and breathing, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-MOTHER (unreferenced: a woman about 28, mixed-race brown skin, dark hair loosely tied, tired soft eyes, a plain oatmeal cotton T-shirt) — holds her newborn, looks down, then up; NEVER speaks, NEVER smiles broadly, NEVER moves out of the MATCH FRAME.
+MOTHER (unreferenced: a Brazilian woman about 28, mixed-race brown skin, dark hair loosely tied, a soft oatmeal cotton T-shirt) — holds her newborn, looks down, then up with a smile; NEVER speaks.
 NEWBORN — a real newborn of a few days, small and correctly proportioned, wrapped in a pale cotton blanket, most of the face covered by the blanket and her hand; only the forehead, a closed eye and a cheek show.
 FACES: each face exists once; nobody else in the room.
-CONTACT: only her hands on the baby: left arm under the body, right hand cupping the back of the head, thumb moving on the blanket.
+CONTACT: only her hands on the baby.
 
-SCENE — A bedroom in a modest house in Minas Gerais, afternoon; the MOTHER sits on the edge of the bed holding her newborn, already watching its breathing.
-THE SOUL OF THE SCENE (play it, never explain it): she is memorising the face of someone who just arrived — and then she looks up at you, as if you had come in to meet him.
+SCENE — A bright bedroom in a modern apartment in Belo Horizonte, Brazil, afternoon; the MOTHER sits by the window holding her newborn, watching it breathe.
+THE SOUL OF THE SCENE (play it, never explain it): someone new just arrived — she looks up at you, happy, as if you had come in to meet him.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera is LOCKED in the MATCH FRAME for the whole take — WRONG if it moves, pushes or cuts.
-2. the MOTHER's eyes rise and land on the lens at 2–3s, on the upper-third line at about 45% of the frame width, and stay there alive — WRONG if they land elsewhere or turn glassy.
+1. ONE handheld take in the MATCH FRAME — WRONG if it cuts, pushes in or is locked.
+2. the MOTHER's eyes rise and land on the lens at 2–3s, on the upper-third line at about 45% of the frame width, and stay alive — WRONG if they land elsewhere or turn glassy.
 3. NO dialogue: her mouth stays closed, the baby makes only small breathing sounds — WRONG if any mouth forms words.
 4. Light from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — the MATCH FRAME: the MOTHER in MCU, face just left of centre, eyes down on the baby in her arms at the bottom of frame; her thumb moves on the blanket; she checks the breathing.
+BEAT 1 (0–2s) — the MATCH FRAME, CU: the MOTHER's face just left of centre, eyes down on the baby at the bottom of frame; her thumb moves on the blanket.
 BEAT 2 (2–3s) — her eyes rise from the baby and land on the lens.
-BEAT 3 (3–5s) — she holds your eyes, quiet, the baby's breathing under her hand. Hard end on the held look.
+BEAT 3 (3–5s) — she holds your eyes with a soft happy smile. Hard end on the held look.
 
 ACTING — MOTHER (fully invested in the tactic; the work happens in the eyes)
-EVENT: a new life, and she lets you see it.
-MOTIVE: everything is new and fragile.
-GOAL: to keep him calm and to remember this.
-OBSTACLE: tiredness pulling at her.
-TACTIC: watch his breathing, memorise the face, then look up and include you — the eyes say "look who arrived".
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: a slow tired blink before she looks up. A frozen pupil is wrong.
-NOT: speaking, a broad smile, crying, rocking theatrically, presenting the baby to the camera.
+MOTIVE: everything is new and she is happy.
+TACTIC: watch his breathing, then look up and share him with you — "look who arrived".
+EYES: on the baby, then up to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a slow happy blink before she looks up. A frozen pupil is wrong.
+NOT: speaking, crying, rocking theatrically, presenting the baby to the camera.
 
-MATCH FRAME (KEY — identical in every shot of the match series): MCU at 29°, camera locked on a tripod or a fixed rig at the subject's eye height, 1.6 m from the face, frontal to the face; the face sits just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft at least 4 m behind.
+MATCH FRAME (KEY — identical in every shot of the match series): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft.
 
-CAMERA — authored: a locked tripod at her seated eye height (1.1 m), 1.6 m from her face, frontal.
-MOVEMENT: the camera STAYS PUT — no drift, no push, no shake.
-OPTICS: MCU at 29°; no zoom, no lens drift.
-FOCUS: on her eyes; the baby's blanket slightly soft at the bottom edge; the room soft behind.
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-NOT: handheld, push-in, zoom, tilt down to the baby, orbit, centred symmetrical framing.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the baby is light but limp and warm, the weight sinking into the crook of her arm; the blanket's cotton has soft pilling and folds; a tiny movement of the baby's chest under her hand; her shoulders slightly rounded with fatigue. Nothing floats, nothing loops. OVER-REAL: faint dark circles under her eyes, a few loose hairs across her forehead, the worn softness of the T-shirt neckline, pilling on the blanket, a crease mark from a pillow on her cheek, the baby's flaky newborn skin at the forehead. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+PHYSICS & MATERIAL — the baby is light, warm and limp, sinking into the crook of her arm; the blanket's cotton folds; a tiny movement of the baby's chest under her hand. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the soft cotton of blanket and T-shirt, a few loose hairs across her forehead, the baby's delicate newborn skin, the sheer curtain behind her.
 
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY):
-SOURCE: the key is daylight through a bedroom window with a thin curtain on frame-LEFT, ~5600 K, soft and directional; no other source.
-REACH: the daylight lights the frame-LEFT side of her face and the blanket; the frame-RIGHT side in soft shade; the room behind falls off a stop, readable.
-EXPOSURE: exposed for skin; the room behind about one stop darker, readable, never black; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the daylight stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through the bedroom window with a sheer curtain on frame-LEFT, ~5600 K, soft and directional; no other source.
+REACH: the daylight lights the frame-LEFT side of her face and the blanket; the room behind falls off a stop.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and one tiny newborn sigh; her thumb on the cotton; a neighbour's radio far away with no recognisable music — only a murmur of voices; a motorbike passing in the street outside. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and one tiny sigh; her thumb on cotton; the city far below the window. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, an adult-faced baby, the baby's full face, presenting the baby to the camera, crying, a broad smile, camera movement, tilt down, a cut, eyes landing off the upper third, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
+NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, the baby's full face, presenting the baby to the camera, crying, a cut, eyes landing off the upper third, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE continuous take, 5s, locked MATCH FRAME, MCU 29° — (0–2s) eyes down on the baby, thumb on the blanket — (2–3s) eyes rise and land on the lens at the upper third, 45% width — (3–5s) she holds your eyes. Invariants: locked frame; eyes landing on the mark; no dialogue; baby partly covered, correct proportions. Look: large-format spherical, mid-key, fine grain, no vignette. NO music. NO subtitles, NO text.]
+[ORDER: ONE handheld take, 5s, MATCH FRAME close-up — (0–2s) eyes down on the baby — (2–3s) eyes rise and land on the lens at the upper third, 45% width — (3–5s) she holds your eyes, smiling. Invariants: eyes landing on the mark; no dialogue; baby partly covered, correct proportions. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1092,84 +834,78 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: text-to-video
 Duração: 5s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) nenhuma referência (o modelo improvisa mãe e bebê)
-Notas: conferir a proporção do bebê (rosto parcialmente coberto) e se os olhos pousam no ponto marcado. Usar o frame final aprovado do T09 como guia de enquadramento na montagem.
+Notas: conferir a proporção do bebê (rosto parcialmente coberto) e se os olhos pousam no ponto marcado.
 ```
 
-### T11 · Arquibancada do Mineirão (Match cut, ~0.8s no corte)
+### T11 · Mineirão (Match cut, ~0.8s no corte)
 
 A torcedora segue a bola que sobe e os olhos dela chegam em você.
 
-#### Geração T11 · 5s · 1 take · 16:9 · sem fala
+#### Geração T11 · 5s · 1 plano(s)
+
+- **O que acontece:** No Mineirão reformado, a torcedora prende a respiração no lance; a bola sobe, os olhos dela sobem junto e pousam na lente, acesos.
+- **O que é dito:** nada na geração. Na montagem: V.O. do T09, "vive,"
+- **Tempo:** olhos no lance — 2s · olhar sobe com a bola — 1s · segura — 2s = 5s
+- **Como termina:** segurando seu olhar; corte para o T12.
+- **Direção:** O olhar tem motivo físico (a bola subindo). Estádio desfocado e figurino terracota, fora das cores de clube e do verde-amarelo.
 
 ```
-O QUE ACONTECE: Na arquibancada, a torcedora segura a respiração no lance; a bola sobe, o queixo e os olhos dela sobem junto e pousam na lente.
-O QUE É DITO: nada na geração. Na montagem: V.O. do T09, "vive,"
-TEMPO: olhos no lance — 2s · olhos sobem com a bola até a lente — 1s · segura com o estádio crescendo — 2s = 5s
-COMO TERMINA: segurando seu olhar; corte para o T12.
-DIREÇÃO: o levantar do olhar tem motivo físico aqui (a bola subindo). O estádio fica desfocado, então não precisa de plate. Figurino terracota, fora das cores dos clubes e do verde-amarelo.
-```
-
-```
-CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, an authored locked frame on a tripod, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, handheld, close and breathing, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-FAN (unreferenced: a young woman about 20, dark skin, short natural hair, small hoop earrings, a plain terracotta-red T-shirt with no print) — watches the play, then looks up to the lens; NEVER speaks, NEVER shouts, NEVER cheers with her arms up, NEVER moves out of the MATCH FRAME.
-CROWD — the stands behind her: dozens of distinct people, soft, out of focus, colours indistinct and mixed; nobody with her face; no twins, no clones.
+FAN (unreferenced: a young Black Brazilian woman about 20, short natural hair, small hoop earrings, a plain terracotta T-shirt with no print) — follows the play, then looks up to the lens; NEVER speaks, NEVER shouts.
+CROWD — the stands behind her: many distinct people, soft, out of focus, colours mixed and indistinct; nobody with her face; no twins, no clones.
 CONTACT: nobody touches her.
 
-SCENE — A late-afternoon match at a large concrete football stadium in Belo Horizonte; the FAN is in the stands, already following a long ball, holding her breath.
-THE SOUL OF THE SCENE (play it, never explain it): for one second she is deciding whether it will be a goal — and as the ball rises her eyes rise with it and find you.
+SCENE — A late-afternoon match at the Mineirão stadium in Belo Horizonte, Brazil — the modern renovated stands and roof ring; the FAN is in the stands following a long ball, breath held.
+THE SOUL OF THE SCENE (play it, never explain it): the ball goes up and so does her hope — her eyes rise with it and find you, lit up.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera is LOCKED in the MATCH FRAME for the whole take — WRONG if it moves, pushes or cuts.
-2. the FAN's eyes rise and land on the lens at 2–3s, on the upper-third line at about 45% of the frame width, and stay there alive — WRONG if they land elsewhere or turn glassy.
+1. ONE handheld take in the MATCH FRAME — WRONG if it cuts, pushes in or is locked.
+2. the FAN's eyes rise and land on the lens at 2–3s, on the upper-third line at about 45% of the frame width, and stay alive — WRONG if they land elsewhere or turn glassy.
 3. NO dialogue: her mouth stays closed; the crowd is only a roar with no words standing out — WRONG if any mouth forms words.
 4. Light from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — the MATCH FRAME: the FAN in MCU, face just left of centre, eyes down-right on the pitch below, lips pressed, breath held; the crowd soft behind her.
+BEAT 1 (0–2s) — the MATCH FRAME, CU: the FAN's face just left of centre, eyes down-right on the pitch below, lips pressed, breath held.
 BEAT 2 (2–3s) — a long ball goes up; her eyes and chin rise with it and land on the lens.
-BEAT 3 (3–5s) — she holds your eyes, breath still held, the crowd's roar swelling behind. Hard end on the held look.
+BEAT 3 (3–5s) — she holds your eyes, lit up with excitement, as the roar swells. Hard end on the held look.
 
 ACTING — FAN (fully invested in the tactic; the work happens in the eyes)
-EVENT: a whole stadium holds its breath and she lets you into it.
-MOTIVE: this is her Sunday ritual.
-GOAL: to know whether it will be a goal.
-OBSTACLE: it's not decided yet.
-TACTIC: follow the play, deciding — then share the held breath with you.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: she bites the inside of her lip as the ball goes up. The low sun puts a small live point in her frame-left eye; a frozen pupil is wrong.
-NOT: cheering, shouting, arms up, face paint, a scarf, a team jersey, a broad smile.
+MOTIVE: this is her Sunday ritual and she loves it.
+TACTIC: follow the play, deciding, then share the thrill with you.
+EYES: on the play, then up to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she bites her lip as the ball goes up. A frozen pupil is wrong.
+NOT: shouting, cheering with arms up, face paint, a scarf, a team jersey.
 
 ACTING — CROWD (background): one organism following one ball; soft, nobody looking at the lens.
 
-MATCH FRAME (KEY — identical in every shot of the match series): MCU at 29°, camera locked on a tripod or a fixed rig at the subject's eye height, 1.6 m from the face, frontal to the face; the face sits just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft at least 4 m behind.
+MATCH FRAME (KEY — identical in every shot of the match series): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft.
 
-CAMERA — authored: a locked tripod in the stands at her seated eye height (1.1 m), 1.6 m from her face, frontal.
-MOVEMENT: the camera STAYS PUT — no drift, no push, no shake.
-OPTICS: MCU at 29°; no zoom, no lens drift.
-FOCUS: on her eyes; the crowd behind deeply soft, faces unreadable.
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-NOT: handheld, push-in, zoom, a pan to the pitch, crowd wide shot, orbit, centred symmetrical framing.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the stands vibrate faintly with the crowd; a breath of wind moves her T-shirt; the people behind rise slightly as the ball goes up, soft shapes lifting. Nothing floats, nothing loops. OVER-REAL: the weathered grey concrete of the stand, a faded plastic seat edge, a few beads of sweat at her hairline, a small chip in the paint of her hoop earring, the cotton texture of the T-shirt. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves her T-shirt; the people behind rise as the ball goes up, soft shapes lifting. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the smooth concrete and modern seats of the renovated stand, the cotton of her T-shirt, a bead of sweat at her hairline, the glint of her hoop earring.
 
-LIGHT — NATURAL LIGHT ONLY, late afternoon, LOW & CLEAR (KEY):
-SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky ~7000 K as the soft fill on the other side.
-REACH: the sun lights the frame-LEFT side of every face and lays a warm edge along hair, shoulders and the crests of the terrain; the frame-RIGHT side of each face sits in soft open shade, readable.
-EXPOSURE: exposed for skin; the sky holds tone, never blown white; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the sun stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: golden-hour postcard glow, orange sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the stadium's crowd noise, a dense wordless roar; the thud of the ball kicked far below at 2s; the crowd's rising intake "uhh" as the ball goes up, swelling to the end; a whistle far off. NO chanting songs, NO drums, NO brass band, NO stadium anthem. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar; the thud of the ball kicked far below at 2s; the crowd's rising "uhh" as the ball goes up; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post). Wardrobe and crowd carry NO football club colour combinations (black-and-white, blue-and-white, green-and-white), NO yellow-and-green national colours, NO flags, NO scarves, NO jerseys.
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes. Wardrobe and crowd carry NO football club colour combinations (black-and-white, blue-and-white, green-and-white), NO yellow-and-green, NO flags, NO scarves, NO jerseys.
 
-NEGATIVE: the fan speaking or shouting, any mouth forming words, cheering arms, team jersey, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, camera movement, a cut, eyes landing off the upper third, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
+NEGATIVE: the fan speaking or shouting, any mouth forming words, cheering arms, team jersey, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, eyes landing off the upper third, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE continuous take, 5s, locked MATCH FRAME, MCU 29° — (0–2s) eyes down on the play, breath held — (2–3s) the ball goes up, her eyes rise and land on the lens at the upper third, 45% width — (3–5s) she holds your eyes as the roar swells. Invariants: locked frame; eyes landing on the mark; no dialogue; neutral wardrobe, no club colours. Look: large-format spherical, mid-key, fine grain, no vignette. NO music, NO chants, NO drums. NO subtitles, NO text.]
+[ORDER: ONE handheld take, 5s, MATCH FRAME close-up — (0–2s) eyes on the play, breath held — (2–3s) the ball goes up, her eyes rise and land on the lens at the upper third, 45% width — (3–5s) she holds your eyes, lit up, the roar swelling. Invariants: eyes landing on the mark; no dialogue; neutral wardrobe, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]
 ```
 
 ```
@@ -1178,394 +914,365 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: text-to-video
 Duração: 5s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) nenhuma referência
-Notas: conferir se nenhuma camisa, bandeira ou cachecol na arquibancada desfocada lembra Atlético, Cruzeiro ou América.
+Notas: conferir a arquibancada desfocada: nada de camisa, bandeira ou cachecol de clube.
 ```
 
-### T12 · Ônibus: embarque + motorista fala (T12 + T13) (Match cut, ~6.6s no corte)
+### T12 · Ônibus (Match cut, ~6.6s no corte)
 
-O estudante embarca; o motorista o acompanha com os olhos, levanta o olhar para você e explica a rota.
+O estudante embarca; o olhar do motorista sobe para você e ele explica a rota com o ônibus andando.
 
-#### Geração T12 + T13 · 15s · 2 planos · 16:9
+#### Geração T12 + T13 · 16s · 4 plano(s)
 
-```
-O QUE ACONTECE: A porta abre, o estudante sobe e acena, e o motorista responde com a cabeça. Corte: no painel, os olhos do motorista acompanham o menino, sobem para a lente (fechando o match cut), o ônibus sai e ele explica a rota.
-O QUE É DITO: MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros." (na montagem, a V.O. "e trabalha aqui." do T09 cai no plano 1)
-TEMPO: embarque — 4s · olhos seguem o menino — 1s · olhos sobem para a lente — 1s · ônibus sai — 1s · fala — 5s · estrada e você — 3s = 15s
-COMO TERMINA: dirigindo, olhos voltando à estrada; corte seco.
-DIREÇÃO: duas gerações viraram uma: mesmo lugar, mesmas duas pessoas. O levantar do olhar do motorista é o último elo do match cut e já vira a fala dele, sem emenda.
-```
+- **O que acontece:** Num ônibus moderno de BH: a porta de vidro abre e o tênis do estudante entra; no close, o olhar do motorista acompanha o menino e sobe para a lente; com o ônibus andando, ele fala; fecha no estudante na janela, BH passando.
+- **O que é dito:** MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros." (na montagem, a V.O. "e trabalha aqui." do T09 cai no plano 1)
+- **Tempo:** porta e tênis — 3s · olhar sobe — 3s · fala com o ônibus andando — 7s · estudante na janela — 3s = 16s
+- **Como termina:** o estudante na janela; corte seco.
+- **Direção:** O olhar do motorista fecha o match cut e emenda a fala dele. O close final do estudante prepara o T14.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 15 seconds total, 2 shots with 1 hard cut at 4s, shot 1 observed from inside the bus, shot 2 an authored locked frame rigged to the dashboard; cuts only at the specified point, the camera adds no cuts of its own, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 16 seconds total, 4 shots with 3 hard cuts at 3s, 6s and 13s, handheld in every shot, inside a moving bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
-@ONIBUS_INT — WORLD: the inside of a city bus — driver's cab, folding front door, steps, seats, handrails; the world for both shots.
+@ONIBUS_INT — WORLD: the inside of a modern Brazilian city bus — driver's cab, glass folding door, low floor, seats, handrails; the world for all shots.
 REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @ONIBUS_INT supplies the space and materials ONLY — its light is replaced by the LIGHT block.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@MOTORISTA (40, Black man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist) — the BUS DRIVER: sits at the wheel on the bus's left side, opens and closes the door, drives, speaks once in shot 2; NEVER stands, NEVER lets go of the wheel for more than a second; owns the frame-LEFT half in shot 1.
-@ESTUDANTE (15, mixed-race brown teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, worn white sneakers, dark backpack) — the STUDENT: climbs in through the front door, greets with a raised hand, walks past into the bus; NEVER speaks, mouth closed; enters at frame-RIGHT in shot 1.
-FACES: each face exists once; the 3–4 seated passengers are distinct soft adults, mouths closed; no twins, no clones.
+@MOTORISTA (40, Black Brazilian man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, greets the boy, drives, speaks once in shot 3; NEVER stands.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers, dark backpack) — the STUDENT: boards, raises a hand, sits by a window; NEVER speaks, mouth closed.
+FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.
 
-SCENE — Late afternoon on a city bus in Minas Gerais; the bus has just stopped and the front door is already folding open for a teenage student with a backpack.
-THE SOUL OF THE SCENE (play it, never explain it): every day he takes people to where the opportunities are; this boy is one of them — he knows him — and he tells you the route like a man explaining it, hands on the wheel.
+SCENE — Late afternoon on a modern, air-conditioned city bus in Belo Horizonte, Brazil; at a stop, the glass door is already folding open for a teenage student with a backpack.
+THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he knows this boy and is proud of where he is headed — he tells you the route with a smile.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 2 shots with 1 hard cut at 4s — WRONG if there are extra cuts.
-2. @ESTUDANTE never speaks; only @MOTORISTA speaks, one line, in shot 2 — WRONG if the student's mouth forms words.
-3. In shot 2 @MOTORISTA's eyes rise and land on the lens at 5–6s on the upper-third line at about 45% of the frame width, and stay alive — WRONG if glassy or landing elsewhere.
-4. His hands stay on the wheel while he speaks; the bus moves forward from 6s — WRONG if the bus stays parked or he lets go.
+1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 13s; handheld in every shot — WRONG if extra cuts or a locked camera.
+2. @ESTUDANTE never speaks; @MOTORISTA speaks only in shot 3 — WRONG if any other mouth forms words.
+3. In shot 2 @MOTORISTA's eyes rise and land on the lens at 4–5s, on the upper-third line at about 45% of the frame width — WRONG if glassy or landing elsewhere.
+4. The bus is moving in shots 3 and 4; his hands stay on the wheel while he speaks.
 5. Daylight from frame-LEFT — NO music.
 
-TIMELINE — 2 shots, 1 hard cut; cuts only at the specified point, the camera adds no cuts of its own:
-SHOT 1 (0–4s) — MS, 47°, observed handheld from the first row of seats, looking forward: @MOTORISTA at the wheel in the frame-LEFT half, his right hand on the door control; the folding door in the frame-RIGHT half is already opening with a pneumatic hiss; @ESTUDANTE climbs the steps, backpack on one shoulder, raises a hand; @MOTORISTA nods, eyes following the boy's feet on the steps. HARD CUT.
-SHOT 2 (4–15s) — the MATCH FRAME, MCU, 29°, locked on a rig on the dashboard facing @MOTORISTA: his eyes follow the boy passing behind him into the bus (4–5s); his eyes rise and land on the lens (5–6s); the door folds shut and he releases the brake — the bus begins to roll and the street slides past the windows behind him (6s); at 7–12s he speaks to the lens, one quick glance to the road at the comma; at 12–15s his eyes go back to the road, then once more to you. Hard end mid-drive.
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — CU, 47°, low at the door: the glass door folds open with a pneumatic hiss and @ESTUDANTE's white sneaker steps onto the low floor; his hand rises in a greeting. HARD CUT.
+SHOT 2 (3–6s) — the MATCH FRAME, CU of @MOTORISTA: his eyes follow the boy passing behind him, then rise and land on the lens at 4–5s; a warm smile. HARD CUT.
+SHOT 3 (6–13s) — MWS (the driver at the wheel, the windshield and the city ahead), 47°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 7–12s, glancing at the road and back, smiling. HARD CUT.
+SHOT 4 (13–16s) — CU, 47°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.
 
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[7–12s] @MOTORISTA (on camera, Brazilian Portuguese, Belo Horizonte accent, plain and patient, like explaining a route, a glance to the road at the comma): "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."
-VOICE LOCK — @MOTORISTA: man, 40, plain mid baritone, patient, the cadence of someone explaining a route; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never an announcer. This voice identity is fixed and identical in every generation of the film.
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[7–12s] @MOTORISTA (on camera, Brazilian Portuguese): "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."
+VOICE LOCK — @MOTORISTA: Brazilian man, 40, plain friendly baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @MOTORISTA (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: the driver who carries people to opportunity says where the road has to go.
-MOTIVE: every day he drives people to where the opportunity is.
-GOAL: that you understand the route.
-OBSTACLE: the road needs his eyes.
-TACTIC: explain it like a route — hands on the wheel, eyes splitting between the road and you, checking you followed.
-MOMENT TO MOMENT: — [0–4s] door, nod to the boy he knows — [4–5s] eyes follow the boy past — [5–6s] eyes rise to you — [7–12s] the line, a glance at the road at the comma — [12–15s] road, then you once more.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: his thumb taps the wheel once before the line. A frozen pupil is wrong.
-NOT: a speech, letting go of the wheel, turning his body to the camera, a big smile, pointing.
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: every day he takes people to where the opportunities are.
+TACTIC: explain it like a route he loves — hands on the wheel, eyes splitting between the road and you, checking you followed.
+EYES: following the boy, then up to the lens; in shot 3 between the road and the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his thumb taps the wheel once. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, letting go of the wheel, turning his body to the camera.
 
-ACTING — @ESTUDANTE: TACTIC greet fast without missing the time; eyes check that the driver remembered him; involuntary detail: he hitches the backpack strap; NOT speaking, NOT looking at the lens.
+ACTING — @ESTUDANTE: TACTIC greet fast and find a seat; eyes on the driver, then the window; NOT speaking, NOT looking at the lens.
+ACTING — passengers (background): eyes on the window or on their own thoughts; NOT looking at the lens, NOT speaking.
 
-ACTING — passengers (background): eyes on the window, tired; NOT looking at the lens, NOT speaking.
+MATCH FRAME (KEY — identical in every shot of the match series): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft.
 
-MATCH FRAME (KEY — identical in every shot of the match series): MCU at 29°, camera locked on a tripod or a fixed rig at the subject's eye height, 1.6 m from the face, frontal to the face; the face sits just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft at least 4 m behind.
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-CAMERA — shot 1: observed handheld, the operator seated in the first row on the door side, 1.8 m behind and right of the driver, lens at seated eye height (1.2 m); STAYS PUT and breathes. Shot 2: authored — the MATCH FRAME on a rig fixed to the dashboard right of the wheel, locked to the bus; the bus moves, the camera moves with it; no shake beyond the bus's own vibration.
-OPTICS: shot 1 at 47°; shot 2 at 29°; no lens drift inside a shot.
-FOCUS: shot 1 on the door and the boy, then the driver's face; shot 2 on the driver's eyes, the bus interior soft behind.
-HORIZON: level, with the bus's gentle sway.
-NOT: gimbal float, a third shot, a cut-in to the boy, zoom, orbit, an exterior view, centred symmetrical framing.
+GEOMETRY — driver's seat on the bus's left side, glass folding door on the right; in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus.
 
-GEOMETRY — driver's seat on the bus's left side, folding door on the right; shot 1: driver frame-LEFT, door frame-RIGHT; shot 2: his face just left of centre, the aisle soft behind, the street sliding past the side windows frame-RIGHT once the bus moves.
+PHYSICS & MATERIAL — the door swings open on its pneumatic arm; the bus dips slightly as the boy steps in; when it pulls away everybody sways gently; the wheel turns under his palms; trees and buildings slide past the windows with motion blur. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the glass of the door, the textured low floor, satin-steel handrails, grey fabric seats, the cotton of his uniform shirt, Belo Horizonte's buildings and trees reflected in the windows.
 
-PHYSICS & MATERIAL — the folding door swings open on its pneumatic arm with a hiss and a thump; the bus dips slightly as the boy climbs; the backpack swings on one strap; when the brake releases the bus lurches gently forward and everybody sways; the wheel is large and turns under his palms. Nothing floats, nothing loops. OVER-REAL: worn rubber on the steps, a handrail polished by hands, a cracked vinyl seat taped with grey tape, dust on the dashboard, the wheel's worn grip. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through the bus's windshield and door-side windows on frame-LEFT, ~5600 K, soft and directional; no other source inside the bus.
+REACH: the daylight lights the frame-LEFT side of the faces; once the bus moves, the light flickers gently as trees and poles pass.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY):
-SOURCE: the key is daylight through the bus's front and door-side windows on frame-LEFT, ~5600 K, soft and directional; no other source inside the bus.
-REACH: the daylight lights the frame-LEFT side of the faces; the frame-RIGHT side in soft shade; once the bus moves, the light flickers gently as shadows of trees and poles pass.
-EXPOSURE: exposed for skin; the room behind about one stop darker, readable, never black; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the daylight stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+SOUND — LOCATION SOUND ONLY: the door's pneumatic hiss; the boy's steps; the engine pulling away; tyres on the avenue, traffic outside, a horn far off; the stop-request bell once (a single tone, not a melody); the engine's hum under his voice. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-SOUND — LOCATION SOUND ONLY: the diesel engine idling, then pulling away; the door's pneumatic hiss and thump; footsteps on the steps; the boy's backpack zip jingling; the brake release; tyres on the street, traffic outside, a horn far off; the bell cord ding once (a single tone, not a melody); the engine's hum under his voice. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
+NEGATIVE: the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, eyes landing off the upper third, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-NEGATIVE: the student speaking, a third shot, extra cuts, the driver standing, hands off the wheel while speaking, a parked bus in shot 2, company livery, route number, readable signs, logos, eyes landing off the upper third, gimbal float, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
-
-[ORDER: 2 shots, 1 hard cut at 4s, 15s — (1, 0–4s) from the first row: door opens, @ESTUDANTE climbs and raises a hand, @MOTORISTA nods — (2, 4–15s) MATCH FRAME on the dashboard: eyes follow the boy, rise and land on the lens at 5–6s, the bus pulls away, his line at 7–12s with a glance at the road, then road and you. Invariants: one cut only; the student silent; eyes landing on the upper third at 45% width; hands on the wheel, bus moving. Look: large-format spherical, mid-key, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 13s, 16s, handheld — (1, 0–3s) CU: the glass door opens, the student's sneaker steps in — (2, 3–6s) MATCH FRAME close-up: the driver's eyes follow the boy and rise to the lens at 4–5s, smiling — (3, 6–13s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 13–16s) CU: the student by the window, the city sliding past. Invariants: student silent; driver speaks only in shot 3; eyes landing at the upper third; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 15s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 16s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @MOTORISTA (character sheet) — identidade
   2) @ESTUDANTE (character sheet) — identidade
   3) @ONIBUS_INT (plate) — mundo
-Notas: risco: o estudante abrir a boca no embarque. Conferir no draft. O ônibus tem que estar andando quando ele fala.
+Notas: risco: o estudante abrir a boca. O ônibus tem que estar andando quando o motorista fala.
 ```
 
-### T14 · Sala do Trilhas de Futuro (Conexão, ~3.8s no corte)
+### T14 · Trilhas de Futuro (Conexão, ~3.8s no corte)
 
-O mesmo estudante do ônibus termina uma ligação elétrica e diz a frase da marca.
+O estudante aperta o borne, a lâmpada acende, ele fala e comemora com a colega.
 
-#### Geração T14 · 7s · 1 take · 16:9
+#### Geração T14 · 12s · 4 plano(s)
 
-```
-O QUE ACONTECE: Na oficina do curso técnico, o estudante aperta o último borne de um painel elétrico, testa o fio e vira para a lente.
-O QUE É DITO: ESTUDANTE: "É para isso que a Codemig existe… para fazer essa conexão acontecer."
-TEMPO: aperta o borne e testa — 2s · vira e fala — 4s · segura — 1s = 7s
-COMO TERMINA: segurando seu olhar; corte seco.
-DIREÇÃO: a ação dele é literalmente fazer uma conexão com as próprias mãos, antes de dizer "conexão". "Codemig" vai escrito como palavra única, para o modelo não soletrar.
-```
+- **O que acontece:** Na oficina do curso técnico: detalhe do borne apertado, a lâmpada do painel acende, o estudante vira pra lente e fala orgulhoso, e bate um soquinho com a colega.
+- **O que é dito:** ESTUDANTE: "É para isso que a Codemig existe… para fazer essa conexão acontecer."
+- **Tempo:** borne — 3s · lâmpada acende — 2s · fala — 5s · soquinho — 2s = 12s
+- **Como termina:** o soquinho na frente da lâmpada acesa; corte seco.
+- **Direção:** A ação dele é fazer uma conexão com as mãos antes de dizer "conexão". Mesmo figurino do ônibus.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 7 seconds total, ONE continuous take, no cuts, observed handheld that stays put and breathes, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe — the same clothes as on the bus. 100% matches.
 REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE (15, mixed-race brown teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, worn white sneakers, dark backpack) — the STUDENT: finishes wiring a terminal, turns, speaks once; NEVER smiles broadly, NEVER takes off the hoodie; owns the frame just left of centre.
-FACES: his face exists once; two classmates far behind at other benches are distinct soft figures, mouths closed.
-CONTACT: nobody touches anyone.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers, dark backpack) — the STUDENT: wires a circuit, switches it on, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
+CLASSMATE (unreferenced: a Brazilian girl about 16, braids, grey T-shirt) — beside him in shots 3 and 4; NEVER speaks.
+FACES: each face exists once; other students far behind are distinct and soft, mouths closed.
+CONTACT: the only touch is the fist bump in shot 4.
 
-SCENE — Afternoon in the workshop room of a free technical course for young people in Minas Gerais; @ESTUDANTE is already at an electrical training panel, tightening the last terminal of a circuit with a screwdriver.
-THE SOUL OF THE SCENE (play it, never explain it): at 15 he wants to be taken seriously — he finishes the connection with his own hands and then says it straight to you.
+SCENE — Afternoon in the workshop of a free technical course for young people in Belo Horizonte, Brazil — modern training panels, bright and organised. @ESTUDANTE is already tightening the last terminal of a circuit.
+THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work with his own hands and is thrilled — he tells you what this place is for.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. The camera STAYS PUT and breathes — WRONG if it travels or pushes in.
+1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 10s; handheld in every shot.
 2. @ESTUDANTE wears exactly the bus wardrobe: charcoal-grey hoodie, white T-shirt, black jeans — WRONG if anything changes.
-3. His eyes are alive and steady on the lens while he speaks — WRONG if glassy.
-4. Only @ESTUDANTE speaks, only this line; "Codemig" said as one word — NO music.
-5. Daylight from frame-LEFT; no readable text or logo anywhere in the room.
+3. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy.
+4. Only @ESTUDANTE speaks, only this line — the classmate's mouth stays closed.
+5. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.
 
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — MS, 47°: @ESTUDANTE at the training panel, frame just left of centre, turning a screwdriver on a terminal; the screw resists, then seats; he tugs the wire once to test it.
-BEAT 2 (2–6s) — he turns his head and then his shoulders to the lens and speaks, a small pause at the ellipsis.
-BEAT 3 (6–7s) — he holds your eyes, testing whether you believe him. Hard end on the held look.
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — ECU, 47°: a screwdriver tightens a terminal on a training panel; the copper wire end seats with a small snap and his fingers tug it once to test it. HARD CUT.
+SHOT 2 (3–5s) — CU, 47°: his finger flips a switch and a lamp on the panel lights up. HARD CUT.
+SHOT 3 (5–10s) — MWS (from the knees up, the workshop around him), 47°: @ESTUDANTE at the panel, the CLASSMATE beside him; he turns to the lens and speaks at 6–9s, grinning with pride. HARD CUT.
+SHOT 4 (10–12s) — CU, 47°: he and the CLASSMATE bump fists in front of the lit lamp. Hard end mid-bump.
 
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[2–6s] @ESTUDANTE (on camera, Brazilian Portuguese, Belo Horizonte accent, earnest and steady, "Codemig" said as one word with the stress on the last syllable, a short pause at the ellipsis): "É para isso que a Codemig existe… para fazer essa conexão acontecer."
-VOICE LOCK — @ESTUDANTE: teenage boy, 15, voice recently changed, light baritone that thins on the stressed syllables, earnest; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never a child's voice, never an adult's. This voice identity is fixed and identical in every generation of the film.
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–9s] @ESTUDANTE (on camera, Brazilian Portuguese): "É para isso que a Codemig existe… para fazer essa conexão acontecer."
+VOICE LOCK — @ESTUDANTE: Brazilian teenage boy, 15, light new baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @ESTUDANTE (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-MOTIVE: at 15 he wants to be taken seriously.
-GOAL: that you believe him.
-OBSTACLE: he is fifteen.
-TACTIC: finish the job properly in front of you, then hold your gaze and check you believe him.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: a quick swallow before he speaks. A frozen pupil is wrong.
-NOT: a cheeky grin, a thumbs-up, a teenage slouch-pose, a speech, reading.
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: at 15 he just made something work with his own hands.
+TACTIC: show you the lit lamp as proof and tell you, thrilled, what this place is for — check that you believe him.
+EYES: from the lamp to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a quick swallow, then the grin breaks. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a cheeky smirk, a teenage pose.
 
-CAMERA — observed handheld, the operator standing 2 m from him at chest height (1.3 m), slightly on the shadow side of his face.
-MOVEMENT: the camera STAYS PUT and breathes — a small human tremor, a drift a beat late; no travel.
-OPTICS: MS at 47°; natural perspective; no lens drift.
-FOCUS: on his hands at the terminal, then on his eyes when he turns.
+ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the lamp, then on him; NOT speaking, NOT looking at the lens.
+
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-COMPOSITION: off-centre — his face just left of centre, the panel frame-left, the workshop soft frame-right.
-NOT: gimbal glide, push-in, zoom, dolly, orbit, centred symmetrical framing.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the copper wire is stiff and springs back when he tugs it; the screwdriver's handle is scuffed; the hoodie sleeves are pushed up and slide down once. Nothing floats, nothing loops. OVER-REAL: the training panel's scratched grey metal with unreadable worn labels, colour-coded wires with stripped copper ends, a small cut on his knuckle, dust on the window sill, worn white sneakers. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the stiff copper wire springs back when he tugs it; the switch clicks; the lamp comes on instantly; the fist bump lands with a soft knock. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the powder-coated metal of the training panel, colour-coded wires with clean copper ends, the warm glow of the lamp, the fleece of his hoodie, organised tools on the bench.
 
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY):
-SOURCE: the key is daylight through the workshop windows on frame-LEFT, ~5600 K, soft and directional; a small work lamp on the bench ~4000 K, low and secondary, only on the panel.
-REACH: the daylight lights the frame-LEFT side of his face and the panel; the frame-RIGHT side in soft shade; the room behind falls off a stop, readable.
-EXPOSURE: exposed for skin; the room behind about one stop darker, readable, never black; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the daylight stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through the workshop's big windows on frame-LEFT, ~5600 K, soft and directional; the panel lamp, once it is on, as a small warm practical.
+REACH: the daylight lights the frame-LEFT side of his face and the panel; the room behind falls off a stop.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the screwdriver's squeak and the small snap of the terminal; the wire's metallic flick; another student's soft tool noise at a far bench; an instructor's voice far off with no words standing out; a fan humming; the street far away. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: the screwdriver's squeak and the terminal's snap; the switch click; a fan humming; other students working at far benches, no words standing out; the fist bump. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: different wardrobe from the bus, programme logo, posters with text, readable labels, "Codemig" spelled out letter by letter, a cheeky grin, thumbs-up, camera travelling, push-in, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
+NEGATIVE: different wardrobe from the bus, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE continuous take, 7s, breathing handheld that stays put — (0–2s) he seats the terminal and tests the wire — (2–6s) to the lens, his line with the pause — (6–7s) he holds your eyes. Invariants: camera stays put; the bus wardrobe; living eyes; only his line, "Codemig" as one word. Look: large-format spherical, mid-key, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld — (1, 0–3s) ECU: the terminal tightened, the wire tested — (2, 3–5s) CU: the switch, the lamp lights up — (3, 5–10s) medium-wide: he turns to the lens and says his line, proud — (4, 10–12s) CU: fist bump in front of the lamp. Invariants: the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 7s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ESTUDANTE (character sheet) — identidade, mesmo figurino do T12
-Notas: conferir a pronúncia de "Codemig" (co-de-MIG). Se sair errado, regerar com outra descrição de entrega antes de mexer na grafia.
+Notas: conferir a pronúncia de "Codemig". Se sair errada, regerar antes de mexer na grafia.
 ```
 
 ### T15 · Hospital (Conexão, ~6.8s no corte)
 
-Enfermeira mede a pressão do paciente enquanto fala; só no fim te dá os olhos.
+Oxímetro no dedo, gota no soro; a enfermeira cuida e fala; o paciente aperta a mão dela.
 
-#### Geração T15 · 11s · 1 take · 16:9
+#### Geração T15 · 14s · 4 plano(s)
 
-```
-O QUE ACONTECE: Na enfermaria, a enfermeira fecha o manguito no braço do paciente, bombeia e fala enquanto trabalha; solta a válvula e olha para a lente só na última parte da frase.
-O QUE É DITO: ENFERMEIRA: "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."
-TEMPO: manguito — 2s · bombeia falando, olhos no paciente — 5s · solta a válvula, olhos na lente — 2s · volta ao paciente — 2s = 11s
-COMO TERMINA: lendo o ponteiro e acenando para o paciente; corte seco.
-DIREÇÃO: a fala longa fica on camera, mas com os olhos no paciente na maior parte (perfil de trabalho, menos risco de lipsync), e só o fim vai para a lente. Ela não para de cuidar.
-```
+- **O que acontece:** Numa enfermaria moderna da rede pública: close do oxímetro no dedo, a gota caindo no soro, a enfermeira cuida do paciente enquanto fala e olha pra lente no fim, e ele aperta a mão dela.
+- **O que é dito:** ENFERMEIRA: "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."
+- **Tempo:** oxímetro — 3s · soro — 2s · cuida e fala — 7s · aperto de mão — 2s = 14s
+- **Como termina:** as mãos apertadas; corte seco.
+- **Direção:** Ela não para de cuidar para falar. As subações em close dão à montagem onde apoiar a fala longa em off, se precisar.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 11 seconds total, ONE continuous take, no cuts, observed handheld that stays put and breathes, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 12s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
 REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ENFERMEIRA (30, mixed-race brown woman, medium build, dark hair in a low bun, a small mole above the upper lip, white scrubs, a stethoscope around her neck) — the NURSE: takes the patient's blood pressure, speaks once; NEVER stops caring for the patient, NEVER turns her body to the camera; owns the frame-LEFT half.
-PATIENT (unreferenced: a man about 70, white hair, thin, hospital gown, sitting up in the bed) — owns the frame-RIGHT half, partly turned away from the camera; NEVER speaks, mouth closed; watches her.
+@ENFERMEIRA (30, mixed-race Brazilian woman, medium build, dark hair in a low bun, a small mole above the upper lip, white scrubs, a stethoscope around her neck) — the NURSE: cares for the patient, speaks once while working; NEVER stops caring for him; owns the frame-LEFT half in shot 3.
+PATIENT (unreferenced: a Brazilian man about 70, white hair, hospital gown, sitting up in bed) — owns the frame-RIGHT half in shot 3; NEVER speaks, mouth closed.
 FACES: each face exists once; no other people in focus.
-CONTACT: only her hands on the patient's left arm and the cuff; nobody else touches anyone.
+CONTACT: only her hands on the patient's hand and arm; in shot 4 he squeezes her hand.
 
-SCENE — Afternoon in a public hospital ward in Minas Gerais; @ENFERMEIRA is already wrapping a blood-pressure cuff around the PATIENT's upper arm by the window.
-THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she does not stop caring to talk to you — her hands and attention stay on him; only at the end does she give you her eyes.
+SCENE — Afternoon in a modern Brazilian public hospital ward in Minas Gerais — bright, new beds, large windows. @ENFERMEIRA is already caring for an older PATIENT who is recovering well.
+THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she talks to you without stopping, and gives you a warm look at the end.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Her hands stay on the patient and the cuff for the whole take — WRONG if she stops the task to talk.
-2. Her eyes stay on the patient and the gauge until "também criem oportunidades" (about 7s), then come to the lens and stay alive — WRONG if she looks at the lens earlier or the stare is glassy.
-3. Only @ENFERMEIRA speaks, one line; the patient's mouth stays closed.
-4. @ENFERMEIRA frame-LEFT, PATIENT frame-RIGHT — WRONG if they swap.
+1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 12s; handheld in every shot.
+2. Her hands stay on the task in shot 3 while she speaks — WRONG if she stops caring to talk.
+3. Only @ENFERMEIRA speaks, only in shot 3; the patient's mouth stays closed.
+4. @ENFERMEIRA frame-LEFT, PATIENT frame-RIGHT in shot 3 — WRONG if they swap.
 5. Daylight from frame-LEFT — NO music.
 
-TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — MS two-shot, 47°: @ENFERMEIRA frame-LEFT closes the velcro of the cuff around the PATIENT's upper arm frame-RIGHT, checks it is snug with two fingers, picks up the bulb.
-BEAT 2 (2–7s) — she pumps the bulb with steady squeezes, eyes on the gauge and on his face, and starts her line while working.
-BEAT 3 (7–9s) — she releases the valve slowly; her eyes come from the gauge to the lens for the end of the line.
-BEAT 4 (9–11s) — her eyes go back to the gauge and the patient; she reads the number and nods to him. Hard end mid-task.
+TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — CU, 47°: her hands clip a pulse oximeter onto the PATIENT's finger; its small light glows red. HARD CUT.
+SHOT 2 (3–5s) — CU, 47°: her fingers roll the clamp on the IV line; a drop falls in the drip chamber. HARD CUT.
+SHOT 3 (5–12s) — MWS (both of them and the bright ward), 47°: @ENFERMEIRA frame-LEFT adjusts the PATIENT's pillow and checks his arm while speaking at 6–11s, eyes on him and then to the lens with a warm smile. HARD CUT.
+SHOT 4 (12–14s) — CU, 47°: the PATIENT's hand squeezes hers; she squeezes back. Hard end mid-squeeze.
 
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[2–9s] @ENFERMEIRA (on camera, Brazilian Portuguese, Belo Horizonte accent, low and calm, the bedside cadence of someone working, breathing with the pumping, the last phrase given to you): "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."
-VOICE LOCK — @ENFERMEIRA: woman, 30, soft mid voice, calm bedside cadence, low volume, every word clear; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never breathy, never a presenter. This voice identity is fixed and identical in every generation of the film.
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[6–11s] @ENFERMEIRA (on camera, Brazilian Portuguese): "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."
+VOICE LOCK — @ENFERMEIRA: Brazilian woman, 30, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @ENFERMEIRA (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: a nurse explains why she is here without leaving her patient.
-MOTIVE: caring is the job, and the job is why it matters.
-GOAL: that you understand why she is here.
-OBSTACLE: the patient needs her attention now.
-TACTIC: keep the hands and the eyes on him while talking; at the end, give you her eyes to check you got it.
-MOMENT TO MOMENT: — [0–2s] cuff, two-finger check — [2–7s] pumping, eyes on the gauge and his face, the line flowing as she works — [7–9s] valve released, eyes to you — [9–11s] back to him.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: she wets her lips before the last phrase. A frozen pupil is wrong.
-NOT: stopping the work, turning to the camera, a TV-presenter smile, a speech, a dramatic hospital scene.
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: caring is her job and she is proud of it.
+TACTIC: keep caring for him while she tells you, then give you a warm look to check you understood why she is here.
+EYES: on the patient, then to the lens near the end of the line. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she wets her lips and smiles. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, turning her body to the camera, a dramatic hospital scene.
 
-ACTING — PATIENT: TACTIC follow the nurse and trust her; eyes on her face and the cuff; involuntary detail: his fingers curl when the cuff tightens; NOT speaking, NOT looking at the lens.
+ACTING — PATIENT: TACTIC trust her and enjoy the care; eyes on her face; involuntary detail: a small smile; NOT speaking, NOT looking at the lens.
 
-CAMERA — observed handheld, the operator standing 2.2 m from them at chest height (1.3 m), on the shadow side of her face.
-MOVEMENT: the camera STAYS PUT and breathes — small human tremor, a drift a beat late; no travel.
-OPTICS: MS two-shot at 47°; no lens drift.
-FOCUS: on her eyes and hands; the patient slightly soft; the ward behind soft.
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-COMPOSITION: off-centre — her face in the frame-LEFT half on the upper-third line, the patient frame-RIGHT partly turned away, the window light frame-left.
-NOT: gimbal glide, push-in, zoom, dolly, orbit, a cut to the gauge, centred symmetrical framing.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-GEOMETRY — the bed along the frame-RIGHT side, the patient sitting up at 60°, his left arm toward her; @ENFERMEIRA standing beside the bed at frame-LEFT, 40 cm from him; the window behind her on frame-LEFT; the camera 2.2 m away at the foot side of the bed.
+GEOMETRY — the bed along the frame-RIGHT side, the patient sitting up; @ENFERMEIRA standing beside the bed at frame-LEFT, 40 cm from him; the window behind her on frame-LEFT; in shot 3 the camera 2.2 m away at the foot of the bed.
 
-PHYSICS & MATERIAL — the velcro rips and grips; the cuff inflates with each squeeze and presses into the thin skin of his arm; the gauge needle climbs and then falls with the slow hiss of the valve; her stethoscope swings slightly as she leans. Nothing floats, nothing loops. OVER-REAL: the worn grey cuff with frayed velcro, the scratched gauge face with unreadable numbers, the thin skin and veins of his arm, a faded hospital blanket, a dented metal bed rail, a small coffee stain on her scrub pocket. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+PHYSICS & MATERIAL — the oximeter clip springs onto the finger; the IV clamp rolls with a little resistance and the drop forms, swells and falls; the pillow gives under her hands; his grip is light but sure. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the smooth plastic of the oximeter, the clear IV tubing, crisp white sheets, the cotton of her scrubs, the fine skin of his hand, a modern bed with satin-steel rails.
 
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY):
-SOURCE: the key is daylight through the ward window behind her on frame-LEFT, ~5600 K, soft and directional; no other source on the faces.
-REACH: the daylight lights the frame-LEFT side of her face and the patient's arm; the frame-RIGHT side of each face in soft shade; the ward behind falls off a stop, readable.
-EXPOSURE: exposed for skin; the room behind about one stop darker, readable, never black; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the daylight stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: flat ceiling-panel light, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through the ward's large window behind her on frame-LEFT, ~5600 K, soft and directional; monitors are dark or show only abstract lines, never a light source on the faces.
+REACH: the daylight lights the frame-LEFT side of her face and his arm; the ward behind falls off a stop.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the velcro rip; the rubber bulb squeezing; the valve's slow hiss; a monitor's soft beep in another bed (single repeated tone, not a melody); a trolley rolling in the corridor; the ward's low murmur with no words standing out. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: the clip's click; the IV clamp; a monitor's soft beep in the room (single repeated tone, not a melody); a trolley rolling in the corridor; the ward's low murmur with no words standing out. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: stopping the task, looking at the lens before 7s, turning her body to the camera, the patient speaking, swapped sides, a dramatic emergency, blood, readable numbers, hospital logo, camera travelling, push-in, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
+NEGATIVE: stopping the care to talk, turning her body to the camera, the patient speaking, swapped sides, an emergency, blood, readable monitors, hospital logo, an old run-down ward, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE continuous take, 11s, breathing handheld that stays put — (0–2s) she closes the cuff and checks it — (2–7s) pumping, eyes on gauge and patient, her line flowing — (7–9s) valve released, eyes to the lens for the end of the line — (9–11s) back to him, reads the number, nods. Invariants: hands never leave the task; eyes to the lens only at 7s; she left, patient right; only her line. Look: large-format spherical, mid-key, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 12s, 14s, handheld — (1, 0–3s) CU: the oximeter clipped on — (2, 3–5s) CU: the IV clamp, a drop falls — (3, 5–12s) medium-wide: she cares for him while saying her line, a warm look to the lens at the end — (4, 12–14s) CU: he squeezes her hand. Invariants: hands on the task; she left, patient right; only her line; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 11s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 14s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ENFERMEIRA (character sheet) — identidade
-Notas: fala longa: se o lipsync escorregar no fim, a saída é a proposta antiga, com o começo da frase em V.O. sobre as mãos e só "também criem oportunidades para Minas" on camera.
+Notas: fala longa: se o lipsync escorregar, use a fala em off sobre os closes.
 ```
 
-ALTERNATIVE DIRECTION: a proposta em aberto do pré-shotlist, com a primeira metade da frase em V.O. sobre as mãos no manguito e o corte para o rosto só em "também criem oportunidades para Minas". Mais seguro pro lipsync, menos presença dela.
+### T16 · Close final (Fechamento, ~8.2s no corte)
 
-### T16 · Montanha: close final (Fechamento, ~8.2s no corte)
+O jovem do começo, num close bem fechado, fala as últimas frases sorrindo.
 
-O jovem do começo, num close muito fechado, reivindica e convida.
+#### Geração T16 · 12s · 1 plano(s)
 
-#### Geração T16 · 12s · 1 take · 16:9
-
-```
-O QUE ACONTECE: No mesmo pico e na mesma hora, o jovem em close bem fechado fala direto com você: a primeira frase firme, depois "O minério é nosso" como reivindicação e "O futuro também" como convite.
-O QUE É DITO: JOVEM: "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra." / "O minério é nosso. O futuro também."
-TEMPO: respira — 1s · 1ª frase — 5s · respira — 1s · "O minério é nosso." — 1s · "O futuro também." — 2s · segura — 2s = 12s
-COMO TERMINA: segurando seu olhar; corte para a assinatura.
-DIREÇÃO: fechamento composto: quadro travado a 18°, pele em detalhe (face anchor extra), mesma luz do T01. O travelling da abertura chega nele e aqui ele já está perto.
-```
+- **O que acontece:** No mesmo pico e na mesma luz do T01, o jovem em close bem fechado, na mão, fala direto com você, orgulhoso e sorrindo.
+- **O que é dito:** JOVEM: "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra. O minério é nosso. O futuro também."
+- **Tempo:** olhar na lente — 1s · fala — 9s · sorriso — 2s = 12s
+- **Como termina:** segurando seu olhar, sorrindo; corte para a assinatura.
+- **Direção:** Mantive o close bem fechado do pré-shotlist, agora na mão. É a exceção à regra da fala em plano mais aberto (P14).
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, ONE continuous take, no cuts, an authored locked frame on a tripod, tight close-up, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, ONE continuous take, no cuts, handheld, close and breathing, tight close-up, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe — use the close-up skin detail anchor. 100% matches.
-@PICO — WORLD: the same summit as the opening; only its soft, layered hills appear behind him.
+@PICO — WORLD: the same summit as the opening; only its soft layered hills appear behind him.
 REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies the background landscape ONLY — its light is replaced by the LIGHT block.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM (25, lean, sun-weathered brown skin, short dark curly hair, light stubble, a thin scar through the left eyebrow, faded rust-red cotton work shirt with the sleeves rolled to the forearm, khaki canvas trousers, dusty brown leather work boots) — the PROTAGONIST: holds still, speaks two sentences; NEVER moves his head out of the frame, NEVER smiles broadly; his face fills the frame just left of centre.
+@JOVEM (25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, a thin scar through the left eyebrow, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots) — the PROTAGONIST: speaks his last words to you; his face fills the frame just left of centre.
 FACES: his face exists once; nobody else.
 
-SCENE — The same summit at the same late-afternoon hour; @JOVEM, in a very tight close-up, is already looking at you; the sea of hills is a soft haze behind him.
-THE SOUL OF THE SCENE (play it, never explain it): now he has decided. "O minério é nosso" claims it; "O futuro também" invites you in.
+SCENE — The same summit in Minas Gerais, Brazil, at the same late-afternoon hour; @JOVEM, in a very tight close-up, is already looking at you; the sea of hills is a soft haze behind him.
+THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything and he is happy and sure — "O minério é nosso" is pride, "O futuro também" is an invitation.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE continuous take, the camera LOCKED in a very tight close-up — WRONG if it moves, cuts or widens.
-2. His eyes stay on the lens and alive from start to finish, both eyes sharp — WRONG if glassy, watery or looking away.
+1. ONE handheld take in a very tight close-up — WRONG if it cuts, widens or is locked.
+2. His eyes stay on the lens and alive from start to finish — WRONG if glassy or looking away.
 3. Real skin in detail: pores, stubble, the scar through the left eyebrow — WRONG if smooth or retouched.
-4. Only @JOVEM speaks, these two sentences, with a breath between them.
+4. Only @JOVEM speaks, only this text.
 5. Sun from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–1s) — CU, 18°, locked: @JOVEM's face from the eyebrows to the chin, just left of centre, eyes already on the lens; a breath in.
-BEAT 2 (1–6s) — he speaks the first sentence, steady, close, the weight on "nossa terra" both times.
-BEAT 3 (6–7s) — a breath; his eyes check both of yours.
-BEAT 4 (7–8s) — "O minério é nosso." — a claim, the jaw set.
-BEAT 5 (8–10s) — a beat, then "O futuro também." — an offer, the face opening slightly.
-BEAT 6 (10–12s) — he holds your eyes, looking for the "yes". Hard end on the held look.
+BEAT 1 (0–1s) — CU, 18°, handheld 1.3 m from his face, breathing: his face from the eyebrows to the chin, just left of centre, eyes already on the lens.
+BEAT 2 (1–10s) — he speaks to the lens, proud and warm, the smile growing.
+BEAT 3 (10–12s) — he holds your eyes with an open smile. Hard end on the held look.
 
-DIALOGUE — only these lines are spoken, each by the named character; ON CAMERA lines are lip-synced, mouth movements match the sound exactly; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[1–6s] @JOVEM (on camera, Brazilian Portuguese, light Minas Gerais interior accent, low and close, steady, the stress on "nossa terra" both times): "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra."
-[7–10s] @JOVEM (on camera, Brazilian Portuguese, light Minas Gerais interior accent, the first sentence set like a claim, a short beat, the second softer like an offer): "O minério é nosso. O futuro também."
-VOICE LOCK — @JOVEM: young man, 25, warm untrained baritone in the chest, a little grain, speaks low and close without projecting; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never an announcer voice, never a radio voice, never a speech. This voice identity is fixed and identical in every generation of the film.
+DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
+[1–10s] @JOVEM (on camera, Brazilian Portuguese): "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra. O minério é nosso. O futuro também."
+VOICE LOCK — @JOVEM: young Brazilian man, 25, warm baritone; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @JOVEM (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a fellow mineiro, eye to eye, something you are proud of — the lens is that person.
-EVENT: the man from the opening comes back having decided.
-MOTIVE: everything he showed you comes down to this.
-GOAL: your "yes".
-OBSTACLE: a slogan would kill it.
-TACTIC: look at you from close up and search both of your eyes for the yes; claim it, then invite you in.
-MOMENT TO MOMENT: — [1–6s] steady, eyes moving between your two eyes — [6–7s] a check — [7–8s] he claims it, jaw set — [8–10s] he offers it, the face opening — [10–12s] he waits.
-LIVING EYES: pupils move with the task — search, settle, drift, settle again; blinks uneven and a beat late; brows, cheeks and mouth work independently, slight asymmetry. Involuntary detail: a small tightening at the corner of his mouth after "nosso". The low sun puts a small live point in his frame-left eye; a frozen pupil is wrong.
-NOT: a slogan delivery, a broad smile, a wink, a nod, tears, raising his voice.
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: everything he showed you comes down to this, and he is proud of it.
+TACTIC: look at you from close up, share it with pride and invite you in — look for your yes.
+EYES: on the lens throughout, moving between your two eyes. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a small laugh of breath at the end. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a slogan delivery, a wink, tears.
 
-CAMERA — authored: a locked tripod at his eye height (1.65 m), 1.3 m from his face, frontal.
-MOVEMENT: the camera STAYS PUT for the whole take — no drift, no push, no shake.
-OPTICS: CU at 18°, the face from eyebrows to chin; long-lens compression; no zoom, no lens drift.
-FOCUS: on both eyes; the hills behind melted into soft layered haze.
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-COMPOSITION: off-centre — his face just left of centre, the eyes on the upper-third line, the soft hills frame-right.
-NOT: handheld, push-in, pull-back, zoom, dolly, drone, orbit, centred symmetrical framing.
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the wind from frame-left moves a few hairs at his temple and the edge of his collar; his breath is visible only as the movement of his lips and nostrils; his skin catches the light unevenly. Nothing floats, nothing loops. OVER-REAL: pores and fine sun lines at the eyes, three-day stubble with a few grey hairs, the thin scar through the left eyebrow, sun-cracked lips, a small mole on the cheek, fine dust in the eyebrow hairs. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+PHYSICS & MATERIAL — the wind from frame-left moves a few hairs at his temple and the edge of his collar; his breath moves his lips and nostrils; his skin catches the light unevenly. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: pores and fine lines at the eyes, stubble with individual hairs, the thin scar through the left eyebrow, the weave of his overshirt collar.
 
-LIGHT — NATURAL LIGHT ONLY, late afternoon, LOW & CLEAR (KEY):
-SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky ~7000 K as the soft fill on the other side.
-REACH: the sun lights the frame-LEFT side of every face and lays a warm edge along hair, shoulders and the crests of the terrain; the frame-RIGHT side of each face sits in soft open shade, readable.
-EXPOSURE: exposed for skin; the sky holds tone, never blown white; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the sun stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: golden-hour postcard glow, orange sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: wind across the open summit, steady and quiet; dry grass hissing; his breath before each sentence; after "O futuro também.", only the wind. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: wind across the open summit, steady and quiet; dry grass hissing; his breath; after his last word, only the wind. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: camera movement, a cut, widening the frame, smooth retouched skin, missing scar, watery eyes, tears, a broad smile, a wink, a nod, slogan delivery, looking away, glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio.
+NEGATIVE: a cut, widening the frame, smooth retouched skin, missing scar, watery eyes, tears, a wink, slogan delivery, looking away, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE continuous take, 12s, locked tight CU 18° — (0–1s) eyes on the lens, a breath — (1–6s) the first sentence — (6–7s) a breath — (7–8s) "O minério é nosso." — (8–10s) "O futuro também." — (10–12s) he holds your eyes. Invariants: locked frame; living eyes on the lens; real skin with the scar; only his two sentences; sun frame-LEFT. Look: large-format spherical, mid-key, red-ochre earth, fine grain, no vignette. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: ONE handheld take, 12s, tight CU 18° — (0–1s) eyes on the lens — (1–10s) his words to you, proud and warm — (10–12s) he holds your eyes, smiling. Invariants: handheld, tight close-up; living eyes on the lens; real skin with the scar; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1575,85 +1282,133 @@ Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → fina
 Anexar nesta ordem:
   1) @JOVEM (character sheet + face anchor de pele) — identidade
   2) @PICO (plate) — fundo
-Notas: olhos e pele são o take inteiro. Conferir pupila viva e cicatriz na sobrancelha.
+Notas: olhos e pele são o take inteiro. Conferir pupila viva e a cicatriz na sobrancelha.
 ```
 
-ALTERNATIVE DIRECTION: um pull-back lento do close até o plano aberto durante "O futuro também.", revelando o mar de morros. Rima invertida com o travelling do T01.
+Direção alternativa: um pull-back na mão, do close até o aberto, durante "O futuro também.", revelando o mar de morros.
 
 ### T17 · Assinatura (Fechamento, ~2.5s no corte)
 
-Assinatura final em pós (AE): Codemig. O futuro é mineiro. / Codemge. Abrindo caminhos para Minas crescer.
+Assinatura em pós (After Effects): Codemig. O futuro é mineiro. / Codemge. Abrindo caminhos para Minas crescer.
 
-Sem geração. Locução "Codemig. O futuro é mineiro." gravada (locutor ou ElevenLabs), lettering e logos no After Effects. O pot-pourri saiu por decisão da direção.
+Sem geração. Locução "Codemig. O futuro é mineiro." gravada (locutor ou ElevenLabs); lettering e logos no After Effects.
 
-## Templates congelados v1
+## Templates congelados
+
+### CONTRACT (padrão)
 
 ```
-FILM LOOK (KEY — reproduce this exact photographic character): modern large-format cinema camera with spherical lenses; MID-KEY natural image — NOT underexposed, NOT dark, NO crushed blacks; colour muted and true: the red-ochre of Minas earth (soil, ore, brick, rust) is the warm constant of the film, greens and sky slightly desaturated, skin natural and varied, never teal-and-orange, never saturated; highlights roll off gently with subtle halation; shadows soft and readable; very fine organic grain; natural sharpness without edge enhancement; real skin with pores, marks and asymmetry; round soft bokeh; even exposure to all four corners, NO vignette. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs, no glow overlays; every light source stays small and contained.
+CONTRACT — Live-action photoreal film footage, 16:9, [N] seconds total, [shots and cuts], [camera language], real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+```
 
-LIGHT — NATURAL LIGHT ONLY, late afternoon, LOW & CLEAR (KEY):
-SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky ~7000 K as the soft fill on the other side.
-REACH: the sun lights the frame-LEFT side of every face and lays a warm edge along hair, shoulders and the crests of the terrain; the frame-RIGHT side of each face sits in soft open shade, readable.
-EXPOSURE: exposed for skin; the sky holds tone, never blown white; shadows soft and readable; even exposure corner to corner, NO vignette.
-CONTINUITY: the sun stays frame-LEFT for the whole generation; lit sides never flip.
-NOT: golden-hour postcard glow, orange sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+### FILM LOOK + flares
 
-MATCH FRAME (KEY — identical in every shot of the match series): MCU at 29°, camera locked on a tripod or a fixed rig at the subject's eye height, 1.6 m from the face, frontal to the face; the face sits just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft at least 4 m behind.
+```
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+```
 
-CAMERA — observed handheld: the operator crab-walks sideways at an even slow walking pace (about 0.5 m per second) from frame-LEFT to frame-RIGHT, lens at shoulder height (1.5 m), [distance] from the subject, on the shadow side of the face.
-MOVEMENT: the camera TRAVELS frame-left to frame-right at that same constant pace from the first frame to the last — it never stops, never reverses, never pushes in; small human footfall bounce, a late correction now and then.
-OPTICS: [size] at 63°, natural perspective; no lens drift inside the take.
-FOCUS: on the speaker's eyes; the background slides past, soft but readable.
+### LIGHT · exteriores
+
+```
+LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
+```
+
+### LIGHT · interiores (base)
+
+```
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through [window] on frame-LEFT, ~5600 K, soft and directional; [practicals]
+REACH: [reach]
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+```
+
+### CAMERA · na mão
+
+```
+CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
-COMPOSITION: off-centre; the subject drifts from the right third toward the left third as the camera passes; the eyes stay on the upper-third line.
-NOT: gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, whip pan, the camera stopping, the camera reversing, centred symmetrical framing.
-
-WORLD — Minas Gerais, Brazil, today: real places as they are used every day; materials and objects worn by use and with a function; uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO company or government insignia and NO readable text (logos are added in post).
-
-NEGATIVE spine: glassy stare, frozen pupils, doll eyes, dead stare into the lens, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, vignette, crushed blacks, golden-hour postcard, teal-and-orange grade, wrong aspect ratio
+NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 ```
 
-### Voice locks
+### CAMERA · revezamento
 
 ```
-VOICE LOCK — @JOVEM: young man, 25, warm untrained baritone in the chest, a little grain, speaks low and close without projecting; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never an announcer voice, never a radio voice, never a speech. This voice identity is fixed and identical in every generation of the film.
+CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
+```
 
-VOICE LOCK — @ALUNO: boy of 10, clear high child's voice, quick, a little breathy with eagerness; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never an adult dubbing a child, never a cartoon voice. This voice identity is fixed and identical in every generation of the film.
+### MATCH FRAME
 
-VOICE LOCK — @PROFESSORA: woman, 40, mid register, a teacher's trained projection used gently, warm and precise, each word placed; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never stern, never an announcer. This voice identity is fixed and identical in every generation of the film.
+```
+MATCH FRAME (KEY — identical in every shot of the match series): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft.
+```
 
-VOICE LOCK — @HOMEM_EV: man, 40, relaxed baritone, conversational, a half-smile in the breath; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never a salesman, never an announcer. This voice identity is fixed and identical in every generation of the film.
+### Atuação compartilhada
 
-VOICE LOCK — @OPERARIO: man, 30, mid-low voice, a little hoarse from talking over machines, short phrases pushed slightly louder than normal; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never an announcer. This voice identity is fixed and identical in every generation of the film.
+```
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+```
 
-VOICE LOCK — @PESQUISADORA: woman, 30, light mid voice, quick and exact, quiet, the voice of someone mid-task; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never breathy, never a TV presenter. This voice identity is fixed and identical in every generation of the film.
+### VOICE LOCKS
 
-VOICE LOCK — @DONO: man, 60, deep, slow, slightly rough, the easy voice of a man who has talked across a counter for decades; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never a caricature of a country man. This voice identity is fixed and identical in every generation of the film.
+```
+VOICE LOCK — @JOVEM: young Brazilian man, 25, warm baritone; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+VOICE LOCK — @ALUNO: Brazilian boy, 10, clear bright child's voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @PROFESSORA: Brazilian woman, 40, warm mid voice of a teacher; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @HOMEM_EV: Brazilian man, 40, relaxed baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @OPERARIO: Brazilian man, 30, mid-low voice, slightly raised over the machines; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+VOICE LOCK — @PESQUISADORA: Brazilian woman, 30, light quick mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @DONO: Brazilian man, 60, deep easy voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+VOICE LOCK — @AGRICULTORA: Brazilian woman, 40, steady mid-low voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+VOICE LOCK — @FUNCIONARIO: Brazilian man, 30, low calm chest voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+VOICE LOCK — @MOTORISTA: Brazilian man, 40, plain friendly baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @ESTUDANTE: Brazilian teenage boy, 15, light new baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @ENFERMEIRA: Brazilian woman, 30, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+```
 
-VOICE LOCK — @AGRICULTORA: woman, 40, mid-low, dry and steady, a walking breath under the words; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never an announcer, never a caricature. This voice identity is fixed and identical in every generation of the film.
+### Política de música
 
-VOICE LOCK — @FUNCIONARIO: man, 30, low, calm, unhurried, weighted pauses between phrases, chest voice; light Minas Gerais interior accent: the R at the end of a syllable is a light retroflex 'caipira' R, present but soft, never exaggerated, never a caricature; unhurried, slightly sing-song mineiro melody; word endings softened, every word still clear. Never a dramatic narrator, never a movie-trailer voice. This voice identity is fixed and identical in every generation of the film.
+```
+NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+```
 
-VOICE LOCK — @MOTORISTA: man, 40, plain mid baritone, patient, the cadence of someone explaining a route; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never an announcer. This voice identity is fixed and identical in every generation of the film.
+### WORLD
 
-VOICE LOCK — @ESTUDANTE: teenage boy, 15, voice recently changed, light baritone that thins on the stressed syllables, earnest; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never a child's voice, never an adult's. This voice identity is fixed and identical in every generation of the film.
+```
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
+```
 
-VOICE LOCK — @ENFERMEIRA: woman, 30, soft mid voice, calm bedside cadence, low volume, every word clear; Belo Horizonte accent: the R at the end of a syllable is a soft aspirated breath, almost an 'h'; open, friendly urban mineiro melody; every word clear. Never breathy, never a presenter. This voice identity is fixed and identical in every generation of the film.
+### NEGATIVE · espinha
+
+```
+glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio
 ```
 
 ## Character sheets
 
 | Tag | Papel | Idade | R | Takes | Observações |
 | --- | --- | --- | --- | --- | --- |
-| @JOVEM | Protagonista | M, 25 | caipira | T01, T02-B1/B3 (botas), T16 | Abre e fecha o filme. Fazer também o close extra de pele (face anchor) para o T16. |
-| @ALUNO | Aluno de escola estadual | 10 | BH | T02-B2/B3, T03 | Uniforme sem brasão. |
-| @PROFESSORA | Professora | F, 40 | BH | T02-B2/B3, T03 | Tom educativo, nunca severo. |
+| @JOVEM | Protagonista | M, 25 | caipira | T01, T16 | Abre e fecha o filme. Fazer também o close extra de pele (face anchor) para o T16. |
+| @ALUNO | Aluno de escola estadual | 10 | BH | T02 | Uniforme sem brasão. |
+| @PROFESSORA | Professora | F, 40 | BH | T02 | Tom educativo, nunca severo. |
 | @HOMEM_EV | Dono do carro elétrico | M, 40 | BH | T04 | — |
 | @OPERARIO | Operário metalúrgico | M, 30 | caipira | T05 | EPI de metalurgia já no sheet. |
 | @PESQUISADORA | Pesquisadora (medicamentos) | F, 30 | BH | T06 | Jaleco e EPI de laboratório. |
 | @DONO | Dono do restaurante | M, 60 | caipira | T07 | — |
-| @AGRICULTORA | Agricultora | F, 40 | caipira | T08 | Figurino de lida no campo. |
+| @AGRICULTORA | Agricultora | F, 40 | caipira | T08 | Produtora moderna, sem chapéu de palha. |
 | @FUNCIONARIO | Funcionário da mina de nióbio | M, 30 | caipira | T09 | EPI de mineração completo e correto, sem marca. Validar com a SST da operadora. |
 | @MOTORISTA | Motorista de ônibus | M, 40 | BH | T12, T13 | Uniforme sem operadora real. |
 | @ESTUDANTE | Estudante do Trilhas de Futuro | M, 15 | BH | T12, T14 | Mesmo figurino nos dois takes. |
@@ -1666,26 +1421,27 @@ Create a character sheet, three panels side by side, 16:9, same person, same sca
 
 - LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, light stubble, the thin scar through the left eyebrow and skin details exactly.
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the shirt's back yoke seam, a sweat darkening between the shoulder blades, the curly hair from behind.
+- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the overshirt's back yoke seam, the curly hair from behind.
 
-CHARACTER: Brazilian man of mixed African, Indigenous and European descent (pardo) from the interior of Minas Gerais, roughly 25. BUILD: about 1.75 m, lean and wiry, narrow waist, relaxed upright posture of someone used to walking hills. SKIN: warm brown, sun-weathered on the forehead, nose and forearms, visible pores, a few dark freckles on the cheekbones. FACE: oval face with defined cheekbones, dark brown deep-set eyes with a steady gaze, straight thick eyebrows, broad nose, full lips slightly sun-cracked, faint lines at the eyes. HAIR AND FACIAL HAIR: short dark curly hair, natural hairline, three-day stubble, patchy at the cheeks. DISTINGUISHING MARKS: a thin pale scar through the left eyebrow; a small mole on the right cheek. HANDS: rough working hands, short nails with earth in the creases, a callus at the base of the fingers.
+CHARACTER: Brazilian man of mixed African, Indigenous and European descent (pardo) from the interior of Minas Gerais, roughly 25. BUILD: about 1.75 m, lean and athletic, relaxed confident posture. SKIN: warm brown, healthy, visible pores, a few dark freckles on the cheekbones. FACE: oval face with defined cheekbones, dark brown deep-set eyes with a steady gaze, straight thick eyebrows, broad nose, full lips, faint smile lines at the eyes. HAIR AND FACIAL HAIR: short dark curly hair, natural hairline, three-day stubble, patchy at the cheeks. DISTINGUISHING MARKS: a thin pale scar through the left eyebrow; a small mole on the right cheek. HANDS: strong hands, clean short nails.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
-- faded rust-red cotton work shirt, sleeves rolled to mid-forearm, top button open, soft from many washes
-- khaki canvas trousers, worn at the knees, frayed hems
-- brown leather work boots, dusty with red earth, laces knotted twice
+- terracotta cotton overshirt, sleeves rolled to mid-forearm, worn open
+- plain white crew-neck T-shirt
+- dark slim jeans
+- modern brown leather hiking boots
 - no accessories
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: sun-faded cotton, canvas, dusty leather, red earth dust, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton twill, cotton jersey, denim, leather, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with pores, sun lines, stubble and asymmetry. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores, sun lines, stubble and asymmetry. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
 --- NEGATIVE ---
- changed outfit, action pose, bright red or new shirt, jeans instead of canvas trousers, sneakers, a cap, a watch, missing eyebrow scar, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+ changed outfit, action pose, bright red shirt, a plaid shirt, sneakers, a cap, a watch, missing eyebrow scar, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
 ```
 
 ### @ALUNO
@@ -1695,21 +1451,21 @@ Create a character sheet, three panels side by side, 16:9, same person, same sca
 
 - LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the small gap between his front teeth, lips slightly parted and skin details exactly.
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the plain back of the T-shirt with no print, the back of the curly hair.
+- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the plain back of the polo with no print, the back of the curly hair.
 
-CHARACTER: Black Brazilian boy from Belo Horizonte, roughly 10. BUILD: slim, small for his age, narrow shoulders, upright alert posture. SKIN: deep brown, smooth child's skin with natural texture, a small healed scrape on the left knee. FACE: round face, large dark brown eyes, soft eyebrows, small broad nose, full lips, a small gap between the front teeth. HAIR AND FACIAL HAIR: short tight black curls, neat hairline, no facial hair. DISTINGUISHING MARKS: the gap between the front teeth; a small healed scrape on the left knee. HANDS: small hands, short nails, a blue pen mark on the right index finger.
+CHARACTER: Black Brazilian boy from Belo Horizonte, roughly 10. BUILD: slim, small for his age, narrow shoulders, upright alert posture. SKIN: deep brown, child's skin with natural texture. FACE: round face, large dark brown eyes, soft eyebrows, small broad nose, full lips, a small gap between the front teeth. HAIR AND FACIAL HAIR: short tight black curls, neat hairline, no facial hair. DISTINGUISHING MARKS: the gap between the front teeth. HANDS: small hands, short nails, a blue pen mark on the right index finger.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
-- plain white cotton school T-shirt with NO emblem and no print, slightly too big
-- dark grey cotton track trousers, a little short at the ankle
-- black canvas sneakers, scuffed toes
+- plain white school polo shirt with NO emblem and no print
+- dark grey school trousers
+- black sneakers
 - no accessories
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton, canvas, scuffed rubber, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton piqué, cotton twill, rubber, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real child's skin texture, no smoothing. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real child's skin texture, no smoothing. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -1726,19 +1482,19 @@ Create a character sheet, three panels side by side, 16:9, same person, same sca
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
 - RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the blouse's back, the hair tied low at the nape.
 
-CHARACTER: white Brazilian woman from Belo Horizonte, roughly 40. BUILD: medium height and build, relaxed shoulders, a teacher's upright stance. SKIN: fair with light freckles across the nose and cheeks, fine lines at the eyes and mouth. FACE: heart-shaped face, warm hazel eyes, natural arched eyebrows, straight nose, medium lips. HAIR AND FACIAL HAIR: shoulder-length dark brown hair tied low with a few loose strands. DISTINGUISHING MARKS: freckles; a chalk smudge on the right sleeve. HANDS: slim hands, short unpainted nails, chalk dust on the fingertips, a thin silver watch on the left wrist.
+CHARACTER: white Brazilian woman from Belo Horizonte, roughly 40. BUILD: medium height and build, relaxed shoulders, a teacher's upright stance. SKIN: fair with light freckles across the nose and cheeks, fine lines at the eyes and mouth. FACE: heart-shaped face, warm hazel eyes, natural arched eyebrows, straight nose, medium lips. HAIR AND FACIAL HAIR: shoulder-length dark brown hair tied low with a few loose strands. DISTINGUISHING MARKS: freckles. HANDS: slim hands, short unpainted nails, a thin silver watch on the left wrist.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
-- dusty-rose cotton blouse, sleeves pushed up to the elbow, a chalk smudge on the right sleeve
+- dusty-rose cotton blouse, sleeves pushed up to the elbow
 - dark grey straight trousers
-- flat brown leather shoes, worn at the toes
+- flat brown leather shoes
 - thin silver wristwatch on the left wrist
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton, wool-blend trousers, worn leather, chalk dust, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton, wool-blend trousers, leather, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with freckles, pores and expression lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with freckles, pores and expression lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -1765,9 +1521,9 @@ WARDROBE, keep EXACTLY as described, identical in all panels:
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: creased linen, cotton twill, leather, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: creased linen, cotton twill, leather, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with pores and beard texture. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and beard texture. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -1784,21 +1540,21 @@ Create a character sheet, three panels side by side, 16:9, same person, same sca
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
 - RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the coverall's back with reflective strips and no print, the hard hat from behind.
 
-CHARACTER: Black Brazilian man from an industrial town in the interior of Minas Gerais, roughly 30. BUILD: about 1.80 m, broad shoulders, solid working build, grounded stance. SKIN: dark brown, a sweat sheen at the temples, visible pores. FACE: long face, dark eyes under heavy brows, broad nose, full lips. HAIR AND FACIAL HAIR: shaved head under the helmet, short full beard. DISTINGUISHING MARKS: a small burn scar on the right forearm. HANDS: large hands in worn leather gloves.
+CHARACTER: Black Brazilian man from an industrial town in the interior of Minas Gerais, roughly 30. BUILD: about 1.80 m, broad shoulders, solid working build, grounded stance. SKIN: dark brown, visible pores. FACE: long face, dark eyes under heavy brows, broad nose, full lips. HAIR AND FACIAL HAIR: shaved head under the helmet, short full beard. DISTINGUISHING MARKS: a small burn scar on the right forearm. HANDS: large hands in grey work gloves.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
 - white hard hat with NO logo, scuffed
 - clear safety glasses
 - orange ear muffs hanging around the neck
 - dark grey flame-retardant coverall with silver reflective strips at chest and legs, NO logo
-- worn brown leather work gloves
+- grey work gloves
 - black steel-toe safety boots
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: flame-retardant cotton, reflective tape, scuffed helmet plastic, worn leather, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: flame-retardant cotton, reflective tape, helmet plastic, glove fabric, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with pores and sweat. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and sweat. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -1826,9 +1582,9 @@ WARDROBE, keep EXACTLY as described, identical in all panels:
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton twill lab coat, nitrile, polycarbonate glasses, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton twill lab coat, nitrile, polycarbonate glasses, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -1845,24 +1601,24 @@ Create a character sheet, three panels side by side, 16:9, same person, same sca
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
 - RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the apron ties at the back, the checked shirt, the bald crown.
 
-CHARACTER: white Brazilian man from an interior town of Minas Gerais, roughly 60. BUILD: heavyset, about 1.70 m, rounded shoulders, a belly, steady feet. SKIN: fair, sun-reddened on the nose and cheeks, age spots on the forehead, deep smile lines. FACE: wide face, small kind grey-brown eyes, bushy white eyebrows, large nose. HAIR AND FACIAL HAIR: balding on top with short white hair at the sides, thick white moustache. DISTINGUISHING MARKS: a small old burn mark on the back of the left hand; age spots. HANDS: large thick hands, short nails, the burn mark on the left.
+CHARACTER: white Brazilian man from Minas Gerais who runs a contemporary restaurant in Belo Horizonte, roughly 60. BUILD: solid, about 1.72 m, upright and energetic. SKIN: fair, a few age spots, deep smile lines. FACE: wide friendly face, kind grey-brown eyes, white eyebrows, large nose. HAIR AND FACIAL HAIR: short white hair, neatly cut, thick white moustache. DISTINGUISHING MARKS: the thick white moustache. HANDS: large hands, clean short nails.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
-- brown-and-cream checked short-sleeved cotton shirt
-- natural canvas apron with old stains, tied at the back
+- light linen short-sleeved shirt in off-white
+- charcoal canvas apron, crisp, tied at the back
 - dark grey trousers
-- brown leather loafers, worn
+- brown leather loafers
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: checked cotton, stained canvas, worn leather, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: linen, canvas, leather, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real aged skin with pores, spots and deep lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real aged skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
 --- NEGATIVE ---
- changed outfit, action pose, chef's hat, white chef jacket, clean new apron, a logo, a beard, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+ changed outfit, action pose, chef's hat, white chef jacket, stained apron, a logo, a beard, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
 ```
 
 ### @AGRICULTORA
@@ -1870,28 +1626,28 @@ NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO bac
 ```
 Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the wide-brim straw hat pushed back off the forehead so the eyes are fully visible and skin details exactly.
+- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the sunglasses hooked on the collar and skin details exactly.
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the single long braid down the back, the field shirt's back with a sweat patch.
+- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the single long braid down the back, the technical shirt's back.
 
-CHARACTER: Brazilian woman of mixed descent (parda) from the interior of Minas Gerais, roughly 40. BUILD: strong, medium height, broad hands, grounded stance. SKIN: warm brown, sun lines at the eyes, sun-darkened forearms. FACE: square face, dark brown eyes, straight eyebrows, broad nose, firm mouth. HAIR AND FACIAL HAIR: long black hair in a single braid. DISTINGUISHING MARKS: sun lines at the eyes; a small scar on the right thumb. HANDS: strong rough hands, short nails, red soil in the creases.
+CHARACTER: Brazilian woman of mixed descent (parda), a farmer and agronomist from the Triângulo Mineiro, roughly 40. BUILD: strong, medium height, broad hands, grounded stance. SKIN: warm brown, healthy, fine lines at the eyes. FACE: square face, dark brown eyes, straight eyebrows, broad nose, firm mouth. HAIR AND FACIAL HAIR: long black hair in a single braid. DISTINGUISHING MARKS: a small scar on the right thumb. HANDS: strong hands, short clean nails.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
-- wide-brim straw hat with a frayed edge, pushed back
-- long-sleeved khaki cotton field shirt, sleeves buttoned
-- faded blue jeans
-- brown leather work boots caked with red soil
+- sand-coloured technical long-sleeved UV shirt
+- dark jeans
+- modern brown leather work boots
+- sunglasses hooked on the collar
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: straw, cotton, denim, leather, red soil, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: technical fabric, denim, leather, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real sun-worn skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
 --- NEGATIVE ---
- changed outfit, action pose, hat pulled down over the eyes, cap instead of straw hat, gloves, clean boots, a logo, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+ changed outfit, action pose, a straw hat, a cap, gloves, a plaid shirt, a logo, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
 ```
 
 ### @FUNCIONARIO
@@ -1903,7 +1659,7 @@ Create a character sheet, three panels side by side, 16:9, same person, same sca
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
 - RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the high-visibility vest's back with reflective strips and NO print, the hard hat from behind.
 
-CHARACTER: Brazilian man of mixed descent (pardo) from Araxá, in the interior of Minas Gerais, roughly 30. BUILD: medium build, about 1.74 m, steady stance. SKIN: medium brown, a film of fine ore dust, visible pores. FACE: oval face, calm dark eyes, thick straight eyebrows, medium nose, moustache. HAIR AND FACIAL HAIR: short black hair under the helmet, a full moustache. DISTINGUISHING MARKS: fine red-brown ore dust in the creases of skin and clothes. HANDS: hands in worn leather gloves.
+CHARACTER: Brazilian man of mixed descent (pardo) from Araxá, in the interior of Minas Gerais, roughly 30. BUILD: medium build, about 1.74 m, steady stance. SKIN: medium brown, visible pores. FACE: oval face, calm dark eyes, thick straight eyebrows, medium nose, moustache. HAIR AND FACIAL HAIR: short black hair under the helmet, a full moustache. DISTINGUISHING MARKS: the moustache. HANDS: hands in grey work gloves.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
 - white hard hat with chin strap fastened, NO logo
@@ -1911,20 +1667,20 @@ WARDROBE, keep EXACTLY as described, identical in all panels:
 - orange high-visibility vest with silver reflective strips, NO logo, NO text
 - long-sleeved grey cotton work shirt
 - dark grey work trousers
-- worn brown leather work gloves
+- grey work gloves
 - foam ear plugs on an orange cord around the neck
-- black steel-toe boots with red-brown dust
+- black steel-toe boots
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: reflective tape, scuffed helmet plastic, cotton, leather, ore dust, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: reflective tape, helmet plastic, cotton, glove fabric, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with pores and dust. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
 --- NEGATIVE ---
- changed outfit, action pose, company name on the vest, unfastened chin strap, missing glasses, missing gloves, clean spotless clothes, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+ changed outfit, action pose, company name on the vest, unfastened chin strap, missing glasses, missing gloves, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
 ```
 
 ### @MOTORISTA
@@ -1946,9 +1702,9 @@ WARDROBE, keep EXACTLY as described, identical in all panels:
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton-poly shirt, twill trousers, leather, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton-poly shirt, twill trousers, leather, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -1965,20 +1721,20 @@ Create a character sheet, three panels side by side, 16:9, same person, same sca
 - MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
 - RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the hoodie's back, the dark backpack on both shoulders, the faded haircut from behind.
 
-CHARACTER: Brazilian teenage boy of mixed descent (pardo) from Belo Horizonte, roughly 15. BUILD: thin and tall for his age, about 1.75 m, a slight teenage lean. SKIN: light brown, a few teenage blemishes on the forehead. FACE: long face, dark eyes, thin eyebrows, straight nose, a faint teenage moustache. HAIR AND FACIAL HAIR: short black hair faded at the sides, longer on top. DISTINGUISHING MARKS: a small cut healing on the right knuckle. HANDS: long thin hands, bitten nails.
+CHARACTER: Brazilian teenage boy of mixed descent (pardo) from Belo Horizonte, roughly 15. BUILD: thin and tall for his age, about 1.75 m, a slight teenage lean. SKIN: light brown, natural teenage skin. FACE: long face, dark eyes, thin eyebrows, straight nose, a faint teenage moustache. HAIR AND FACIAL HAIR: short black hair faded at the sides, longer on top. DISTINGUISHING MARKS: the faint moustache. HANDS: long thin hands, short nails.
 
 WARDROBE, keep EXACTLY as described, identical in all panels:
 - charcoal-grey hoodie with NO print
 - white crew-neck T-shirt under it
 - black slim jeans
-- worn white sneakers with grey scuffs
+- white sneakers
 - dark plain backpack with NO logo
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton fleece, denim, canvas, scuffed rubber, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton fleece, denim, canvas, rubber, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real teenage skin with blemishes. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real teenage skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -2005,9 +1761,9 @@ WARDROBE, keep EXACTLY as described, identical in all panels:
 
 All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton-poly scrubs, rubber tubing, metal, all worn with real use.
+Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton-poly scrubs, rubber tubing, metal, with natural real-use texture, modern and well kept.
 
-STYLE: photorealistic live-action, a real person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
 
 NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
 
@@ -2015,74 +1771,77 @@ NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO bac
  changed outfit, action pose, coloured scrubs, a name tag with text, a nurse's cap, jewelry, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
 ```
 
-### @JOVEM · face anchor de pele (T16)
+### @JOVEM · face anchor
 
 ```
-Extreme close-up portrait photograph of @JOVEM — the same man as his character sheet: Brazilian man of mixed descent, 25, warm brown sun-weathered skin, short dark curly hair, three-day stubble, a thin pale scar through the left eyebrow, a small mole on the right cheek. Framed from the eyebrows to the chin, frontal, looking directly at the camera with a neutral steady expression. Soft directional daylight from frame-left, the right side in soft shade. Real skin in maximum detail: pores, fine sun lines at the eyes, stubble hairs, sun-cracked lips. Neutral medium-grey background. Photorealistic, not a render, no retouching. NO text, NO logo.
+Extreme close-up portrait photograph of @JOVEM — the same man as his character sheet: Brazilian man of mixed descent, 25, warm brown skin, short dark curly hair, three-day stubble, a thin pale scar through the left eyebrow, a small mole on the right cheek. Framed from the eyebrows to the chin, frontal, looking directly at the camera with a relaxed, warm expression. Soft directional daylight from frame-left, the right side in soft shade. Real skin in maximum detail: pores, fine lines at the eyes, individual stubble hairs. Neutral medium-grey background. Photorealistic, not a render, no retouching. NO text, NO logo.
 ```
 
-## Locações e props
+## Locações
 
-| Tag | Prioridade | Takes | Por quê |
-| --- | --- | --- | --- |
-| @PICO | Essencial | T01, T02-B1/B3, T16 | O mesmo lugar abre e fecha o filme. |
-| @MINA | Recomendável | T09 | A comissão conhece o lugar, a credibilidade pesa. |
-| @ONIBUS_INT | Recomendável | T12, T13 | Continuidade do interior entre os dois planos. |
-| @SALA_ESTADUAL | Opcional | T02-B2/B3, T03 | Só se a sala gerada pelo prompt sair genérica demais. |
-| @CARRO_EV | Opcional | T04 | Sem marca. O prompt resolve sozinho; use só se o carro variar entre takes. |
+### @PICO (Essencial, T01, T16)
 
-### @PICO
+O mesmo lugar abre e fecha o filme.
 
 ```
-Wide photograph of a rock summit in the interior of Minas Gerais, late afternoon with low sun from frame-left, exposed grey rock with ochre lichen, patches of red laterite earth, low dry capim grass, a sea of rolling green-and-brown hills running in layers to a hazy horizon, light dry wind, no people, eye-level, 16:9, documentary realism, not a render.
+Wide photograph of a mountain summit in Minas Gerais, Brazil, late afternoon with low sun from frame-left, clean grey rock with lichen, low green grass, a sea of rolling green hills running in layers to a hazy horizon, clear air, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
 ```
 
-### @MINA
+### @MINA (Recomendável, T09)
+
+A comissão conhece o lugar, a credibilidade pesa.
 
 ```
-Wide photograph of an open-pit niobium mine in the interior of Minas Gerais, late afternoon with low sun from frame-left, terraced benches of ochre and red-brown earth with drill marks, a dusty haul road, a stockpile of dark brown ore in the foreground, haul trucks far away with no logos, fine dust in the air, no people, eye-level, 16:9, documentary realism, not a render.
+Wide photograph of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil, late afternoon with low sun from frame-left, orderly terraced benches of ochre and brown earth, wide well-kept haul roads, large modern haul trucks with no logos far below, a stockpile of dark brown ore in the foreground, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
 ```
 
-### @ONIBUS_INT
+### @ONIBUS_INT (Recomendável, T12, T13)
+
+Continuidade do interior entre os planos.
 
 ```
-Photograph of the inside of a Brazilian city bus seen from the first passenger row looking forward, afternoon daylight from the door side, the driver's cab on the left with a large worn steering wheel, the folding front door on the right with worn rubber steps, scuffed steel handrails, cracked vinyl seats, dust on the dashboard, NO logos, NO route numbers, NO readable signs, no people, eye-level, 16:9, documentary realism, not a render.
+Photograph of the inside of a modern air-conditioned Brazilian city bus in Belo Horizonte, seen from the first passenger row looking forward, afternoon daylight from the door side, the driver's cab on the left, a glass folding front door on the right, low textured floor, satin-steel handrails, grey fabric seats, digital displays switched off, NO logos, NO route numbers, NO readable signs, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
 ```
 
-### @SALA_ESTADUAL
+### @SALA_ESTADUAL (Opcional, T02)
+
+Só se a sala gerada pelo prompt sair genérica ou velha.
 
 ```
-Wide photograph of a public state-school classroom in Minas Gerais, afternoon daylight through windows along the left wall with sun-faded curtains, worn formica desks with metal legs in rows, a green chalkboard with faint unreadable smudges, steel roof trusses visible above a gap in the ceiling lining, scuffed floor tiles, no people, eye-level, 16:9, documentary realism, not a render.
+Wide photograph of a recently built Brazilian public school classroom in Minas Gerais, afternoon daylight through large windows along the left wall, new laminate desks in rows, a clean whiteboard with no writing, a modern exposed steel roof structure above a ceiling gap, light walls, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
 ```
 
-### @CARRO_EV
+### @CARRO_EV (Opcional, T04)
+
+Sem marca. O prompt resolve sozinho; use só se o carro variar entre gerações.
 
 ```
-Photograph of a dark grey compact electric hatchback with NO badges and NO logos, road dust on the lower doors, parked at a plain public charging post with a dark blank screen and no brand, open-air parking lot, late afternoon, no people, eye-level, 16:9, documentary realism, not a render.
+Photograph of a dark grey compact electric hatchback with NO badges and NO logos, parked at a brushed-steel public charging post with a dark blank screen and no brand, in the open-air parking lot of a modern office building in Belo Horizonte, Brazil, flowering pink ipê trees along the edge, late afternoon, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
 ```
 
-## Etapas a discutir
+## Pendências
 
-- **P1 · Linguagem de transição do revezamento (T04–T08)** (decidido): Travelling lateral constante, câmera na mão andando de lado da esquerda para a direita na mesma velocidade, com o corte seco na vírgula de cada frase. Fica diferente do match cut e para junto com a agricultora no T08, preparando a virada.
-- **P2 · Elemento do match cut (T09–T12)** (decidido): O levantar do olhar. Mesmo quadro em todos (MCU 29°, tripé, olhos pousando no terço superior a ~45% da largura): o funcionário levanta do minério, a mãe do bebê, a torcedora segue a bola, o motorista acompanha o menino. O olhar do motorista vira a fala dele (T13).
-- **P3 · Qual "R" mineiro em cada personagem** (decidido): R caipira (retroflexo leve) para interior, campo e mineração; R de BH (aspirado, quase h) para a cidade. Agora está escrito no VOICE LOCK de cada personagem, colado literalmente em todo prompt. Se exagerar e virar caricatura, corrigir com ElevenLabs.
-- **P4 · Falas finais do T16** (decidido): Sem coro. O protagonista fala as duas frases.
-- **P5 · Casting e representação** (proposta): Sotaque e fisionomia seguem a mesma divisão. Proposta do diretor para as character sheets: pardos, pretos e brancos distribuídos em proporção próxima à de Minas, sem amarrar ofício a cor. Pesquisadora preta, operário preto, dono do restaurante branco, agricultora parda etc. Validar antes de gerar os sheets.
-- **P6 · Timing: teto de 60 segundos** (decidido): O corte continua estimado em ~60s (barra acima). Cada geração tem alça de ação antes e depois da fala, e toda a alça é ação escrita, sem tempo morto. Gerações curtas (T04–T07, T10, T11) têm de 5 a 6s, porque o mínimo do Seedance é 4s.
-- **P7 · Style ref** (a testar): Substituída pelo FILM LOOK v1 (template congelado). Antes de congelar a v1.1, fazer draft de três tipos de cena: T01 (exterior autoral), T05 (interior observado com travelling) e T09 (virada travada com rack).
-- **P8 · Especificidade das locações** (decidido): Soja, siderurgia, laboratório de medicamentos e restaurante de comida saudável, como contexto de cena.
-- **P9 · V.O. do T10 ao T12** (proposta): O funcionário diz a frase inteira on camera no T09 ("…para quem nasce, vive e trabalha aqui."), e esse áudio vira a V.O. dos três takes seguintes. A voz fica idêntica sem depender de voice lock, e T10/T11 saem como gerações mudas, sem risco de boca errada.
-- **P10 · T12 + T13 numa geração só** (proposta): Mesmo lugar, mesmas duas pessoas, e o levantar do olhar do motorista emenda a fala. Duas gerações viram uma de 15s com um corte.
-- **P11 · EPI da mina e da siderurgia** (validar): Os sheets trazem um EPI padrão (capacete com jugular, óculos, colete refletivo, luvas, protetor auricular, bota). Confirmar com a SST da operadora o que é obrigatório naquela cava antes da geração final.
-- **P12 · Takes de preenchimento** (próxima etapa): T04.1, T04.2 etc. entram depois dos drafts dos principais, usando o prompt mínimo do CINEORO com os mesmos templates.
+- **P1 · Transição do revezamento (T04–T08)** (decidido): Travelling lateral da esquerda pra direita em todos os planos, closes incluídos; a câmera nunca para. Corte seco entre subações e fala.
+- **P2 · Match cut (T09–T12)** (decidido): O levantar do olhar, no mesmo close na mão (olhos pousando no terço superior a ~45% da largura): funcionário, mãe, torcedora, motorista.
+- **P3 · Sotaque** (decidido): R caipira para interior, campo e mineração; R de BH para a cidade. Agora num voice lock curto, sem direção de entrega.
+- **P4 · Falas finais do T16** (decidido): Sem coro; o protagonista fala tudo.
+- **P5 · Casting e representação** (proposta): Proposta do diretor nos character sheets: pardos, pretos e brancos em proporção próxima à de Minas, sem amarrar ofício a cor. Validar antes de gerar os sheets.
+- **P6 · Teto de 60 segundos** (decidido): O corte segue estimado em ~60s. As gerações ficaram mais longas (11–17s) para caber as subações; a locução se ajusta em off na montagem.
+- **P7 · Look (style ref)** (a testar): FILM LOOK v2 a partir do seu ref. Antes de congelar, fazer draft do T01 (exterior com mergulho), do T05 (interior com travelling) e do T09 (virada com match).
+- **P9 · V.O. do T10 ao T12** (proposta): O funcionário diz a frase inteira no T09; esse áudio vira a V.O. dos três takes seguintes, que são gerados sem fala.
+- **P10 · T12 e T13 numa geração** (proposta): Mesmo lugar e mesmas pessoas; o olhar do motorista emenda a fala.
+- **P11 · EPI da mina e da siderurgia** (validar): Os sheets trazem EPI padrão. Confirmar com a SST da operadora antes da geração final.
+- **P13 · Formato** (confirmar): O style ref fala em 9:16 vertical; o filme seguiu em 16:9. Se for vertical, troca-se uma variável no build e os prompts saem todos em 9:16.
+- **P14 · T16 em close** (confirmar): Mantido o close bem fechado do pré-shotlist, exceção à regra da fala em plano mais aberto. Dá para abrir no fim com um pull-back (ver alternativa no take).
 
-## Riscos sinalizados
+## Riscos
 
-- **Mineirão (T11):** preto e branco, azul e verde remetem a Atlético, Cruzeiro e América, e o verde-amarelo tem carga política. A torcedora veste terracota, e o WORLD e o NEGATIVE do take proíbem camisas, bandeiras e cachecóis. Conferir a arquibancada desfocada também.
-- **Marcas reais:** Trilhas de Futuro, a operadora da mina, a escola, o ônibus, o carro e o eletroposto saem sem marca e sem texto legível (template WORLD em todo prompt). Logos entram na pós.
-- **Mineração (T09):** é o take que a comissão vai olhar com mais atenção. O EPI completo é uma das cinco travas críticas e se repete em quatro lugares do prompt, mas ainda falta validar com a SST (P11).
-- **Duas falas numa geração (T02-B2/B3):** o prompt trava quem fala em qual segundo e ninguém fala enquanto a câmera viaja. O ElevenLabs fica de fallback de voz.
-- **Recém-nascido (T10):** plano curto, rosto do bebê parcialmente coberto pela manta e pela mão, proporção travada no WHO IS WHO e no NEGATIVE.
-- **Speed ramp (T02):** resolvido na direção: toda fala acontece depois do pouso, em 1x. Se ainda quiser rampa, faça na pós e só de 0 a 6s.
-- **Olhar para a lente:** o filme inteiro fala com quem assiste, e olhar fixo na lente é onde o olho de vidro mais aparece. Todo ACTING dá tarefa aos olhos (conferir os seus dois olhos) e traz a camada de olhos vivos.
-- **Pronúncia de "Codemig" (T14):** escrito como palavra única. Se o modelo soletrar ou trocar a tônica, regerar com outra descrição de entrega antes de mexer na grafia.
+- **Muitos planos por geração:** 3 a 4 cortes em 11–17s pedem timing preciso. Faça draft em 480p e confira se os cortes caem nos segundos certos antes do final.
+- **Mergulho na terra (T01):** o modelo pode cortar dentro do plano 2 ou não chegar ao preto. A montagem resolve o preto se preciso.
+- **Mineirão (T11):** nada de preto e branco, azul e branco, verde e branco ou verde-amarelo; a torcedora veste terracota.
+- **Marcas reais:** carro, ônibus, mina, escola, programa e hospital saem sem marca e sem texto legível. Logos entram na pós.
+- **Mineração (T09):** EPI completo é trava crítica; falta validar com a SST (P11).
+- **Duas falas numa geração (T02):** o prompt trava quem fala em qual segundo; fallback de voz no ElevenLabs.
+- **Recém-nascido (T10):** rosto do bebê parcialmente coberto e proporção travada.
+- **Look com vinheta e franja cromática:** se aparecerem artefatos, tire a franja cromática do FILM LOOK primeiro, como manda o CINEORO.
+- **Brasil genérico:** se algum lugar sair com cara de Europa ou EUA, reforce detalhes brasileiros na cena (ipês, rua, gente) antes de mexer no resto.

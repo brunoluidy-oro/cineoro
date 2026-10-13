@@ -1,0 +1,461 @@
+<title>CODEMIG VT 60"</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=Libre+Franklin:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a take viewer — the cut's reel as navigator, one take at a time under a slate,
+   the shot strip as the decupage, the prompt as the copyable payload. */
+:root{
+  --paper:#ECEFED; --sheet:#FAFBFA; --sheet-2:#E2E7E4; --ink:#16201C; --muted:#56635E; --rule:#CDD5D1;
+  --accent:#1D58C2; --accent-ink:#FFFFFF; --speech:#D9961A; --speech-ink:#2A1C00;
+  --ok:#2F7A44; --warn:#9A6400; --info:#1D58C2;
+  --b-ab:#A9502B; --b-rv:#C0841C; --b-vr:#16201C; --b-mc:#3C6A8A; --b-cx:#4E7838; --b-fc:#765BA2;
+  --open:#C9D3CE; --close:#F2F5F3;
+  --f-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --f-body:"Libre Franklin",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#111614; --sheet:#19201D; --sheet-2:#232B28; --ink:#E5EBE8; --muted:#98A5A0; --rule:#2E3834;
+    --accent:#86A9F2; --accent-ink:#0D1424; --speech:#F0B547; --speech-ink:#251800;
+    --ok:#7FC491; --warn:#E7B655; --info:#86A9F2;
+    --b-ab:#D27A52; --b-rv:#D9A443; --b-vr:#E5EBE8; --b-mc:#7FA9C8; --b-cx:#8DBB72; --b-fc:#AD94D6;
+    --open:#33403B; --close:#1F2724; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#111614; --sheet:#19201D; --sheet-2:#232B28; --ink:#E5EBE8; --muted:#98A5A0; --rule:#2E3834;
+  --accent:#86A9F2; --accent-ink:#0D1424; --speech:#F0B547; --speech-ink:#251800;
+  --ok:#7FC491; --warn:#E7B655; --info:#86A9F2;
+  --b-ab:#D27A52; --b-rv:#D9A443; --b-vr:#E5EBE8; --b-mc:#7FA9C8; --b-cx:#8DBB72; --b-fc:#AD94D6;
+  --open:#33403B; --close:#1F2724; color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:920px;margin:0 auto;padding-inline:16px;padding-block:28px 72px}
+h1,h2,h3{text-wrap:balance}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* top */
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.top h1{font-family:var(--f-display);font-weight:800;font-size:clamp(40px,8vw,64px);line-height:.95;margin:6px 0 10px;letter-spacing:.01em}
+.facts{display:flex;flex-wrap:wrap;gap:4px 18px;margin:0;padding:0;list-style:none;color:var(--muted);font-size:14px}
+.facts b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+
+/* tabs */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);display:flex;gap:4px;overflow-x:auto;margin:22px -16px 0;padding:10px 16px;border-bottom:1px solid var(--rule);scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:0 0 auto;border:1px solid transparent;background:none;padding:7px 12px;border-radius:999px;font-weight:600;font-size:14px;color:var(--muted);cursor:pointer}
+.tab:hover{color:var(--ink)}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--paper)}
+.panel{padding-top:22px}
+
+/* reel: the cut's timeline */
+.reel-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.reel{position:relative;display:flex;height:44px;margin-top:8px;border-radius:3px;overflow:hidden;background:var(--sheet-2)}
+.seg{position:relative;min-width:0;border:0;border-right:1px solid var(--paper);padding:0;cursor:pointer;display:flex;align-items:flex-end;justify-content:center;padding-bottom:5px;font-family:var(--f-display);font-weight:600;font-size:13px;color:var(--paper);opacity:.55;transition:opacity .15s}
+.seg:hover{opacity:.8}
+.seg[aria-current="true"]{opacity:1;box-shadow:inset 0 -4px 0 var(--speech)}
+.seg span{overflow:hidden;white-space:nowrap}
+.mark60{position:absolute;top:0;bottom:0;border-left:2px dashed var(--ink);pointer-events:none}
+.reel-foot{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:8px;font-size:12px;color:var(--muted)}
+.reel-foot i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.chips{display:flex;gap:6px;overflow-x:auto;margin-top:14px;padding-bottom:4px}
+.chip{flex:0 0 auto;border:1px solid var(--rule);background:var(--sheet);border-radius:4px;padding:5px 9px;font-family:var(--f-display);font-weight:600;font-size:15px;letter-spacing:.02em;cursor:pointer;display:flex;align-items:center;gap:6px}
+.chip[aria-current="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.chip .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);display:none}
+.chip.done .dot{display:inline-block}
+
+/* slate */
+.take{margin-top:18px;background:var(--sheet);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.slate{display:grid;grid-template-columns:minmax(110px,auto) repeat(4,1fr);border-bottom:2px solid var(--ink)}
+.cell{padding:10px 14px;border-right:1px solid var(--rule);min-width:0}
+.cell:last-child{border-right:0}
+.cell .k{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.cell .v{display:block;font-weight:600;font-variant-numeric:tabular-nums}
+.cell.id .v{font-family:var(--f-display);font-weight:800;font-size:46px;line-height:.95}
+.cell.blk .v{display:flex;align-items:center;gap:6px}
+.swatch{width:10px;height:10px;border-radius:2px;flex:0 0 auto}
+.take-body{padding:18px 18px 20px;display:grid;gap:18px}
+.take-title{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;flex-wrap:wrap}
+.take-title h2{margin:0;font-size:24px;line-height:1.15}
+.take-title p{margin:4px 0 0;color:var(--muted);max-width:62ch}
+.approve{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;border:1px solid var(--rule);border-radius:999px;padding:5px 12px}
+.approve input{accent-color:var(--ok);width:16px;height:16px;margin:0}
+
+/* strip: decupage of the generation */
+.strip-wrap{display:grid;gap:8px}
+.strip{position:relative;display:flex;height:58px;border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.shot{min-width:0;border-right:2px solid var(--sheet);padding:6px 7px;display:flex;flex-direction:column;justify-content:space-between}
+.shot:last-child{border-right:0}
+.shot.open{background:var(--open)}
+.shot.close{background:var(--close);background-image:repeating-linear-gradient(135deg,transparent 0 6px,var(--sheet-2) 6px 7px)}
+.shot b{font-family:var(--f-display);font-size:18px;line-height:1;letter-spacing:.02em}
+.shot small{font-family:var(--f-mono);font-size:11px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.speechtrack{position:relative;height:22px}
+.speech{position:absolute;top:0;height:22px;border-radius:3px;background:var(--speech);color:var(--speech-ink);font-size:11px;font-weight:700;padding:3px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.shotlist{list-style:none;margin:2px 0 0;padding:0;display:grid;gap:4px}
+.shotlist li{display:grid;grid-template-columns:24px 104px minmax(0,1fr);gap:8px;font-size:14px;align-items:baseline}
+.shotlist .n{font-family:var(--f-display);font-weight:800;font-size:17px;color:var(--muted)}
+.shotlist .t{font-family:var(--f-mono);font-size:12px;white-space:nowrap;color:var(--muted);font-variant-numeric:tabular-nums}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--muted)}
+.legend i{display:inline-block;width:14px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px;border:1px solid var(--rule)}
+
+/* facts of the take */
+.dl{display:grid;grid-template-columns:150px 1fr;gap:10px 18px;margin:0}
+.dl dt{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600;padding-top:2px}
+.dl dd{margin:0;max-width:66ch;min-width:0}
+.quote{font-weight:600;font-size:16px}
+
+/* actions & payload */
+.actions{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.btn{border:1px solid var(--rule);background:var(--sheet);border-radius:4px;padding:8px 14px;font-weight:600;font-size:14px;cursor:pointer}
+.btn:hover{border-color:var(--ink)}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn.done{border-color:var(--ok);color:var(--ok)}
+.btn.primary.done{background:var(--ok);border-color:var(--ok);color:var(--sheet)}
+.meta{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.cardbox{border:1px solid var(--rule);border-radius:4px;padding:12px 14px;display:grid;gap:6px;background:var(--paper)}
+.cardbox ol{margin:0;padding-left:20px}
+.cardbox p{margin:0;font-size:14px}
+.prompt{margin:0;max-height:520px;overflow:auto;background:var(--paper);border:1px solid var(--rule);border-radius:4px;padding:14px 16px;font-family:var(--f-mono);font-size:12.5px;line-height:1.6;white-space:pre-wrap;word-break:break-word}
+.prompt b{color:var(--accent);font-weight:500}
+.alt{font-size:14px;border-left:3px solid var(--muted);padding:2px 0 2px 12px;color:var(--muted)}
+.post{padding:18px;color:var(--muted)}
+.pager{display:flex;justify-content:space-between;gap:8px;margin-top:14px}
+
+/* other panels */
+.section-h{font-family:var(--f-display);font-weight:800;font-size:30px;margin:28px 0 8px;line-height:1}
+.section-h:first-child{margin-top:0}
+.lede{color:var(--muted);margin:0 0 14px;max-width:66ch}
+.dir{display:grid;gap:0;border-top:1px solid var(--rule)}
+.dir div{display:grid;grid-template-columns:130px 1fr;gap:16px;padding:12px 0;border-bottom:1px solid var(--rule)}
+.dir b{font-family:var(--f-display);font-size:20px;font-weight:800;line-height:1.1}
+.dir p{margin:0;max-width:66ch}
+.rows{display:grid;gap:8px}
+.row{background:var(--sheet);border:1px solid var(--rule);border-radius:4px;padding:12px 14px;display:grid;gap:8px}
+.row-top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:center}
+.row h3{margin:0;font-size:16px;display:flex;flex-wrap:wrap;gap:4px 10px;align-items:baseline}
+.tag{font-family:var(--f-mono);font-size:14px;font-weight:500}
+.sub{font-size:13px;color:var(--muted)}
+.row .prompt{max-height:360px}
+.pill{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:2px 8px;border:1px solid currentColor}
+.pill.ok{color:var(--ok)} .pill.info{color:var(--info)} .pill.warn{color:var(--warn)}
+.check{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);cursor:pointer}
+.check input{accent-color:var(--ok);width:16px;height:16px;margin:0}
+.style-pre{max-height:none}
+.risks{margin:0;padding-left:20px;display:grid;gap:6px}
+.risks li{max-width:70ch}
+
+@media (max-width:640px){
+  .slate{grid-template-columns:1fr 1fr}
+  .cell.id{grid-column:1 / -1;border-right:0;border-bottom:1px solid var(--rule)}
+  .cell:nth-child(3){border-right:0}
+  .cell:nth-child(2),.cell:nth-child(3){border-bottom:1px solid var(--rule)}
+  .dl{grid-template-columns:1fr;gap:2px}
+  .dl dd{margin-bottom:10px}
+  .dir div{grid-template-columns:1fr;gap:4px}
+  .seg span{display:none}
+  .shot small{display:none}
+  .take-body{padding:16px 14px 18px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">Shotlist CINEORO · <span id="ver"></span> · Seedance 2.5 via Higgsfield</div>
+    <h1>CODEMIG · VT 60"</h1>
+    <ul class="facts" id="facts"></ul>
+  </header>
+
+  <nav class="tabs" role="tablist" aria-label="Seções">
+    <button class="tab" role="tab" data-tab="takes" id="tab-takes">Takes</button>
+    <button class="tab" role="tab" data-tab="direcao" id="tab-direcao">Direção e look</button>
+    <button class="tab" role="tab" data-tab="elenco" id="tab-elenco">Elenco</button>
+    <button class="tab" role="tab" data-tab="locacoes" id="tab-locacoes">Locações</button>
+    <button class="tab" role="tab" data-tab="pendencias" id="tab-pendencias">Pendências</button>
+  </nav>
+
+  <section class="panel" data-panel="takes" role="tabpanel" aria-labelledby="tab-takes">
+    <div class="reel-head"><span class="label">O corte · ~60s</span><span class="meta">toque num trecho para abrir o take</span></div>
+    <div class="reel" id="reel"></div>
+    <div class="reel-foot" id="reelfoot"></div>
+    <div class="chips" id="chips"></div>
+    <article class="take" id="take"></article>
+  </section>
+
+  <section class="panel" data-panel="direcao" role="tabpanel" aria-labelledby="tab-direcao" hidden>
+    <h2 class="section-h">Direção</h2>
+    <p class="lede">O que vale para o filme inteiro. Cada prompt é escrito dentro disto, e nada nos NEGATIVE contradiz.</p>
+    <div class="dir" id="dir"></div>
+    <h2 class="section-h">Style intent</h2>
+    <pre class="prompt style-pre" id="style"></pre>
+    <h2 class="section-h">Templates congelados</h2>
+    <p class="lede">Colados literalmente em todo prompt pelo build. Mudou um, muda em todos.</p>
+    <div class="rows" id="tpls"></div>
+  </section>
+
+  <section class="panel" data-panel="elenco" role="tabpanel" aria-labelledby="tab-elenco" hidden>
+    <h2 class="section-h">Character sheets</h2>
+    <p class="lede">Template padrão do CINEORO: close à esquerda, corpo inteiro de frente e de costas, fundo cinza. No Higgsfield, salve cada Element com o nome da tag sem o @. O casting é proposta (P5).</p>
+    <div class="rows" id="chars"></div>
+  </section>
+
+  <section class="panel" data-panel="locacoes" role="tabpanel" aria-labelledby="tab-locacoes" hidden>
+    <h2 class="section-h">Locações e props</h2>
+    <p class="lede">Só o que precisa de asset. Mãe, bebê, torcedora, cliente, paciente e figurantes o modelo improvisa pelo texto.</p>
+    <div class="rows" id="locs"></div>
+  </section>
+
+  <section class="panel" data-panel="pendencias" role="tabpanel" aria-labelledby="tab-pendencias" hidden>
+    <h2 class="section-h">Pendências</h2>
+    <div class="rows" id="pend"></div>
+    <h2 class="section-h">Riscos</h2>
+    <ul class="risks" id="risks"></ul>
+  </section>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+const store = {
+  get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } },
+  set(k,v){ try { localStorage.setItem(k,v); } catch(e){} }
+};
+const SCENES = DATA.scenes;
+const TABS = ["takes","direcao","elenco","locacoes","pendencias"];
+let cur = 0;
+
+function fmtPrompt(t){
+  return esc(t).split("\n").map(l => l.replace(/^((?:SHOT|BEAT) \d+ \(\d+–\d+s\)|\[ORDER:|[A-Z][A-Z&]*(?: [A-Z][A-Z&]*)*)(?=[ —:(]|$)/, "<b>$1</b>")).join("\n");
+}
+
+function flash(btn, text, ok){
+  const t = btn.dataset.label || btn.textContent;
+  btn.dataset.label = t;
+  btn.textContent = text;
+  btn.classList.toggle("done", !!ok);
+  setTimeout(() => { btn.textContent = t; btn.classList.remove("done"); }, 1600);
+}
+function selectIn(el){
+  if (!el) return;
+  el.hidden = false;
+  const r = document.createRange(); r.selectNodeContents(el);
+  const s = getSelection(); s.removeAllRanges(); s.addRange(r);
+}
+function copy(text, btn, fallbackEl){
+  let p;
+  try { p = navigator.clipboard.writeText(text); } catch(e){ p = Promise.reject(e); }
+  p.then(() => flash(btn, "Copiado", true), () => { selectIn(fallbackEl); flash(btn, "Texto selecionado: copie", false); });
+}
+
+/* ---------- header ---------- */
+$("#ver").textContent = DATA.version;
+const nGens = SCENES.reduce((s, x) => s + x.gens.length, 0);
+const total = SCENES.reduce((s, x) => s + x.d, 0);
+$("#facts").innerHTML = [
+  `<li><b>${esc(DATA.aspect)}</b></li>`,
+  `<li><b>~${Math.round(total)}s</b> no corte</li>`,
+  `<li><b>${SCENES.length}</b> takes</li>`,
+  `<li><b>${nGens}</b> gerações</li>`,
+  `<li><b>${DATA.chars.length}</b> character sheets</li>`
+].join("");
+
+/* ---------- reel ---------- */
+const reel = $("#reel");
+SCENES.forEach((s, i) => {
+  const b = document.createElement("button");
+  b.className = "seg"; b.type = "button";
+  b.style.flex = s.d + " 1 0";
+  b.style.background = `var(--b-${s.b})`;
+  if (s.b === "vr") b.style.color = "var(--sheet)";
+  b.title = `${s.id} · ${s.t} · ~${s.d}s`;
+  b.setAttribute("aria-label", b.title);
+  b.innerHTML = `<span>${s.id}</span>`;
+  b.addEventListener("click", () => showTake(i, true));
+  reel.appendChild(b);
+});
+const m = document.createElement("div");
+m.className = "mark60"; m.style.left = Math.min(60 / total * 100, 99.6) + "%";
+reel.appendChild(m);
+$("#reelfoot").innerHTML = Object.entries(DATA.blocos).map(([k, n]) => `<span><i style="background:var(--b-${k})"></i>${esc(n)}</span>`).join("");
+
+const chips = $("#chips");
+SCENES.forEach((s, i) => {
+  const c = document.createElement("button");
+  c.className = "chip"; c.type = "button";
+  c.innerHTML = `<span class="dot" aria-hidden="true"></span>${s.id}`;
+  c.addEventListener("click", () => showTake(i, true));
+  chips.appendChild(c);
+});
+function refreshChips(){
+  [...chips.children].forEach((c, i) => {
+    c.setAttribute("aria-current", i === cur ? "true" : "false");
+    c.classList.toggle("done", store.get("codemig-v2-" + SCENES[i].id) === "1");
+  });
+  [...reel.querySelectorAll(".seg")].forEach((c, i) => c.setAttribute("aria-current", i === cur ? "true" : "false"));
+}
+
+/* ---------- take ---------- */
+function stripHTML(g){
+  const shots = g.shots.map(s => {
+    const open = /^(MWS|MS|WS|EWS)$/.test(s.size);
+    return `<div class="shot ${open ? "open" : "close"}" style="flex:${s.b - s.a} 1 0" title="${esc(s.n + ". " + s.label + " · " + s.a + "–" + s.b + "s")}"><b>${esc(s.size)}</b><small>${s.a}–${s.b}s</small></div>`;
+  }).join("");
+  const sp = g.speech.map(x => `<div class="speech" style="left:${x.a / g.dur * 100}%;width:${(x.b - x.a) / g.dur * 100}%" title="fala de ${esc(x.who)}, ${x.a}–${x.b}s">fala · ${esc(x.who)}</div>`).join("");
+  const list = g.shots.map(s => `<li><span class="n">${s.n}</span><span class="t">${s.a}–${s.b}s · ${esc(s.size)}</span><span>${esc(s.label)}</span></li>`).join("");
+  return `<div class="strip-wrap">
+    <div class="label">Decupagem da geração · ${g.dur}s</div>
+    <div class="strip">${shots}</div>
+    <div class="speechtrack">${sp}</div>
+    <div class="legend"><span><i style="background:var(--open)"></i>plano aberto (fala)</span><span><i style="background:var(--close);background-image:repeating-linear-gradient(135deg,transparent 0 3px,var(--sheet-2) 3px 4px)"></i>close / detalhe (subação)</span><span><i style="background:var(--speech);border-color:var(--speech)"></i>fala</span></div>
+    <ol class="shotlist">${list}</ol>
+  </div>`;
+}
+
+function genHTML(g, gi){
+  return `${stripHTML(g)}
+  <dl class="dl">
+    <dt>O que acontece</dt><dd>${esc(g.acontece)}</dd>
+    <dt>O que é dito</dt><dd class="quote">${esc(g.dito)}</dd>
+    <dt>Tempo</dt><dd>${esc(g.tempo)}</dd>
+    <dt>Como termina</dt><dd>${esc(g.termina)}</dd>
+    <dt>Direção</dt><dd>${esc(g.direcao)}</dd>
+  </dl>
+  <div class="cardbox">
+    <div class="label">Card de geração · ${esc(g.task)} · ${g.dur}s · ${esc(DATA.aspect)} · draft 480p → final 1080p</div>
+    <ol>${g.attach.map(a => `<li>${esc(a)}</li>`).join("")}</ol>
+    <p><b>Notas:</b> ${esc(g.notes)}</p>
+  </div>
+  ${g.alt ? `<div class="alt">${esc(g.alt)}</div>` : ""}
+  <div class="actions">
+    <button class="btn primary" type="button" data-copy="prompt" data-g="${gi}">Copiar prompt</button>
+    <button class="btn" type="button" data-copy="card" data-g="${gi}">Copiar card</button>
+    <button class="btn" type="button" data-toggle="${gi}" aria-expanded="false">Ver prompt</button>
+    <span class="meta">${g.words} palavras · inglês, falas em português</span>
+  </div>
+  <pre class="prompt" id="prompt-${gi}" hidden>${fmtPrompt(g.prompt)}</pre>`;
+}
+
+function showTake(i, scroll){
+  cur = Math.max(0, Math.min(SCENES.length - 1, i));
+  const s = SCENES[cur];
+  const g = s.gens[0];
+  store.set("codemig-v2-cur", String(cur));
+  const done = store.get("codemig-v2-" + s.id) === "1";
+  const slate = `<div class="slate">
+    <div class="cell id"><span class="k">Take</span><span class="v">${s.id}</span></div>
+    <div class="cell blk"><span class="k">Bloco</span><span class="v"><span class="swatch" style="background:var(--b-${s.b})"></span>${esc(s.bloco)}</span></div>
+    <div class="cell"><span class="k">No corte</span><span class="v">~${s.d}s</span></div>
+    <div class="cell"><span class="k">Geração</span><span class="v">${g ? g.dur + "s" : "pós"}</span></div>
+    <div class="cell"><span class="k">Planos</span><span class="v">${g ? g.nshots : "—"}</span></div>
+  </div>`;
+  const body = `<div class="take-body">
+    <div class="take-title"><div><h2>${esc(s.t)}</h2><p>${esc(s.desc)}</p></div>
+      <label class="approve"><input type="checkbox" id="approve" ${done ? "checked" : ""}> Aprovado</label></div>
+    ${s.gens.length ? s.gens.map(genHTML).join("") : `<div class="post">${esc(s.post)}</div>`}
+  </div>`;
+  const pager = `<div class="pager" style="padding:0 18px 18px">
+    <button class="btn" type="button" id="prev" ${cur === 0 ? "disabled" : ""}>← ${cur > 0 ? SCENES[cur - 1].id : ""}</button>
+    <button class="btn" type="button" id="next" ${cur === SCENES.length - 1 ? "disabled" : ""}>${cur < SCENES.length - 1 ? SCENES[cur + 1].id : ""} →</button></div>`;
+  $("#take").innerHTML = slate + body + pager;
+  $("#approve").addEventListener("change", e => { store.set("codemig-v2-" + s.id, e.target.checked ? "1" : "0"); refreshChips(); });
+  $("#prev").addEventListener("click", () => showTake(cur - 1, true));
+  $("#next").addEventListener("click", () => showTake(cur + 1, true));
+  $("#take").querySelectorAll("[data-copy]").forEach(b => b.addEventListener("click", () => {
+    const gg = s.gens[+b.dataset.g];
+    copy(b.dataset.copy === "prompt" ? gg.prompt : gg.card, b, b.dataset.copy === "prompt" ? $("#prompt-" + b.dataset.g) : null);
+  }));
+  $("#take").querySelectorAll("[data-toggle]").forEach(b => b.addEventListener("click", () => {
+    const el = $("#prompt-" + b.dataset.toggle);
+    el.hidden = !el.hidden;
+    b.setAttribute("aria-expanded", String(!el.hidden));
+    b.textContent = el.hidden ? "Ver prompt" : "Esconder prompt";
+  }));
+  refreshChips();
+  const chip = chips.children[cur];
+  if (chip && chip.scrollIntoView) chip.scrollIntoView({block:"nearest", inline:"nearest"});
+  if (scroll) {
+    try { history.replaceState(null, "", "#" + s.id); } catch(e){}
+    const top = $("#reel").getBoundingClientRect().top + scrollY - 70;
+    if (scrollY > top) scrollTo({top, behavior:"auto"});
+  }
+}
+
+/* ---------- other panels ---------- */
+$("#dir").innerHTML = DATA.direction.map(([k, v]) => `<div><b>${esc(k)}</b><p>${esc(v)}</p></div>`).join("");
+$("#style").textContent = DATA.style;
+
+function rowHTML(id, title, sub, text, extra){
+  return `<div class="row">
+    <div class="row-top"><h3>${title}</h3>${extra || ""}</div>
+    ${sub ? `<div class="sub">${sub}</div>` : ""}
+    <div class="actions">
+      <button class="btn" type="button" data-rcopy="${id}">Copiar</button>
+      <button class="btn" type="button" data-rtoggle="${id}" aria-expanded="false">Ver texto</button>
+    </div>
+    <pre class="prompt" id="r-${id}" hidden>${esc(text)}</pre>
+  </div>`;
+}
+const TEXTS = {};
+function rows(target, items){
+  $(target).innerHTML = items.map(it => { TEXTS[it.id] = it.text; return rowHTML(it.id, it.title, it.sub, it.text, it.extra); }).join("");
+}
+function checkbox(key, label){
+  const on = store.get(key) === "1";
+  return `<label class="check"><input type="checkbox" data-store="${key}" ${on ? "checked" : ""}> ${label}</label>`;
+}
+rows("#tpls", DATA.templates.map(([n, t], i) => ({id: "t" + i, title: esc(n), text: t})));
+rows("#chars", DATA.chars.map(c => ({
+  id: "c-" + c.tag,
+  title: `<span class="tag">@${esc(c.tag)}</span> ${esc(c.papel)}`,
+  sub: `${esc(c.idade)} · R ${esc(c.r)} · ${esc(c.takes)}${c.obs ? " · " + esc(c.obs) : ""}`,
+  text: c.prompt, extra: checkbox("codemig-v2-char-" + c.tag, "Pronto")
+})).concat([{id: "c-face", title: `<span class="tag">@JOVEM</span> face anchor de pele (T16)`, sub: "Close extra de pele para o close final.", text: DATA.face, extra: checkbox("codemig-v2-char-face", "Pronto")}]));
+rows("#locs", DATA.locs.map(l => ({
+  id: "l-" + l.tag,
+  title: `<span class="tag">@${esc(l.tag)}</span> <span class="sub">${esc(l.prio)}</span>`,
+  sub: `${esc(l.takes)} · ${esc(l.why)}`, text: l.prompt, extra: checkbox("codemig-v2-loc-" + l.tag, "Pronto")
+})));
+document.querySelectorAll("[data-rcopy]").forEach(b => b.addEventListener("click", () => copy(TEXTS[b.dataset.rcopy], b, $("#r-" + b.dataset.rcopy))));
+document.querySelectorAll("[data-rtoggle]").forEach(b => b.addEventListener("click", () => {
+  const el = $("#r-" + b.dataset.rtoggle);
+  el.hidden = !el.hidden;
+  b.setAttribute("aria-expanded", String(!el.hidden));
+  b.textContent = el.hidden ? "Ver texto" : "Esconder";
+}));
+document.querySelectorAll("[data-store]").forEach(cb => cb.addEventListener("change", () => store.set(cb.dataset.store, cb.checked ? "1" : "0")));
+
+const pillClass = st => st === "decidido" ? "ok" : st === "proposta" ? "info" : "warn";
+$("#pend").innerHTML = DATA.pend.map(([id, t, st, txt]) => `<div class="row">
+  <div class="row-top"><h3><span class="tag">${esc(id)}</span> ${esc(t)}</h3><span class="pill ${pillClass(st)}">${esc(st)}</span></div>
+  <p style="margin:0;max-width:66ch">${esc(txt)}</p></div>`).join("");
+$("#risks").innerHTML = DATA.risks.map(([k, v]) => `<li><b>${esc(k)}:</b> ${esc(v)}</li>`).join("");
+
+/* ---------- tabs & hash ---------- */
+function showTab(name, push){
+  if (!TABS.includes(name)) name = "takes";
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-selected", t.dataset.tab === name ? "true" : "false"));
+  document.querySelectorAll("[data-panel]").forEach(p => p.hidden = p.dataset.panel !== name);
+  store.set("codemig-v2-tab", name);
+  if (push) { try { history.replaceState(null, "", "#" + (name === "takes" ? SCENES[cur].id : name)); } catch(e){} }
+}
+document.querySelectorAll(".tab").forEach(t => t.addEventListener("click", () => showTab(t.dataset.tab, true)));
+
+function fromHash(){
+  const h = (location.hash || "").slice(1);
+  const ti = SCENES.findIndex(s => s.id === h);
+  if (ti >= 0) { showTab("takes"); showTake(ti, false); return true; }
+  if (TABS.includes(h)) { showTab(h); return true; }
+  return false;
+}
+const savedCur = parseInt(store.get("codemig-v2-cur") || "0", 10);
+showTake(isNaN(savedCur) ? 0 : savedCur, false);
+if (!fromHash()) showTab(store.get("codemig-v2-tab") || "takes");
+addEventListener("hashchange", fromHash);
+</script>
