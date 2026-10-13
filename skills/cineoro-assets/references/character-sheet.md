@@ -49,6 +49,12 @@ background and "bright and clean overall exposure with no deep shadows".
 
 ## Rules for filling it
 
+- **Post-production step (always, by the director): the heads in the full-body views are blurred
+  or removed after generation**, so the only face in the sheet is the left close-up and the video
+  model never has two faces to choose from. Headless full-body panels in a delivered sheet are
+  intentional — never flag them as a defect, and in shot prompts the sheet's identity comes from the
+  close-up while the full-body views supply build, wardrobe and gear.
+
 - **Prose, in this order:** who → skin → hair → face shape, nose and lips → eyes and brows → facial
   hair or makeup → expression
   → accessories → marks → the realism line → lens and light. Keep the whole prompt around 250–400

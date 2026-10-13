@@ -21,7 +21,8 @@ action-critical details (+ voice, if the character speaks)`.
 
 1. **Pass one — the character sheet.** The standard template (`character-sheet.md`): a split frame
    with the facial close-up (entire head) on one half and the full-body front and back views on the
-   other, on a plain light-grey background. Its close-up panel IS the face anchor: the face is born
+   other, on a plain light-grey background. After generation the director blurs or removes the heads in
+   the full-body views, so the close-up is the only face. Its close-up panel IS the face anchor: the face is born
    here once, and every other asset is checked against it.
 2. **Pass two (optional) — a standalone face close-up**, only when a shot needs more skin detail than
    the sheet gives. Generate it with the approved sheet attached as the identity reference (Face
