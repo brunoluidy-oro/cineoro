@@ -5,15 +5,15 @@
 import templates as T
 
 ANCH = {
-    "JOVEM": "25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, a thin scar through the left eyebrow, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots",
-    "ALUNO": "10, Black Brazilian boy, slim, short tight curls, round face, a small gap between his front teeth, plain white school polo shirt with no emblem",
+    "JOVEM": "25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots, dark grey hiking backpack",
+    "ALUNO": "10, Black Brazilian boy, slim, short tight curls, round face, a small gap between his front teeth, light green school T-shirt with no emblem, black shorts, black sandals",
     "PROFESSORA": "40, white Brazilian woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse, dark grey trousers",
-    "HOMEM_EV": "40, mixed-race Brazilian man, stocky, short black hair greying at the temples, trimmed beard, untucked light-grey linen shirt, wedding ring on the left hand",
-    "OPERARIO": "30, Black Brazilian man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, grey work gloves",
+    "HOMEM_EV": "34, mixed-race Brazilian businessman, fit, short neatly cut black hair, trimmed beard, slim navy suit, light-blue dress shirt with no tie, wedding ring on the left hand",
+    "OPERARIO": "30, mixed-race (pardo) Brazilian man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, grey work gloves",
     "PESQUISADORA": "30, Black Brazilian woman, slim, natural hair in a tight bun, small gold stud earrings, buttoned white lab coat, purple nitrile gloves, clear safety glasses",
-    "DONO": "60, white Brazilian man, solid build, thick white moustache, short white hair, light linen short-sleeved shirt, charcoal canvas apron",
+    "DONO": "60, white Brazilian man, solid build, short neatly trimmed grey moustache, short white hair, light linen short-sleeved shirt, charcoal canvas apron",
     "AGRICULTORA": "40, mixed-race Brazilian woman, strong build, long black hair in a single braid, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar",
-    "FUNCIONARIO": "30, mixed-race Brazilian man, medium build, short black hair, a moustache, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck",
+    "FUNCIONARIO": "30, mixed-race Brazilian man, medium build, short black hair, clean-shaven, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck",
     "MOTORISTA": "40, Black Brazilian man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist",
     "ESTUDANTE": "15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers",
     "ENFERMEIRA": "30, mixed-race Brazilian woman, medium build, dark hair in a low bun, a small mole above the upper lip, white scrubs, a stethoscope around her neck",
@@ -161,7 +161,7 @@ THE SOUL OF THE SCENE (play it, never explain it): the boy's short answer is the
     "ACTING — classmates (background): follow the exchange, a few smile; NOT looking at the lens, NOT speaking.",
     T.handheld("\nSHOT 1 MOVEMENT: a real camera body descending fast through the roof structure and decelerating into the room — small sway, never a CGI fly-through."),
     """GEOMETRY — large windows along the frame-LEFT wall; @ALUNO at a second-row desk facing the camera; @PROFESSORA standing 60 cm to his right (frame-RIGHT); in shot 2 the camera 2.5 m in front of his desk at 1.1 m height; classmates 1.5–5 m behind them, soft.""",
-    """PHYSICS & MATERIAL — in shot 1, dust motes stream past the steel; the beams are solid and painted; the boy's arm shoots up with a little jolt of the chair; the desk shifts a centimetre; her hand lands with real weight on his shoulder. """ + REAL + """ MATERIAL TRUTH: the matte paint of the steel beams, new laminate desks, a clean whiteboard with no writing, colourful backpacks on the chairs, the cotton weave of the school polo, sunlight on the floor.""",
+    """PHYSICS & MATERIAL — in shot 1, dust motes stream past the steel; the beams are solid and painted; the boy's arm shoots up with a little jolt of the chair; the desk shifts a centimetre; her hand lands with real weight on his shoulder. """ + REAL + """ MATERIAL TRUTH: the matte paint of the steel beams, new laminate desks, a clean whiteboard with no writing, colourful backpacks on the chairs, the cotton of the green school T-shirt, sunlight on the floor.""",
     """LIGHT — MOTIVATED LIGHT ONLY, afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 START (0–1s): black.
 DURING (1–3s): thin blades of daylight from the roof gaps cross the steel beams from frame-LEFT; between them, shade.
@@ -626,7 +626,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything a
     f"""{LOCKS_HEAD}
 1. ONE handheld take in a very tight close-up — WRONG if it cuts, widens or is locked.
 2. His eyes stay on the lens and alive from start to finish — WRONG if glassy or looking away.
-3. Real skin in detail: pores, stubble, the scar through the left eyebrow — WRONG if smooth or retouched.
+3. Real skin in detail: pores, stubble, the mole on the right cheek — WRONG if smooth or retouched.
 4. Only @JOVEM speaks, only this text.
 5. Sun from frame-LEFT — NO music.""",
     timeline(1, [], [
@@ -640,11 +640,11 @@ THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything a
            "on the lens throughout, moving between your two eyes.",
            "a small laugh of breath at the end", "a slogan delivery, a wink, tears"),
     T.handheld(),
-    """PHYSICS & MATERIAL — the wind from frame-left moves a few hairs at his temple and the edge of his collar; his breath moves his lips and nostrils; his skin catches the light unevenly. """ + REAL + """ MATERIAL TRUTH: pores and fine lines at the eyes, stubble with individual hairs, the thin scar through the left eyebrow, the weave of his overshirt collar.""",
+    """PHYSICS & MATERIAL — the wind from frame-left moves a few hairs at his temple and the edge of his collar; his breath moves his lips and nostrils; his skin catches the light unevenly. """ + REAL + """ MATERIAL TRUTH: pores and fine lines at the eyes, stubble with individual hairs, the weave of his overshirt collar.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: wind across the open summit, steady and quiet; dry grass hissing; his breath; after his last word, only the wind. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a cut, widening the frame, smooth retouched skin, missing scar, watery eyes, tears, a wink, slogan delivery, looking away, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 12s, tight CU 18° — (0–1s) eyes on the lens — (1–10s) his words to you, proud and warm — (10–12s) he holds your eyes, smiling. Invariants: handheld, tight close-up; living eyes on the lens; real skin with the scar; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a cut, widening the frame, smooth retouched skin,  watery eyes, tears, a wink, slogan delivery, looking away, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 12s, tight CU 18° — (0–1s) eyes on the lens — (1–10s) his words to you, proud and warm — (10–12s) he holds your eyes, smiling. Invariants: handheld, tight close-up; living eyes on the lens; real skin; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )

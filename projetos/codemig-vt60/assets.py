@@ -6,11 +6,11 @@ import templates as T
 
 SHEET = """Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: {who}, {age} years old, the entire head fully inside the frame, nothing cropped. {skin} {hair} {face} {eyes} {facial} {expression} {accessories_face}{marks}{realism} — {ordinary}. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: {who}, {age} years old, the entire head fully inside the frame, nothing cropped. {skin} {hair} {face} {eyes} {facial} {expression} {accessories_face}{marks}{realism} — {ordinary}. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill so pores and hair strands read — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same {person} shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, {pron} stands in a neutral relaxed pose, arms resting at {poss} sides with hands relaxed and fingers together, full height in frame head-to-toe, {build}. Outfit: {outfit}; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid {bg} background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view."""
+Look: clean studio character sheet, plain solid {bg} background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view."""
 
 
 ADULT_SKIN = "Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model"
@@ -38,12 +38,12 @@ CHARS = [
              face="An oval face with defined cheekbones, a broad nose and full lips.",
              eyes="Dark brown deep-set eyes with faint smile lines, straight thick eyebrows.",
              facial="Light three-day stubble, patchy at the cheeks.",
-             expression="Warm, open, quietly confident expression with a hint of a smile — the face of someone proud of where he comes from.",
+             expression="Friendly, relaxed expression with an easy warm smile — the face of someone happy to show you where he comes from.",
              accessories_face="",
-             marks="A thin pale scar through the left eyebrow and a small mole on the right cheek.",
+             marks="A small mole on the right cheek.",
              ordinary="an ordinary young man from the interior of Minas Gerais",
              build="lean and athletic, about 1.75 m",
-             outfit="terracotta cotton overshirt worn open with the sleeves rolled to the forearms, plain white crew-neck T-shirt, dark slim jeans, modern brown leather hiking boots")),
+             outfit="terracotta cotton overshirt worn open with the sleeves rolled to the forearms, plain white crew-neck T-shirt, dark slim jeans, modern brown leather hiking boots, a dark grey hiking backpack with no logo worn on both shoulders")),
     dict(tag="ALUNO", papel="Aluno de escola estadual", idade="10", r="BH", takes="T02",
          obs="Uniforme sem brasão.",
          prompt=sheet(
@@ -58,7 +58,7 @@ CHARS = [
              marks="",
              ordinary="an ordinary schoolboy from Belo Horizonte",
              build="slim and small for his age",
-             outfit="plain white school polo shirt with no emblem, dark grey school trousers, black sneakers",
+             outfit="light green school T-shirt with no emblem, black shorts, black rubber sandals",
              realism=CHILD_SKIN)),
     dict(tag="PROFESSORA", papel="Professora", idade="F, 40", r="BH", takes="T02",
          obs="Tom acolhedor, nunca severo.",
@@ -77,24 +77,24 @@ CHARS = [
              outfit="dusty-rose cotton blouse with the sleeves pushed to the elbows, dark grey straight trousers, flat brown leather shoes, a thin silver watch on the left wrist")),
     dict(tag="HOMEM_EV", papel="Dono do carro elétrico", idade="M, 40", r="BH", takes="T04", obs="",
          prompt=sheet(
-             who="a Brazilian man of mixed descent", age=40, person="man", pron="he", poss="his",
+             who="a Brazilian man of mixed descent", age=34, person="man", pron="he", poss="his",
              skin="Medium brown skin with faint lines at the eyes.",
-             hair="Short black hair greying at the temples.",
+             hair="Short black hair, neatly cut with a side part.",
              face="A square face with a wide nose and medium lips.",
              eyes="Dark brown eyes, thick eyebrows.",
              facial="A neatly trimmed short beard.",
-             expression="Relaxed, pleased half-smile — the face of a man who likes a smart deal.",
+             expression="Confident, pleased smile — the face of a young businessman who likes a smart deal.",
              accessories_face="",
              marks="",
-             ordinary="an ordinary professional from Belo Horizonte",
-             build="stocky, about 1.72 m",
-             outfit="untucked light-grey linen shirt with the sleeves rolled once, dark navy chinos, brown leather sneakers, a gold wedding ring on the left hand",
+             ordinary="an ordinary young businessman from Belo Horizonte",
+             build="fit, about 1.78 m",
+             outfit="slim navy suit jacket and trousers, crisp light-blue dress shirt with no tie and the top button open, brown leather oxford shoes, a slim steel watch on the left wrist, a gold wedding ring on the left hand",
              bg="medium-grey")),
     dict(tag="OPERARIO", papel="Operário metalúrgico", idade="M, 30", r="caipira", takes="T05",
          obs="EPI de siderurgia no sheet.",
          prompt=sheet(
-             who="a Black Brazilian man", age=30, person="man", pron="he", poss="his",
-             skin="Dark brown skin with visible pores.",
+             who="a Brazilian man of mixed descent (pardo)", age=30, person="man", pron="he", poss="his",
+             skin="Medium brown skin with visible pores.",
              hair="Shaved head under a white hard hat with no logo, the hard hat fully inside the frame.",
              face="A long face with a broad nose and full lips.",
              eyes="Dark eyes under heavy brows, clearly visible behind clear safety glasses.",
@@ -114,7 +114,7 @@ CHARS = [
              face="An oval face with a small nose and medium lips.",
              eyes="Dark attentive eyes, clearly visible behind clear safety glasses, defined eyebrows.",
              facial="No makeup beyond a touch of lip balm.",
-             expression="Alert, curious expression with a quick smile at the corners of the mouth — the face of someone always one step ahead.",
+             expression="Friendly, open expression with a warm smile and bright eyes — the face of someone who loves explaining what she does.",
              accessories_face="Small gold stud earrings.",
              marks="",
              ordinary="an ordinary researcher from Belo Horizonte",
@@ -128,8 +128,8 @@ CHARS = [
              hair="Short neatly cut white hair.",
              face="A wide friendly face with a large nose.",
              eyes="Kind grey-brown eyes, white eyebrows.",
-             facial="A thick white moustache.",
-             expression="Warm, twinkling expression under the moustache — the face of a host who has fed half the city.",
+             facial="A short, neatly trimmed grey moustache, natural and understated.",
+             expression="Warm, charismatic, twinkling expression — the face of a host who has fed half the city.",
              accessories_face="",
              marks="",
              ordinary="an ordinary restaurant owner from Belo Horizonte",
@@ -159,7 +159,7 @@ CHARS = [
              hair="Short black hair under a white hard hat with the chin strap fastened and no logo, the hard hat fully inside the frame.",
              face="An oval face with a medium nose and medium lips.",
              eyes="Calm dark eyes, clearly visible behind clear safety glasses, thick straight eyebrows.",
-             facial="A full moustache.",
+             facial="Clean-shaven, a strong masculine jaw.",
              expression="Calm, warm expression with a quiet smile — the face of someone proud of his work.",
              accessories_face="Foam ear plugs hang on an orange cord around his neck.",
              marks="",
@@ -215,7 +215,7 @@ CHARS = [
              bg="medium-grey")),
 ]
 
-FACE_ANCHOR_JOVEM = """Single close-up portrait photograph, one frame, no panels and no divider line, of the same man as the attached character sheet (its face close-up supplies identity only): a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin with a few dark freckles on the cheekbones, short dark curly hair, light three-day stubble, an oval face with defined cheekbones, a broad nose and full lips, dark brown deep-set eyes with faint smile lines, straight thick eyebrows, a thin pale scar through the left eyebrow, a small mole on the right cheek. At the neck, the open collar of his terracotta cotton overshirt over a plain white crew-neck T-shirt. Warm, open, quietly confident expression with a hint of a smile, eyes to camera — the face of someone proud of where he comes from. Real skin texture in maximum detail — pores, fine lines at the eyes, individual stubble hairs — no retouching, not a model — an ordinary young man from the interior of Minas Gerais. Shot on 85mm portrait lens, soft cinematic key light from frame-left with gentle fill, bright and clean overall, at most the frame-right side of his face, away from the key, slightly darker. Plain solid light-grey background. Photorealistic, not a render. No text, no logo."""
+FACE_ANCHOR_JOVEM = """Single close-up portrait photograph, one frame, no panels and no divider line, of the same man as the attached character sheet (its face close-up supplies identity only): a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin with a few dark freckles on the cheekbones, short dark curly hair, light three-day stubble, an oval face with defined cheekbones, a broad nose and full lips, dark brown deep-set eyes with faint smile lines, straight thick eyebrows, a small mole on the right cheek. At the neck, the open collar of his terracotta cotton overshirt over a plain white crew-neck T-shirt. Friendly, relaxed expression with an easy warm smile, eyes to camera. Real skin texture in maximum detail — pores, fine lines at the eyes, individual stubble hairs — no retouching, not a model — an ordinary young man from the interior of Minas Gerais. Shot on 85mm portrait lens, soft cinematic key light from frame-left with gentle fill, at most the frame-right side of his face, away from the key, slightly darker. Plain solid light-grey background. Photorealistic, not a render. No text, no logo."""
 
 LOCS = [
     dict(tag="PICO", prio="Essencial", takes="T01, T16",
