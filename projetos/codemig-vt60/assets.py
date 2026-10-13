@@ -10,7 +10,9 @@ Left panel — facial close-up: {who}, {age} years old, the entire head fully in
 
 Right panel — full-body front and back views side by side: the same {person} shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, {pron} stands in a neutral relaxed pose, arms resting at {poss} sides with hands relaxed and fingers together, full height in frame head-to-toe, {build}. Outfit: {outfit}; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid {bg} background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view."""
+Look: clean studio character sheet, plain solid {bg} background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look."""
 
 
 ADULT_SKIN = "Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model"

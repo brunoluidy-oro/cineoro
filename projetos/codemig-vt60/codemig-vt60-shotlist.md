@@ -1424,6 +1424,8 @@ Left panel — facial close-up: a Brazilian man of mixed descent, 25 years old, 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, lean and athletic, about 1.75 m. Outfit: terracotta cotton overshirt worn open with the sleeves rolled to the forearms, plain white crew-neck T-shirt, dark slim jeans, modern brown leather hiking boots, a dark grey hiking backpack with no logo worn on both shoulders; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @ALUNO
@@ -1436,6 +1438,8 @@ Left panel — facial close-up: a cute Black Brazilian boy, 10 years old, the en
 Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, slim and small for his age. Outfit: light green school T-shirt with no emblem, black shorts, black rubber sandals; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @PROFESSORA
@@ -1448,6 +1452,8 @@ Left panel — facial close-up: a white Brazilian woman, 40 years old, the entir
 Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height, average build. Outfit: dusty-rose cotton blouse with the sleeves pushed to the elbows, dark grey straight trousers, flat brown leather shoes, a thin silver watch on the left wrist; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @HOMEM_EV
@@ -1460,6 +1466,8 @@ Left panel — facial close-up: a Brazilian man of mixed descent, 34 years old, 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, fit, about 1.78 m. Outfit: slim navy suit jacket and trousers, crisp light-blue dress shirt with no tie and the top button open, brown leather oxford shoes, a slim steel watch on the left wrist, a gold wedding ring on the left hand; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @OPERARIO
@@ -1472,6 +1480,8 @@ Left panel — facial close-up: a Brazilian man of mixed descent (pardo), 30 yea
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, broad-shouldered and solid, about 1.80 m. Outfit: white hard hat with no logo, clear safety glasses, orange ear muffs around the neck, dark grey flame-retardant coverall with silver reflective strips at chest and legs, grey work gloves, black steel-toe safety boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @PESQUISADORA
@@ -1484,6 +1494,8 @@ Left panel — facial close-up: a Black Brazilian woman, 30 years old, the entir
 Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, slim, medium height. Outfit: buttoned white lab coat with no name tag and no text, dark trousers, black closed leather shoes, purple nitrile gloves, clear safety glasses, the same small gold stud earrings; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @DONO
@@ -1496,6 +1508,8 @@ Left panel — facial close-up: a white Brazilian man, 60 years old, the entire 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, solid and upright, about 1.72 m. Outfit: off-white linen short-sleeved shirt, crisp charcoal canvas apron tied at the back, dark grey trousers, brown leather loafers; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @AGRICULTORA
@@ -1508,6 +1522,8 @@ Left panel — facial close-up: a Brazilian woman of mixed descent, 40 years old
 Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, strong, medium height. Outfit: sand-coloured technical long-sleeved shirt, dark jeans, modern brown leather work boots, the same tan felt farmer's hat, the same sunglasses hooked on the collar; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @FUNCIONARIO
@@ -1520,6 +1536,8 @@ Left panel — facial close-up: a Brazilian man of mixed descent, 30 years old, 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, medium build, about 1.74 m. Outfit: white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility vest with silver reflective strips and no text, long-sleeved grey cotton work shirt, dark grey work trousers, grey work gloves, foam ear plugs on an orange cord around the neck, black steel-toe boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @MOTORISTA
@@ -1532,6 +1550,8 @@ Left panel — facial close-up: a Black Brazilian man, 40 years old, the entire 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, solid, about 1.76 m. Outfit: pale grey short-sleeved uniform shirt with no insignia and no name tag, dark navy trousers, black leather shoes, a steel wristwatch with no visible brand on the left wrist; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @ESTUDANTE
@@ -1544,6 +1564,8 @@ Left panel — facial close-up: a Brazilian teenage boy of mixed descent, 15 yea
 Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, thin and tall for his age, about 1.75 m. Outfit: charcoal-grey hoodie with no print over a white crew-neck T-shirt, black slim jeans, white sneakers; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ### @ENFERMEIRA
@@ -1556,6 +1578,8 @@ Left panel — facial close-up: a Brazilian woman of mixed descent, 30 years old
 Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height and build. Outfit: white cotton scrub top and trousers with visible seams and soft folds, no text and no logo, a stethoscope around the neck, a small fob watch pinned to the chest pocket, white closed shoes; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+
+Style: 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation around bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges. Skin golden and natural with visible pores and texture. Photoreal, not a render, not the glossy AI look.
 ```
 
 ## Locações
