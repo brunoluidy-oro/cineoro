@@ -6,13 +6,13 @@ import templates as T
 
 ANCH = {
     "JOVEM": "25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots, dark grey hiking backpack",
-    "ALUNO": "10, Black Brazilian boy, slim, short tight curls, round face, a small gap between his front teeth, light green school T-shirt with no emblem, black shorts, black sandals",
+    "ALUNO": "10, Black Brazilian boy, slim, short tight curls, round face, light green school T-shirt with no emblem, black shorts, black sandals",
     "PROFESSORA": "40, white Brazilian woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse, dark grey trousers",
     "HOMEM_EV": "34, mixed-race Brazilian businessman, fit, short neatly cut black hair, trimmed beard, slim navy suit, light-blue dress shirt with no tie, wedding ring on the left hand",
     "OPERARIO": "30, mixed-race (pardo) Brazilian man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, grey work gloves",
     "PESQUISADORA": "30, Black Brazilian woman, slim, natural hair in a tight bun, small gold stud earrings, buttoned white lab coat, purple nitrile gloves, clear safety glasses",
     "DONO": "60, white Brazilian man, solid build, short neatly trimmed grey moustache, short white hair, light linen short-sleeved shirt, charcoal canvas apron",
-    "AGRICULTORA": "40, mixed-race Brazilian woman, strong build, long black hair in a single braid, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar",
+    "AGRICULTORA": "40, mixed-race Brazilian woman, strong build, long black hair in a single braid, tan felt farmer's hat pushed back off the forehead, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar",
     "FUNCIONARIO": "30, mixed-race Brazilian man, medium build, short black hair, clean-shaven, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck",
     "MOTORISTA": "40, Black Brazilian man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist",
     "ESTUDANTE": "15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers",
@@ -358,7 +358,7 @@ THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, {T.NEG_SPINE}.""",
+    f"""NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, eyes hidden under the hat brim, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, {T.NEG_SPINE}.""",
     """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 15s, 17s, handheld travelling left to right in every shot — (1, 0–3s) CU: her hand over the plants — (2, 3–5s) ECU: she splits a pod — (3, 5–15s) medium-wide walk-and-talk: her line to the lens, smiling — (4, 15–17s) CU: her face, smiling, still walking. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
@@ -615,7 +615,7 @@ THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is 
 T16 = join(
     contract(12, "ONE continuous take, no cuts", "handheld, close and breathing, tight close-up"),
     f"""REFERENCES — each reference has ONE job:
-@JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe — use the close-up skin detail anchor. 100% matches.
+@JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe 100% matches.
 @PICO — WORLD: the same summit as the opening; only its soft layered hills appear behind him.
 {SCOPE_ID} @PICO supplies the background landscape ONLY — its light is replaced by the LIGHT block.""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:

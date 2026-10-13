@@ -183,7 +183,7 @@ SCENES = [
                    "segurando seu olhar, sorrindo; corte para a assinatura.",
                    "Mantive o close bem fechado do pré-shotlist, agora na mão. É a exceção à regra da fala em plano mais aberto (P14).",
                    ["Close bem fechado: fala e sorriso"],
-                   "reference-to-video", ["@JOVEM (character sheet + face anchor de pele) — identidade", "@PICO (plate) — fundo"],
+                   "reference-to-video", ["@JOVEM (character sheet) — identidade", "@PICO (plate) — fundo"],
                    "olhos e pele são o take inteiro. Conferir pupila viva e a cicatriz na sobrancelha.",
                    alt="Direção alternativa: um pull-back na mão, do close até o aberto, durante \"O futuro também.\", revelando o mar de morros.")]),
     dict(id="T17", b="fc", t="Assinatura", d=2.5,
@@ -345,7 +345,7 @@ def build_md(data):
     out.append("")
     for c in data["chars"]:
         out += [f"### @{c['tag']}", "", "```", c["prompt"], "```", ""]
-    out += ["### @JOVEM · face anchor", "", "```", data["face"], "```", "", "## Locações", ""]
+    out += ["## Locações", ""]
     for l in data["locs"]:
         out += [f"### @{l['tag']} ({l['prio']}, {l['takes']})", "", l["why"], "", "```", l["prompt"], "```", ""]
     out += ["## Pendências", ""] + [f"- **{p[0]} · {p[1]}** ({p[2]}): {p[3]}" for p in PEND]

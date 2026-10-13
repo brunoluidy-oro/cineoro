@@ -142,7 +142,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ALUNO (10, Black Brazilian boy, slim, short tight curls, round face, a small gap between his front teeth, light green school T-shirt with no emblem, black shorts, black sandals) — the STUDENT: raises his hand, answers, beams; NEVER stands; owns the frame-LEFT half.
+@ALUNO (10, Black Brazilian boy, slim, short tight curls, round face, light green school T-shirt with no emblem, black shorts, black sandals) — the STUDENT: raises his hand, answers, beams; NEVER stands; owns the frame-LEFT half.
 @PROFESSORA (40, white Brazilian woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse, dark grey trousers) — the TEACHER: comes to his desk, completes the idea; NEVER sits; owns the frame-RIGHT half.
 FACES: each face exists once; the classmates are distinct Brazilian children, soft in the background, silent, mouths closed; no twins, no clones.
 CONTACT: the only touch is @PROFESSORA's right hand on @ALUNO's shoulder in shot 3; nobody else touches anyone.
@@ -598,7 +598,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@AGRICULTORA (40, mixed-race Brazilian woman, strong build, long black hair in a single braid, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar) — the FARMER: walks her soybean field, checks the plants, speaks; NEVER walks toward the camera, NEVER stops walking.
+@AGRICULTORA (40, mixed-race Brazilian woman, strong build, long black hair in a single braid, tan felt farmer's hat pushed back off the forehead, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar) — the FARMER: walks her soybean field, checks the plants, speaks; NEVER walks toward the camera, NEVER stops walking.
 FACES: her face exists once; nobody else in frame.
 CONTACT: only her hands on the plants.
 
@@ -654,7 +654,7 @@ SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, eyes hidden under the hat brim, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
 [ORDER: 4 shots, 3 hard cuts at 3s, 5s and 15s, 17s, handheld travelling left to right in every shot — (1, 0–3s) CU: her hand over the plants — (2, 3–5s) ECU: she splits a pod — (3, 5–15s) medium-wide walk-and-talk: her line to the lens, smiling — (4, 15–17s) CU: her face, smiling, still walking. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
@@ -1214,7 +1214,7 @@ O jovem do começo, num close bem fechado, fala as últimas frases sorrindo.
 CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, ONE continuous take, no cuts, handheld, close and breathing, tight close-up, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
-@JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe — use the close-up skin detail anchor. 100% matches.
+@JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe 100% matches.
 @PICO — WORLD: the same summit as the opening; only its soft layered hills appear behind him.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies the background landscape ONLY — its light is replaced by the LIGHT block.
 
@@ -1280,7 +1280,7 @@ GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
-  1) @JOVEM (character sheet + face anchor de pele) — identidade
+  1) @JOVEM (character sheet) — identidade
   2) @PICO (plate) — fundo
 Notas: olhos e pele são o take inteiro. Conferir pupila viva e a cicatriz na sobrancelha.
 ```
@@ -1408,7 +1408,7 @@ glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, 
 | @OPERARIO | Operário metalúrgico | M, 30 | caipira | T05 | EPI de siderurgia no sheet. |
 | @PESQUISADORA | Pesquisadora (medicamentos) | F, 30 | BH | T06 | Jaleco e EPI de laboratório. |
 | @DONO | Dono do restaurante | M, 60 | caipira | T07 | — |
-| @AGRICULTORA | Agricultora | F, 40 | caipira | T08 | Produtora moderna, sem chapéu de palha. |
+| @AGRICULTORA | Agricultora | F, 40 | caipira | T08 | Produtora moderna, com chapéu de fazendeira. |
 | @FUNCIONARIO | Funcionário da mina de nióbio | M, 30 | caipira | T09 | EPI de mineração completo e correto, sem marca. Validar com a SST da operadora. |
 | @MOTORISTA | Motorista de ônibus | M, 40 | BH | T12, T13 | Uniforme sem operadora real. |
 | @ESTUDANTE | Estudante do Trilhas de Futuro | M, 15 | BH | T12, T14 | Mesmo figurino nos dois takes. |
@@ -1431,7 +1431,7 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Black Brazilian boy, 10 years old, the entire head fully inside the frame, nothing cropped. Deep brown skin with a child's natural texture. Short tight black curls with a neat hairline. A round face with a small broad nose and full lips. Large dark brown eyes, soft eyebrows. A small gap between his front teeth, just visible through slightly parted lips. Bright, eager expression with a small proud grin — the face of a kid who always raises his hand first. Real child's skin texture with fine pores and natural imperfections, no retouching, not a child model — an ordinary schoolboy from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill so pores and hair strands read — at most one side of the face slightly darker.
+Left panel — facial close-up: a cute Black Brazilian boy, 10 years old, the entire head fully inside the frame, nothing cropped. Warm deep brown skin, smooth and healthy, with a child's natural texture. Short tight black curls with a neat hairline. A sweet, well-proportioned round face with soft cheeks, a small nose and soft lips. Large bright dark brown eyes with long lashes, soft eyebrows. Natural, healthy children's teeth, not perfectly even, barely visible. Calm, curious expression with a gentle closed-mouth smile and shy, attentive eyes — the face of a bright, well-behaved kid who likes school. Real child's skin texture with fine pores and natural imperfections, no retouching, not a child model — an ordinary schoolboy from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill so pores and hair strands read — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, slim and small for his age. Outfit: light green school T-shirt with no emblem, black shorts, black rubber sandals; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
@@ -1503,9 +1503,9 @@ Look: clean studio character sheet, plain solid medium-grey background, consiste
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian woman of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, fine lines at the eyes. Long black hair in a single braid falling down the back. A square face with a broad nose and a firm mouth. Dark brown eyes with smile lines, straight eyebrows. No makeup. Confident, sunny expression with an easy smile — the face of someone who runs her land and enjoys it. Sunglasses hooked on the collar. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary farmer and agronomist from the Triângulo Mineiro. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill so pores and hair strands read — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian woman of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, fine lines at the eyes. Long black hair in a single braid falling down the back, under a wide-brim felt farmer's hat in tan, worn pushed slightly back so the eyes are fully visible, the hat fully inside the frame. A square face with a broad nose and a firm mouth. Dark brown eyes with smile lines, straight eyebrows. No makeup. Confident, sunny expression with an easy smile — the face of someone who runs her land and enjoys it. Sunglasses hooked on the collar. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary farmer and agronomist from the Triângulo Mineiro. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill so pores and hair strands read — at most one side of the face slightly darker.
 
-Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, strong, medium height. Outfit: sand-coloured technical long-sleeved shirt, dark jeans, modern brown leather work boots, the same sunglasses hooked on the collar; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, strong, medium height. Outfit: sand-coloured technical long-sleeved shirt, dark jeans, modern brown leather work boots, the same tan felt farmer's hat, the same sunglasses hooked on the collar; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
@@ -1556,12 +1556,6 @@ Left panel — facial close-up: a Brazilian woman of mixed descent, 30 years old
 Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height and build. Outfit: white cotton scrub top and trousers with visible seams and soft folds, no text and no logo, a stethoscope around the neck, a small fob watch pinned to the chest pocket, white closed shoes; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
-```
-
-### @JOVEM · face anchor
-
-```
-Single close-up portrait photograph, one frame, no panels and no divider line, of the same man as the attached character sheet (its face close-up supplies identity only): a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin with a few dark freckles on the cheekbones, short dark curly hair, light three-day stubble, an oval face with defined cheekbones, a broad nose and full lips, dark brown deep-set eyes with faint smile lines, straight thick eyebrows, a small mole on the right cheek. At the neck, the open collar of his terracotta cotton overshirt over a plain white crew-neck T-shirt. Friendly, relaxed expression with an easy warm smile, eyes to camera. Real skin texture in maximum detail — pores, fine lines at the eyes, individual stubble hairs — no retouching, not a model — an ordinary young man from the interior of Minas Gerais. Shot on 85mm portrait lens, soft cinematic key light from frame-left with gentle fill, at most the frame-right side of his face, away from the key, slightly darker. Plain solid light-grey background. Photorealistic, not a render. No text, no logo.
 ```
 
 ## Locações

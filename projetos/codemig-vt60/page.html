@@ -416,7 +416,7 @@ rows("#chars", DATA.chars.map(c => ({
   title: `<span class="tag">@${esc(c.tag)}</span> ${esc(c.papel)}`,
   sub: `${esc(c.idade)} · R ${esc(c.r)} · ${esc(c.takes)}${c.obs ? " · " + esc(c.obs) : ""}`,
   text: c.prompt, extra: checkbox("codemig-v2-char-" + c.tag, "Pronto")
-})).concat([{id: "c-face", title: `<span class="tag">@JOVEM</span> face anchor de pele (T16)`, sub: "Close extra de pele para o close final.", text: DATA.face, extra: checkbox("codemig-v2-char-face", "Pronto")}]));
+})));
 rows("#locs", DATA.locs.map(l => ({
   id: "l-" + l.tag,
   title: `<span class="tag">@${esc(l.tag)}</span> <span class="sub">${esc(l.prio)}</span>`,
