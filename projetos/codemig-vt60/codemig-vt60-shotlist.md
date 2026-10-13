@@ -1401,11 +1401,11 @@ glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, 
 
 | Tag | Papel | Idade | R | Takes | Observações |
 | --- | --- | --- | --- | --- | --- |
-| @JOVEM | Protagonista | M, 25 | caipira | T01, T16 | Abre e fecha o filme. Fazer também o close extra de pele (face anchor) para o T16. |
+| @JOVEM | Protagonista | M, 25 | caipira | T01, T16 | Abre e fecha o filme. Fazer também o face anchor de pele para o T16. |
 | @ALUNO | Aluno de escola estadual | 10 | BH | T02 | Uniforme sem brasão. |
-| @PROFESSORA | Professora | F, 40 | BH | T02 | Tom educativo, nunca severo. |
+| @PROFESSORA | Professora | F, 40 | BH | T02 | Tom acolhedor, nunca severo. |
 | @HOMEM_EV | Dono do carro elétrico | M, 40 | BH | T04 | — |
-| @OPERARIO | Operário metalúrgico | M, 30 | caipira | T05 | EPI de metalurgia já no sheet. |
+| @OPERARIO | Operário metalúrgico | M, 30 | caipira | T05 | EPI de siderurgia no sheet. |
 | @PESQUISADORA | Pesquisadora (medicamentos) | F, 30 | BH | T06 | Jaleco e EPI de laboratório. |
 | @DONO | Dono do restaurante | M, 60 | caipira | T07 | — |
 | @AGRICULTORA | Agricultora | F, 40 | caipira | T08 | Produtora moderna, sem chapéu de palha. |
@@ -1417,364 +1417,151 @@ glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, 
 ### @JOVEM
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, light stubble, the thin scar through the left eyebrow and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the overshirt's back yoke seam, the curly hair from behind.
+Left panel — facial close-up: a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, a few dark freckles on the cheekbones. Short dark curly hair with a natural hairline. Dark brown deep-set eyes with faint smile lines, straight thick eyebrows. Light three-day stubble, patchy at the cheeks. Warm, open, quietly confident expression with a hint of a smile — the face of someone proud of where he comes from. A thin pale scar through the left eyebrow and a small mole on the right cheek. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary young man from the interior of Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Brazilian man of mixed African, Indigenous and European descent (pardo) from the interior of Minas Gerais, roughly 25. BUILD: about 1.75 m, lean and athletic, relaxed confident posture. SKIN: warm brown, healthy, visible pores, a few dark freckles on the cheekbones. FACE: oval face with defined cheekbones, dark brown deep-set eyes with a steady gaze, straight thick eyebrows, broad nose, full lips, faint smile lines at the eyes. HAIR AND FACIAL HAIR: short dark curly hair, natural hairline, three-day stubble, patchy at the cheeks. DISTINGUISHING MARKS: a thin pale scar through the left eyebrow; a small mole on the right cheek. HANDS: strong hands, clean short nails.
+Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, lean and athletic, about 1.75 m. Outfit: terracotta cotton overshirt worn open with the sleeves rolled to the forearms, plain white crew-neck T-shirt, dark slim jeans, modern brown leather hiking boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- terracotta cotton overshirt, sleeves rolled to mid-forearm, worn open
-- plain white crew-neck T-shirt
-- dark slim jeans
-- modern brown leather hiking boots
-- no accessories
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton twill, cotton jersey, denim, leather, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores, sun lines, stubble and asymmetry. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, bright red shirt, a plaid shirt, sneakers, a cap, a watch, missing eyebrow scar, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @ALUNO
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the small gap between his front teeth, lips slightly parted and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the plain back of the polo with no print, the back of the curly hair.
+Left panel — facial close-up: a Black Brazilian boy, 10 years old, the entire head fully inside the frame, nothing cropped. Deep brown skin with a child's natural texture. Short tight black curls with a neat hairline. Large dark brown eyes, soft eyebrows. A small gap between his front teeth, just visible through slightly parted lips. Bright, eager expression with a small proud grin — the face of a kid who always raises his hand first. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary schoolboy from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Black Brazilian boy from Belo Horizonte, roughly 10. BUILD: slim, small for his age, narrow shoulders, upright alert posture. SKIN: deep brown, child's skin with natural texture. FACE: round face, large dark brown eyes, soft eyebrows, small broad nose, full lips, a small gap between the front teeth. HAIR AND FACIAL HAIR: short tight black curls, neat hairline, no facial hair. DISTINGUISHING MARKS: the gap between the front teeth. HANDS: small hands, short nails, a blue pen mark on the right index finger.
+Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, slim and small for his age. Outfit: plain white school polo shirt with no emblem, dark grey school trousers, black sneakers; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- plain white school polo shirt with NO emblem and no print
-- dark grey school trousers
-- black sneakers
-- no accessories
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton piqué, cotton twill, rubber, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real child's skin texture, no smoothing. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, school emblem on the shirt, blue-and-white uniform, a cap, jewelry, a backpack, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @PROFESSORA
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the light freckles and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the blouse's back, the hair tied low at the nape.
+Left panel — facial close-up: a white Brazilian woman, 40 years old, the entire head fully inside the frame, nothing cropped. Fair skin with light freckles across the nose and cheeks. Shoulder-length dark brown hair tied low at the nape, a few loose strands framing the face. Warm hazel eyes with fine laugh lines, natural arched eyebrows. Light everyday makeup. Warm, attentive expression with a gentle smile — the face of a teacher who enjoys her students. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary teacher from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: white Brazilian woman from Belo Horizonte, roughly 40. BUILD: medium height and build, relaxed shoulders, a teacher's upright stance. SKIN: fair with light freckles across the nose and cheeks, fine lines at the eyes and mouth. FACE: heart-shaped face, warm hazel eyes, natural arched eyebrows, straight nose, medium lips. HAIR AND FACIAL HAIR: shoulder-length dark brown hair tied low with a few loose strands. DISTINGUISHING MARKS: freckles. HANDS: slim hands, short unpainted nails, a thin silver watch on the left wrist.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height, average build. Outfit: dusty-rose cotton blouse with the sleeves pushed to the elbows, dark grey straight trousers, flat brown leather shoes, the same thin silver watch on the left wrist; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- dusty-rose cotton blouse, sleeves pushed up to the elbow
-- dark grey straight trousers
-- flat brown leather shoes
-- thin silver wristwatch on the left wrist
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton, wool-blend trousers, leather, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with freckles, pores and expression lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, glasses, a lanyard with text, bright red blouse, high heels, jewelry, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @HOMEM_EV
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the trimmed beard and the grey at the temples and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the untucked linen shirt from behind, its creases.
+Left panel — facial close-up: a Brazilian man of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with faint lines at the eyes. Short black hair greying at the temples. Dark brown eyes, thick eyebrows. A neatly trimmed short beard. Relaxed, pleased half-smile — the face of a man who likes a smart deal. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary professional from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Brazilian man of mixed descent (pardo) from Belo Horizonte, roughly 40. BUILD: about 1.72 m, stocky, broad chest, relaxed easy stance. SKIN: medium brown, natural texture, faint lines at the eyes. FACE: square face, dark brown eyes, thick eyebrows, wide nose, a half-smile resting expression. HAIR AND FACIAL HAIR: short black hair greying at the temples, neatly trimmed short beard. DISTINGUISHING MARKS: grey at the temples. HANDS: broad hands, clean short nails, a gold wedding ring on the left ring finger.
+Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, stocky, about 1.72 m. Outfit: untucked light-grey linen shirt with the sleeves rolled once, dark navy chinos, brown leather sneakers, a gold wedding ring on the left hand; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- untucked light-grey linen shirt, sleeves rolled once, natural creases
-- dark navy chinos
-- brown leather sneakers
-- gold wedding ring on the left hand
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: creased linen, cotton twill, leather, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and beard texture. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, suit jacket, tie, sunglasses, branded polo, watch with logo, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @OPERARIO
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the short beard, the white hard hat and clear safety glasses and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the coverall's back with reflective strips and no print, the hard hat from behind.
+Left panel — facial close-up: a Black Brazilian man, 30 years old, the entire head fully inside the frame, nothing cropped. Dark brown skin with visible pores. Shaved head under a white hard hat with no logo, the hard hat fully inside the frame. Dark eyes under heavy brows, clearly visible behind clear safety glasses. A short full beard. Steady, good-humoured expression with a slight smile — the face of someone who knows his machines inside out. Orange ear muffs hang around his neck. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary steelworker from Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Black Brazilian man from an industrial town in the interior of Minas Gerais, roughly 30. BUILD: about 1.80 m, broad shoulders, solid working build, grounded stance. SKIN: dark brown, visible pores. FACE: long face, dark eyes under heavy brows, broad nose, full lips. HAIR AND FACIAL HAIR: shaved head under the helmet, short full beard. DISTINGUISHING MARKS: a small burn scar on the right forearm. HANDS: large hands in grey work gloves.
+Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, broad-shouldered and solid, about 1.80 m. Outfit: white hard hat with no logo, clear safety glasses, orange ear muffs around the neck, dark grey flame-retardant coverall with silver reflective strips at chest and legs, grey work gloves, black steel-toe safety boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- white hard hat with NO logo, scuffed
-- clear safety glasses
-- orange ear muffs hanging around the neck
-- dark grey flame-retardant coverall with silver reflective strips at chest and legs, NO logo
-- grey work gloves
-- black steel-toe safety boots
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: flame-retardant cotton, reflective tape, helmet plastic, glove fabric, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and sweat. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, company logo on helmet or coverall, missing glasses, missing gloves, blue coverall, sneakers, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @PESQUISADORA
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the clear safety glasses and the small gold stud earrings and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the lab coat's back seam and vent, the tight bun from behind.
+Left panel — facial close-up: a Black Brazilian woman, 30 years old, the entire head fully inside the frame, nothing cropped. Deep brown skin with even natural texture. Natural hair pulled back into a tight bun. Dark attentive eyes, clearly visible behind clear safety glasses, defined eyebrows. No makeup beyond a touch of lip balm. Alert, curious expression with a quick smile at the corners of the mouth — the face of someone always one step ahead. Small gold stud earrings. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary researcher from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Black Brazilian woman from Belo Horizonte, roughly 30. BUILD: slim, medium height, precise upright posture. SKIN: deep brown, even natural texture, faint lines at the eyes. FACE: oval face, dark attentive eyes, defined eyebrows, small nose, medium lips. HAIR AND FACIAL HAIR: natural hair pulled back into a tight bun. DISTINGUISHING MARKS: small gold stud earrings. HANDS: slender hands in purple nitrile gloves.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, slim, medium height. Outfit: buttoned white lab coat with no name tag and no text, dark trousers, black closed leather shoes, purple nitrile gloves, clear safety glasses, the same small gold stud earrings; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- buttoned white lab coat, slightly creased, NO name tag text
-- clear safety glasses
-- purple nitrile gloves
-- dark trousers
-- black closed leather shoes
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton twill lab coat, nitrile, polycarbonate glasses, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, name tag with text, open lab coat, no gloves, no glasses, hair loose, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @DONO
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the thick white moustache and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the apron ties at the back, the checked shirt, the bald crown.
+Left panel — facial close-up: a white Brazilian man, 60 years old, the entire head fully inside the frame, nothing cropped. Fair skin with a few age spots and deep smile lines. Short neatly cut white hair. Kind grey-brown eyes, white eyebrows. A thick white moustache. Warm, twinkling expression under the moustache — the face of a host who has fed half the city. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary restaurant owner from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: white Brazilian man from Minas Gerais who runs a contemporary restaurant in Belo Horizonte, roughly 60. BUILD: solid, about 1.72 m, upright and energetic. SKIN: fair, a few age spots, deep smile lines. FACE: wide friendly face, kind grey-brown eyes, white eyebrows, large nose. HAIR AND FACIAL HAIR: short white hair, neatly cut, thick white moustache. DISTINGUISHING MARKS: the thick white moustache. HANDS: large hands, clean short nails.
+Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, solid and upright, about 1.72 m. Outfit: off-white linen short-sleeved shirt, crisp charcoal canvas apron tied at the back, dark grey trousers, brown leather loafers; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- light linen short-sleeved shirt in off-white
-- charcoal canvas apron, crisp, tied at the back
-- dark grey trousers
-- brown leather loafers
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: linen, canvas, leather, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real aged skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, chef's hat, white chef jacket, stained apron, a logo, a beard, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @AGRICULTORA
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the sunglasses hooked on the collar and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the single long braid down the back, the technical shirt's back.
+Left panel — facial close-up: a Brazilian woman of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, fine lines at the eyes. Long black hair in a single braid falling down the back. Dark brown eyes with smile lines, straight eyebrows. No makeup. Confident, sunny expression with an easy smile — the face of someone who runs her land and enjoys it. Sunglasses hooked on the collar. A small scar on the right thumb. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary farmer and agronomist from the Triângulo Mineiro. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Brazilian woman of mixed descent (parda), a farmer and agronomist from the Triângulo Mineiro, roughly 40. BUILD: strong, medium height, broad hands, grounded stance. SKIN: warm brown, healthy, fine lines at the eyes. FACE: square face, dark brown eyes, straight eyebrows, broad nose, firm mouth. HAIR AND FACIAL HAIR: long black hair in a single braid. DISTINGUISHING MARKS: a small scar on the right thumb. HANDS: strong hands, short clean nails.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, strong, medium height. Outfit: sand-coloured technical long-sleeved shirt, dark jeans, modern brown leather work boots, the same sunglasses hooked on the collar; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- sand-coloured technical long-sleeved UV shirt
-- dark jeans
-- modern brown leather work boots
-- sunglasses hooked on the collar
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: technical fabric, denim, leather, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, a straw hat, a cap, gloves, a plaid shirt, a logo, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @FUNCIONARIO
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the moustache, the white hard hat with chin strap and the clear safety glasses and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the high-visibility vest's back with reflective strips and NO print, the hard hat from behind.
+Left panel — facial close-up: a Brazilian man of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with visible pores. Short black hair under a white hard hat with the chin strap fastened and no logo, the hard hat fully inside the frame. Calm dark eyes, clearly visible behind clear safety glasses, thick straight eyebrows. A full moustache. Calm, warm expression with a quiet smile — the face of someone proud of his work. Foam ear plugs hang on an orange cord around his neck. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary mine worker from Araxá, Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Brazilian man of mixed descent (pardo) from Araxá, in the interior of Minas Gerais, roughly 30. BUILD: medium build, about 1.74 m, steady stance. SKIN: medium brown, visible pores. FACE: oval face, calm dark eyes, thick straight eyebrows, medium nose, moustache. HAIR AND FACIAL HAIR: short black hair under the helmet, a full moustache. DISTINGUISHING MARKS: the moustache. HANDS: hands in grey work gloves.
+Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, medium build, about 1.74 m. Outfit: white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility vest with silver reflective strips and no text, long-sleeved grey cotton work shirt, dark grey work trousers, grey work gloves, foam ear plugs on an orange cord around the neck, black steel-toe boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- white hard hat with chin strap fastened, NO logo
-- clear safety glasses
-- orange high-visibility vest with silver reflective strips, NO logo, NO text
-- long-sleeved grey cotton work shirt
-- dark grey work trousers
-- grey work gloves
-- foam ear plugs on an orange cord around the neck
-- black steel-toe boots
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: reflective tape, helmet plastic, cotton, glove fabric, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, company name on the vest, unfastened chin strap, missing glasses, missing gloves, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @MOTORISTA
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the close-cropped greying hair and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the plain back of the uniform shirt with NO print.
+Left panel — facial close-up: a Black Brazilian man, 40 years old, the entire head fully inside the frame, nothing cropped. Dark brown skin with lines at the eyes. Close-cropped greying hair. Warm dark eyes, soft eyebrows. Clean-shaven. Friendly, patient expression with an easy smile — the face of someone who greets every passenger. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary bus driver from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Black Brazilian man from Belo Horizonte, roughly 40. BUILD: solid, about 1.76 m, a seated-worker's slightly rounded shoulders. SKIN: dark brown, natural texture, lines at the eyes. FACE: round face, warm dark eyes, soft eyebrows, broad nose, full lips. HAIR AND FACIAL HAIR: close-cropped greying hair, clean-shaven. DISTINGUISHING MARKS: grey in the hair. HANDS: broad hands, a steel wristwatch on the left wrist.
+Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, solid, about 1.76 m. Outfit: pale grey short-sleeved uniform shirt with no insignia and no name tag, dark navy trousers, black leather shoes, a steel wristwatch with no visible brand on the left wrist; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- pale grey short-sleeved uniform shirt with NO insignia and NO name tag
-- dark navy trousers
-- black leather shoes
-- steel wristwatch with no visible brand on the left wrist
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton-poly shirt, twill trousers, leather, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores and lines. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, company logo, name tag, tie, cap, sunglasses, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @ESTUDANTE
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the faint teenage moustache and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the hoodie's back, the dark backpack on both shoulders, the faded haircut from behind.
+Left panel — facial close-up: a Brazilian teenage boy of mixed descent, 15 years old, the entire head fully inside the frame, nothing cropped. Light brown skin with natural teenage texture. Short black hair faded at the sides, longer on top. Dark eyes, thin eyebrows. A faint teenage moustache. Earnest, slightly shy expression with a half-grin — the face of a teenager who wants to be taken seriously. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary student from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Brazilian teenage boy of mixed descent (pardo) from Belo Horizonte, roughly 15. BUILD: thin and tall for his age, about 1.75 m, a slight teenage lean. SKIN: light brown, natural teenage skin. FACE: long face, dark eyes, thin eyebrows, straight nose, a faint teenage moustache. HAIR AND FACIAL HAIR: short black hair faded at the sides, longer on top. DISTINGUISHING MARKS: the faint moustache. HANDS: long thin hands, short nails.
+Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, thin and tall for his age, about 1.75 m. Outfit: charcoal-grey hoodie with no print over a white crew-neck T-shirt, black slim jeans, white sneakers, a plain dark backpack with no logo worn on both shoulders; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- charcoal-grey hoodie with NO print
-- white crew-neck T-shirt under it
-- black slim jeans
-- white sneakers
-- dark plain backpack with NO logo
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton fleece, denim, canvas, rubber, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real teenage skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, printed hoodie, cap, headphones, a logo, different sneakers, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @ENFERMEIRA
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, the small mole above the upper lip and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing the scrubs' back, the low bun.
+Left panel — facial close-up: a Brazilian woman of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with natural texture. Dark hair in a low bun. Dark calm eyes, natural eyebrows. Light everyday makeup. Calm, kind expression with a soft smile — the face of someone who puts people at ease. A stethoscope around her neck. A small mole above the upper lip. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary nurse from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: Brazilian woman of mixed descent (parda) from Belo Horizonte, roughly 30. BUILD: medium height and build, calm upright posture. SKIN: medium brown, natural texture, faint tiredness under the eyes. FACE: oval face, dark calm eyes, natural eyebrows, medium nose and lips. HAIR AND FACIAL HAIR: dark hair in a low bun. DISTINGUISHING MARKS: a small mole above the upper lip. HANDS: clean short nails, a small watch pinned to the scrub pocket.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height and build. Outfit: white scrub top and trousers with no text and no logo, a stethoscope around the neck, a small fob watch pinned to the chest pocket, white closed shoes; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- white scrub top and trousers, NO text, NO logo
-- a stethoscope around the neck
-- a small fob watch pinned to the chest pocket
-- white closed shoes
-
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
-
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: cotton-poly scrubs, rubber tubing, metal, with natural real-use texture, modern and well kept.
-
-STYLE: photorealistic live-action, a real Brazilian person photographed, not a render. Ultra-detailed material rendering, real skin with pores. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
-
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
-
---- NEGATIVE ---
- changed outfit, action pose, coloured scrubs, a name tag with text, a nurse's cap, jewelry, smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @JOVEM · face anchor
 
 ```
-Extreme close-up portrait photograph of @JOVEM — the same man as his character sheet: Brazilian man of mixed descent, 25, warm brown skin, short dark curly hair, three-day stubble, a thin pale scar through the left eyebrow, a small mole on the right cheek. Framed from the eyebrows to the chin, frontal, looking directly at the camera with a relaxed, warm expression. Soft directional daylight from frame-left, the right side in soft shade. Real skin in maximum detail: pores, fine lines at the eyes, individual stubble hairs. Neutral medium-grey background. Photorealistic, not a render, no retouching. NO text, NO logo.
+Close-up portrait photograph of @JOVEM — the same man as his character sheet: a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin with a few dark freckles on the cheekbones, short dark curly hair, light three-day stubble, dark brown deep-set eyes with faint smile lines, a thin pale scar through the left eyebrow, a small mole on the right cheek. Warm, open, quietly confident expression with a hint of a smile, eyes to camera. Real skin texture in maximum detail — pores, fine lines at the eyes, individual stubble hairs — no retouching, not a model. Shot on 85mm portrait lens, soft cinematic key light from frame-left with gentle fill, bright and clean overall, at most the right side of the face slightly darker. Plain solid light-grey background. Photorealistic, not a render. No text, no logo.
 ```
 
 ## Locações

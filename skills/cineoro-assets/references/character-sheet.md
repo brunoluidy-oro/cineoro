@@ -5,61 +5,86 @@ asks for anything different — a 3D character, a specific art style, an animal,
 views, a different way of showing a feature (hands, tattoos, a costume detail, a profile), a different
 aspect ratio — **keep the template and adapt it**; never replace it with a free-form prompt.
 
+## Why it looks like this (production lesson, Oct 2026)
+
+The previous template (three thin panels, "forehead to chin", neutral expression, flat even studio
+light, a long NEGATIVE list) gave poor references: the face was small, the hair was cropped, the
+expression was a mugshot, and the flat light erased skin and hair texture. The version below was
+approved by the director on a real job and produced clean, usable sheets:
+- **two panels**: the face gets half the frame; front and back share the other half;
+- **the entire head in frame** — hair is identity;
+- **a living expression drawn from the character's personality**, not a neutral stare;
+- **cinematic but bright light**: enough direction to reveal pores and hair strands, yet the whole
+  sheet stays light and clean — at most one side of the face slightly darker, never moody;
+- **prose, not lists**, with a lens per panel (85mm face, 35mm full body) and no NEGATIVE block.
+
 ## The template (fill the brackets; keep every other line)
 
 ```
-Create a character sheet, three panels side by side, 16:9, same person, same scale, same ground line, same color grade:
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, [16:9].
 
-- LEFT: large CLOSE-UP portrait, tightly framed from forehead to chin with a little of the shoulders, sharp focus, looking directly at camera with a neutral steady expression, showing the face, [FACIAL HAIR / HEAD ACCESSORIES] and skin details exactly.
-- MIDDLE: full-body FRONT view WITH the head fully visible, from the top of the head down to the feet, both feet fully in frame. Standing straight, arms relaxed straight down at the sides, hands visible, body squared to camera, looking directly at camera with a neutral expression.
-- RIGHT: full-body BACK view, same pose, WITH the head visible from behind, from the top of the head down to the heels, showing [BACK DETAILS OF THE WARDROBE: seams, closures, straps, prints, hair from behind].
+Left panel — facial close-up: [a/an ORIGIN man/woman/boy/girl], [AGE] years old, the entire head fully inside the frame, nothing cropped. [SKIN: tone and texture]. [HAIR: length, colour, texture, grey strands, hairline]. [EYES and EYEBROWS]. [FACIAL HAIR or MAKEUP]. [EXPRESSION: one living expression drawn from the personality — "Warm, lively, slightly amused expression — the face of someone who …"]. [ACCESSORIES visible in the close-up]. [DISTINGUISHING MARKS that must stay consistent]. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary [person] from [PLACE]. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
 
-CHARACTER: [ETHNICITY/ORIGIN IF RELEVANT], roughly [AGE]. BUILD: [height impression, proportions, shoulders, posture]. SKIN: [tone, texture, exposure marks, sun or weather effects]. FACE: [face shape, cheekbones, eyes and gaze, eyebrows, nose, lips, forehead and expression lines]. HAIR AND FACIAL HAIR: [length, color, texture, hairline, density and pattern of beard or stubble]. DISTINGUISHING MARKS: [scars, moles, wrinkles, only what must stay consistent]. HANDS: [size, texture, condition, nails].
+Right panel — full-body front and back views side by side: the same [person] shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, [he/she] stands in a neutral relaxed pose, arms resting at [his/her] sides with hands relaxed and fingers together, full height in frame head-to-toe, [BUILD]. Outfit: [GARMENTS with material, colour and fit], [FOOTWEAR], [the same ACCESSORIES]; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-WARDROBE, keep EXACTLY as described, identical in all panels:
-- [ITEM 1: material, color, fit, wear and tear]
-- [ITEM 2]
-- [ITEM 3]
-- [FOOTWEAR]
-- [ACCESSORIES: only what is essential]
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+```
 
-All three panels show the same person at identical scale, same color grade. Both full-body figures stand with the full body in frame, head to feet, arms straight down, no posing. The face in the close-up is identical to the face in the full-body panels.
+## Approved example (the one that set the standard)
 
-Neutral flat medium-gray seamless studio background (not the colored background of any reference). Soft even studio lighting, consistent across all three views, no harsh shadows, no colored light. Preserve every material precisely: [LIST OF KEY TEXTURES], all worn and distressed with real use.
+```
+Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line.
 
-[STYLE: photorealistic live-action / stylized 3D render, not photograph, not realistic]. Ultra-detailed material rendering, [SKIN AND MATERIAL DETAILS]. High resolution, tack-sharp focus on the subject, deep depth of field on the full-body panels, shallow depth of field only on the close-up.
+Left panel — facial close-up: a Brazilian woman, 44 years old, the entire head fully inside the frame, nothing cropped. Warm light-brown skin, shoulder-length dark brown wavy hair with a few natural grey strands, expressive dark brown eyes with soft laugh lines, natural eyebrows, light everyday makeup. Warm, lively, slightly amused expression — the face of someone quick to comment and quick to laugh. A thin gold chain necklace with a small round pendant resting on the collarbone, small gold hoop earrings. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary woman from Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light with gentle fill.
 
-NO text, NO labels, NO captions, NO watermarks, NO logos, NO extra props, NO background environment. Clean character sheet only.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, average build. Outfit: dusty-rose linen button-up blouse with sleeves rolled to the forearms, dark blue straight-leg jeans, simple tan leather flat sandals, the same thin gold necklace and small gold hoop earrings; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
---- NEGATIVE ---
- changed outfit, action pose, [DESVIOS DE FIGURINO ESPECÍFICOS], smooth plastic skin, mannequin, extra limbs, warped seams, oversaturation, blur, watermark, text, logo
+Look: clean studio character sheet, plain solid grey background, consistent character across all views, soft diffused cinematic lighting, natural skin tones, fine detail, vertical divider line separating each view.
 ```
 
 ## Rules for filling it
 
-- Fill **every** bracket; delete only a bracket that truly has nothing (then delete its label too).
-- Only what must stay consistent across the film goes in DISTINGUISHING MARKS.
-- WARDROBE items are the costume of the **base state**; other states (wet, wounded, dirty) are
-  separate sheets or masked variants with a new tag (see `asset-pipeline.md`).
-- The NEGATIVE's first slot lists the wardrobe drifts this costume is likely to suffer (wrong
-  colour, missing strap, modern zipper, swapped boots…).
+- **Prose, in this order:** who → skin → hair → eyes and brows → facial hair or makeup → expression
+  → accessories → marks → the realism line → lens and light. Keep the whole prompt around 250–400
+  words; long lists fight the image.
+- **The expression comes from the personality.** One sentence: the expression plus "the face of
+  someone who…". Keep it mild and readable (a hint of a smile, amused eyes, a calm steady look) — a
+  big laugh or an open mouth distorts the identity the sheet must lock. Match the film's register: a
+  warm institutional film gets warm faces; a thriller can get a guarded one.
+- **The entire head is always in the close-up**, hair and any headgear included. Never "forehead to
+  chin".
+- **Light: bright first, texture second.** The key has a side so pores, fine lines and hair strands
+  read, but the sheet stays light and clean; at most one side of the face slightly darker. Never
+  "dark", "moody", "low-key" or "dramatic" in a character sheet — the film's look belongs to the shot
+  prompts, not to the reference.
+- **The realism line stays:** "Real skin texture with pores, fine lines and natural imperfections, no
+  retouching, not a model — an ordinary [person] from [place]." Drop "not a model" only when the
+  character is a model or a star.
+- **Accessories appear in both panels** ("the same thin gold necklace") so the full-body views
+  confirm them.
+- **Wardrobe is the base state** of the character, written exactly as the shot prompts describe it;
+  other states (wet, wounded, uniform change) get their own sheet and tag (see `asset-pipeline.md`).
+- **No NEGATIVE block by default.** "no logos, no text" lives inside the Outfit line. If a specific
+  drift keeps recurring in tests (a cap appearing, the wrong colour), add one short positive sentence
+  that fixes it ("bare head, no cap") rather than a list.
 - If a reference image exists, it supplies identity; the text still restates the critical details.
 
 ## Adapting the template (keep its skeleton, change only what the request needs)
 
-The skeleton that never changes: **panel layout declared up front · same subject / scale / ground
-line / grade · the identity lock ("the face in the close-up is identical…") · neutral background ·
-even consistent light · material preservation · STYLE line · clean-sheet line · NEGATIVE.**
+The skeleton that never changes: **the split-frame declaration · the close-up panel with the entire
+head · the expression from personality · the realism line · the two matched full-body views · lens
+per panel · bright soft cinematic light · plain light-grey background · the Look line.**
 
 | Request | Adapt |
 |---|---|
-| **Stylized 3D / animation / art style** | STYLE line → the exact style ("stylized 3D render, Pixar-like proportions, not photograph, not realistic" / "hand-painted 2D cel style" / "claymation with fingerprints"); SKIN AND MATERIAL DETAILS in that medium's terms; in NEGATIVE replace "smooth plastic skin" with the style's failure (e.g. "photoreal skin, off-model proportions, inconsistent line weight"); drop "worn and distressed" if the style is clean. |
-| **Different presentation** (profile, ¾, hands, a tattoo, headgear detail, extra views) | Keep three panels if possible and swap the panel content ("LEFT: … close-up of the hands, palms and backs"), or add panels and state the count up front ("four panels side by side: close-up, front, side profile, back"). Keep the same-scale / same-ground-line clauses for every full-body panel. |
-| **Non-human** (animal, creature, robot) | CHARACTER block → species/design, proportions, surface (fur, scales, metal), anatomy that must stay consistent; FRONT/BACK views become front/rear or side views as the anatomy demands; "arms straight down" becomes the creature's neutral stance. |
-| **No face** (masked, helmeted) | LEFT panel shows the mask/helmet close-up; identity lock refers to it. |
-| **Different aspect ratio or layout** | Change "16:9" and "side by side" only; keep the panel order logic. |
-| **Coloured or environment background requested** | Allowed only if the user asks; keep it flat and identical across panels so it doesn't leak into later shots. |
-| **Light other than even studio** | Only on request; keep it identical across the three views. |
+| **Stylized 3D / animation / art style** | Replace "photorealistic" and the realism line with the exact style ("stylized 3D render, Pixar-like proportions, not a photograph"); describe skin and materials in that medium's terms; drop "not a model". |
+| **Extra views** (profile, ¾, hands, a tattoo, headgear) | State the count up front ("three panels: close-up, front and side, back") or swap a view ("on the right, a full-body left-profile view"); keep "matched in framing, scale and lighting". Hands get their own close-up panel when they act on screen. |
+| **Non-human** (animal, creature, robot) | The close-up panel shows the head with the same "entire head, nothing cropped"; front/back become front/rear or side views as the anatomy demands; the expression line describes the creature's resting attitude. |
+| **No face** (masked, helmeted) | The close-up shows the mask or helmet; the identity lock refers to it. |
+| **Uniform with safety gear** | The headgear is part of "the entire head"; glasses stay clear so the eyes read. |
+| **Different aspect ratio or layout** | Change only the ratio in the first line and the panel arrangement; keep both panels' content. |
+| **Coloured or environment background requested** | Only if the user asks; keep it flat and identical across panels so it doesn't leak into later shots. |
+| **Darker or coloured light requested** | Only on request, and identical across all views. |
 
 Every adaptation is stated explicitly in the prompt — never leave the template's original wording in
 place when it contradicts the request (e.g. "photorealistic" in a cartoon sheet).

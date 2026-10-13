@@ -19,12 +19,13 @@ action-critical details (+ voice, if the character speaks)`.
 
 ## Character in two passes
 
-1. **Pass one — the face.** Generated once, always in close-up, neutral expression, soft directional
-   light, real skin texture (pores, asymmetry, marks). This portrait is the anchor every other asset is
-   checked against.
-2. **Pass two — the character sheet.** The standard template (`character-sheet.md`): close-up +
-   full-body front + full-body back on neutral grey,
-   wardrobe materials and wear, silhouette, built to the locked face.
+1. **Pass one — the face.** Generated once, always in close-up with the entire head in frame, a mild
+   expression drawn from the character's personality, soft cinematic light that stays bright, real
+   skin texture (pores, asymmetry, marks). This portrait is the anchor every other asset is checked
+   against.
+2. **Pass two — the character sheet.** The standard template (`character-sheet.md`): a split frame
+   with the facial close-up on one half and the full-body front and back views on the other, on a
+   plain light-grey background, wardrobe materials and silhouette, built to the locked face.
 3. **Hands** if they matter (they usually do): a close-up of the hands with their marks, size and
    condition — two characters' hands must never look alike if they touch on screen.
 
@@ -60,13 +61,15 @@ to), no music, no overlap. Tag it `@NAME_VOICE`.
 
 **Face anchor**
 ```
-Close-up portrait photograph of [descriptor], neutral expression, eyes to camera, head and top of
-shoulders, soft directional window light from frame-left, real skin texture with pores, fine lines,
-asymmetry and marks [list], no makeup, no retouching, plain dark grey background, 85mm portrait
-perspective, photoreal, not a render.
+Close-up portrait photograph of [descriptor], the entire head fully inside the frame, nothing
+cropped, eyes to camera, [a mild expression from the personality — "the face of someone who…"],
+real skin texture with pores, fine lines, asymmetry and marks [list], no retouching, not a model —
+an ordinary [person] from [place], shot on 85mm portrait lens, soft cinematic key light from one
+side with gentle fill, bright and clean overall — at most one side of the face slightly darker,
+plain solid light-grey background, photoreal, not a render.
 ```
 
-**Character sheet (face + front + back)** — always use the standard template in
+**Character sheet (close-up + full-body front and back)** — always use the standard template in
 `character-sheet.md`, adapted to the request (3D, art style, creature, other views). Never write a
 free-form turnaround prompt.
 
@@ -91,8 +94,10 @@ Film still: [composition with screen positions], [characters by tag, matching th
 
 ## QA for assets
 
-- Face: real texture, asymmetry, readable at small size, no beauty smoothing.
-- Turnaround: same face; wardrobe readable; materials believable; nothing modern by accident.
+- Face: entire head in frame; real texture, asymmetry, readable at small size, no beauty smoothing;
+  bright enough to read every feature — at most one side slightly darker.
+- Character sheet: same face in all views; expression alive but mild; wardrobe readable; materials
+  believable; nothing out of period by accident.
 - Props: scale clear; no extra objects; geometry unambiguous.
 - Plates: no people; light state matches the scene's; no lens effects baked in unless intended.
 - Every asset logged in the registry with its tag before the first shot.
