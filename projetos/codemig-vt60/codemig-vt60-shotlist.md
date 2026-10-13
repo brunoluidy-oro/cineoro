@@ -53,7 +53,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM (25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots, dark grey hiking backpack) — the PROTAGONIST: looks at the hills, turns toward the camera; NEVER speaks in this take, NEVER walks away, NEVER raises his arms; owns the frame-LEFT third.
+@JOVEM (25, Brazilian, mixed-race light-brown skin, lean, short black curly hair, ears that stick out slightly, light patchy stubble, a small mole on his left cheek, rust-red cotton overshirt open over a white T-shirt, black slim jeans, brown leather hiking boots with black toe caps, charcoal-grey backpack) — the PROTAGONIST: looks at the hills, turns toward the camera; NEVER speaks in this take, NEVER walks away, NEVER raises his arms; owns the frame-LEFT third.
 FACES: his face exists once; nobody else in the frame.
 
 SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil. @JOVEM is already standing near the edge with his back to the camera, looking over a sea of green hills that runs in layers to the horizon.
@@ -126,9 +126,9 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM (25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots, dark grey hiking backpack) — the PROTAGONIST, on the summit: speaks one line in close-up, then stays where he is as the camera leaves him; seen only during 0–7s.
-@ALUNO (10, Black Brazilian boy, slim, short tight curls, round face, light green school T-shirt with no emblem, black shorts, black sandals) — the STUDENT: seated at his desk in the centre of the frame, answers; NEVER stands.
-@PROFESSORA (40, white Brazilian woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse, dark grey trousers) — the TEACHER: standing behind the student at frame-left, completes the idea; NEVER sits.
+@JOVEM (25, Brazilian, mixed-race light-brown skin, lean, short black curly hair, ears that stick out slightly, light patchy stubble, a small mole on his left cheek, rust-red cotton overshirt open over a white T-shirt, black slim jeans, brown leather hiking boots with black toe caps, charcoal-grey backpack) — the PROTAGONIST, on the summit: speaks one line in close-up, then stays where he is as the camera leaves him; seen only during 0–7s.
+@ALUNO (10, Black Brazilian boy, slim, dark brown skin, short tight black curls, soft oval face, large dark brown eyes with long lashes, sage-green school T-shirt with no emblem, black shorts, black strapped sport sandals) — the STUDENT: seated at his desk in the centre of the frame, answers; NEVER stands.
+@PROFESSORA (40, white Brazilian woman, medium build, dark brown hair centre-parted in a low bun with loose strands framing the face, dense freckles across the nose and cheeks, mauve satin blouse with a band collar tucked into charcoal-grey straight-leg trousers, brown flats, a silver wristwatch on the left wrist) — the TEACHER: standing behind the student at frame-left, completes the idea; NEVER sits.
 FACES: each face exists once; the classmates are distinct Brazilian children, soft in the background, silent, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone.
 
@@ -158,28 +158,11 @@ VOICE LOCK — @JOVEM: young Brazilian man, 25, warm baritone; light Minas Gerai
 VOICE LOCK — @ALUNO: Brazilian boy, 10, clear bright child's voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 VOICE LOCK — @PROFESSORA: Brazilian woman, 40, warm mid voice of a teacher; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
-ACTING — @JOVEM (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
-MOTIVE: he grew up here and is proud of this land.
-TACTIC: say it to you like good news to a friend who just arrived.
-EYES: on the lens, checking both of your eyes. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: the wind lifts his collar. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, a heroic pose.
-
-ACTING — @ALUNO (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
-MOTIVE: he knows the answer and likes being right.
-TACTIC: answer simply and look for your approval.
-EYES: on the lens when he answers. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a small proud breath after the line. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, a cute pose, a child-actor performance.
-
-ACTING — @PROFESSORA (fully invested in the tactic; the work happens in the eyes)
-SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
-MOTIVE: she is proud of her student.
-TACTIC: take his answer and hand it to everyone as the lesson.
-EYES: a quick proud look at him, then to the lens as to the whole class. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a small nod to herself after the line. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, lecturing, pointing a finger.
-
-ACTING — classmates (background): follow the exchange, a few smile; NOT looking at the lens, NOT speaking.
+ACTING — shared direction: tell a friend some good news about your state — happy and proud; the lens is that friend. Pupils search, settle and drift; blinks uneven; a frozen pupil is wrong.
+@JOVEM: TACTIC say it like good news to a friend who just arrived; eyes on yours; NOT a heroic pose, a solemn face.
+@ALUNO: TACTIC answer simply and look for your approval; eyes on the lens; NOT a cute pose, a child-actor performance.
+@PROFESSORA: TACTIC hand his answer to everyone as the lesson; a proud look at him, then to the lens; NOT lecturing, pointing a finger.
+Classmates: follow the exchange, silent, NOT looking at the lens.
 
 CAMERA — follows @Video1's path and timing exactly, with a light handheld texture (small human sway and late corrections) rather than a mechanical glide; level and facing forward the whole way, never tilting.
 OPTICS: 47° throughout; no zoom, no lens drift.
@@ -187,7 +170,7 @@ FOCUS: on @JOVEM's eyes in beat 1; on whatever passes the lens during the descen
 HORIZON: level.
 NOT: a cut, a tilt down, a drone, a CGI fly-through, a zoom, a locked tripod frame.
 
-GEOMETRY — on the summit, @JOVEM stands 1.2 m from the lens, frontal. In the classroom: windows along the frame-LEFT wall; @ALUNO seated at a desk in the centre of the frame, 1.6 m from the lens, facing it; @PROFESSORA standing about 1.5 m behind him at frame-left; desks to both sides, classmates soft beyond.
+GEOMETRY — classroom: windows along the frame-LEFT wall; @ALUNO seated at a desk in the centre of the frame, 1.6 m from the lens, facing it; @PROFESSORA standing about 1.5 m behind him at frame-left; desks to both sides, classmates soft beyond.
 
 PHYSICS & MATERIAL — wind moves his collar on the summit; in the descent, loose soil and small stones fall past the lens at the speed of the movement, roots hang and sway, the ore is heavy with metallic glints; dust motes drift past the steel; the fan's blades turn slowly; in the classroom a chair creaks and a pencil rolls. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the weave of his overshirt, roots with soil clinging, banded grey hematite, the matte paint of the steel beams, the white ceiling grid and fan, new laminate desks, the cotton of the green school T-shirt, a clean whiteboard with no writing.
 
@@ -248,7 +231,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@HOMEM_EV (34, mixed-race Brazilian businessman, fit, short neatly cut black hair, trimmed beard, slim navy suit, light-blue dress shirt with no tie, wedding ring on the left hand) — the CAR OWNER: plugs in the charger, speaks once, pats the car; NEVER poses beside the car, NEVER walks out of frame before shot 4.
+@HOMEM_EV (34, mixed-race Brazilian businessman, light olive-tan skin, fit, short black hair swept up and back with tapered sides, thick dark eyebrows, short full dark beard and moustache, slim dark navy suit, light-blue dress shirt open at the collar with no tie, silver steel watch on the left wrist, gold ring, brown leather lace-up shoes) — the CAR OWNER: plugs in the charger, speaks once, pats the car; NEVER poses beside the car, NEVER walks out of frame before shot 4.
 FACES: his face exists once; passers-by far behind are distinct soft Brazilian figures.
 CONTACT: nobody touches him.
 
@@ -336,7 +319,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@OPERARIO (30, mixed-race (pardo) Brazilian man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, grey work gloves) — the STEELWORKER: runs the line from the console, speaks once; NEVER removes helmet or glasses, NEVER walks out of frame.
+@OPERARIO (40, mixed-race (pardo) Brazilian man, heavyset and broad-shouldered, round full face with freckled cheeks, close-shaved head, short full black beard flecked with grey, white hard hat with no logo, clear wraparound safety glasses, orange ear muffs around his neck, dark charcoal-grey flame-retardant coverall with silver reflective strips over the shoulders, chest, forearms and shins, grey knit work gloves, black leather safety boots) — the STEELWORKER: runs the line from the console, speaks once; NEVER removes helmet or glasses, NEVER walks out of frame.
 FACES: his face exists once; two colleagues far behind are distinct soft figures, mouths closed.
 CONTACT: nobody touches anyone.
 
@@ -359,7 +342,7 @@ SHOT 4 (10–12s) — CU, 47°: a finished steel coil, still warm, rolls smoothl
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
 [6–8s] @OPERARIO (on camera, Brazilian Portuguese): "de uma indústria mais eficiente,"
-VOICE LOCK — @OPERARIO: Brazilian man, 30, mid-low voice, slightly raised over the machines; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+VOICE LOCK — @OPERARIO: Brazilian man, 40, mid-low voice, slightly raised over the machines; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @OPERARIO (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
@@ -424,7 +407,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@PESQUISADORA (30, Black Brazilian woman, slim, natural hair in a tight bun, small gold stud earrings, buttoned white lab coat, purple nitrile gloves, clear safety glasses) — the RESEARCHER: works at the bench, speaks once; NEVER removes gloves or glasses, NEVER walks out of frame.
+@PESQUISADORA (30, Black Brazilian woman, deep brown skin, slim, black natural hair pulled up into a high twisted bun, high cheekbones, broad nose, full lips, small gold stud earrings, long buttoned white lab coat, black wide-leg trousers, purple nitrile gloves, clear safety glasses with a black brow bar and black arms) — the RESEARCHER: works at the bench, speaks once; NEVER removes gloves or glasses, NEVER walks out of frame.
 FACES: her face exists once; one colleague far behind is a distinct soft figure, mouth closed.
 CONTACT: nobody touches anyone.
 
@@ -511,7 +494,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@DONO (60, white Brazilian man, solid build, short neatly trimmed grey moustache, short white hair, light linen short-sleeved shirt, charcoal canvas apron) — the OWNER: plates, serves, speaks once; NEVER sits, NEVER walks out of frame.
+@DONO (60, white Brazilian man, solid build, broad deeply lined face with age spots, large nose and ears, grey-hazel eyes, thick bushy white-grey moustache covering the upper lip, short white hair thinning on top, cream short-sleeved camp-collar shirt with a chest pocket, very dark navy knee-length waist apron, dark grey trousers, tan leather loafers) — the OWNER: plates, serves, speaks once; NEVER sits, NEVER walks out of frame.
 CUSTOMER (unreferenced: a Brazilian woman about 35, dark hair, olive cardigan) — seated at the table, in the frame-LEFT foreground in shot 3; NEVER speaks, NEVER looks at the lens.
 FACES: each face exists once; other diners far behind are distinct and soft.
 CONTACT: nobody touches anyone; the plate goes from his hands to the table.
@@ -551,7 +534,7 @@ FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the lin
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
 
-PHYSICS & MATERIAL — the oil falls in a thin stream and beads on the greens; the ceramic plate is heavy and touches down with a soft knock; steam rises from the rice and bends in the window air; the fork pierces a vegetable with slight resistance. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the grain of the light wood table, the glaze of the handmade ceramic plate, glossy oil on the leaves, linen napkins, potted plants by the window, the canvas weave of his apron.
+PHYSICS & MATERIAL — the oil falls in a thin stream and beads on the greens; the ceramic plate is heavy and touches down with a soft knock; steam rises from the rice and bends in the window air; the fork pierces a vegetable with slight resistance. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the grain of the light wood table, the glaze of the handmade ceramic plate, glossy oil on the leaves, linen napkins, potted plants by the window, the smooth cotton of his dark navy waist apron.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: daylight through the restaurant's big street windows on frame-LEFT, ~5600 K, soft and directional; warm pendant lights over the counter in the background, small, never on the faces.
@@ -601,7 +584,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@AGRICULTORA (40, mixed-race Brazilian woman, strong build, long black hair in a single braid, tan felt farmer's hat pushed back off the forehead, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar) — the FARMER: walks her soybean field, checks the plants, speaks; NEVER walks toward the camera, NEVER stops walking.
+@AGRICULTORA (40, mixed-race Brazilian woman, slim, warm brown skin, long face with high cheekbones and fine lines, long black hair in a single thick braid worn over her left shoulder, tan felt wide-brim hat with brown leather trim sitting just above the eyebrows, sage-green long-sleeved button-up shirt with two flap chest pockets worn untucked, dark indigo jeans, dark brown lace-up leather work boots, tortoiseshell sunglasses hooked on the shirt front) — the FARMER: walks her soybean field, checks the plants, speaks; NEVER walks toward the camera, NEVER stops walking.
 FACES: her face exists once; nobody else in frame.
 CONTACT: only her hands on the plants.
 
@@ -641,7 +624,7 @@ NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, p
 
 GEOMETRY — the rows run left to right across the frame; @AGRICULTORA walks along one row, the camera along the parallel row 2.5 m away; the plants knee-high; the centre-pivot arm about 300 m away; the sun low on frame-LEFT.
 
-PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod resists and splits along its seam; her boots press into the soft soil between rows; her braid swings with each step. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: fine hairs on the green pods, glossy healthy leaves, the technical fabric of her shirt, the spray of the irrigation catching the sun far off.
+PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod resists and splits along its seam; her boots press into the soft soil between rows; her braid swings with each step. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: fine hairs on the green pods, glossy healthy leaves, the light cotton of her sage-green shirt, the spray of the irrigation catching the sun far off.
 
 LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
@@ -691,7 +674,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@FUNCIONARIO (30, mixed-race Brazilian man, medium build, short black hair, clean-shaven, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck) — the MINE WORKER: holds a piece of ore, speaks, looks down at it and back up; NEVER removes any safety equipment, NEVER walks away.
+@FUNCIONARIO (30, mixed-race Brazilian man, medium build, medium brown skin, short black hair, thick straight eyebrows, broad nose, full lips, clean-shaven with a faint stubble shadow, glossy white hard hat with black chin strap fastened and no logo, clear wraparound safety glasses, orange high-visibility vest with silver reflective strips over a long-sleeved dark grey work shirt worn untucked, black cargo work trousers, grey padded work gloves, orange ear plugs on an orange cord around his neck, black lace-up work boots) — the MINE WORKER: holds a piece of ore, speaks, looks down at it and back up; NEVER removes any safety equipment, NEVER walks away.
 FACES: his face exists once; the haul trucks far behind have no visible drivers.
 CONTACT: nobody touches anyone.
 
@@ -729,7 +712,7 @@ FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the ore is dense and heavy for its size, sharp-edged; dust lifts off the pit in the wind and drifts right; the vest is stiff; the haul trucks move slowly and heavily far below. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the granular dark-brown surface of the ore, reflective tape on the vest, the matte helmet shell, the chin-strap buckle, drill marks on the bench walls, the scale of the modern trucks against the pit.
+PHYSICS & MATERIAL — the ore is dense and heavy for its size, sharp-edged; dust lifts off the pit in the wind and drifts right; the vest is stiff; the haul trucks move slowly and heavily far below. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the granular dark-brown surface of the ore, reflective tape on the vest, the glossy white helmet shell, the black elastic chin strap under his jaw, drill marks on the bench walls, the scale of the modern trucks against the pit.
 
 LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
@@ -939,8 +922,8 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@MOTORISTA (40, Black Brazilian man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, greets the boy, drives, speaks once in shot 3; NEVER stands.
-@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
+@MOTORISTA (52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved uniform shirt with two flap chest pockets and small white name badges (nothing readable), worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, greets the boy, drives, speaks once in shot 3; NEVER stands.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
 FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.
 
@@ -962,7 +945,7 @@ SHOT 4 (13–16s) — CU, 47°: @ESTUDANTE seated by the window, the city of Bel
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
 [7–12s] @MOTORISTA (on camera, Brazilian Portuguese): "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."
-VOICE LOCK — @MOTORISTA: Brazilian man, 40, plain friendly baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @MOTORISTA: Brazilian man, 52, plain friendly baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @MOTORISTA (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
@@ -1035,7 +1018,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers) — the STUDENT: wires a circuit, switches it on, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: wires a circuit, switches it on, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
 CLASSMATE (unreferenced: a Brazilian girl about 16, braids, grey T-shirt) — beside him in shots 3 and 4; NEVER speaks.
 FACES: each face exists once; other students far behind are distinct and soft, mouths closed.
 CONTACT: the only touch is the fist bump in shot 4.
@@ -1045,7 +1028,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 10s; handheld in every shot.
-2. @ESTUDANTE wears exactly the bus wardrobe: charcoal-grey hoodie, white T-shirt, black jeans — WRONG if anything changes.
+2. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
 3. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy.
 4. Only @ESTUDANTE speaks, only this line — the classmate's mouth stays closed.
 5. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.
@@ -1075,7 +1058,7 @@ FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the stiff copper wire springs back when he tugs it; the switch clicks; the lamp comes on instantly; the fist bump lands with a soft knock. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the powder-coated metal of the training panel, colour-coded wires with clean copper ends, the warm glow of the lamp, the fleece of his hoodie, organised tools on the bench.
+PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the stiff copper wire springs back when he tugs it; the switch clicks; the lamp comes on instantly; the fist bump lands with a soft knock. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the powder-coated metal of the training panel, colour-coded wires with clean copper ends, the warm glow of the lamp, the matte cotton knit of his hoodie, organised tools on the bench.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: daylight through the workshop's big windows on frame-LEFT, ~5600 K, soft and directional; the panel lamp, once it is on, as a small warm practical.
@@ -1125,7 +1108,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ENFERMEIRA (30, mixed-race Brazilian woman, medium build, dark hair in a low bun, a small mole above the upper lip, white scrubs, a stethoscope around her neck) — the NURSE: cares for the patient, speaks once while working; NEVER stops caring for him; owns the frame-LEFT half in shot 3.
+@ENFERMEIRA (42, mixed-race Brazilian woman, light olive skin, slim-to-medium build, black hair centre-parted and pulled back into a low bun, a tiny mole under the left nostril and one on the forehead above the right eyebrow, white short-sleeved round-neck scrub top and white scrub trousers, a black stethoscope around her neck, white closed flat shoes) — the NURSE: cares for the patient, speaks once while working; NEVER stops caring for him; owns the frame-LEFT half in shot 3.
 PATIENT (unreferenced: a Brazilian man about 70, white hair, hospital gown, sitting up in bed) — owns the frame-RIGHT half in shot 3; NEVER speaks, mouth closed.
 FACES: each face exists once; no other people in focus.
 CONTACT: only her hands on the patient's hand and arm; in shot 4 he squeezes her hand.
@@ -1148,7 +1131,7 @@ SHOT 4 (12–14s) — CU, 47°: the PATIENT's hand squeezes hers; she squeezes b
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
 [6–11s] @ENFERMEIRA (on camera, Brazilian Portuguese): "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."
-VOICE LOCK — @ENFERMEIRA: Brazilian woman, 30, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @ENFERMEIRA: Brazilian woman, 42, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @ENFERMEIRA (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
@@ -1217,7 +1200,7 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM (25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots, dark grey hiking backpack) — the PROTAGONIST: speaks his last words to you; his face fills the frame just left of centre.
+@JOVEM (25, Brazilian, mixed-race light-brown skin, lean, short black curly hair, ears that stick out slightly, light patchy stubble, a small mole on his left cheek, rust-red cotton overshirt open over a white T-shirt, black slim jeans, brown leather hiking boots with black toe caps, charcoal-grey backpack) — the PROTAGONIST: speaks his last words to you; his face fills the frame just left of centre.
 FACES: his face exists once; nobody else.
 
 SCENE — The same summit in Minas Gerais, Brazil, at the same late-afternoon hour; @JOVEM, in a very tight close-up, is already looking at you; the sea of hills is a soft haze behind him.
@@ -1226,7 +1209,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything a
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. ONE handheld take in a very tight close-up — WRONG if it cuts, widens or is locked.
 2. His eyes stay on the lens and alive from start to finish — WRONG if glassy or looking away.
-3. Real skin in detail: pores, stubble, the mole on the right cheek — WRONG if smooth or retouched.
+3. Real skin in detail: pores, stubble, the small mole on his left cheek (frame-right as he faces the lens) — WRONG if smooth or retouched.
 4. Only @JOVEM speaks, only this text.
 5. Sun from frame-LEFT — NO music.
 
@@ -1366,14 +1349,14 @@ VOICE LOCK — @JOVEM: young Brazilian man, 25, warm baritone; light Minas Gerai
 VOICE LOCK — @ALUNO: Brazilian boy, 10, clear bright child's voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 VOICE LOCK — @PROFESSORA: Brazilian woman, 40, warm mid voice of a teacher; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 VOICE LOCK — @HOMEM_EV: Brazilian man, 40, relaxed baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
-VOICE LOCK — @OPERARIO: Brazilian man, 30, mid-low voice, slightly raised over the machines; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
+VOICE LOCK — @OPERARIO: Brazilian man, 40, mid-low voice, slightly raised over the machines; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 VOICE LOCK — @PESQUISADORA: Brazilian woman, 30, light quick mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 VOICE LOCK — @DONO: Brazilian man, 60, deep easy voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 VOICE LOCK — @AGRICULTORA: Brazilian woman, 40, steady mid-low voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 VOICE LOCK — @FUNCIONARIO: Brazilian man, 30, low calm chest voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
-VOICE LOCK — @MOTORISTA: Brazilian man, 40, plain friendly baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @MOTORISTA: Brazilian man, 52, plain friendly baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 VOICE LOCK — @ESTUDANTE: Brazilian teenage boy, 15, light new baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
-VOICE LOCK — @ENFERMEIRA: Brazilian woman, 30, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
+VOICE LOCK — @ENFERMEIRA: Brazilian woman, 42, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 ```
 
 ### Política de música

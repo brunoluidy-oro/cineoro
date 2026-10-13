@@ -5,18 +5,18 @@
 import templates as T
 
 ANCH = {
-    "JOVEM": "25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots, dark grey hiking backpack",
-    "ALUNO": "10, Black Brazilian boy, slim, short tight curls, round face, light green school T-shirt with no emblem, black shorts, black sandals",
-    "PROFESSORA": "40, white Brazilian woman, medium build, shoulder-length dark brown hair tied low, light freckles, dusty-rose cotton blouse, dark grey trousers",
-    "HOMEM_EV": "34, mixed-race Brazilian businessman, fit, short neatly cut black hair, trimmed beard, slim navy suit, light-blue dress shirt with no tie, wedding ring on the left hand",
-    "OPERARIO": "30, mixed-race (pardo) Brazilian man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, grey work gloves",
-    "PESQUISADORA": "30, Black Brazilian woman, slim, natural hair in a tight bun, small gold stud earrings, buttoned white lab coat, purple nitrile gloves, clear safety glasses",
-    "DONO": "60, white Brazilian man, solid build, short neatly trimmed grey moustache, short white hair, light linen short-sleeved shirt, charcoal canvas apron",
-    "AGRICULTORA": "40, mixed-race Brazilian woman, strong build, long black hair in a single braid, tan felt farmer's hat pushed back off the forehead, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar",
-    "FUNCIONARIO": "30, mixed-race Brazilian man, medium build, short black hair, clean-shaven, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck",
-    "MOTORISTA": "40, Black Brazilian man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist",
-    "ESTUDANTE": "15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers",
-    "ENFERMEIRA": "30, mixed-race Brazilian woman, medium build, dark hair in a low bun, a small mole above the upper lip, white scrubs, a stethoscope around her neck",
+    "JOVEM": "25, Brazilian, mixed-race light-brown skin, lean, short black curly hair, ears that stick out slightly, light patchy stubble, a small mole on his left cheek, rust-red cotton overshirt open over a white T-shirt, black slim jeans, brown leather hiking boots with black toe caps, charcoal-grey backpack",
+    "ALUNO": "10, Black Brazilian boy, slim, dark brown skin, short tight black curls, soft oval face, large dark brown eyes with long lashes, sage-green school T-shirt with no emblem, black shorts, black strapped sport sandals",
+    "PROFESSORA": "40, white Brazilian woman, medium build, dark brown hair centre-parted in a low bun with loose strands framing the face, dense freckles across the nose and cheeks, mauve satin blouse with a band collar tucked into charcoal-grey straight-leg trousers, brown flats, a silver wristwatch on the left wrist",
+    "HOMEM_EV": "34, mixed-race Brazilian businessman, light olive-tan skin, fit, short black hair swept up and back with tapered sides, thick dark eyebrows, short full dark beard and moustache, slim dark navy suit, light-blue dress shirt open at the collar with no tie, silver steel watch on the left wrist, gold ring, brown leather lace-up shoes",
+    "OPERARIO": "40, mixed-race (pardo) Brazilian man, heavyset and broad-shouldered, round full face with freckled cheeks, close-shaved head, short full black beard flecked with grey, white hard hat with no logo, clear wraparound safety glasses, orange ear muffs around his neck, dark charcoal-grey flame-retardant coverall with silver reflective strips over the shoulders, chest, forearms and shins, grey knit work gloves, black leather safety boots",
+    "PESQUISADORA": "30, Black Brazilian woman, deep brown skin, slim, black natural hair pulled up into a high twisted bun, high cheekbones, broad nose, full lips, small gold stud earrings, long buttoned white lab coat, black wide-leg trousers, purple nitrile gloves, clear safety glasses with a black brow bar and black arms",
+    "DONO": "60, white Brazilian man, solid build, broad deeply lined face with age spots, large nose and ears, grey-hazel eyes, thick bushy white-grey moustache covering the upper lip, short white hair thinning on top, cream short-sleeved camp-collar shirt with a chest pocket, very dark navy knee-length waist apron, dark grey trousers, tan leather loafers",
+    "AGRICULTORA": "40, mixed-race Brazilian woman, slim, warm brown skin, long face with high cheekbones and fine lines, long black hair in a single thick braid worn over her left shoulder, tan felt wide-brim hat with brown leather trim sitting just above the eyebrows, sage-green long-sleeved button-up shirt with two flap chest pockets worn untucked, dark indigo jeans, dark brown lace-up leather work boots, tortoiseshell sunglasses hooked on the shirt front",
+    "FUNCIONARIO": "30, mixed-race Brazilian man, medium build, medium brown skin, short black hair, thick straight eyebrows, broad nose, full lips, clean-shaven with a faint stubble shadow, glossy white hard hat with black chin strap fastened and no logo, clear wraparound safety glasses, orange high-visibility vest with silver reflective strips over a long-sleeved dark grey work shirt worn untucked, black cargo work trousers, grey padded work gloves, orange ear plugs on an orange cord around his neck, black lace-up work boots",
+    "MOTORISTA": "52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved uniform shirt with two flap chest pockets and small white name badges (nothing readable), worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist",
+    "ESTUDANTE": "15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers",
+    "ENFERMEIRA": "42, mixed-race Brazilian woman, light olive skin, slim-to-medium build, black hair centre-parted and pulled back into a low bun, a tiny mole under the left nostril and one on the forehead above the right eyebrow, white short-sleeved round-neck scrub top and white scrub trousers, a black stethoscope around her neck, white closed flat shoes",
 }
 
 SCOPE_ID = ("REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — "
@@ -150,25 +150,17 @@ THE SOUL OF THE SCENE (play it, never explain it): earth, ore, steel, school —
     ]),
     dialogue(line(1, 4, "JOVEM", "Em Minas, terra não é só terra."), line(13, 14, "ALUNO", "É futuro."),
              line(15, 17, "PROFESSORA", "Minério não é só minério."), "JOVEM", "ALUNO", "PROFESSORA"),
-    acting("JOVEM", "he grew up here and is proud of this land.",
-           "say it to you like good news to a friend who just arrived.",
-           "on the lens, checking both of your eyes.",
-           "the wind lifts his collar", "a heroic pose"),
-    acting("ALUNO", "he knows the answer and likes being right.",
-           "answer simply and look for your approval.",
-           "on the lens when he answers.",
-           "a small proud breath after the line", "a cute pose, a child-actor performance"),
-    acting("PROFESSORA", "she is proud of her student.",
-           "take his answer and hand it to everyone as the lesson.",
-           "a quick proud look at him, then to the lens as to the whole class.",
-           "a small nod to herself after the line", "lecturing, pointing a finger"),
-    "ACTING — classmates (background): follow the exchange, a few smile; NOT looking at the lens, NOT speaking.",
+    """ACTING — shared direction: tell a friend some good news about your state — happy and proud; the lens is that friend. Pupils search, settle and drift; blinks uneven; a frozen pupil is wrong.
+@JOVEM: TACTIC say it like good news to a friend who just arrived; eyes on yours; NOT a heroic pose, a solemn face.
+@ALUNO: TACTIC answer simply and look for your approval; eyes on the lens; NOT a cute pose, a child-actor performance.
+@PROFESSORA: TACTIC hand his answer to everyone as the lesson; a proud look at him, then to the lens; NOT lecturing, pointing a finger.
+Classmates: follow the exchange, silent, NOT looking at the lens.""",
     """CAMERA — follows @Video1's path and timing exactly, with a light handheld texture (small human sway and late corrections) rather than a mechanical glide; level and facing forward the whole way, never tilting.
 OPTICS: 47° throughout; no zoom, no lens drift.
 FOCUS: on @JOVEM's eyes in beat 1; on whatever passes the lens during the descent; on @ALUNO's eyes after the landing, then on @PROFESSORA's eyes when she speaks.
 HORIZON: level.
 NOT: a cut, a tilt down, a drone, a CGI fly-through, a zoom, a locked tripod frame.""",
-    """GEOMETRY — on the summit, @JOVEM stands 1.2 m from the lens, frontal. In the classroom: windows along the frame-LEFT wall; @ALUNO seated at a desk in the centre of the frame, 1.6 m from the lens, facing it; @PROFESSORA standing about 1.5 m behind him at frame-left; desks to both sides, classmates soft beyond.""",
+    """GEOMETRY — classroom: windows along the frame-LEFT wall; @ALUNO seated at a desk in the centre of the frame, 1.6 m from the lens, facing it; @PROFESSORA standing about 1.5 m behind him at frame-left; desks to both sides, classmates soft beyond.""",
     """PHYSICS & MATERIAL — wind moves his collar on the summit; in the descent, loose soil and small stones fall past the lens at the speed of the movement, roots hang and sway, the ore is heavy with metallic glints; dust motes drift past the steel; the fan's blades turn slowly; in the classroom a chair creaks and a pencil rolls. """ + REAL + """ MATERIAL TRUTH: the weave of his overshirt, roots with soil clinging, banded grey hematite, the matte paint of the steel beams, the white ceiling grid and fan, new laminate desks, the cotton of the green school T-shirt, a clean whiteboard with no writing.""",
     """LIGHT — MOTIVATED LIGHT ONLY (KEY): one dominant motivated natural source per place, with real falloff and soft-edged shadows.
 SUMMIT (0–7s): the low late-afternoon sun ~4300 K from frame-LEFT on his face; open sky as soft fill.
@@ -324,7 +316,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in thi
            "his moustache lifts on one side before he speaks", "a waiter's bow, presenting the plate to the camera"),
     "ACTING — CUSTOMER: TACTIC enjoy the food and approve; eyes on the plate; NOT speaking, NOT looking at the lens.",
     T.REV_CAMERA,
-    """PHYSICS & MATERIAL — the oil falls in a thin stream and beads on the greens; the ceramic plate is heavy and touches down with a soft knock; steam rises from the rice and bends in the window air; the fork pierces a vegetable with slight resistance. """ + REAL + """ MATERIAL TRUTH: the grain of the light wood table, the glaze of the handmade ceramic plate, glossy oil on the leaves, linen napkins, potted plants by the window, the canvas weave of his apron.""",
+    """PHYSICS & MATERIAL — the oil falls in a thin stream and beads on the greens; the ceramic plate is heavy and touches down with a soft knock; steam rises from the rice and bends in the window air; the fork pierces a vegetable with slight resistance. """ + REAL + """ MATERIAL TRUTH: the grain of the light wood table, the glaze of the handmade ceramic plate, glossy oil on the leaves, linen napkins, potted plants by the window, the smooth cotton of his dark navy waist apron.""",
     T.light_int("the restaurant's big street windows",
                 "warm pendant lights over the counter in the background, small, never on the faces.",
                 "the daylight lights the frame-LEFT side of his face, the steam and the plate; the back of the room falls off a stop."),
@@ -361,7 +353,7 @@ THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs
            "she breathes a short laugh through her nose", "arms spread over the field"),
     T.REV_CAMERA,
     """GEOMETRY — the rows run left to right across the frame; @AGRICULTORA walks along one row, the camera along the parallel row 2.5 m away; the plants knee-high; the centre-pivot arm about 300 m away; the sun low on frame-LEFT.""",
-    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod resists and splits along its seam; her boots press into the soft soil between rows; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: fine hairs on the green pods, glossy healthy leaves, the technical fabric of her shirt, the spray of the irrigation catching the sun far off.""",
+    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod resists and splits along its seam; her boots press into the soft soil between rows; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: fine hairs on the green pods, glossy healthy leaves, the light cotton of her sage-green shirt, the spray of the irrigation catching the sun far off.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. {T.MUSIC_POLICY}""",
@@ -400,7 +392,7 @@ THE SOUL OF THE SCENE (play it, never explain it): the world comes here for the 
            "he swallows once and smiles", "a heroic pose, gesturing at the mine"),
     T.MATCH_FRAME,
     T.handheld(),
-    """PHYSICS & MATERIAL — the ore is dense and heavy for its size, sharp-edged; dust lifts off the pit in the wind and drifts right; the vest is stiff; the haul trucks move slowly and heavily far below. """ + REAL + """ MATERIAL TRUTH: the granular dark-brown surface of the ore, reflective tape on the vest, the matte helmet shell, the chin-strap buckle, drill marks on the bench walls, the scale of the modern trucks against the pit.""",
+    """PHYSICS & MATERIAL — the ore is dense and heavy for its size, sharp-edged; dust lifts off the pit in the wind and drifts right; the vest is stiff; the haul trucks move slowly and heavily far below. """ + REAL + """ MATERIAL TRUTH: the granular dark-brown surface of the ore, reflective tape on the vest, the glossy white helmet shell, the black elastic chin strap under his jaw, drill marks on the bench walls, the scale of the modern trucks against the pit.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); gravel shifting on the stockpile; after his line, only wind and the distant truck. {T.MUSIC_POLICY}""",
@@ -545,7 +537,7 @@ CONTACT: the only touch is the fist bump in shot 4.""",
 THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work with his own hands and is thrilled — he tells you what this place is for.""",
     f"""{LOCKS_HEAD}
 1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 10s; handheld in every shot.
-2. @ESTUDANTE wears exactly the bus wardrobe: charcoal-grey hoodie, white T-shirt, black jeans — WRONG if anything changes.
+2. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
 3. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy.
 4. Only @ESTUDANTE speaks, only this line — the classmate's mouth stays closed.
 5. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.""",
@@ -562,7 +554,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work
            "a quick swallow, then the grin breaks", "a cheeky smirk, a teenage pose"),
     "ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the lamp, then on him; NOT speaking, NOT looking at the lens.",
     T.handheld(),
-    """PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the stiff copper wire springs back when he tugs it; the switch clicks; the lamp comes on instantly; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the powder-coated metal of the training panel, colour-coded wires with clean copper ends, the warm glow of the lamp, the fleece of his hoodie, organised tools on the bench.""",
+    """PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the stiff copper wire springs back when he tugs it; the switch clicks; the lamp comes on instantly; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the powder-coated metal of the training panel, colour-coded wires with clean copper ends, the warm glow of the lamp, the matte cotton knit of his hoodie, organised tools on the bench.""",
     T.light_int("the workshop's big windows",
                 "the panel lamp, once it is on, as a small warm practical.",
                 "the daylight lights the frame-LEFT side of his face and the panel; the room behind falls off a stop."),
@@ -631,7 +623,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything a
     f"""{LOCKS_HEAD}
 1. ONE handheld take in a very tight close-up — WRONG if it cuts, widens or is locked.
 2. His eyes stay on the lens and alive from start to finish — WRONG if glassy or looking away.
-3. Real skin in detail: pores, stubble, the mole on the right cheek — WRONG if smooth or retouched.
+3. Real skin in detail: pores, stubble, the small mole on his left cheek (frame-right as he faces the lens) — WRONG if smooth or retouched.
 4. Only @JOVEM speaks, only this text.
 5. Sun from frame-LEFT — NO music.""",
     timeline(1, [], [

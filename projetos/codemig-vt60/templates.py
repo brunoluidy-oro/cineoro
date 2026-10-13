@@ -11,14 +11,14 @@ VOICE = {
     "ALUNO": "Brazilian boy, 10, clear bright child's voice; " + ACCENT_BH,
     "PROFESSORA": "Brazilian woman, 40, warm mid voice of a teacher; " + ACCENT_BH,
     "HOMEM_EV": "Brazilian man, 40, relaxed baritone; " + ACCENT_BH,
-    "OPERARIO": "Brazilian man, 30, mid-low voice, slightly raised over the machines; " + ACCENT_INTERIOR,
+    "OPERARIO": "Brazilian man, 40, mid-low voice, slightly raised over the machines; " + ACCENT_INTERIOR,
     "PESQUISADORA": "Brazilian woman, 30, light quick mid voice; " + ACCENT_BH,
     "DONO": "Brazilian man, 60, deep easy voice; " + ACCENT_INTERIOR,
     "AGRICULTORA": "Brazilian woman, 40, steady mid-low voice; " + ACCENT_INTERIOR,
     "FUNCIONARIO": "Brazilian man, 30, low calm chest voice; " + ACCENT_INTERIOR,
-    "MOTORISTA": "Brazilian man, 40, plain friendly baritone; " + ACCENT_BH,
+    "MOTORISTA": "Brazilian man, 52, plain friendly baritone; " + ACCENT_BH,
     "ESTUDANTE": "Brazilian teenage boy, 15, light new baritone; " + ACCENT_BH,
-    "ENFERMEIRA": "Brazilian woman, 30, soft calm mid voice; " + ACCENT_BH,
+    "ENFERMEIRA": "Brazilian woman, 42, soft calm mid voice; " + ACCENT_BH,
 }
 
 
