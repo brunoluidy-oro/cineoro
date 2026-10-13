@@ -36,7 +36,9 @@ A bible touches every department, so read only this list (not every department r
 `cineoro-light/references/film-locks.md`, `cineoro-camera/references/format-and-lens-looks.md`,
 `cineoro-sound/references/voice-and-language.md` (if there is speech),
 `cineoro-performance/references/acting-task.md`, `cineoro-realism/references/negative-library.md`,
-and `cineoro-assets/references/asset-pipeline.md` (the registry format and asset image prompts).
+`cineoro-assets/references/asset-pipeline.md` (the registry format and asset image prompts) and
+`cineoro-assets/references/character-sheet.md` (the standard split-frame character-sheet template:
+every character's sheet prompt in the registry is filled from it).
 
 ## Procedure
 

@@ -15,11 +15,11 @@ ANCH = {
     "AGRICULTORA": "40, mixed-race Brazilian woman, strong build, long black hair in a single braid, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar",
     "FUNCIONARIO": "30, mixed-race Brazilian man, medium build, short black hair, a moustache, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck",
     "MOTORISTA": "40, Black Brazilian man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist",
-    "ESTUDANTE": "15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers, dark backpack",
+    "ESTUDANTE": "15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers",
     "ENFERMEIRA": "30, mixed-race Brazilian woman, medium build, dark hair in a low bun, a small mole above the upper lip, white scrubs, a stethoscope around her neck",
 }
 
-SCOPE_ID = ("REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — "
+SCOPE_ID = ("REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — "
             "IGNORE their grey backdrop, studio lighting, exposure and colour grade.")
 
 DLG = ("DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO "
@@ -487,7 +487,7 @@ T12 = join(
 {SCOPE_ID} @ONIBUS_INT supplies the space and materials ONLY — its light is replaced by the LIGHT block.""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @MOTORISTA ({ANCH['MOTORISTA']}) — the BUS DRIVER: at the wheel on the bus's left side, greets the boy, drives, speaks once in shot 3; NEVER stands.
-@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: boards, raises a hand, sits by a window; NEVER speaks, mouth closed.
+@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
 FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.""",
     """SCENE — Late afternoon on a modern, air-conditioned city bus in Belo Horizonte, Brazil; at a stop, the glass door is already folding open for a teenage student with a backpack.

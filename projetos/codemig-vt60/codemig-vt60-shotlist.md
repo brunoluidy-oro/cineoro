@@ -51,7 +51,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 13 seconds total, 2 shots
 REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, hair, build, hands and wardrobe. 100% matches.
 @PICO — WORLD: the summit — grey rock, low grass, the layered sea of green hills beyond; the world for both shots.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies geography and materials ONLY — its light is replaced by the LIGHT block.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies geography and materials ONLY — its light is replaced by the LIGHT block.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @JOVEM (25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, a thin scar through the left eyebrow, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots) — the PROTAGONIST: looks at the hills, turns, speaks once; NEVER walks away, NEVER raises his arms; owns the frame-LEFT third in shot 1.
@@ -139,7 +139,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 14 seconds total, 3 shots
 REFERENCES — each reference has ONE job:
 @ALUNO — IDENTITY of @ALUNO: face, hair, build, hands and wardrobe. 100% matches.
 @PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @ALUNO (10, Black Brazilian boy, slim, short tight curls, round face, a small gap between his front teeth, plain white school polo shirt with no emblem) — the STUDENT: raises his hand, answers, beams; NEVER stands; owns the frame-LEFT half.
@@ -242,7 +242,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots
 
 REFERENCES — each reference has ONE job:
 @HOMEM_EV — IDENTITY of @HOMEM_EV: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @HOMEM_EV (40, mixed-race Brazilian man, stocky, short black hair greying at the temples, trimmed beard, untucked light-grey linen shirt, wedding ring on the left hand) — the CAR OWNER: plugs in the charger, speaks once, pats the car; NEVER poses beside the car, NEVER walks out of frame before shot 4.
@@ -330,7 +330,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots
 
 REFERENCES — each reference has ONE job:
 @OPERARIO — IDENTITY of @OPERARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @OPERARIO (30, Black Brazilian man, broad shoulders, short beard, white hard hat with no logo, clear safety glasses, orange ear muffs around his neck, dark grey flame-retardant coverall with reflective strips, grey work gloves) — the STEELWORKER: runs the line from the console, speaks once; NEVER removes helmet or glasses, NEVER walks out of frame.
@@ -418,7 +418,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 11 seconds total, 4 shots
 
 REFERENCES — each reference has ONE job:
 @PESQUISADORA — IDENTITY of @PESQUISADORA: face, hair, build, hands, wardrobe and safety equipment. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @PESQUISADORA (30, Black Brazilian woman, slim, natural hair in a tight bun, small gold stud earrings, buttoned white lab coat, purple nitrile gloves, clear safety glasses) — the RESEARCHER: works at the bench, speaks once; NEVER removes gloves or glasses, NEVER walks out of frame.
@@ -505,7 +505,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots
 
 REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @DONO (60, white Brazilian man, solid build, thick white moustache, short white hair, light linen short-sleeved shirt, charcoal canvas apron) — the OWNER: plates, serves, speaks once; NEVER sits, NEVER walks out of frame.
@@ -595,7 +595,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 17 seconds total, 4 shots
 
 REFERENCES — each reference has ONE job:
 @AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @AGRICULTORA (40, mixed-race Brazilian woman, strong build, long black hair in a single braid, sand-coloured technical long-sleeved shirt, dark jeans, modern leather work boots, sunglasses hooked on the collar) — the FARMER: walks her soybean field, checks the plants, speaks; NEVER walks toward the camera, NEVER stops walking.
@@ -686,7 +686,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 15 seconds total, 3 shots
 REFERENCES — each reference has ONE job:
 @FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
 @MINA — WORLD: the open-pit niobium mine — terraced benches, haul roads, a stockpile of ore; the world for all shots.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @MINA supplies geography and materials ONLY — its light is replaced by the LIGHT block.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @MINA supplies geography and materials ONLY — its light is replaced by the LIGHT block.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @FUNCIONARIO (30, mixed-race Brazilian man, medium build, short black hair, a moustache, white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility reflective vest over a long-sleeved grey work shirt, grey work gloves, ear plugs on a cord around his neck) — the MINE WORKER: holds a piece of ore, speaks, looks down at it and back up; NEVER removes any safety equipment, NEVER walks away.
@@ -936,11 +936,11 @@ REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
 @ONIBUS_INT — WORLD: the inside of a modern Brazilian city bus — driver's cab, glass folding door, low floor, seats, handrails; the world for all shots.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @ONIBUS_INT supplies the space and materials ONLY — its light is replaced by the LIGHT block.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @ONIBUS_INT supplies the space and materials ONLY — its light is replaced by the LIGHT block.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @MOTORISTA (40, Black Brazilian man, solid build, close-cropped greying hair, round face, pale grey short-sleeved uniform shirt with no insignia, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, greets the boy, drives, speaks once in shot 3; NEVER stands.
-@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers, dark backpack) — the STUDENT: boards, raises a hand, sits by a window; NEVER speaks, mouth closed.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
 FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.
 
@@ -1033,10 +1033,10 @@ CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots
 
 REFERENCES — each reference has ONE job:
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe — the same clothes as on the bus. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers, dark backpack) — the STUDENT: wires a circuit, switches it on, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, thin and tall for his age, short hair faded at the sides, a faint teenage moustache, charcoal-grey hoodie over a white T-shirt, black jeans, white sneakers) — the STUDENT: wires a circuit, switches it on, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
 CLASSMATE (unreferenced: a Brazilian girl about 16, braids, grey T-shirt) — beside him in shots 3 and 4; NEVER speaks.
 FACES: each face exists once; other students far behind are distinct and soft, mouths closed.
 CONTACT: the only touch is the fist bump in shot 4.
@@ -1123,7 +1123,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 14 seconds total, 4 shots
 
 REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @ENFERMEIRA (30, mixed-race Brazilian woman, medium build, dark hair in a low bun, a small mole above the upper lip, white scrubs, a stethoscope around her neck) — the NURSE: cares for the patient, speaks once while working; NEVER stops caring for him; owns the frame-LEFT half in shot 3.
@@ -1216,7 +1216,7 @@ CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, ONE con
 REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe — use the close-up skin detail anchor. 100% matches.
 @PICO — WORLD: the same summit as the opening; only its soft layered hills appear behind him.
-REFERENCE SCOPE: character references supply face, build, hands and wardrobe ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies the background landscape ONLY — its light is replaced by the LIGHT block.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. @PICO supplies the background landscape ONLY — its light is replaced by the LIGHT block.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 @JOVEM (25, Brazilian, mixed-race brown skin, lean, short dark curly hair, light stubble, a thin scar through the left eyebrow, terracotta cotton overshirt open over a white T-shirt, dark slim jeans, modern brown leather hiking boots) — the PROTAGONIST: speaks his last words to you; his face fills the frame just left of centre.
@@ -1419,11 +1419,11 @@ glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, 
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, a few dark freckles on the cheekbones. Short dark curly hair with a natural hairline. Dark brown deep-set eyes with faint smile lines, straight thick eyebrows. Light three-day stubble, patchy at the cheeks. Warm, open, quietly confident expression with a hint of a smile — the face of someone proud of where he comes from. A thin pale scar through the left eyebrow and a small mole on the right cheek. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary young man from the interior of Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, a few dark freckles on the cheekbones. Short dark curly hair with a natural hairline. An oval face with defined cheekbones, a broad nose and full lips. Dark brown deep-set eyes with faint smile lines, straight thick eyebrows. Light three-day stubble, patchy at the cheeks. Warm, open, quietly confident expression with a hint of a smile — the face of someone proud of where he comes from. A thin pale scar through the left eyebrow and a small mole on the right cheek. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary young man from the interior of Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, lean and athletic, about 1.75 m. Outfit: terracotta cotton overshirt worn open with the sleeves rolled to the forearms, plain white crew-neck T-shirt, dark slim jeans, modern brown leather hiking boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @ALUNO
@@ -1431,11 +1431,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Black Brazilian boy, 10 years old, the entire head fully inside the frame, nothing cropped. Deep brown skin with a child's natural texture. Short tight black curls with a neat hairline. Large dark brown eyes, soft eyebrows. A small gap between his front teeth, just visible through slightly parted lips. Bright, eager expression with a small proud grin — the face of a kid who always raises his hand first. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary schoolboy from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Black Brazilian boy, 10 years old, the entire head fully inside the frame, nothing cropped. Deep brown skin with a child's natural texture. Short tight black curls with a neat hairline. A round face with a small broad nose and full lips. Large dark brown eyes, soft eyebrows. A small gap between his front teeth, just visible through slightly parted lips. Bright, eager expression with a small proud grin — the face of a kid who always raises his hand first. Real child's skin texture with fine pores and natural imperfections, no retouching, not a child model — an ordinary schoolboy from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, slim and small for his age. Outfit: plain white school polo shirt with no emblem, dark grey school trousers, black sneakers; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @PROFESSORA
@@ -1443,11 +1443,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a white Brazilian woman, 40 years old, the entire head fully inside the frame, nothing cropped. Fair skin with light freckles across the nose and cheeks. Shoulder-length dark brown hair tied low at the nape, a few loose strands framing the face. Warm hazel eyes with fine laugh lines, natural arched eyebrows. Light everyday makeup. Warm, attentive expression with a gentle smile — the face of a teacher who enjoys her students. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary teacher from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a white Brazilian woman, 40 years old, the entire head fully inside the frame, nothing cropped. Fair skin with light freckles across the nose and cheeks. Shoulder-length dark brown hair tied low at the nape, a few loose strands framing the face. A heart-shaped face with a straight nose and medium lips. Warm hazel eyes with fine laugh lines, natural arched eyebrows. Light everyday makeup. Warm, attentive expression with a gentle smile — the face of a teacher who enjoys her students. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary teacher from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
-Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height, average build. Outfit: dusty-rose cotton blouse with the sleeves pushed to the elbows, dark grey straight trousers, flat brown leather shoes, the same thin silver watch on the left wrist; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height, average build. Outfit: dusty-rose cotton blouse with the sleeves pushed to the elbows, dark grey straight trousers, flat brown leather shoes, a thin silver watch on the left wrist; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @HOMEM_EV
@@ -1455,11 +1455,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian man of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with faint lines at the eyes. Short black hair greying at the temples. Dark brown eyes, thick eyebrows. A neatly trimmed short beard. Relaxed, pleased half-smile — the face of a man who likes a smart deal. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary professional from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian man of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with faint lines at the eyes. Short black hair greying at the temples. A square face with a wide nose and medium lips. Dark brown eyes, thick eyebrows. A neatly trimmed short beard. Relaxed, pleased half-smile — the face of a man who likes a smart deal. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary professional from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, stocky, about 1.72 m. Outfit: untucked light-grey linen shirt with the sleeves rolled once, dark navy chinos, brown leather sneakers, a gold wedding ring on the left hand; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @OPERARIO
@@ -1467,11 +1467,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Black Brazilian man, 30 years old, the entire head fully inside the frame, nothing cropped. Dark brown skin with visible pores. Shaved head under a white hard hat with no logo, the hard hat fully inside the frame. Dark eyes under heavy brows, clearly visible behind clear safety glasses. A short full beard. Steady, good-humoured expression with a slight smile — the face of someone who knows his machines inside out. Orange ear muffs hang around his neck. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary steelworker from Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Black Brazilian man, 30 years old, the entire head fully inside the frame, nothing cropped. Dark brown skin with visible pores. Shaved head under a white hard hat with no logo, the hard hat fully inside the frame. A long face with a broad nose and full lips. Dark eyes under heavy brows, clearly visible behind clear safety glasses. A short full beard. Steady, good-humoured expression with a slight smile — the face of someone who knows his machines inside out. Orange ear muffs hang around his neck. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary steelworker from Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, broad-shouldered and solid, about 1.80 m. Outfit: white hard hat with no logo, clear safety glasses, orange ear muffs around the neck, dark grey flame-retardant coverall with silver reflective strips at chest and legs, grey work gloves, black steel-toe safety boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @PESQUISADORA
@@ -1479,11 +1479,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Black Brazilian woman, 30 years old, the entire head fully inside the frame, nothing cropped. Deep brown skin with even natural texture. Natural hair pulled back into a tight bun. Dark attentive eyes, clearly visible behind clear safety glasses, defined eyebrows. No makeup beyond a touch of lip balm. Alert, curious expression with a quick smile at the corners of the mouth — the face of someone always one step ahead. Small gold stud earrings. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary researcher from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Black Brazilian woman, 30 years old, the entire head fully inside the frame, nothing cropped. Deep brown skin with even natural texture. Natural hair pulled back into a tight bun. An oval face with a small nose and medium lips. Dark attentive eyes, clearly visible behind clear safety glasses, defined eyebrows. No makeup beyond a touch of lip balm. Alert, curious expression with a quick smile at the corners of the mouth — the face of someone always one step ahead. Small gold stud earrings. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary researcher from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, slim, medium height. Outfit: buttoned white lab coat with no name tag and no text, dark trousers, black closed leather shoes, purple nitrile gloves, clear safety glasses, the same small gold stud earrings; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @DONO
@@ -1491,11 +1491,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a white Brazilian man, 60 years old, the entire head fully inside the frame, nothing cropped. Fair skin with a few age spots and deep smile lines. Short neatly cut white hair. Kind grey-brown eyes, white eyebrows. A thick white moustache. Warm, twinkling expression under the moustache — the face of a host who has fed half the city. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary restaurant owner from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a white Brazilian man, 60 years old, the entire head fully inside the frame, nothing cropped. Fair skin with a few age spots and deep smile lines. Short neatly cut white hair. A wide friendly face with a large nose. Kind grey-brown eyes, white eyebrows. A thick white moustache. Warm, twinkling expression under the moustache — the face of a host who has fed half the city. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary restaurant owner from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, solid and upright, about 1.72 m. Outfit: off-white linen short-sleeved shirt, crisp charcoal canvas apron tied at the back, dark grey trousers, brown leather loafers; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @AGRICULTORA
@@ -1503,11 +1503,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian woman of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, fine lines at the eyes. Long black hair in a single braid falling down the back. Dark brown eyes with smile lines, straight eyebrows. No makeup. Confident, sunny expression with an easy smile — the face of someone who runs her land and enjoys it. Sunglasses hooked on the collar. A small scar on the right thumb. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary farmer and agronomist from the Triângulo Mineiro. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian woman of mixed descent, 40 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin, healthy, fine lines at the eyes. Long black hair in a single braid falling down the back. A square face with a broad nose and a firm mouth. Dark brown eyes with smile lines, straight eyebrows. No makeup. Confident, sunny expression with an easy smile — the face of someone who runs her land and enjoys it. Sunglasses hooked on the collar. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary farmer and agronomist from the Triângulo Mineiro. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, strong, medium height. Outfit: sand-coloured technical long-sleeved shirt, dark jeans, modern brown leather work boots, the same sunglasses hooked on the collar; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @FUNCIONARIO
@@ -1515,11 +1515,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian man of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with visible pores. Short black hair under a white hard hat with the chin strap fastened and no logo, the hard hat fully inside the frame. Calm dark eyes, clearly visible behind clear safety glasses, thick straight eyebrows. A full moustache. Calm, warm expression with a quiet smile — the face of someone proud of his work. Foam ear plugs hang on an orange cord around his neck. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary mine worker from Araxá, Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian man of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with visible pores. Short black hair under a white hard hat with the chin strap fastened and no logo, the hard hat fully inside the frame. An oval face with a medium nose and medium lips. Calm dark eyes, clearly visible behind clear safety glasses, thick straight eyebrows. A full moustache. Calm, warm expression with a quiet smile — the face of someone proud of his work. Foam ear plugs hang on an orange cord around his neck. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary mine worker from Araxá, Minas Gerais. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, medium build, about 1.74 m. Outfit: white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility vest with silver reflective strips and no text, long-sleeved grey cotton work shirt, dark grey work trousers, grey work gloves, foam ear plugs on an orange cord around the neck, black steel-toe boots; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @MOTORISTA
@@ -1527,11 +1527,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Black Brazilian man, 40 years old, the entire head fully inside the frame, nothing cropped. Dark brown skin with lines at the eyes. Close-cropped greying hair. Warm dark eyes, soft eyebrows. Clean-shaven. Friendly, patient expression with an easy smile — the face of someone who greets every passenger. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary bus driver from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Black Brazilian man, 40 years old, the entire head fully inside the frame, nothing cropped. Dark brown skin with lines at the eyes. Close-cropped greying hair. A round face with a broad nose and full lips. Warm dark eyes, soft eyebrows. Clean-shaven. Friendly, patient expression with an easy smile — the face of someone who greets every passenger. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary bus driver from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
 Right panel — full-body front and back views side by side: the same man shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, solid, about 1.76 m. Outfit: pale grey short-sleeved uniform shirt with no insignia and no name tag, dark navy trousers, black leather shoes, a steel wristwatch with no visible brand on the left wrist; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @ESTUDANTE
@@ -1539,11 +1539,11 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian teenage boy of mixed descent, 15 years old, the entire head fully inside the frame, nothing cropped. Light brown skin with natural teenage texture. Short black hair faded at the sides, longer on top. Dark eyes, thin eyebrows. A faint teenage moustache. Earnest, slightly shy expression with a half-grin — the face of a teenager who wants to be taken seriously. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary student from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian teenage boy of mixed descent, 15 years old, the entire head fully inside the frame, nothing cropped. Light brown skin with natural teenage texture. Short black hair faded at the sides, longer on top. A long face with a straight nose and thin lips. Dark eyes, thin eyebrows. A faint teenage moustache. Earnest, slightly shy expression with a small closed-mouth smile — the face of a teenager who wants to be taken seriously. Real teenage skin texture with pores and natural imperfections, no retouching, not a model — an ordinary student from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
-Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, thin and tall for his age, about 1.75 m. Outfit: charcoal-grey hoodie with no print over a white crew-neck T-shirt, black slim jeans, white sneakers, a plain dark backpack with no logo worn on both shoulders; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
+Right panel — full-body front and back views side by side: the same boy shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, he stands in a neutral relaxed pose, arms resting at his sides with hands relaxed and fingers together, full height in frame head-to-toe, thin and tall for his age, about 1.75 m. Outfit: charcoal-grey hoodie with no print over a white crew-neck T-shirt, black slim jeans, white sneakers; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @ENFERMEIRA
@@ -1551,17 +1551,17 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian woman of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with natural texture. Dark hair in a low bun. Dark calm eyes, natural eyebrows. Light everyday makeup. Calm, kind expression with a soft smile — the face of someone who puts people at ease. A stethoscope around her neck. A small mole above the upper lip. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary nurse from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the whole face bright and evenly readable — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian woman of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with natural texture. Dark hair in a low bun. An oval face with a medium nose and medium lips. Dark calm eyes, natural eyebrows. Light everyday makeup. Calm, kind expression with a soft smile — the face of someone who puts people at ease. A stethoscope around her neck. A small mole above the upper lip. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary nurse from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill, the key gently modelling the face so pores, skin texture and individual hair strands read, the whole face still bright with every feature clearly readable — at most one side of the face slightly darker.
 
-Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height and build. Outfit: white scrub top and trousers with no text and no logo, a stethoscope around the neck, a small fob watch pinned to the chest pocket, white closed shoes; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height and build. Outfit: white cotton scrub top and trousers with visible seams and soft folds, no text and no logo, a stethoscope around the neck, a small fob watch pinned to the chest pocket, white closed shoes; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
-Look: clean studio character sheet, plain solid light-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
+Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, bright and clean overall exposure with no deep shadows, whites and highlights holding full texture, nothing blown out, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
 
 ### @JOVEM · face anchor
 
 ```
-Close-up portrait photograph of @JOVEM — the same man as his character sheet: a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin with a few dark freckles on the cheekbones, short dark curly hair, light three-day stubble, dark brown deep-set eyes with faint smile lines, a thin pale scar through the left eyebrow, a small mole on the right cheek. Warm, open, quietly confident expression with a hint of a smile, eyes to camera. Real skin texture in maximum detail — pores, fine lines at the eyes, individual stubble hairs — no retouching, not a model. Shot on 85mm portrait lens, soft cinematic key light from frame-left with gentle fill, bright and clean overall, at most the right side of the face slightly darker. Plain solid light-grey background. Photorealistic, not a render. No text, no logo.
+Single close-up portrait photograph, one frame, no panels and no divider line, of the same man as the attached character sheet (its face close-up supplies identity only): a Brazilian man of mixed descent, 25 years old, the entire head fully inside the frame, nothing cropped. Warm brown skin with a few dark freckles on the cheekbones, short dark curly hair, light three-day stubble, an oval face with defined cheekbones, a broad nose and full lips, dark brown deep-set eyes with faint smile lines, straight thick eyebrows, a thin pale scar through the left eyebrow, a small mole on the right cheek. At the neck, the open collar of his terracotta cotton overshirt over a plain white crew-neck T-shirt. Warm, open, quietly confident expression with a hint of a smile, eyes to camera — the face of someone proud of where he comes from. Real skin texture in maximum detail — pores, fine lines at the eyes, individual stubble hairs — no retouching, not a model — an ordinary young man from the interior of Minas Gerais. Shot on 85mm portrait lens, soft cinematic key light from frame-left with gentle fill, bright and clean overall, at most the frame-right side of his face, away from the key, slightly darker. Plain solid light-grey background. Photorealistic, not a render. No text, no logo.
 ```
 
 ## Locações
