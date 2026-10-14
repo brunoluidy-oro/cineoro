@@ -1,6 +1,6 @@
 # CODEMIG · VT 60" — Shotlist CINEORO v2
 
-Seedance 2.5 via Higgsfield · 16:9 · ~60s no corte.
+Seedance 2.5 via Higgsfield · 21:9 · ~60s no corte.
 
 ## Direção
 
@@ -37,37 +37,39 @@ REALIST PRESET RULES SWITCHED OFF: "never look into the lens" (direct address);
 
 De costas pro mar de morros, o jovem vira; corte seco pro close, ele fala e a câmera desce num movimento só, pela terra, minério e aço, até a sala de aula.
 
-#### Geração T01-A · 5s · 1 plano(s)
+#### Geração T01-A · 6s · 1 plano(s)
 
-- **O que acontece:** No alto do pico, de costas pro mar de morros e de mochila, o jovem vira pra câmera sorrindo.
+- **O que acontece:** No alto do pico, o jovem de costas, de mochila, centralizado e de corpo inteiro num plano bem aberto, olhando os morros. Ele vira por completo até ficar de frente pra câmera, sorrindo, e segura o olhar.
 - **O que é dito:** nada.
-- **Tempo:** de costas, olhando os morros — 3s · vira sorrindo — 2s = 5s
-- **Como termina:** ele de frente pra câmera; corte seco para o close do T01-B.
-- **Direção:** O plano aberto que abre o filme. O corte seco pro close acontece entre as duas gerações, na montagem.
+- **Tempo:** de costas, olhando os morros — 2s · vira por completo — 2s · segura de frente — 2s = 6s
+- **Como termina:** ele de frente, quadrado pra câmera, olhando a lente. O corte cai nesse olhar.
+- **Direção:** Plano aberto e simétrico, o único do filme: a figura inteira ao centro e os morros caindo dos dois lados, que no 21:9 ganham espaço. O giro é completo, para o T01-B começar de onde este termina (ele de frente, olhando a lente) e o corte pro close fazer sentido.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, handheld, drifting slowly, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 6 seconds total, ONE continuous take, no cuts, handheld, drifting slowly, wide and centred, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, hair, build, hands, wardrobe and backpack. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM (25, Brazilian, mixed-race light-brown skin, lean, short black curly hair, ears that stick out slightly, light patchy stubble, a small mole on his left cheek, rust-red cotton overshirt open over a white T-shirt, black slim jeans, brown leather hiking boots with black toe caps, charcoal-grey backpack) — the PROTAGONIST: looks at the hills, turns toward the camera; NEVER speaks in this take, NEVER walks away, NEVER raises his arms; owns the frame-LEFT third.
+@JOVEM (25, Brazilian, mixed-race light-brown skin, lean, short black curly hair, ears that stick out slightly, light patchy stubble, a small mole on his left cheek, rust-red cotton overshirt open over a white T-shirt, black slim jeans, brown leather hiking boots with black toe caps, charcoal-grey backpack) — the PROTAGONIST: looks at the hills, turns all the way round to face the camera; NEVER speaks in this take, NEVER walks away, NEVER raises his arms; stands on the vertical centre line of the frame.
 FACES: his face exists once; nobody else in the frame.
 
-SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil. @JOVEM is already standing near the edge with his back to the camera, looking over a sea of green hills that runs in layers to the horizon.
+SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil. @JOVEM is already standing near the edge with his back to the camera, centred in a wide frame, looking over a sea of green hills that runs in layers to the horizon on both sides of him.
 THE SOUL OF THE SCENE (play it, never explain it): he loves where he comes from and is about to tell you why.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. ONE continuous handheld take, no cuts — WRONG if it cuts or the camera is locked.
-2. @JOVEM is in frame from the first frame, at the frame-LEFT third, back to camera — WRONG if the first frame is empty or he walks.
-3. NO dialogue — his mouth stays closed — WRONG if he speaks.
-4. Sun from frame-LEFT — NO music.
+2. WIDE and CENTRED the whole take: @JOVEM on the vertical centre line, his entire body from head to boots inside the frame, standing about 10 m from the lens, filling about a third of the frame height — WRONG if the shot is a medium shot, over-the-shoulder, cropped at the body, or he sits off-centre.
+3. The turn is COMPLETE: by 4s his body and shoulders are square to the camera and his eyes are on the lens, and he holds that until the end — WRONG if the turn stops half-way, at three-quarter or in profile.
+4. NO dialogue — his mouth stays closed — WRONG if he speaks.
+5. Sun from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–3s) — WS, 63°, handheld from 8 m behind him, drifting slowly: @JOVEM at the frame-LEFT third, back to camera, his backpack on both shoulders, the sea of hills filling the right two-thirds; his eyes travel the horizon.
-BEAT 2 (3–5s) — he turns toward the camera over his left shoulder, already smiling, and his eyes find the lens. Hard end the moment he faces the camera.
+BEAT 1 (0–2s) — WS, 63°, handheld from 10 m behind him at chest height, drifting slowly: @JOVEM centred, back to camera, his backpack on both shoulders, boots on the rock, the layered hills falling away to both sides of him; his eyes travel the horizon.
+BEAT 2 (2–4s) — he turns all the way round, boots re-planting on the rock, until he stands square to the camera, smiling, eyes on the lens.
+BEAT 3 (4–6s) — he holds, square to the camera, centred, smile and eyes on the lens, the backpack straps on both shoulders. Hard end on the held look.
 
 ACTING — @JOVEM: TACTIC take in the view he loves, then turn to share it with you; eyes on the far ridges, then on the lens; involuntary detail: the wind lifts his collar; NOT a heroic pose, open arms, a solemn face.
 
@@ -76,6 +78,9 @@ OPTICS: as stated per shot; no lens drift inside a shot.
 FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
+COMPOSITION (the one deliberate symmetrical frame of the film): @JOVEM on the vertical centre line, entire body in frame, the hills falling away evenly on both sides, the horizon on the upper third, sky above.
+
+GEOMETRY — the camera 10 m from @JOVEM at chest height; he stands 1 m back from the rock edge on the centre line; hills 2–10 km beyond on both sides, the farthest dissolving into haze.
 
 PHYSICS & MATERIAL — the wind from frame-left combs the grass and moves his overshirt; his boots shift on the rock when he turns; the backpack sways with the turn. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: lichen on the grey rock, the weave of his overshirt, the backpack's fabric and straps.
 
@@ -86,25 +91,25 @@ EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; bl
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: wind across the open summit; dry grass hissing; his boots on grit as he turns; a hawk far off. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: speaking, a cut, a dolly or drone move, a second person, raised arms, sun disc in frame, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: speaking, a cut, over-the-shoulder framing, a medium shot, a cropped body, a figure off-centre, a half-finished turn, a three-quarter or profile ending, a dolly or drone move, a second person, raised arms, sun disc in frame, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE handheld take, 5s, wide — (0–3s) his back to camera at the frame-LEFT third, backpack on, the sea of hills — (3–5s) he turns over his left shoulder, smiling, eyes to the lens; hard end. Invariants: occupied first frame; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
+[ORDER: ONE handheld take, 6s, wide and centred, 21:9 — (0–2s) his back to camera on the centre line, entire body in frame, the hills on both sides — (2–4s) he turns all the way round to face the camera, smiling — (4–6s) he holds square to the camera, eyes on the lens; hard end. Invariants: wide, centred, entire body in frame; the turn is complete; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 5s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 6s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @JOVEM (character sheet) — identidade
-Notas: sem locação anexada: o pico sai só do texto. Se o lugar sair genérico, gere uma plate do pico e anexe como mundo.
+Notas: o draft anterior saiu em médio sobre o ombro e terminou com ele meio virado. Confira três coisas: corpo inteiro no quadro, ele no centro, e o giro terminando de frente (ombros quadrados). Sem locação anexada: o pico sai só do texto.
 ```
 
 #### Geração T01-B · 18s · 1 plano(s)
@@ -116,7 +121,7 @@ Notas: sem locação anexada: o pico sai só do texto. Se o lugar sair genérico
 - **Direção:** Segue o seu bloqueio 3D (@Video1) como referência só de movimento: câmera nivelada que afunda, sem inclinar. As falas ficam nos trechos parados, nunca durante a descida. A tela preta saiu: a cadeia terra, minério, aço e escola agora é um movimento só.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 18 seconds total, ONE continuous take, no cuts, a single continuous vertical camera descent that follows the attached 3D blocking video, with a light handheld texture, real-time motion (fast travel during the descent; speech only when the camera is still), dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 18 seconds total, ONE continuous take, no cuts, a single continuous vertical camera descent that follows the attached 3D blocking video, with a light handheld texture, real-time motion (fast travel during the descent; speech only when the camera is still), dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, hair, build, hands, wardrobe and backpack. 100% matches.
@@ -143,7 +148,7 @@ ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 5. Handheld texture; sun from frame-LEFT on the summit, window daylight from frame-LEFT in the classroom — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–5s) — CU, 47°, handheld, frontal: @JOVEM's face and shoulders, backpack straps visible, the sea of hills soft behind him; at 1–4s he speaks to the lens; at 4–5s he holds your eyes with a smile.
+BEAT 1 (0–5s) — CU, 47°, handheld, frontal and centred: @JOVEM already facing the lens, shoulders square, mid-smile, exactly as at the last frame of the previous wide take (the edit cuts on that look); his face and shoulders with the backpack straps on both shoulders, the sea of hills soft behind him; at 1–4s he speaks to the lens; at 4–5s he holds your eyes with a smile.
 BEAT 2 (5–7s) — the camera begins to sink straight down, level and facing forward: his chest, the overshirt, his hands, his legs and his boots on the rock slide up past the lens.
 BEAT 3 (7–9s) — the camera passes below the ground line: the earth is seen in cross-section in front of the lens — grass roots, layers of red soil and rock sliding upward — then a dark seam of banded iron ore with metallic glints.
 BEAT 4 (9–11s) — out of the ore, the steel beams of a modern roof structure rise past the lens; the camera passes between them and down through the gridded ceiling of a classroom, beside a white ceiling fan turning slowly.
@@ -181,7 +186,7 @@ STEEL AND CEILING (9–11s): daylight from the classroom windows below and blade
 CLASSROOM (11–18s): daylight through the big windows on frame-LEFT, ~5600 K, on the frame-LEFT side of the faces; the room behind a stop darker; blacks slightly lifted; corners allowed to fall into shade.
 NOT: a headlamp, a glowing underground light, flat ceiling-panel light as the key, frontal fill, sunbeam shafts.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: wind across the summit; in the descent, soil scraping and crumbling, stones ticking, a deep low rumble of rock, a metallic hum at the steel; then the soft whir of the ceiling fan and the classroom: a low murmur that drops as he answers, a chair creaking, children in the schoolyard far off. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -196,13 +201,13 @@ NEGATIVE: any text, labels or words from the blocking video, low-poly shapes, fl
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 18s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 18s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @JOVEM (character sheet) — identidade
   2) @ALUNO (character sheet) — identidade
   3) @PROFESSORA (character sheet) — identidade
   4) @Video1 — bloqueio 3D, referência só de movimento (estendido para 18s)
-Notas: estenda o último frame do menino no bloqueio em ~3s (vídeo de 15s para 18s) para caber as duas falas. Se puder, exporte o bloqueio sem os textos (CHAO, TERRA, MINERIO…), porque letras em referência tendem a vazar para o vídeo. Risco nº 1: fala na boca errada; fallback de voz no ElevenLabs.
+Notas: estenda o último frame do menino no bloqueio em ~3s (vídeo de 15s para 18s) para caber as duas falas. O bloqueio está em 16:9 e o filme é 21:9: se for fácil, reexporte em 21:9 (a descida vertical funciona igual, só ganha espaço dos lados); se não, o modelo extrapola as laterais. Se puder, exporte o bloqueio sem os textos (CHAO, TERRA, MINERIO…), porque letras em referência tendem a vazar para o vídeo. Risco nº 1: fala na boca errada; fallback de voz no ElevenLabs.
 ```
 
 ### T02 · Sala de aula (Abertura, ~3.5s no corte)
@@ -224,7 +229,7 @@ Plugue entrando no carro elétrico, a luz acendendo, o homem fala de lado e dá 
 - **Direção:** P1 em todos os planos, inclusive nos closes: a câmera anda de lado da esquerda pra direita e nunca para. As subações em close cobrem a locução em off na montagem.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @HOMEM_EV — IDENTITY of @HOMEM_EV: face, hair, build, hands and wardrobe. 100% matches.
@@ -277,7 +282,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; bl
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: city traffic two streets away; the cable dragging; the port flap; the latch click at 2s; a soft single beep from the charger; his footstep; birds in the ipê trees. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -292,7 +297,7 @@ NEGATIVE: car badge, readable charger screen, posing beside the car, a thumbs-up
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 12s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @HOMEM_EV (character sheet) — identidade
   2) opcional: @CARRO_EV — objeto
@@ -312,7 +317,7 @@ Laminação moderna: placa incandescente nos rolos, a mão no joystick, o operá
 - **Direção:** Mesmo travelling lateral do revezamento em todos os planos. Fábrica limpa e automatizada, nada de chão de fábrica velho.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @OPERARIO — IDENTITY of @OPERARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
@@ -366,7 +371,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; 
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: the deep roll of steel on the rollers; water spray hissing to steam; a steady industrial hum; the joystick's click; a crane's warning tone far off (single repeated tone, not a melody); his voice over it. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -381,7 +386,7 @@ NEGATIVE: helmet off, glasses off, logos on helmet or coverall, a dirty old fact
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 12s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @OPERARIO (character sheet) — identidade + EPI
 Notas: conferir EPI completo e sem logo, e telas do console sem texto legível.
@@ -400,7 +405,7 @@ Uma gota azul se mistura no vórtice do béquer, o rack entra no analisador, a p
 - **Direção:** O close de algo sendo misturado que você pediu abre o take. É o trecho mais curto do filme no corte, então as subações seguram a locução.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 11 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 9s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 11 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 9s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @PESQUISADORA — IDENTITY of @PESQUISADORA: face, hair, build, hands, wardrobe and safety equipment. 100% matches.
@@ -453,7 +458,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; 
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: the stirrer's soft whirr and the liquid swirling; the pipette click; the analyser's motor; glass touching glass; the hood's airflow. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -468,7 +473,7 @@ NEGATIVE: glowing liquids, coloured smoke, sci-fi holograms, readable labels or 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 11s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 11s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @PESQUISADORA (character sheet) — identidade + EPI
 Notas: se sair rótulo legível em frasco ou tela, regerar: texto não pode aparecer.
@@ -487,7 +492,7 @@ As mãos montam o prato, o prato chega à mesa, o dono fala cúmplice e a client
 - **Direção:** Restaurante claro, madeira clara e plantas, cozinha aberta. Nada de toalha xadrez ou cara de interior antigo.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
@@ -543,7 +548,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; 
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: the plate's soft knock on wood; cutlery on plates; a low murmur of diners with no words standing out; a pan sizzling in the open kitchen; the street through the door. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -558,7 +563,7 @@ NEGATIVE: the customer speaking or looking at the lens, a rustic old eatery, oil
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 12s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @DONO (character sheet) — identidade
 Notas: conferir se a boca da cliente fica fechada e se ela não olha pra lente.
@@ -577,7 +582,7 @@ A mão passa pelas plantas, abre uma vagem; a agricultora caminha e fala, sorrin
 - **Direção:** Ela não para mais de andar, porque no revezamento a câmera não fica parada. Fazenda moderna, sem chapéu de palha.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 17 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 15s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 17 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 15s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
@@ -633,7 +638,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; bl
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -648,7 +653,7 @@ NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread,
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 17s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 17s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @AGRICULTORA (character sheet) — identidade
 Notas: fala longa: se o lipsync escorregar no fim, a montagem cobre o final com o close dela ou com a mão nas plantas.
@@ -667,7 +672,7 @@ O minério gira na luva; o foco sai do minério e chega nele, que fala; no close
 - **Direção:** O rack de foco segue sendo o gesto da virada: onde se espera o minério, aparece a pessoa. O close final abre o match cut do olhar. A frase inteira está na fala, então o áudio de "para quem nasce, vive e trabalha aqui" vai para baixo do T10 ao T12.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 15 seconds total, 3 shots with 2 hard cuts at 3s and 12s, handheld in every shot; one focus rack at the start of shot 2, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 15 seconds total, 3 shots with 2 hard cuts at 3s and 12s, handheld in every shot; one focus rack at the start of shot 2, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
@@ -721,7 +726,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; bl
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); gravel shifting on the stockpile; after his line, only wind and the distant truck. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -736,7 +741,7 @@ NEGATIVE: missing helmet, unfastened chin strap, no glasses, no vest, logos on e
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 15s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 15s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @FUNCIONARIO (character sheet) — identidade + EPI
 Notas: validar o EPI com a SST da operadora antes do final (P11).
@@ -755,7 +760,7 @@ A mãe olha o bebê e levanta os olhos para você, no mesmo ponto da tela do fun
 - **Direção:** P2, o match cut pelo olhar: o mesmo close do T09 ao T12. Geração sem fala, para nenhuma boca formar palavras.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, handheld, close and breathing, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 5 seconds total, ONE continuous take, no cuts, handheld, close and breathing, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 MOTHER (unreferenced: a Brazilian woman about 28, mixed-race brown skin, dark hair loosely tied, a soft oatmeal cotton T-shirt) — holds her newborn, looks down, then up with a smile; NEVER speaks.
@@ -800,7 +805,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; 
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and one tiny sigh; her thumb on cotton; the city far below the window. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -815,7 +820,7 @@ NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: text-to-video
-Duração: 5s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 5s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) nenhuma referência (o modelo improvisa mãe e bebê)
 Notas: conferir a proporção do bebê (rosto parcialmente coberto) e se os olhos pousam no ponto marcado.
@@ -834,7 +839,7 @@ A torcedora segue a bola que sobe e os olhos dela chegam em você.
 - **Direção:** O olhar tem motivo físico (a bola subindo). Estádio desfocado e figurino terracota, fora das cores de clube e do verde-amarelo.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 5 seconds total, ONE continuous take, no cuts, handheld, close and breathing, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 5 seconds total, ONE continuous take, no cuts, handheld, close and breathing, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 FAN (unreferenced: a young Black Brazilian woman about 20, short natural hair, small hoop earrings, a plain terracotta T-shirt with no print) — follows the play, then looks up to the lens; NEVER speaks, NEVER shouts.
@@ -880,7 +885,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; bl
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar; the thud of the ball kicked far below at 2s; the crowd's rising "uhh" as the ball goes up; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -895,7 +900,7 @@ NEGATIVE: the fan speaking or shouting, any mouth forming words, cheering arms, 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: text-to-video
-Duração: 5s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 5s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) nenhuma referência
 Notas: conferir a arquibancada desfocada: nada de camisa, bandeira ou cachecol de clube.
@@ -914,7 +919,7 @@ O estudante embarca; o olhar do motorista sobe para você e ele explica a rota c
 - **Direção:** O olhar do motorista fecha o match cut e emenda a fala dele. O close final do estudante prepara o T14.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 16 seconds total, 4 shots with 3 hard cuts at 3s, 6s and 13s, handheld in every shot, inside a moving bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 16 seconds total, 4 shots with 3 hard cuts at 3s, 6s and 13s, handheld in every shot, inside a moving bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
@@ -976,7 +981,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; 
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: the door's pneumatic hiss; the boy's steps; the engine pulling away; tyres on the avenue, traffic outside, a horn far off; the stop-request bell once (a single tone, not a melody); the engine's hum under his voice. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -991,7 +996,7 @@ NEGATIVE: the student speaking, the driver standing, hands off the wheel while s
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 16s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 16s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @MOTORISTA (character sheet) — identidade
   2) @ESTUDANTE (character sheet) — identidade
@@ -1011,7 +1016,7 @@ O estudante aperta o borne, a lâmpada acende, ele fala e comemora com a colega.
 - **Direção:** A ação dele é fazer uma conexão com as mãos antes de dizer "conexão". Mesmo figurino do ônibus.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 12 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 10s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe — the same clothes as on the bus. 100% matches.
@@ -1067,7 +1072,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; 
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: the screwdriver's squeak and the terminal's snap; the switch click; a fan humming; other students working at far benches, no words standing out; the fist bump. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -1082,7 +1087,7 @@ NEGATIVE: different wardrobe from the bus, programme logo, posters with text, re
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 12s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ESTUDANTE (character sheet) — identidade, mesmo figurino do T12
 Notas: conferir a pronúncia de "Codemig". Se sair errada, regerar antes de mexer na grafia.
@@ -1101,7 +1106,7 @@ Oxímetro no dedo, gota no soro; a enfermeira cuida e fala; o paciente aperta a 
 - **Direção:** Ela não para de cuidar para falar. As subações em close dão à montagem onde apoiar a fala longa em off, se precisar.
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 12s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 12s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
@@ -1159,7 +1164,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; 
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: the clip's click; the IV clamp; a monitor's soft beep in the room (single repeated tone, not a melody); a trolley rolling in the corridor; the ward's low murmur with no words standing out. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -1174,7 +1179,7 @@ NEGATIVE: stopping the care to talk, turning her body to the camera, the patient
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 14s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ENFERMEIRA (character sheet) — identidade
 Notas: fala longa: se o lipsync escorregar, use a fala em off sobre os closes.
@@ -1193,7 +1198,7 @@ O jovem do começo, num close bem fechado, fala as últimas frases sorrindo.
 - **Direção:** Mantive o close bem fechado do pré-shotlist, agora na mão. É a exceção à regra da fala em plano mais aberto (P14).
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, 12 seconds total, ONE continuous take, no cuts, handheld, close and breathing, tight close-up, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 12 seconds total, ONE continuous take, no cuts, handheld, close and breathing, tight close-up, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe 100% matches.
@@ -1244,7 +1249,7 @@ EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; bl
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
 SOUND — LOCATION SOUND ONLY: wind across the open summit, steady and quiet; dry grass hissing; his breath; after his last word, only the wind. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
@@ -1259,7 +1264,7 @@ NEGATIVE: a cut, widening the frame, smooth retouched skin,  watery eyes, tears,
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 12s (= timeline) · Aspecto: 16:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 12s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @JOVEM (character sheet) — identidade
 Notas: olhos e pele são o take inteiro. Conferir pupila viva e a cicatriz na sobrancelha.
@@ -1278,13 +1283,13 @@ Sem geração. Locução "Codemig. O futuro é mineiro." gravada (locutor ou Ele
 ### CONTRACT (padrão)
 
 ```
-CONTRACT — Live-action photoreal film footage, 16:9, [N] seconds total, [shots and cuts], [camera language], real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, [N] seconds total, [shots and cuts], [camera language], real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 ```
 
 ### FILM LOOK + flares
 
 ```
-FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 ```
 
@@ -1545,7 +1550,7 @@ Look: clean studio character sheet, plain solid medium-grey background, consiste
 O mesmo lugar abre e fecha o filme.
 
 ```
-Wide photograph of a mountain summit in Minas Gerais, Brazil, late afternoon with low sun from frame-left, clean grey rock with lichen, low green grass, a sea of rolling green hills running in layers to a hazy horizon, clear air, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
+Wide photograph of a mountain summit in Minas Gerais, Brazil, late afternoon with low sun from frame-left, clean grey rock with lichen, low green grass, a sea of rolling green hills running in layers to a hazy horizon, clear air, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
 ### @MINA (Recomendável, T09)
@@ -1553,7 +1558,7 @@ Wide photograph of a mountain summit in Minas Gerais, Brazil, late afternoon wit
 A comissão conhece o lugar, a credibilidade pesa.
 
 ```
-Wide photograph of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil, late afternoon with low sun from frame-left, orderly terraced benches of ochre and brown earth, wide well-kept haul roads, large modern haul trucks with no logos far below, a stockpile of dark brown ore in the foreground, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
+Wide photograph of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil, late afternoon with low sun from frame-left, orderly terraced benches of ochre and brown earth, wide well-kept haul roads, large modern haul trucks with no logos far below, a stockpile of dark brown ore in the foreground, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
 ### @ONIBUS_INT (Recomendável, T12, T13)
@@ -1561,7 +1566,7 @@ Wide photograph of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazi
 Continuidade do interior entre os planos.
 
 ```
-Photograph of the inside of a modern air-conditioned Brazilian city bus in Belo Horizonte, seen from the first passenger row looking forward, afternoon daylight from the door side, the driver's cab on the left, a glass folding front door on the right, low textured floor, satin-steel handrails, grey fabric seats, digital displays switched off, NO logos, NO route numbers, NO readable signs, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
+Photograph of the inside of a modern air-conditioned Brazilian city bus in Belo Horizonte, seen from the first passenger row looking forward, afternoon daylight from the door side, the driver's cab on the left, a glass folding front door on the right, low textured floor, satin-steel handrails, grey fabric seats, digital displays switched off, NO logos, NO route numbers, NO readable signs, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
 ### @SALA_ESTADUAL (Opcional, T02)
@@ -1569,7 +1574,7 @@ Photograph of the inside of a modern air-conditioned Brazilian city bus in Belo 
 Só se a sala gerada pelo prompt sair genérica ou velha.
 
 ```
-Wide photograph of a recently built Brazilian public school classroom in Minas Gerais, afternoon daylight through large windows along the left wall, new laminate desks in rows, a clean whiteboard with no writing, a modern exposed steel roof structure above a ceiling gap, light walls, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
+Wide photograph of a recently built Brazilian public school classroom in Minas Gerais, afternoon daylight through large windows along the left wall, new laminate desks in rows, a clean whiteboard with no writing, a modern exposed steel roof structure above a ceiling gap, light walls, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
 ### @CARRO_EV (Opcional, T04)
@@ -1577,7 +1582,7 @@ Wide photograph of a recently built Brazilian public school classroom in Minas G
 Sem marca. O prompt resolve sozinho; use só se o carro variar entre gerações.
 
 ```
-Photograph of a dark grey compact electric hatchback with NO badges and NO logos, parked at a brushed-steel public charging post with a dark blank screen and no brand, in the open-air parking lot of a modern office building in Belo Horizonte, Brazil, flowering pink ipê trees along the edge, late afternoon, no people, eye-level, 16:9, photoreal, 35mm color negative look, not a render.
+Photograph of a dark grey compact electric hatchback with NO badges and NO logos, parked at a brushed-steel public charging post with a dark blank screen and no brand, in the open-air parking lot of a modern office building in Belo Horizonte, Brazil, flowering pink ipê trees along the edge, late afternoon, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
 ## Pendências
@@ -1594,7 +1599,8 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **P15 · Bloqueio 3D da descida (T01-B)** (confirmar): O bloqueio vira referência só de movimento do T01-B. Pedido: estender o último frame do menino em ~3s (15s para 18s) para caberem as duas falas, e, se der, exportar sem os textos de marcação, que tendem a vazar para o vídeo. Os 5s iniciais para a fala do jovem estão bons.
 - **P16 · Locações** (decidido): Nenhuma plate será gerada por enquanto; todos os takes saem de text-to-video para o lugar. Os prompts de locação ficam de reserva.
 - **P11 · EPI da mina e da siderurgia** (validar): Os sheets trazem EPI padrão. Confirmar com a SST da operadora antes da geração final.
-- **P13 · Formato** (confirmar): O style ref fala em 9:16 vertical; o filme seguiu em 16:9. Se for vertical, troca-se uma variável no build e os prompts saem todos em 9:16.
+- **P13 · Formato** (decidido): 21:9 em todas as gerações (variável única no build). As character sheets ficam em 16:9, porque são referência de identidade. Nos closes o 21:9 deixa muito espaço dos lados; se algum close vier aberto demais, aperte o FOV (por exemplo 29° para 18°).
+- **P17 · Corte T01-A → T01-B** (decidido): T01-A termina com ele totalmente de frente, ombros quadrados e olhando a lente; T01-B começa exatamente assim, em close. O corte cai no olhar, como um punch-in. A mesma luz (sol da esquerda) nos dois.
 - **P14 · T16 em close** (confirmar): Mantido o close bem fechado do pré-shotlist, exceção à regra da fala em plano mais aberto. Dá para abrir no fim com um pull-back (ver alternativa no take).
 
 ## Riscos

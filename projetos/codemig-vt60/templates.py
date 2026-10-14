@@ -1,7 +1,7 @@
 # CODEMIG · VT 60" — templates congelados v2 (a testar).
 # Todo prompt do shotlist cola estes blocos literalmente. Mudou aqui, muda em todos.
 
-ASPECT = "16:9"  # o style ref fala em 9:16; troque aqui se o filme for vertical
+ASPECT = "21:9"  # formato do filme (decidido); as character sheets ficam 16:9 (assets.py)
 
 ACCENT_INTERIOR = "light Minas Gerais interior accent with a soft 'caipira' R, never a caricature"
 ACCENT_BH = "Belo Horizonte accent with a soft aspirated R"
