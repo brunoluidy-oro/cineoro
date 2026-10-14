@@ -61,7 +61,7 @@ CHARS = [
              outfit="light green school T-shirt with no emblem, black shorts, black rubber sandals",
              realism=CHILD_SKIN)),
     dict(tag="PROFESSORA", papel="Professora", idade="F, 40", r="BH", takes="T02",
-         obs="Tom acolhedor, nunca severo.",
+         obs="Fala direta e clara, dita com gentileza e rosto acolhedor, nunca severa. A VOZ vem da sua gravação do ElevenLabs (\"Scheila · Serious and Direct\", ~2,4s, anexada como @Audio1 no T01-B).",
          prompt=sheet(
              who="a white Brazilian woman", age=40, person="woman", pron="she", poss="her",
              skin="Fair skin with light freckles across the nose and cheeks.",
@@ -264,7 +264,7 @@ LOCS = [
          prompt="Photograph of the driver's cab of a Brazilian city bus, seen from the first passenger row on the right looking forward-left, a black fabric driver's seat, a black steering wheel with a plain hub, a dash of rocker switches, a fare validator on its post, a flat rectangular side mirror, a yellow-painted handrail beside the seat, dry windows, NO logos, NO readable signs, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render."),
     dict(tag="SALA_ESTADUAL", prio="Opcional", takes="T02",
          why="Só se a sala gerada pelo prompt sair genérica ou velha.",
-         prompt="Wide photograph of a recently built Brazilian public school classroom in Minas Gerais, afternoon daylight through large windows along the left wall, new laminate desks in rows, a clean whiteboard with no writing, a modern exposed steel roof structure above a ceiling gap, light walls, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render."),
+         prompt="Wide photograph of a recently built Brazilian public school classroom in Minas Gerais, afternoon daylight through large windows along the left wall, new laminate desks in rows, a clean whiteboard with no writing on the front wall, on the back wall a light-wood cabinet, a bookshelf of colourful books and rows of children's drawings pinned up (no writing), a modern exposed steel roof structure above a ceiling gap, light walls, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render."),
     dict(tag="CARRO_EV", prio="Opcional", takes="T04",
          why="Sem marca. O prompt resolve sozinho; use só se o carro variar entre gerações.",
          prompt="Photograph of a dark grey compact electric hatchback with NO badges and NO logos, parked at a brushed-steel public charging post with a dark blank screen and no brand, in the open-air parking lot of a modern office building in Belo Horizonte, Brazil, flowering pink ipê trees along the edge, late afternoon, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render."),
