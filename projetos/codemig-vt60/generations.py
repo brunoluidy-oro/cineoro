@@ -121,65 +121,83 @@ COMPOSITION (the one deliberate symmetrical frame of the film): a very wide, low
     """[ORDER: ONE handheld take, 5s, extra-wide, low camera, centred, 21:9 — (0–2s) his back to camera on the centre line, small, entire body in frame, rock ground in the lower frame, the hills on both sides — (2–3s) a quick one-second turn all the way round to face the camera, smiling — (3–5s) he holds square to the camera, eyes on the lens; hard end. Invariants: extra-wide, low lens with ground visible, centred, entire body in frame; the turn is quick (about one second) and complete; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
 )
 
-# ---------------------------------------------------------------- T01-B (bloqueio 3D: close → terra → minério → aço → sala)
-T01B = join(
-    contract(18, "ONE continuous take, no cuts", "a single continuous vertical camera descent that follows the attached 3D blocking video, with a light handheld texture", extra=" (fast travel during the descent; speech only when the camera is still)"),
-    f"""REFERENCES — each reference has ONE job:
-@JOVEM — IDENTITY of @JOVEM: face, hair, build, hands, wardrobe and backpack. 100% matches.
-@PICO_FRAME — PLACE AND WARDROBE STATE of the summit scene: the exact rock with lichen under his boots, the green hills, the sky, the low warm sun from frame-left, and how his terracotta-red overshirt (worn open), white T-shirt, black jeans, brown boots and backpack sit on him. It is the last frame of the previous shot: the close-up in beat 1 is the same place, light and clothes seen close, and the descent passes the boots and lichen rock shown in it.
-@ALUNO — IDENTITY of @ALUNO: face, hair, build, hands and wardrobe. 100% matches.
-@PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands and wardrobe. 100% matches.
-@Video1 — MOTION ONLY: the camera path, framing and timing of this 3D blocking — the close-up on the man, the straight vertical descent down his body and into the ground, through the earth, the ore and the steel beams, down through the classroom ceiling past the fan, and the landing on the seated boy with the teacher standing behind him at frame-left. Take NOTHING else from it: ignore its flat colours, blocky low-poly shapes, sky-blue placeholder areas and every word or label written in it — none of them exist in the film.
-{SCOPE_ID} @PICO_FRAME supplies the place, the light and the wardrobe state ONLY: do NOT copy its wide framing, its camera distance or his pose, do NOT start the shot from it, and take NOTHING about his face from it (his face comes from the @JOVEM sheet).""",
-    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST, on the summit: speaks one line in close-up, then stays where he is as the camera leaves him; seen only during 0–7s.
-@ALUNO ({ANCH['ALUNO']}) — the STUDENT: seated at his desk in the centre of the frame, answers; NEVER stands.
-@PROFESSORA ({ANCH['PROFESSORA']}) — the TEACHER: standing behind the student at frame-left, completes the idea; NEVER sits.
-FACES: each face exists once; the classmates are distinct Brazilian children, soft in the background, silent, mouths closed; no twins, no clones.
-CONTACT: nobody touches anyone.""",
-    """SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil, @JOVEM already in close-up, looking at you. When he has spoken, the camera sinks straight down through the ground he stands on — earth, iron ore, the steel of a roof — and arrives in a bright, recently built Brazilian public school classroom, where a student is about to answer.
+# ---------------------------------------------------------------- T01-B (bloqueio 3D: close → descida → sala), duas versões
+def t01b(short):
+    total = 9 if short else 18
+    L = dict(j="0–3", a="5–6", p="6–8", nospeech="3–5") if short else dict(j="0–3", a="12–13", p="13–15", nospeech="3–12")
+    ramp = (" SPEED RAMP: the descent leaves the man at once, peaks through earth, ore and beams with heavy motion blur, and decelerates smoothly into the landing; about 1.5 s of screen time.") if short else ""
+    b1 = "BEAT 1 (0–3s) — CU, 47°, handheld, frontal and centred: @JOVEM already facing the lens, shoulders square, mid-smile, exactly as at the last frame of the previous wide take (the edit cuts on that look); he speaks at once, the line fills the 3 s, and the instant it ends the camera sinks."
+    landing = "lands at a seated child's eye height on a medium shot of @ALUNO at his desk in the centre of the frame."
+    if short:
+        beats = [b1,
+            "BEAT 2 (3–5s) — the descent, level and facing forward, as a speed ramp: down his chest, hands, legs and boots on the lichen rock, into the earth in cross-section (roots, red soil, rock, a seam of iron ore), out through steel roof beams, past a white ceiling fan ON and spinning fast, into the bright classroom; it decelerates and " + landing,
+            "BEAT 3 (5–6s) — handheld settles; @ALUNO answers, looking toward the front of the room; mid-line @PROFESSORA enters from frame-RIGHT, crouching beside his desk, and the camera makes a slight handheld pan right to frame her.",
+            "BEAT 4 (6–8s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in a correcting teacher's tone; @ALUNO looks at her.",
+            "BEAT 5 (8–9s) — @ALUNO keeps looking at her, nods in agreement and smiles. Hard end on the smile."]
+        order_t = "(0–3s) @JOVEM's line, then the camera sinks at once — (3–5s) speed-ramp descent: body, earth, ore, beams, spinning fan, lands on @ALUNO — (5–6s) \"É futuro.\", @PROFESSORA crouches in from frame-RIGHT — (6–8s) \"Minério não é só minério.\" to him — (8–9s) he nods, smiles"
+    else:
+        beats = [b1,
+            "BEAT 2 (3–5s) — the camera sinks straight down, level and facing forward: his chest, overshirt, hands, legs and boots on the lichen rock slide up past the lens.",
+            "BEAT 3 (5–8s) — below the ground line: the earth in cross-section — roots, red soil, rock sliding upward — then a dark seam of banded iron ore with metallic glints.",
+            "BEAT 4 (8–10s) — out of the ore, steel roof beams rise past the lens; the camera passes between them and down through the gridded classroom ceiling beside a white ceiling fan that is ON, blades spinning fast.",
+            "BEAT 5 (10–12s) — down into the bright classroom, decelerating, desks with seated students rising into view; it " + landing,
+            "BEAT 6 (12–13s) — handheld settles; @ALUNO answers, looking toward the front of the room; mid-line @PROFESSORA enters from frame-RIGHT, crouching beside his desk, and the camera makes a slight handheld pan right to frame her.",
+            "BEAT 7 (13–15s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in a correcting teacher's tone; @ALUNO looks at her.",
+            "BEAT 8 (15–18s) — @ALUNO keeps looking at her, nods in agreement and smiles; the two hold. Hard end on the smile."]
+        order_t = "(0–3s) @JOVEM's line, then the camera sinks at once — (3–5s) down his body — (5–8s) earth and ore — (8–10s) beams, classroom ceiling, spinning fan — (10–12s) lands on @ALUNO — (12–13s) \"É futuro.\", @PROFESSORA crouches in from frame-RIGHT — (13–15s) \"Minério não é só minério.\" to him — (15–18s) he nods, smiles"
+    return join(
+        contract(total, "ONE continuous take, no cuts", "one continuous level vertical descent that follows the attached 3D blocking video, handheld" + (", with a speed ramp in the descent" if short else ""), extra=" (speech only when the camera is not travelling)"),
+        f"""REFERENCES — each reference has ONE job:
+@JOVEM — IDENTITY of @JOVEM: face, hair, build, hands, wardrobe, backpack. 100% matches.
+@PICO_FRAME — PLACE AND WARDROBE STATE of the summit: lichen rock, green hills, sky, low warm sun from frame-left, and how his rust-red open overshirt, white T-shirt, black jeans, boots and backpack sit on him. It is the last frame of the previous shot; beat 1 is the same place and clothes seen close.
+@ALUNO — IDENTITY of @ALUNO: face, hair, build, hands, wardrobe. 100% matches.
+@PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands, wardrobe. 100% matches.
+@Video1 — MOTION ONLY: the camera path, framing and timing of this 3D blocking (close-up, level descent through body, ground, ore and beams, past the fan, landing on the seated boy, slight pan right as the teacher crouches in). Take NOTHING else: ignore its flat colours, low-poly shapes and every word in it.
+{SCOPE_ID} @PICO_FRAME supplies place, light and wardrobe ONLY — not its wide framing, not his pose, not a start frame, nothing of his face (his face comes from the @JOVEM sheet).""",
+        f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST on the summit: one line in close-up, then the camera leaves him.
+@ALUNO ({ANCH['ALUNO']}) — the STUDENT: seated at his desk, centre of frame, facing the front of the room where the whiteboard is (behind the camera, never in frame); an open notebook, pencil case and textbook on his desk; answers, then looks at the teacher and agrees with a smile; NEVER stands.
+@PROFESSORA ({ANCH['PROFESSORA']}) — the TEACHER: enters from frame-RIGHT crouching beside his desk, three-quarter view from behind-side, face turned toward HIM; speaks to him, never to the lens; her hand rests on the edge of his desk; NEVER sits.
+CLASSMATES: about ten students, each at his own desk in rows, same light-green school T-shirt, each desk with notebook, pencil case and textbook, all facing the front; distinct faces; silent; soft.
+FACES: each face exists once; no twins, no clones.""",
+        """SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil, @JOVEM in close-up, looking at you. When he has spoken, the camera sinks straight down through the ground he stands on — earth, iron ore, the steel of a roof — into a bright, recently built Brazilian public school classroom, where a student answers and his teacher crouches in beside him.
 THE SOUL OF THE SCENE (play it, never explain it): earth, ore, steel, school — one chain, one movement; the man who loves the land hands the film to the boy who is its future.""",
-    f"""{LOCKS_HEAD}
-1. ONE continuous take with ONE vertical descent that follows @Video1 — WRONG if it cuts or the path differs.
-2. The camera stays level and facing forward while it sinks — it does NOT tilt down; the body, then the ground in cross-section, slide up past the lens — WRONG if it tilts or flies like a drone.
-3. No speech while the camera travels: @JOVEM speaks at 1–4s, @ALUNO at 13–14s, @PROFESSORA at 15–17s — WRONG if anyone speaks during 5–12s or a line goes to the wrong mouth.
-4. NO text, labels or words anywhere in the frame — WRONG if any letters from the blocking appear.
-5. Handheld texture; sun from frame-LEFT on the summit, window daylight from frame-LEFT in the classroom — NO music.""",
-    timeline(1, [], [
-        "BEAT 1 (0–5s) — CU, 47°, handheld, frontal and centred: @JOVEM already facing the lens, shoulders square, mid-smile, exactly as at the last frame of the previous wide take (the edit cuts on that look); his face and shoulders with the backpack straps on both shoulders, the sea of hills soft behind him; at 1–4s he speaks to the lens; at 4–5s he holds your eyes with a smile.",
-        "BEAT 2 (5–7s) — the camera begins to sink straight down, level and facing forward: his chest, the overshirt, his hands, his legs and his boots on the rock slide up past the lens.",
-        "BEAT 3 (7–9s) — the camera passes below the ground line: the earth is seen in cross-section in front of the lens — grass roots, layers of red soil and rock sliding upward — then a dark seam of banded iron ore with metallic glints.",
-        "BEAT 4 (9–11s) — out of the ore, the steel beams of a modern roof structure rise past the lens; the camera passes between them and down through the gridded ceiling of a classroom, beside a white ceiling fan turning slowly.",
-        "BEAT 5 (11–13s) — it descends into the bright classroom, decelerating, rows of desks rising into view, and lands at a seated child's eye height on a medium shot of @ALUNO at his desk in the centre of the frame, @PROFESSORA standing behind him at frame-left; it settles and stays.",
-        "BEAT 6 (13–18s) — the camera is still apart from a light handheld breath: at 13–14s @ALUNO answers to the lens; at 15–17s @PROFESSORA completes it to the lens, as to the whole class; at 17–18s both hold your eyes. Hard end on the held look.",
-    ]),
-    dialogue('[1–4s] @JOVEM (on camera, Brazilian Portuguese, speaking up over the wind): "Em Minas, terra não é só terra."', line(13, 14, "ALUNO", "É futuro."),
-             line(15, 17, "PROFESSORA", "Minério não é só minério."), "JOVEM", "ALUNO", "PROFESSORA"),
-    """ACTING — shared direction: tell a friend some good news about your state — happy and proud; the lens is that friend. Pupils search, settle and drift; blinks uneven; a frozen pupil is wrong.
-@JOVEM: TACTIC say it like good news to a friend who just arrived; eyes on yours; NOT a heroic pose, a solemn face.
-@ALUNO: TACTIC answer simply and look for your approval; eyes on the lens; NOT a cute pose, a child-actor performance.
-@PROFESSORA: TACTIC hand his answer to everyone as the lesson; a proud look at him, then to the lens; NOT lecturing, pointing a finger.
+        f"""{LOCKS_HEAD}
+1. ONE continuous take, ONE level vertical descent following @Video1 — WRONG if it cuts, tilts down or flies like a drone.
+2. The camera starts sinking the INSTANT @JOVEM finishes his line — WRONG if he holds after it or the camera sinks before it ends.
+3. No speech while the camera travels ({L['nospeech']}s): lines only at {L['j']}s (@JOVEM), {L['a']}s (@ALUNO), {L['p']}s (@PROFESSORA), each in the right mouth.
+4. NO sound effects of any kind — WRONG if any rumble, whoosh, hum, scraping or stones are heard.
+5. The ceiling fan is ON and visibly spinning — WRONG if still.
+6. @ALUNO centred; @PROFESSORA enters from frame-RIGHT, crouched, mid-line, speaks to HIM not the lens; he looks at her, nods, smiles — WRONG if she enters from the left or looks at the lens.
+7. NO whiteboard or blackboard in frame, none behind the boy; handheld; light from frame-LEFT — NO music.""",
+        timeline(1, [], beats),
+        dialogue(f'[{L["j"]}s] @JOVEM (on camera, Brazilian Portuguese, speaking up over the wind): "Em Minas, terra não é só terra."',
+                 f'[{L["a"]}s] @ALUNO (on camera, Brazilian Portuguese): "É futuro."',
+                 f'[{L["p"]}s] @PROFESSORA (on camera, Brazilian Portuguese, in the tone of a teacher gently correcting, speaking to the boy): "Minério não é só minério."',
+                 "JOVEM", "ALUNO", "PROFESSORA"),
+        """ACTING — happy and proud of what they say; pupils search, settle and drift; a frozen pupil is wrong.
+@JOVEM: TACTIC say it like good news to a friend; eyes on yours; NOT a heroic pose, a solemn face.
+@ALUNO: TACTIC answer simply, then turn to the teacher, take her correction with a nod and a smile; NOT a cute pose, a child-actor performance.
+@PROFESSORA: TACTIC correct and complete his answer kindly, crouched to his level, eyes on him; NOT lecturing, pointing a finger, looking at the lens.
 Classmates: follow the exchange, silent, NOT looking at the lens.""",
-    """CAMERA — follows @Video1's path and timing exactly, with a light handheld texture (small human sway and late corrections) rather than a mechanical glide; level and facing forward the whole way, never tilting.
-OPTICS: 47° throughout; no zoom, no lens drift.
-FOCUS: on @JOVEM's eyes in beat 1; on whatever passes the lens during the descent; on @ALUNO's eyes after the landing, then on @PROFESSORA's eyes when she speaks.
-HORIZON: level.
+        """CAMERA — follows @Video1's path and timing, handheld (small human sway, late corrections, never a mechanical glide); level and facing forward the whole descent, never tilting.""" + ramp + """ After landing it stays handheld and makes one slight pan right to frame @PROFESSORA as she enters.
+OPTICS: 47° throughout; no zoom, no lens drift. FOCUS: @JOVEM's eyes in beat 1; whatever passes the lens in the descent; then the faces of the exchange.
 NOT: a cut, a tilt down, a drone, a CGI fly-through, a zoom, a locked tripod frame.""",
-    """GEOMETRY — classroom: windows along the frame-LEFT wall; @ALUNO seated at a desk in the centre of the frame, 1.6 m from the lens, facing it; @PROFESSORA standing about 1.5 m behind him at frame-left; desks to both sides, classmates soft beyond.""",
-    """PHYSICS & MATERIAL — a strong wind tugs at his collar, overshirt and hair on the summit; in the descent, loose soil and small stones fall past the lens at the speed of the movement, roots hang and sway, the ore is heavy with metallic glints; dust motes drift past the steel; the fan's blades turn slowly; in the classroom a chair creaks and a pencil rolls. """ + REAL + """ MATERIAL TRUTH: the weave of his overshirt, roots with soil clinging, banded grey hematite, the matte paint of the steel beams, the white ceiling grid and fan, new laminate desks, the cotton of the green school T-shirt, a clean whiteboard with no writing.""",
-    """LIGHT — MOTIVATED LIGHT ONLY (KEY): one dominant motivated natural source per place, with real falloff and soft-edged shadows.
-SUMMIT (0–7s): the low late-afternoon sun ~4300 K from frame-LEFT on his face; open sky as soft fill.
-THE GROUND (7–9s): the earth and the ore are seen as if the ground were sliced open beside the lens and photographed in that same soft daylight from above — readable, never black, no invented lamp.
-STEEL AND CEILING (9–11s): daylight from the classroom windows below and blades of daylight between the beams.
-CLASSROOM (11–18s): daylight through the big windows on frame-LEFT, ~5600 K, on the frame-LEFT side of the faces; the room behind a stop darker; blacks slightly lifted; corners allowed to fall into shade.
-NOT: a headlamp, a glowing underground light, flat ceiling-panel light as the key, frontal fill, sunbeam shafts.""",
-    T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: strong wind across the open summit throughout 0–5s, steady with gusts, audible on the microphone and fluttering his collar, so he has to speak up over it; it drops away as the camera sinks below the ground line; in the descent, soil scraping and crumbling, stones ticking, a deep low rumble of rock, a metallic hum at the steel; then the soft whir of the ceiling fan and the classroom: a low murmur that drops as he answers, a chair creaking, children in the schoolyard far off. {T.MUSIC_POLICY}""",
-    T.WORLD,
-    f"""NEGATIVE: any text, labels or words from the blocking video, low-poly shapes, flat 3D colours, a cut, a tilt down, speech during the descent, swapped speakers, a classmate speaking, @PROFESSORA sitting, a CGI cross-section, a game-style cutaway, glowing ore, gold, gems, lava, a black frame, writing on the whiteboard, a school emblem, an old or run-down classroom, {T.NEG_SPINE}.""",
-    """[ORDER: ONE continuous take, 18s, following @Video1 — (0–5s) close-up: @JOVEM's line to the lens, a smile — (5–7s) the camera sinks level down his body to his boots — (7–9s) into the ground: roots, soil, rock, a seam of iron ore — (9–11s) steel beams, the classroom ceiling, the turning fan — (11–13s) lands on @ALUNO seated centre, @PROFESSORA standing behind at frame-left — (13–18s) "É futuro.", "Minério não é só minério.", both hold. Invariants: one take, one level descent, no tilt; strong wind under his line, voice raised over it; @PICO_FRAME for place and clothes only, never framing; no speech while travelling; no text from the blocking. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
-)
+        """GEOMETRY — classroom: windows along the frame-LEFT wall; the whiteboard is on the front wall behind the camera, out of frame; @ALUNO at a second-row desk, centre of frame, 1.6 m from the lens; desks with seated students to both sides, soft; @PROFESSORA crouching at frame-RIGHT, 50 cm from his desk.""",
+        """PHYSICS & MATERIAL — strong wind tugs at his collar and hair; in the descent soil and stones fall past the lens at the speed of the movement, roots sway, the ore glints; the white ceiling fan spins fast, blades motion-blurred. """ + REAL + """ MATERIAL TRUTH: the weave of his overshirt, roots with soil, banded hematite, matte steel, new laminate desks with notebooks and textbooks.""",
+        """LIGHT — MOTIVATED, one dominant natural source per place with real falloff and soft-edged shadows.
+SUMMIT: low sun ~4300 K from frame-LEFT. THE GROUND: as if sliced open in that same soft daylight — readable, never black, no invented lamp. CLASSROOM: window daylight from frame-LEFT ~5600 K; the room a stop darker; corners allowed to fall into shade.
+NOT: a headlamp, glowing underground light, flat ceiling-panel key, frontal fill.""",
+        T.FILM_LOOK,
+        f"""SOUND — NO SOUND EFFECTS ANYWHERE: nothing designed or synthetic during the descent — no rumble, whoosh, scraping, stones, metallic hum, riser or impact. Only: strong wind across the open summit under his line ({L['j']}s), steady with gusts, dropping to near silence as the camera sinks below the ground line; then, from the landing, the quiet natural room tone of a classroom — the soft whir of the spinning fan, a faint student murmur that drops during the lines. {T.MUSIC_POLICY}""",
+        T.WORLD,
+        f"""NEGATIVE: sound effects, rumble, whoosh, text or labels from the blocking video, low-poly shapes, a cut, a tilt down, speech during the descent, a classmate speaking, the teacher entering from the left or looking at the lens, a stopped fan, a whiteboard or blackboard in frame or behind the boy, an empty classroom, a CGI cross-section, glowing ore, a black frame, {T.NEG_SPINE}.""",
+        f"""[ORDER: ONE continuous take, {total}s, following @Video1, handheld{', speed-ramp descent' if short else ''} — {order_t}. Invariants: one level descent; sinks the instant his line ends; no speech while travelling; NO sound effects; fan ON; teacher enters from frame-RIGHT; no whiteboard in frame. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    )
 
+
+T01B_LONG = t01b(False)
+T01B_SHORT = t01b(True)
 
 # ---------------------------------------------------------------- Revezamento
 def rev_locks(n, cuts, tag, text, extra=""):
@@ -192,7 +210,7 @@ def rev_locks(n, cuts, tag, text, extra=""):
 
 
 T04 = join(
-    contract(12, "4 shots with 3 hard cuts at 3s, 5s and 10s", "handheld travelling sideways from frame-left to frame-right in every shot"),
+    contract(10, "4 shots with 3 hard cuts at 3s, 5s and 8s", "handheld travelling sideways from frame-left to frame-right in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @HOMEM_EV — IDENTITY of @HOMEM_EV: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
@@ -202,14 +220,14 @@ FACES: his face exists once; passers-by far behind are distinct soft Brazilian f
 CONTACT: nobody touches him.""",
     """SCENE — Late afternoon at the charging bays of a modern office building's open-air parking lot in Belo Horizonte, Brazil; flowering ipê trees along the edge. @HOMEM_EV is already plugging his compact electric car in.
 THE SOUL OF THE SCENE (play it, never explain it): he did the maths, switched to electric and loves it — he tells you like someone who found a great deal.""",
-    rev_locks(4, [3, 5, 10], "HOMEM_EV", "É a possibilidade de um mundo mais verde,"),
-    timeline(4, [3, 5, 10], [
+    rev_locks(4, [3, 5, 8], "HOMEM_EV", "É a possibilidade de um mundo mais verde,"),
+    timeline(4, [3, 5, 8], [
         "SHOT 1 (0–3s) — ECU, 47°, lens 40 cm from the car: his hand guides the charging connector into the car's port; the first push meets resistance, he lines it up and pushes again until it seats with a click. HARD CUT.",
         "SHOT 2 (3–5s) — CU, 47°: the light ring around the charging port glows on; his hand lets go of the connector and the thick cable settles. HARD CUT.",
-        "SHOT 3 (5–10s) — MWS (from the knees up, the car and the trees around him), 63°: @HOMEM_EV standing by the car at the right third, turns to the lens and speaks at 6–9s, a pleased half-smile; he drifts toward the centre as the camera passes. HARD CUT.",
-        "SHOT 4 (10–12s) — CU, 47°: his hand pats the car roof twice, satisfied, and he steps off frame-right. Hard end mid-step.",
+        "SHOT 3 (5–8s) — MWS (from the knees up, the car and the trees around him), 63°: @HOMEM_EV standing by the car at the right third, turns to the lens and speaks at 5–8s, a pleased half-smile; he drifts toward the centre as the camera passes. HARD CUT.",
+        "SHOT 4 (8–10s) — CU, 47°: his hand pats the car roof twice, satisfied, and he steps off frame-right. Hard end mid-step.",
     ]),
-    dialogue(line(6, 9, "HOMEM_EV", "É a possibilidade de um mundo mais verde,"), "HOMEM_EV"),
+    dialogue(line(5, 8, "HOMEM_EV", "É a possibilidade de um mundo mais verde,"), "HOMEM_EV"),
     acting("HOMEM_EV", "he made a smart choice and it paid off.",
            "share it casually, with the pleasure of someone who found a good deal — check from the corner of his eye that you're convinced.",
            "on the connector, then a sidelong look to the lens.",
@@ -221,11 +239,11 @@ THE SOUL OF THE SCENE (play it, never explain it): he did the maths, switched to
     f"""SOUND — LOCATION SOUND ONLY: city traffic two streets away; the cable dragging; the port flap; the latch click at 2s; a soft single beep from the charger; his footstep; birds in the ipê trees. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: car badge, readable charger screen, posing beside the car, a thumbs-up, speaking in the close-ups, the camera stopping, push-in, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld travelling left to right in every shot — (1, 0–3s) ECU: the connector seats on the second push — (2, 3–5s) CU: the port light glows on, his hand lets go — (3, 5–10s) medium-wide: he turns to the lens and says his line, pleased — (4, 10–12s) CU: he pats the roof twice and steps off. Invariants: constant lateral travel; hands only in the close-ups; living eyes on the lens; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 8s, 10s, handheld travelling left to right in every shot — (1, 0–3s) ECU: the connector seats on the second push — (2, 3–5s) CU: the port light glows on, his hand lets go — (3, 5–8s) medium-wide: he turns to the lens and says his line, pleased — (4, 8–10s) CU: he pats the roof twice and steps off. Invariants: constant lateral travel; hands only in the close-ups; living eyes on the lens; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 T05 = join(
-    contract(12, "4 shots with 3 hard cuts at 3s, 5s and 10s", "handheld travelling sideways from frame-left to frame-right in every shot"),
+    contract(9, "4 shots with 3 hard cuts at 3s, 5s and 7s", "handheld travelling sideways from frame-left to frame-right in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @OPERARIO — IDENTITY of @OPERARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
 {SCOPE_ID}""",
@@ -235,15 +253,15 @@ FACES: his face exists once; two colleagues far behind are distinct soft figures
 CONTACT: nobody touches anyone.""",
     """SCENE — Afternoon inside a modern, automated steel rolling mill in Minas Gerais, Brazil: clean painted floor lanes, a glowing steel slab moving through the rollers. @OPERARIO is already at his console beside the line.
 THE SOUL OF THE SCENE (play it, never explain it): he has watched this plant become one of the most efficient anywhere and is proud to show it off.""",
-    rev_locks(4, [3, 5, 10], "OPERARIO", "de uma indústria mais eficiente,",
+    rev_locks(4, [3, 5, 7], "OPERARIO", "de uma indústria mais eficiente,",
               "\n4b. Full safety equipment on in every shot: hard hat, glasses, gloves."),
-    timeline(4, [3, 5, 10], [
+    timeline(4, [3, 5, 7], [
         "SHOT 1 (0–3s) — CU, 47°: a red-hot steel slab glides through the rolling-mill rollers, steam hissing off it where water sprays. HARD CUT.",
         "SHOT 2 (3–5s) — CU, 47°: his gloved hand pushes a joystick forward on a modern control console; the console lights are on, the screens show only abstract shapes. HARD CUT.",
-        "SHOT 3 (5–10s) — MWS (from the knees up, the line glowing behind him), 63°: @OPERARIO at the console at the right third, turns to the lens and speaks at 6–8s, a proud grin, then glances back to the line. HARD CUT.",
-        "SHOT 4 (10–12s) — CU, 47°: a finished steel coil, still warm, rolls smoothly into its place on the conveyor. Hard end mid-roll.",
+        "SHOT 3 (5–7s) — MWS (from the knees up, the line glowing behind him), 63°: @OPERARIO at the console at the right third, turns to the lens and speaks at 5–7s, a proud grin, then glances back to the line. HARD CUT.",
+        "SHOT 4 (7–9s) — CU, 47°: a finished steel coil, still warm, rolls smoothly into its place on the conveyor. Hard end mid-roll.",
     ]),
-    dialogue(line(6, 8, "OPERARIO", "de uma indústria mais eficiente,"), "OPERARIO"),
+    dialogue(line(5, 7, "OPERARIO", "de uma indústria mais eficiente,"), "OPERARIO"),
     acting("OPERARIO", "he has seen the plant transform and wants people outside to see it.",
            "show it off — the line, then you — checking that you are impressed.",
            "from the line to the lens and back.",
@@ -257,11 +275,11 @@ THE SOUL OF THE SCENE (play it, never explain it): he has watched this plant bec
     f"""SOUND — LOCATION SOUND ONLY: the deep roll of steel on the rollers; water spray hissing to steam; a steady industrial hum; the joystick's click; a crane's warning tone far off (single repeated tone, not a melody); his voice over it. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: helmet off, glasses off, logos on helmet or coverall, a dirty old factory, sparks fountain, explosion, readable screens, speaking in the close-ups, the camera stopping, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld travelling left to right in every shot — (1, 0–3s) CU: the red-hot slab through the rollers — (2, 3–5s) CU: his gloved hand on the joystick — (3, 5–10s) medium-wide: he turns to the lens and says his line, proud — (4, 10–12s) CU: the finished coil rolls into place. Invariants: constant lateral travel; full safety equipment; living eyes; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 7s, 9s, handheld travelling left to right in every shot — (1, 0–3s) CU: the red-hot slab through the rollers — (2, 3–5s) CU: his gloved hand on the joystick — (3, 5–7s) medium-wide: he turns to the lens and says his line, proud — (4, 7–9s) CU: the finished coil rolls into place. Invariants: constant lateral travel; full safety equipment; living eyes; only his one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 T06 = join(
-    contract(11, "4 shots with 3 hard cuts at 3s, 5s and 9s", "handheld travelling sideways from frame-left to frame-right in every shot"),
+    contract(9, "4 shots with 3 hard cuts at 3s, 5s and 7s", "handheld travelling sideways from frame-left to frame-right in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @PESQUISADORA — IDENTITY of @PESQUISADORA: face, hair, build, hands, wardrobe and safety equipment. 100% matches.
 {SCOPE_ID}""",
@@ -271,14 +289,14 @@ FACES: her face exists once; one colleague far behind is a distinct soft figure,
 CONTACT: nobody touches anyone.""",
     """SCENE — Afternoon in a modern pharmaceutical research laboratory in Minas Gerais, Brazil, glass walls and white benches. @PESQUISADORA is already preparing a solution.
 THE SOUL OF THE SCENE (play it, never explain it): she loves what she does and almost nobody asks — she gives you one bright phrase between two steps of the experiment.""",
-    rev_locks(4, [3, 5, 9], "PESQUISADORA", "de novas tecnologias,"),
-    timeline(4, [3, 5, 9], [
+    rev_locks(4, [3, 5, 7], "PESQUISADORA", "de novas tecnologias,"),
+    timeline(4, [3, 5, 7], [
         "SHOT 1 (0–3s) — ECU, 47°, lens 30 cm from the glass: a clear solution spins in a vortex in a glass beaker on a magnetic stirrer; a pipette tip releases a drop of blue reagent that blooms and is pulled into the swirl. HARD CUT.",
         "SHOT 2 (3–5s) — CU, 47°: her gloved hand slides a rack of sample tubes into a modern automated analyser; its arm moves over the tubes. HARD CUT.",
-        "SHOT 3 (5–9s) — MWS (from the knees up, the bright lab around her), 63°: @PESQUISADORA at the bench at the right third, lifts her eyes to the lens and speaks at 6–8s with a quick smile, then looks back at the beaker. HARD CUT.",
-        "SHOT 4 (9–11s) — CU, 47°: she holds a small vial up to the window light and checks its clarity, pleased. Hard end mid-gesture.",
+        "SHOT 3 (5–7s) — MWS (from the knees up, the bright lab around her), 63°: @PESQUISADORA at the bench at the right third, lifts her eyes to the lens and speaks at 5–7s with a quick smile, then looks back at the beaker. HARD CUT.",
+        "SHOT 4 (7–9s) — CU, 47°: she holds a small vial up to the window light and checks its clarity, pleased. Hard end mid-gesture.",
     ]),
-    dialogue(line(6, 8, "PESQUISADORA", "de novas tecnologias,"), "PESQUISADORA"),
+    dialogue(line(5, 7, "PESQUISADORA", "de novas tecnologias,"), "PESQUISADORA"),
     acting("PESQUISADORA", "she loves her work and rarely gets to talk about it.",
            "borrow two seconds from the experiment to share it, light and quick, then go back.",
            "from the beaker to the lens and back.",
@@ -292,11 +310,11 @@ THE SOUL OF THE SCENE (play it, never explain it): she loves what she does and a
     f"""SOUND — LOCATION SOUND ONLY: the stirrer's soft whirr and the liquid swirling; the pipette click; the analyser's motor; glass touching glass; the hood's airflow. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: glowing liquids, coloured smoke, sci-fi holograms, readable labels or screens, gloves off, speaking in the close-ups, the camera stopping, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld travelling left to right in every shot — (1, 0–3s) ECU: the vortex in the beaker, a blue drop blooms into it — (2, 3–5s) CU: the tube rack into the analyser — (3, 5–9s) medium-wide: she looks up and says her line with a quick smile — (4, 9–11s) CU: she checks a vial against the window. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only her one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 7s, 9s, handheld travelling left to right in every shot — (1, 0–3s) ECU: the vortex in the beaker, a blue drop blooms into it — (2, 3–5s) CU: the tube rack into the analyser — (3, 5–7s) medium-wide: she looks up and says her line with a quick smile — (4, 7–9s) CU: she checks a vial against the window. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only her one line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 T07 = join(
-    contract(12, "4 shots with 3 hard cuts at 3s, 5s and 10s", "handheld travelling sideways from frame-left to frame-right in every shot"),
+    contract(9, "4 shots with 3 hard cuts at 3s, 5s and 7s", "handheld travelling sideways from frame-left to frame-right in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
@@ -307,14 +325,14 @@ FACES: each face exists once; other diners far behind are distinct and soft.
 CONTACT: nobody touches anyone; the plate goes from his hands to the table.""",
     """SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen. @DONO is already finishing a plate for a regular customer.
 THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in this city for decades and this one is his pride — he lets you in on it like an old friend.""",
-    rev_locks(4, [3, 5, 10], "DONO", "de uma economia mais sustentável."),
-    timeline(4, [3, 5, 10], [
+    rev_locks(4, [3, 5, 7], "DONO", "de uma economia mais sustentável."),
+    timeline(4, [3, 5, 7], [
         "SHOT 1 (0–3s) — CU, 47°: his hands finish a plate — fresh greens, grilled vegetables, rice and beans, a drizzle of olive oil. HARD CUT.",
         "SHOT 2 (3–5s) — CU, 47°: the plate lands on the light wood table in front of the CUSTOMER; her hands pick up the fork. HARD CUT.",
-        "SHOT 3 (5–10s) — MWS (from the knees up, the restaurant around him), 63°: @DONO standing at the table at the right third, the CUSTOMER soft in the frame-LEFT foreground; he turns to the lens with a complicit smile and speaks at 6–9s. HARD CUT.",
-        "SHOT 4 (10–12s) — CU, 47°: the CUSTOMER takes the first bite, chews and nods, smiling with her mouth closed. Hard end mid-nod.",
+        "SHOT 3 (5–7s) — MWS (from the knees up, the restaurant around him), 63°: @DONO standing at the table at the right third, the CUSTOMER soft in the frame-LEFT foreground; he turns to the lens with a complicit smile and speaks at 5–7s. HARD CUT.",
+        "SHOT 4 (7–9s) — CU, 47°: the CUSTOMER takes the first bite, chews and nods, smiling with her mouth closed. Hard end mid-nod.",
     ]),
-    dialogue(line(6, 9, "DONO", "de uma economia mais sustentável."), "DONO"),
+    dialogue(line(5, 7, "DONO", "de uma economia mais sustentável."), "DONO"),
     acting("DONO", "decades in this city's kitchens, and this place is his pride.",
            "serve with pleasure and let you in on it with a complicit look, like to an old friend.",
            "on the plate and the customer, then a warm sidelong look to the lens.",
@@ -329,11 +347,11 @@ THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in thi
     f"""SOUND — LOCATION SOUND ONLY: the plate's soft knock on wood; cutlery on plates; a low murmur of diners with no words standing out; a pan sizzling in the open kitchen; the street through the door. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: the customer speaking or looking at the lens, a rustic old eatery, oilcloth, plastic chairs, readable menu, speaking in the close-ups, the camera stopping, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld travelling left to right in every shot — (1, 0–3s) CU: his hands finish the plate — (2, 3–5s) CU: the plate lands, she picks up the fork — (3, 5–10s) medium-wide: he turns to the lens with a complicit smile and says his line — (4, 10–12s) CU: her first bite, she nods. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only his one line, the customer silent. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 7s, 9s, handheld travelling left to right in every shot — (1, 0–3s) CU: his hands finish the plate — (2, 3–5s) CU: the plate lands, she picks up the fork — (3, 5–7s) medium-wide: he turns to the lens with a complicit smile and says his line — (4, 7–9s) CU: her first bite, she nods. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only his one line, the customer silent. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 T08 = join(
-    contract(17, "4 shots with 3 hard cuts at 3s, 5s and 15s", "handheld travelling sideways from frame-left to frame-right in every shot"),
+    contract(14, "4 shots with 3 hard cuts at 3s, 5s and 12s", "handheld travelling sideways from frame-left to frame-right in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
@@ -343,15 +361,15 @@ FACES: her face exists once; nobody else in frame.
 CONTACT: only her hands on the plants.""",
     """SCENE — Late afternoon in a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: perfect rows, a centre-pivot irrigation arm in the distance. @AGRICULTORA is already walking along a row, her open hand passing over the tops of the plants.
 THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs it with pride; she walks you through it, delighted to get to the point.""",
-    rev_locks(4, [3, 5, 15], "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:",
+    rev_locks(4, [3, 5, 12], "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:",
               "\n4b. She walks from frame-left to frame-right in every shot — WRONG if she walks toward or away from the camera."),
-    timeline(4, [3, 5, 15], [
+    timeline(4, [3, 5, 12], [
         "SHOT 1 (0–3s) — CU, 47°: her open hand passes over the tops of the soybean plants as she walks, the leaves brushing her palm and springing back. HARD CUT.",
         "SHOT 2 (3–5s) — ECU, 47°: without stopping, her fingers split a green pod and show the plump beans inside. HARD CUT.",
-        "SHOT 3 (5–15s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 6–14s, eyes moving between you and the field, smiling more as she goes. HARD CUT.",
-        "SHOT 4 (15–17s) — CU, 29°: her face as she walks, a warm smile, eyes on you. Hard end mid-step.",
+        "SHOT 3 (5–12s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 5–12s, eyes moving between you and the field, smiling more as she goes. HARD CUT.",
+        "SHOT 4 (12–14s) — CU, 29°: her face as she walks, a warm smile, eyes on you. Hard end mid-step.",
     ]),
-    dialogue(line(6, 14, "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"), "AGRICULTORA"),
+    dialogue(line(5, 12, "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"), "AGRICULTORA"),
     acting("AGRICULTORA", "she runs this land and knows what it is worth.",
            "walk you through her field like a proud host and get to the point with a smile.",
            "split between the plants and the lens; toward the end of the line they stay on you.",
@@ -364,12 +382,12 @@ THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs
     f"""SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, eyes hidden under the hat brim, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 15s, 17s, handheld travelling left to right in every shot — (1, 0–3s) CU: her hand over the plants — (2, 3–5s) ECU: she splits a pod — (3, 5–15s) medium-wide walk-and-talk: her line to the lens, smiling — (4, 15–17s) CU: her face, smiling, still walking. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 12s, 14s, handheld travelling left to right in every shot — (1, 0–3s) CU: her hand over the plants — (2, 3–5s) ECU: she splits a pod — (3, 5–12s) medium-wide walk-and-talk: her line to the lens, smiling — (4, 12–14s) CU: her face, smiling, still walking. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T09
 T09 = join(
-    contract(15, "3 shots with 2 hard cuts at 3s and 12s", "handheld in every shot; one focus rack at the start of shot 2"),
+    contract(14, "3 shots with 2 hard cuts at 3s and 11s", "handheld in every shot; one focus rack at the start of shot 2"),
     f"""REFERENCES — each reference has ONE job:
 @FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
 {SCOPE_ID}""",
@@ -380,15 +398,15 @@ CONTACT: nobody touches anyone.""",
     """SCENE — Late afternoon at the edge of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far below. @FUNCIONARIO is already turning a piece of ore in his gloved hand.
 THE SOUL OF THE SCENE (play it, never explain it): the world comes here for the ore; he is happy to tell you the real treasure is the people — and he is one of them.""",
     f"""{LOCKS_HEAD}
-1. Exactly 3 shots, 2 hard cuts at 3s and 12s; handheld in every shot — WRONG if extra cuts or a locked camera.
+1. Exactly 3 shots, 2 hard cuts at 3s and 11s; handheld in every shot — WRONG if extra cuts or a locked camera.
 2. Full mining safety equipment on in every shot: hard hat with chin strap fastened, glasses, high-visibility vest, gloves — WRONG if any piece is missing or carries a logo.
 3. He speaks only in shot 2; in shot 3 his mouth is closed — WRONG if he speaks in shot 3.
 4. In shot 3 his eyes rise from the ore and land on the lens on the upper-third line at about 45% of the frame width, alive — WRONG if glassy or landing elsewhere.
 5. Sun from frame-LEFT — NO music.""",
-    timeline(3, [3, 12], [
+    timeline(3, [3, 11], [
         "SHOT 1 (0–3s) — ECU, 47°: his gloved hand turns a chunk of dark brown ore in the palm; fine dust slides off its edges. HARD CUT.",
-        "SHOT 2 (3–12s) — MWS (from the knees up, the open pit behind him), 47°, handheld drifting slowly: the frame opens with the edge of the ore stockpile sharp in the frame-RIGHT foreground and @FUNCIONARIO soft behind it; at 3–4s the focus racks to him — he is already looking at the lens with a quiet smile; at 4–11s he speaks, proud and warm. HARD CUT.",
-        "SHOT 3 (12–15s) — the MATCH FRAME, CU: his eyes on the ore in his hand below frame; at 13–14s his eyes rise and land on the lens; a warm smile. Hard end on the held look.",
+        "SHOT 2 (3–11s) — MWS (from the knees up, the open pit behind him), 47°, handheld drifting slowly: the frame opens with the edge of the ore stockpile sharp in the frame-RIGHT foreground and @FUNCIONARIO soft behind it; at 3–4s the focus racks to him — he is already looking at the lens with a quiet smile; at 4–11s he speaks, proud and warm. HARD CUT.",
+        "SHOT 3 (11–14s) — the MATCH FRAME, CU: his eyes on the ore in his hand below frame; at 12–13s his eyes rise and land on the lens; a warm smile. Hard end on the held look.",
     ]),
     dialogue(line(4, 11, "FUNCIONARIO", "a nossa gente. Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."), "FUNCIONARIO"),
     acting("FUNCIONARIO", "the world comes for the ore and rarely asks about the people.",
@@ -403,7 +421,7 @@ THE SOUL OF THE SCENE (play it, never explain it): the world comes here for the 
     f"""SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); gravel shifting on the stockpile; after his line, only wind and the distant truck. {T.MUSIC_POLICY}""",
     T.WORLD + " Mining safety equipment is complete and correct; nobody in the pit without it.",
     f"""NEGATIVE: missing helmet, unfastened chin strap, no glasses, no vest, logos on equipment or trucks, speaking in shot 3, gesturing at the mine, glowing ore, gold, eyes landing off the upper third, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 3 shots, 2 hard cuts at 3s and 12s, 15s, handheld — (1, 0–3s) ECU: the ore turning in his gloved hand — (2, 3–12s) medium-wide at the pit: focus racks from the ore to him, his line to the lens, warm and proud — (3, 12–15s) MATCH FRAME close-up: eyes down on the ore, rising to the lens at 13–14s, a smile. Invariants: full safety equipment; he speaks only in shot 2; eyes landing at the upper third, 45% width; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 3 shots, 2 hard cuts at 3s and 11s, 14s, handheld — (1, 0–3s) ECU: the ore turning in his gloved hand — (2, 3–11s) medium-wide at the pit: focus racks from the ore to him, his line to the lens, warm and proud — (3, 11–14s) MATCH FRAME close-up: eyes down on the ore, rising to the lens at 12–13s, a smile. Invariants: full safety equipment; he speaks only in shot 2; eyes landing at the upper third, 45% width; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 
@@ -483,7 +501,7 @@ ACTING — CROWD (background): one organism following one ball; soft, nobody loo
 
 # ---------------------------------------------------------------- T12 + T13
 T12 = join(
-    contract(16, "4 shots with 3 hard cuts at 3s, 6s and 13s", "handheld in every shot, inside a moving bus"),
+    contract(14, "4 shots with 3 hard cuts at 3s, 6s and 11s", "handheld in every shot, inside a moving bus"),
     f"""REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
@@ -496,18 +514,18 @@ CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.""",
     """SCENE — Late afternoon on a modern, air-conditioned city bus in Belo Horizonte, Brazil; at a stop, the glass door is already folding open for a teenage student with a backpack.
 THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he knows this boy and is proud of where he is headed — he tells you the route with a smile.""",
     f"""{LOCKS_HEAD}
-1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 13s; handheld in every shot — WRONG if extra cuts or a locked camera.
+1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 11s; handheld in every shot — WRONG if extra cuts or a locked camera.
 2. @ESTUDANTE never speaks; @MOTORISTA speaks only in shot 3 — WRONG if any other mouth forms words.
 3. In shot 2 @MOTORISTA's eyes rise and land on the lens at 4–5s, on the upper-third line at about 45% of the frame width — WRONG if glassy or landing elsewhere.
 4. The bus is moving in shots 3 and 4; his hands stay on the wheel while he speaks.
 5. Daylight from frame-LEFT — NO music.""",
-    timeline(4, [3, 6, 13], [
+    timeline(4, [3, 6, 11], [
         "SHOT 1 (0–3s) — CU, 47°, low at the door: the glass door folds open with a pneumatic hiss and @ESTUDANTE's white sneaker steps onto the low floor; his hand rises in a greeting. HARD CUT.",
         "SHOT 2 (3–6s) — the MATCH FRAME, CU of @MOTORISTA: his eyes follow the boy passing behind him, then rise and land on the lens at 4–5s; a warm smile. HARD CUT.",
-        "SHOT 3 (6–13s) — MWS (the driver at the wheel, the windshield and the city ahead), 47°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 7–12s, glancing at the road and back, smiling. HARD CUT.",
-        "SHOT 4 (13–16s) — CU, 47°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.",
+        "SHOT 3 (6–11s) — MWS (the driver at the wheel, the windshield and the city ahead), 47°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 6–11s, glancing at the road and back, smiling. HARD CUT.",
+        "SHOT 4 (11–14s) — CU, 47°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.",
     ]),
-    dialogue(line(7, 12, "MOTORISTA", "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."), "MOTORISTA"),
+    dialogue(line(6, 11, "MOTORISTA", "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."), "MOTORISTA"),
     acting("MOTORISTA", "every day he takes people to where the opportunities are.",
            "explain it like a route he loves — hands on the wheel, eyes splitting between the road and you, checking you followed.",
            "following the boy, then up to the lens; in shot 3 between the road and the lens.",
@@ -524,12 +542,12 @@ THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to
     f"""SOUND — LOCATION SOUND ONLY: the door's pneumatic hiss; the boy's steps; the engine pulling away; tyres on the avenue, traffic outside, a horn far off; the stop-request bell once (a single tone, not a melody); the engine's hum under his voice. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, eyes landing off the upper third, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 13s, 16s, handheld — (1, 0–3s) CU: the glass door opens, the student's sneaker steps in — (2, 3–6s) MATCH FRAME close-up: the driver's eyes follow the boy and rise to the lens at 4–5s, smiling — (3, 6–13s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 13–16s) CU: the student by the window, the city sliding past. Invariants: student silent; driver speaks only in shot 3; eyes landing at the upper third; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s, handheld — (1, 0–3s) CU: the glass door opens, the student's sneaker steps in — (2, 3–6s) MATCH FRAME close-up: the driver's eyes follow the boy and rise to the lens at 4–5s, smiling — (3, 6–11s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 11–14s) CU: the student by the window, the city sliding past. Invariants: student silent; driver speaks only in shot 3; eyes landing at the upper third; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T14
 T14 = join(
-    contract(12, "4 shots with 3 hard cuts at 3s, 5s and 10s", "handheld in every shot"),
+    contract(11, "4 shots with 3 hard cuts at 3s, 5s and 9s", "handheld in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe — the same clothes as on the bus. 100% matches.
 {SCOPE_ID}""",
@@ -541,18 +559,18 @@ CONTACT: the only touch is the fist bump in shot 4.""",
     """SCENE — Afternoon in the workshop of a free technical course for young people in Belo Horizonte, Brazil — modern training panels, bright and organised. @ESTUDANTE is already tightening the last terminal of a circuit.
 THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work with his own hands and is thrilled — he tells you what this place is for.""",
     f"""{LOCKS_HEAD}
-1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 10s; handheld in every shot.
+1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 9s; handheld in every shot.
 2. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
 3. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy.
 4. Only @ESTUDANTE speaks, only this line — the classmate's mouth stays closed.
 5. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.""",
-    timeline(4, [3, 5, 10], [
+    timeline(4, [3, 5, 9], [
         "SHOT 1 (0–3s) — ECU, 47°: a screwdriver tightens a terminal on a training panel; the copper wire end seats with a small snap and his fingers tug it once to test it. HARD CUT.",
         "SHOT 2 (3–5s) — CU, 47°: his finger flips a switch and a lamp on the panel lights up. HARD CUT.",
-        "SHOT 3 (5–10s) — MWS (from the knees up, the workshop around him), 47°: @ESTUDANTE at the panel, the CLASSMATE beside him; he turns to the lens and speaks at 6–9s, grinning with pride. HARD CUT.",
-        "SHOT 4 (10–12s) — CU, 47°: he and the CLASSMATE bump fists in front of the lit lamp. Hard end mid-bump.",
+        "SHOT 3 (5–9s) — MWS (from the knees up, the workshop around him), 47°: @ESTUDANTE at the panel, the CLASSMATE beside him; he turns to the lens and speaks at 5–9s, grinning with pride. HARD CUT.",
+        "SHOT 4 (9–11s) — CU, 47°: he and the CLASSMATE bump fists in front of the lit lamp. Hard end mid-bump.",
     ]),
-    dialogue(line(6, 9, "ESTUDANTE", "É para isso que a Codemig existe… para fazer essa conexão acontecer."), "ESTUDANTE"),
+    dialogue(line(5, 9, "ESTUDANTE", "É para isso que a Codemig existe… para fazer essa conexão acontecer."), "ESTUDANTE"),
     acting("ESTUDANTE", "at 15 he just made something work with his own hands.",
            "show you the lit lamp as proof and tell you, thrilled, what this place is for — check that you believe him.",
            "from the lamp to the lens.",
@@ -567,7 +585,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work
     f"""SOUND — LOCATION SOUND ONLY: the screwdriver's squeak and the terminal's snap; the switch click; a fan humming; other students working at far benches, no words standing out; the fist bump. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: different wardrobe from the bus, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 10s, 12s, handheld — (1, 0–3s) ECU: the terminal tightened, the wire tested — (2, 3–5s) CU: the switch, the lamp lights up — (3, 5–10s) medium-wide: he turns to the lens and says his line, proud — (4, 10–12s) CU: fist bump in front of the lamp. Invariants: the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the terminal tightened, the wire tested — (2, 3–5s) CU: the switch, the lamp lights up — (3, 5–9s) medium-wide: he turns to the lens and says his line, proud — (4, 9–11s) CU: fist bump in front of the lamp. Invariants: the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T15
@@ -592,10 +610,10 @@ THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is 
     timeline(4, [3, 5, 12], [
         "SHOT 1 (0–3s) — CU, 47°: her hands clip a pulse oximeter onto the PATIENT's finger; its small light glows red. HARD CUT.",
         "SHOT 2 (3–5s) — CU, 47°: her fingers roll the clamp on the IV line; a drop falls in the drip chamber. HARD CUT.",
-        "SHOT 3 (5–12s) — MWS (both of them and the bright ward), 47°: @ENFERMEIRA frame-LEFT adjusts the PATIENT's pillow and checks his arm while speaking at 6–11s, eyes on him and then to the lens with a warm smile. HARD CUT.",
+        "SHOT 3 (5–12s) — MWS (both of them and the bright ward), 47°: @ENFERMEIRA frame-LEFT adjusts the PATIENT's pillow and checks his arm while speaking at 5–12s, eyes on him and then to the lens with a warm smile. HARD CUT.",
         "SHOT 4 (12–14s) — CU, 47°: the PATIENT's hand squeezes hers; she squeezes back. Hard end mid-squeeze.",
     ]),
-    dialogue(line(6, 11, "ENFERMEIRA", "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."), "ENFERMEIRA"),
+    dialogue(line(5, 12, "ENFERMEIRA", "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."), "ENFERMEIRA"),
     acting("ENFERMEIRA", "caring is her job and she is proud of it.",
            "keep caring for him while she tells you, then give you a warm look to check you understood why she is here.",
            "on the patient, then to the lens near the end of the line.",
@@ -616,7 +634,7 @@ THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is 
 
 # ---------------------------------------------------------------- T16
 T16 = join(
-    contract(12, "ONE continuous take, no cuts", "handheld, close and breathing, tight close-up"),
+    contract(11, "ONE continuous take, no cuts", "handheld, close and breathing, tight close-up"),
     f"""REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe 100% matches.
 {SCOPE_ID}""",
@@ -633,10 +651,10 @@ THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything a
 5. Sun from frame-LEFT — NO music.""",
     timeline(1, [], [
         "BEAT 1 (0–1s) — CU, 18°, handheld 1.3 m from his face, breathing: his face from the eyebrows to the chin, just left of centre, eyes already on the lens.",
-        "BEAT 2 (1–10s) — he speaks to the lens, proud and warm, the smile growing.",
-        "BEAT 3 (10–12s) — he holds your eyes with an open smile. Hard end on the held look.",
+        "BEAT 2 (1–9s) — he speaks to the lens, proud and warm, the smile growing.",
+        "BEAT 3 (9–11s) — he holds your eyes with an open smile. Hard end on the held look.",
     ]),
-    dialogue(line(1, 10, "JOVEM", "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra. O minério é nosso. O futuro também."), "JOVEM"),
+    dialogue(line(1, 9, "JOVEM", "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra. O minério é nosso. O futuro também."), "JOVEM"),
     acting("JOVEM", "everything he showed you comes down to this, and he is proud of it.",
            "look at you from close up, share it with pride and invite you in — look for your yes.",
            "on the lens throughout, moving between your two eyes.",
@@ -648,5 +666,5 @@ THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything a
     f"""SOUND — LOCATION SOUND ONLY: wind across the open summit, steady and quiet; dry grass hissing; his breath; after his last word, only the wind. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: a cut, widening the frame, smooth retouched skin,  watery eyes, tears, a wink, slogan delivery, looking away, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 12s, tight CU 18° — (0–1s) eyes on the lens — (1–10s) his words to you, proud and warm — (10–12s) he holds your eyes, smiling. Invariants: handheld, tight close-up; living eyes on the lens; real skin; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: ONE handheld take, 11s, tight CU 18° — (0–1s) eyes on the lens — (1–9s) his words to you, proud and warm — (9–11s) he holds your eyes, smiling. Invariants: handheld, tight close-up; living eyes on the lens; real skin; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
