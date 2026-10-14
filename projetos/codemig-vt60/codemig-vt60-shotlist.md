@@ -746,65 +746,69 @@ Anexar nesta ordem:
 Notas: fala longa (22 palavras em 7s): se o lipsync escorregar no fim, a montagem cobre o final com o close da mão nas plantas.
 ```
 
-### T09 · Mina de nióbio (Virada, ~4.8s no corte)
+### T09 · Mina de nióbio (Virada, ~5.0s no corte)
 
-O minério gira na luva; o foco sai do minério e chega nele, que fala; no close, o olhar desce e sobe para a lente.
+O funcionário segura o nióbio na frente do rosto, desfocado atrás; tira o nióbio e diz "a nossa gente.", conclusivo e orgulhoso, sorrindo.
 
-#### Geração T09 · 14s · 3 plano(s)
+#### Geração T09 · 6s · 1 plano(s)
 
-- **O que acontece:** Na beira de uma cava moderna em Araxá: detalhe do minério girando na luva; no médio-aberto o foco sai do minério e chega no funcionário, que fala; no close, o olhar desce para o minério e sobe para a lente.
-- **O que é dito:** FUNCIONÁRIO: "a nossa gente. Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
-- **Tempo:** minério na luva — 3s · rack e fala — 8s · close, olhar sobe — 3s = 14s
+- **O que acontece:** Na beira de uma cava moderna em Araxá: um pedaço de nióbio prateado, na luva, cobre quase todo o rosto do funcionário, que mal aparece desfocado atrás; ele abaixa o nióbio, o foco chega nos olhos dele na lente, e ele diz só "a nossa gente.", sorrindo, e segura o olhar.
+- **O que é dito:** FUNCIONÁRIO: "a nossa gente." (fecha a frase da agricultora no T08; o resto, "Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui.", é V.O. gravada no ElevenLabs e entra na montagem)
+- **Tempo:** nióbio na frente do rosto — 2s · tira o nióbio e o foco chega nos olhos — 1s · fala — 2s · segura o sorriso — 1s = 6s
 - **Como termina:** o olhar pousado na lente, sorrindo; match cut com o T10.
-- **Direção:** O rack de foco segue sendo o gesto da virada: onde se espera o minério, aparece a pessoa. O close final abre o match cut do olhar. A frase inteira está na fala, então o áudio de "para quem nasce, vive e trabalha aqui" vai para baixo do T10 ao T12.
+- **Direção:** Um plano só, no close do match. O gesto da virada continua sendo o foco: o nióbio nítido na frente, o rosto quase escondido, e quando o nióbio sai por baixo o foco chega nos olhos. A fala fecha a frase do T08 ("...nossa terra:" → "a nossa gente."), com direção conclusiva, orgulhosa e sem seriedade. O nióbio agora é prateado e facetado, como na sua foto de referência (antes eu tinha escrito marrom-escuro). Não anexei a foto: ela traria o rosto daquele homem e a marca d'água; o prompt descreve o enquadramento e o metal.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 3 shots with 2 hard cuts at 3s and 11s, handheld in every shot; one focus rack at the start of shot 2, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 6 seconds total, ONE continuous take, no cuts, handheld, close and breathing; one focus rack from the niobium to his eyes, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@FUNCIONARIO (30, mixed-race Brazilian man, medium build, medium brown skin, short black hair, thick straight eyebrows, broad nose, full lips, clean-shaven with a faint stubble shadow, glossy white hard hat with black chin strap fastened and no logo, clear wraparound safety glasses, orange high-visibility vest with silver reflective strips over a long-sleeved dark grey work shirt worn untucked, black cargo work trousers, grey padded work gloves, orange ear plugs on an orange cord around his neck, black lace-up work boots) — the MINE WORKER: holds a piece of ore, speaks, looks down at it and back up; NEVER removes any safety equipment, NEVER walks away.
-FACES: his face exists once; the haul trucks far behind have no visible drivers.
-CONTACT: nobody touches anyone.
+@FUNCIONARIO (30, mixed-race Brazilian man, medium build, medium brown skin, short black hair, thick straight eyebrows, broad nose, full lips, clean-shaven with a faint stubble shadow, glossy white hard hat with black chin strap fastened and no logo, clear wraparound safety glasses, orange high-visibility vest with silver reflective strips over a long-sleeved dark grey work shirt worn untucked, black cargo work trousers, grey padded work gloves, orange ear plugs on an orange cord around his neck, black lace-up work boots) — the MINE WORKER: holds a chunk of niobium up in front of his face, lowers it, says one short phrase and smiles; NEVER removes any safety equipment, NEVER walks away.
+FACES: his face exists once; nobody else in the frame; the haul trucks far behind have no visible drivers.
+CONTACT: only his gloved hand on the niobium.
 
-SCENE — Late afternoon at the edge of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far below. @FUNCIONARIO is already turning a piece of ore in his gloved hand.
-THE SOUL OF THE SCENE (play it, never explain it): the world comes here for the ore; he is happy to tell you the real treasure is the people — and he is one of them.
+SCENE — Late afternoon at the edge of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far below, all soft behind him. @FUNCIONARIO is already holding a chunk of raw niobium in his gloved hand, right in front of his face.
+THE SOUL OF THE SCENE (play it, never explain it): someone else began the sentence and he gets the last word — the rarest thing in Minas is its people, and he is one of them; he says it like the happy punchline of a story he is proud of.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 3 shots, 2 hard cuts at 3s and 11s; handheld in every shot — WRONG if extra cuts or a locked camera.
-2. Full mining safety equipment on in every shot: hard hat with chin strap fastened, glasses, high-visibility vest, gloves — WRONG if any piece is missing or carries a logo.
-3. He speaks only in shot 2; in shot 3 his mouth is closed — WRONG if he speaks in shot 3.
-4. In shot 3 his eyes rise from the ore and land on the lens on the upper-third line at about 45% of the frame width, alive — WRONG if glassy or landing elsewhere.
-5. Sun from frame-LEFT — NO music.
+1. ONE continuous handheld take in the MATCH FRAME, no cuts — WRONG if it cuts, pushes in or is locked.
+2. 0–2s: the niobium chunk, held in his gloved hand, covers most of his face and is SHARP in the foreground; his face behind it is OUT OF FOCUS and barely shows — only the edge of the white hard hat, the clear glasses and one eye peeking at the lens — WRONG if his face is clearly visible before the niobium moves.
+3. At 2–3s he lowers the niobium straight down and out of the bottom of the frame and the focus racks to his eyes, which are on the lens, on the upper-third line at about 45% of the frame width, alive, by 3s — WRONG if the niobium rises, sweeps across his face or stays in frame, or if the eyes are glassy or land elsewhere.
+4. He speaks ONLY "a nossa gente." at 3–5s, as the conclusion of a longer sentence — resolved and proud, smiling, never solemn; his mouth is closed at 0–3s and 5–6s — WRONG if he says any other word.
+5. Full mining safety equipment on: hard hat with chin strap fastened, glasses, high-visibility vest, gloves — WRONG if any piece is missing or carries a logo.
+6. Sun from frame-LEFT — NO music.
 
-TIMELINE — 3 shots, 2 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — ECU, 47°: his gloved hand turns a chunk of dark brown ore in the palm; fine dust slides off its edges. HARD CUT.
-SHOT 2 (3–11s) — MWS (from the knees up, the open pit behind him), 47°, handheld drifting slowly: the frame opens with the edge of the ore stockpile sharp in the frame-RIGHT foreground and @FUNCIONARIO soft behind it; at 3–4s the focus racks to him — he is already looking at the lens with a quiet smile; at 4–11s he speaks, proud and warm. HARD CUT.
-SHOT 3 (11–14s) — the MATCH FRAME, CU: his eyes on the ore in his hand below frame; at 12–13s his eyes rise and land on the lens; a warm smile. Hard end on the held look.
+TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
+BEAT 1 (0–2s) — the MATCH FRAME, CU: a chunk of raw niobium — rough, faceted, silvery-grey metal with sharp crystalline edges that glint in the sun — held in his gloved fingers at arm's length toward the lens, right in front of his face, SHARP, filling about half the frame height and covering most of his face; his face behind it soft and barely showing: the edge of the white hard hat, the clear glasses, one eye peeking at the lens beside the chunk; the chunk turns a few degrees in his fingers and its facets glint.
+BEAT 2 (2–3s) — a small playful reveal: he lowers the niobium straight down and out of the bottom of the frame; as it clears his face the focus racks from the niobium to his eyes; his eyes are on the lens and a smile starts.
+BEAT 3 (3–5s) — he speaks to the lens, smiling, the phrase landing like the end of a sentence: resolved and proud, light, not solemn.
+BEAT 4 (5–6s) — he holds, smiling, eyes on the lens, mouth closed. Hard end on the held look.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[4–11s] @FUNCIONARIO (on camera, Brazilian Portuguese): "a nossa gente. Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
+[3–5s] @FUNCIONARIO (on camera, Brazilian Portuguese; the closing words of a longer sentence — a resolved, falling close, proud and smiling, never solemn): "a nossa gente."
 VOICE LOCK — @FUNCIONARIO: Brazilian man, 30, low calm chest voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @FUNCIONARIO (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
-MOTIVE: the world comes for the ore and rarely asks about the people.
-TACTIC: tell you, with quiet pride and a smile, that the treasure here is the people — and check that you got it.
-EYES: steady on the lens in shot 2; in shot 3 down to the ore and back up to you. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: he swallows once and smiles. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, a heroic pose, gesturing at the mine.
+MOTIVE: someone else just opened a sentence and he has the answer — the thing he is proudest of.
+TACTIC: show you the rare metal like a prize, then lower it and tell you the real treasure is the people — and he is one of them — with a small proud smile.
+EYES: peeking at the lens past the niobium; on the lens, steady and warm, from the moment it clears. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his chin lifts a hair as the niobium comes down; he swallows once and smiles. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a heroic pose, gesturing at the mine, holding the niobium up to the camera after the line.
 
 MATCH FRAME (KEY — identical in every shot of the match series): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes rise and reach the lens they land on the upper-third line at about 45% of the frame width; the background soft.
+In this take the eyes are already on the lens beside the niobium; they land fully on that mark when the niobium clears.
 
 CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
 OPTICS: as stated per shot; no lens drift inside a shot.
 FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
+FOCUS PULL: at 0–2s the focus is on the niobium and his face is soft; at 2–3s, as the niobium leaves the frame, the focus racks smoothly to his eyes and stays on them.
 
-PHYSICS & MATERIAL — the ore is dense and heavy for its size, sharp-edged; dust lifts off the pit in the wind and drifts right; the vest is stiff; the haul trucks move slowly and heavily far below. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the granular dark-brown surface of the ore, reflective tape on the vest, the glossy white helmet shell, the black elastic chin strap under his jaw, drill marks on the bench walls, the scale of the modern trucks against the pit.
+PHYSICS & MATERIAL — the niobium is dense, cold and heavy for its size, sharp-edged; his padded glove presses into it and it swings slightly with its weight as he lowers it; dust lifts off the pit in the wind and drifts right; the vest is stiff. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the rough crystalline silvery-grey facets of the niobium with a dull-bright metallic sheen and fine dust in the crevices (not a smooth ingot, not a mirror), the clean grey padded fabric of the glove, the glossy white helmet shell, the black elastic chin strap under his jaw, reflective tape on the vest, clear glasses without glare over the eyes.
 
 LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
@@ -816,22 +820,22 @@ NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat over
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); gravel shifting on the stockpile; after his line, only wind and the distant truck. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); the glove's fabric against the metal; after his line, only wind and the distant truck. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes. Mining safety equipment is complete and correct; nobody in the pit without it.
 
-NEGATIVE: missing helmet, unfastened chin strap, no glasses, no vest, logos on equipment or trucks, speaking in shot 3, gesturing at the mine, glowing ore, gold, eyes landing off the upper third, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: his face clearly visible before the niobium moves, the niobium staying in front of his face after 3s, the niobium raised or swept sideways across his face, a smooth polished ingot, a mirror ball, glowing metal, gold, any word beyond "a nossa gente.", a solemn, serious or heroic face, dirty or grimy hands, missing helmet, unfastened chin strap, no glasses, no vest, logos on equipment or trucks, eyes landing off the upper third, a cut, a push-in, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 3 shots, 2 hard cuts at 3s and 11s, 14s, handheld — (1, 0–3s) ECU: the ore turning in his gloved hand — (2, 3–11s) medium-wide at the pit: focus racks from the ore to him, his line to the lens, warm and proud — (3, 11–14s) MATCH FRAME close-up: eyes down on the ore, rising to the lens at 12–13s, a smile. Invariants: full safety equipment; he speaks only in shot 2; eyes landing at the upper third, 45% width; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: ONE handheld take, 6s, MATCH FRAME close-up — (0–2s) a chunk of silvery faceted niobium in his gloved hand in front of his face, sharp, his face soft and barely showing behind it — (2–3s) he lowers it straight down out of frame, the focus racks to his eyes on the lens at the upper third, 45% width — (3–5s) he says only "a nossa gente.", resolved, proud, smiling — (5–6s) he holds the smile, mouth closed; hard end. Invariants: full safety equipment; only that phrase; the niobium leaves downward and out of frame; eyes landing on the mark; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 6s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @FUNCIONARIO (character sheet) — identidade + EPI
-Notas: validar o EPI com a SST da operadora antes do final (P11).
+Notas: confira: o rosto quase não aparece até 2s; o nióbio é prata facetado (não lingote liso nem espelho), sai por baixo do quadro e não cruza o rosto; ele diz só "a nossa gente."; os olhos pousam no terço superior (~45% da largura); luvas limpas. Validar o EPI com a SST da operadora antes do final (P11).
 ```
 
 ### T10 · Mãe e recém-nascido (Match cut, ~1.2s no corte)
@@ -841,7 +845,7 @@ A mãe olha o bebê e levanta os olhos para você, no mesmo ponto da tela do fun
 #### Geração T10 · 5s · 1 plano(s)
 
 - **O que acontece:** Num apartamento claro em BH, a mãe confere a respiração do recém-nascido e levanta os olhos para a lente, sorrindo; os olhos pousam onde pousaram os do funcionário.
-- **O que é dito:** nada na geração. Na montagem: V.O. do T09, "para quem nasce,"
+- **O que é dito:** nada na geração. Na montagem: V.O. (ElevenLabs), trecho "para quem nasce,"
 - **Tempo:** olhos no bebê — 2s · olhar sobe — 1s · sorriso — 2s = 5s
 - **Como termina:** segurando seu olhar; corte para o T11.
 - **Direção:** P2, o match cut pelo olhar: o mesmo close do T09 ao T12. Geração sem fala, para nenhuma boca formar palavras.
@@ -920,7 +924,7 @@ A torcedora segue a bola que sobe e os olhos dela chegam em você.
 #### Geração T11 · 5s · 1 plano(s)
 
 - **O que acontece:** No Mineirão reformado, a torcedora prende a respiração no lance; a bola sobe, os olhos dela sobem junto e pousam na lente, acesos.
-- **O que é dito:** nada na geração. Na montagem: V.O. do T09, "vive,"
+- **O que é dito:** nada na geração. Na montagem: V.O. (ElevenLabs), trecho "vive,"
 - **Tempo:** olhos no lance — 2s · olhar sobe com a bola — 1s · segura — 2s = 5s
 - **Como termina:** segurando seu olhar; corte para o T12.
 - **Direção:** O olhar tem motivo físico (a bola subindo). Estádio desfocado e figurino terracota, fora das cores de clube e do verde-amarelo.
@@ -1000,7 +1004,7 @@ O estudante embarca; o olhar do motorista sobe para você e ele explica a rota c
 #### Geração T12 + T13 · 14s · 4 plano(s)
 
 - **O que acontece:** Num ônibus moderno de BH: a porta de vidro abre e o tênis do estudante entra; no close, o olhar do motorista acompanha o menino e sobe para a lente; com o ônibus andando, ele fala; fecha no estudante na janela, BH passando.
-- **O que é dito:** MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros." (na montagem, a V.O. "e trabalha aqui." do T09 cai no plano 1)
+- **O que é dito:** MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros." (na montagem, a V.O. "e trabalha aqui." do ElevenLabs cai no plano 1)
 - **Tempo:** porta e tênis — 3s · olhar sobe — 3s · fala com o ônibus andando — 5s · estudante na janela — 3s = 14s
 - **Como termina:** o estudante na janela; corte seco.
 - **Direção:** O olhar do motorista fecha o match cut e emenda a fala dele. O close final do estudante prepara o T14.
@@ -1681,7 +1685,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **P5 · Casting e representação** (proposta): Proposta do diretor nos character sheets: pardos, pretos e brancos em proporção próxima à de Minas, sem amarrar ofício a cor. Validar antes de gerar os sheets.
 - **P6 · Teto de 60 segundos** (a decidir): Com a abertura de 12s (T01-A curto + T01-B de 9s) o corte estimado fica em ~63s; com o T01-B de 18s, ~72s. O pré-shotlist previa ~9s para a abertura inteira. O revezamento tem takes mais longos que o necessário, de propósito, para cobrir a locução em off: o enxugamento fica para a montagem.
 - **P7 · Look (style ref)** (a testar): FILM LOOK v2 a partir do seu ref. Antes de congelar, fazer draft do T01 (exterior com mergulho), do T05 (interior com travelling) e do T09 (virada com match).
-- **P9 · V.O. do T10 ao T12** (proposta): O funcionário diz a frase inteira no T09; esse áudio vira a V.O. dos três takes seguintes, que são gerados sem fala.
+- **P9 · V.O. do T10 ao T12** (proposta): No T09 ele diz só "a nossa gente.". O resto, "Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui." (~6s), é V.O. gravada no ElevenLabs e cobre o sorriso final do T09, o T10, o T11 e o plano 1 do T12 (~6s). Para "nasce / vive / trabalha" caírem na mãe, na torcedora e no ônibus, segurar T10 e T11 um pouco mais ou ajustar o ritmo da V.O.: os dois têm 5s gerados, sobra material.
 - **P10 · T12 e T13 numa geração** (proposta): Mesmo lugar e mesmas pessoas; o olhar do motorista emenda a fala.
 - **P15 · Bloqueios 3D (T01-B)** (confirmar): Os dois bloqueios entram como referência só de movimento. Ajustes pedidos: no de 8,6s, estender o último frame em ~0,4s (fica 9s); no de 19s, cortar ~2s do close inicial e estender o último frame em ~1s (fica 18s). Se der, exportar sem os textos de marcação e em 21:9.
 - **P16 · Locações** (decidido): Nenhuma plate será gerada por enquanto; todos os takes saem de text-to-video para o lugar. Os prompts de locação ficam de reserva.

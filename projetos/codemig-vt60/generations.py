@@ -393,41 +393,46 @@ THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs
 
 # ---------------------------------------------------------------- T09
 T09 = join(
-    contract(14, "3 shots with 2 hard cuts at 3s and 11s", "handheld in every shot; one focus rack at the start of shot 2"),
+    contract(6, "ONE continuous take, no cuts", "handheld, close and breathing; one focus rack from the niobium to his eyes"),
     f"""REFERENCES — each reference has ONE job:
 @FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@FUNCIONARIO ({ANCH['FUNCIONARIO']}) — the MINE WORKER: holds a piece of ore, speaks, looks down at it and back up; NEVER removes any safety equipment, NEVER walks away.
-FACES: his face exists once; the haul trucks far behind have no visible drivers.
-CONTACT: nobody touches anyone.""",
-    """SCENE — Late afternoon at the edge of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far below. @FUNCIONARIO is already turning a piece of ore in his gloved hand.
-THE SOUL OF THE SCENE (play it, never explain it): the world comes here for the ore; he is happy to tell you the real treasure is the people — and he is one of them.""",
+@FUNCIONARIO ({ANCH['FUNCIONARIO']}) — the MINE WORKER: holds a chunk of niobium up in front of his face, lowers it, says one short phrase and smiles; NEVER removes any safety equipment, NEVER walks away.
+FACES: his face exists once; nobody else in the frame; the haul trucks far behind have no visible drivers.
+CONTACT: only his gloved hand on the niobium.""",
+    """SCENE — Late afternoon at the edge of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far below, all soft behind him. @FUNCIONARIO is already holding a chunk of raw niobium in his gloved hand, right in front of his face.
+THE SOUL OF THE SCENE (play it, never explain it): someone else began the sentence and he gets the last word — the rarest thing in Minas is its people, and he is one of them; he says it like the happy punchline of a story he is proud of.""",
     f"""{LOCKS_HEAD}
-1. Exactly 3 shots, 2 hard cuts at 3s and 11s; handheld in every shot — WRONG if extra cuts or a locked camera.
-2. Full mining safety equipment on in every shot: hard hat with chin strap fastened, glasses, high-visibility vest, gloves — WRONG if any piece is missing or carries a logo.
-3. He speaks only in shot 2; in shot 3 his mouth is closed — WRONG if he speaks in shot 3.
-4. In shot 3 his eyes rise from the ore and land on the lens on the upper-third line at about 45% of the frame width, alive — WRONG if glassy or landing elsewhere.
-5. Sun from frame-LEFT — NO music.""",
-    timeline(3, [3, 11], [
-        "SHOT 1 (0–3s) — ECU, 47°: his gloved hand turns a chunk of dark brown ore in the palm; fine dust slides off its edges. HARD CUT.",
-        "SHOT 2 (3–11s) — MWS (from the knees up, the open pit behind him), 47°, handheld drifting slowly: the frame opens with the edge of the ore stockpile sharp in the frame-RIGHT foreground and @FUNCIONARIO soft behind it; at 3–4s the focus racks to him — he is already looking at the lens with a quiet smile; at 4–11s he speaks, proud and warm. HARD CUT.",
-        "SHOT 3 (11–14s) — the MATCH FRAME, CU: his eyes on the ore in his hand below frame; at 12–13s his eyes rise and land on the lens; a warm smile. Hard end on the held look.",
+1. ONE continuous handheld take in the MATCH FRAME, no cuts — WRONG if it cuts, pushes in or is locked.
+2. 0–2s: the niobium chunk, held in his gloved hand, covers most of his face and is SHARP in the foreground; his face behind it is OUT OF FOCUS and barely shows — only the edge of the white hard hat, the clear glasses and one eye peeking at the lens — WRONG if his face is clearly visible before the niobium moves.
+3. At 2–3s he lowers the niobium straight down and out of the bottom of the frame and the focus racks to his eyes, which are on the lens, on the upper-third line at about 45% of the frame width, alive, by 3s — WRONG if the niobium rises, sweeps across his face or stays in frame, or if the eyes are glassy or land elsewhere.
+4. He speaks ONLY "a nossa gente." at 3–5s, as the conclusion of a longer sentence — resolved and proud, smiling, never solemn; his mouth is closed at 0–3s and 5–6s — WRONG if he says any other word.
+5. Full mining safety equipment on: hard hat with chin strap fastened, glasses, high-visibility vest, gloves — WRONG if any piece is missing or carries a logo.
+6. Sun from frame-LEFT — NO music.""",
+    timeline(1, [], [
+        "BEAT 1 (0–2s) — the MATCH FRAME, CU: a chunk of raw niobium — rough, faceted, silvery-grey metal with sharp crystalline edges that glint in the sun — held in his gloved fingers at arm's length toward the lens, right in front of his face, SHARP, filling about half the frame height and covering most of his face; his face behind it soft and barely showing: the edge of the white hard hat, the clear glasses, one eye peeking at the lens beside the chunk; the chunk turns a few degrees in his fingers and its facets glint.",
+        "BEAT 2 (2–3s) — a small playful reveal: he lowers the niobium straight down and out of the bottom of the frame; as it clears his face the focus racks from the niobium to his eyes; his eyes are on the lens and a smile starts.",
+        "BEAT 3 (3–5s) — he speaks to the lens, smiling, the phrase landing like the end of a sentence: resolved and proud, light, not solemn.",
+        "BEAT 4 (5–6s) — he holds, smiling, eyes on the lens, mouth closed. Hard end on the held look.",
     ]),
-    dialogue(line(4, 11, "FUNCIONARIO", "a nossa gente. Afinal, o que cresce aqui também deve construir novos caminhos para quem nasce, vive e trabalha aqui."), "FUNCIONARIO"),
-    acting("FUNCIONARIO", "the world comes for the ore and rarely asks about the people.",
-           "tell you, with quiet pride and a smile, that the treasure here is the people — and check that you got it.",
-           "steady on the lens in shot 2; in shot 3 down to the ore and back up to you.",
-           "he swallows once and smiles", "a heroic pose, gesturing at the mine"),
-    T.MATCH_FRAME,
-    T.handheld(),
-    """PHYSICS & MATERIAL — the ore is dense and heavy for its size, sharp-edged; dust lifts off the pit in the wind and drifts right; the vest is stiff; the haul trucks move slowly and heavily far below. """ + REAL + """ MATERIAL TRUTH: the granular dark-brown surface of the ore, reflective tape on the vest, the glossy white helmet shell, the black elastic chin strap under his jaw, drill marks on the bench walls, the scale of the modern trucks against the pit.""",
+    dialogue(line(3, 5, "FUNCIONARIO", "a nossa gente.").replace(
+        "(on camera, Brazilian Portuguese)",
+        "(on camera, Brazilian Portuguese; the closing words of a longer sentence — a resolved, falling close, proud and smiling, never solemn)"), "FUNCIONARIO"),
+    acting("FUNCIONARIO", "someone else just opened a sentence and he has the answer — the thing he is proudest of.",
+           "show you the rare metal like a prize, then lower it and tell you the real treasure is the people — and he is one of them — with a small proud smile.",
+           "peeking at the lens past the niobium; on the lens, steady and warm, from the moment it clears.",
+           "his chin lifts a hair as the niobium comes down; he swallows once and smiles",
+           "a heroic pose, gesturing at the mine, holding the niobium up to the camera after the line"),
+    T.MATCH_FRAME + "\nIn this take the eyes are already on the lens beside the niobium; they land fully on that mark when the niobium clears.",
+    T.handheld() + "\nFOCUS PULL: at 0–2s the focus is on the niobium and his face is soft; at 2–3s, as the niobium leaves the frame, the focus racks smoothly to his eyes and stays on them.",
+    """PHYSICS & MATERIAL — the niobium is dense, cold and heavy for its size, sharp-edged; his padded glove presses into it and it swings slightly with its weight as he lowers it; dust lifts off the pit in the wind and drifts right; the vest is stiff. """ + REAL + """ MATERIAL TRUTH: the rough crystalline silvery-grey facets of the niobium with a dull-bright metallic sheen and fine dust in the crevices (not a smooth ingot, not a mirror), the clean grey padded fabric of the glove, the glossy white helmet shell, the black elastic chin strap under his jaw, reflective tape on the vest, clear glasses without glare over the eyes.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); gravel shifting on the stockpile; after his line, only wind and the distant truck. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); the glove's fabric against the metal; after his line, only wind and the distant truck. {T.MUSIC_POLICY}""",
     T.WORLD + " Mining safety equipment is complete and correct; nobody in the pit without it.",
-    f"""NEGATIVE: missing helmet, unfastened chin strap, no glasses, no vest, logos on equipment or trucks, speaking in shot 3, gesturing at the mine, glowing ore, gold, eyes landing off the upper third, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 3 shots, 2 hard cuts at 3s and 11s, 14s, handheld — (1, 0–3s) ECU: the ore turning in his gloved hand — (2, 3–11s) medium-wide at the pit: focus racks from the ore to him, his line to the lens, warm and proud — (3, 11–14s) MATCH FRAME close-up: eyes down on the ore, rising to the lens at 12–13s, a smile. Invariants: full safety equipment; he speaks only in shot 2; eyes landing at the upper third, 45% width; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: his face clearly visible before the niobium moves, the niobium staying in front of his face after 3s, the niobium raised or swept sideways across his face, a smooth polished ingot, a mirror ball, glowing metal, gold, any word beyond "a nossa gente.", a solemn, serious or heroic face, dirty or grimy hands, missing helmet, unfastened chin strap, no glasses, no vest, logos on equipment or trucks, eyes landing off the upper third, a cut, a push-in, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 6s, MATCH FRAME close-up — (0–2s) a chunk of silvery faceted niobium in his gloved hand in front of his face, sharp, his face soft and barely showing behind it — (2–3s) he lowers it straight down out of frame, the focus racks to his eyes on the lens at the upper third, 45% width — (3–5s) he says only "a nossa gente.", resolved, proud, smiling — (5–6s) he holds the smile, mouth closed; hard end. Invariants: full safety equipment; only that phrase; the niobium leaves downward and out of frame; eyes landing on the mark; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 
