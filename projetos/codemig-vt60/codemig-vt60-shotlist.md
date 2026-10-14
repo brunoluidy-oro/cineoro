@@ -1011,17 +1011,17 @@ Anexar nesta ordem:
 Notas: conferir a proporção do bebê (rosto parcialmente coberto), o rosto dela no centro o tempo todo e a câmera recuando sem zoom.
 ```
 
-### T11 · Mineirão (Match cut, ~3.0s no corte)
+### T11 · Estádio (Match cut, ~3.0s no corte)
 
-Médio close da torcedora no Mineirão, bem atenta ao jogo, olhando um pouco na direção da câmera, com dolly-out lento.
+Médio close da torcedora sentada numa arquibancada cheia, quase eufórica com o jogo, olhando um pouco na direção da câmera, com dolly-out lento.
 
 #### Geração T11 · 4s · 1 plano(s)
 
-- **O que acontece:** No Mineirão reformado, a torcedora acompanha o jogo bem atenta, com os olhos na partida, um pouco ao lado da lente, enquanto a câmera recua devagar (dolly-out) e o estádio vai aparecendo atrás.
+- **O que acontece:** Numa arquibancada de estádio, a torcedora, cercada de torcedores, acompanha o jogo quase eufórica, com os olhos arregalados na partida, um pouco ao lado da lente, enquanto a câmera recua devagar (dolly-out) e a torcida vai aparecendo em volta dela.
 - **O que é dito:** nada na geração. Na montagem: o áudio do funcionário segue por cima.
-- **Tempo:** atenta ao jogo, olhando um pouco ao lado da lente, dolly-out — 4s
-- **Como termina:** ainda atenta ao jogo; corte para o T12.
-- **Direção:** Simplificado: enquadramento simples com dolly-out; ela presta atenção no jogo olhando um pouco na direção da câmera (os olhos ficam ao lado da lente, nunca nela). Cabelo slicked back e camisa de futebol genérica terracota com gola creme. Atenção: a camisa do sheet saiu com um escudo azul e amarelo no peito. O prompt do T11 manda ignorar o emblema, mas o mais seguro é gerar o sheet de novo ou apagar o escudo da imagem antes de anexar. Geração de 4s; na montagem entram ~3s.
+- **Tempo:** eufórica com o jogo, olhando um pouco ao lado da lente, dolly-out — 4s
+- **Como termina:** ainda eufórica, de olho no jogo; corte para o T12.
+- **Direção:** Refeito: sem nenhuma menção ao Mineirão nem à estrutura do estádio. O prompt só diz que ela está sentada na arquibancada de um estádio com vários torcedores em volta. A atuação saiu do blasé: ela devora o jogo, olhos arregalados, respiração acelerada, um sorriso abrindo, ombros subindo (sem gritar e sem formar palavras). Os olhos ficam ao lado da lente, nunca nela. Cabelo slicked back e camisa de futebol genérica terracota com gola creme. Atenção: a camisa do sheet saiu com um escudo azul e amarelo no peito. O prompt manda ignorar o emblema, mas o mais seguro é gerar o sheet de novo ou apagar o escudo antes de anexar. Geração de 4s; na montagem entram ~3s.
 
 ```
 CONTRACT — Live-action photoreal film footage, 21:9, 4 seconds total, ONE continuous take, no cuts, a slow dolly-out from a medium close-up, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
@@ -1031,28 +1031,28 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@TORCEDORA (22, Black Brazilian woman, deep brown skin with a warm glow, athletic, hair slicked straight back with glossy laid edges and a deep side part into a sleek low bun at the nape, forehead and ears fully visible, thick defined eyebrows, broad nose with a tiny gold nose stud, full lips with a berry gloss, large gold hoop earrings, a washed-terracotta velour football jersey with a cream polo collar with red stripes and cream cuffs and a plain chest with no emblem, tucked into high-waisted dark chocolate-brown wide-leg jeans, sand-coloured sneakers, a small olive-tan crossbody pouch on a chain) — the FAN: in the stands, watching the match with total attention, her eyes on the pitch just beside the lens; NEVER speaks, NEVER shouts, NEVER looks straight into the lens.
-CROWD — the stands behind her: many distinct people, soft, out of focus, colours mixed and indistinct; nobody with her face; no twins, no clones.
+@TORCEDORA (22, Black Brazilian woman, deep brown skin with a warm glow, athletic, hair slicked straight back with glossy laid edges and a deep side part into a sleek low bun at the nape, forehead and ears fully visible, thick defined eyebrows, broad nose with a tiny gold nose stud, full lips with a berry gloss, large gold hoop earrings, a washed-terracotta velour football jersey with a cream polo collar with red stripes and cream cuffs and a plain chest with no emblem, tucked into high-waisted dark chocolate-brown wide-leg jeans, sand-coloured sneakers, a small olive-tan crossbody pouch on a chain) — the FAN: sits in a grandstand watching the match with almost euphoric attention, her eyes on the pitch just beside the lens; NEVER speaks, NEVER shouts, NEVER looks straight into the lens.
+CROWD — many other fans seated and standing all around her, left, right and behind: distinct people, soft and out of focus, in everyday clothes of mixed colours, all watching the match and excited too; nobody with her face; no twins, no clones.
 CONTACT: nobody touches her.
 
-SCENE — A late-afternoon match at the Mineirão stadium in Belo Horizonte, Brazil — the modern renovated stands and roof ring; @TORCEDORA sits in the stands with the crowd behind her, watching the match.
-THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her week — she follows every move, completely in it, and the camera catches her in the middle of it.
+SCENE — A late-afternoon football match: @TORCEDORA sits in the grandstand of a stadium with many fans all around her, watching the match.
+THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her week — she cannot take her eyes off the game, buzzing, almost euphoric.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. ONE take in the MATCH FRAME with the slow dolly-out (the camera moving back, no zoom), no cuts — WRONG if it cuts, if the camera is locked, or if the lens zooms or the camera pushes in.
-2. @TORCEDORA's face stays dead centre and frontal, her eyes fixed on the match just beside the lens, close to the camera but never into it, while the framing opens from a medium close-up toward a medium shot — WRONG if the face drifts off centre or turns away, or the eyes go glassy.
-3. NO dialogue: her mouth stays closed or in a small smile; the crowd is only a roar with no words standing out — WRONG if any mouth forms words.
+2. @TORCEDORA's face stays dead centre and frontal, her eyes wide on the match just beside the lens, close to the camera but never into it, while the framing opens from a medium close-up toward a medium shot — WRONG if the face drifts off centre or turns away, or the eyes go glassy.
+3. NO dialogue: her lips may part in an excited gasp but form no words; the crowd is only a roar with no words standing out — WRONG if any mouth forms words.
 4. Light from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–4s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre and frontal, her eyes fixed on the play just beside the lens, completely attentive, her expression shifting a little with the action — a small intake of breath, a hint of a smile — the stand soft behind her; the slow dolly-out runs the whole take, the stadium opening wider behind her. Hard end.
+BEAT 1 (0–4s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre and frontal, her eyes wide and locked on the play just beside the lens, buzzing with excitement — a quick excited breath, lips parted, a grin breaking out as the play builds, her shoulders lifting — the fans around her soft and excited too; the slow dolly-out runs the whole take, the crowd opening wider around her. Hard end.
 
 ACTING — @TORCEDORA (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
-MOTIVE: this is her Sunday ritual and she loves it.
-TACTIC: follow the play with total attention, like a friend in the next seat who cannot look away.
-EYES: on the match, just beside the lens, never into it. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a small intake of breath as the play develops. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, shouting, arms up, face paint, a scarf, a club crest or sponsor on her jersey, looking straight into the lens.
+MOTIVE: this is her Sunday ritual and she is hooked.
+TACTIC: devour the play, thrilled — buzzing, a grin breaking, as if she were about to jump up.
+EYES: wide on the match, just beside the lens, never into it. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: her breath quickens and her shoulders lift. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, blasé, bored or calm, shouting, arms up, face paint, a scarf, a club crest or sponsor on her jersey, looking straight into the lens.
 
 CAMERA — the DOLLY-OUT, slow, about 4s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.3 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
@@ -1061,7 +1061,7 @@ NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handhe
 MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 In this take her face is frontal and dead centre as in the frame above, but her eyes are on the match, just beside the lens, not into it.
 
-PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves the hem of her jersey; the people behind rise and settle, soft shapes. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the velour of her terracotta football jersey with its cream polo collar and cuffs and a plain chest, her smooth slicked-back hair, a bead of sweat at the hairline, the glint of her gold hoops.
+PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves the hem of her jersey; the fans around her rise and settle, lean and gasp, soft shapes. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the velour of her terracotta football jersey with its cream polo collar and cuffs and a plain chest, her smooth slicked-back hair, a bead of sweat at the hairline, the glint of her gold hoops.
 
 LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
@@ -1073,13 +1073,13 @@ NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat over
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar swelling; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar swelling, gasps and "oh" sounds around her; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes. Wardrobe and crowd carry NO football club colour combinations (black-and-white, blue-and-white, green-and-white), NO yellow-and-green, NO flags, NO scarves; her football jersey is generic and fictional — a plain chest, no crest, no sponsor, no number, no text — and nobody in the crowd wears a club shirt.
 
-NEGATIVE: the fan speaking or shouting, any mouth forming words, her looking straight into the lens, cheering arms, an emblem or crest on her jersey chest, a sponsor logo, a shirt number or text on her jersey, a recognisable club's kit, loose or voluminous hair, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: a blasé, bored, calm or neutral expression, the fan speaking or shouting, any mouth forming words, her looking straight into the lens, cheering arms, an emblem or crest on her jersey chest, a sponsor logo, a shirt number or text on her jersey, a recognisable club's kit, loose or voluminous hair, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @TORCEDORA's face dead centre and frontal, her eyes on the match just beside the lens, attentive, a small intake of breath, the stadium opening wider behind her as the camera backs away; hard end. Invariants: face centred throughout, the camera backing away with no zoom; eyes just beside the lens, never into it; no dialogue; a generic jersey with a plain chest, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]
+[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @TORCEDORA's face dead centre and frontal, her eyes wide on the match just beside the lens, buzzing, almost euphoric, a grin breaking out, many excited fans all around her, the crowd opening wider as the camera backs away; hard end. Invariants: face centred throughout, the camera backing away with no zoom; eyes just beside the lens, never into it; high excitement, never blasé; no dialogue; a generic jersey with a plain chest, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]
 ```
 
 ```
@@ -1088,7 +1088,7 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 4s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @TORCEDORA (character sheet) — identidade
-Notas: conferir: peito da camisa liso (sem escudo, patrocínio, número ou texto), olhos ao lado da lente (não nela) e a arquibancada desfocada (nada de camisa, bandeira ou cachecol de clube).
+Notas: conferir: ela eufórica, não blasé; peito da camisa liso (sem escudo, patrocínio, número ou texto); olhos ao lado da lente (não nela); torcedores ao redor de roupa comum, sem camisa, bandeira ou cachecol de clube.
 ```
 
 ### T12 · Ônibus (Match cut, ~6.6s no corte)
@@ -1618,7 +1618,7 @@ glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, 
 | @AGRICULTORA | Agricultora | F, 40 | caipira | T08 | Produtora moderna, com chapéu de fazendeira. |
 | @FUNCIONARIO | Funcionário da mina de nióbio | M, 30 | caipira | T09 | EPI de mineração completo e correto, sem marca. Validar com a SST da operadora. |
 | @MAE | Mãe com o recém-nascido | F, 29 | BH | T10 | Sem fala. Fazer este sheet antes do T10 (antes ela era improvisada pelo modelo). O bebê não ganha sheet: rosto quase todo coberto. |
-| @TORCEDORA | Torcedora no Mineirão | F, 22 | BH | T11 | Sem fala. Fazer este sheet antes do T11. Camisa de futebol genérica e estilosa, terracota com gola creme, sem clube, escudo, patrocínio, número ou texto; fora de qualquer cor de clube (nada de preto e branco, azul e branco, verde e branco, verde-amarelo). |
+| @TORCEDORA | Torcedora no estádio | F, 22 | BH | T11 | Sem fala. Fazer este sheet antes do T11. Camisa de futebol genérica e estilosa, terracota com gola creme, sem clube, escudo, patrocínio, número ou texto; fora de qualquer cor de clube (nada de preto e branco, azul e branco, verde e branco, verde-amarelo). |
 | @MOTORISTA | Motorista de ônibus | M, 40 | BH | T12, T13 | Uniforme sem operadora real. |
 | @ESTUDANTE | Estudante do Trilhas de Futuro | M, 15 | BH | T12, T14 | Mesmo figurino nos dois takes. |
 | @ENFERMEIRA | Enfermeira | F, 30 | BH | T15 | Uniforme hospitalar. |
@@ -1860,7 +1860,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 
 - **Muitos planos por geração:** 3 a 4 cortes em 11–17s pedem timing preciso. Faça draft em 480p e confira se os cortes caem nos segundos certos antes do final.
 - **Mergulho na terra (T01):** o modelo pode cortar dentro do plano 2 ou não chegar ao preto. A montagem resolve o preto se preciso.
-- **Mineirão (T11):** nada de preto e branco, azul e branco, verde e branco ou verde-amarelo; a torcedora veste uma camisa de futebol genérica terracota com gola creme, sem escudo, patrocínio, número ou texto, e a torcida não veste camisa de clube.
+- **Estádio (T11):** nada de preto e branco, azul e branco, verde e branco ou verde-amarelo; a torcedora veste uma camisa de futebol genérica terracota com gola creme, sem escudo, patrocínio, número ou texto, e a torcida não veste camisa de clube.
 - **Marcas reais:** carro, ônibus, mina, escola, programa e hospital saem sem marca e sem texto legível. Logos entram na pós.
 - **Mineração (T09):** EPI completo é trava crítica; falta validar com a SST (P11).
 - **Dolly-out (match):** o modelo pode deixar a câmera parada ou dar um zoom em vez de recuar. No draft, confira se a câmera recua de verdade (o rosto encolhe aos poucos e o fundo abre); reforce "the camera moves back, no zoom" se precisar.

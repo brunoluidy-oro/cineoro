@@ -547,30 +547,30 @@ T11 = join(
 @TORCEDORA — IDENTITY of @TORCEDORA: face, hair, build, hands and wardrobe, EXCEPT the small emblem on the jersey chest, which must NOT appear: the chest of her jersey is plain. 100% matches otherwise.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@TORCEDORA ({ANCH['TORCEDORA']}) — the FAN: in the stands, watching the match with total attention, her eyes on the pitch just beside the lens; NEVER speaks, NEVER shouts, NEVER looks straight into the lens.
-CROWD — the stands behind her: many distinct people, soft, out of focus, colours mixed and indistinct; nobody with her face; no twins, no clones.
+@TORCEDORA ({ANCH['TORCEDORA']}) — the FAN: sits in a grandstand watching the match with almost euphoric attention, her eyes on the pitch just beside the lens; NEVER speaks, NEVER shouts, NEVER looks straight into the lens.
+CROWD — many other fans seated and standing all around her, left, right and behind: distinct people, soft and out of focus, in everyday clothes of mixed colours, all watching the match and excited too; nobody with her face; no twins, no clones.
 CONTACT: nobody touches her.""",
-    """SCENE — A late-afternoon match at the Mineirão stadium in Belo Horizonte, Brazil — the modern renovated stands and roof ring; @TORCEDORA sits in the stands with the crowd behind her, watching the match.
-THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her week — she follows every move, completely in it, and the camera catches her in the middle of it.""",
-    match_locks("@TORCEDORA", "her mouth stays closed or in a small smile; the crowd is only a roar with no words standing out",
-                eyes="her eyes fixed on the match just beside the lens, close to the camera but never into it"),
+    """SCENE — A late-afternoon football match: @TORCEDORA sits in the grandstand of a stadium with many fans all around her, watching the match.
+THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her week — she cannot take her eyes off the game, buzzing, almost euphoric.""",
+    match_locks("@TORCEDORA", "her lips may part in an excited gasp but form no words; the crowd is only a roar with no words standing out",
+                eyes="her eyes wide on the match just beside the lens, close to the camera but never into it"),
     timeline(1, [], [
-        "BEAT 1 (0–4s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre and frontal, her eyes fixed on the play just beside the lens, completely attentive, her expression shifting a little with the action — a small intake of breath, a hint of a smile — the stand soft behind her; the slow dolly-out runs the whole take, the stadium opening wider behind her. Hard end.",
+        "BEAT 1 (0–4s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre and frontal, her eyes wide and locked on the play just beside the lens, buzzing with excitement — a quick excited breath, lips parted, a grin breaking out as the play builds, her shoulders lifting — the fans around her soft and excited too; the slow dolly-out runs the whole take, the crowd opening wider around her. Hard end.",
     ]),
-    acting("TORCEDORA", "this is her Sunday ritual and she loves it.",
-           "follow the play with total attention, like a friend in the next seat who cannot look away.",
-           "on the match, just beside the lens, never into it.",
-           "a small intake of breath as the play develops",
-           "shouting, arms up, face paint, a scarf, a club crest or sponsor on her jersey, looking straight into the lens"),
+    acting("TORCEDORA", "this is her Sunday ritual and she is hooked.",
+           "devour the play, thrilled — buzzing, a grin breaking, as if she were about to jump up.",
+           "wide on the match, just beside the lens, never into it.",
+           "her breath quickens and her shoulders lift",
+           "blasé, bored or calm, shouting, arms up, face paint, a scarf, a club crest or sponsor on her jersey, looking straight into the lens"),
     T.dolly_out(4),
     T.MATCH_FRAME + "\nIn this take her face is frontal and dead centre as in the frame above, but her eyes are on the match, just beside the lens, not into it.",
-    """PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves the hem of her jersey; the people behind rise and settle, soft shapes. """ + REAL + """ MATERIAL TRUTH: the velour of her terracotta football jersey with its cream polo collar and cuffs and a plain chest, her smooth slicked-back hair, a bead of sweat at the hairline, the glint of her gold hoops.""",
+    """PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves the hem of her jersey; the fans around her rise and settle, lean and gasp, soft shapes. """ + REAL + """ MATERIAL TRUTH: the velour of her terracotta football jersey with its cream polo collar and cuffs and a plain chest, her smooth slicked-back hair, a bead of sweat at the hairline, the glint of her gold hoops.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar swelling; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar swelling, gasps and "oh" sounds around her; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. {T.MUSIC_POLICY}""",
     T.WORLD + " Wardrobe and crowd carry NO football club colour combinations (black-and-white, blue-and-white, green-and-white), NO yellow-and-green, NO flags, NO scarves; her football jersey is generic and fictional — a plain chest, no crest, no sponsor, no number, no text — and nobody in the crowd wears a club shirt.",
-    f"""NEGATIVE: the fan speaking or shouting, any mouth forming words, her looking straight into the lens, cheering arms, an emblem or crest on her jersey chest, a sponsor logo, a shirt number or text on her jersey, a recognisable club's kit, loose or voluminous hair, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, {T.NEG_DOLLY}.""",
-    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @TORCEDORA's face dead centre and frontal, her eyes on the match just beside the lens, attentive, a small intake of breath, the stadium opening wider behind her as the camera backs away; hard end. Invariants: face centred throughout, the camera backing away with no zoom; eyes just beside the lens, never into it; no dialogue; a generic jersey with a plain chest, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a blasé, bored, calm or neutral expression, the fan speaking or shouting, any mouth forming words, her looking straight into the lens, cheering arms, an emblem or crest on her jersey chest, a sponsor logo, a shirt number or text on her jersey, a recognisable club's kit, loose or voluminous hair, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, {T.NEG_DOLLY}.""",
+    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @TORCEDORA's face dead centre and frontal, her eyes wide on the match just beside the lens, buzzing, almost euphoric, a grin breaking out, many excited fans all around her, the crowd opening wider as the camera backs away; hard end. Invariants: face centred throughout, the camera backing away with no zoom; eyes just beside the lens, never into it; high excitement, never blasé; no dialogue; a generic jersey with a plain chest, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T12 + T13

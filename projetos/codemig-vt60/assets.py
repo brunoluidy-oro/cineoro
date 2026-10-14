@@ -182,7 +182,7 @@ CHARS = [
              build="slim, about 1.67 m",
              outfit="ivory fine-rib cotton knit top with a relaxed scoop neckline and long sleeves pushed to the forearms, high-waisted soft sage-green linen trousers, simple ivory canvas slip-on shoes, the same small gold stud earrings and thin gold necklace",
              realism="Real skin texture with pores and natural imperfections, no retouching, naturally photogenic")),
-    dict(tag="TORCEDORA", papel="Torcedora no Mineirão", idade="F, 22", r="BH", takes="T11",
+    dict(tag="TORCEDORA", papel="Torcedora no estádio", idade="F, 22", r="BH", takes="T11",
          obs="Sem fala. Fazer este sheet antes do T11. Camisa de futebol genérica e estilosa, terracota com gola creme, sem clube, escudo, patrocínio, número ou texto; fora de qualquer cor de clube (nada de preto e branco, azul e branco, verde e branco, verde-amarelo).",
          prompt=sheet(
              who="a Black Brazilian woman", age=22, person="woman", pron="she", poss="her",
