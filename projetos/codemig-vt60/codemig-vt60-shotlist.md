@@ -574,16 +574,16 @@ Notas: se sair rótulo legível em frasco ou tela, regerar: texto não pode apar
 
 Visão estritamente zenital (90°, de cima pra baixo), câmera parada, de um prato de salada no balcão de inox recebendo azeite de ervas verde-escuro; corte para o dono já olhando pra câmera, com a cozinha industrial de inox atrás, jogando o pano no ombro enquanto fala.
 
-#### Geração T07 · 6s · 2 plano(s)
+#### Geração T07 · 7s · 2 plano(s)
 
 - **O que acontece:** Na cozinha industrial de um restaurante saudável em BH, tudo de inox: visão estritamente zenital (90°, reta de cima), câmera parada, do prato de salada sobre o balcão de inox (campainha, utensílios de chef e comandas de papel ao lado) sendo finalizado com um fio de azeite de ervas verde-escuro, saindo de uma bisnaga. Corte: o dono, que já olha pra câmera no primeiro frame, com a cozinha de inox e os cozinheiros trabalhando ao fundo, fala e joga um pano no ombro.
 - **O que é dito:** DONO: "de uma economia mais sustentável."
-- **Tempo:** zenital 90° parado: azeite sobre o prato — 3s · dono olhando pra câmera, fala e joga o pano — 2s · segura o sorriso — 1s = 6s
+- **Tempo:** zenital 90° parado: azeite sobre o prato — 3s · dono olhando pra câmera, fala e joga o pano — 3s · segura o sorriso — 1s = 7s
 - **Como termina:** ele sorrindo pra lente, a cozinha trabalhando atrás; corte seco.
-- **Direção:** Dois planos, como você pediu. O primeiro agora é uma vista zenital absoluta — lente apontada reto pra baixo, 90° do balcão, prato como círculo perfeito, sem horizonte, parede ou borda do balcão, e o prompt proíbe vista de lado ou em ângulo. Fica parado (só uma respiração leve de câmera na mão, sem andar); o segundo plano anda de lado. A cozinha virou industrial: inox por todo lado (bancadas, fogão sob coifa, prateleiras, recipientes plásticos), dólmãs brancos, sem madeira, plantas nem luz de pendente. Ele já começa olhando pra lente, sem virar. A cliente saiu. O pano cai no ombro durante a frase.
+- **Direção:** Dois planos, como você pediu. O primeiro agora é uma vista zenital absoluta — lente apontada reto pra baixo, 90° do balcão, prato como círculo perfeito, sem horizonte, parede ou borda do balcão, e o prompt proíbe vista de lado ou em ângulo. Fica parado (só uma respiração leve de câmera na mão, sem andar); o segundo plano anda de lado. A cozinha virou industrial: inox por todo lado (bancadas, fogão sob coifa, prateleiras, recipientes plásticos), dólmãs brancos, sem madeira, plantas nem luz de pendente. Ele já começa olhando pra lente, sem virar. A cliente saiu. A fala ganhou 1s (agora 3s, no ritmo tranquilo) porque ele estava atropelando a frase; o take passou de 6s para 7s. O pano cai no ombro durante a frase.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 6 seconds total, 2 shots with 1 hard cut at 3s, handheld; shot 1 strictly top-down at 90° and not travelling, shot 2 travelling sideways from frame-left to frame-right, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 7 seconds total, 2 shots with 1 hard cut at 3s, handheld; shot 1 strictly top-down at 90° and not travelling, shot 2 travelling sideways from frame-left to frame-right, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
@@ -609,10 +609,10 @@ ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 
 TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
 SHOT 1 (0–3s) — OVERHEAD FLAT-LAY, 47°: the camera is exactly perpendicular to the counter, lens pointing straight down (zenithal, no tilt, no perspective angle), held directly above and staying put; the plate is a perfect circle and the steel counter fills the whole frame, no horizon and no walls visible: a plain white round plate of salad — fresh greens, grilled vegetables, cherry tomatoes, seeds — on a brushed stainless-steel pass counter; beside the plate, a silver service bell, chef's tools (tongs, a spoon, a pepper mill) and paper order tickets; @DONO's hand squeezes a plastic squeeze bottle that draws a thin line of DARK green herb oil over the salad, the oil beading on the leaves. HARD CUT.
-SHOT 2 (3–6s) — MWS (from the knees up, the industrial kitchen behind him — stainless-steel prep tables, a range under an exhaust hood, steel shelving with pans and plastic containers), 63°: @DONO at the right third, ALREADY looking at the lens from the first frame, the cooks working at the range and the steel prep tables behind him, soft; he speaks at 3–5s with a complicit smile and flicks a clean white kitchen towel onto his left shoulder while he speaks; at 5–6s he holds the smile. Hard end.
+SHOT 2 (3–7s) — MWS (from the knees up, the industrial kitchen behind him — stainless-steel prep tables, a range under an exhaust hood, steel shelving with pans and plastic containers), 63°: @DONO at the right third, ALREADY looking at the lens from the first frame, the cooks working at the range and the steel prep tables behind him, soft; he speaks at 3–6s at an easy, unhurried pace with a complicit smile and flicks a clean white kitchen towel onto his left shoulder while he speaks; at 6–7s he holds the smile. Hard end.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[3–5s] @DONO (on camera, Brazilian Portuguese): "de uma economia mais sustentável."
+[3–6s] @DONO (on camera, Brazilian Portuguese): "de uma economia mais sustentável."
 VOICE LOCK — @DONO: Brazilian man, 60, deep easy voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @DONO (fully invested in the tactic; the work happens in the eyes)
@@ -646,13 +646,13 @@ WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward �
 
 NEGATIVE: a customer, a face in shot 1, an angled, three-quarter, side or front view in shot 1, a horizon, walls or the counter's front edge in shot 1, a travelling or moving camera in shot 1, bright or golden oil, him turning toward the lens in shot 2, an empty kitchen, cooks speaking, an elegant dining room, light wood, plants, pendant lights, a fancy, upscale, rustic or home-style kitchen, readable menu, logos on the uniforms, a locked-off or stopped camera in shot 2, push-in, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut at 3s, 6s, handheld — (1, 0–3s) strictly top-down 90° flat-lay on the steel counter, camera staying put: dark green herb oil from a squeeze bottle over the salad — (2, 3–6s) medium-wide, travelling: already looking at the lens, the industrial stainless-steel kitchen behind him, he says his line and flicks the towel onto his shoulder. Invariants: shot 1 exactly top-down at 90° (never angled or from the side), static, no face; shot 2 lateral travel; he looks at the lens from the first frame; towel toss during the line; busy industrial steel kitchen behind, nothing fancy. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 3s, 7s, handheld — (1, 0–3s) strictly top-down 90° flat-lay on the steel counter, camera staying put: dark green herb oil from a squeeze bottle over the salad — (2, 3–7s) medium-wide, travelling: already looking at the lens, the industrial stainless-steel kitchen behind him, he says his line and flicks the towel onto his shoulder. Invariants: shot 1 exactly top-down at 90° (never angled or from the side), static, no face; shot 2 lateral travel; he looks at the lens from the first frame; towel toss during the line; busy industrial steel kitchen behind, nothing fancy. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 6s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 7s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @DONO (character sheet) — identidade
 Notas: confira: plano 1 exatamente reto de cima (prato circular perfeito, sem horizonte nem parede) e sem andar, balcão de inox com campainha, utensílios e comandas, azeite verde-escuro saindo de uma bisnaga; plano 2 com ele olhando pra lente desde o primeiro frame e cozinha industrial de inox com cozinheiros ao fundo (sem logos, nada de salão chique); o pano pousa no ombro durante a fala. Se quiser a câmera 100% travada no plano 1, me diga: deixei uma respiração mínima para não ficar congelado.
