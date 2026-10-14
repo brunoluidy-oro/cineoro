@@ -14,6 +14,8 @@ ANCH = {
     "DONO": "60, white Brazilian man, solid build, broad deeply lined face with age spots, large nose and ears, grey-hazel eyes, thick bushy white-grey moustache covering the upper lip, short white hair thinning on top, cream short-sleeved camp-collar shirt with a chest pocket, very dark navy knee-length waist apron, dark grey trousers, tan leather loafers",
     "AGRICULTORA": "40, mixed-race Brazilian woman, slim, warm brown skin, long face with high cheekbones and fine lines, long black hair in a single thick braid worn over her left shoulder, tan felt wide-brim hat with brown leather trim sitting just above the eyebrows, sage-green long-sleeved button-up shirt with two flap chest pockets worn untucked, dark indigo jeans, dark brown lace-up leather work boots, tortoiseshell sunglasses hooked on the shirt front",
     "FUNCIONARIO": "30, mixed-race Brazilian man, medium build, medium brown skin, short black hair, thick straight eyebrows, broad nose, full lips, clean-shaven with a faint stubble shadow, glossy white hard hat with black chin strap fastened and no logo, clear wraparound safety glasses, orange high-visibility vest with silver reflective strips over a long-sleeved dark grey work shirt worn untucked, black cargo work trousers, grey padded work gloves, orange ear plugs on an orange cord around his neck, black lace-up work boots",
+    "MAE": "29, Brazilian woman, warm light-brown skin with a golden undertone and a few light freckles across the nose, slim, long chestnut-brown hair in loose waves with sun-lightened strands, heart-shaped face, small straight nose, soft full lips, large almond-shaped dark brown eyes, a tiny beauty mark on the left cheekbone, small gold stud earrings, a thin gold necklace, ivory fine-rib knit top with a relaxed scoop neckline, soft sage-green linen trousers",
+    "TORCEDORA": "22, Black Brazilian woman, deep brown skin with a warm glow, athletic, voluminous coily twist-out hair shaped into a round crown, high cheekbones, broad nose, full lips with a natural berry tint, small gold hoop earrings and a tiny gold nose stud, washed-terracotta oversized cotton T-shirt with no print loosely tucked into dark-indigo straight jeans, sand-coloured leather sneakers, a small tan crossbody bag",
     "MOTORISTA": "52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved uniform shirt with two flap chest pockets and small white name badges (nothing readable), worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist",
     "ESTUDANTE": "15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers",
     "ENFERMEIRA": "42, mixed-race Brazilian woman, light olive skin, slim-to-medium build, black hair centre-parted and pulled back into a low bun, a tiny mole under the left nostril and one on the forehead above the right eyebrow, white short-sleeved round-neck scrub top and white scrub trousers, a black stethoscope around her neck, white closed flat shoes",
@@ -416,14 +418,14 @@ CONTACT: only his gloved hand on the niobium.""",
     """SCENE — Late afternoon at the edge of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far below, all soft behind him. @FUNCIONARIO is already holding a chunk of raw niobium in his gloved hand, right in front of his face.
 THE SOUL OF THE SCENE (play it, never explain it): someone else began the sentence and he gets the last word — the rarest thing in Minas is its people, and he is one of them; he says it like the happy punchline of a story he is proud of.""",
     f"""{LOCKS_HEAD}
-1. ONE continuous handheld take in the MATCH FRAME, no cuts — WRONG if it cuts, pushes in or is locked.
+1. ONE continuous handheld take in the NIOBIUM FRAME, no cuts — WRONG if it cuts, pushes in or is locked.
 2. 0–3s: the niobium chunk, held in his gloved hand, covers most of his face and is SHARP in the foreground; his face behind it is OUT OF FOCUS and barely shows — only the edge of the white hard hat, the clear glasses and one eye peeking at the lens — WRONG if his face is clearly visible before the niobium moves.
 3. At 3s he lowers the niobium straight down and out of the bottom of the frame, and the face it reveals is ALREADY smiling, eyes on the lens, on the upper-third line at about 45% of the frame width, alive; the focus racks to his eyes in the same motion — WRONG if the niobium rises, sweeps across his face or stays in frame, if the smile starts after the reveal, or if the eyes are glassy or land elsewhere.
 4. The first word of "a nossa gente." starts WITH the lowering at 3s and lands by 5s, as the conclusion of a longer sentence — resolved and proud, smiling, never solemn; his mouth is closed at 0–3s and 5–6s — WRONG if there is a silent beat between the reveal and the first word, or if he says any other word.
 5. Full mining safety equipment on: hard hat with chin strap fastened, glasses, high-visibility vest, gloves — WRONG if any piece is missing or carries a logo.
 6. Sun from frame-LEFT — NO music.""",
     timeline(1, [], [
-        "BEAT 1 (0–3s) — the MATCH FRAME, CU: a chunk of raw niobium — rough, faceted, silvery-grey metal with sharp crystalline edges that glint in the sun — held in his gloved fingers at arm's length toward the lens, right in front of his face, SHARP, filling about half the frame height and covering most of his face; his face behind it soft and barely showing: the edge of the white hard hat, the clear glasses, one eye peeking at the lens beside the chunk, already creased with a smile; the chunk turns a few degrees in his fingers and its facets glint.",
+        "BEAT 1 (0–3s) — the NIOBIUM FRAME, CU: a chunk of raw niobium — rough, faceted, silvery-grey metal with sharp crystalline edges that glint in the sun — held in his gloved fingers at arm's length toward the lens, right in front of his face, SHARP, filling about half the frame height and covering most of his face; his face behind it soft and barely showing: the edge of the white hard hat, the clear glasses, one eye peeking at the lens beside the chunk, already creased with a smile; the chunk turns a few degrees in his fingers and its facets glint.",
         "BEAT 2 (3–5s) — a small playful reveal: he lowers the niobium straight down and out of the bottom of the frame, and the face it uncovers is already smiling, eyes on the lens; the focus racks from the niobium to his eyes in the same motion, and he delivers the line as he lowers it, the phrase landing like the end of a sentence: resolved and proud, light, not solemn.",
         "BEAT 3 (5–6s) — he holds the smile, eyes on the lens, mouth closed. Hard end on the held look.",
     ]),
@@ -435,7 +437,7 @@ THE SOUL OF THE SCENE (play it, never explain it): someone else began the senten
            "peeking at the lens past the niobium; on the lens, steady and warm, from the moment it clears.",
            "his chin lifts a hair as the niobium comes down",
            "a heroic pose, gesturing at the mine, holding the niobium up to the camera after the line"),
-    T.MATCH_FRAME + "\nIn this take the eyes are already on the lens beside the niobium; they land fully on that mark when the niobium clears.",
+    T.NIOBIUM_FRAME + "\nIn this take the eyes are already on the lens beside the niobium; they land fully on that mark when the niobium clears.",
     T.handheld() + "\nFOCUS PULL: at 0–3s the focus is on the niobium and his face is soft; from 3s, as the niobium leaves the frame, the focus racks smoothly to his eyes and stays on them.",
     """PHYSICS & MATERIAL — the niobium is dense, cold and heavy for its size, sharp-edged; his padded glove presses into it and it swings slightly with its weight as he lowers it; dust lifts off the pit in the wind and drifts right; the vest is stiff. """ + REAL + """ MATERIAL TRUTH: the rough crystalline silvery-grey facets of the niobium with a dull-bright metallic sheen and fine dust in the crevices (not a smooth ingot, not a mirror), the clean grey padded fabric of the glove, the glossy white helmet shell, the black elastic chin strap under his jaw, reflective tape on the vest, clear glasses without glare over the eyes.""",
     T.LIGHT_EXT,
@@ -443,128 +445,176 @@ THE SOUL OF THE SCENE (play it, never explain it): someone else began the senten
     f"""SOUND — LOCATION SOUND ONLY: wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); the glove's fabric against the metal; after his line, only wind and the distant truck. {T.MUSIC_POLICY}""",
     T.WORLD + " Mining safety equipment is complete and correct; nobody in the pit without it.",
     f"""NEGATIVE: his face clearly visible before the niobium moves, the niobium staying in front of his face after 3s, the niobium raised or swept sideways across his face, a smooth polished ingot, a mirror ball, glowing metal, gold, a smile that starts after the reveal, a silent beat between the reveal and the first word, any word beyond "a nossa gente.", a solemn, serious or heroic face, dirty or grimy hands, missing helmet, unfastened chin strap, no glasses, no vest, logos on equipment or trucks, eyes landing off the upper third, a cut, a push-in, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 6s, MATCH FRAME close-up — (0–3s) a chunk of silvery faceted niobium in his gloved hand in front of his face, sharp, his face soft and barely showing behind it — (3–5s) he lowers it straight down out of frame; the face it reveals is already smiling, eyes on the lens at the upper third, 45% width, the focus racks to his eyes, and he says only "a nossa gente." as he lowers it, resolved and proud — (5–6s) he holds the smile, mouth closed; hard end. Invariants: full safety equipment; only that phrase, starting with the lowering; the smile is there at the reveal; the niobium leaves downward and out of frame; eyes landing on the mark; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: ONE handheld take, 6s, NIOBIUM FRAME close-up — (0–3s) a chunk of silvery faceted niobium in his gloved hand in front of his face, sharp, his face soft and barely showing behind it — (3–5s) he lowers it straight down out of frame; the face it reveals is already smiling, eyes on the lens at the upper third, 45% width, the focus racks to his eyes, and he says only "a nossa gente." as he lowers it, resolved and proud — (5–6s) he holds the smile, mouth closed; hard end. Invariants: full safety equipment; only that phrase, starting with the lowering; the smile is there at the reveal; the niobium leaves downward and out of frame; eyes landing on the mark; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
+
+# ---------------------------------------------------------------- T09-B (cava: plano baixo + MCU com dolly zoom-out)
+T09B = join(
+    contract(9, "2 shots with 1 hard cut at 3s", "handheld at ground level in shot 1, a slow dolly zoom-out in shot 2"),
+    f"""REFERENCES — each reference has ONE job:
+@FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
+{SCOPE_ID}""",
+    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@FUNCIONARIO ({ANCH['FUNCIONARIO']}) — the MINE WORKER: in shot 1 he walks away from the camera, seen from behind, toward the huge machine; in shot 2 he faces the lens in front of that same machine and speaks; NEVER removes any safety equipment.
+FACES: his face exists once and shows only in shot 2; nobody else in either shot; the machine has no visible operator.
+CONTACT: nobody touches anyone.""",
+    """SCENE — Late afternoon on the floor of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches rising on all sides, a wide flat of pale crushed ore, and far ahead one huge modern mining excavator — off-white and grey steel with a safety-orange stripe, no logos — with the low sun right behind it. @FUNCIONARIO is already walking away from the camera toward it.
+THE SOUL OF THE SCENE (play it, never explain it): he walks into the work he is proudest of, then turns and tells you what it is all for — like good news to a friend.""",
+    f"""{LOCKS_HEAD}
+1. Exactly 2 shots with 1 hard cut at 3s — WRONG if there are extra cuts.
+2. SHOT 1 is a WIDE frame, the lens EXTREMELY LOW, a few centimetres off the ground: @FUNCIONARIO small in the middle distance, seen only from BEHIND, walking away toward the huge machine far ahead, the low sun right behind it with ONE soft warm lens flare — WRONG if the lens is above knee height, his face shows, the machine is close, or there is a second flare.
+3. SHOT 2 is the MATCH FRAME: medium close-up, his face dead centre, straight into the lens, in front of the same machine, the slow dolly zoom-out keeping his face EXACTLY the same size and place while the background swells — WRONG if the face drifts, shrinks, grows or looks away, or if a flare appears.
+4. He speaks ONLY "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–8s, in shot 2; shot 1 has no speech (the voice-over is added in post).
+5. Full mining safety equipment in both shots: hard hat with chin strap fastened, glasses, high-visibility vest, gloves, no logos.
+6. The low sun stays BEHIND him in both shots, his face readable in shot 2 — NO music.""",
+    timeline(2, [3], [
+        "SHOT 1 (0–3s) — WIDE, 84°, handheld, the lens a few centimetres above the ground, drifting slowly forward behind him: pale crushed-ore floor across the lower third, lens-level pebbles soft in the foreground; @FUNCIONARIO small in the middle distance, walking away at an easy pace toward a huge off-white mining excavator far ahead, the terraced benches rising on both sides; the low late sun right behind the machine, one soft flare blooming across the lower frame, his long shadow stretching back toward us. HARD CUT.",
+        "SHOT 2 (3–9s) — the MATCH FRAME, MCU, 47° narrowing to 30°: @FUNCIONARIO dead centre, facing the lens in front of the same excavator, huge and soft behind him, the low sun behind it rimming his hard hat and shoulders; he speaks at 3–8s with a proud, easy smile while the slow dolly zoom-out runs through the whole shot — his face keeps its size and place as the machine and the pit swell behind him; at 8–9s he holds the smile. Hard end.",
+    ]),
+    dialogue(line(3, 8, "FUNCIONARIO", "também deve construir novos caminhos para quem nasce, vive e trabalha aqui."), "FUNCIONARIO"),
+    acting("FUNCIONARIO", "he has just walked into the work he is proudest of.",
+           "turn to you and say what it is all for, like good news to a friend — easy, certain, smiling.",
+           "straight into the lens, steady and warm, from the first frame of shot 2.",
+           "his chin lifts a hair as he starts",
+           "a heroic pose, gesturing at the machine, looking away from the lens"),
+    """CAMERA — SHOT 1: handheld, an operator with a body: the lens a few centimetres above the ground in a WIDE frame, drifting slowly forward behind him with human breath and late small corrections; never locked, no drone, no crane. FOCUS: on him and the machine, the foreground pebbles soft. HORIZON: level.
+SHOT 2: the dolly zoom-out below.""",
+    T.dolly_zoom_out(6),
+    T.MATCH_FRAME,
+    """GEOMETRY — in shot 1 the camera sits on the ground about 40 m behind @FUNCIONARIO, the excavator about 150 m ahead of him, the sun low directly behind it; in shot 2 the camera is 1.3 m from his face at eye height, the excavator about 12 m behind him, the sun still behind it.""",
+    """PHYSICS & MATERIAL — his boots crunch on the crushed ore and lift thin puffs of dust that drift and catch the sun; the vest is stiff; the excavator is enormous and still, its arm lowered. """ + REAL + """ MATERIAL TRUTH: pale crushed ore with fine dust, the glossy white helmet shell, the black chin strap, reflective tape on the vest, clear glasses without glare, the off-white painted steel of the excavator with a safety-orange stripe, hydraulic hoses.""",
+    T.LIGHT_EXT_BACK,
+    T.FILM_LOOK_FLARE,
+    f"""SOUND — LOCATION SOUND ONLY: his boots on crushed stone (shot 1); wind over the open pit; the excavator's low idle hum and a diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); after his line, only wind and the distant engine. {T.MUSIC_POLICY}""",
+    T.WORLD + " Mining safety equipment is complete and correct; nobody in the pit without it.",
+    f"""NEGATIVE: a camera above knee height in shot 1, his face in shot 1, a close machine in shot 1, a second flare, a flare in shot 2, floating bokeh orbs, a dark silhouette with no face in shot 2, the face drifting off centre, shrinking or growing, him looking away in shot 2, speaking in shot 1, gesturing at the machine, logos on machine or equipment, missing helmet, unfastened chin strap, extra cuts, {T.NEG_DOLLY.replace("lens flare, ", "")}.""",
+    """[ORDER: 2 shots, 1 hard cut at 3s, 9s — (1, 0–3s) WIDE, lens a few centimetres above the ground, handheld: @FUNCIONARIO small, seen from behind, walking away across the pit floor toward a huge excavator far ahead, the low sun right behind it, ONE soft warm flare — (2, 3–9s) MATCH FRAME medium close-up, face dead centre and straight into the lens in front of the same excavator, slow dolly zoom-out (the face keeps the same size and place while the background swells), he says only "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–8s, smiling. Invariants: shot 1 extremely low and wide, back to camera; shot 2 centred, frontal, constant face size; sun behind him, face readable; full safety equipment; a flare only in shot 1. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+)
 
 # ---------------------------------------------------------------- T10 / T11 (match, sem fala)
 def match_locks(subject, mouth_note):
     return f"""{LOCKS_HEAD}
-1. ONE handheld take in the MATCH FRAME — WRONG if it cuts, pushes in or is locked.
-2. {subject}'s eyes rise and land on the lens at 2–3s, on the upper-third line at about 45% of the frame width, and stay alive — WRONG if they land elsewhere or turn glassy.
+1. ONE take in the MATCH FRAME with the slow dolly zoom-out, no cuts — WRONG if it cuts, if the camera is locked, or if the move makes the face smaller or bigger.
+2. {subject}'s face stays dead centre and EXACTLY the same size, straight into the lens, the eyes on the upper-third line and alive — WRONG if the face drifts, shrinks, grows, turns away or goes glassy.
 3. NO dialogue: {mouth_note} — WRONG if any mouth forms words.
 4. Light from frame-LEFT — NO music."""
 
 
 T10 = join(
-    contract(5, "ONE continuous take, no cuts", "handheld, close and breathing", dialogue=False),
-    """WHO IS WHO — READ FIRST, ABSOLUTE:
-MOTHER (unreferenced: a Brazilian woman about 28, mixed-race brown skin, dark hair loosely tied, a soft oatmeal cotton T-shirt) — holds her newborn, looks down, then up with a smile; NEVER speaks.
-NEWBORN — a real newborn of a few days, small and correctly proportioned, wrapped in a pale cotton blanket, most of the face covered by the blanket and her hand; only the forehead, a closed eye and a cheek show.
+    contract(4, "ONE continuous take, no cuts", "a slow dolly zoom-out on a medium close-up", dialogue=False),
+    f"""REFERENCES — each reference has ONE job:
+@MAE — IDENTITY of @MAE: face, hair, build, hands and wardrobe. 100% matches.
+{SCOPE_ID}""",
+    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@MAE ({ANCH['MAE']}) — the MOTHER: holds her newborn against her chest and smiles into the lens; NEVER speaks.
+NEWBORN — a real newborn of a few days, small and correctly proportioned, wrapped in a pale cotton blanket and held against her chest at the bottom edge of the frame, most of the face covered by the blanket; only a forehead, a closed eye and a cheek show.
 FACES: each face exists once; nobody else in the room.
 CONTACT: only her hands on the baby.""",
-    """SCENE — A bright bedroom in a modern apartment in Belo Horizonte, Brazil, afternoon; the MOTHER sits by the window holding her newborn, watching it breathe.
-THE SOUL OF THE SCENE (play it, never explain it): someone new just arrived — she looks up at you, happy, as if you had come in to meet him.""",
-    match_locks("the MOTHER", "her mouth stays closed, the baby makes only small breathing sounds"),
+    """SCENE — A bright bedroom in a modern apartment in Belo Horizonte, Brazil, afternoon; @MAE stands by the window holding her newborn against her chest, looking at you.
+THE SOUL OF THE SCENE (play it, never explain it): someone new just arrived — she looks at you, radiant, as if you had come in to meet him.""",
+    match_locks("@MAE", "her mouth stays closed, the baby makes only small breathing sounds"),
     timeline(1, [], [
-        "BEAT 1 (0–2s) — the MATCH FRAME, CU: the MOTHER's face just left of centre, eyes down on the baby at the bottom of frame; her thumb moves on the blanket.",
-        "BEAT 2 (2–3s) — her eyes rise from the baby and land on the lens.",
-        "BEAT 3 (3–5s) — she holds your eyes with a soft happy smile. Hard end on the held look.",
+        "BEAT 1 (0–1s) — the MATCH FRAME, MCU: @MAE's face dead centre, eyes on the lens, a soft radiant smile, the swaddled newborn at the bottom edge of the frame against her chest; the slow dolly zoom-out begins.",
+        "BEAT 2 (1–2s) — her gaze drops to the baby and rises back to the lens, the smile deepening.",
+        "BEAT 3 (2–4s) — eyes on the lens, warm and a little amazed, the bedroom swelling softly behind her as the dolly zoom-out finishes. Hard end on the held look.",
     ]),
-    """ACTING — MOTHER (fully invested in the tactic; the work happens in the eyes)
-MOTIVE: everything is new and she is happy.
-TACTIC: watch his breathing, then look up and share him with you — "look who arrived".
-EYES: on the baby, then up to the lens. """ + T.EYES + """ Involuntary detail: a slow happy blink before she looks up. A frozen pupil is wrong.
-NOT: speaking, crying, rocking theatrically, presenting the baby to the camera.""",
+    acting("MAE", "everything is new and she is happy.",
+           "share him with you — \"look who arrived\" — with a glance down and a glowing smile.",
+           "on the lens, one glance down to the baby and back.",
+           "a slow happy blink as she looks back up",
+           "speaking, crying, rocking theatrically, presenting the baby to the camera"),
+    T.dolly_zoom_out(4),
     T.MATCH_FRAME,
-    T.handheld(),
-    """PHYSICS & MATERIAL — the baby is light, warm and limp, sinking into the crook of her arm; the blanket's cotton folds; a tiny movement of the baby's chest under her hand. """ + REAL + """ MATERIAL TRUTH: the soft cotton of blanket and T-shirt, a few loose hairs across her forehead, the baby's delicate newborn skin, the sheer curtain behind her.""",
+    """PHYSICS & MATERIAL — the baby is light, warm and limp, sinking into the crook of her arm; the blanket's cotton folds; a tiny movement of the baby's chest under her hand. """ + REAL + """ MATERIAL TRUTH: the fine rib of her ivory knit, a few loose strands of hair across her cheek, the baby's delicate newborn skin, the sheer curtain glowing behind her.""",
     T.light_int("the bedroom window with a sheer curtain",
                 "no other source.",
                 "the daylight lights the frame-LEFT side of her face and the blanket; the room behind falls off a stop."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and one tiny sigh; her thumb on cotton; the city far below the window. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and one tiny sigh; the knit's soft rustle; the city far below the window. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, the baby's full face, presenting the baby to the camera, crying, a cut, eyes landing off the upper third, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 5s, MATCH FRAME close-up — (0–2s) eyes down on the baby — (2–3s) eyes rise and land on the lens at the upper third, 45% width — (3–5s) she holds your eyes, smiling. Invariants: eyes landing on the mark; no dialogue; baby partly covered, correct proportions. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, the baby's full face, presenting the baby to the camera, crying, a cut, the face drifting off centre or changing size, a generic or plain-looking woman, {T.NEG_DOLLY}.""",
+    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly zoom-out — (0–1s) @MAE's face dead centre, eyes on the lens, the swaddled newborn at the bottom edge — (1–2s) a glance down to the baby and back — (2–4s) eyes on the lens, glowing, the room swelling behind her; hard end. Invariants: face centred and the same size throughout; no dialogue; baby partly covered, correct proportions. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
 )
 
 T11 = join(
-    contract(5, "ONE continuous take, no cuts", "handheld, close and breathing", dialogue=False),
-    """WHO IS WHO — READ FIRST, ABSOLUTE:
-FAN (unreferenced: a young Black Brazilian woman about 20, short natural hair, small hoop earrings, a plain terracotta T-shirt with no print) — follows the play, then looks up to the lens; NEVER speaks, NEVER shouts.
+    contract(4, "ONE continuous take, no cuts", "a slow dolly zoom-out on a medium close-up", dialogue=False),
+    f"""REFERENCES — each reference has ONE job:
+@TORCEDORA — IDENTITY of @TORCEDORA: face, hair, build, hands and wardrobe. 100% matches.
+{SCOPE_ID}""",
+    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@TORCEDORA ({ANCH['TORCEDORA']}) — the FAN: in the stands, looks straight into the lens, delighted; NEVER speaks, NEVER shouts.
 CROWD — the stands behind her: many distinct people, soft, out of focus, colours mixed and indistinct; nobody with her face; no twins, no clones.
 CONTACT: nobody touches her.""",
-    """SCENE — A late-afternoon match at the Mineirão stadium in Belo Horizonte, Brazil — the modern renovated stands and roof ring; the FAN is in the stands following a long ball, breath held.
-THE SOUL OF THE SCENE (play it, never explain it): the ball goes up and so does her hope — her eyes rise with it and find you, lit up.""",
-    match_locks("the FAN", "her mouth stays closed; the crowd is only a roar with no words standing out"),
+    """SCENE — A late-afternoon match at the Mineirão stadium in Belo Horizonte, Brazil — the modern renovated stands and roof ring; @TORCEDORA sits in the stands with the crowd behind her, looking at you.
+THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her week — she looks at you, lit up, as if you were in the next seat.""",
+    match_locks("@TORCEDORA", "her mouth stays closed or smiling; the crowd is only a roar with no words standing out"),
     timeline(1, [], [
-        "BEAT 1 (0–2s) — the MATCH FRAME, CU: the FAN's face just left of centre, eyes down-right on the pitch below, lips pressed, breath held.",
-        "BEAT 2 (2–3s) — a long ball goes up; her eyes and chin rise with it and land on the lens.",
-        "BEAT 3 (3–5s) — she holds your eyes, lit up with excitement, as the roar swells. Hard end on the held look.",
+        "BEAT 1 (0–1s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre, eyes on the lens, a bright smile, the stand soft behind her; the slow dolly zoom-out begins.",
+        "BEAT 2 (1–3s) — she bites her lip, then breaks into a big delighted smile as the crowd's roar swells; her eyes stay on you.",
+        "BEAT 3 (3–4s) — she holds your eyes, lit up, the stadium swelling behind her as the dolly zoom-out finishes. Hard end on the held look.",
     ]),
-    """ACTING — FAN (fully invested in the tactic; the work happens in the eyes)
-MOTIVE: this is her Sunday ritual and she loves it.
-TACTIC: follow the play, deciding, then share the thrill with you.
-EYES: on the play, then up to the lens. """ + T.EYES + """ Involuntary detail: she bites her lip as the ball goes up. A frozen pupil is wrong.
-NOT: shouting, cheering with arms up, face paint, a scarf, a team jersey.
-
-ACTING — CROWD (background): one organism following one ball; soft, nobody looking at the lens.""",
+    acting("TORCEDORA", "this is her Sunday ritual and she loves it.",
+           "share the thrill with you, like a friend in the next seat.",
+           "on the lens the whole time.",
+           "she bites her lip before the smile breaks",
+           "shouting, arms up, face paint, a scarf, a team jersey"),
+    T.dolly_zoom_out(4),
     T.MATCH_FRAME,
-    T.handheld(),
-    """PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves her T-shirt; the people behind rise as the ball goes up, soft shapes lifting. """ + REAL + """ MATERIAL TRUTH: the smooth concrete and modern seats of the renovated stand, the cotton of her T-shirt, a bead of sweat at her hairline, the glint of her hoop earring.""",
+    """PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves a few strands of her crown of hair; the people behind rise and settle, soft shapes. """ + REAL + """ MATERIAL TRUTH: the smooth concrete and modern seats of the renovated stand, the cotton of her terracotta T-shirt, a bead of sweat at her hairline, the glint of her gold hoops.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar; the thud of the ball kicked far below at 2s; the crowd's rising "uhh" as the ball goes up; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar swelling; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. {T.MUSIC_POLICY}""",
     T.WORLD + " Wardrobe and crowd carry NO football club colour combinations (black-and-white, blue-and-white, green-and-white), NO yellow-and-green, NO flags, NO scarves, NO jerseys.",
-    f"""NEGATIVE: the fan speaking or shouting, any mouth forming words, cheering arms, team jersey, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, eyes landing off the upper third, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 5s, MATCH FRAME close-up — (0–2s) eyes on the play, breath held — (2–3s) the ball goes up, her eyes rise and land on the lens at the upper third, 45% width — (3–5s) she holds your eyes, lit up, the roar swelling. Invariants: eyes landing on the mark; no dialogue; neutral wardrobe, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]""",
+    f"""NEGATIVE: the fan speaking or shouting, any mouth forming words, cheering arms, team jersey, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre or changing size, a generic or plain-looking woman, {T.NEG_DOLLY}.""",
+    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly zoom-out — (0–1s) @TORCEDORA's face dead centre, eyes on the lens, a bright smile — (1–3s) she bites her lip, then a big delighted smile, the roar swelling — (3–4s) she holds your eyes, lit up, the stadium swelling behind her; hard end. Invariants: face centred and the same size throughout; no dialogue; neutral wardrobe, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T12 + T13
 T12 = join(
-    contract(14, "4 shots with 3 hard cuts at 3s, 6s and 11s", "handheld in every shot, inside a moving bus"),
+    contract(14, "4 shots with 3 hard cuts at 3s, 6s and 11s", "a slow dolly zoom-out in shot 1, handheld in shots 2 to 4, inside a moving bus"),
     f"""REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@MOTORISTA ({ANCH['MOTORISTA']}) — the BUS DRIVER: at the wheel on the bus's left side, greets the boy, drives, speaks once in shot 3; NEVER stands.
+@MOTORISTA ({ANCH['MOTORISTA']}) — the BUS DRIVER: at the wheel on the bus's left side, opens the door for the boy, greets him, drives, speaks once in shot 3; NEVER stands.
 @ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
 FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.""",
-    """SCENE — Late afternoon on a modern, air-conditioned city bus in Belo Horizonte, Brazil; at a stop, the glass door is already folding open for a teenage student with a backpack.
+    """SCENE — Late afternoon on a modern, air-conditioned city bus in Belo Horizonte, Brazil, stopped at a stop; @MOTORISTA sits at the wheel looking at you, the glass door shut beside him, a teenage student waiting outside with a backpack.
 THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he knows this boy and is proud of where he is headed — he tells you the route with a smile.""",
     f"""{LOCKS_HEAD}
-1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 11s; handheld in every shot — WRONG if extra cuts or a locked camera.
-2. @ESTUDANTE never speaks; @MOTORISTA speaks only in shot 3 — WRONG if any other mouth forms words.
-3. In shot 2 @MOTORISTA's eyes rise and land on the lens at 4–5s, on the upper-third line at about 45% of the frame width — WRONG if glassy or landing elsewhere.
+1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 11s — WRONG if extra cuts; shot 1 is the dolly zoom-out, shots 2 to 4 are handheld.
+2. SHOT 1 is the MATCH FRAME: medium close-up of @MOTORISTA, face dead centre and EXACTLY the same size throughout, straight into the lens, with the slow dolly zoom-out; at 0–2s his eyes are on the lens, at 2–3s they drop to the door control — WRONG if the face drifts, shrinks or grows, or his eyes never drop to the door control.
+3. @ESTUDANTE never speaks; @MOTORISTA speaks only in shot 3 — WRONG if any other mouth forms words.
 4. The bus is moving in shots 3 and 4; his hands stay on the wheel while he speaks.
 5. Daylight from frame-LEFT — NO music.""",
     timeline(4, [3, 6, 11], [
-        "SHOT 1 (0–3s) — CU, 47°, low at the door: the glass door folds open with a pneumatic hiss and @ESTUDANTE's white sneaker steps onto the low floor; his hand rises in a greeting. HARD CUT.",
-        "SHOT 2 (3–6s) — the MATCH FRAME, CU of @MOTORISTA: his eyes follow the boy passing behind him, then rise and land on the lens at 4–5s; a warm smile. HARD CUT.",
+        "SHOT 1 (0–3s) — the MATCH FRAME, MCU of @MOTORISTA at the wheel, face dead centre, straight into the lens with a warm smile, the stopped bus soft behind him — the windshield, the aisle and the glass door on frame-LEFT — swelling as the slow dolly zoom-out runs the whole shot; at 2–3s his eyes drop to the door control below frame, his hand works the lever and the glass door starts to fold open behind him with a pneumatic hiss. HARD CUT.",
+        "SHOT 2 (3–6s) — CU, 47°, low at the door: the glass door folds fully open and @ESTUDANTE's white sneaker steps onto the low floor; his hand rises in a greeting. HARD CUT.",
         "SHOT 3 (6–11s) — MWS (the driver at the wheel, the windshield and the city ahead), 47°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 6–11s, glancing at the road and back, smiling. HARD CUT.",
         "SHOT 4 (11–14s) — CU, 47°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.",
     ]),
     dialogue(line(6, 11, "MOTORISTA", "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."), "MOTORISTA"),
     acting("MOTORISTA", "every day he takes people to where the opportunities are.",
-           "explain it like a route he loves — hands on the wheel, eyes splitting between the road and you, checking you followed.",
-           "following the boy, then up to the lens; in shot 3 between the road and the lens.",
+           "greet you with a smile, open the door for the boy, then explain the route like one he loves — hands on the wheel, eyes splitting between the road and you, checking you followed.",
+           "on the lens, then down to the door control and back; in shot 3 between the road and the lens.",
            "his thumb taps the wheel once", "letting go of the wheel, turning his body to the camera"),
     "ACTING — @ESTUDANTE: TACTIC greet fast and find a seat; eyes on the driver, then the window; NOT speaking, NOT looking at the lens.\nACTING — passengers (background): eyes on the window or on their own thoughts; NOT looking at the lens, NOT speaking.",
+    T.dolly_zoom_out(3) + """
+SHOTS 2–4: handheld, an operator with a body — breathing, small weight shifts, late corrections, never locked; in the close-ups it drifts and follows the action, in shot 3 it drifts slowly around the driver. HORIZON: level.""",
     T.MATCH_FRAME,
-    T.handheld(),
-    """GEOMETRY — driver's seat on the bus's left side, glass folding door on the right; in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus.""",
-    """PHYSICS & MATERIAL — the door swings open on its pneumatic arm; the bus dips slightly as the boy steps in; when it pulls away everybody sways gently; the wheel turns under his palms; trees and buildings slide past the windows with motion blur. """ + REAL + """ MATERIAL TRUTH: the glass of the door, the textured low floor, satin-steel handrails, grey fabric seats, the cotton of his uniform shirt, Belo Horizonte's buildings and trees reflected in the windows.""",
+    """GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side); in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus.""",
+    """PHYSICS & MATERIAL — the door lever clicks and the door swings open on its pneumatic arm; the bus dips slightly as the boy steps in; when it pulls away everybody sways gently; the wheel turns under his palms; trees and buildings slide past the windows with motion blur. """ + REAL + """ MATERIAL TRUTH: the glass of the door, the textured low floor, satin-steel handrails, grey fabric seats, the cotton of his uniform shirt, Belo Horizonte's buildings and trees reflected in the windows.""",
     T.light_int("the bus's windshield and door-side windows",
                 "no other source inside the bus.",
                 "the daylight lights the frame-LEFT side of the faces; once the bus moves, the light flickers gently as trees and poles pass."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: the door's pneumatic hiss; the boy's steps; the engine pulling away; tyres on the avenue, traffic outside, a horn far off; the stop-request bell once (a single tone, not a melody); the engine's hum under his voice. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: the door lever's click and the door's pneumatic hiss; the boy's steps; the engine pulling away; tyres on the avenue, traffic outside, a horn far off; the stop-request bell once (a single tone, not a melody); the engine's hum under his voice. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, eyes landing off the upper third, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s, handheld — (1, 0–3s) CU: the glass door opens, the student's sneaker steps in — (2, 3–6s) MATCH FRAME close-up: the driver's eyes follow the boy and rise to the lens at 4–5s, smiling — (3, 6–11s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 11–14s) CU: the student by the window, the city sliding past. Invariants: student silent; driver speaks only in shot 3; eyes landing at the upper third; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or changing size in shot 1, a generic or plain-looking man, extra cuts, {T.NEG_DOLLY}.""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly zoom-out, at 2–3s his eyes drop to the door control and the glass door folds open — (2, 3–6s) CU, handheld: the door opens fully, the student's sneaker steps in — (3, 6–11s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 11–14s) CU: the student by the window, the city sliding past. Invariants: shot 1 face centred and the same size; student silent; driver speaks only in shot 3; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T14
