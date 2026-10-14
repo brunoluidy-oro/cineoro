@@ -234,16 +234,16 @@ CHARS = [
          prompt=sheet(
              who="a Brazilian woman of mixed descent", age=30, person="woman", pron="she", poss="her",
              skin="Medium brown skin with natural texture.",
-             hair="Dark hair in a low bun.",
+             hair="Black hair centre-parted and slicked back into a low bun.",
              face="An oval face with a medium nose and medium lips.",
              eyes="Dark calm eyes, natural eyebrows.",
              facial="Light everyday makeup.",
              expression="Calm, kind expression with a soft smile — the face of someone who puts people at ease.",
-             accessories_face="A stethoscope around her neck.",
-             marks="A small mole above the upper lip.",
+             accessories_face="A black stethoscope around her neck.",
+             marks="A small mole on the forehead just above the brow line.",
              ordinary="an ordinary nurse from Belo Horizonte",
              build="medium height and build",
-             outfit="white cotton scrub top and trousers with visible seams and soft folds, no text and no logo, a stethoscope around the neck, a small fob watch pinned to the chest pocket, white closed shoes",
+             outfit="white short-sleeved scrub tunic with a notched mandarin collar, a chest pocket holding a small plain ID badge with nothing written on it, two hip pockets, white straight scrub trousers, a black stethoscope around the neck, white flat shoes",
              bg="medium-grey")),
 ]
 

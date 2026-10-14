@@ -18,7 +18,7 @@ ANCH = {
     "TORCEDORA": "22, Black Brazilian woman, deep brown skin with a warm glow, athletic, hair slicked straight back with glossy laid edges and a deep side part into a sleek low bun at the nape, forehead and ears fully visible, thick defined eyebrows, broad nose with a tiny gold nose stud, full lips with a berry gloss, large gold hoop earrings, a washed-terracotta velour football jersey with a cream polo collar with red stripes and cream cuffs and a plain chest with no emblem, tucked into high-waisted dark chocolate-brown wide-leg jeans, sand-coloured sneakers, a small olive-tan crossbody pouch on a chain",
     "MOTORISTA": "52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved open-collar uniform shirt with two flap chest pockets and nothing written on it, worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist",
     "ESTUDANTE": "15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers",
-    "ENFERMEIRA": "42, mixed-race Brazilian woman, light olive skin, slim-to-medium build, black hair centre-parted and pulled back into a low bun, a tiny mole under the left nostril and one on the forehead above the right eyebrow, white short-sleeved round-neck scrub top and white scrub trousers, a black stethoscope around her neck, white closed flat shoes",
+    "ENFERMEIRA": "42, mixed-race Brazilian woman, medium-brown skin, slim-to-medium build, black hair centre-parted and slicked back into a low bun, a small mole on the forehead just above the brow line, white short-sleeved scrub tunic with a notched mandarin collar, a chest pocket holding a small plain ID badge with nothing written and two hip pockets, a black stethoscope around her neck, white straight scrub trousers, white flat shoes",
 }
 
 SCOPE_ID = ("REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — "
@@ -629,84 +629,89 @@ T14 = join(
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe — the same clothes as on the bus. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: wires a circuit, switches it on, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
+@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: taps a tablet to start a small robot, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
 CLASSMATE (unreferenced: a Brazilian girl about 16, braids, grey T-shirt) — beside him in shots 3 and 4; NEVER speaks.
+ROBOT — a small white-and-grey educational humanoid robot about 30 cm tall, with servo arms and two small round eyes, no logos, standing on the bench; it waves in shot 2.
 FACES: each face exists once; other students far behind are distinct and soft, mouths closed.
 CONTACT: the only touch is the fist bump in shot 4.""",
-    """SCENE — Afternoon in the workshop of a free technical course for young people in Belo Horizonte, Brazil — modern training panels, bright and organised. @ESTUDANTE is already tightening the last terminal of a circuit.
-THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work with his own hands and is thrilled — he tells you what this place is for.""",
+    """SCENE — Afternoon in the robotics workshop of a free technical course for young people in Belo Horizonte, Brazil — a bright, organised room with tidy benches, robot kits and parts on shelves. @ESTUDANTE is already holding a tablet in front of a small robot on the bench.
+THE SOUL OF THE SCENE (play it, never explain it): he just made the robot come alive with a tap and is thrilled — he tells you what this place is for.""",
     f"""{LOCKS_HEAD}
 1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 9s; handheld in every shot.
-2. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
-3. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy.
-4. Only @ESTUDANTE speaks, only this line — the classmate's mouth stays closed.
-5. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.""",
+2. The tablet's SCREEN is NEVER visible: in shot 1 the tablet is seen almost edge-on, a thin matte slab, never screen-on to the lens — WRONG if any screen, interface or screen glow is shown anywhere.
+3. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
+4. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy; only @ESTUDANTE speaks, only this line — the classmate's and the robot's mouths stay closed.
+5. The robot waves in shot 2 and is the small robot described — WRONG if it is large, humanoid-human or carries a logo.
+6. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.""",
     timeline(4, [3, 5, 9], [
-        "SHOT 1 (0–3s) — ECU, 47°: a screwdriver tightens a terminal on a training panel; the copper wire end seats with a small snap and his fingers tug it once to test it. HARD CUT.",
-        "SHOT 2 (3–5s) — CU, 47°: his finger flips a switch and a lamp on the panel lights up. HARD CUT.",
-        "SHOT 3 (5–9s) — MWS (from the knees up, the workshop around him), 47°: @ESTUDANTE at the panel, the CLASSMATE beside him; he turns to the lens and speaks at 5–9s, grinning with pride. HARD CUT.",
-        "SHOT 4 (9–11s) — CU, 47°: he and the CLASSMATE bump fists in front of the lit lamp. Hard end mid-bump.",
+        "SHOT 1 (0–3s) — ECU, 35°: the tablet seen almost edge-on, a thin matte-grey slab, his index finger taps it twice and swipes once, the screen turned away from the lens. HARD CUT.",
+        "SHOT 2 (3–5s) — CU, 35°: the small robot on the bench comes alive — its eyes light softly, its head tilts and one arm rises and waves three times. HARD CUT.",
+        "SHOT 3 (5–9s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at the bench with the tablet low at his side, screen away from us, the CLASSMATE beside him, the little robot between them lowering its arm; he turns to the lens and speaks at 5–9s, grinning with pride. HARD CUT.",
+        "SHOT 4 (9–11s) — CU, 35°: he and the CLASSMATE bump fists in front of the little robot. Hard end mid-bump.",
     ]),
     dialogue(line(5, 9, "ESTUDANTE", "É para isso que a Codemig existe… para fazer essa conexão acontecer."), "ESTUDANTE"),
-    acting("ESTUDANTE", "at 15 he just made something work with his own hands.",
-           "show you the lit lamp as proof and tell you, thrilled, what this place is for — check that you believe him.",
-           "from the lamp to the lens.",
+    acting("ESTUDANTE", "at 15 he just made a robot wake up with a tap.",
+           "show you the waving robot as proof and tell you, thrilled, what this place is for — check that you believe him.",
+           "from the robot to the lens.",
            "a quick swallow, then the grin breaks", "a cheeky smirk, a teenage pose"),
-    "ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the lamp, then on him; NOT speaking, NOT looking at the lens.",
+    "ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the robot, then on him; NOT speaking, NOT looking at the lens.",
     T.handheld(),
-    """PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the stiff copper wire springs back when he tugs it; the switch clicks; the lamp comes on instantly; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the powder-coated metal of the training panel, colour-coded wires with clean copper ends, the warm glow of the lamp, the matte cotton knit of his hoodie, organised tools on the bench.""",
+    """PHYSICS & MATERIAL — his fingertip taps the case with a soft knock; the robot's servos whirr softly as its head tilts and its small arm lifts and swings side to side three times, a little stiff, a little endearing; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the matte-grey case of the tablet, the satin white-and-grey plastic of the robot with a few visible screws and servo joints, the matte cotton knit of his hoodie, organised robot parts and tools on the bench.""",
     T.light_int("the workshop's big windows",
-                "the panel lamp, once it is on, as a small warm practical.",
-                "the daylight lights the frame-LEFT side of his face and the panel; the room behind falls off a stop."),
+                "the robot's two small eye lights as tiny practicals.",
+                "the daylight lights the frame-LEFT side of his face and the bench; the room behind falls off a stop."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: the screwdriver's squeak and the terminal's snap; the switch click; a fan humming; other students working at far benches, no words standing out; the fist bump. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: his fingertip tapping the case; the robot's soft servo whirr; a fan humming; other students working at far benches, no words standing out; the fist bump. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: different wardrobe from the bus, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the terminal tightened, the wire tested — (2, 3–5s) CU: the switch, the lamp lights up — (3, 5–9s) medium-wide: he turns to the lens and says his line, proud — (4, 9–11s) CU: fist bump in front of the lamp. Invariants: the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a visible tablet screen, any screen content or interface, a circuit panel, terminal blocks, a lamp, old-fashioned electrical gear, a large or human-like robot, a robot with a logo, different wardrobe from the bus, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, {T.NEG_SPINE}.""",
+    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the tablet seen almost edge-on, his finger taps it, the screen never visible — (2, 3–5s) CU: the small robot wakes and waves — (3, 5–9s) medium shot, waist-up: he turns to the lens and says his line, proud, the little robot beside him — (4, 9–11s) CU: fist bump in front of the robot. Invariants: no tablet screen ever visible; a small white-and-grey robot; the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T15
 T15 = join(
-    contract(14, "4 shots with 3 hard cuts at 3s, 5s and 12s", "handheld in every shot"),
+    contract(14, "4 shots with 3 hard cuts at 2s, 8s and 10s", "handheld in every shot, the camera backing up ahead of her"),
     f"""REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@ENFERMEIRA ({ANCH['ENFERMEIRA']}) — the NURSE: cares for the patient, speaks once while working; NEVER stops caring for him; owns the frame-LEFT half in shot 3.
-PATIENT (unreferenced: a Brazilian man about 70, white hair, hospital gown, sitting up in bed) — owns the frame-RIGHT half in shot 3; NEVER speaks, mouth closed.
-FACES: each face exists once; no other people in focus.
-CONTACT: only her hands on the patient's hand and arm; in shot 4 he squeezes her hand.""",
-    """SCENE — Afternoon in a modern Brazilian public hospital ward in Minas Gerais — bright, new beds, large windows. @ENFERMEIRA is already caring for an older PATIENT who is recovering well.
-THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she talks to you without stopping, and gives you a warm look at the end.""",
+@ENFERMEIRA ({ANCH['ENFERMEIRA']}) — the NURSE: leaves a patient's room, takes a chart and walks down the corridor telling you something, stops for one friendly word with a patient, then walks on and finishes her sentence; NEVER cares for a sick person on camera.
+PATIENT (unreferenced: a Brazilian man about 70, white hair, a kind face, a pale knit cardigan over a light shirt, a hospital wristband, sitting on a bench in the corridor) — only in shot 3, soft, in three-quarter; NEVER speaks, mouth closed.
+FACES: each face exists once; nobody else in focus.
+CONTACT: only her hand resting on the patient's forearm in shot 3.""",
+    """SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, wood-veneer doors with narrow glass panels, wall-mounted chart holders, a long line of recessed linear LED ceiling lights, a nurses' station far down the corridor, nothing on the walls readable. @ENFERMEIRA is just leaving a patient's room, which we never see into.
+THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she tells you on the move, like a friend walking you down her ward, and gives you a warm look at the end.""",
     f"""{LOCKS_HEAD}
-1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 12s; handheld in every shot.
-2. Her hands stay on the task in shot 3 while she speaks — WRONG if she stops caring to talk.
-3. Only @ENFERMEIRA speaks, only in shot 3; the patient's mouth stays closed.
-4. @ENFERMEIRA frame-LEFT, PATIENT frame-RIGHT in shot 3 — WRONG if they swap.
-5. Daylight from frame-LEFT — NO music.""",
-    timeline(4, [3, 5, 12], [
-        "SHOT 1 (0–3s) — CU, 47°: her hands clip a pulse oximeter onto the PATIENT's finger; its small light glows red. HARD CUT.",
-        "SHOT 2 (3–5s) — CU, 47°: her fingers roll the clamp on the IV line; a drop falls in the drip chamber. HARD CUT.",
-        "SHOT 3 (5–12s) — MWS (both of them and the bright ward), 47°: @ENFERMEIRA frame-LEFT adjusts the PATIENT's pillow and checks his arm while speaking at 5–12s, eyes on him and then to the lens with a warm smile. HARD CUT.",
-        "SHOT 4 (12–14s) — CU, 47°: the PATIENT's hand squeezes hers; she squeezes back. Hard end mid-squeeze.",
+1. Exactly 4 shots, 3 hard cuts at 2s, 8s and 10s; handheld in every shot.
+2. She is on the move: walking in shots 2 and 4, her eyes finding the lens as she speaks, her body facing her line of walk; the inside of the room, any bed and any sick person are NEVER shown.
+3. Only @ENFERMEIRA speaks: the first half at 2–8s in shot 2, the second half at 10–13s in shot 4, the same pace and tone, continuing mid-sentence; shots 1 and 3 are silent (the exchange with the patient is wordless: nods, smiles, a hand on his forearm).
+4. The corridor is bright, modern and clean, lit by artificial ceiling light only — WRONG if it looks old, dim, green-tinted or grim.
+5. Key light from above-front on frame-LEFT in every shot — NO music.""",
+    timeline(4, [2, 8, 10], [
+        "SHOT 1 (0–2s) — CU, 35°: the room door swings shut with a soft click under her hand; her other hand slides a slim grey chart folder out of the holder on the wall beside it. HARD CUT.",
+        "SHOT 2 (2–8s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her at her pace: @ENFERMEIRA walks down the bright corridor toward us with the chart held against her chest, speaking at 2–8s, eyes on the lens with a glance down at the chart now and then, a warm smile growing. HARD CUT.",
+        "SHOT 3 (8–10s) — MS, 40°: she slows by a bench where the PATIENT sits, crouches a little, rests a hand on his forearm; both smile and nod, nothing said aloud. HARD CUT.",
+        "SHOT 4 (10–14s) — MS, 40°, the lens backing up ahead of her again: she is walking on with the chart against her chest and picks her sentence up mid-way, speaking at 10–13s, eyes on the lens; at 13–14s a warm look to you, still walking. Hard end mid-step.",
     ]),
-    dialogue(line(5, 12, "ENFERMEIRA", "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."), "ENFERMEIRA"),
+    dialogue(
+        line(2, 8, "ENFERMEIRA", "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa,"),
+        line(10, 13, "ENFERMEIRA", "também criem oportunidades para Minas."),
+        "ENFERMEIRA"),
     acting("ENFERMEIRA", "caring is her job and she is proud of it.",
-           "keep caring for him while she tells you, then give you a warm look to check you understood why she is here.",
-           "on the patient, then to the lens near the end of the line.",
+           "tell you on the move like a friend walking you down her ward; the stop with the patient is a warm aside, and she takes the sentence up again with a smile.",
+           "on the lens with a glance at the chart; on the patient in shot 3.",
            "she wets her lips and smiles", "turning her body to the camera, a dramatic hospital scene"),
-    "ACTING — PATIENT: TACTIC trust her and enjoy the care; eyes on her face; involuntary detail: a small smile; NOT speaking, NOT looking at the lens.",
-    T.handheld(),
-    """GEOMETRY — the bed along the frame-RIGHT side, the patient sitting up; @ENFERMEIRA standing beside the bed at frame-LEFT, 40 cm from him; the window behind her on frame-LEFT; in shot 3 the camera 2.2 m away at the foot of the bed.""",
-    """PHYSICS & MATERIAL — the oximeter clip springs onto the finger; the IV clamp rolls with a little resistance and the drop forms, swells and falls; the pillow gives under her hands; his grip is light but sure. """ + REAL + """ MATERIAL TRUTH: the smooth plastic of the oximeter, the clear IV tubing, crisp white sheets, the cotton of her scrubs, the fine skin of his hand, a modern bed with satin-steel rails.""",
-    T.light_int("the ward's large window behind her",
-                "monitors are dark or show only abstract lines, never a light source on the faces.",
-                "the daylight lights the frame-LEFT side of her face and his arm; the ward behind falls off a stop."),
+    "ACTING — PATIENT: TACTIC enjoy her visit; eyes on her face; involuntary detail: a small smile; NOT speaking, NOT looking at the lens.",
+    """CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked. SHOTS 2 and 4: the operator walks BACKWARD ahead of her at her walking pace and keeps the same distance. SHOT 3: the camera slows with her and settles beside the bench. SHOT 1: close and steady on the hands.
+OPTICS: as stated per shot. FOCUS: on her eyes in shots 2 and 4; on the hands in shot 1. HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom.""",
+    """GEOMETRY — the corridor runs straight away from the camera; she walks along its middle, the patient's bench against the wall on frame-RIGHT in shot 3; the lens 2.5 m ahead of her in shots 2 and 4.""",
+    """PHYSICS & MATERIAL — the door swings on its soft closer and clicks; the folder slides out of its holder with a small scrape; her soft rubber soles squeak faintly on the vinyl; the chart's paper sheets shift under her arm. """ + REAL + """ MATERIAL TRUTH: the satin wood veneer, the polished pale vinyl with soft reflections of the ceiling lights, the matte painted walls, the crisp cotton of her white scrubs, the slim grey chart folder with unreadable paper, the patient's soft knit cardigan.""",
+    T.LIGHT_ARTIFICIAL,
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: the clip's click; the IV clamp; a monitor's soft beep in the room (single repeated tone, not a melody); a trolley rolling in the corridor; the ward's low murmur with no words standing out. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: the door's soft click; her footsteps on the vinyl; the folder's paper; a ventilation hum; a trolley rolling far down the corridor; a monitor's single soft beep far off (a single repeated tone, not a melody); the ward's low murmur with no words standing out. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: stopping the care to talk, turning her body to the camera, the patient speaking, swapped sides, an emergency, blood, readable monitors, hospital logo, an old run-down ward, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 12s, 14s, handheld — (1, 0–3s) CU: the oximeter clipped on — (2, 3–5s) CU: the IV clamp, a drop falls — (3, 5–12s) medium-wide: she cares for him while saying her line, a warm look to the lens at the end — (4, 12–14s) CU: he squeezes her hand. Invariants: hands on the task; she left, patient right; only her line; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: the inside of a room, a bed, a sick or dying person, blood, an IV drip, a monitor close-up, a nurse caring for someone on camera, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, the patient speaking, turning her body to the camera, extra cuts, {T.NEG_SPINE}.""",
+    """[ORDER: 4 shots, 3 hard cuts at 2s, 8s and 10s, 14s, handheld — (1, 0–2s) CU: the room door closes, her hand takes the chart folder — (2, 2–8s) medium shot, the camera backing up ahead of her: she walks down the bright corridor saying the first half of her line — (3, 8–10s) medium shot: she stops by a patient on a bench, a wordless warm exchange — (4, 10–14s) medium shot, backing up again: she walks on and finishes her sentence, a warm look at the end. Invariants: modern, bright, clean corridor with artificial light only; she is always on the move except the short stop; no room interior or sick person shown; she continues mid-sentence after the cut; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T16

@@ -64,6 +64,15 @@ LIGHT_EXT_BACK = """SHOT 1 — NATURAL BACKLIGHT, low late afternoon (this shot 
 FILM_LOOK_FLARE = FILM_LOOK.split("NO LENS FLARES:")[0] + """LENS FLARE — SHOT 1 ONLY (a deliberate exception): the low sun behind the machine throws ONE soft warm flare across the lower half of the frame — a gentle veil, a faint horizontal streak, a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights."""
 
 
+# Luz artificial de interior (T15, a pedido): corredor de hospital moderno, claro, sem cara de lâmpada verde.
+LIGHT_ARTIFICIAL = """LIGHT — MOTIVATED ARTIFICIAL LIGHT ONLY, bright modern interior (KEY): one dominant motivated source with real falloff and soft-edged shadows.
+SOURCE: the long linear LED strips of the corridor ceiling, ~4200 K neutral-warm, soft-edged, the nearest strip above and slightly in front of her on frame-LEFT; soft bounce from the pale walls and the polished floor.
+REACH: the ceiling light shapes her face softly with a gentle falloff toward frame-RIGHT, never flat; the pale walls and floor open the shadows; the corridor stays bright and falls off about one stop toward its far end.
+EXPOSURE: exposed for skin; highlights creamy; blacks slightly lifted; the whites of the scrubs holding texture, never blown.
+CONTINUITY: the key stays above-front on frame-LEFT in every shot; lit sides never flip.
+NOT: green fluorescent cast, flat hard top light with dark eye sockets, a blue clinical tint, a dim or grim corridor, a blown-out window."""
+
+
 def light_int(window, practicals, reach):
     """Base interior: the fixed lines are verbatim; only the scene's source and reach change."""
     return f"""LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.

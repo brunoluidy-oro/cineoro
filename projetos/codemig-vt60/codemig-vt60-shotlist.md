@@ -1193,15 +1193,15 @@ Notas: conferir: interior com corrimãos amarelos e bancos azuis (nada de cromad
 
 ### T14 · Trilhas de Futuro (Conexão, ~3.8s no corte)
 
-O estudante aperta o borne, a lâmpada acende, ele fala e comemora com a colega.
+O estudante aciona um tablet (a tela nunca aparece) e um robozinho de aula de robótica começa a acenar; ele fala e comemora com a colega.
 
 #### Geração T14 · 11s · 4 plano(s)
 
-- **O que acontece:** Na oficina do curso técnico: detalhe do borne apertado, a lâmpada do painel acende, o estudante vira pra lente e fala orgulhoso, e bate um soquinho com a colega.
+- **O que acontece:** Na oficina de robótica do curso técnico: o dedo do estudante toca um tablet visto quase de lado (sem tela à mostra), o robozinho acorda e acena, o estudante vira pra lente e fala orgulhoso, e bate um soquinho com a colega na frente do robô.
 - **O que é dito:** ESTUDANTE: "É para isso que a Codemig existe… para fazer essa conexão acontecer."
-- **Tempo:** borne — 3s · lâmpada acende — 2s · fala — 4s · soquinho — 2s = 11s
-- **Como termina:** o soquinho na frente da lâmpada acesa; corte seco.
-- **Direção:** A ação dele é fazer uma conexão com as mãos antes de dizer "conexão". Mesmo figurino do ônibus.
+- **Tempo:** tablet tocado — 3s · robô acorda e acena — 2s · fala — 4s · soquinho — 2s = 11s
+- **Como termina:** o soquinho na frente do robozinho; corte seco.
+- **Direção:** Troquei o borne e a lâmpada (ultrapassados) por um tablet e um robozinho de aula de robótica. O tablet aparece quase de perfil, uma plaquinha fina e fosca com o dedo dele tocando, e a tela nunca aparece (nem brilho). O robô é pequeno (uns 30 cm), branco e cinza, sem logo, com olhos redondos que acendem de leve, e acena três vezes. A fala fecha com o soquinho na frente do robô. O plano da fala agora é médio, da cintura pra cima. Mesmo figurino do ônibus.
 
 ```
 CONTRACT — Live-action photoreal film footage, 21:9, 11 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 9s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
@@ -1211,26 +1211,28 @@ REFERENCES — each reference has ONE job:
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: wires a circuit, switches it on, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: taps a tablet to start a small robot, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
 CLASSMATE (unreferenced: a Brazilian girl about 16, braids, grey T-shirt) — beside him in shots 3 and 4; NEVER speaks.
+ROBOT — a small white-and-grey educational humanoid robot about 30 cm tall, with servo arms and two small round eyes, no logos, standing on the bench; it waves in shot 2.
 FACES: each face exists once; other students far behind are distinct and soft, mouths closed.
 CONTACT: the only touch is the fist bump in shot 4.
 
-SCENE — Afternoon in the workshop of a free technical course for young people in Belo Horizonte, Brazil — modern training panels, bright and organised. @ESTUDANTE is already tightening the last terminal of a circuit.
-THE SOUL OF THE SCENE (play it, never explain it): he just made the circuit work with his own hands and is thrilled — he tells you what this place is for.
+SCENE — Afternoon in the robotics workshop of a free technical course for young people in Belo Horizonte, Brazil — a bright, organised room with tidy benches, robot kits and parts on shelves. @ESTUDANTE is already holding a tablet in front of a small robot on the bench.
+THE SOUL OF THE SCENE (play it, never explain it): he just made the robot come alive with a tap and is thrilled — he tells you what this place is for.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 9s; handheld in every shot.
-2. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
-3. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy.
-4. Only @ESTUDANTE speaks, only this line — the classmate's mouth stays closed.
-5. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.
+2. The tablet's SCREEN is NEVER visible: in shot 1 the tablet is seen almost edge-on, a thin matte slab, never screen-on to the lens — WRONG if any screen, interface or screen glow is shown anywhere.
+3. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
+4. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy; only @ESTUDANTE speaks, only this line — the classmate's and the robot's mouths stay closed.
+5. The robot waves in shot 2 and is the small robot described — WRONG if it is large, humanoid-human or carries a logo.
+6. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.
 
 TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — ECU, 47°: a screwdriver tightens a terminal on a training panel; the copper wire end seats with a small snap and his fingers tug it once to test it. HARD CUT.
-SHOT 2 (3–5s) — CU, 47°: his finger flips a switch and a lamp on the panel lights up. HARD CUT.
-SHOT 3 (5–9s) — MWS (from the knees up, the workshop around him), 47°: @ESTUDANTE at the panel, the CLASSMATE beside him; he turns to the lens and speaks at 5–9s, grinning with pride. HARD CUT.
-SHOT 4 (9–11s) — CU, 47°: he and the CLASSMATE bump fists in front of the lit lamp. Hard end mid-bump.
+SHOT 1 (0–3s) — ECU, 35°: the tablet seen almost edge-on, a thin matte-grey slab, his index finger taps it twice and swipes once, the screen turned away from the lens. HARD CUT.
+SHOT 2 (3–5s) — CU, 35°: the small robot on the bench comes alive — its eyes light softly, its head tilts and one arm rises and waves three times. HARD CUT.
+SHOT 3 (5–9s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at the bench with the tablet low at his side, screen away from us, the CLASSMATE beside him, the little robot between them lowering its arm; he turns to the lens and speaks at 5–9s, grinning with pride. HARD CUT.
+SHOT 4 (9–11s) — CU, 35°: he and the CLASSMATE bump fists in front of the little robot. Hard end mid-bump.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
 [5–9s] @ESTUDANTE (on camera, Brazilian Portuguese): "É para isso que a Codemig existe… para fazer essa conexão acontecer."
@@ -1238,12 +1240,12 @@ VOICE LOCK — @ESTUDANTE: Brazilian teenage boy, 15, light new baritone; Belo H
 
 ACTING — @ESTUDANTE (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
-MOTIVE: at 15 he just made something work with his own hands.
-TACTIC: show you the lit lamp as proof and tell you, thrilled, what this place is for — check that you believe him.
-EYES: from the lamp to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a quick swallow, then the grin breaks. A frozen pupil is wrong.
+MOTIVE: at 15 he just made a robot wake up with a tap.
+TACTIC: show you the waving robot as proof and tell you, thrilled, what this place is for — check that you believe him.
+EYES: from the robot to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a quick swallow, then the grin breaks. A frozen pupil is wrong.
 NOT: a solemn or serious face, a speech, a stiff advertising grin, a cheeky smirk, a teenage pose.
 
-ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the lamp, then on him; NOT speaking, NOT looking at the lens.
+ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the robot, then on him; NOT speaking, NOT looking at the lens.
 
 CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
 OPTICS: as stated per shot; no lens drift inside a shot.
@@ -1251,11 +1253,11 @@ FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — the screw resists and then seats with a small snap; the stiff copper wire springs back when he tugs it; the switch clicks; the lamp comes on instantly; the fist bump lands with a soft knock. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the powder-coated metal of the training panel, colour-coded wires with clean copper ends, the warm glow of the lamp, the matte cotton knit of his hoodie, organised tools on the bench.
+PHYSICS & MATERIAL — his fingertip taps the case with a soft knock; the robot's servos whirr softly as its head tilts and its small arm lifts and swings side to side three times, a little stiff, a little endearing; the fist bump lands with a soft knock. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the matte-grey case of the tablet, the satin white-and-grey plastic of the robot with a few visible screws and servo joints, the matte cotton knit of his hoodie, organised robot parts and tools on the bench.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
-SOURCE: daylight through the workshop's big windows on frame-LEFT, ~5600 K, soft and directional; the panel lamp, once it is on, as a small warm practical.
-REACH: the daylight lights the frame-LEFT side of his face and the panel; the room behind falls off a stop.
+SOURCE: daylight through the workshop's big windows on frame-LEFT, ~5600 K, soft and directional; the robot's two small eye lights as tiny practicals.
+REACH: the daylight lights the frame-LEFT side of his face and the bench; the room behind falls off a stop.
 EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
@@ -1263,13 +1265,13 @@ NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-ou
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the screwdriver's squeak and the terminal's snap; the switch click; a fan humming; other students working at far benches, no words standing out; the fist bump. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: his fingertip tapping the case; the robot's soft servo whirr; a fan humming; other students working at far benches, no words standing out; the fist bump. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: different wardrobe from the bus, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: a visible tablet screen, any screen content or interface, a circuit panel, terminal blocks, a lamp, old-fashioned electrical gear, a large or human-like robot, a robot with a logo, different wardrobe from the bus, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the terminal tightened, the wire tested — (2, 3–5s) CU: the switch, the lamp lights up — (3, 5–9s) medium-wide: he turns to the lens and says his line, proud — (4, 9–11s) CU: fist bump in front of the lamp. Invariants: the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the tablet seen almost edge-on, his finger taps it, the screen never visible — (2, 3–5s) CU: the small robot wakes and waves — (3, 5–9s) medium shot, waist-up: he turns to the lens and says his line, proud, the little robot beside him — (4, 9–11s) CU: fist bump in front of the robot. Invariants: no tablet screen ever visible; a small white-and-grey robot; the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1278,90 +1280,89 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 11s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ESTUDANTE (character sheet) — identidade, mesmo figurino do T12
-Notas: conferir a pronúncia de "Codemig". Se sair errada, regerar antes de mexer na grafia.
+Notas: conferir: nenhuma tela, interface ou brilho de tela em lugar nenhum; robô pequeno, branco e cinza, sem logo; pronúncia de "Codemig" (se sair errada, regerar antes de mexer na grafia).
 ```
 
 ### T15 · Hospital (Conexão, ~6.8s no corte)
 
-Oxímetro no dedo, gota no soro; a enfermeira cuida e fala; o paciente aperta a mão dela.
+A enfermeira sai do quarto de um paciente, pega o prontuário e anda pelo corredor de um hospital moderno e bem iluminado dizendo a fala; para pra falar com um paciente, corte seco, e continua a frase.
 
 #### Geração T15 · 14s · 4 plano(s)
 
-- **O que acontece:** Numa enfermaria moderna da rede pública: close do oxímetro no dedo, a gota caindo no soro, a enfermeira cuida do paciente enquanto fala e olha pra lente no fim, e ele aperta a mão dela.
-- **O que é dito:** ENFERMEIRA: "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."
-- **Tempo:** oxímetro — 3s · soro — 2s · cuida e fala — 7s · aperto de mão — 2s = 14s
-- **Como termina:** as mãos apertadas; corte seco.
-- **Direção:** Ela não para de cuidar para falar. As subações em close dão à montagem onde apoiar a fala longa em off, se precisar.
+- **O que acontece:** Num corredor de hospital moderno, claro e bem iluminado por luz artificial: close da mão fechando a porta de um quarto (que não vemos) e pegando o prontuário; a enfermeira anda pelo corredor dizendo a primeira metade da fala; para um instante com um paciente num banco, corte seco; ela volta a andar e termina a frase, com um olhar caloroso no fim.
+- **O que é dito:** ENFERMEIRA: "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, [corte, o paciente] também criem oportunidades para Minas."
+- **Tempo:** porta e prontuário — 2s · anda e fala a 1ª metade — 6s · para com o paciente, sem fala — 2s · anda e termina a frase — 4s = 14s
+- **Como termina:** ela andando, com o olhar pra você; corte seco.
+- **Direção:** Refeito do zero: ela não cuida mais de um enfermo, sai do quarto, pega o prontuário e anda pelo corredor; nunca vemos o quarto nem ninguém doente. A fala se parte no corte da sua ideia: ela para para falar com um paciente (a conversa não tem palavras, só sorrisos, acenos e a mão no antebraço dele), corte seco, e ela retoma a frase do ponto onde parou. Ambiente: corredor moderno e recém-construído, paredes cinza-claro e brancas com faixa de madeira, piso claro polido, portas de madeira com visor estreito, tudo sem texto. Luz: artificial, das calhas de LED do teto (4200 K neutro-quente), vinda de cima e à frente, à esquerda, sem verde de fluorescente (criei o template LIGHT_ARTIFICIAL). A câmera recua à frente dela nos planos de fala; planos fechados (close na mão, médio da cintura pra cima). O sheet novo da enfermeira (túnica branca de gola mandarim, estetoscópio, coque baixo) já está no descritor.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 12s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 2s, 8s and 10s, handheld in every shot, the camera backing up ahead of her, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ENFERMEIRA (42, mixed-race Brazilian woman, light olive skin, slim-to-medium build, black hair centre-parted and pulled back into a low bun, a tiny mole under the left nostril and one on the forehead above the right eyebrow, white short-sleeved round-neck scrub top and white scrub trousers, a black stethoscope around her neck, white closed flat shoes) — the NURSE: cares for the patient, speaks once while working; NEVER stops caring for him; owns the frame-LEFT half in shot 3.
-PATIENT (unreferenced: a Brazilian man about 70, white hair, hospital gown, sitting up in bed) — owns the frame-RIGHT half in shot 3; NEVER speaks, mouth closed.
-FACES: each face exists once; no other people in focus.
-CONTACT: only her hands on the patient's hand and arm; in shot 4 he squeezes her hand.
+@ENFERMEIRA (42, mixed-race Brazilian woman, medium-brown skin, slim-to-medium build, black hair centre-parted and slicked back into a low bun, a small mole on the forehead just above the brow line, white short-sleeved scrub tunic with a notched mandarin collar, a chest pocket holding a small plain ID badge with nothing written and two hip pockets, a black stethoscope around her neck, white straight scrub trousers, white flat shoes) — the NURSE: leaves a patient's room, takes a chart and walks down the corridor telling you something, stops for one friendly word with a patient, then walks on and finishes her sentence; NEVER cares for a sick person on camera.
+PATIENT (unreferenced: a Brazilian man about 70, white hair, a kind face, a pale knit cardigan over a light shirt, a hospital wristband, sitting on a bench in the corridor) — only in shot 3, soft, in three-quarter; NEVER speaks, mouth closed.
+FACES: each face exists once; nobody else in focus.
+CONTACT: only her hand resting on the patient's forearm in shot 3.
 
-SCENE — Afternoon in a modern Brazilian public hospital ward in Minas Gerais — bright, new beds, large windows. @ENFERMEIRA is already caring for an older PATIENT who is recovering well.
-THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she talks to you without stopping, and gives you a warm look at the end.
+SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, wood-veneer doors with narrow glass panels, wall-mounted chart holders, a long line of recessed linear LED ceiling lights, a nurses' station far down the corridor, nothing on the walls readable. @ENFERMEIRA is just leaving a patient's room, which we never see into.
+THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she tells you on the move, like a friend walking you down her ward, and gives you a warm look at the end.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 12s; handheld in every shot.
-2. Her hands stay on the task in shot 3 while she speaks — WRONG if she stops caring to talk.
-3. Only @ENFERMEIRA speaks, only in shot 3; the patient's mouth stays closed.
-4. @ENFERMEIRA frame-LEFT, PATIENT frame-RIGHT in shot 3 — WRONG if they swap.
-5. Daylight from frame-LEFT — NO music.
+1. Exactly 4 shots, 3 hard cuts at 2s, 8s and 10s; handheld in every shot.
+2. She is on the move: walking in shots 2 and 4, her eyes finding the lens as she speaks, her body facing her line of walk; the inside of the room, any bed and any sick person are NEVER shown.
+3. Only @ENFERMEIRA speaks: the first half at 2–8s in shot 2, the second half at 10–13s in shot 4, the same pace and tone, continuing mid-sentence; shots 1 and 3 are silent (the exchange with the patient is wordless: nods, smiles, a hand on his forearm).
+4. The corridor is bright, modern and clean, lit by artificial ceiling light only — WRONG if it looks old, dim, green-tinted or grim.
+5. Key light from above-front on frame-LEFT in every shot — NO music.
 
 TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — CU, 47°: her hands clip a pulse oximeter onto the PATIENT's finger; its small light glows red. HARD CUT.
-SHOT 2 (3–5s) — CU, 47°: her fingers roll the clamp on the IV line; a drop falls in the drip chamber. HARD CUT.
-SHOT 3 (5–12s) — MWS (both of them and the bright ward), 47°: @ENFERMEIRA frame-LEFT adjusts the PATIENT's pillow and checks his arm while speaking at 5–12s, eyes on him and then to the lens with a warm smile. HARD CUT.
-SHOT 4 (12–14s) — CU, 47°: the PATIENT's hand squeezes hers; she squeezes back. Hard end mid-squeeze.
+SHOT 1 (0–2s) — CU, 35°: the room door swings shut with a soft click under her hand; her other hand slides a slim grey chart folder out of the holder on the wall beside it. HARD CUT.
+SHOT 2 (2–8s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her at her pace: @ENFERMEIRA walks down the bright corridor toward us with the chart held against her chest, speaking at 2–8s, eyes on the lens with a glance down at the chart now and then, a warm smile growing. HARD CUT.
+SHOT 3 (8–10s) — MS, 40°: she slows by a bench where the PATIENT sits, crouches a little, rests a hand on his forearm; both smile and nod, nothing said aloud. HARD CUT.
+SHOT 4 (10–14s) — MS, 40°, the lens backing up ahead of her again: she is walking on with the chart against her chest and picks her sentence up mid-way, speaking at 10–13s, eyes on the lens; at 13–14s a warm look to you, still walking. Hard end mid-step.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[5–12s] @ENFERMEIRA (on camera, Brazilian Portuguese): "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas."
+[2–8s] @ENFERMEIRA (on camera, Brazilian Portuguese): "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa,"
+[10–13s] @ENFERMEIRA (on camera, Brazilian Portuguese): "também criem oportunidades para Minas."
 VOICE LOCK — @ENFERMEIRA: Brazilian woman, 42, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @ENFERMEIRA (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
 MOTIVE: caring is her job and she is proud of it.
-TACTIC: keep caring for him while she tells you, then give you a warm look to check you understood why she is here.
-EYES: on the patient, then to the lens near the end of the line. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she wets her lips and smiles. A frozen pupil is wrong.
+TACTIC: tell you on the move like a friend walking you down her ward; the stop with the patient is a warm aside, and she takes the sentence up again with a smile.
+EYES: on the lens with a glance at the chart; on the patient in shot 3. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she wets her lips and smiles. A frozen pupil is wrong.
 NOT: a solemn or serious face, a speech, a stiff advertising grin, turning her body to the camera, a dramatic hospital scene.
 
-ACTING — PATIENT: TACTIC trust her and enjoy the care; eyes on her face; involuntary detail: a small smile; NOT speaking, NOT looking at the lens.
+ACTING — PATIENT: TACTIC enjoy her visit; eyes on her face; involuntary detail: a small smile; NOT speaking, NOT looking at the lens.
 
-CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
-OPTICS: as stated per shot; no lens drift inside a shot.
-FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
-HORIZON: level.
-NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
+CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked. SHOTS 2 and 4: the operator walks BACKWARD ahead of her at her walking pace and keeps the same distance. SHOT 3: the camera slows with her and settles beside the bench. SHOT 1: close and steady on the hands.
+OPTICS: as stated per shot. FOCUS: on her eyes in shots 2 and 4; on the hands in shot 1. HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom.
 
-GEOMETRY — the bed along the frame-RIGHT side, the patient sitting up; @ENFERMEIRA standing beside the bed at frame-LEFT, 40 cm from him; the window behind her on frame-LEFT; in shot 3 the camera 2.2 m away at the foot of the bed.
+GEOMETRY — the corridor runs straight away from the camera; she walks along its middle, the patient's bench against the wall on frame-RIGHT in shot 3; the lens 2.5 m ahead of her in shots 2 and 4.
 
-PHYSICS & MATERIAL — the oximeter clip springs onto the finger; the IV clamp rolls with a little resistance and the drop forms, swells and falls; the pillow gives under her hands; his grip is light but sure. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the smooth plastic of the oximeter, the clear IV tubing, crisp white sheets, the cotton of her scrubs, the fine skin of his hand, a modern bed with satin-steel rails.
+PHYSICS & MATERIAL — the door swings on its soft closer and clicks; the folder slides out of its holder with a small scrape; her soft rubber soles squeak faintly on the vinyl; the chart's paper sheets shift under her arm. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the satin wood veneer, the polished pale vinyl with soft reflections of the ceiling lights, the matte painted walls, the crisp cotton of her white scrubs, the slim grey chart folder with unreadable paper, the patient's soft knit cardigan.
 
-LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
-SOURCE: daylight through the ward's large window behind her on frame-LEFT, ~5600 K, soft and directional; monitors are dark or show only abstract lines, never a light source on the faces.
-REACH: the daylight lights the frame-LEFT side of her face and his arm; the ward behind falls off a stop.
-EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
-CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
-NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+LIGHT — MOTIVATED ARTIFICIAL LIGHT ONLY, bright modern interior (KEY): one dominant motivated source with real falloff and soft-edged shadows.
+SOURCE: the long linear LED strips of the corridor ceiling, ~4200 K neutral-warm, soft-edged, the nearest strip above and slightly in front of her on frame-LEFT; soft bounce from the pale walls and the polished floor.
+REACH: the ceiling light shapes her face softly with a gentle falloff toward frame-RIGHT, never flat; the pale walls and floor open the shadows; the corridor stays bright and falls off about one stop toward its far end.
+EXPOSURE: exposed for skin; highlights creamy; blacks slightly lifted; the whites of the scrubs holding texture, never blown.
+CONTINUITY: the key stays above-front on frame-LEFT in every shot; lit sides never flip.
+NOT: green fluorescent cast, flat hard top light with dark eye sockets, a blue clinical tint, a dim or grim corridor, a blown-out window.
 
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the clip's click; the IV clamp; a monitor's soft beep in the room (single repeated tone, not a melody); a trolley rolling in the corridor; the ward's low murmur with no words standing out. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: the door's soft click; her footsteps on the vinyl; the folder's paper; a ventilation hum; a trolley rolling far down the corridor; a monitor's single soft beep far off (a single repeated tone, not a melody); the ward's low murmur with no words standing out. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: stopping the care to talk, turning her body to the camera, the patient speaking, swapped sides, an emergency, blood, readable monitors, hospital logo, an old run-down ward, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: the inside of a room, a bed, a sick or dying person, blood, an IV drip, a monitor close-up, a nurse caring for someone on camera, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, the patient speaking, turning her body to the camera, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 12s, 14s, handheld — (1, 0–3s) CU: the oximeter clipped on — (2, 3–5s) CU: the IV clamp, a drop falls — (3, 5–12s) medium-wide: she cares for him while saying her line, a warm look to the lens at the end — (4, 12–14s) CU: he squeezes her hand. Invariants: hands on the task; she left, patient right; only her line; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 2s, 8s and 10s, 14s, handheld — (1, 0–2s) CU: the room door closes, her hand takes the chart folder — (2, 2–8s) medium shot, the camera backing up ahead of her: she walks down the bright corridor saying the first half of her line — (3, 8–10s) medium shot: she stops by a patient on a bench, a wordless warm exchange — (4, 10–14s) medium shot, backing up again: she walks on and finishes her sentence, a warm look at the end. Invariants: modern, bright, clean corridor with artificial light only; she is always on the move except the short stop; no room interior or sick person shown; she continues mid-sentence after the cut; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1370,7 +1371,7 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ENFERMEIRA (character sheet) — identidade
-Notas: fala longa: se o lipsync escorregar, use a fala em off sobre os closes.
+Notas: conferir: corredor claro e moderno (nada velho, escuro ou verde), sem o interior do quarto e sem ninguém doente; ela retoma a frase do ponto exato após o corte; o paciente não fala. Se o lipsync escorregar, a primeira metade pode virar fala em off sobre os closes.
 ```
 
 ### T16 · Close final (Fechamento, ~8.2s no corte)
@@ -1788,9 +1789,9 @@ Look: clean studio character sheet, plain solid light-grey background, consisten
 ```
 Cinematic character reference sheet, split-frame layout, photorealistic, two panels divided by a thin vertical line, 16:9.
 
-Left panel — facial close-up: a Brazilian woman of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with natural texture. Dark hair in a low bun. An oval face with a medium nose and medium lips. Dark calm eyes, natural eyebrows. Light everyday makeup. Calm, kind expression with a soft smile — the face of someone who puts people at ease. A stethoscope around her neck. A small mole above the upper lip. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary nurse from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill so pores and hair strands read — at most one side of the face slightly darker.
+Left panel — facial close-up: a Brazilian woman of mixed descent, 30 years old, the entire head fully inside the frame, nothing cropped. Medium brown skin with natural texture. Black hair centre-parted and slicked back into a low bun. An oval face with a medium nose and medium lips. Dark calm eyes, natural eyebrows. Light everyday makeup. Calm, kind expression with a soft smile — the face of someone who puts people at ease. A black stethoscope around her neck. A small mole on the forehead just above the brow line. Real skin texture with pores, fine lines and natural imperfections, no retouching, not a model — an ordinary nurse from Belo Horizonte. Shot on 85mm portrait lens, shallow depth of field, soft cinematic key light from one side with gentle fill so pores and hair strands read — at most one side of the face slightly darker.
 
-Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height and build. Outfit: white cotton scrub top and trousers with visible seams and soft folds, no text and no logo, a stethoscope around the neck, a small fob watch pinned to the chest pocket, white closed shoes; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
+Right panel — full-body front and back views side by side: the same woman shown twice within this panel — on the left, a full-body front view facing the camera; on the right, a full-body back view photographed from directly behind. In both, she stands in a neutral relaxed pose, arms resting at her sides with hands relaxed and fingers together, full height in frame head-to-toe, medium height and build. Outfit: white short-sleeved scrub tunic with a notched mandarin collar, a chest pocket holding a small plain ID badge with nothing written on it, two hip pockets, white straight scrub trousers, a black stethoscope around the neck, white flat shoes; no logos, no text. Both figures matched in framing, scale and lighting for consistency. Shot on 35mm lens, even full-length lighting.
 
 Look: clean studio character sheet, plain solid medium-grey background, consistent character across all views, soft diffused cinematic lighting, whites holding texture, natural skin tones, fine detail of skin, hair and fabric, vertical divider line separating each view.
 ```
@@ -1879,6 +1880,8 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **Dolly-out (match):** o modelo pode deixar a câmera parada ou dar um zoom em vez de recuar. No draft, confira se a câmera recua de verdade (o rosto encolhe aos poucos e o fundo abre); reforce "the camera moves back, no zoom" se precisar.
 - **Flare do T09-B:** um só, no plano 1. Se aparecer flare no plano 2, ou bolhas de bokeh, regenerar; o plano 2 tem que repetir a luz do T09-A.
 - **Escudo na camisa da torcedora:** o sheet da @TORCEDORA veio com um escudo azul e amarelo no peito, que lembra seleção ou clube. Gere o sheet de novo com o peito liso ou apague o escudo; no T11 confira que o peito sai liso.
+- **Tela do tablet (T14):** o modelo tende a mostrar a tela ou um brilho dela. O prompt mostra o tablet quase de perfil e proíbe qualquer interface; se aparecer, regerar com o tablet ainda mais de lado.
+- **Corredor do T15:** se o hospital sair velho, escuro ou verde, reforce a luz de LED neutro-quente e as paredes claras com madeira; se o paciente falar, regerar: a conversa é muda.
 - **Duas falas numa geração (T02):** o prompt trava quem fala em qual segundo; fallback de voz no ElevenLabs.
 - **Recém-nascido (T10):** rosto do bebê parcialmente coberto e proporção travada.
 - **Look com vinheta e franja cromática:** se aparecerem artefatos, tire a franja cromática do FILM LOOK primeiro, como manda o CINEORO.
