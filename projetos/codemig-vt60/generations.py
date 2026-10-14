@@ -314,44 +314,47 @@ THE SOUL OF THE SCENE (play it, never explain it): she loves what she does and a
 )
 
 T07 = join(
-    contract(9, "4 shots with 3 hard cuts at 3s, 5s and 7s", "handheld travelling sideways from frame-left to frame-right in every shot"),
+    contract(6, "2 shots with 1 hard cut at 3s", "handheld travelling sideways from frame-left to frame-right in both shots"),
     f"""REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@DONO ({ANCH['DONO']}) — the OWNER: plates, serves, speaks once; NEVER sits, NEVER walks out of frame.
-CUSTOMER (unreferenced: a Brazilian woman about 35, dark hair, olive cardigan) — seated at the table, in the frame-LEFT foreground in shot 3; NEVER speaks, NEVER looks at the lens.
-FACES: each face exists once; other diners far behind are distinct and soft.
-CONTACT: nobody touches anyone; the plate goes from his hands to the table.""",
-    """SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen. @DONO is already finishing a plate for a regular customer.
+@DONO ({ANCH['DONO']}) — the OWNER: finishes the plate, tosses a towel onto his shoulder, speaks once; NEVER sits, NEVER walks out of frame.
+KITCHEN STAFF: three or four cooks working in the open kitchen behind him, distinct Brazilian men and women in plain white cook's jackets and dark aprons with no logos, soft and busy, silent, mouths closed.
+FACES: each face exists once; no twins, no clones.
+CONTACT: nobody touches anyone.""",
+    """SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen where the staff is busy. @DONO is already finishing a salad plate at the pass.
 THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in this city for decades and this one is his pride — he lets you in on it like an old friend.""",
-    rev_locks(4, [3, 5, 7], "DONO", "de uma economia mais sustentável."),
-    timeline(4, [3, 5, 7], [
-        "SHOT 1 (0–3s) — CU, 47°: his hands finish a plate — fresh greens, grilled vegetables, rice and beans, a drizzle of olive oil. HARD CUT.",
-        "SHOT 2 (3–5s) — CU, 47°: the plate lands on the light wood table in front of the CUSTOMER; her hands pick up the fork. HARD CUT.",
-        "SHOT 3 (5–7s) — MWS (from the knees up, the restaurant around him), 63°: @DONO standing at the table at the right third, the CUSTOMER soft in the frame-LEFT foreground; he turns to the lens with a complicit smile and speaks at 5–7s. HARD CUT.",
-        "SHOT 4 (7–9s) — CU, 47°: the CUSTOMER takes the first bite, chews and nods, smiling with her mouth closed. Hard end mid-nod.",
+    f"""{LOCKS_HEAD}
+1. Exactly 2 shots with 1 hard cut at 3s — WRONG if there are extra cuts.
+2. The handheld camera travels sideways from frame-left to frame-right at the same steady pace in BOTH shots (shot 1 held overhead) — WRONG if it stops, reverses, pushes in or glides.
+3. Shot 1 shows only the plate and his hand with the jug, no face; the line is spoken only in shot 2, eyes alive on the lens.
+4. Only @DONO speaks, only "de uma economia mais sustentável." — the cooks never speak.
+5. In shot 2 he tosses the towel onto his shoulder WHILE he speaks, and the open kitchen with working cooks fills the background — WRONG if the background is empty.
+6. Light from frame-LEFT — NO music.""",
+    timeline(2, [3], [
+        "SHOT 1 (0–3s) — OVERHEAD, straight top-down (zenithal), 47°, held 60 cm above the table and drifting sideways: a ceramic plate of salad — fresh greens, grilled vegetables, cherry tomatoes, seeds — and @DONO's hand tilting a small jug that pours a thin ribbon of green-gold herb olive oil in a spiral over the salad, the oil beading on the leaves. HARD CUT.",
+        "SHOT 2 (3–6s) — MWS (from the knees up, the open kitchen behind him), 63°: @DONO at the right third, the cooks working at the stoves and prep counter behind him, soft; he flicks a clean white kitchen towel onto his left shoulder as he turns to the lens and speaks at 3–5s with a complicit smile; at 5–6s he holds the smile. Hard end.",
     ]),
-    dialogue(line(5, 7, "DONO", "de uma economia mais sustentável."), "DONO"),
+    dialogue(line(3, 5, "DONO", "de uma economia mais sustentável."), "DONO"),
     acting("DONO", "decades in this city's kitchens, and this place is his pride.",
-           "serve with pleasure and let you in on it with a complicit look, like to an old friend.",
-           "on the plate and the customer, then a warm sidelong look to the lens.",
+           "finish the plate with pleasure, then let you in on it with a complicit look, like to an old friend.",
+           "on the plate, then a warm look to the lens.",
            "his moustache lifts on one side before he speaks", "a waiter's bow, presenting the plate to the camera"),
-    "ACTING — CUSTOMER: TACTIC enjoy the food and approve; eyes on the plate; NOT speaking, NOT looking at the lens.",
-    T.REV_CAMERA,
-    """PHYSICS & MATERIAL — the oil falls in a thin stream and beads on the greens; the ceramic plate is heavy and touches down with a soft knock; steam rises from the rice and bends in the window air; the fork pierces a vegetable with slight resistance. """ + REAL + """ MATERIAL TRUTH: the grain of the light wood table, the glaze of the handmade ceramic plate, glossy oil on the leaves, linen napkins, potted plants by the window, the smooth cotton of his dark navy waist apron.""",
+    T.REV_CAMERA + "\nSHOT 1 OVERHEAD: held directly above the plate, looking straight down, drifting sideways at the same pace.",
+    """PHYSICS & MATERIAL — the oil falls in a thin ribbon, spirals and beads on the leaves; the towel flicks through the air and lands on his shoulder; pans move and steam rises in the kitchen behind him. """ + REAL + """ MATERIAL TRUTH: glossy green-gold herb oil, flakes of sea salt, the glaze of a handmade ceramic plate, the grain of the light wood table, the cotton of the towel, steel of the pass.""",
     T.light_int("the restaurant's big street windows",
-                "warm pendant lights over the counter in the background, small, never on the faces.",
-                "the daylight lights the frame-LEFT side of his face, the steam and the plate; the back of the room falls off a stop."),
+                "warm pendant lights over the pass and the kitchen lights in the background, small, never on his face.",
+                "the daylight lights the frame-LEFT side of his face and the plate; the kitchen behind falls off a stop."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: the plate's soft knock on wood; cutlery on plates; a low murmur of diners with no words standing out; a pan sizzling in the open kitchen; the street through the door. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: the oil trickling; the plate touching the wood; pans sizzling and cutlery in the open kitchen; the cooks' murmur with no words standing out; the towel's soft flick; the street through the door. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: the customer speaking or looking at the lens, a rustic old eatery, oilcloth, plastic chairs, readable menu, speaking in the close-ups, the camera stopping, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 7s, 9s, handheld travelling left to right in every shot — (1, 0–3s) CU: his hands finish the plate — (2, 3–5s) CU: the plate lands, she picks up the fork — (3, 5–7s) medium-wide: he turns to the lens with a complicit smile and says his line — (4, 7–9s) CU: her first bite, she nods. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only his one line, the customer silent. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a customer, a face in shot 1, an empty kitchen, cooks speaking, a rustic old eatery, readable menu, logos on the uniforms, the camera stopping, push-in, extra cuts, {T.NEG_SPINE}.""",
+    """[ORDER: 2 shots, 1 hard cut at 3s, 6s, handheld travelling left to right in both shots — (1, 0–3s) overhead: herb oil spirals over the salad — (2, 3–6s) medium-wide: the open kitchen behind him, he flicks the towel onto his shoulder and says his line with a complicit smile. Invariants: constant lateral travel; shot 1 no face; he speaks only in shot 2, towel toss during the line; busy kitchen behind. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 T08 = join(
-    contract(14, "4 shots with 3 hard cuts at 3s, 5s and 12s", "handheld travelling sideways from frame-left to frame-right in every shot"),
+    contract(10, "2 shots with 1 hard cut at 2s", "handheld travelling sideways from frame-left to frame-right in both shots"),
     f"""REFERENCES — each reference has ONE job:
 @AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
@@ -361,28 +364,26 @@ FACES: her face exists once; nobody else in frame.
 CONTACT: only her hands on the plants.""",
     """SCENE — Late afternoon in a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: perfect rows, a centre-pivot irrigation arm in the distance. @AGRICULTORA is already walking along a row, her open hand passing over the tops of the plants.
 THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs it with pride; she walks you through it, delighted to get to the point.""",
-    rev_locks(4, [3, 5, 12], "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:",
+    rev_locks(2, [2], "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:",
               "\n4b. She walks from frame-left to frame-right in every shot — WRONG if she walks toward or away from the camera."),
-    timeline(4, [3, 5, 12], [
-        "SHOT 1 (0–3s) — CU, 47°: her open hand passes over the tops of the soybean plants as she walks, the leaves brushing her palm and springing back. HARD CUT.",
-        "SHOT 2 (3–5s) — ECU, 47°: without stopping, her fingers split a green pod and show the plump beans inside. HARD CUT.",
-        "SHOT 3 (5–12s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 5–12s, eyes moving between you and the field, smiling more as she goes. HARD CUT.",
-        "SHOT 4 (12–14s) — CU, 29°: her face as she walks, a warm smile, eyes on you. Hard end mid-step.",
+    timeline(2, [2], [
+        "SHOT 1 (0–2s) — CU, 47°: her open hand passes over the tops of the soybean plants as she walks, the leaves brushing her palm and springing back. HARD CUT.",
+        "SHOT 2 (2–10s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 2–9s, eyes moving between you and the field, smiling more as she goes; at 9–10s she keeps walking with a warm smile, eyes on you. Hard end mid-step.",
     ]),
-    dialogue(line(5, 12, "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"), "AGRICULTORA"),
+    dialogue(line(2, 9, "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"), "AGRICULTORA"),
     acting("AGRICULTORA", "she runs this land and knows what it is worth.",
            "walk you through her field like a proud host and get to the point with a smile.",
            "split between the plants and the lens; toward the end of the line they stay on you.",
            "she breathes a short laugh through her nose", "arms spread over the field"),
     T.REV_CAMERA,
     """GEOMETRY — the rows run left to right across the frame; @AGRICULTORA walks along one row, the camera along the parallel row 2.5 m away; the plants knee-high; the centre-pivot arm about 300 m away; the sun low on frame-LEFT.""",
-    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod resists and splits along its seam; her boots press into the soft soil between rows; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: fine hairs on the green pods, glossy healthy leaves, the light cotton of her sage-green shirt, the spray of the irrigation catching the sun far off.""",
+    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; her boots press into the soft soil between rows; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: glossy healthy leaves, the light cotton of her sage-green shirt, the spray of the irrigation catching the sun far off.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. {T.MUSIC_POLICY}""",
     T.WORLD,
     f"""NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, eyes hidden under the hat brim, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 12s, 14s, handheld travelling left to right in every shot — (1, 0–3s) CU: her hand over the plants — (2, 3–5s) ECU: she splits a pod — (3, 5–12s) medium-wide walk-and-talk: her line to the lens, smiling — (4, 12–14s) CU: her face, smiling, still walking. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    """[ORDER: 2 shots, 1 hard cut at 2s, 10s, handheld travelling left to right in both shots — (1, 0–2s) CU: her hand over the plants — (2, 2–10s) medium-wide walk-and-talk: her line to the lens, smiling, still walking; hard end mid-step. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T09

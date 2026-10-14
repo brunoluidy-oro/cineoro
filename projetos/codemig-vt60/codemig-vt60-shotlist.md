@@ -572,69 +572,67 @@ Notas: se sair rótulo legível em frasco ou tela, regerar: texto não pode apar
 
 ### T07 · Restaurante (Revezamento, ~1.8s no corte)
 
-As mãos montam o prato, o prato chega à mesa, o dono fala cúmplice e a cliente aprova.
+Visão zenital de um prato de salada recebendo azeite de ervas; corte para o dono na frente da cozinha aberta, jogando o pano no ombro enquanto fala.
 
-#### Geração T07 · 9s · 4 plano(s)
+#### Geração T07 · 6s · 2 plano(s)
 
-- **O que acontece:** Num restaurante saudável contemporâneo em BH: as mãos do dono finalizam o prato, o prato chega à mesa, ele vira pra lente com um sorriso cúmplice e fala, e a cliente aprova na primeira garfada.
+- **O que acontece:** Num restaurante saudável contemporâneo em BH: visão zenital do prato de salada sendo finalizado com um fio de azeite de ervas. Corte: o dono, com a cozinha aberta e os cozinheiros trabalhando ao fundo, joga um pano no ombro enquanto vira pra lente e fala.
 - **O que é dito:** DONO: "de uma economia mais sustentável."
-- **Tempo:** montando o prato — 3s · prato na mesa — 2s · fala — 2s · garfada — 2s = 9s
-- **Como termina:** a cliente acenando que aprovou, câmera ainda andando.
-- **Direção:** Restaurante claro, madeira clara e plantas, cozinha aberta. Nada de toalha xadrez ou cara de interior antigo.
+- **Tempo:** zenital do prato e do azeite — 3s · dono, pano no ombro e fala — 2s · segura o sorriso — 1s = 6s
+- **Como termina:** ele sorrindo pra lente, a cozinha trabalhando atrás; corte seco.
+- **Direção:** Dois planos, como você pediu. A câmera anda de lado nos dois, inclusive o zenital (segurada a 60 cm acima do prato). A cliente saiu. A fala fica no plano com a cozinha, e o pano no ombro cai durante a frase.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 9 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 7s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 6 seconds total, 2 shots with 1 hard cut at 3s, handheld travelling sideways from frame-left to frame-right in both shots, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@DONO (60, white Brazilian man, solid build, broad deeply lined face with age spots, large nose and ears, grey-hazel eyes, thick bushy white-grey moustache covering the upper lip, short white hair thinning on top, cream short-sleeved camp-collar shirt with a chest pocket, very dark navy knee-length waist apron, dark grey trousers, tan leather loafers) — the OWNER: plates, serves, speaks once; NEVER sits, NEVER walks out of frame.
-CUSTOMER (unreferenced: a Brazilian woman about 35, dark hair, olive cardigan) — seated at the table, in the frame-LEFT foreground in shot 3; NEVER speaks, NEVER looks at the lens.
-FACES: each face exists once; other diners far behind are distinct and soft.
-CONTACT: nobody touches anyone; the plate goes from his hands to the table.
+@DONO (60, white Brazilian man, solid build, broad deeply lined face with age spots, large nose and ears, grey-hazel eyes, thick bushy white-grey moustache covering the upper lip, short white hair thinning on top, cream short-sleeved camp-collar shirt with a chest pocket, very dark navy knee-length waist apron, dark grey trousers, tan leather loafers) — the OWNER: finishes the plate, tosses a towel onto his shoulder, speaks once; NEVER sits, NEVER walks out of frame.
+KITCHEN STAFF: three or four cooks working in the open kitchen behind him, distinct Brazilian men and women in plain white cook's jackets and dark aprons with no logos, soft and busy, silent, mouths closed.
+FACES: each face exists once; no twins, no clones.
+CONTACT: nobody touches anyone.
 
-SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen. @DONO is already finishing a plate for a regular customer.
+SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen where the staff is busy. @DONO is already finishing a salad plate at the pass.
 THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in this city for decades and this one is his pride — he lets you in on it like an old friend.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 4 shots with hard cuts at 3s, 5s, 7s — WRONG if there are extra cuts.
-2. In EVERY shot the handheld camera travels sideways from frame-left to frame-right at the same steady pace — WRONG if it stops, reverses, pushes in or glides.
-3. The close-ups show hands and objects only; @DONO speaks only in the medium-wide shot, eyes alive on the lens — WRONG if glassy.
-4. Only @DONO speaks, only "de uma economia mais sustentável." — every other mouth closed.
-5. Light from frame-LEFT — NO music.
+1. Exactly 2 shots with 1 hard cut at 3s — WRONG if there are extra cuts.
+2. The handheld camera travels sideways from frame-left to frame-right at the same steady pace in BOTH shots (shot 1 held overhead) — WRONG if it stops, reverses, pushes in or glides.
+3. Shot 1 shows only the plate and his hand with the jug, no face; the line is spoken only in shot 2, eyes alive on the lens.
+4. Only @DONO speaks, only "de uma economia mais sustentável." — the cooks never speak.
+5. In shot 2 he tosses the towel onto his shoulder WHILE he speaks, and the open kitchen with working cooks fills the background — WRONG if the background is empty.
+6. Light from frame-LEFT — NO music.
 
-TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — CU, 47°: his hands finish a plate — fresh greens, grilled vegetables, rice and beans, a drizzle of olive oil. HARD CUT.
-SHOT 2 (3–5s) — CU, 47°: the plate lands on the light wood table in front of the CUSTOMER; her hands pick up the fork. HARD CUT.
-SHOT 3 (5–7s) — MWS (from the knees up, the restaurant around him), 63°: @DONO standing at the table at the right third, the CUSTOMER soft in the frame-LEFT foreground; he turns to the lens with a complicit smile and speaks at 5–7s. HARD CUT.
-SHOT 4 (7–9s) — CU, 47°: the CUSTOMER takes the first bite, chews and nods, smiling with her mouth closed. Hard end mid-nod.
+TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — OVERHEAD, straight top-down (zenithal), 47°, held 60 cm above the table and drifting sideways: a ceramic plate of salad — fresh greens, grilled vegetables, cherry tomatoes, seeds — and @DONO's hand tilting a small jug that pours a thin ribbon of green-gold herb olive oil in a spiral over the salad, the oil beading on the leaves. HARD CUT.
+SHOT 2 (3–6s) — MWS (from the knees up, the open kitchen behind him), 63°: @DONO at the right third, the cooks working at the stoves and prep counter behind him, soft; he flicks a clean white kitchen towel onto his left shoulder as he turns to the lens and speaks at 3–5s with a complicit smile; at 5–6s he holds the smile. Hard end.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[5–7s] @DONO (on camera, Brazilian Portuguese): "de uma economia mais sustentável."
+[3–5s] @DONO (on camera, Brazilian Portuguese): "de uma economia mais sustentável."
 VOICE LOCK — @DONO: Brazilian man, 60, deep easy voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @DONO (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
 MOTIVE: decades in this city's kitchens, and this place is his pride.
-TACTIC: serve with pleasure and let you in on it with a complicit look, like to an old friend.
-EYES: on the plate and the customer, then a warm sidelong look to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his moustache lifts on one side before he speaks. A frozen pupil is wrong.
+TACTIC: finish the plate with pleasure, then let you in on it with a complicit look, like to an old friend.
+EYES: on the plate, then a warm look to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his moustache lifts on one side before he speaks. A frozen pupil is wrong.
 NOT: a solemn or serious face, a speech, a stiff advertising grin, a waiter's bow, presenting the plate to the camera.
-
-ACTING — CUSTOMER: TACTIC enjoy the food and approve; eyes on the plate; NOT speaking, NOT looking at the lens.
 
 CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
 OPTICS: as stated per shot; no lens drift inside a shot.
 FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
+SHOT 1 OVERHEAD: held directly above the plate, looking straight down, drifting sideways at the same pace.
 
-PHYSICS & MATERIAL — the oil falls in a thin stream and beads on the greens; the ceramic plate is heavy and touches down with a soft knock; steam rises from the rice and bends in the window air; the fork pierces a vegetable with slight resistance. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the grain of the light wood table, the glaze of the handmade ceramic plate, glossy oil on the leaves, linen napkins, potted plants by the window, the smooth cotton of his dark navy waist apron.
+PHYSICS & MATERIAL — the oil falls in a thin ribbon, spirals and beads on the leaves; the towel flicks through the air and lands on his shoulder; pans move and steam rises in the kitchen behind him. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: glossy green-gold herb oil, flakes of sea salt, the glaze of a handmade ceramic plate, the grain of the light wood table, the cotton of the towel, steel of the pass.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
-SOURCE: daylight through the restaurant's big street windows on frame-LEFT, ~5600 K, soft and directional; warm pendant lights over the counter in the background, small, never on the faces.
-REACH: the daylight lights the frame-LEFT side of his face, the steam and the plate; the back of the room falls off a stop.
+SOURCE: daylight through the restaurant's big street windows on frame-LEFT, ~5600 K, soft and directional; warm pendant lights over the pass and the kitchen lights in the background, small, never on his face.
+REACH: the daylight lights the frame-LEFT side of his face and the plate; the kitchen behind falls off a stop.
 EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
@@ -642,38 +640,38 @@ NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-ou
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the plate's soft knock on wood; cutlery on plates; a low murmur of diners with no words standing out; a pan sizzling in the open kitchen; the street through the door. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: the oil trickling; the plate touching the wood; pans sizzling and cutlery in the open kitchen; the cooks' murmur with no words standing out; the towel's soft flick; the street through the door. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: the customer speaking or looking at the lens, a rustic old eatery, oilcloth, plastic chairs, readable menu, speaking in the close-ups, the camera stopping, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: a customer, a face in shot 1, an empty kitchen, cooks speaking, a rustic old eatery, readable menu, logos on the uniforms, the camera stopping, push-in, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 7s, 9s, handheld travelling left to right in every shot — (1, 0–3s) CU: his hands finish the plate — (2, 3–5s) CU: the plate lands, she picks up the fork — (3, 5–7s) medium-wide: he turns to the lens with a complicit smile and says his line — (4, 7–9s) CU: her first bite, she nods. Invariants: constant lateral travel; hands only in the close-ups; living eyes; only his one line, the customer silent. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 3s, 6s, handheld travelling left to right in both shots — (1, 0–3s) overhead: herb oil spirals over the salad — (2, 3–6s) medium-wide: the open kitchen behind him, he flicks the towel onto his shoulder and says his line with a complicit smile. Invariants: constant lateral travel; shot 1 no face; he speaks only in shot 2, towel toss during the line; busy kitchen behind. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 9s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 6s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @DONO (character sheet) — identidade
-Notas: conferir se a boca da cliente fica fechada e se ela não olha pra lente.
+Notas: confira: câmera realmente olhando reto pra baixo no plano 1, sem rosto; cozinheiros ao fundo no plano 2 (não vazio, sem logos); o pano pousa no ombro durante a fala.
 ```
 
 ### T08 · Plantação (Revezamento, ~8.3s no corte)
 
-A mão passa pelas plantas, abre uma vagem; a agricultora caminha e fala, sorrindo.
+A mão passa pelas plantas; a agricultora caminha e fala olhando pra você.
 
-#### Geração T08 · 14s · 4 plano(s)
+#### Geração T08 · 10s · 2 plano(s)
 
-- **O que acontece:** Numa fazenda de soja moderna no Triângulo, com pivô central ao fundo: close da mão passando nas plantas, detalhe da vagem aberta, a agricultora caminha falando com a lente e termina num close sorrindo.
+- **O que acontece:** Numa fazenda de soja moderna no Triângulo, com pivô central ao fundo: close da mão passando nas plantas e, em seguida, a agricultora caminha falando com a lente, sorrindo, até o fim da frase.
 - **O que é dito:** AGRICULTORA: "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"
-- **Tempo:** mão nas plantas — 3s · vagem — 2s · caminha e fala — 7s · close sorrindo — 2s = 14s
-- **Como termina:** close dela caminhando, olhando pra você; corte pra mina.
-- **Direção:** Ela não para mais de andar, porque no revezamento a câmera não fica parada. Fazenda moderna, sem chapéu de palha.
+- **Tempo:** mão nas plantas — 2s · caminha e fala — 7s · segue sorrindo — 1s = 10s
+- **Como termina:** ela ainda caminhando, olhando pra você; corte pra mina.
+- **Direção:** Sem a vagem e sem o close do rosto: ficou o close da mão nas plantas e a caminhada com a fala. Ela não para de andar, porque no revezamento a câmera não fica parada. A fala ocupa 7s, no ritmo da frase.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 12s, handheld travelling sideways from frame-left to frame-right in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 10 seconds total, 2 shots with 1 hard cut at 2s, handheld travelling sideways from frame-left to frame-right in both shots, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
@@ -688,21 +686,19 @@ SCENE — Late afternoon in a large, modern soybean farm in the Triângulo Minei
 THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs it with pride; she walks you through it, delighted to get to the point.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 4 shots with hard cuts at 3s, 5s, 12s — WRONG if there are extra cuts.
+1. Exactly 2 shots with hard cuts at 2s — WRONG if there are extra cuts.
 2. In EVERY shot the handheld camera travels sideways from frame-left to frame-right at the same steady pace — WRONG if it stops, reverses, pushes in or glides.
 3. The close-ups show hands and objects only; @AGRICULTORA speaks only in the medium-wide shot, eyes alive on the lens — WRONG if glassy.
 4. Only @AGRICULTORA speaks, only "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:" — every other mouth closed.
 4b. She walks from frame-left to frame-right in every shot — WRONG if she walks toward or away from the camera.
 5. Light from frame-LEFT — NO music.
 
-TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — CU, 47°: her open hand passes over the tops of the soybean plants as she walks, the leaves brushing her palm and springing back. HARD CUT.
-SHOT 2 (3–5s) — ECU, 47°: without stopping, her fingers split a green pod and show the plump beans inside. HARD CUT.
-SHOT 3 (5–12s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 5–12s, eyes moving between you and the field, smiling more as she goes. HARD CUT.
-SHOT 4 (12–14s) — CU, 29°: her face as she walks, a warm smile, eyes on you. Hard end mid-step.
+TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–2s) — CU, 47°: her open hand passes over the tops of the soybean plants as she walks, the leaves brushing her palm and springing back. HARD CUT.
+SHOT 2 (2–10s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 2–9s, eyes moving between you and the field, smiling more as she goes; at 9–10s she keeps walking with a warm smile, eyes on you. Hard end mid-step.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[5–12s] @AGRICULTORA (on camera, Brazilian Portuguese): "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"
+[2–9s] @AGRICULTORA (on camera, Brazilian Portuguese): "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"
 VOICE LOCK — @AGRICULTORA: Brazilian woman, 40, steady mid-low voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @AGRICULTORA (fully invested in the tactic; the work happens in the eyes)
@@ -720,7 +716,7 @@ NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, p
 
 GEOMETRY — the rows run left to right across the frame; @AGRICULTORA walks along one row, the camera along the parallel row 2.5 m away; the plants knee-high; the centre-pivot arm about 300 m away; the sun low on frame-LEFT.
 
-PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; the pod resists and splits along its seam; her boots press into the soft soil between rows; her braid swings with each step. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: fine hairs on the green pods, glossy healthy leaves, the light cotton of her sage-green shirt, the spray of the irrigation catching the sun far off.
+PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; her boots press into the soft soil between rows; her braid swings with each step. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: glossy healthy leaves, the light cotton of her sage-green shirt, the spray of the irrigation catching the sun far off.
 
 LIGHT — NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
@@ -738,16 +734,16 @@ WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward �
 
 NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, eyes hidden under the hat brim, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 12s, 14s, handheld travelling left to right in every shot — (1, 0–3s) CU: her hand over the plants — (2, 3–5s) ECU: she splits a pod — (3, 5–12s) medium-wide walk-and-talk: her line to the lens, smiling — (4, 12–14s) CU: her face, smiling, still walking. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 2s, 10s, handheld travelling left to right in both shots — (1, 0–2s) CU: her hand over the plants — (2, 2–10s) medium-wide walk-and-talk: her line to the lens, smiling, still walking; hard end mid-step. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 10s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @AGRICULTORA (character sheet) — identidade
-Notas: fala longa: se o lipsync escorregar no fim, a montagem cobre o final com o close dela ou com a mão nas plantas.
+Notas: fala longa (22 palavras em 7s): se o lipsync escorregar no fim, a montagem cobre o final com o close da mão nas plantas.
 ```
 
 ### T09 · Mina de nióbio (Virada, ~4.8s no corte)
