@@ -57,16 +57,11 @@ EXPOSURE: exposed for skin; highlights creamy, the sky holding its blue; blacks 
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: golden hour, orange or pink sky, long shadows, sunset glow, a low sun, sunbeams, sun disc in frame, reflector fill, flat overcast, harsh noon top light that buries the eyes in hat shadow."""
 
-# Contraluz do T09-B (a pedido): sol baixo atrás do personagem e da máquina; o rosto continua legível.
-LIGHT_EXT_BACK = """LIGHT — NATURAL LIGHT ONLY, low late-afternoon BACKLIGHT (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
-SOURCE: the low sun ~3800 K, about 8° above the horizon, BEHIND the machine and the man and straight toward the lens (a touch to frame-LEFT); the open sky and the pale crushed-ore ground as the large soft fill that reaches the front of his face.
-REACH: the sun lays a warm rim on his hard hat, shoulders and vest and glows in the drifting dust; his face is lit softly from the front by the sky and the ground bounce, readable, with detail in the skin and eyes — about one stop under the rim.
-EXPOSURE: exposed for the face; the sun blooming as soft warm halation; blacks slightly lifted; no silhouette without face detail.
-CONTINUITY: the sun stays behind him in both shots; it never swaps sides.
-NOT: a dark silhouette with no face detail, orange postcard sky, a hard white sun disc, reflector fill, flat overcast."""
+# Contraluz do T09-B, SÓ no plano 1 (ele de costas). O plano 2 usa a mesma luz do T09-A (LIGHT_EXT).
+LIGHT_EXT_BACK = """SHOT 1 — NATURAL BACKLIGHT, low late afternoon (this shot only): the low sun ~3800 K, about 8° above the horizon, directly behind the machine and the man and straight toward the lens; it rims his hard hat, shoulders and vest with a warm edge, glows in the drifting dust and stretches his shadow toward us; the pale ground and the open sky keep his back readable; the sun itself half-hidden behind the machine's silhouette, only its glow and the flare showing — never a clipped white disc, never a sunburst."""
 
 # FILM LOOK com UM flare, só no plano 1 do T09-B (a pedido). O resto do filme segue sem flares.
-FILM_LOOK_FLARE = FILM_LOOK.split("NO LENS FLARES:")[0] + """LENS FLARE — SHOT 1 ONLY (a deliberate exception for this take): the low sun behind the machine throws ONE soft warm flare across the lower half of the frame — a gentle veil, a faint horizontal streak and a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights."""
+FILM_LOOK_FLARE = FILM_LOOK.split("NO LENS FLARES:")[0] + """LENS FLARE — SHOT 1 ONLY (a deliberate exception): the low sun behind the machine throws ONE soft warm flare across the lower half of the frame — a gentle veil, a faint horizontal streak, a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights."""
 
 
 def light_int(window, practicals, reach):
@@ -114,16 +109,17 @@ NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom."""
 # Quadro do T09-A (nióbio): o close do pedido anterior, só para esse take.
 NIOBIUM_FRAME = """NIOBIUM FRAME (KEY): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes reach the lens they land on the upper-third line at about 45% of the frame width; the background soft."""
 
-# Quadro do match cut v2 (P2): MCU centralizado, reto pra câmera, mesma distância, dolly zoom-out lento.
-MATCH_FRAME = """MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY ZOOM-OUT."""
+# Quadro do match cut v2 (P2): MCU centralizado, reto pra câmera, mesma distância, dolly-out lento.
+MATCH_FRAME = """MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom)."""
 
 
-def dolly_zoom_out(secs):
-    """Efeito vertigo lento: a câmera recua e a lente aproxima; o rosto não muda de tamanho nem de lugar."""
-    return f"""CAMERA — the DOLLY ZOOM-OUT (the vertigo effect), slow, about {secs}s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.1 m from the face, while the lens zooms in at the matching rate, 47° narrowing to about 30° — so the face stays EXACTLY the same size and in the same place, dead centre, while the background swells and closes in around it. A faint handheld breath rides on the move; the move never stops or reverses.
+def dolly_out(secs):
+    """Dolly-out lento: só a câmera recua; a lente fica fixa (sem zoom). O quadro abre de MCU para médio."""
+    end = round(1.3 + 0.25 * secs, 1)
+    return f"""CAMERA — the DOLLY-OUT, slow, about {secs}s: the camera glides straight back along the lens axis, from about 1.3 m to about {end} m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
-NOT: a locked frame, a face that shrinks or grows, a handheld shake, an orbit, a gimbal glide, a drone."""
+NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone."""
 
 
-# NEGATIVE para os takes com dolly zoom: a espinha sem a proibição do deslize suave.
+# NEGATIVE para os takes com dolly-out: a espinha sem a proibição do deslize suave.
 NEG_DOLLY = NEG_SPINE.replace("gimbal glide, ", "")

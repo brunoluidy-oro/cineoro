@@ -18,10 +18,10 @@ REGISTER: warm, proud institutional film — direct address, happy people, a mod
 CAMERA LANGUAGE: handheld in every shot of the film; sub-actions in close-ups and
           details, the line in the most open shot of the take, hard cuts between them;
           relay (P1) = the camera travels frame-left → frame-right in every shot;
-          match series (P2) = medium close-up, face centred, slow dolly zoom-out (~3s)
+          match series (P2) = medium close-up, face centred, slow dolly-out (~3s)
 LIGHT LOGIC: one dominant motivated natural source per scene with real falloff, always
           on the frame-LEFT side of the faces (low late sun outside, window inside);
-          exceptions by request: T08 bright morning, T09-B backlight with one flare
+          exceptions by request: T08 bright morning, T09-B shot 1 backlight with one flare
 SOUND/MUSIC POLICY: NO music in generation (the score is added in post); location sound
 COLOUR & TEXTURE: 35mm color negative (client style ref) — organic grain, warm halation,
           lifted blacks with a faint teal-green, vintage spherical glass, gentle vignette;
@@ -752,7 +752,7 @@ Notas: confira: ela anda pra frente o tempo todo, sem virar a cabeça de lado (s
 
 ### T09 · Mina de nióbio (Virada, ~10.5s no corte)
 
-A: o funcionário segura o nióbio na frente do rosto, desfocado atrás; tira o nióbio e diz "a nossa gente.". B: plano baixíssimo dele de costas andando até a máquina, contra o sol e com flare; corte para o rosto em médio close, que fala com um dolly zoom-out lento.
+A: o funcionário segura o nióbio na frente do rosto, desfocado atrás; tira o nióbio e diz "a nossa gente.". B: plano baixíssimo dele de costas, falando enquanto anda até a máquina, contra o sol e com flare; corte para o rosto em médio close, que fala com um dolly-out lento.
 
 #### Geração T09-A · nióbio · 6s · 1 plano(s)
 
@@ -843,80 +843,82 @@ Notas: confira: o rosto quase não aparece até 3s e já está sorrindo quando a
 
 #### Geração T09-B · cava · 9s · 2 plano(s)
 
-- **O que acontece:** No fundo de uma cava moderna em Araxá: plano aberto rente ao chão, com o funcionário pequeno, de costas, andando até uma escavadeira enorme ao longe, com o sol baixo atrás dela e um flare suave. Corte: médio close do rosto dele, no centro, reto pra lente, na frente da mesma máquina; ele fala sorrindo enquanto um dolly zoom-out lento mantém o rosto do mesmo tamanho e a cava vai crescendo atrás dele.
-- **O que é dito:** FUNCIONÁRIO (plano 2): "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." Plano 1 sem fala: na montagem entra a V.O. "Afinal, o que cresce aqui" (ElevenLabs).
-- **Tempo:** plano baixo, de costas — 3s · rosto centralizado, fala e dolly zoom-out — 5s · segura o sorriso — 1s = 9s
+- **O que acontece:** No fundo de uma cava moderna em Araxá: plano aberto rente ao chão, com o funcionário pequeno, de costas, andando até uma escavadeira enorme ao longe e dizendo a primeira parte da frase, com o sol baixo atrás da máquina e um flare suave. Corte: médio close do rosto dele, no centro e reto pra lente, na frente da mesma máquina, com a luz do T09-A; ele fala sorrindo enquanto a câmera recua devagar (dolly-out, sem zoom) e o quadro vai abrindo.
+- **O que é dito:** FUNCIONÁRIO, plano 1 (de costas): "Afinal, o que cresce aqui:" / plano 2: "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." Mesma voz e mesma entrega do "a nossa gente.", sem V.O.
+- **Tempo:** de costas, fala e anda — 3s (fala em 0–2s) · rosto centralizado, fala e dolly-out — 5s · segura o sorriso — 1s = 9s
 - **Como termina:** ele sorrindo pra lente, rosto no centro; corte para o match do T10.
-- **Direção:** Do jeito que você descreveu: o plano 1 é bem aberto e a lente quase no chão, com o sol atrás da máquina e um flare só nesse plano (exceção ao NO LENS FLARES do filme). O plano 2 é o match frame: médio close centralizado, reto pra câmera, na frente da mesma máquina; o dolly zoom-out dura a fala toda. Interpretei "dolly zoom-out" como o efeito vertigo (a câmera recua e a lente aproxima: o rosto fica do mesmo tamanho e no mesmo lugar, e o fundo infla). Se você queria um pull-back que abre o quadro, é só trocar o bloco DOLLY ZOOM-OUT dos templates. Ele diz a frase inteira em cena (assim o áudio dele pode seguir por cima dos próximos rostos); o corte para a mãe cai em "vive".
+- **Direção:** Corrigido: o movimento é só a câmera recuando (dolly-out), sem zoom, então o rosto encolhe aos poucos e o quadro abre de médio close para médio. As duas falas são dele, com a mesma voz e entrega do "a nossa gente." (sem V.O. no ElevenLabs): a primeira, "Afinal, o que cresce aqui:", sai enquanto ele anda de costas no plano baixo (a boca não aparece). Luz: só o plano 1 (ele de costas) é em contraluz, com um flare; o plano 2 usa a mesma luz do T09-A (sol baixo à esquerda). O corte para a mãe cai em "vive".
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 9 seconds total, 2 shots with 1 hard cut at 3s, handheld at ground level in shot 1, a slow dolly zoom-out in shot 2, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 9 seconds total, 2 shots with 1 hard cut at 3s, handheld at ground level in shot 1, a slow dolly-out in shot 2, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@FUNCIONARIO (30, mixed-race Brazilian man, medium build, medium brown skin, short black hair, thick straight eyebrows, broad nose, full lips, clean-shaven with a faint stubble shadow, glossy white hard hat with black chin strap fastened and no logo, clear wraparound safety glasses, orange high-visibility vest with silver reflective strips over a long-sleeved dark grey work shirt worn untucked, black cargo work trousers, grey padded work gloves, orange ear plugs on an orange cord around his neck, black lace-up work boots) — the MINE WORKER: in shot 1 he walks away from the camera, seen from behind, toward the huge machine; in shot 2 he faces the lens in front of that same machine and speaks; NEVER removes any safety equipment.
-FACES: his face exists once and shows only in shot 2; nobody else in either shot; the machine has no visible operator.
-CONTACT: nobody touches anyone.
+@FUNCIONARIO (30, mixed-race Brazilian man, medium build, medium brown skin, short black hair, thick straight eyebrows, broad nose, full lips, clean-shaven with a faint stubble shadow, glossy white hard hat with black chin strap fastened and no logo, clear wraparound safety glasses, orange high-visibility vest with silver reflective strips over a long-sleeved dark grey work shirt worn untucked, black cargo work trousers, grey padded work gloves, orange ear plugs on an orange cord around his neck, black lace-up work boots) — the MINE WORKER: in shot 1 he walks away from the camera, seen from behind, toward the huge machine, speaking; in shot 2 he faces the lens in front of that same machine and speaks; NEVER removes any safety equipment.
+FACES: his face exists once and shows only in shot 2; nobody else; the machine has no visible operator.
 
-SCENE — Late afternoon on the floor of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches rising on all sides, a wide flat of pale crushed ore, and far ahead one huge modern mining excavator — off-white and grey steel with a safety-orange stripe, no logos — with the low sun right behind it. @FUNCIONARIO is already walking away from the camera toward it.
+SCENE — Late afternoon on the floor of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches rising on all sides, a wide flat of pale crushed ore, and far ahead one huge modern mining excavator — off-white and grey steel with a safety-orange stripe, no logos. @FUNCIONARIO is already walking away from the camera toward it.
 THE SOUL OF THE SCENE (play it, never explain it): he walks into the work he is proudest of, then turns and tells you what it is all for — like good news to a friend.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. Exactly 2 shots with 1 hard cut at 3s — WRONG if there are extra cuts.
-2. SHOT 1 is a WIDE frame, the lens EXTREMELY LOW, a few centimetres off the ground: @FUNCIONARIO small in the middle distance, seen only from BEHIND, walking away toward the huge machine far ahead, the low sun right behind it with ONE soft warm lens flare — WRONG if the lens is above knee height, his face shows, the machine is close, or there is a second flare.
-3. SHOT 2 is the MATCH FRAME: medium close-up, his face dead centre, straight into the lens, in front of the same machine, the slow dolly zoom-out keeping his face EXACTLY the same size and place while the background swells — WRONG if the face drifts, shrinks, grows or looks away, or if a flare appears.
-4. He speaks ONLY "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–8s, in shot 2; shot 1 has no speech (the voice-over is added in post).
-5. Full mining safety equipment in both shots: hard hat with chin strap fastened, glasses, high-visibility vest, gloves, no logos.
-6. The low sun stays BEHIND him in both shots, his face readable in shot 2 — NO music.
+2. SHOT 1 is a WIDE frame, the lens EXTREMELY LOW, a few centimetres off the ground: @FUNCIONARIO small in the middle distance, seen only from BEHIND, walking away toward the huge machine far ahead, the low sun right behind the machine with ONE soft warm lens flare — WRONG if the lens is above knee height, his face shows, the machine is close, or there is a second flare.
+3. SHOT 2 is the MATCH FRAME: medium close-up, face dead centre, straight into the lens, in front of the same machine; the camera moves slowly BACK (a dolly-out, no zoom), the framing opening toward a medium shot — WRONG if the lens zooms, the face drifts off centre or looks away, or a flare appears.
+4. He speaks ONLY two lines, same voice and delivery: "Afinal, o que cresce aqui:" at 0–2s in shot 1 (walking away, mouth unseen) and "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–8s in shot 2 — WRONG if he says anything else.
+5. Full mining safety equipment in both shots: hard hat with chin strap, glasses, high-visibility vest, gloves, no logos.
+6. Only shot 1 is backlit; shot 2 has the light of the previous take (low sun from frame-LEFT) — NO music.
 
 TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — WIDE, 84°, handheld, the lens a few centimetres above the ground, drifting slowly forward behind him: pale crushed-ore floor across the lower third, lens-level pebbles soft in the foreground; @FUNCIONARIO small in the middle distance, walking away at an easy pace toward a huge off-white mining excavator far ahead, the terraced benches rising on both sides; the low late sun right behind the machine, one soft flare blooming across the lower frame, his long shadow stretching back toward us. HARD CUT.
-SHOT 2 (3–9s) — the MATCH FRAME, MCU, 47° narrowing to 30°: @FUNCIONARIO dead centre, facing the lens in front of the same excavator, huge and soft behind him, the low sun behind it rimming his hard hat and shoulders; he speaks at 3–8s with a proud, easy smile while the slow dolly zoom-out runs through the whole shot — his face keeps its size and place as the machine and the pit swell behind him; at 8–9s he holds the smile. Hard end.
+SHOT 1 (0–3s) — WIDE, 84°, handheld, the lens a few centimetres above the ground, drifting slowly forward behind him: pale crushed-ore floor across the lower third, pebbles soft in the foreground; @FUNCIONARIO small in the middle distance, walking away at an easy pace toward a huge off-white excavator far ahead, saying his first line as he goes, the terraced benches rising on both sides; the low sun right behind the machine, one soft flare blooming across the lower frame, his long shadow stretching toward us. HARD CUT.
+SHOT 2 (3–9s) — the MATCH FRAME, MCU, 47° lens fixed: @FUNCIONARIO dead centre, facing the lens in front of the same excavator, huge and soft behind him; he speaks at 3–8s with a proud, easy smile while the slow dolly-out runs the whole shot — the camera backs away, the frame opens toward a medium shot, the machine and the pit growing behind him, his face staying dead centre; at 8–9s he holds the smile. Hard end.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[3–8s] @FUNCIONARIO (on camera, Brazilian Portuguese): "também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
+[0–2s] @FUNCIONARIO (on camera but seen from behind, walking away, Brazilian Portuguese; the same voice and delivery as his other lines — warm, resolved, proud, smiling in the voice, never solemn): "Afinal, o que cresce aqui:"
+[3–8s] @FUNCIONARIO (on camera, Brazilian Portuguese; the same voice and delivery — warm, resolved, proud, smiling, never solemn): "também deve construir novos caminhos para quem nasce, vive e trabalha aqui."
 VOICE LOCK — @FUNCIONARIO: Brazilian man, 30, low calm chest voice; light Minas Gerais interior accent with a soft 'caipira' R, never a caricature. Identical in every generation of the film.
 
 ACTING — @FUNCIONARIO (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
 MOTIVE: he has just walked into the work he is proudest of.
-TACTIC: turn to you and say what it is all for, like good news to a friend — easy, certain, smiling.
-EYES: straight into the lens, steady and warm, from the first frame of shot 2. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his chin lifts a hair as he starts. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, a heroic pose, gesturing at the machine, looking away from the lens.
+TACTIC: say what it is all for, like good news to a friend — easy, certain, smiling.
+EYES: in shot 2 straight into the lens, steady and warm. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his chin lifts a hair as he starts. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a heroic pose, gesturing at the machine.
 
 CAMERA — SHOT 1: handheld, an operator with a body: the lens a few centimetres above the ground in a WIDE frame, drifting slowly forward behind him with human breath and late small corrections; never locked, no drone, no crane. FOCUS: on him and the machine, the foreground pebbles soft. HORIZON: level.
-SHOT 2: the dolly zoom-out below.
+SHOT 2: the dolly-out below.
 
-CAMERA — the DOLLY ZOOM-OUT (the vertigo effect), slow, about 6s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.1 m from the face, while the lens zooms in at the matching rate, 47° narrowing to about 30° — so the face stays EXACTLY the same size and in the same place, dead centre, while the background swells and closes in around it. A faint handheld breath rides on the move; the move never stops or reverses.
+CAMERA — the DOLLY-OUT, slow, about 6s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.8 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
-NOT: a locked frame, a face that shrinks or grows, a handheld shake, an orbit, a gimbal glide, a drone.
+NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.
 
-MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY ZOOM-OUT.
+MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 
-GEOMETRY — in shot 1 the camera sits on the ground about 40 m behind @FUNCIONARIO, the excavator about 150 m ahead of him, the sun low directly behind it; in shot 2 the camera is 1.3 m from his face at eye height, the excavator about 12 m behind him, the sun still behind it.
+GEOMETRY — in shot 1 the camera sits on the ground about 40 m behind @FUNCIONARIO, the excavator about 150 m ahead of him, the sun low directly behind it; in shot 2 the camera starts 1.3 m from his face at eye height, the excavator about 12 m behind him, the sun low on frame-LEFT.
 
-PHYSICS & MATERIAL — his boots crunch on the crushed ore and lift thin puffs of dust that drift and catch the sun; the vest is stiff; the excavator is enormous and still, its arm lowered. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: pale crushed ore with fine dust, the glossy white helmet shell, the black chin strap, reflective tape on the vest, clear glasses without glare, the off-white painted steel of the excavator with a safety-orange stripe, hydraulic hoses.
+PHYSICS & MATERIAL — his boots crunch on the crushed ore and lift thin puffs of dust that catch the sun; the excavator is enormous and still. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: pale crushed ore with fine dust, the glossy white helmet shell, the black chin strap, reflective tape on the vest, clear glasses without glare, the off-white painted steel of the excavator.
 
-LIGHT — NATURAL LIGHT ONLY, low late-afternoon BACKLIGHT (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
-SOURCE: the low sun ~3800 K, about 8° above the horizon, BEHIND the machine and the man and straight toward the lens (a touch to frame-LEFT); the open sky and the pale crushed-ore ground as the large soft fill that reaches the front of his face.
-REACH: the sun lays a warm rim on his hard hat, shoulders and vest and glows in the drifting dust; his face is lit softly from the front by the sky and the ground bounce, readable, with detail in the skin and eyes — about one stop under the rim.
-EXPOSURE: exposed for the face; the sun blooming as soft warm halation; blacks slightly lifted; no silhouette without face detail.
-CONTINUITY: the sun stays behind him in both shots; it never swaps sides.
-NOT: a dark silhouette with no face detail, orange postcard sky, a hard white sun disc, reflector fill, flat overcast.
+LIGHT — TWO SETUPS under the same low late-afternoon sun; only shot 1 is backlit.
+SHOT 1 — NATURAL BACKLIGHT, low late afternoon (this shot only): the low sun ~3800 K, about 8° above the horizon, directly behind the machine and the man and straight toward the lens; it rims his hard hat, shoulders and vest with a warm edge, glows in the drifting dust and stretches his shadow toward us; the pale ground and the open sky keep his back readable; the sun itself half-hidden behind the machine's silhouette, only its glow and the flare showing — never a clipped white disc, never a sunburst.
+SHOT 2 — the same light as the previous take: NATURAL LIGHT ONLY, late afternoon (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the low sun ~4300 K from frame-LEFT, about 25° above the horizon and slightly in front of the subject; the open sky as the soft fill on the other side.
+REACH: the sun lights the frame-LEFT side of every face and lays a warm edge on hair and shoulders; the frame-RIGHT side of each face sits in soft open shade, readable.
+EXPOSURE: exposed for skin; highlights creamy and warm, the sky holding tone; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: in shot 2 the sun stays frame-LEFT and the lit side never flips; shot 1 is the only backlit shot.
+NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light.
 
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-LENS FLARE — SHOT 1 ONLY (a deliberate exception for this take): the low sun behind the machine throws ONE soft warm flare across the lower half of the frame — a gentle veil, a faint horizontal streak and a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+LENS FLARE — SHOT 1 ONLY (a deliberate exception): the low sun behind the machine throws ONE soft warm flare across the lower half of the frame — a gentle veil, a faint horizontal streak, a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: his boots on crushed stone (shot 1); wind over the open pit; the excavator's low idle hum and a diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); after his line, only wind and the distant engine. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY under his voice: his boots on crushed stone (shot 1); wind over the open pit; the excavator's low idle hum; a reversing alarm far away (single repeated tone, not a melody). NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes. Mining safety equipment is complete and correct; nobody in the pit without it.
 
-NEGATIVE: a camera above knee height in shot 1, his face in shot 1, a close machine in shot 1, a second flare, a flare in shot 2, floating bokeh orbs, a dark silhouette with no face in shot 2, the face drifting off centre, shrinking or growing, him looking away in shot 2, speaking in shot 1, gesturing at the machine, logos on machine or equipment, missing helmet, unfastened chin strap, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, crushed blacks, wrong aspect ratio.
+NEGATIVE: a camera above knee height in shot 1, his face in shot 1, a close machine in shot 1, a second flare, a flare in shot 2, a zoom or vertigo effect, a push-in, the face drifting off centre, him looking away in shot 2, words beyond his two lines, gesturing at the machine, logos, missing helmet, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, crushed blacks, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut at 3s, 9s — (1, 0–3s) WIDE, lens a few centimetres above the ground, handheld: @FUNCIONARIO small, seen from behind, walking away across the pit floor toward a huge excavator far ahead, the low sun right behind it, ONE soft warm flare — (2, 3–9s) MATCH FRAME medium close-up, face dead centre and straight into the lens in front of the same excavator, slow dolly zoom-out (the face keeps the same size and place while the background swells), he says only "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–8s, smiling. Invariants: shot 1 extremely low and wide, back to camera; shot 2 centred, frontal, constant face size; sun behind him, face readable; full safety equipment; a flare only in shot 1. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 3s, 9s — (1, 0–3s) WIDE, lens a few centimetres above the ground, handheld: @FUNCIONARIO small, from behind, walking away toward a huge excavator, saying "Afinal, o que cresce aqui:" at 0–2s, the low sun right behind the machine, ONE soft flare — (2, 3–9s) MATCH FRAME medium close-up, face dead centre, straight into the lens, slow dolly-out (the camera backs away, no zoom), he says "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–8s, smiling. Invariants: shot 1 extremely low, wide, backlit, back to camera; shot 2 centred, frontal, the light of the previous take; same voice and delivery in both lines; full safety equipment; a flare only in shot 1. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -925,23 +927,23 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 9s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @FUNCIONARIO (character sheet) — identidade + EPI
-Notas: confira: plano 1 com a lente quase no chão, ele de costas e pequeno, a máquina bem longe, um flare só; plano 2 com o rosto no centro e do mesmo tamanho o tempo todo, rosto legível em contraluz (sem virar silhueta), sol atrás dele; EPI completo. Se o rosto sair escuro, peça mais enchimento de céu e do chão claro; se o dolly sair como zoom comum (rosto encolhendo ou crescendo), reforce "the face stays exactly the same size".
+Notas: confira: plano 1 com a lente quase no chão, ele de costas e pequeno, a máquina bem longe, um flare só, e a voz dele dizendo "Afinal, o que cresce aqui:"; plano 2 com o rosto no centro, a câmera recuando de verdade (sem zoom) e a mesma luz do T09-A (sol baixo à esquerda), sem flare; mesma voz e entrega nas duas falas; EPI completo. Se a câmera ficar parada ou der zoom, reforce "the camera moves back, no zoom".
 ```
 
 ### T10 · Mãe e recém-nascido (Match cut, ~3.0s no corte)
 
-Médio close da mãe com o recém-nascido, rosto no centro e reto pra câmera, com o dolly zoom-out lento do match.
+Médio close da mãe com o recém-nascido, rosto no centro e reto pra câmera, com o dolly-out lento do match.
 
 #### Geração T10 · 4s · 1 plano(s)
 
-- **O que acontece:** Num apartamento claro em BH, a mãe, com o recém-nascido no peito, olha pra lente com um sorriso radiante, dá uma olhada pro bebê e volta pra você, enquanto o dolly zoom-out lento mantém o rosto dela do mesmo tamanho e o quarto vai crescendo atrás.
+- **O que acontece:** Num apartamento claro em BH, a mãe, com o recém-nascido no peito, olha pra lente com um sorriso radiante, dá uma olhada pro bebê e volta pra você, enquanto a câmera recua devagar (dolly-out) e o quadro vai abrindo.
 - **O que é dito:** nada na geração. Na montagem: a V.O. segue por cima (o corte pra ela cai em "vive").
-- **Tempo:** rosto no centro, olhos na lente — 1s · olha o bebê e volta — 1s · segura o olhar — 2s = 4s
+- **Tempo:** rosto no centro, olhos na lente — 1s · olha o bebê e volta — 1s · segura o olhar, dolly-out — 2s = 4s
 - **Como termina:** segurando seu olhar; corte para o T11.
-- **Direção:** Novo match (P2): médio close centralizado, reto pra câmera, mesma distância e dolly zoom-out lento em todos. Agora com character sheet (@MAE): antes ela era improvisada pelo modelo e saía genérica. Geração de 4s (mínimo do modelo); na montagem entram ~3s. Sem fala, para nenhuma boca formar palavras.
+- **Direção:** Novo match (P2): médio close centralizado, reto pra câmera, mesma distância e dolly-out lento (só a câmera recua, sem zoom) em todos. Agora com character sheet (@MAE): antes ela era improvisada pelo modelo e saía genérica. Geração de 4s (mínimo do modelo); na montagem entram ~3s. Sem fala, para nenhuma boca formar palavras.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 4 seconds total, ONE continuous take, no cuts, a slow dolly zoom-out on a medium close-up, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 4 seconds total, ONE continuous take, no cuts, a slow dolly-out from a medium close-up, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @MAE — IDENTITY of @MAE: face, hair, build, hands and wardrobe. 100% matches.
@@ -957,15 +959,15 @@ SCENE — A bright bedroom in a modern apartment in Belo Horizonte, Brazil, afte
 THE SOUL OF THE SCENE (play it, never explain it): someone new just arrived — she looks at you, radiant, as if you had come in to meet him.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE take in the MATCH FRAME with the slow dolly zoom-out, no cuts — WRONG if it cuts, if the camera is locked, or if the move makes the face smaller or bigger.
-2. @MAE's face stays dead centre and EXACTLY the same size, straight into the lens, the eyes on the upper-third line and alive — WRONG if the face drifts, shrinks, grows, turns away or goes glassy.
+1. ONE take in the MATCH FRAME with the slow dolly-out (the camera moving back, no zoom), no cuts — WRONG if it cuts, if the camera is locked, or if the lens zooms or the camera pushes in.
+2. @MAE's face stays dead centre, straight into the lens, the eyes alive, while the framing opens from a medium close-up toward a medium shot — WRONG if the face drifts off centre, turns away or goes glassy.
 3. NO dialogue: her mouth stays closed, the baby makes only small breathing sounds — WRONG if any mouth forms words.
 4. Light from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–1s) — the MATCH FRAME, MCU: @MAE's face dead centre, eyes on the lens, a soft radiant smile, the swaddled newborn at the bottom edge of the frame against her chest; the slow dolly zoom-out begins.
+BEAT 1 (0–1s) — the MATCH FRAME, MCU: @MAE's face dead centre, eyes on the lens, a soft radiant smile, the swaddled newborn at the bottom edge of the frame against her chest; the slow dolly-out begins.
 BEAT 2 (1–2s) — her gaze drops to the baby and rises back to the lens, the smile deepening.
-BEAT 3 (2–4s) — eyes on the lens, warm and a little amazed, the bedroom swelling softly behind her as the dolly zoom-out finishes. Hard end on the held look.
+BEAT 3 (2–4s) — eyes on the lens, warm and a little amazed, the bedroom opening wider behind her as the dolly-out finishes. Hard end on the held look.
 
 ACTING — @MAE (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
@@ -974,11 +976,11 @@ TACTIC: share him with you — "look who arrived" — with a glance down and a g
 EYES: on the lens, one glance down to the baby and back. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a slow happy blink as she looks back up. A frozen pupil is wrong.
 NOT: a solemn or serious face, a speech, a stiff advertising grin, speaking, crying, rocking theatrically, presenting the baby to the camera.
 
-CAMERA — the DOLLY ZOOM-OUT (the vertigo effect), slow, about 4s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.1 m from the face, while the lens zooms in at the matching rate, 47° narrowing to about 30° — so the face stays EXACTLY the same size and in the same place, dead centre, while the background swells and closes in around it. A faint handheld breath rides on the move; the move never stops or reverses.
+CAMERA — the DOLLY-OUT, slow, about 4s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.3 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
-NOT: a locked frame, a face that shrinks or grows, a handheld shake, an orbit, a gimbal glide, a drone.
+NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.
 
-MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY ZOOM-OUT.
+MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 
 PHYSICS & MATERIAL — the baby is light, warm and limp, sinking into the crook of her arm; the blanket's cotton folds; a tiny movement of the baby's chest under her hand. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the fine rib of her ivory knit, a few loose strands of hair across her cheek, the baby's delicate newborn skin, the sheer curtain glowing behind her.
 
@@ -996,9 +998,9 @@ SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and o
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, the baby's full face, presenting the baby to the camera, crying, a cut, the face drifting off centre or changing size, a generic or plain-looking woman, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, the baby's full face, presenting the baby to the camera, crying, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly zoom-out — (0–1s) @MAE's face dead centre, eyes on the lens, the swaddled newborn at the bottom edge — (1–2s) a glance down to the baby and back — (2–4s) eyes on the lens, glowing, the room swelling behind her; hard end. Invariants: face centred and the same size throughout; no dialogue; baby partly covered, correct proportions. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
+[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — (0–1s) @MAE's face dead centre, eyes on the lens, the swaddled newborn at the bottom edge — (1–2s) a glance down to the baby and back — (2–4s) eyes on the lens, glowing, the room opening wider behind her; hard end. Invariants: face centred throughout, the camera backing away with no zoom; no dialogue; baby partly covered, correct proportions. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1007,23 +1009,23 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 4s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @MAE (character sheet) — identidade
-Notas: gerar o sheet da @MAE antes. Conferir a proporção do bebê (rosto parcialmente coberto) e o rosto dela do mesmo tamanho e no centro o tempo todo.
+Notas: gerar o sheet da @MAE antes. Conferir a proporção do bebê (rosto parcialmente coberto) e o rosto dela no centro o tempo todo, com a câmera recuando sem zoom.
 ```
 
 ### T11 · Mineirão (Match cut, ~3.0s no corte)
 
-Médio close da torcedora no Mineirão, rosto no centro e reto pra câmera, com o mesmo dolly zoom-out.
+Médio close da torcedora no Mineirão, rosto no centro e reto pra câmera, com o mesmo dolly-out.
 
 #### Geração T11 · 4s · 1 plano(s)
 
-- **O que acontece:** No Mineirão reformado, a torcedora olha pra lente, morde o lábio e abre um sorriso enorme enquanto o rugido da torcida cresce; o dolly zoom-out lento mantém o rosto dela do mesmo tamanho e o estádio vai crescendo atrás.
+- **O que acontece:** No Mineirão reformado, a torcedora olha pra lente, morde o lábio e abre um sorriso enorme enquanto o rugido da torcida cresce; a câmera recua devagar (dolly-out) e o estádio vai aparecendo atrás.
 - **O que é dito:** nada na geração. Na montagem: a V.O. segue por cima.
-- **Tempo:** rosto no centro, olhos na lente — 1s · morde o lábio e abre o sorriso — 2s · segura o olhar — 1s = 4s
+- **Tempo:** rosto no centro, olhos na lente — 1s · morde o lábio e abre o sorriso — 2s · segura o olhar, dolly-out — 1s = 4s
 - **Como termina:** segurando seu olhar, acesa; corte para o T12.
 - **Direção:** Mesmo match do T10. Agora com character sheet (@TORCEDORA). Estádio desfocado e figurino terracota, fora das cores de clube e do verde-amarelo. Geração de 4s; na montagem entram ~3s.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 4 seconds total, ONE continuous take, no cuts, a slow dolly zoom-out on a medium close-up, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 4 seconds total, ONE continuous take, no cuts, a slow dolly-out from a medium close-up, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @TORCEDORA — IDENTITY of @TORCEDORA: face, hair, build, hands and wardrobe. 100% matches.
@@ -1038,15 +1040,15 @@ SCENE — A late-afternoon match at the Mineirão stadium in Belo Horizonte, Bra
 THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her week — she looks at you, lit up, as if you were in the next seat.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE take in the MATCH FRAME with the slow dolly zoom-out, no cuts — WRONG if it cuts, if the camera is locked, or if the move makes the face smaller or bigger.
-2. @TORCEDORA's face stays dead centre and EXACTLY the same size, straight into the lens, the eyes on the upper-third line and alive — WRONG if the face drifts, shrinks, grows, turns away or goes glassy.
+1. ONE take in the MATCH FRAME with the slow dolly-out (the camera moving back, no zoom), no cuts — WRONG if it cuts, if the camera is locked, or if the lens zooms or the camera pushes in.
+2. @TORCEDORA's face stays dead centre, straight into the lens, the eyes alive, while the framing opens from a medium close-up toward a medium shot — WRONG if the face drifts off centre, turns away or goes glassy.
 3. NO dialogue: her mouth stays closed or smiling; the crowd is only a roar with no words standing out — WRONG if any mouth forms words.
 4. Light from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–1s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre, eyes on the lens, a bright smile, the stand soft behind her; the slow dolly zoom-out begins.
+BEAT 1 (0–1s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre, eyes on the lens, a bright smile, the stand soft behind her; the slow dolly-out begins.
 BEAT 2 (1–3s) — she bites her lip, then breaks into a big delighted smile as the crowd's roar swells; her eyes stay on you.
-BEAT 3 (3–4s) — she holds your eyes, lit up, the stadium swelling behind her as the dolly zoom-out finishes. Hard end on the held look.
+BEAT 3 (3–4s) — she holds your eyes, lit up, the stadium opening wider behind her as the dolly-out finishes. Hard end on the held look.
 
 ACTING — @TORCEDORA (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
@@ -1055,11 +1057,11 @@ TACTIC: share the thrill with you, like a friend in the next seat.
 EYES: on the lens the whole time. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she bites her lip before the smile breaks. A frozen pupil is wrong.
 NOT: a solemn or serious face, a speech, a stiff advertising grin, shouting, arms up, face paint, a scarf, a team jersey.
 
-CAMERA — the DOLLY ZOOM-OUT (the vertigo effect), slow, about 4s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.1 m from the face, while the lens zooms in at the matching rate, 47° narrowing to about 30° — so the face stays EXACTLY the same size and in the same place, dead centre, while the background swells and closes in around it. A faint handheld breath rides on the move; the move never stops or reverses.
+CAMERA — the DOLLY-OUT, slow, about 4s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.3 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
-NOT: a locked frame, a face that shrinks or grows, a handheld shake, an orbit, a gimbal glide, a drone.
+NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.
 
-MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY ZOOM-OUT.
+MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 
 PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves a few strands of her crown of hair; the people behind rise and settle, soft shapes. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the smooth concrete and modern seats of the renovated stand, the cotton of her terracotta T-shirt, a bead of sweat at her hairline, the glint of her gold hoops.
 
@@ -1077,9 +1079,9 @@ SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar swelling; a whistle f
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes. Wardrobe and crowd carry NO football club colour combinations (black-and-white, blue-and-white, green-and-white), NO yellow-and-green, NO flags, NO scarves, NO jerseys.
 
-NEGATIVE: the fan speaking or shouting, any mouth forming words, cheering arms, team jersey, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre or changing size, a generic or plain-looking woman, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: the fan speaking or shouting, any mouth forming words, cheering arms, team jersey, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly zoom-out — (0–1s) @TORCEDORA's face dead centre, eyes on the lens, a bright smile — (1–3s) she bites her lip, then a big delighted smile, the roar swelling — (3–4s) she holds your eyes, lit up, the stadium swelling behind her; hard end. Invariants: face centred and the same size throughout; no dialogue; neutral wardrobe, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]
+[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — (0–1s) @TORCEDORA's face dead centre, eyes on the lens, a bright smile — (1–3s) she bites her lip, then a big delighted smile, the roar swelling — (3–4s) she holds your eyes, lit up, the stadium opening wider behind her; hard end. Invariants: face centred throughout, the camera backing away with no zoom; no dialogue; neutral wardrobe, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]
 ```
 
 ```
@@ -1093,18 +1095,18 @@ Notas: gerar o sheet da @TORCEDORA antes. Conferir a arquibancada desfocada: nad
 
 ### T12 · Ônibus (Match cut, ~6.6s no corte)
 
-O motorista, em médio close com dolly zoom-out, sorri pra você e olha pra baixo pra abrir a porta; o estudante embarca e o motorista explica a rota com o ônibus andando.
+O motorista, em médio close com dolly-out, sorri pra você e olha pra baixo pra abrir a porta; o estudante embarca e o motorista explica a rota com o ônibus andando.
 
 #### Geração T12 + T13 · 14s · 4 plano(s)
 
-- **O que acontece:** Num ônibus moderno de BH: médio close do motorista, no centro e reto pra lente, com dolly zoom-out lento; ele sorri e, aos 2s, olha pra baixo e abre a porta de vidro; corte para o tênis do estudante entrando; com o ônibus andando, o motorista fala; fecha no estudante na janela, BH passando.
+- **O que acontece:** Num ônibus moderno de BH: médio close do motorista, no centro e reto pra lente, com dolly-out lento; ele sorri e, aos 2s, olha pra baixo e abre a porta de vidro; corte para o tênis do estudante entrando; com o ônibus andando, o motorista fala; fecha no estudante na janela, BH passando.
 - **O que é dito:** MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros." (na montagem, a V.O. "e trabalha aqui." cai no plano 1)
 - **Tempo:** motorista em médio close, olha pra baixo e abre a porta — 3s · porta e tênis — 3s · fala com o ônibus andando — 5s · estudante na janela — 3s = 14s
 - **Como termina:** o estudante na janela; corte seco.
-- **Direção:** O primeiro plano agora é o match do motorista: médio close centralizado, mesmo dolly zoom-out de ~3s dos outros rostos; nesses 3s ele olha pra baixo e abre a porta. O resto segue (porta e tênis, fala com o ônibus andando, estudante na janela), só que o tênis agora vem depois de a porta abrir. O close final do estudante prepara o T14.
+- **Direção:** O primeiro plano agora é o match do motorista: médio close centralizado, mesmo dolly-out de ~3s dos outros rostos; nesses 3s ele olha pra baixo e abre a porta. O resto segue (porta e tênis, fala com o ônibus andando, estudante na janela), só que o tênis agora vem depois de a porta abrir. O close final do estudante prepara o T14.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 6s and 11s, a slow dolly zoom-out in shot 1, handheld in shots 2 to 4, inside a moving bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 6s and 11s, a slow dolly-out in shot 1, handheld in shots 2 to 4, inside a moving bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
@@ -1121,14 +1123,14 @@ SCENE — Late afternoon on a modern, air-conditioned city bus in Belo Horizonte
 THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he knows this boy and is proud of where he is headed — he tells you the route with a smile.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 11s — WRONG if extra cuts; shot 1 is the dolly zoom-out, shots 2 to 4 are handheld.
-2. SHOT 1 is the MATCH FRAME: medium close-up of @MOTORISTA, face dead centre and EXACTLY the same size throughout, straight into the lens, with the slow dolly zoom-out; at 0–2s his eyes are on the lens, at 2–3s they drop to the door control — WRONG if the face drifts, shrinks or grows, or his eyes never drop to the door control.
+1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 11s — WRONG if extra cuts; shot 1 is the dolly-out, shots 2 to 4 are handheld.
+2. SHOT 1 is the MATCH FRAME: medium close-up of @MOTORISTA, face dead centre throughout, straight into the lens, with the slow dolly-out (the camera moving back, no zoom) opening the framing toward a medium shot; at 0–2s his eyes are on the lens, at 2–3s they drop to the door control — WRONG if the lens zooms, the face drifts off centre, or his eyes never drop to the door control.
 3. @ESTUDANTE never speaks; @MOTORISTA speaks only in shot 3 — WRONG if any other mouth forms words.
 4. The bus is moving in shots 3 and 4; his hands stay on the wheel while he speaks.
 5. Daylight from frame-LEFT — NO music.
 
 TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — the MATCH FRAME, MCU of @MOTORISTA at the wheel, face dead centre, straight into the lens with a warm smile, the stopped bus soft behind him — the windshield, the aisle and the glass door on frame-LEFT — swelling as the slow dolly zoom-out runs the whole shot; at 2–3s his eyes drop to the door control below frame, his hand works the lever and the glass door starts to fold open behind him with a pneumatic hiss. HARD CUT.
+SHOT 1 (0–3s) — the MATCH FRAME, MCU of @MOTORISTA at the wheel, face dead centre, straight into the lens with a warm smile, the stopped bus soft behind him — the windshield, the aisle and the glass door on frame-LEFT — opening wider as the slow dolly-out runs the whole shot; at 2–3s his eyes drop to the door control below frame, his hand works the lever and the glass door starts to fold open behind him with a pneumatic hiss. HARD CUT.
 SHOT 2 (3–6s) — CU, 47°, low at the door: the glass door folds fully open and @ESTUDANTE's white sneaker steps onto the low floor; his hand rises in a greeting. HARD CUT.
 SHOT 3 (6–11s) — MWS (the driver at the wheel, the windshield and the city ahead), 47°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 6–11s, glancing at the road and back, smiling. HARD CUT.
 SHOT 4 (11–14s) — CU, 47°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.
@@ -1147,12 +1149,12 @@ NOT: a solemn or serious face, a speech, a stiff advertising grin, letting go of
 ACTING — @ESTUDANTE: TACTIC greet fast and find a seat; eyes on the driver, then the window; NOT speaking, NOT looking at the lens.
 ACTING — passengers (background): eyes on the window or on their own thoughts; NOT looking at the lens, NOT speaking.
 
-CAMERA — the DOLLY ZOOM-OUT (the vertigo effect), slow, about 3s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.1 m from the face, while the lens zooms in at the matching rate, 47° narrowing to about 30° — so the face stays EXACTLY the same size and in the same place, dead centre, while the background swells and closes in around it. A faint handheld breath rides on the move; the move never stops or reverses.
+CAMERA — the DOLLY-OUT, slow, about 3s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.0 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
-NOT: a locked frame, a face that shrinks or grows, a handheld shake, an orbit, a gimbal glide, a drone.
+NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.
 SHOTS 2–4: handheld, an operator with a body — breathing, small weight shifts, late corrections, never locked; in the close-ups it drifts and follows the action, in shot 3 it drifts slowly around the driver. HORIZON: level.
 
-MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY ZOOM-OUT.
+MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 
 GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side); in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus.
 
@@ -1172,9 +1174,9 @@ SOUND — LOCATION SOUND ONLY: the door lever's click and the door's pneumatic h
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or changing size in shot 1, a generic or plain-looking man, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or a zoom in shot 1, a generic or plain-looking man, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly zoom-out, at 2–3s his eyes drop to the door control and the glass door folds open — (2, 3–6s) CU, handheld: the door opens fully, the student's sneaker steps in — (3, 6–11s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 11–14s) CU: the student by the window, the city sliding past. Invariants: shot 1 face centred and the same size; student silent; driver speaks only in shot 3; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly-out, at 2–3s his eyes drop to the door control and the glass door folds open — (2, 3–6s) CU, handheld: the door opens fully, the student's sneaker steps in — (3, 6–11s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 11–14s) CU: the student by the window, the city sliding past. Invariants: shot 1 face centred, the camera backing away with no zoom; student silent; driver speaks only in shot 3; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1184,7 +1186,7 @@ Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → fina
 Anexar nesta ordem:
   1) @MOTORISTA (character sheet) — identidade
   2) @ESTUDANTE (character sheet) — identidade
-Notas: risco: o estudante abrir a boca. O ônibus tem que estar andando quando o motorista fala; no plano 1 o rosto do motorista fica do mesmo tamanho e no centro.
+Notas: risco: o estudante abrir a boca. O ônibus tem que estar andando quando o motorista fala; no plano 1 o rosto do motorista fica no centro e a câmera recua sem zoom.
 ```
 
 ### T14 · Trilhas de Futuro (Conexão, ~3.8s no corte)
@@ -1499,22 +1501,17 @@ CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: golden hour, orange or pink sky, long shadows, sunset glow, a low sun, sunbeams, sun disc in frame, reflector fill, flat overcast, harsh noon top light that buries the eyes in hat shadow.
 ```
 
-### LIGHT · contraluz (T09-B)
+### LIGHT · contraluz (T09-B, só o plano 1)
 
 ```
-LIGHT — NATURAL LIGHT ONLY, low late-afternoon BACKLIGHT (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
-SOURCE: the low sun ~3800 K, about 8° above the horizon, BEHIND the machine and the man and straight toward the lens (a touch to frame-LEFT); the open sky and the pale crushed-ore ground as the large soft fill that reaches the front of his face.
-REACH: the sun lays a warm rim on his hard hat, shoulders and vest and glows in the drifting dust; his face is lit softly from the front by the sky and the ground bounce, readable, with detail in the skin and eyes — about one stop under the rim.
-EXPOSURE: exposed for the face; the sun blooming as soft warm halation; blacks slightly lifted; no silhouette without face detail.
-CONTINUITY: the sun stays behind him in both shots; it never swaps sides.
-NOT: a dark silhouette with no face detail, orange postcard sky, a hard white sun disc, reflector fill, flat overcast.
+SHOT 1 — NATURAL BACKLIGHT, low late afternoon (this shot only): the low sun ~3800 K, about 8° above the horizon, directly behind the machine and the man and straight toward the lens; it rims his hard hat, shoulders and vest with a warm edge, glows in the drifting dust and stretches his shadow toward us; the pale ground and the open sky keep his back readable; the sun itself half-hidden behind the machine's silhouette, only its glow and the flare showing — never a clipped white disc, never a sunburst.
 ```
 
 ### FILM LOOK com um flare (T09-B, plano 1)
 
 ```
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
-LENS FLARE — SHOT 1 ONLY (a deliberate exception for this take): the low sun behind the machine throws ONE soft warm flare across the lower half of the frame — a gentle veil, a faint horizontal streak and a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+LENS FLARE — SHOT 1 ONLY (a deliberate exception): the low sun behind the machine throws ONE soft warm flare across the lower half of the frame — a gentle veil, a faint horizontal streak, a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 ```
 
 ### LIGHT · interiores (base)
@@ -1551,15 +1548,15 @@ NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, p
 ### MATCH FRAME (série T09-B a T12)
 
 ```
-MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY ZOOM-OUT.
+MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 ```
 
-### CAMERA · dolly zoom-out
+### CAMERA · dolly-out
 
 ```
-CAMERA — the DOLLY ZOOM-OUT (the vertigo effect), slow, about 3s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.1 m from the face, while the lens zooms in at the matching rate, 47° narrowing to about 30° — so the face stays EXACTLY the same size and in the same place, dead centre, while the background swells and closes in around it. A faint handheld breath rides on the move; the move never stops or reverses.
+CAMERA — the DOLLY-OUT, slow, about 3s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.0 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
-NOT: a locked frame, a face that shrinks or grows, a handheld shake, an orbit, a gimbal glide, a drone.
+NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.
 ```
 
 ### Quadro do T09-A (nióbio)
@@ -1841,21 +1838,21 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 ## Pendências
 
 - **P1 · Transição do revezamento (T04–T08)** (decidido): Travelling lateral da esquerda pra direita em todos os planos, closes incluídos; a câmera nunca para. Corte seco entre subações e fala. Exceção pedida: T07 plano 1 (zenital, câmera parada). No T08 ela anda pra frente e o travelling lateral continua, com a câmera recuando no passo dela: vira um arco leve, tipo orbit.
-- **P2 · Match cut (T09-B a T12)** (confirmar): Novo: médio close centralizado, reto pra câmera, mesma distância, com dolly zoom-out lento (~3s) em todos: funcionário (T09-B), mãe, torcedora e motorista, que abre o T12. Interpretei "dolly zoom-out" como o efeito vertigo: a câmera recua e a lente aproxima, o rosto fica do mesmo tamanho e no mesmo lugar e o fundo infla. Se a ideia era um pull-back que abre o quadro, troca-se o bloco CAMERA · dolly zoom-out (templates.py). O "olhar que sobe" do pedido anterior saiu.
+- **P2 · Match cut (T09-B a T12)** (decidido): Médio close centralizado, reto pra câmera, mesma distância, com dolly-out lento (~3s) em todos: funcionário (T09-B), mãe, torcedora e motorista, que abre o T12. É só a câmera recuando, sem movimento de lente: o quadro abre aos poucos de médio close para médio. O "olhar que sobe" do pedido anterior saiu.
 - **P3 · Sotaque** (decidido): R caipira para interior, campo e mineração; R de BH para a cidade. Agora num voice lock curto, sem direção de entrega.
 - **P4 · Falas finais do T16** (decidido): Sem coro; o protagonista fala tudo.
 - **P5 · Casting e representação** (proposta): Proposta do diretor nos character sheets: pardos, pretos e brancos em proporção próxima à de Minas, sem amarrar ofício a cor. Validar antes de gerar os sheets.
 - **P6 · Teto de 60 segundos** (a decidir): Com a abertura de 12s (T01-A curto + T01-B de 9s) e o novo bloco T09-B a T12 (cava com fala, match cuts de ~3s cada), o corte estimado fica em ~72s; com o T01-B de 18s, ~81s. O pré-shotlist previa ~9s para a abertura inteira. O revezamento tem takes mais longos que o necessário, de propósito, para cobrir a locução em off: o enxugamento fica para a montagem, mas o teto de 60s precisa de uma decisão sua (onde cortar).
 - **P7 · Look (style ref)** (a testar): FILM LOOK v2 a partir do seu ref. Antes de congelar, fazer draft do T01 (exterior com mergulho), do T05 (interior com travelling) e do T09 (virada com match).
-- **P9 · V.O. e a fala do T09-B** (proposta): T09-A: ele diz só "a nossa gente.". T09-B plano 1: V.O. "Afinal, o que cresce aqui" (ElevenLabs) sobre ele de costas. T09-B plano 2: ele diz em cena "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." (frase inteira; o corte para a mãe cai em "vive" e o áudio dele segue por cima dos match cuts, ou você troca por ElevenLabs).
+- **P9 · Falas do T09-B (sem V.O.)** (decidido): T09-A: ele diz "a nossa gente.". T09-B plano 1: ele diz "Afinal, o que cresce aqui:" de costas, andando; plano 2: "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." em cena. Mesma voz e mesma entrega nas três falas, sem V.O. no ElevenLabs nesse trecho. O corte para a mãe cai em "vive" e o áudio dele segue por cima dos match cuts.
 - **P10 · T12 e T13 numa geração** (proposta): Mesmo lugar e mesmas pessoas; o olhar do motorista emenda a fala.
 - **P15 · Bloqueios 3D (T01-B)** (confirmar): Os dois bloqueios entram como referência só de movimento. Ajustes pedidos: no de 8,6s, estender o último frame em ~0,4s (fica 9s); no de 19s, cortar ~2s do close inicial e estender o último frame em ~1s (fica 18s). Se der, exportar sem os textos de marcação e em 21:9.
 - **P16 · Locações** (decidido): Nenhuma plate será gerada por enquanto; todos os takes saem de text-to-video para o lugar. Os prompts de locação ficam de reserva.
 - **P18 · Falas apertadas em todos os takes** (decidido): A janela de cada fala tem o tamanho da frase (cerca de 3 palavras por segundo) e começa junto com o plano em que ele fala; o corte seguinte vem logo depois. O T15 ganhou tempo (a frase longa estava apertada, 5s para 23 palavras); os outros encolheram 1 a 3s.
 - **P19 · Sem efeitos sonoros no T01-B** (decidido): Só vento forte sob a fala do jovem (que fala alto por cima dele), que some quando a câmera afunda. Da sala em diante, só o som natural: o ventilador ligado e um murmúrio leve dos alunos. Nada de whoosh, rumble ou chiado na descida.
-- **P20 · Os 5s antes dos match cuts** (decidido): Resolvidos pelo T09-B (a direção é sua): plano 1, wide baixíssimo dele de costas andando até a máquina, contra o sol e com flare, com a V.O. "Afinal, o que cresce aqui"; plano 2, médio close dele com a fala e o dolly zoom-out.
+- **P20 · Os 5s antes dos match cuts** (decidido): Resolvidos pelo T09-B (a direção é sua): plano 1, wide baixíssimo dele de costas andando até a máquina, contra o sol e com flare, falando "Afinal, o que cresce aqui:"; plano 2, médio close dele com a fala e o dolly-out.
 - **P21 · Sheets da mãe e da torcedora** (gerar): O T10 e o T11 agora são reference-to-video. Os personagens saíam genéricos (e com estética ruim) porque eram improvisados pelo modelo. Gerar os sheets @MAE e @TORCEDORA (aba Elenco) antes; os descritores deles no prompt vêm do prompt do sheet e eu os ajusto ao resultado.
-- **P22 · Exceções de look no T09-B** (decidido): Contraluz (sol baixo atrás dele e da máquina, rosto legível por enchimento do céu e do chão claro) e UM flare, só no plano 1; o resto do filme segue sem flares e com o sol à esquerda.
+- **P22 · Exceções de look no T09-B** (decidido): Só o plano 1 (ele de costas) é diferente: contraluz, com o sol baixo atrás da máquina, e UM flare. O plano 2 usa a mesma luz do T09-A (sol baixo à esquerda), sem flare. O resto do filme segue sem flares e com o sol à esquerda.
 - **P11 · EPI da mina e da siderurgia** (validar): Os sheets trazem EPI padrão. Confirmar com a SST da operadora antes da geração final.
 - **P13 · Formato** (decidido): 21:9 em todas as gerações (variável única no build). As character sheets ficam em 16:9, porque são referência de identidade. Nos closes o 21:9 deixa muito espaço dos lados; se algum close vier aberto demais, aperte o FOV (por exemplo 29° para 18°).
 - **P17 · Corte T01-A → T01-B** (decidido): T01-A termina com ele totalmente de frente, ombros quadrados e olhando a lente; T01-B começa exatamente assim, em close. O corte cai no olhar, como um punch-in. A mesma luz (sol da esquerda) nos dois.
@@ -1868,8 +1865,8 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **Mineirão (T11):** nada de preto e branco, azul e branco, verde e branco ou verde-amarelo; a torcedora veste terracota.
 - **Marcas reais:** carro, ônibus, mina, escola, programa e hospital saem sem marca e sem texto legível. Logos entram na pós.
 - **Mineração (T09):** EPI completo é trava crítica; falta validar com a SST (P11).
-- **Dolly zoom-out (match):** o modelo pode entregar um zoom ou pull-back comum (rosto encolhendo) em vez do efeito vertigo. No draft, confira se o rosto fica do mesmo tamanho e no centro; reforce "the face stays exactly the same size" ou, se a ideia era abrir o quadro, troque o bloco.
-- **Contraluz do T09-B:** rosto escuro ou silhueta no plano 2. O prompt pede enchimento de céu e do chão claro; se persistir, aumente o enchimento.
+- **Dolly-out (match):** o modelo pode deixar a câmera parada ou dar um zoom em vez de recuar. No draft, confira se a câmera recua de verdade (o rosto encolhe aos poucos e o fundo abre); reforce "the camera moves back, no zoom" se precisar.
+- **Flare do T09-B:** um só, no plano 1. Se aparecer flare no plano 2, ou bolhas de bokeh, regenerar; o plano 2 tem que repetir a luz do T09-A.
 - **Duas falas numa geração (T02):** o prompt trava quem fala em qual segundo; fallback de voz no ElevenLabs.
 - **Recém-nascido (T10):** rosto do bebê parcialmente coberto e proporção travada.
 - **Look com vinheta e franja cromática:** se aparecerem artefatos, tire a franja cromática do FILM LOOK primeiro, como manda o CINEORO.
