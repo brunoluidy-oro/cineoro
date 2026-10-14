@@ -619,73 +619,74 @@ SHOT 2: handheld, an operator with a body — breathing, small weight shifts, la
 
 # ---------------------------------------------------------------- T14
 T14 = join(
-    contract(8, "2 shots with 1 hard cut at 6s", "handheld in every shot"),
+    contract(6, "2 shots with 1 hard cut at 5s", "handheld in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe exactly as on the sheet. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: one of a group of friends at a workshop bench, a tablet in one hand, speaks once to the lens, bumps fists with a classmate; NEVER takes off the hoodie; NEVER looks or acts like a teacher.
-CLASSMATES (unreferenced, all teenagers of 15–16 in casual everyday clothes like him — T-shirts, hoodies, jeans, sneakers; NO uniforms, NO lab coats, NO adults): a Brazilian girl with braids in a grey T-shirt, jeans and sneakers beside him; behind them three or four more, distinct and soft — a boy in a washed-blue T-shirt, a girl in a beige sweatshirt, a boy in a black hoodie — watching the little robot and chatting; NEVER speak.
-ROBOT — a small educational humanoid robot about 30 cm tall on the bench just behind his shoulder: matte white-and-graphite plastic, visible servo joints and screws, two small round eyes; a real robotics-class machine, NOT a toy; no logos.
+@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: already facing the lens in the very first frame, a tablet low in one hand, ONE classmate beside him, speaks once to the lens, bumps fists with her; NEVER takes off the hoodie; NEVER looks or acts like a teacher.
+CLASSMATE (unreferenced: a Brazilian girl of 15, braids, a grey T-shirt, jeans, sneakers) — the only person beside him, grinning at the robot; NEVER speaks.
+OTHER STUDENTS — three or four teenagers of 15–16 in casual everyday clothes far behind at their own benches, each busy with something else (one soldering, one typing on a laptop whose screen faces away, two assembling a small chassis), soft, not looking at the lens or at the robot; NO uniforms, NO lab coats, NO adults; NEVER speak.
+ROBOT — a small amateur robot about 20 cm tall that the students built themselves, on the bench just behind his shoulder: grey and white 3D-printed parts, visible servo motors, a bare microcontroller board with jumper wires, a few zip ties, a taped battery pack, a little crooked, hand-assembled, two small LED eyes; NOT a toy, NOT a polished product; no logos; it waves one arm side to side WITHOUT STOPPING for the whole take, in complete silence.
 FACES: each face exists once.
 CONTACT: the only touch is the fist bump in shot 2.""",
-    """SCENE — Afternoon in the robotics workshop of a free technical course for teenagers in Belo Horizonte, Brazil — a bright, serious, organised room: neutral grey metal shelving with matte grey and black equipment cases and tidy cable reels, a 3D printer, a soldering station, closed laptops, long benches. @ESTUDANTE stands at a bench among his friends, a tablet in his hand, the little robot awake behind him.
-THE SOUL OF THE SCENE (play it, never explain it): he and his friends just woke the robot up and he is thrilled — he tells you what this place is for, like one of the gang.""",
+    """SCENE — Afternoon in the robotics workshop of a free technical course for teenagers in Belo Horizonte, Brazil — a bright, serious, organised room: neutral grey metal shelving with matte grey and black equipment cases and tidy cable reels, a 3D printer, a soldering station, closed laptops, long benches. @ESTUDANTE stands at a bench with his classmate, a tablet in his hand, the robot they built waving behind him.
+THE SOUL OF THE SCENE (play it, never explain it): he and his friends built a robot that really works and he is thrilled — he tells you what this place is for, like one of the gang.""",
     f"""{LOCKS_HEAD}
-1. Exactly 2 shots, 1 hard cut at 6s; handheld in every shot.
+1. Exactly 2 shots, 1 hard cut at 5s; handheld in every shot.
 2. The tablet's SCREEN is NEVER visible: held low at his side with its back to the lens — WRONG if any screen, interface or screen glow is shown.
-3. @ESTUDANTE wears exactly his sheet wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
-4. He speaks only in shot 1 at 0–5s, eyes alive on the lens; the name Codemig is said exactly Cô-dê-mí-gui — WRONG if glassy or mispronounced; only he speaks, the classmates' and the robot's mouths stay closed.
-5. EVERYONE in the room is a teenager of 15–16 in casual clothes like him, and he is one of the group — WRONG if any adult, uniform, lab coat or teacher-like posture appears.
-6. The shelving and cases behind him are neutral, matte, grey and black and look professional — WRONG if any box looks like a toy, colourful or cartoonish.
-7. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.""",
-    timeline(2, [6], [
-        "SHOT 1 (0–6s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at a long bench, the tablet held low in one hand with its back to us, the small robot on the bench just behind his shoulder, awake, its eyes softly lit, slowly waving one arm; the CLASSMATES around him in casual clothes, watching the robot; he turns to the lens and speaks at 0–5s, grinning with pride; at 5–6s he holds the grin. HARD CUT.",
-        "SHOT 2 (6–8s) — CU, 35°: he and the girl CLASSMATE bump fists beside the little robot. Hard end mid-bump.",
+3. He is ALREADY facing the lens in the first frame (no turning) and speaks at 0–5s, eyes alive; the name Codemig is said exactly Cô-dê-mí-gui, with no R sound in it — WRONG if he turns first, if glassy, or if the name comes out as anything else; only he speaks.
+4. @ESTUDANTE wears exactly his sheet wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
+5. ONE classmate beside him; everyone else is far behind, busy with their own work and not watching; all teenagers in casual clothes — WRONG if a crowd watches the robot or the lens, or any adult, uniform or teacher-like posture appears.
+6. The robot is small, amateur and student-built, waves without stopping and makes NO sound at all — WRONG if it stops, whirs or beeps, or looks like a store-bought toy.
+7. Neutral, matte, professional shelving and cases — WRONG if any box looks like a toy, colourful or cartoonish. Daylight from frame-LEFT; no readable text or logo — NO music.""",
+    timeline(2, [5], [
+        "SHOT 1 (0–5s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at a long bench, already facing the lens, the tablet held low in one hand with its back to us, the amateur robot on the bench behind his shoulder waving its arm side to side without stopping, the CLASSMATE beside him grinning at it, the other students far behind busy at their own benches; he speaks at 0–5s, grinning with pride. HARD CUT.",
+        "SHOT 2 (5–6s) — CU, 35°: he and the CLASSMATE bump fists, quick and happy, the robot still waving soft behind them. Hard end mid-bump.",
     ]),
-    dialogue(line(0, 5, "ESTUDANTE", "É para isso que a Codêmígui existe… para fazer essa conexão acontecer."), "ESTUDANTE").replace(
+    dialogue(line(0, 5, "ESTUDANTE", "É para isso que a Cô-dê-mí-gui existe… para fazer essa conexão acontecer."), "ESTUDANTE").replace(
         "\nVOICE LOCK",
-        "\nPRONUNCIATION — the name is said Cô-dê-mí-gui: four even syllables, a closed ô and a closed ê, the stress on mí, and a hard G in the last syllable, \"gui\" as in \"guitarra\" — NEVER \"Codemiji\", \"Codemaig\" or \"Codemique\"; said once, clearly, inside the sentence.\nVOICE LOCK"),
-    acting("ESTUDANTE", "at 15 he and his friends just woke a robot up.",
-           "show you the robot waving behind him as proof and tell you, thrilled, what this place is for — check that you believe him, like a friend, not a teacher.",
-           "one glance back at the robot, then the lens.",
-           "a quick swallow, then the grin breaks", "a teacher's or presenter's posture, a cheeky smirk, a teenage pose"),
-    "ACTING — CLASSMATES: TACTIC watch the robot, delighted, like friends; eyes on the robot, then on him; NOT speaking, NOT looking at the lens, NOT adult-like.",
+        "\nPRONUNCIATION — the name is said Cô-dê-mí-gui: four even syllables, a closed ô and a closed ê, the stress on mí, and a last syllable that is just \"gui\" (a hard G and an i); there is NO R sound anywhere in the name — NEVER \"Codemigri\", \"Codemiji\" or \"Codemaig\"; said once, clearly, inside the sentence.\nVOICE LOCK"),
+    acting("ESTUDANTE", "he and his friends built a robot that works.",
+           "tell you, thrilled, what this place is for — check that you believe him, like a friend, not a teacher.",
+           "on the lens throughout.",
+           "a quick swallow, then the grin breaks", "a teacher's or presenter's posture, a cheeky smirk, a teenage pose, turning toward the camera"),
+    "ACTING — CLASSMATE: TACTIC watch the robot, delighted, like a friend; eyes on the robot, then on him; NOT speaking, NOT looking at the lens.\nACTING — OTHER STUDENTS (background): absorbed in their own work; NOT looking at the lens, NOT speaking.",
     T.handheld(),
-    """PHYSICS & MATERIAL — the robot's servos whirr softly as its small arm lifts and swings side to side, a little stiff, a little endearing; the tablet is a thin slab with a matte case; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the matte-grey case of the tablet, the satin white-and-graphite plastic of the robot with a few visible screws and servo joints, the matte cotton knit of his hoodie, neutral matte grey metal shelving, dark grey and black equipment cases, coiled cables, a 3D printer and a soldering station, the everyday cotton T-shirts and hoodies of his friends.""",
+    """PHYSICS & MATERIAL — the robot's single arm swings side to side on its servo, a little stiff and uneven, a little endearing, without a sound; the tablet is a thin slab with a matte case; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the matte-grey case of the tablet, the slightly uneven grey and white 3D-printed parts of the robot with visible screws, jumper wires, zip ties and a taped battery pack, the matte cotton knit of his hoodie, neutral matte grey metal shelving, dark grey and black equipment cases, coiled cables, a 3D printer and a soldering station, the everyday cotton T-shirts and hoodies of the students.""",
     T.light_int("the workshop's big windows",
-                "the robot's two small eye lights as tiny practicals.",
+                "the robot's two small LED eyes as tiny practicals.",
                 "the daylight lights the frame-LEFT side of his face and the bench; the room behind falls off a stop."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: the robot's soft servo whirr; a fan humming; friends chatting low at the benches, no words standing out; the fist bump. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: a fan humming; students working and chatting low at far benches, no words standing out; the fist bump. The robot makes NO sound. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a visible tablet screen or any screen content, mispronouncing the name (Codemiji, Codemaig, Codemique), toy-like boxes, colourful storage boxes, cartoon packaging, a children's playroom look, a toy robot, an adult, a teacher, an instructor, uniforms, lab coats, a classroom lesson posture, different wardrobe from the sheet, programme logo, posters with text, readable labels, the classmates speaking, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 2 shots, 1 hard cut at 6s, 8s, handheld — (1, 0–6s) medium shot, waist-up: he stands among his friends at the bench, the tablet low at his side with its back to us, the little robot behind his shoulder waving; he turns to the lens and says his line at 0–5s, proud, the name said Cô-dê-mí-gui — (2, 6–8s) CU: fist bump beside the robot. Invariants: no tablet screen ever visible; everyone teenage and casual, no adults, no teacher look; neutral matte professional shelving, nothing toy-like; the sheet wardrobe; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a visible tablet screen or any screen content, mispronouncing the name (Codemigri, Codemiji, Codemaig), a robot motor whirr, servo noise or beeps, a robot that stops waving, a large, polished, store-bought or toy robot, toy-like boxes, colourful storage boxes, cartoon packaging, a children's playroom look, a crowd watching the robot, an adult, a teacher, uniforms, lab coats, a classroom lesson posture, him turning to the lens, different wardrobe from the sheet, programme logo, posters with text, readable labels, extra cuts, {T.NEG_SPINE}.""",
+    """[ORDER: 2 shots, 1 hard cut at 5s, 6s, handheld — (1, 0–5s) medium shot, waist-up: already facing the lens, the tablet low at his side with its back to us, the little amateur robot waving without stopping behind his shoulder, one classmate beside him, the others busy far behind; he says his line at 0–5s, proud, the name said Cô-dê-mí-gui with no R in it — (2, 5–6s) CU: a quick fist bump, the robot still waving behind. Invariants: no tablet screen ever visible; he faces the lens from the first frame; one classmate beside him, the rest busy and far away, all teenage and casual, no adults, no teacher look; a small amateur student-built robot that waves silently the whole time; neutral matte professional shelving, nothing toy-like; the sheet wardrobe; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T15
 T15 = join(
-    contract(8, "ONE continuous take, no cuts", "handheld, the camera backing up ahead of her as she walks and talks"),
+    contract(8, "ONE continuous take, no cuts", "handheld, the camera backing up ahead of her as she walks and talks, round a 90-degree corner"),
     f"""REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@ENFERMEIRA ({ANCH['ENFERMEIRA']}) — the NURSE: steps out of a patient's room already walking and already speaking, lifts a chart folder from the wall holder in passing and keeps walking down the corridor toward us, speaking the whole time; NEVER stops, NEVER cares for a sick person on camera.
+@ENFERMEIRA ({ANCH['ENFERMEIRA']}) — the NURSE: already walking down the hospital corridor toward us and already speaking in the first frame, lifts a chart folder from the wall holder in passing, rounds a 90-degree corner of the corridor with the camera and keeps walking, speaking the whole time; NEVER stops, NEVER cares for a sick person on camera.
 FACES: her face exists once; nobody else in the frame.
 CONTACT: nobody touches anyone.""",
-    """SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, wood-veneer doors with narrow glass panels, wall-mounted chart holders beside the doors, a long line of recessed linear LED ceiling lights, the corridor curving gently ahead, nothing on the walls readable. @ENFERMEIRA is just stepping out of a patient's room, which we never see into.
+    """SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, closed wood-veneer doors with narrow glass panels, wall-mounted chart holders beside the doors, a long line of recessed linear LED ceiling lights, and ahead a true 90-degree corner where the corridor turns, nothing on the walls readable. @ENFERMEIRA is already walking down it.
 THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she tells you on the move, like a friend walking you down her ward, brisk and bright, and gives you a warm look at the end.""",
     f"""{LOCKS_HEAD}
 1. ONE continuous handheld take, no cuts, and she never stops walking — WRONG if it cuts or she stops.
-2. MEDIUM SHOT (waist-up), 40°, for the whole take, the lens backing up ahead of her at her walking pace and keeping the same distance — WRONG if the camera is ever static, goes wide or goes close.
-3. She speaks from the very FIRST frame, the whole sentence in one brisk, upbeat flow with no silent gap and no drawn-out words, finishing at about 7s — WRONG if she is slow, pauses or starts late.
-4. She takes the chart folder from the wall holder IN MOTION, her free hand lifting it in passing without breaking stride or speech — WRONG if she stops or turns to the wall.
-5. The inside of the room, any bed and any sick person are NEVER shown; the corridor is bright, modern and clean, lit by artificial ceiling light only — WRONG if it looks old, dim, green-tinted or grim.
-6. Key light from above-front on frame-LEFT — NO music.""",
+2. The scene is ALREADY in progress at the first frame: she is walking in the corridor and already speaking — WRONG if she enters from a room, starts late or begins still.
+3. MEDIUM SHOT (waist-up), 40°, for the whole take, the lens backing up ahead of her at her walking pace and keeping the same distance — WRONG if the camera is ever static, goes wide or goes close.
+4. In the MIDDLE of the take the corridor turns a true 90° corner: the camera, still backing up, swings round the corner and she turns with it, the walls sliding past and the new corridor opening behind her, without a break in her stride or her speech — WRONG if there is no real corner or the camera cuts or loses her.
+5. She speaks the whole sentence in one brisk, upbeat flow, no silent gap and no drawn-out words, finishing at about 7s; she takes the chart folder from the wall holder IN MOTION in the first seconds, without breaking stride or speech — WRONG if she is slow, pauses or turns to the wall.
+6. No room interior, bed or sick person is ever shown; the corridor is bright, modern and clean, lit by artificial ceiling light only — NO music.""",
     timeline(1, [], [
-        "BEAT 1 (0–3s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her: @ENFERMEIRA steps out of the patient's room, the door clicking shut softly behind her, already walking toward us and already speaking, eyes on the lens, a bright easy smile.",
-        "BEAT 2 (3–5s) — still walking and speaking without a beat of pause, her free hand lifts a slim grey chart folder from the holder on the wall beside her in passing and tucks it against her chest, a quick glance down at it and back to the lens.",
-        "BEAT 3 (5–8s) — she walks on with the chart against her chest, the corridor curving gently so that she and the camera round the curve together without a break; she finishes her sentence at about 7s and gives you a warm look, still walking. Hard end mid-step.",
+        "BEAT 1 (0–3s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her down the long straight corridor: @ENFERMEIRA is already walking toward us and already speaking, eyes on the lens, a bright easy smile; in passing her free hand lifts a slim grey chart folder from the holder on the wall beside her and tucks it against her chest without breaking stride or speech, a quick glance down at it and back to the lens.",
+        "BEAT 2 (3–6s) — the corner: the corridor turns a true 90 degrees to frame-LEFT; the camera, still backing up ahead of her, swings round the corner and she follows, turning with it, the walls sliding past and the new corridor opening behind her; she keeps walking and speaking the whole way, eyes on the lens.",
+        "BEAT 3 (6–8s) — the new corridor runs straight; she walks on toward us with the chart against her chest, finishes her sentence at about 7s and gives you a warm look, still walking. Hard end mid-step.",
     ]),
     dialogue(
         line(0, 7, "ENFERMEIRA", "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas.").replace(
@@ -696,17 +697,18 @@ THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is 
            "tell you on the move like a friend walking you down her ward — brisk, bright, no drag — and give you a warm look to check you understood why she is here.",
            "on the lens, with a quick glance at the chart when she takes it.",
            "she wets her lips and smiles", "stopping, turning her body to the camera, a dramatic hospital scene, a slow drawl"),
-    """CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked, never static. The operator walks BACKWARD ahead of her at her walking pace and keeps the same distance, and in the last seconds curves round the gentle bend of the corridor with her.
+    """CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked, never static. The operator walks BACKWARD ahead of her at her walking pace and keeps the same distance, and in the middle of the take swings round a true 90-degree corner of the corridor with her, still backing up.
 OPTICS: 40° throughout. FOCUS: on her eyes; the corridor soft behind. HORIZON: level.
-NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom, the camera stopping.""",
-    """GEOMETRY — the corridor runs away from the camera and curves gently to frame-LEFT; the patient's door and the chart holder beside it on the wall at frame-RIGHT, her left hand taking the folder; the lens 2.5 m ahead of her.""",
-    """PHYSICS & MATERIAL — the door swings on its soft closer and clicks; the folder slides out of its holder with a small scrape; her soft rubber soles squeak faintly on the vinyl; the chart's paper sheets shift under her arm. """ + REAL + """ MATERIAL TRUTH: the satin wood veneer, the polished pale vinyl with soft reflections of the ceiling lights, the matte painted walls, the crisp cotton of her white scrubs, the slim grey chart folder with unreadable paper.""",
-    T.LIGHT_ARTIFICIAL,
+NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom, the camera stopping, a cut at the corner.""",
+    """GEOMETRY — the corridor runs straight away from the camera for about 8 m, with the chart holder on the wall at frame-RIGHT, her left hand taking the folder; then a true 90-degree corner to frame-LEFT; after it a second straight stretch; the lens 2.5 m ahead of her throughout.""",
+    """PHYSICS & MATERIAL — the folder slides out of its holder with a small scrape; her soft rubber soles squeak faintly on the vinyl; the chart's paper sheets shift under her arm; her scrub tunic swings a little as she turns the corner. """ + REAL + """ MATERIAL TRUTH: the satin wood veneer, the polished pale vinyl with soft reflections of the ceiling lights, the matte painted walls, the crisp cotton of her white scrubs, the slim grey chart folder with unreadable paper.""",
+    T.LIGHT_ARTIFICIAL.replace("CONTINUITY: the key stays above-front on frame-LEFT in every shot; lit sides never flip.",
+                               "CONTINUITY: the key is the corridor's continuous ceiling strips, above and in front of her through the whole take, also round the corner; the light never changes character."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY under her voice: the door's soft click; her footsteps on the vinyl; the folder's paper; a ventilation hum; a trolley rolling far down the corridor; the ward's low murmur with no words standing out. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY under her voice: her footsteps on the vinyl; the folder's paper; a ventilation hum; a trolley rolling far down the corridor; the ward's low murmur with no words standing out. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a cut, a static camera, her stopping, a slow or drawling delivery, a silent gap in her speech, a late start, the inside of a room, a bed, a sick or dying person, blood, an IV drip, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, turning her body to the camera, other people in focus, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 8s, medium shot waist-up, the camera backing up ahead of her — (0–3s) she steps out of the patient's room already walking and already speaking — (3–5s) without a pause her free hand lifts the chart folder from the wall holder in passing — (5–8s) she walks on, the corridor curves and they round it together, she finishes at about 7s with a warm look; hard end mid-step. Invariants: no cuts, she never stops, the camera never static; she speaks from the first frame in a brisk, upbeat flow, no silent gap; she takes the chart in motion; modern, bright, clean corridor with artificial light only; no room interior or sick person shown. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a cut, a static camera, her stopping, entering from a room, a door closing behind her, a slow or drawling delivery, a silent gap in her speech, a late start, a corner that is only a soft curve, the inside of a room, a bed, a sick or dying person, blood, an IV drip, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, turning her body to the camera, other people in focus, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 8s, medium shot waist-up, the camera backing up ahead of her — (0–3s) the scene already in progress: she is walking down the straight corridor and already speaking, her free hand lifts the chart folder from the wall holder in passing — (3–6s) a true 90-degree corner: the camera swings round it still backing up and she turns with it, no break in stride or speech — (6–8s) the new corridor, she finishes at about 7s with a warm look; hard end mid-step. Invariants: no cuts, she never stops, the camera never static; she is in motion and speaking from the first frame in a brisk, upbeat flow; a real 90-degree corner mid-take; modern, bright, clean corridor with artificial light only; no room interior or sick person shown. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T16
