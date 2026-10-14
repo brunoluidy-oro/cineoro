@@ -619,47 +619,48 @@ SHOT 2: handheld, an operator with a body — breathing, small weight shifts, la
 
 # ---------------------------------------------------------------- T14
 T14 = join(
-    contract(11, "4 shots with 3 hard cuts at 3s, 5s and 9s", "handheld in every shot"),
+    contract(8, "2 shots with 1 hard cut at 6s", "handheld in every shot"),
     f"""REFERENCES — each reference has ONE job:
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe exactly as on the sheet. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: taps a tablet to start a small robot, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
-CLASSMATE (unreferenced: a Brazilian girl about 16, braids, grey T-shirt) — beside him in shots 3 and 4; NEVER speaks.
-ROBOT — a small white-and-grey educational humanoid robot about 30 cm tall, with servo arms and two small round eyes, no logos, standing on the bench; it waves in shot 2.
-FACES: each face exists once; other students far behind are distinct and soft, mouths closed.
-CONTACT: the only touch is the fist bump in shot 4.""",
-    """SCENE — Afternoon in the robotics workshop of a free technical course for young people in Belo Horizonte, Brazil — a bright, organised room with tidy benches, robot kits and parts on shelves. @ESTUDANTE is already holding a tablet in front of a small robot on the bench.
-THE SOUL OF THE SCENE (play it, never explain it): he just made the robot come alive with a tap and is thrilled — he tells you what this place is for.""",
+@ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: one of a group of friends at a workshop bench, a tablet in one hand, speaks once to the lens, bumps fists with a classmate; NEVER takes off the hoodie; NEVER looks or acts like a teacher.
+CLASSMATES (unreferenced, all teenagers of 15–16 in casual everyday clothes like him — T-shirts, hoodies, jeans, sneakers; NO uniforms, NO lab coats, NO adults): a Brazilian girl with braids in a grey T-shirt, jeans and sneakers beside him; behind them three or four more, distinct and soft — a boy in a washed-blue T-shirt, a girl in a beige sweatshirt, a boy in a black hoodie — watching the little robot and chatting; NEVER speak.
+ROBOT — a small educational humanoid robot about 30 cm tall on the bench just behind his shoulder: matte white-and-graphite plastic, visible servo joints and screws, two small round eyes; a real robotics-class machine, NOT a toy; no logos.
+FACES: each face exists once.
+CONTACT: the only touch is the fist bump in shot 2.""",
+    """SCENE — Afternoon in the robotics workshop of a free technical course for teenagers in Belo Horizonte, Brazil — a bright, serious, organised room: neutral grey metal shelving with matte grey and black equipment cases and tidy cable reels, a 3D printer, a soldering station, closed laptops, long benches. @ESTUDANTE stands at a bench among his friends, a tablet in his hand, the little robot awake behind him.
+THE SOUL OF THE SCENE (play it, never explain it): he and his friends just woke the robot up and he is thrilled — he tells you what this place is for, like one of the gang.""",
     f"""{LOCKS_HEAD}
-1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 9s; handheld in every shot.
-2. The tablet's SCREEN is NEVER visible: in shot 1 the tablet is seen almost edge-on, a thin matte slab, never screen-on to the lens — WRONG if any screen, interface or screen glow is shown anywhere.
+1. Exactly 2 shots, 1 hard cut at 6s; handheld in every shot.
+2. The tablet's SCREEN is NEVER visible: held low at his side with its back to the lens — WRONG if any screen, interface or screen glow is shown.
 3. @ESTUDANTE wears exactly his sheet wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
-4. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy; only @ESTUDANTE speaks, only this line — the classmate's and the robot's mouths stay closed.
-5. The robot waves in shot 2 and is the small robot described — WRONG if it is large, humanoid-human or carries a logo.
-6. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.""",
-    timeline(4, [3, 5, 9], [
-        "SHOT 1 (0–3s) — ECU, 35°: the tablet seen almost edge-on, a thin matte-grey slab, his index finger taps it twice and swipes once, the screen turned away from the lens. HARD CUT.",
-        "SHOT 2 (3–5s) — CU, 35°: the small robot on the bench comes alive — its eyes light softly, its head tilts and one arm rises and waves three times. HARD CUT.",
-        "SHOT 3 (5–9s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at the bench with the tablet low at his side, screen away from us, the CLASSMATE beside him, the little robot between them lowering its arm; he turns to the lens and speaks at 5–9s, grinning with pride. HARD CUT.",
-        "SHOT 4 (9–11s) — CU, 35°: he and the CLASSMATE bump fists in front of the little robot. Hard end mid-bump.",
+4. He speaks only in shot 1 at 0–5s, eyes alive on the lens; the name Codemig is said exactly Cô-dê-mí-gui — WRONG if glassy or mispronounced; only he speaks, the classmates' and the robot's mouths stay closed.
+5. EVERYONE in the room is a teenager of 15–16 in casual clothes like him, and he is one of the group — WRONG if any adult, uniform, lab coat or teacher-like posture appears.
+6. The shelving and cases behind him are neutral, matte, grey and black and look professional — WRONG if any box looks like a toy, colourful or cartoonish.
+7. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.""",
+    timeline(2, [6], [
+        "SHOT 1 (0–6s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at a long bench, the tablet held low in one hand with its back to us, the small robot on the bench just behind his shoulder, awake, its eyes softly lit, slowly waving one arm; the CLASSMATES around him in casual clothes, watching the robot; he turns to the lens and speaks at 0–5s, grinning with pride; at 5–6s he holds the grin. HARD CUT.",
+        "SHOT 2 (6–8s) — CU, 35°: he and the girl CLASSMATE bump fists beside the little robot. Hard end mid-bump.",
     ]),
-    dialogue(line(5, 9, "ESTUDANTE", "É para isso que a Codemig existe… para fazer essa conexão acontecer."), "ESTUDANTE"),
-    acting("ESTUDANTE", "at 15 he just made a robot wake up with a tap.",
-           "show you the waving robot as proof and tell you, thrilled, what this place is for — check that you believe him.",
-           "from the robot to the lens.",
-           "a quick swallow, then the grin breaks", "a cheeky smirk, a teenage pose"),
-    "ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the robot, then on him; NOT speaking, NOT looking at the lens.",
+    dialogue(line(0, 5, "ESTUDANTE", "É para isso que a Codêmígui existe… para fazer essa conexão acontecer."), "ESTUDANTE").replace(
+        "\nVOICE LOCK",
+        "\nPRONUNCIATION — the name is said Cô-dê-mí-gui: four even syllables, a closed ô and a closed ê, the stress on mí, and a hard G in the last syllable, \"gui\" as in \"guitarra\" — NEVER \"Codemiji\", \"Codemaig\" or \"Codemique\"; said once, clearly, inside the sentence.\nVOICE LOCK"),
+    acting("ESTUDANTE", "at 15 he and his friends just woke a robot up.",
+           "show you the robot waving behind him as proof and tell you, thrilled, what this place is for — check that you believe him, like a friend, not a teacher.",
+           "one glance back at the robot, then the lens.",
+           "a quick swallow, then the grin breaks", "a teacher's or presenter's posture, a cheeky smirk, a teenage pose"),
+    "ACTING — CLASSMATES: TACTIC watch the robot, delighted, like friends; eyes on the robot, then on him; NOT speaking, NOT looking at the lens, NOT adult-like.",
     T.handheld(),
-    """PHYSICS & MATERIAL — his fingertip taps the case with a soft knock; the robot's servos whirr softly as its head tilts and its small arm lifts and swings side to side three times, a little stiff, a little endearing; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the matte-grey case of the tablet, the satin white-and-grey plastic of the robot with a few visible screws and servo joints, the matte cotton knit of his hoodie, organised robot parts and tools on the bench.""",
+    """PHYSICS & MATERIAL — the robot's servos whirr softly as its small arm lifts and swings side to side, a little stiff, a little endearing; the tablet is a thin slab with a matte case; the fist bump lands with a soft knock. """ + REAL + """ MATERIAL TRUTH: the matte-grey case of the tablet, the satin white-and-graphite plastic of the robot with a few visible screws and servo joints, the matte cotton knit of his hoodie, neutral matte grey metal shelving, dark grey and black equipment cases, coiled cables, a 3D printer and a soldering station, the everyday cotton T-shirts and hoodies of his friends.""",
     T.light_int("the workshop's big windows",
                 "the robot's two small eye lights as tiny practicals.",
                 "the daylight lights the frame-LEFT side of his face and the bench; the room behind falls off a stop."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: his fingertip tapping the case; the robot's soft servo whirr; a fan humming; other students working at far benches, no words standing out; the fist bump. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: the robot's soft servo whirr; a fan humming; friends chatting low at the benches, no words standing out; the fist bump. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a visible tablet screen, any screen content or interface, a circuit panel, terminal blocks, a lamp, old-fashioned electrical gear, a large or human-like robot, a robot with a logo, different wardrobe from the sheet, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the tablet seen almost edge-on, his finger taps it, the screen never visible — (2, 3–5s) CU: the small robot wakes and waves — (3, 5–9s) medium shot, waist-up: he turns to the lens and says his line, proud, the little robot beside him — (4, 9–11s) CU: fist bump in front of the robot. Invariants: no tablet screen ever visible; a small white-and-grey robot; the sheet wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a visible tablet screen or any screen content, mispronouncing the name (Codemiji, Codemaig, Codemique), toy-like boxes, colourful storage boxes, cartoon packaging, a children's playroom look, a toy robot, an adult, a teacher, an instructor, uniforms, lab coats, a classroom lesson posture, different wardrobe from the sheet, programme logo, posters with text, readable labels, the classmates speaking, extra cuts, {T.NEG_SPINE}.""",
+    """[ORDER: 2 shots, 1 hard cut at 6s, 8s, handheld — (1, 0–6s) medium shot, waist-up: he stands among his friends at the bench, the tablet low at his side with its back to us, the little robot behind his shoulder waving; he turns to the lens and says his line at 0–5s, proud, the name said Cô-dê-mí-gui — (2, 6–8s) CU: fist bump beside the robot. Invariants: no tablet screen ever visible; everyone teenage and casual, no adults, no teacher look; neutral matte professional shelving, nothing toy-like; the sheet wardrobe; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T15

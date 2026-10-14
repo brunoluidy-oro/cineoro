@@ -1185,59 +1185,59 @@ Notas: conferir: ônibus parado (nada deslizando pelas janelas), porta fechada, 
 
 ### T14 · Trilhas de Futuro (Conexão, ~3.8s no corte)
 
-O estudante aciona um tablet (a tela nunca aparece) e um robozinho de aula de robótica começa a acenar; ele fala e comemora com a colega.
+Já no plano médio: o estudante, com o tablet na mão e o robozinho acenando atrás dele, entre colegas da mesma idade, fala a frase e comemora com um soquinho.
 
-#### Geração T14 · 11s · 4 plano(s)
+#### Geração T14 · 8s · 2 plano(s)
 
-- **O que acontece:** Na oficina de robótica do curso técnico: o dedo do estudante toca um tablet visto quase de lado (sem tela à mostra), o robozinho acorda e acena, o estudante vira pra lente e fala orgulhoso, e bate um soquinho com a colega na frente do robô.
-- **O que é dito:** ESTUDANTE: "É para isso que a Codemig existe… para fazer essa conexão acontecer."
-- **Tempo:** tablet tocado — 3s · robô acorda e acena — 2s · fala — 4s · soquinho — 2s = 11s
-- **Como termina:** o soquinho na frente do robozinho; corte seco.
-- **Direção:** Troquei o borne e a lâmpada (ultrapassados) por um tablet e um robozinho de aula de robótica. O tablet aparece quase de perfil, uma plaquinha fina e fosca com o dedo dele tocando, e a tela nunca aparece (nem brilho). O robô é pequeno (uns 30 cm), branco e cinza, sem logo, com olhos redondos que acendem de leve, e acena três vezes. A fala fecha com o soquinho na frente do robô. O plano da fala agora é médio, da cintura pra cima. Figurino igual ao do sheet.
+- **O que acontece:** Na oficina de robótica do curso técnico, plano médio da cintura pra cima: o estudante, entre amigos adolescentes de roupa casual, com o tablet baixo na mão (a tela nunca aparece) e o robozinho acenando atrás do ombro dele, vira pra lente e fala orgulhoso; corte seco para o soquinho com a colega ao lado do robô.
+- **O que é dito:** ESTUDANTE: "É para isso que a Codemig existe… para fazer essa conexão acontecer." (no prompt a palavra está escrita "Codêmígui", com guia de pronúncia Cô-dê-mí-gui)
+- **Tempo:** fala no plano médio — 6s (fala em 0–5s) · soquinho — 2s = 8s
+- **Como termina:** o soquinho ao lado do robô; corte seco.
+- **Direção:** Os dois primeiros planos saíram: o take começa direto no plano médio com a fala, o tablet na mão (a tela nunca aparece) e o robozinho acenando atrás dele. Pronúncia: a palavra está escrita "Codêmígui" na fala e há um bloco PRONUNCIATION (quatro sílabas iguais, ô e ê fechados, tônica em mí, G duro em "gui" como em guitarra), repetido na trava, no resumo e no NEGATIVE; nunca "Codemiji", "Codemaig" ou "Codemique". Os colegas, na frente e no fundo, agora são adolescentes de 15–16 anos de roupa casual como ele (camiseta, moletom, jeans, tênis), sem adultos, sem uniforme e sem jaleco, e ele é um do grupo, sem postura de professor. As caixas ficaram sóbrias: estantes de metal cinza fosco com caixas de equipamento cinza e preto, bobinas de cabo, impressora 3D e bancada de solda, com NEGATIVE contra caixa colorida ou com cara de brinquedo. O robô é descrito como máquina de aula de robótica (plástico branco e grafite fosco, servos e parafusos à mostra), não brinquedo. Interpretei "o robozinho atrás" com ele acenando devagar atrás do ombro dele; se preferir parado, é só dizer.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 11 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 9s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 8 seconds total, 2 shots with 1 hard cut at 6s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe exactly as on the sheet. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: taps a tablet to start a small robot, speaks once, bumps fists with a classmate; NEVER takes off the hoodie.
-CLASSMATE (unreferenced: a Brazilian girl about 16, braids, grey T-shirt) — beside him in shots 3 and 4; NEVER speaks.
-ROBOT — a small white-and-grey educational humanoid robot about 30 cm tall, with servo arms and two small round eyes, no logos, standing on the bench; it waves in shot 2.
-FACES: each face exists once; other students far behind are distinct and soft, mouths closed.
-CONTACT: the only touch is the fist bump in shot 4.
+@ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: one of a group of friends at a workshop bench, a tablet in one hand, speaks once to the lens, bumps fists with a classmate; NEVER takes off the hoodie; NEVER looks or acts like a teacher.
+CLASSMATES (unreferenced, all teenagers of 15–16 in casual everyday clothes like him — T-shirts, hoodies, jeans, sneakers; NO uniforms, NO lab coats, NO adults): a Brazilian girl with braids in a grey T-shirt, jeans and sneakers beside him; behind them three or four more, distinct and soft — a boy in a washed-blue T-shirt, a girl in a beige sweatshirt, a boy in a black hoodie — watching the little robot and chatting; NEVER speak.
+ROBOT — a small educational humanoid robot about 30 cm tall on the bench just behind his shoulder: matte white-and-graphite plastic, visible servo joints and screws, two small round eyes; a real robotics-class machine, NOT a toy; no logos.
+FACES: each face exists once.
+CONTACT: the only touch is the fist bump in shot 2.
 
-SCENE — Afternoon in the robotics workshop of a free technical course for young people in Belo Horizonte, Brazil — a bright, organised room with tidy benches, robot kits and parts on shelves. @ESTUDANTE is already holding a tablet in front of a small robot on the bench.
-THE SOUL OF THE SCENE (play it, never explain it): he just made the robot come alive with a tap and is thrilled — he tells you what this place is for.
+SCENE — Afternoon in the robotics workshop of a free technical course for teenagers in Belo Horizonte, Brazil — a bright, serious, organised room: neutral grey metal shelving with matte grey and black equipment cases and tidy cable reels, a 3D printer, a soldering station, closed laptops, long benches. @ESTUDANTE stands at a bench among his friends, a tablet in his hand, the little robot awake behind him.
+THE SOUL OF THE SCENE (play it, never explain it): he and his friends just woke the robot up and he is thrilled — he tells you what this place is for, like one of the gang.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 9s; handheld in every shot.
-2. The tablet's SCREEN is NEVER visible: in shot 1 the tablet is seen almost edge-on, a thin matte slab, never screen-on to the lens — WRONG if any screen, interface or screen glow is shown anywhere.
+1. Exactly 2 shots, 1 hard cut at 6s; handheld in every shot.
+2. The tablet's SCREEN is NEVER visible: held low at his side with its back to the lens — WRONG if any screen, interface or screen glow is shown.
 3. @ESTUDANTE wears exactly his sheet wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
-4. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy; only @ESTUDANTE speaks, only this line — the classmate's and the robot's mouths stay closed.
-5. The robot waves in shot 2 and is the small robot described — WRONG if it is large, humanoid-human or carries a logo.
-6. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.
+4. He speaks only in shot 1 at 0–5s, eyes alive on the lens; the name Codemig is said exactly Cô-dê-mí-gui — WRONG if glassy or mispronounced; only he speaks, the classmates' and the robot's mouths stay closed.
+5. EVERYONE in the room is a teenager of 15–16 in casual clothes like him, and he is one of the group — WRONG if any adult, uniform, lab coat or teacher-like posture appears.
+6. The shelving and cases behind him are neutral, matte, grey and black and look professional — WRONG if any box looks like a toy, colourful or cartoonish.
+7. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.
 
-TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — ECU, 35°: the tablet seen almost edge-on, a thin matte-grey slab, his index finger taps it twice and swipes once, the screen turned away from the lens. HARD CUT.
-SHOT 2 (3–5s) — CU, 35°: the small robot on the bench comes alive — its eyes light softly, its head tilts and one arm rises and waves three times. HARD CUT.
-SHOT 3 (5–9s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at the bench with the tablet low at his side, screen away from us, the CLASSMATE beside him, the little robot between them lowering its arm; he turns to the lens and speaks at 5–9s, grinning with pride. HARD CUT.
-SHOT 4 (9–11s) — CU, 35°: he and the CLASSMATE bump fists in front of the little robot. Hard end mid-bump.
+TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–6s) — MS (waist-up, the workshop soft around him), 40°: @ESTUDANTE at a long bench, the tablet held low in one hand with its back to us, the small robot on the bench just behind his shoulder, awake, its eyes softly lit, slowly waving one arm; the CLASSMATES around him in casual clothes, watching the robot; he turns to the lens and speaks at 0–5s, grinning with pride; at 5–6s he holds the grin. HARD CUT.
+SHOT 2 (6–8s) — CU, 35°: he and the girl CLASSMATE bump fists beside the little robot. Hard end mid-bump.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[5–9s] @ESTUDANTE (on camera, Brazilian Portuguese): "É para isso que a Codemig existe… para fazer essa conexão acontecer."
+[0–5s] @ESTUDANTE (on camera, Brazilian Portuguese): "É para isso que a Codêmígui existe… para fazer essa conexão acontecer."
+PRONUNCIATION — the name is said Cô-dê-mí-gui: four even syllables, a closed ô and a closed ê, the stress on mí, and a hard G in the last syllable, "gui" as in "guitarra" — NEVER "Codemiji", "Codemaig" or "Codemique"; said once, clearly, inside the sentence.
 VOICE LOCK — @ESTUDANTE: Brazilian teenage boy, 15, light new baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @ESTUDANTE (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
-MOTIVE: at 15 he just made a robot wake up with a tap.
-TACTIC: show you the waving robot as proof and tell you, thrilled, what this place is for — check that you believe him.
-EYES: from the robot to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a quick swallow, then the grin breaks. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, a cheeky smirk, a teenage pose.
+MOTIVE: at 15 he and his friends just woke a robot up.
+TACTIC: show you the robot waving behind him as proof and tell you, thrilled, what this place is for — check that you believe him, like a friend, not a teacher.
+EYES: one glance back at the robot, then the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a quick swallow, then the grin breaks. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, a teacher's or presenter's posture, a cheeky smirk, a teenage pose.
 
-ACTING — CLASSMATE: TACTIC celebrate with him; eyes on the robot, then on him; NOT speaking, NOT looking at the lens.
+ACTING — CLASSMATES: TACTIC watch the robot, delighted, like friends; eyes on the robot, then on him; NOT speaking, NOT looking at the lens, NOT adult-like.
 
 CAMERA — handheld in EVERY shot, an operator with a body: breathing, small weight shifts, late corrections; never locked, never still — in the close-ups it drifts and follows the hands, in the line shot it drifts slowly around the speaker.
 OPTICS: as stated per shot; no lens drift inside a shot.
@@ -1245,7 +1245,7 @@ FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
 
-PHYSICS & MATERIAL — his fingertip taps the case with a soft knock; the robot's servos whirr softly as its head tilts and its small arm lifts and swings side to side three times, a little stiff, a little endearing; the fist bump lands with a soft knock. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the matte-grey case of the tablet, the satin white-and-grey plastic of the robot with a few visible screws and servo joints, the matte cotton knit of his hoodie, organised robot parts and tools on the bench.
+PHYSICS & MATERIAL — the robot's servos whirr softly as its small arm lifts and swings side to side, a little stiff, a little endearing; the tablet is a thin slab with a matte case; the fist bump lands with a soft knock. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the matte-grey case of the tablet, the satin white-and-graphite plastic of the robot with a few visible screws and servo joints, the matte cotton knit of his hoodie, neutral matte grey metal shelving, dark grey and black equipment cases, coiled cables, a 3D printer and a soldering station, the everyday cotton T-shirts and hoodies of his friends.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: daylight through the workshop's big windows on frame-LEFT, ~5600 K, soft and directional; the robot's two small eye lights as tiny practicals.
@@ -1257,22 +1257,22 @@ NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-ou
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: his fingertip tapping the case; the robot's soft servo whirr; a fan humming; other students working at far benches, no words standing out; the fist bump. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: the robot's soft servo whirr; a fan humming; friends chatting low at the benches, no words standing out; the fist bump. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: a visible tablet screen, any screen content or interface, a circuit panel, terminal blocks, a lamp, old-fashioned electrical gear, a large or human-like robot, a robot with a logo, different wardrobe from the sheet, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: a visible tablet screen or any screen content, mispronouncing the name (Codemiji, Codemaig, Codemique), toy-like boxes, colourful storage boxes, cartoon packaging, a children's playroom look, a toy robot, an adult, a teacher, an instructor, uniforms, lab coats, a classroom lesson posture, different wardrobe from the sheet, programme logo, posters with text, readable labels, the classmates speaking, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the tablet seen almost edge-on, his finger taps it, the screen never visible — (2, 3–5s) CU: the small robot wakes and waves — (3, 5–9s) medium shot, waist-up: he turns to the lens and says his line, proud, the little robot beside him — (4, 9–11s) CU: fist bump in front of the robot. Invariants: no tablet screen ever visible; a small white-and-grey robot; the sheet wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 6s, 8s, handheld — (1, 0–6s) medium shot, waist-up: he stands among his friends at the bench, the tablet low at his side with its back to us, the little robot behind his shoulder waving; he turns to the lens and says his line at 0–5s, proud, the name said Cô-dê-mí-gui — (2, 6–8s) CU: fist bump beside the robot. Invariants: no tablet screen ever visible; everyone teenage and casual, no adults, no teacher look; neutral matte professional shelving, nothing toy-like; the sheet wardrobe; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 11s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 8s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ESTUDANTE (character sheet) — identidade e figurino do sheet
-Notas: conferir: nenhuma tela, interface ou brilho de tela em lugar nenhum; robô pequeno, branco e cinza, sem logo; pronúncia de "Codemig" (se sair errada, regerar antes de mexer na grafia).
+Notas: conferir: pronúncia Cô-dê-mí-gui (G duro no fim); nenhuma tela de tablet; todos adolescentes de roupa casual, sem adulto nem postura de professor; estantes e caixas sóbrias, nada com cara de brinquedo; robô de aula de robótica, sem logo.
 ```
 
 ### T15 · Hospital (Conexão, ~6.8s no corte)
@@ -1870,6 +1870,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **Dolly-out (match):** o modelo pode deixar a câmera parada ou dar um zoom em vez de recuar. No draft, confira se a câmera recua de verdade (o rosto encolhe aos poucos e o fundo abre); reforce "the camera moves back, no zoom" se precisar.
 - **Flare do T09-B:** um só, no plano 1. Se aparecer flare no plano 2, ou bolhas de bokeh, regenerar; o plano 2 tem que repetir a luz do T09-A.
 - **Escudo na camisa da torcedora:** o sheet da @TORCEDORA veio com um escudo azul e amarelo no peito, que lembra seleção ou clube. Gere o sheet de novo com o peito liso ou apague o escudo; no T11 confira que o peito sai liso.
+- **Pronúncia de Codemig (T14):** o modelo pode ler "Codemig" com G mole ou sem o "gui" final. A fala está escrita "Codêmígui" com guia de pronúncia; se errar de novo, tente "Cô-dê-mí-guí" na fala ou grave só essa palavra no ElevenLabs.
 - **Tela do tablet (T14):** o modelo tende a mostrar a tela ou um brilho dela. O prompt mostra o tablet quase de perfil e proíbe qualquer interface; se aparecer, regerar com o tablet ainda mais de lado.
 - **Corredor do T15:** se o hospital sair velho, escuro ou verde, reforce a luz de LED neutro-quente e as paredes claras com madeira; se o paciente falar, regerar: a conversa é muda.
 - **Duas falas numa geração (T02):** o prompt trava quem fala em qual segundo; fallback de voz no ElevenLabs.
