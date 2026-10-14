@@ -572,43 +572,43 @@ Notas: se sair rótulo legível em frasco ou tela, regerar: texto não pode apar
 
 ### T07 · Restaurante (Revezamento, ~1.8s no corte)
 
-Visão zenital de um prato de salada recebendo azeite de ervas; corte para o dono na frente da cozinha aberta, jogando o pano no ombro enquanto fala.
+Visão zenital, câmera parada, de um prato de salada no balcão de inox recebendo azeite de ervas verde-escuro; corte para o dono já olhando pra câmera, com a cozinha aberta atrás, jogando o pano no ombro enquanto fala.
 
 #### Geração T07 · 6s · 2 plano(s)
 
-- **O que acontece:** Num restaurante saudável contemporâneo em BH: visão zenital do prato de salada sendo finalizado com um fio de azeite de ervas. Corte: o dono, com a cozinha aberta e os cozinheiros trabalhando ao fundo, joga um pano no ombro enquanto vira pra lente e fala.
+- **O que acontece:** Num restaurante saudável contemporâneo em BH: visão zenital, câmera parada, do prato de salada sobre o balcão de inox (campainha, utensílios de chef e comandas de papel ao lado) sendo finalizado com um fio de azeite de ervas verde-escuro, saindo de uma bisnaga. Corte: o dono, que já olha pra câmera no primeiro frame, com a cozinha aberta e os cozinheiros trabalhando ao fundo, fala e joga um pano no ombro.
 - **O que é dito:** DONO: "de uma economia mais sustentável."
-- **Tempo:** zenital do prato e do azeite — 3s · dono, pano no ombro e fala — 2s · segura o sorriso — 1s = 6s
+- **Tempo:** zenital parado: azeite sobre o prato — 3s · dono olhando pra câmera, fala e joga o pano — 2s · segura o sorriso — 1s = 6s
 - **Como termina:** ele sorrindo pra lente, a cozinha trabalhando atrás; corte seco.
-- **Direção:** Dois planos, como você pediu. A câmera anda de lado nos dois, inclusive o zenital (segurada a 60 cm acima do prato). A cliente saiu. A fala fica no plano com a cozinha, e o pano no ombro cai durante a frase.
+- **Direção:** Dois planos, como você pediu. O zenital fica parado (só uma respiração leve de câmera na mão, sem andar); o segundo plano anda de lado. Ele já começa olhando pra lente, sem virar. A cliente saiu. O pano cai no ombro durante a frase.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 6 seconds total, 2 shots with 1 hard cut at 3s, handheld travelling sideways from frame-left to frame-right in both shots, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 6 seconds total, 2 shots with 1 hard cut at 3s, handheld; shot 1 overhead and not travelling, shot 2 travelling sideways from frame-left to frame-right, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@DONO (60, white Brazilian man, solid build, broad deeply lined face with age spots, large nose and ears, grey-hazel eyes, thick bushy white-grey moustache covering the upper lip, short white hair thinning on top, cream short-sleeved camp-collar shirt with a chest pocket, very dark navy knee-length waist apron, dark grey trousers, tan leather loafers) — the OWNER: finishes the plate, tosses a towel onto his shoulder, speaks once; NEVER sits, NEVER walks out of frame.
+@DONO (60, white Brazilian man, solid build, broad deeply lined face with age spots, large nose and ears, grey-hazel eyes, thick bushy white-grey moustache covering the upper lip, short white hair thinning on top, cream short-sleeved camp-collar shirt with a chest pocket, very dark navy knee-length waist apron, dark grey trousers, tan leather loafers) — the OWNER: finishes the plate with a squeeze bottle, then speaks once, already looking at the lens, flicking a towel onto his shoulder; NEVER sits, NEVER walks out of frame.
 KITCHEN STAFF: three or four cooks working in the open kitchen behind him, distinct Brazilian men and women in plain white cook's jackets and dark aprons with no logos, soft and busy, silent, mouths closed.
 FACES: each face exists once; no twins, no clones.
 CONTACT: nobody touches anyone.
 
-SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen where the staff is busy. @DONO is already finishing a salad plate at the pass.
+SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen where the staff is busy. @DONO is already finishing a salad plate on the stainless-steel pass.
 THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in this city for decades and this one is his pride — he lets you in on it like an old friend.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. Exactly 2 shots with 1 hard cut at 3s — WRONG if there are extra cuts.
-2. The handheld camera travels sideways from frame-left to frame-right at the same steady pace in BOTH shots (shot 1 held overhead) — WRONG if it stops, reverses, pushes in or glides.
-3. Shot 1 shows only the plate and his hand with the jug, no face; the line is spoken only in shot 2, eyes alive on the lens.
+2. Shot 1: the camera is held directly overhead and does NOT travel — it stays put with only a faint handheld breath. Shot 2: the handheld camera travels sideways from frame-left to frame-right at one steady pace — WRONG if shot 1 travels, or shot 2 stops, reverses, pushes in or glides.
+3. Shot 1 shows only the plate, the steel counter and his hand with the squeeze bottle, no face; in shot 2 he is ALREADY looking at the lens in the first frame and speaks only there, eyes alive.
 4. Only @DONO speaks, only "de uma economia mais sustentável." — the cooks never speak.
-5. In shot 2 he tosses the towel onto his shoulder WHILE he speaks, and the open kitchen with working cooks fills the background — WRONG if the background is empty.
+5. In shot 2 he flicks the towel onto his shoulder WHILE he speaks, without turning away from the lens, and the open kitchen with working cooks fills the background — WRONG if the background is empty.
 6. Light from frame-LEFT — NO music.
 
 TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — OVERHEAD, straight top-down (zenithal), 47°, held 60 cm above the table and drifting sideways: a ceramic plate of salad — fresh greens, grilled vegetables, cherry tomatoes, seeds — and @DONO's hand tilting a small jug that pours a thin ribbon of green-gold herb olive oil in a spiral over the salad, the oil beading on the leaves. HARD CUT.
-SHOT 2 (3–6s) — MWS (from the knees up, the open kitchen behind him), 63°: @DONO at the right third, the cooks working at the stoves and prep counter behind him, soft; he flicks a clean white kitchen towel onto his left shoulder as he turns to the lens and speaks at 3–5s with a complicit smile; at 5–6s he holds the smile. Hard end.
+SHOT 1 (0–3s) — OVERHEAD, straight top-down (zenithal), 47°, held directly above and staying put: a ceramic plate of salad — fresh greens, grilled vegetables, cherry tomatoes, seeds — on a brushed stainless-steel pass counter; beside the plate, a silver service bell, chef's tools (tongs, a spoon, a pepper mill) and paper order tickets; @DONO's hand squeezes a plastic squeeze bottle that draws a thin line of DARK green herb oil over the salad, the oil beading on the leaves. HARD CUT.
+SHOT 2 (3–6s) — MWS (from the knees up, the open kitchen behind him), 63°: @DONO at the right third, ALREADY looking at the lens from the first frame, the cooks working at the stoves and prep counter behind him, soft; he speaks at 3–5s with a complicit smile and flicks a clean white kitchen towel onto his left shoulder while he speaks; at 5–6s he holds the smile. Hard end.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
 [3–5s] @DONO (on camera, Brazilian Portuguese): "de uma economia mais sustentável."
@@ -617,18 +617,17 @@ VOICE LOCK — @DONO: Brazilian man, 60, deep easy voice; light Minas Gerais int
 ACTING — @DONO (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
 MOTIVE: decades in this city's kitchens, and this place is his pride.
-TACTIC: finish the plate with pleasure, then let you in on it with a complicit look, like to an old friend.
-EYES: on the plate, then a warm look to the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his moustache lifts on one side before he speaks. A frozen pupil is wrong.
+TACTIC: let you in on it with a complicit look, like to an old friend, while he flicks the towel onto his shoulder.
+EYES: on the lens from the first frame of shot 2. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his moustache lifts on one side before he speaks. A frozen pupil is wrong.
 NOT: a solemn or serious face, a speech, a stiff advertising grin, a waiter's bow, presenting the plate to the camera.
 
-CAMERA — handheld in EVERY shot: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT in every shot — the close-up inserts and the line shot alike — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in.
-OPTICS: as stated per shot; no lens drift inside a shot.
-FOCUS: on the hands and objects in the inserts; on the speaker's eyes in the line shot; backgrounds slide past soft.
-HORIZON: level.
-NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, the camera stopping or reversing.
-SHOT 1 OVERHEAD: held directly above the plate, looking straight down, drifting sideways at the same pace.
+CAMERA — handheld in both shots.
+SHOT 1: held directly above the plate, looking straight down, and it STAYS PUT: only a faint handheld breath, no travel.
+SHOT 2: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT, lens at shoulder height, small footfall bounce; never stops, never reverses, never pushes in.
+OPTICS: as stated per shot; no lens drift. FOCUS: on the plate in shot 1; on his eyes in shot 2, the kitchen soft behind. HORIZON: level in shot 2.
+NOT: shot 1 travelling, a tripod or locked-off frame in shot 2, gimbal glide, drone, push-in, zoom.
 
-PHYSICS & MATERIAL — the oil falls in a thin ribbon, spirals and beads on the leaves; the towel flicks through the air and lands on his shoulder; pans move and steam rises in the kitchen behind him. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: glossy green-gold herb oil, flakes of sea salt, the glaze of a handmade ceramic plate, the grain of the light wood table, the cotton of the towel, steel of the pass.
+PHYSICS & MATERIAL — the squeeze bottle gives with a small hiss and draws a thin line of oil that beads on the leaves; the towel flicks through the air and lands on his shoulder; pans move and steam rises in the kitchen behind him. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: glossy dark green herb oil, flakes of sea salt, the glaze of a handmade ceramic plate, brushed stainless steel with soft reflections, a silver service bell, order tickets in paper, the cotton of the towel.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: daylight through the restaurant's big street windows on frame-LEFT, ~5600 K, soft and directional; warm pendant lights over the pass and the kitchen lights in the background, small, never on his face.
@@ -640,13 +639,13 @@ NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-ou
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the oil trickling; the plate touching the wood; pans sizzling and cutlery in the open kitchen; the cooks' murmur with no words standing out; the towel's soft flick; the street through the door. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: the squeeze bottle's soft hiss; a service bell's single ding far off; the plate on the steel; pans sizzling and cutlery in the open kitchen; the cooks' murmur with no words standing out; the towel's soft flick; the street through the door. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: a customer, a face in shot 1, an empty kitchen, cooks speaking, a rustic old eatery, readable menu, logos on the uniforms, the camera stopping, push-in, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: a customer, a face in shot 1, a travelling or moving camera in shot 1, bright or golden oil, him turning toward the lens in shot 2, an empty kitchen, cooks speaking, a rustic old eatery, readable menu, logos on the uniforms, a locked-off or stopped camera in shot 2, push-in, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut at 3s, 6s, handheld travelling left to right in both shots — (1, 0–3s) overhead: herb oil spirals over the salad — (2, 3–6s) medium-wide: the open kitchen behind him, he flicks the towel onto his shoulder and says his line with a complicit smile. Invariants: constant lateral travel; shot 1 no face; he speaks only in shot 2, towel toss during the line; busy kitchen behind. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 3s, 6s, handheld — (1, 0–3s) overhead on the steel counter, camera staying put: dark green herb oil from a squeeze bottle over the salad — (2, 3–6s) medium-wide, travelling: already looking at the lens, the open kitchen behind him, he says his line and flicks the towel onto his shoulder. Invariants: shot 1 static overhead, no face; shot 2 lateral travel; he looks at the lens from the first frame; towel toss during the line; busy kitchen behind. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -655,7 +654,7 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 6s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @DONO (character sheet) — identidade
-Notas: confira: câmera realmente olhando reto pra baixo no plano 1, sem rosto; cozinheiros ao fundo no plano 2 (não vazio, sem logos); o pano pousa no ombro durante a fala.
+Notas: confira: plano 1 reto de cima e sem andar, balcão de inox com campainha, utensílios e comandas, azeite verde-escuro saindo de uma bisnaga; plano 2 com ele olhando pra lente desde o primeiro frame e cozinheiros ao fundo (sem logos); o pano pousa no ombro durante a fala. Se quiser a câmera 100% travada no plano 1, me diga: deixei uma respiração mínima para não ficar congelado.
 ```
 
 ### T08 · Plantação (Revezamento, ~8.3s no corte)
