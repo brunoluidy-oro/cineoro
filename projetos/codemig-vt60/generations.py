@@ -665,49 +665,48 @@ THE SOUL OF THE SCENE (play it, never explain it): he and his friends just woke 
 
 # ---------------------------------------------------------------- T15
 T15 = join(
-    contract(11, "3 shots with 2 hard cuts at 2s and 7s", "handheld in every shot, the camera always travelling with her as she walks"),
+    contract(8, "ONE continuous take, no cuts", "handheld, the camera backing up ahead of her as she walks and talks"),
     f"""REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@ENFERMEIRA ({ANCH['ENFERMEIRA']}) — the NURSE: walks out of a patient's room, takes a chart and keeps walking down the corridor, speaking the whole time; as she turns slightly toward a colleague the take cuts, and after the cut she is already walking again and finishes her sentence; NEVER stops talking, NEVER cares for a sick person on camera.
-COLLEAGUE (unreferenced: a Brazilian nurse about 35, light-brown skin, dark hair in a neat bun, white scrubs) — only glimpsed, soft, at frame-RIGHT at the very end of shot 2; NEVER speaks.
-FACES: each face exists once; nobody else in focus.
+@ENFERMEIRA ({ANCH['ENFERMEIRA']}) — the NURSE: steps out of a patient's room already walking and already speaking, lifts a chart folder from the wall holder in passing and keeps walking down the corridor toward us, speaking the whole time; NEVER stops, NEVER cares for a sick person on camera.
+FACES: her face exists once; nobody else in the frame.
 CONTACT: nobody touches anyone.""",
-    """SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, wood-veneer doors with narrow glass panels, wall-mounted chart holders, a long line of recessed linear LED ceiling lights, a nurses' station along the wall, the corridor bending gently ahead, nothing on the walls readable. @ENFERMEIRA is just stepping out of a patient's room, which we never see into.
-THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she tells you on the move, like a friend walking you down her ward, and gives you a warm look at the end.""",
+    """SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, wood-veneer doors with narrow glass panels, wall-mounted chart holders beside the doors, a long line of recessed linear LED ceiling lights, the corridor curving gently ahead, nothing on the walls readable. @ENFERMEIRA is just stepping out of a patient's room, which we never see into.
+THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she tells you on the move, like a friend walking you down her ward, brisk and bright, and gives you a warm look at the end.""",
     f"""{LOCKS_HEAD}
-1. Exactly 3 shots, 2 hard cuts at 2s and 7s; handheld in every shot.
-2. The camera ALWAYS travels with her as she walks: alongside her hand in shot 1, backing up ahead of her in shots 2 and 3 — WRONG if it is ever static or she stops walking.
-3. She speaks ALL THE TIME with no silent gap: the first part at 0–7s (her face out of frame until 2s), the second part from the first frame of shot 3 (7–10s), the same pace and tone, continuing mid-sentence — WRONG if there is a pause, a silent beat or a repeated word at the cut.
-4. The cut falls the moment she turns slightly away from the lens toward the colleague at the end of shot 2; the colleague is only glimpsed, soft and silent; the conversation is never shown — WRONG if the exchange is shown or the cut comes late.
-5. In shot 3 the corridor bends gently and she and the camera round the bend together, she speaking the whole way; the inside of the room, any bed and any sick person are NEVER shown.
-6. Bright, modern, clean corridor, lit by artificial ceiling light only, key above-front on frame-LEFT — NO music.""",
-    timeline(3, [2, 7], [
-        "SHOT 1 (0–2s) — CU, 35°, handheld travelling with her alongside at hand height as she steps out of the room: the door clicks shut behind her and her free hand lifts a slim grey chart folder from the wall holder in passing; her voice is already speaking, her face out of frame. HARD CUT.",
-        "SHOT 2 (2–7s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her at her pace: @ENFERMEIRA walks down the bright corridor toward us with the chart held against her chest, speaking, eyes on the lens with a glance down at the chart now and then, a warm smile growing; at about 6–7s a colleague nurse comes into view, soft, at frame-RIGHT by the nurses' station, and she turns her head and shoulders a little toward her, away from the lens — HARD CUT at that instant.",
-        "SHOT 3 (7–11s) — MS, 40°, handheld, the lens backing up ahead of her again: she is already walking on, chart against her chest, picking her sentence up mid-way, speaking at 7–10s, eyes on the lens; the corridor bends gently and she and the camera round the bend together without a break; at 10–11s a warm look to you, still walking. Hard end mid-step.",
+1. ONE continuous handheld take, no cuts, and she never stops walking — WRONG if it cuts or she stops.
+2. MEDIUM SHOT (waist-up), 40°, for the whole take, the lens backing up ahead of her at her walking pace and keeping the same distance — WRONG if the camera is ever static, goes wide or goes close.
+3. She speaks from the very FIRST frame, the whole sentence in one brisk, upbeat flow with no silent gap and no drawn-out words, finishing at about 7s — WRONG if she is slow, pauses or starts late.
+4. She takes the chart folder from the wall holder IN MOTION, her free hand lifting it in passing without breaking stride or speech — WRONG if she stops or turns to the wall.
+5. The inside of the room, any bed and any sick person are NEVER shown; the corridor is bright, modern and clean, lit by artificial ceiling light only — WRONG if it looks old, dim, green-tinted or grim.
+6. Key light from above-front on frame-LEFT — NO music.""",
+    timeline(1, [], [
+        "BEAT 1 (0–3s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her: @ENFERMEIRA steps out of the patient's room, the door clicking shut softly behind her, already walking toward us and already speaking, eyes on the lens, a bright easy smile.",
+        "BEAT 2 (3–5s) — still walking and speaking without a beat of pause, her free hand lifts a slim grey chart folder from the holder on the wall beside her in passing and tucks it against her chest, a quick glance down at it and back to the lens.",
+        "BEAT 3 (5–8s) — she walks on with the chart against her chest, the corridor curving gently so that she and the camera round the curve together without a break; she finishes her sentence at about 7s and gives you a warm look, still walking. Hard end mid-step.",
     ]),
     dialogue(
-        line(0, 7, "ENFERMEIRA", "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa,").replace(
-            "(on camera, Brazilian Portuguese)", "(on camera — her face is out of frame until 2s — Brazilian Portuguese)"),
-        line(7, 10, "ENFERMEIRA", "também criem oportunidades para Minas."),
+        line(0, 7, "ENFERMEIRA", "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, também criem oportunidades para Minas.").replace(
+            "(on camera, Brazilian Portuguese)",
+            "(on camera, Brazilian Portuguese; from the very first frame, a brisk, upbeat pace with no drawn-out words)"),
         "ENFERMEIRA"),
     acting("ENFERMEIRA", "caring is her job and she is proud of it.",
-           "tell you on the move like a friend walking you down her ward; the quick turn to a colleague is a warm aside, and she takes the sentence up again with a smile.",
-           "on the lens with a glance at the chart; a quick glance to the colleague at the end of shot 2.",
-           "she wets her lips and smiles", "stopping to chat, turning her body to the camera, a dramatic hospital scene"),
-    """CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked, never static. SHOT 1: travelling alongside her at hand height, close. SHOTS 2 and 3: the operator walks BACKWARD ahead of her at her walking pace and keeps the same distance; in shot 3 the operator and she curve round the gentle bend of the corridor together.
-OPTICS: as stated per shot. FOCUS: on her eyes in shots 2 and 3; on the hand in shot 1. HORIZON: level.
+           "tell you on the move like a friend walking you down her ward — brisk, bright, no drag — and give you a warm look to check you understood why she is here.",
+           "on the lens, with a quick glance at the chart when she takes it.",
+           "she wets her lips and smiles", "stopping, turning her body to the camera, a dramatic hospital scene, a slow drawl"),
+    """CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked, never static. The operator walks BACKWARD ahead of her at her walking pace and keeps the same distance, and in the last seconds curves round the gentle bend of the corridor with her.
+OPTICS: 40° throughout. FOCUS: on her eyes; the corridor soft behind. HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom, the camera stopping.""",
-    """GEOMETRY — the corridor runs straight away from the camera for the first part, the nurses' station along the wall on frame-RIGHT; in shot 3 it bends gently to frame-LEFT and the camera, backing, swings round the bend with her; the lens 2.5 m ahead of her in shots 2 and 3.""",
+    """GEOMETRY — the corridor runs away from the camera and curves gently to frame-LEFT; the patient's door and the chart holder beside it on the wall at frame-RIGHT, her left hand taking the folder; the lens 2.5 m ahead of her.""",
     """PHYSICS & MATERIAL — the door swings on its soft closer and clicks; the folder slides out of its holder with a small scrape; her soft rubber soles squeak faintly on the vinyl; the chart's paper sheets shift under her arm. """ + REAL + """ MATERIAL TRUTH: the satin wood veneer, the polished pale vinyl with soft reflections of the ceiling lights, the matte painted walls, the crisp cotton of her white scrubs, the slim grey chart folder with unreadable paper.""",
     T.LIGHT_ARTIFICIAL,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY under her voice: the door's soft click; her footsteps on the vinyl; the folder's paper; a ventilation hum; a trolley rolling far down the corridor; the ward's low murmur with no words standing out. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a static camera, her stopping, a silent gap in her speech, a repeated word at the cut, the conversation with the colleague shown, the colleague speaking, the inside of a room, a bed, a sick or dying person, blood, an IV drip, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, turning her body to the camera, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 3 shots, 2 hard cuts at 2s and 7s, 11s, handheld, the camera always travelling with her — (1, 0–2s) CU alongside her hand: the door clicks shut, she takes the chart folder, her voice already speaking — (2, 2–7s) medium shot, the camera backing up ahead of her: she walks down the bright corridor speaking, and as she turns slightly toward a colleague the cut hits — (3, 7–11s) medium shot, backing up ahead of her: she is already walking on and finishes her sentence, the corridor bends and they round the bend together, a warm look at the end. Invariants: she speaks the whole time, no silent gap, the sentence continues mid-way after the cut; the camera never static; modern, bright, clean corridor with artificial light only; no room interior or sick person shown; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a cut, a static camera, her stopping, a slow or drawling delivery, a silent gap in her speech, a late start, the inside of a room, a bed, a sick or dying person, blood, an IV drip, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, turning her body to the camera, other people in focus, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 8s, medium shot waist-up, the camera backing up ahead of her — (0–3s) she steps out of the patient's room already walking and already speaking — (3–5s) without a pause her free hand lifts the chart folder from the wall holder in passing — (5–8s) she walks on, the corridor curves and they round it together, she finishes at about 7s with a warm look; hard end mid-step. Invariants: no cuts, she never stops, the camera never static; she speaks from the first frame in a brisk, upbeat flow, no silent gap; she takes the chart in motion; modern, bright, clean corridor with artificial light only; no room interior or sick person shown. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T16
