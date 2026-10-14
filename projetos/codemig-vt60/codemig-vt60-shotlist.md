@@ -1093,76 +1093,69 @@ Notas: conferir: ela animada e natural, nem blasé nem exagerada; peito da camis
 
 ### T12 · Ônibus (Match cut, ~6.6s no corte)
 
-O motorista, em médio close com dolly-out, sorri pra você e olha pra baixo pra abrir a porta; o estudante embarca e o motorista explica a rota com o ônibus andando.
+O motorista, em médio close com dolly-out, sorri pra você; corte para o outro ângulo, e ele entrega a fala com o ônibus parado.
 
-#### Geração T12 + T13 · 14s · 4 plano(s)
+#### Geração T12 · 10s · 2 plano(s)
 
-- **O que acontece:** Num ônibus urbano brasileiro de BH (corrimãos amarelos, bancos azuis estampados, piso de borracha cinza): médio close do motorista, no centro e reto pra lente, com dolly-out lento; ele sorri e, aos 2s, olha pra baixo e abre a porta de vidro; corte para o tênis do estudante entrando; com o ônibus andando, o motorista fala; fecha no estudante na janela, BH passando.
-- **O que é dito:** MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros." (na montagem, a V.O. "e trabalha aqui." cai no plano 1)
-- **Tempo:** motorista em médio close, olha pra baixo e abre a porta — 3s · porta e tênis — 3s · fala com o ônibus andando — 5s · estudante na janela — 3s = 14s
-- **Como termina:** o estudante na janela; corte seco.
-- **Direção:** Mais fechado, como você pediu: o plano 2 e o plano 4 viraram close apertado (35°) e o plano 3 virou plano médio da cintura pra cima (40°); o plano 1 fica no médio close do match, que precisa ser igual ao dos outros rostos. O interior deixou de ser "ônibus gringo" (alças de aço cromado, bancos cinza) e passou a ser o ônibus brasileiro das suas fotos: corrimãos pintados de amarelo, bancos de casca cinza com almofada azul estampada e bancos amarelos de prioridade, piso de borracha cinza com faixa amarela nos degraus, janelas de correr com caixinhas vermelhas de emergência, porta de vidro sanfonada. A cabine vem da foto 2, agora já sem o motorista e sem textos: entra como referência à parte (@ONIBUS_CAB), que serve sobretudo ao plano 3. O primeiro plano agora é o match do motorista: médio close centralizado, mesmo dolly-out de ~3s dos outros rostos; nesses 3s ele olha pra baixo e abre a porta. O resto segue (porta e tênis, fala com o ônibus andando, estudante na janela), só que o tênis agora vem depois de a porta abrir. O close final do estudante prepara o T14.
+- **O que acontece:** Num ônibus urbano brasileiro de BH parado no ponto (corrimãos amarelos, bancos azuis estampados, piso de borracha cinza): médio close do motorista, no centro e reto pra lente, com dolly-out lento e um sorriso; corte seco para o outro ângulo, plano médio da cintura pra cima, e ele fala olhando pra lente.
+- **O que é dito:** MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."
+- **Tempo:** médio close, dolly-out, sorri — 3s · outro ângulo, fala com o ônibus parado — 6s · segura o sorriso — 1s = 10s
+- **Como termina:** ele sorrindo; corte seco.
+- **Direção:** Do jeito que você descreveu: depois do dolly-out do match, ele não abre a porta e o estudante não existe mais neste take; o corte vai direto para o outro ângulo (o antigo plano 3, do primeiro banco, atrás e à direita dele) e ele entrega a fala. O ônibus está parado nos dois planos: nada passa pelas janelas, sem desfoque de movimento, porta de vidro fechada, e o prompt proíbe estudante, passageiro embarcando e ônibus em movimento. A geração caiu de 14s para 10s, e o T13 deixou de existir. A fala ganhou 1s (6s de janela) para não atropelar. Referências: @MOTORISTA, interior e cabine (duas fotos suas, só o lugar).
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 6s and 11s, a slow dolly-out in shot 1, handheld in shots 2 to 4, inside a moving bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 10 seconds total, 2 shots with 1 hard cut at 3s, a slow dolly-out in shot 1, handheld in shot 2, inside a stopped bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
 @ONIBUS_INT — PLACE of the bus: the layout, the yellow handrails, the seats, the windows, the floor, the door. 100% matches the place.
-@ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
 @ONIBUS_CAB — PLACE of the driver's cab: the seat, the steering wheel, the dash, the fare validator, the mirror, the yellow handrail, the steps. 100% matches the cab.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. For @ONIBUS_INT and @ONIBUS_CAB: IGNORE any people, any text, stickers, signs or logos (even on the steering wheel), the light, the exposure and the colour grade, raindrops on the glass, and whatever is seen outside the windows.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@MOTORISTA (52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved open-collar uniform shirt with two flap chest pockets and nothing written on it, worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, opens the door for the boy, greets him, drives, speaks once in shot 3; NEVER stands.
-@ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
-FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
-CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.
+@MOTORISTA (52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved open-collar uniform shirt with two flap chest pockets and nothing written on it, worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, smiles at you in shot 1, speaks once in shot 2; the bus is STOPPED; NEVER stands, NEVER opens the door.
+FACES: each face exists once; two or three seated passengers far back are distinct soft Brazilian adults, mouths closed; nobody boards, no student, nobody else near the door; no twins, no clones.
+CONTACT: nobody touches anyone.
 
-SCENE — Late afternoon inside a clean, well-kept Brazilian city bus in Belo Horizonte, stopped at a stop — yellow handrails, blue patterned seats, a grey rubber floor, a folding glass door, the cab as in @ONIBUS_CAB. @MOTORISTA sits at the wheel looking at you, the door shut beside him, a teenage student waiting outside with a backpack.
-THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he knows this boy and is proud of where he is headed — he tells you the route with a smile.
+SCENE — Late afternoon inside a clean, well-kept Brazilian city bus in Belo Horizonte, STOPPED at a stop with the engine idling — yellow handrails, blue patterned seats, a grey rubber floor, a folding glass door shut, the cab as in @ONIBUS_CAB. @MOTORISTA sits at the wheel looking at you.
+THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he is proud of where this route goes — he tells you the route with a smile.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 11s — WRONG if extra cuts; shot 1 is the dolly-out, shots 2 to 4 are handheld.
-2. SHOT 1 is the MATCH FRAME: medium close-up of @MOTORISTA, face dead centre throughout, straight into the lens, with the slow dolly-out (the camera moving back, no zoom) opening the framing toward a medium shot; at 0–2s his eyes are on the lens, at 2–3s they drop to the door control — WRONG if the lens zooms, the face drifts off centre, or his eyes never drop to the door control.
-3. @ESTUDANTE never speaks; @MOTORISTA speaks only in shot 3 — WRONG if any other mouth forms words.
-4. The bus is moving in shots 3 and 4; his hands stay on the wheel while he speaks.
-5. Daylight from frame-LEFT — NO music.
+1. Exactly 2 shots with 1 hard cut at 3s; shot 1 is the dolly-out, shot 2 is handheld — WRONG if extra cuts.
+2. SHOT 1 is the MATCH FRAME: medium close-up of @MOTORISTA, face dead centre, straight into the lens with a warm smile for the whole 3 s, the camera moving slowly BACK (a dolly-out, no zoom) so the framing opens toward a medium shot — WRONG if the lens zooms, the face drifts off centre, he looks away or down, or the door opens.
+3. The bus is STOPPED in both shots: nothing slides past the windows, no motion blur, the glass door stays shut, nobody boards, no student appears — WRONG if the bus moves or anyone else shows up.
+4. SHOT 2 is a medium shot, waist-up, from the first row of seats behind and to the right of him: he turns to the lens and speaks at 3–9s, a hand on the wheel — WRONG if he stands or the bus moves.
+5. Only @MOTORISTA speaks, only this line — every other mouth closed. Daylight from frame-LEFT — NO music.
 
-TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–3s) — the MATCH FRAME, MCU of @MOTORISTA at the wheel, face dead centre, straight into the lens with a warm smile, the stopped bus soft behind him — the windshield, the aisle and the glass door on frame-LEFT — opening wider as the slow dolly-out runs the whole shot; at 2–3s his eyes drop to the door control below frame, his hand works the lever and the glass door starts to fold open behind him with a pneumatic hiss. HARD CUT.
-SHOT 2 (3–6s) — CU, 35°, low at the door: the glass door folds fully open and @ESTUDANTE's white sneaker steps onto the step with its yellow safety line; his hand rises in a greeting. HARD CUT.
-SHOT 3 (6–11s) — MS (waist-up: the driver at the wheel, the windshield and the city soft behind him), 40°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 6–11s, glancing at the road and back, smiling. HARD CUT.
-SHOT 4 (11–14s) — CU, 35°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.
+TIMELINE — 2 shots, 1 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–3s) — the MATCH FRAME, MCU of @MOTORISTA at the wheel, face dead centre, straight into the lens with a warm smile, the stopped bus soft behind him — the windshield, the aisle and the shut glass door on frame-LEFT — opening wider as the slow dolly-out runs the whole shot. HARD CUT.
+SHOT 2 (3–10s) — MS (waist-up: the driver at the wheel, the windshield and the stopped avenue soft behind him), 40°, handheld from the first row of seats behind and to the right of him: @MOTORISTA, one hand on the wheel, turns to the lens and speaks at 3–9s, glancing at the windshield and back, smiling; at 9–10s he holds the smile. Hard end.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[6–11s] @MOTORISTA (on camera, Brazilian Portuguese): "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."
+[3–9s] @MOTORISTA (on camera, Brazilian Portuguese): "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."
 VOICE LOCK — @MOTORISTA: Brazilian man, 52, plain friendly baritone; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @MOTORISTA (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
 MOTIVE: every day he takes people to where the opportunities are.
-TACTIC: greet you with a smile, open the door for the boy, then explain the route like one he loves — hands on the wheel, eyes splitting between the road and you, checking you followed.
-EYES: on the lens, then down to the door control and back; in shot 3 between the road and the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his thumb taps the wheel once. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, letting go of the wheel, turning his body to the camera.
-
-ACTING — @ESTUDANTE: TACTIC greet fast and find a seat; eyes on the driver, then the window; NOT speaking, NOT looking at the lens.
-ACTING — passengers (background): eyes on the window or on their own thoughts; NOT looking at the lens, NOT speaking.
+TACTIC: greet you with a smile, then explain the route like one he loves — a hand on the wheel, eyes splitting between the windshield and you, checking you followed.
+EYES: on the lens in shot 1; in shot 2 between the windshield and the lens. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: his thumb taps the wheel once. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, standing up, turning his whole body to the camera.
 
 CAMERA — the DOLLY-OUT, slow, about 3s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.0 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
 NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.
-SHOTS 2–4: handheld, an operator with a body — breathing, small weight shifts, late corrections, never locked; in the close-ups it drifts and follows the action, in shot 3 it drifts slowly around the driver. HORIZON: level.
+SHOT 2: handheld, an operator with a body — breathing, small weight shifts, late corrections, never locked, drifting slowly around the driver. HORIZON: level.
 
 MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 
-GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side), the cab exactly as in @ONIBUS_CAB (black fabric seat, black steering wheel with a plain hub, dash of rocker switches, fare validator on its post, flat rectangular mirror, yellow handrail by the seat); in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus on a blue patterned seat.
+GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side), the cab exactly as in @ONIBUS_CAB (black fabric seat, black steering wheel with a plain hub, dash of rocker switches, fare validator on its post, flat rectangular mirror, yellow handrail by the seat); in shot 2 the camera in the first row behind and right of the driver, the windshield ahead.
 
-PHYSICS & MATERIAL — the door lever clicks and the door swings open on its pneumatic arm; the bus dips slightly as the boy steps in; when it pulls away everybody sways gently; the wheel turns under his palms; the city slides past the windows with motion blur. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the glass of the door, the grey rubber floor with its yellow edge line, yellow-painted handrails with grey clamp brackets, grey seat shells with blue patterned cushions, the cotton of his pale grey shirt, the city reflected in the windows.
+PHYSICS & MATERIAL — the bus is still, the engine idling with a faint vibration; his thumb taps the wheel; light shifts softly on the glass. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the glass of the door, the grey rubber floor with its yellow edge line, yellow-painted handrails with grey clamp brackets, grey seat shells with blue patterned cushions, the cotton of his pale grey shirt.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: daylight through the bus's windshield and door-side windows on frame-LEFT, ~5600 K, soft and directional; no other source inside the bus.
-REACH: the daylight lights the frame-LEFT side of the faces; once the bus moves, the light flickers gently as trees and poles pass.
+REACH: the daylight lights the frame-LEFT side of his face; the bus behind falls off a stop.
 EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
 CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
 NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
@@ -1170,25 +1163,24 @@ NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-ou
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the door lever's click and the door's pneumatic hiss; the boy's steps; the engine pulling away; tyres on the avenue, traffic outside, a horn far off; the stop-request bell once (a single tone, not a melody); the engine's hum under his voice. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY: the engine idling; a quiet stopped avenue outside, a distant horn; the fabric of his shirt as he turns; his voice. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: rain or raindrops on the windows, a logo on the steering wheel, chrome or satin-steel handrails, a European or American bus interior, an all-grey interior, readable stickers or fare signs, the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or a zoom in shot 1, a generic or plain-looking man, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: the door opening, a student or any boarding passenger, a moving bus, motion blur outside, rain or raindrops on the windows, a logo on the steering wheel, chrome or satin-steel handrails, a European or American bus interior, an all-grey interior, readable stickers or fare signs, him standing, the face drifting off centre or a zoom in shot 1, a generic or plain-looking man, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly-out, at 2–3s his eyes drop to the door control and the glass door folds open — (2, 3–6s) tight CU, handheld: the door opens fully, the student's sneaker steps in — (3, 6–11s) medium shot, waist-up, at the wheel, the bus moving: his line, road and you — (4, 11–14s) tight CU: the student by the window, the city sliding past. Invariants: Brazilian city-bus look (yellow handrails, blue patterned seats, grey rubber floor); shot 1 face centred, camera backing away with no zoom; student silent; driver speaks only in shot 3; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 2 shots, 1 hard cut at 3s, 10s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly-out (no zoom) — (2, 3–10s) medium shot, waist-up, from the first row behind and right of him, the bus STOPPED: he turns to the lens and says his line at 3–9s, smiling. Invariants: Brazilian city-bus look (yellow handrails, blue patterned seats, grey rubber floor); the bus stopped, the door shut, no student; shot 1 face centred, camera backing away with no zoom; he speaks only in shot 2. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 10s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @MOTORISTA (character sheet) — identidade
   2) @ONIBUS_INT (sua foto do interior do ônibus) — só o lugar; ignorar pessoas, textos, adesivos, luz e grade de cor
-  3) @ESTUDANTE (character sheet) — identidade
-  4) @ONIBUS_CAB (sua foto da cabine, sem o motorista e sem textos) — só o lugar; apagar antes a estrela no volante
-Notas: conferir: interior com corrimãos amarelos e bancos azuis (nada de cromado nem tudo cinza), sem texto legível; risco: o estudante abrir a boca. O ônibus tem que estar andando quando o motorista fala; no plano 1 o rosto do motorista fica no centro e a câmera recua sem zoom.
+  3) @ONIBUS_CAB (sua foto da cabine, sem o motorista e sem textos) — só o lugar; apagar antes a estrela no volante
+Notas: conferir: ônibus parado (nada deslizando pelas janelas), porta fechada, sem estudante; interior com corrimãos amarelos e bancos azuis (nada de cromado nem tudo cinza), sem texto legível; plano 1 com o rosto no centro e a câmera recuando sem zoom.
 ```
 
 ### T14 · Trilhas de Futuro (Conexão, ~3.8s no corte)
@@ -1201,13 +1193,13 @@ O estudante aciona um tablet (a tela nunca aparece) e um robozinho de aula de ro
 - **O que é dito:** ESTUDANTE: "É para isso que a Codemig existe… para fazer essa conexão acontecer."
 - **Tempo:** tablet tocado — 3s · robô acorda e acena — 2s · fala — 4s · soquinho — 2s = 11s
 - **Como termina:** o soquinho na frente do robozinho; corte seco.
-- **Direção:** Troquei o borne e a lâmpada (ultrapassados) por um tablet e um robozinho de aula de robótica. O tablet aparece quase de perfil, uma plaquinha fina e fosca com o dedo dele tocando, e a tela nunca aparece (nem brilho). O robô é pequeno (uns 30 cm), branco e cinza, sem logo, com olhos redondos que acendem de leve, e acena três vezes. A fala fecha com o soquinho na frente do robô. O plano da fala agora é médio, da cintura pra cima. Mesmo figurino do ônibus.
+- **Direção:** Troquei o borne e a lâmpada (ultrapassados) por um tablet e um robozinho de aula de robótica. O tablet aparece quase de perfil, uma plaquinha fina e fosca com o dedo dele tocando, e a tela nunca aparece (nem brilho). O robô é pequeno (uns 30 cm), branco e cinza, sem logo, com olhos redondos que acendem de leve, e acena três vezes. A fala fecha com o soquinho na frente do robô. O plano da fala agora é médio, da cintura pra cima. Figurino igual ao do sheet.
 
 ```
 CONTRACT — Live-action photoreal film footage, 21:9, 11 seconds total, 4 shots with 3 hard cuts at 3s, 5s and 9s, handheld in every shot, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
-@ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe — the same clothes as on the bus. 100% matches.
+@ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe exactly as on the sheet. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
@@ -1223,7 +1215,7 @@ THE SOUL OF THE SCENE (play it, never explain it): he just made the robot come a
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. Exactly 4 shots, 3 hard cuts at 3s, 5s and 9s; handheld in every shot.
 2. The tablet's SCREEN is NEVER visible: in shot 1 the tablet is seen almost edge-on, a thin matte slab, never screen-on to the lens — WRONG if any screen, interface or screen glow is shown anywhere.
-3. @ESTUDANTE wears exactly the bus wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
+3. @ESTUDANTE wears exactly his sheet wardrobe: dark charcoal (almost black) hoodie, white T-shirt hem showing below it, black skinny jeans — WRONG if anything changes.
 4. He speaks only in shot 3, eyes alive on the lens — WRONG if glassy; only @ESTUDANTE speaks, only this line — the classmate's and the robot's mouths stay closed.
 5. The robot waves in shot 2 and is the small robot described — WRONG if it is large, humanoid-human or carries a logo.
 6. Daylight from frame-LEFT; no readable text or logo anywhere — NO music.
@@ -1269,9 +1261,9 @@ SOUND — LOCATION SOUND ONLY: his fingertip tapping the case; the robot's soft 
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: a visible tablet screen, any screen content or interface, a circuit panel, terminal blocks, a lamp, old-fashioned electrical gear, a large or human-like robot, a robot with a logo, different wardrobe from the bus, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: a visible tablet screen, any screen content or interface, a circuit panel, terminal blocks, a lamp, old-fashioned electrical gear, a large or human-like robot, a robot with a logo, different wardrobe from the sheet, programme logo, posters with text, readable labels, the classmate speaking, speaking in the close-ups, an old run-down classroom, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the tablet seen almost edge-on, his finger taps it, the screen never visible — (2, 3–5s) CU: the small robot wakes and waves — (3, 5–9s) medium shot, waist-up: he turns to the lens and says his line, proud, the little robot beside him — (4, 9–11s) CU: fist bump in front of the robot. Invariants: no tablet screen ever visible; a small white-and-grey robot; the bus wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 3s, 5s and 9s, 11s, handheld — (1, 0–3s) ECU: the tablet seen almost edge-on, his finger taps it, the screen never visible — (2, 3–5s) CU: the small robot wakes and waves — (3, 5–9s) medium shot, waist-up: he turns to the lens and says his line, proud, the little robot beside him — (4, 9–11s) CU: fist bump in front of the robot. Invariants: no tablet screen ever visible; a small white-and-grey robot; the sheet wardrobe; he speaks only in shot 3; living eyes; handheld. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1279,72 +1271,70 @@ GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 11s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
-  1) @ESTUDANTE (character sheet) — identidade, mesmo figurino do T12
+  1) @ESTUDANTE (character sheet) — identidade e figurino do sheet
 Notas: conferir: nenhuma tela, interface ou brilho de tela em lugar nenhum; robô pequeno, branco e cinza, sem logo; pronúncia de "Codemig" (se sair errada, regerar antes de mexer na grafia).
 ```
 
 ### T15 · Hospital (Conexão, ~6.8s no corte)
 
-A enfermeira sai do quarto de um paciente, pega o prontuário e anda pelo corredor de um hospital moderno e bem iluminado dizendo a fala; para pra falar com um paciente, corte seco, e continua a frase.
+A enfermeira sai do quarto de um paciente, pega o prontuário e anda pelo corredor de um hospital moderno falando o tempo todo; quando se vira um pouco pra uma colega, corte seco, e ela segue andando, dobra a esquina do corredor e termina a frase.
 
-#### Geração T15 · 14s · 4 plano(s)
+#### Geração T15 · 11s · 3 plano(s)
 
-- **O que acontece:** Num corredor de hospital moderno, claro e bem iluminado por luz artificial: close da mão fechando a porta de um quarto (que não vemos) e pegando o prontuário; a enfermeira anda pelo corredor dizendo a primeira metade da fala; para um instante com um paciente num banco, corte seco; ela volta a andar e termina a frase, com um olhar caloroso no fim.
-- **O que é dito:** ENFERMEIRA: "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, [corte, o paciente] também criem oportunidades para Minas."
-- **Tempo:** porta e prontuário — 2s · anda e fala a 1ª metade — 6s · para com o paciente, sem fala — 2s · anda e termina a frase — 4s = 14s
-- **Como termina:** ela andando, com o olhar pra você; corte seco.
-- **Direção:** Refeito do zero: ela não cuida mais de um enfermo, sai do quarto, pega o prontuário e anda pelo corredor; nunca vemos o quarto nem ninguém doente. A fala se parte no corte da sua ideia: ela para para falar com um paciente (a conversa não tem palavras, só sorrisos, acenos e a mão no antebraço dele), corte seco, e ela retoma a frase do ponto onde parou. Ambiente: corredor moderno e recém-construído, paredes cinza-claro e brancas com faixa de madeira, piso claro polido, portas de madeira com visor estreito, tudo sem texto. Luz: artificial, das calhas de LED do teto (4200 K neutro-quente), vinda de cima e à frente, à esquerda, sem verde de fluorescente (criei o template LIGHT_ARTIFICIAL). A câmera recua à frente dela nos planos de fala; planos fechados (close na mão, médio da cintura pra cima). O sheet novo da enfermeira (túnica branca de gola mandarim, estetoscópio, coque baixo) já está no descritor.
+- **O que acontece:** Num corredor de hospital moderno, claro e bem iluminado por luz artificial: close da mão pegando o prontuário ao sair do quarto (que não vemos), com a fala já começando; a câmera recua à frente da enfermeira enquanto ela anda e fala; assim que ela vira um pouco o rosto pra uma colega enfermeira, corte seco; ela já está andando de novo, dobra uma curva do corredor com a câmera e termina a frase.
+- **O que é dito:** ENFERMEIRA: "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa, [corte, a colega] também criem oportunidades para Minas." Ela fala o tempo todo, sem silêncio no corte.
+- **Tempo:** porta, prontuário e fala já começando — 2s · anda e fala, se vira pra colega e corta — 5s · já andando, curva do corredor, termina a frase — 4s = 11s
+- **Como termina:** ela andando, com um olhar caloroso pra você; corte seco.
+- **Direção:** Refeito como você descreveu: ela para pra conversar com uma colega enfermeira (não com um paciente), e o corte acontece no instante em que ela diverge da câmera. Depois do corte a câmera volta com ela já andando e entregando o resto da fala, sem tempo morto e sem a conversa à mostra. A câmera acompanha ela andando sempre: ao lado da mão no plano 1 e recuando à frente dela nos planos 2 e 3. A curva: no plano 3 o corredor dobra de leve para a esquerda e ela e a câmera fazem a curva juntas; deu tempo, mas é a parte mais arriscada (se a geometria sair confusa, tire a curva e deixe o corredor reto). A geração caiu de 14s para 11s, com a fala contínua de 0 a 10s. O paciente saiu; a colega só aparece de relance, desfocada e muda.
 
 ```
-CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 2s, 8s and 10s, handheld in every shot, the camera backing up ahead of her, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+CONTRACT — Live-action photoreal film footage, 21:9, 11 seconds total, 3 shots with 2 hard cuts at 2s and 7s, handheld in every shot, the camera always travelling with her as she walks, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @ENFERMEIRA — IDENTITY of @ENFERMEIRA: face, hair, build, hands and wardrobe. 100% matches.
 REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@ENFERMEIRA (42, mixed-race Brazilian woman, medium-brown skin, slim-to-medium build, black hair centre-parted and slicked back into a low bun, a small mole on the forehead just above the brow line, white short-sleeved scrub tunic with a notched mandarin collar, a chest pocket holding a small plain ID badge with nothing written and two hip pockets, a black stethoscope around her neck, white straight scrub trousers, white flat shoes) — the NURSE: leaves a patient's room, takes a chart and walks down the corridor telling you something, stops for one friendly word with a patient, then walks on and finishes her sentence; NEVER cares for a sick person on camera.
-PATIENT (unreferenced: a Brazilian man about 70, white hair, a kind face, a pale knit cardigan over a light shirt, a hospital wristband, sitting on a bench in the corridor) — only in shot 3, soft, in three-quarter; NEVER speaks, mouth closed.
+@ENFERMEIRA (42, mixed-race Brazilian woman, medium-brown skin, slim-to-medium build, black hair centre-parted and slicked back into a low bun, a small mole on the forehead just above the brow line, white short-sleeved scrub tunic with a notched mandarin collar, a chest pocket holding a small plain ID badge with nothing written and two hip pockets, a black stethoscope around her neck, white straight scrub trousers, white flat shoes) — the NURSE: walks out of a patient's room, takes a chart and keeps walking down the corridor, speaking the whole time; as she turns slightly toward a colleague the take cuts, and after the cut she is already walking again and finishes her sentence; NEVER stops talking, NEVER cares for a sick person on camera.
+COLLEAGUE (unreferenced: a Brazilian nurse about 35, light-brown skin, dark hair in a neat bun, white scrubs) — only glimpsed, soft, at frame-RIGHT at the very end of shot 2; NEVER speaks.
 FACES: each face exists once; nobody else in focus.
-CONTACT: only her hand resting on the patient's forearm in shot 3.
+CONTACT: nobody touches anyone.
 
-SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, wood-veneer doors with narrow glass panels, wall-mounted chart holders, a long line of recessed linear LED ceiling lights, a nurses' station far down the corridor, nothing on the walls readable. @ENFERMEIRA is just leaving a patient's room, which we never see into.
+SCENE — Afternoon in a modern, recently built Brazilian hospital, in a long, bright corridor: smooth pale-grey and white walls with a warm wood-veneer band at hip height, a light polished-vinyl floor with a soft sheen, wood-veneer doors with narrow glass panels, wall-mounted chart holders, a long line of recessed linear LED ceiling lights, a nurses' station along the wall, the corridor bending gently ahead, nothing on the walls readable. @ENFERMEIRA is just stepping out of a patient's room, which we never see into.
 THE SOUL OF THE SCENE (play it, never explain it): caring is her job and she is proud of it — she tells you on the move, like a friend walking you down her ward, and gives you a warm look at the end.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Exactly 4 shots, 3 hard cuts at 2s, 8s and 10s; handheld in every shot.
-2. She is on the move: walking in shots 2 and 4, her eyes finding the lens as she speaks, her body facing her line of walk; the inside of the room, any bed and any sick person are NEVER shown.
-3. Only @ENFERMEIRA speaks: the first half at 2–8s in shot 2, the second half at 10–13s in shot 4, the same pace and tone, continuing mid-sentence; shots 1 and 3 are silent (the exchange with the patient is wordless: nods, smiles, a hand on his forearm).
-4. The corridor is bright, modern and clean, lit by artificial ceiling light only — WRONG if it looks old, dim, green-tinted or grim.
-5. Key light from above-front on frame-LEFT in every shot — NO music.
+1. Exactly 3 shots, 2 hard cuts at 2s and 7s; handheld in every shot.
+2. The camera ALWAYS travels with her as she walks: alongside her hand in shot 1, backing up ahead of her in shots 2 and 3 — WRONG if it is ever static or she stops walking.
+3. She speaks ALL THE TIME with no silent gap: the first part at 0–7s (her face out of frame until 2s), the second part from the first frame of shot 3 (7–10s), the same pace and tone, continuing mid-sentence — WRONG if there is a pause, a silent beat or a repeated word at the cut.
+4. The cut falls the moment she turns slightly away from the lens toward the colleague at the end of shot 2; the colleague is only glimpsed, soft and silent; the conversation is never shown — WRONG if the exchange is shown or the cut comes late.
+5. In shot 3 the corridor bends gently and she and the camera round the bend together, she speaking the whole way; the inside of the room, any bed and any sick person are NEVER shown.
+6. Bright, modern, clean corridor, lit by artificial ceiling light only, key above-front on frame-LEFT — NO music.
 
-TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
-SHOT 1 (0–2s) — CU, 35°: the room door swings shut with a soft click under her hand; her other hand slides a slim grey chart folder out of the holder on the wall beside it. HARD CUT.
-SHOT 2 (2–8s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her at her pace: @ENFERMEIRA walks down the bright corridor toward us with the chart held against her chest, speaking at 2–8s, eyes on the lens with a glance down at the chart now and then, a warm smile growing. HARD CUT.
-SHOT 3 (8–10s) — MS, 40°: she slows by a bench where the PATIENT sits, crouches a little, rests a hand on his forearm; both smile and nod, nothing said aloud. HARD CUT.
-SHOT 4 (10–14s) — MS, 40°, the lens backing up ahead of her again: she is walking on with the chart against her chest and picks her sentence up mid-way, speaking at 10–13s, eyes on the lens; at 13–14s a warm look to you, still walking. Hard end mid-step.
+TIMELINE — 3 shots, 2 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
+SHOT 1 (0–2s) — CU, 35°, handheld travelling with her alongside at hand height as she steps out of the room: the door clicks shut behind her and her free hand lifts a slim grey chart folder from the wall holder in passing; her voice is already speaking, her face out of frame. HARD CUT.
+SHOT 2 (2–7s) — MS (waist-up), 40°, handheld, the lens backing up ahead of her at her pace: @ENFERMEIRA walks down the bright corridor toward us with the chart held against her chest, speaking, eyes on the lens with a glance down at the chart now and then, a warm smile growing; at about 6–7s a colleague nurse comes into view, soft, at frame-RIGHT by the nurses' station, and she turns her head and shoulders a little toward her, away from the lens — HARD CUT at that instant.
+SHOT 3 (7–11s) — MS, 40°, handheld, the lens backing up ahead of her again: she is already walking on, chart against her chest, picking her sentence up mid-way, speaking at 7–10s, eyes on the lens; the corridor bends gently and she and the camera round the bend together without a break; at 10–11s a warm look to you, still walking. Hard end mid-step.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
-[2–8s] @ENFERMEIRA (on camera, Brazilian Portuguese): "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa,"
-[10–13s] @ENFERMEIRA (on camera, Brazilian Portuguese): "também criem oportunidades para Minas."
+[0–7s] @ENFERMEIRA (on camera — her face is out of frame until 2s — Brazilian Portuguese): "Para fazer com que os recursos essenciais para a transição energética que o mundo precisa,"
+[7–10s] @ENFERMEIRA (on camera, Brazilian Portuguese): "também criem oportunidades para Minas."
 VOICE LOCK — @ENFERMEIRA: Brazilian woman, 42, soft calm mid voice; Belo Horizonte accent with a soft aspirated R. Identical in every generation of the film.
 
 ACTING — @ENFERMEIRA (fully invested in the tactic; the work happens in the eyes)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
 MOTIVE: caring is her job and she is proud of it.
-TACTIC: tell you on the move like a friend walking you down her ward; the stop with the patient is a warm aside, and she takes the sentence up again with a smile.
-EYES: on the lens with a glance at the chart; on the patient in shot 3. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she wets her lips and smiles. A frozen pupil is wrong.
-NOT: a solemn or serious face, a speech, a stiff advertising grin, turning her body to the camera, a dramatic hospital scene.
+TACTIC: tell you on the move like a friend walking you down her ward; the quick turn to a colleague is a warm aside, and she takes the sentence up again with a smile.
+EYES: on the lens with a glance at the chart; a quick glance to the colleague at the end of shot 2. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: she wets her lips and smiles. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, stopping to chat, turning her body to the camera, a dramatic hospital scene.
 
-ACTING — PATIENT: TACTIC enjoy her visit; eyes on her face; involuntary detail: a small smile; NOT speaking, NOT looking at the lens.
+CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked, never static. SHOT 1: travelling alongside her at hand height, close. SHOTS 2 and 3: the operator walks BACKWARD ahead of her at her walking pace and keeps the same distance; in shot 3 the operator and she curve round the gentle bend of the corridor together.
+OPTICS: as stated per shot. FOCUS: on her eyes in shots 2 and 3; on the hand in shot 1. HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom, the camera stopping.
 
-CAMERA — handheld, an operator with a body: breathing, small weight shifts, late corrections; never locked. SHOTS 2 and 4: the operator walks BACKWARD ahead of her at her walking pace and keeps the same distance. SHOT 3: the camera slows with her and settles beside the bench. SHOT 1: close and steady on the hands.
-OPTICS: as stated per shot. FOCUS: on her eyes in shots 2 and 4; on the hands in shot 1. HORIZON: level.
-NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom.
+GEOMETRY — the corridor runs straight away from the camera for the first part, the nurses' station along the wall on frame-RIGHT; in shot 3 it bends gently to frame-LEFT and the camera, backing, swings round the bend with her; the lens 2.5 m ahead of her in shots 2 and 3.
 
-GEOMETRY — the corridor runs straight away from the camera; she walks along its middle, the patient's bench against the wall on frame-RIGHT in shot 3; the lens 2.5 m ahead of her in shots 2 and 4.
-
-PHYSICS & MATERIAL — the door swings on its soft closer and clicks; the folder slides out of its holder with a small scrape; her soft rubber soles squeak faintly on the vinyl; the chart's paper sheets shift under her arm. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the satin wood veneer, the polished pale vinyl with soft reflections of the ceiling lights, the matte painted walls, the crisp cotton of her white scrubs, the slim grey chart folder with unreadable paper, the patient's soft knit cardigan.
+PHYSICS & MATERIAL — the door swings on its soft closer and clicks; the folder slides out of its holder with a small scrape; her soft rubber soles squeak faintly on the vinyl; the chart's paper sheets shift under her arm. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the satin wood veneer, the polished pale vinyl with soft reflections of the ceiling lights, the matte painted walls, the crisp cotton of her white scrubs, the slim grey chart folder with unreadable paper.
 
 LIGHT — MOTIVATED ARTIFICIAL LIGHT ONLY, bright modern interior (KEY): one dominant motivated source with real falloff and soft-edged shadows.
 SOURCE: the long linear LED strips of the corridor ceiling, ~4200 K neutral-warm, soft-edged, the nearest strip above and slightly in front of her on frame-LEFT; soft bounce from the pale walls and the polished floor.
@@ -1356,22 +1346,22 @@ NOT: green fluorescent cast, flat hard top light with dark eye sockets, a blue c
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
 
-SOUND — LOCATION SOUND ONLY: the door's soft click; her footsteps on the vinyl; the folder's paper; a ventilation hum; a trolley rolling far down the corridor; a monitor's single soft beep far off (a single repeated tone, not a melody); the ward's low murmur with no words standing out. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+SOUND — LOCATION SOUND ONLY under her voice: the door's soft click; her footsteps on the vinyl; the folder's paper; a ventilation hum; a trolley rolling far down the corridor; the ward's low murmur with no words standing out. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: the inside of a room, a bed, a sick or dying person, blood, an IV drip, a monitor close-up, a nurse caring for someone on camera, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, the patient speaking, turning her body to the camera, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: a static camera, her stopping, a silent gap in her speech, a repeated word at the cut, the conversation with the colleague shown, the colleague speaking, the inside of a room, a bed, a sick or dying person, blood, an IV drip, green fluorescent light, a dim or grim corridor, an old run-down hospital, daylight windows, readable signs or chart text, hospital logos, turning her body to the camera, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 2s, 8s and 10s, 14s, handheld — (1, 0–2s) CU: the room door closes, her hand takes the chart folder — (2, 2–8s) medium shot, the camera backing up ahead of her: she walks down the bright corridor saying the first half of her line — (3, 8–10s) medium shot: she stops by a patient on a bench, a wordless warm exchange — (4, 10–14s) medium shot, backing up again: she walks on and finishes her sentence, a warm look at the end. Invariants: modern, bright, clean corridor with artificial light only; she is always on the move except the short stop; no room interior or sick person shown; she continues mid-sentence after the cut; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 3 shots, 2 hard cuts at 2s and 7s, 11s, handheld, the camera always travelling with her — (1, 0–2s) CU alongside her hand: the door clicks shut, she takes the chart folder, her voice already speaking — (2, 2–7s) medium shot, the camera backing up ahead of her: she walks down the bright corridor speaking, and as she turns slightly toward a colleague the cut hits — (3, 7–11s) medium shot, backing up ahead of her: she is already walking on and finishes her sentence, the corridor bends and they round the bend together, a warm look at the end. Invariants: she speaks the whole time, no silent gap, the sentence continues mid-way after the cut; the camera never static; modern, bright, clean corridor with artificial light only; no room interior or sick person shown; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
 GENERATION CARD
 Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
-Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Duração: 11s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @ENFERMEIRA (character sheet) — identidade
-Notas: conferir: corredor claro e moderno (nada velho, escuro ou verde), sem o interior do quarto e sem ninguém doente; ela retoma a frase do ponto exato após o corte; o paciente não fala. Se o lipsync escorregar, a primeira metade pode virar fala em off sobre os closes.
+Notas: conferir: fala contínua, sem silêncio nem palavra repetida no corte, e a frase retomada do ponto exato; corredor claro e moderno (nada velho, escuro ou verde), sem o interior do quarto e sem ninguém doente; a colega não fala; a câmera nunca parada. Se o lipsync escorregar, a primeira parte pode virar fala em off sobre o close.
 ```
 
 ### T16 · Close final (Fechamento, ~8.2s no corte)
@@ -1624,8 +1614,8 @@ glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, 
 | @FUNCIONARIO | Funcionário da mina de nióbio | M, 30 | caipira | T09 | EPI de mineração completo e correto, sem marca. Validar com a SST da operadora. |
 | @MAE | Mãe com o recém-nascido | F, 29 | BH | T10 | Sem fala. Fazer este sheet antes do T10 (antes ela era improvisada pelo modelo). O bebê não ganha sheet: rosto quase todo coberto. |
 | @TORCEDORA | Torcedora no estádio | F, 22 | BH | T11 | Sem fala. Fazer este sheet antes do T11. Camisa de futebol genérica e estilosa, terracota com gola creme, sem clube, escudo, patrocínio, número ou texto; fora de qualquer cor de clube (nada de preto e branco, azul e branco, verde e branco, verde-amarelo). |
-| @MOTORISTA | Motorista de ônibus | M, 40 | BH | T12, T13 | Uniforme sem operadora real. |
-| @ESTUDANTE | Estudante do Trilhas de Futuro | M, 15 | BH | T12, T14 | Mesmo figurino nos dois takes. |
+| @MOTORISTA | Motorista de ônibus | M, 40 | BH | T12 | Uniforme sem operadora real. |
+| @ESTUDANTE | Estudante do Trilhas de Futuro | M, 15 | BH | T14 | Só no T14 (saiu do ônibus). |
 | @ENFERMEIRA | Enfermeira | F, 30 | BH | T15 | Uniforme hospitalar. |
 
 ### @JOVEM
@@ -1814,7 +1804,7 @@ A comissão conhece o lugar, a credibilidade pesa.
 Wide photograph of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil, late afternoon with low sun from frame-left, orderly terraced benches of ochre and brown earth, wide well-kept haul roads, large modern haul trucks with no logos far below, a stockpile of dark brown ore in the foreground, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
-### @ONIBUS_INT (Anexar a foto, T12, T13)
+### @ONIBUS_INT (Anexar a foto, T12)
 
 Foto de ônibus urbano brasileiro enviada por você (interior com corrimãos amarelos e bancos azuis estampados), anexada como referência só do lugar: o escopo manda ignorar pessoas, textos, adesivos, luz e grade de cor. A cabine entra à parte (@ONIBUS_CAB).
 
@@ -1822,9 +1812,9 @@ Foto de ônibus urbano brasileiro enviada por você (interior com corrimãos ama
 Photograph of the inside of a clean, well-kept Brazilian city bus in Belo Horizonte, seen from the first passenger row looking forward, afternoon daylight from the door side, the driver's cab on the left, a glass folding front door on the right, a grey rubber floor with a yellow safety line at the steps, yellow-painted steel handrails and stanchions, moulded grey seat shells with blue patterned cushions and yellow priority seats up front, sliding side windows with small red emergency boxes, displays switched off, NO logos, NO route numbers, NO readable signs, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
-### @ONIBUS_CAB (Anexar a foto, T12, T13)
+### @ONIBUS_CAB (Anexar a foto, T12)
 
-Sua foto da cabine, já sem o motorista e sem textos, anexada como referência só do lugar (bancada, volante, painel, validador, espelho, corrimão amarelo). Serve sobretudo ao plano 3, que olha a cabine de trás. Antes de anexar, apague a estrela da marca no centro do volante; o escopo também manda ignorar logos, gotas de chuva no vidro e o que se vê lá fora (a rua da foto não é BH).
+Sua foto da cabine, já sem o motorista e sem textos, anexada como referência só do lugar (bancada, volante, painel, validador, espelho, corrimão amarelo). Serve sobretudo ao plano 2, que olha a cabine de trás. Antes de anexar, apague a estrela da marca no centro do volante; o escopo também manda ignorar logos, gotas de chuva no vidro e o que se vê lá fora (a rua da foto não é BH).
 
 ```
 Photograph of the driver's cab of a Brazilian city bus, seen from the first passenger row on the right looking forward-left, a black fabric driver's seat, a black steering wheel with a plain hub, a dash of rocker switches, a fare validator on its post, a flat rectangular side mirror, a yellow-painted handrail beside the seat, dry windows, NO logos, NO readable signs, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
@@ -1856,7 +1846,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **P6 · Teto de 60 segundos** (a decidir): Com a abertura de 12s (T01-A curto + T01-B de 9s) e o novo bloco T09-B a T12 (cava com fala, match cuts de ~3s cada), o corte estimado fica em ~72s; com o T01-B de 18s, ~81s. O pré-shotlist previa ~9s para a abertura inteira. O revezamento tem takes mais longos que o necessário, de propósito, para cobrir a locução em off: o enxugamento fica para a montagem, mas o teto de 60s precisa de uma decisão sua (onde cortar).
 - **P7 · Look (style ref)** (a testar): FILM LOOK v2 a partir do seu ref. Antes de congelar, fazer draft do T01 (exterior com mergulho), do T05 (interior com travelling) e do T09 (virada com match).
 - **P9 · Falas do T09-B (sem V.O.)** (decidido): T09-A: ele diz "a nossa gente.". T09-B plano 1: ele diz "Afinal, o que cresce aqui:" de costas, andando; plano 2: "também deve construir novos caminhos para quem nasce, [pausa] vive [pausa] e trabalha aqui." em cena, com as duas pausas pedidas (no prompt vão num bloco PACING, fora das aspas). Mesma voz e mesma entrega nas três falas, sem V.O. no ElevenLabs nesse trecho. O corte para a mãe cai em "vive" e o áudio dele segue por cima dos match cuts.
-- **P10 · T12 e T13 numa geração** (proposta): Mesmo lugar e mesmas pessoas; o olhar do motorista emenda a fala.
+- **P10 · T12 só com o motorista** (decidido): O T12 virou dois planos, só o motorista (match com dolly-out + fala em outro ângulo), com o ônibus parado, sem porta, sem estudante e sem T13.
 - **P15 · Bloqueios 3D (T01-B)** (confirmar): Os dois bloqueios entram como referência só de movimento. Ajustes pedidos: no de 8,6s, estender o último frame em ~0,4s (fica 9s); no de 19s, cortar ~2s do close inicial e estender o último frame em ~1s (fica 18s). Se der, exportar sem os textos de marcação e em 21:9.
 - **P16 · Locações** (decidido): Nenhuma plate será gerada por enquanto; todos os takes saem de text-to-video para o lugar. Os prompts de locação ficam de reserva.
 - **P18 · Falas apertadas em todos os takes** (decidido): A janela de cada fala tem o tamanho da frase (cerca de 3 palavras por segundo) e começa junto com o plano em que ele fala; o corte seguinte vem logo depois. O T15 ganhou tempo (a frase longa estava apertada, 5s para 23 palavras); os outros encolheram 1 a 3s.
@@ -1864,7 +1854,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **P20 · Os 5s antes dos match cuts** (decidido): Resolvidos pelo T09-B (a direção é sua): plano 1, wide baixíssimo dele de costas andando até a máquina, contra o sol e com flare, falando "Afinal, o que cresce aqui:"; plano 2, médio close dele com a fala e o dolly-out.
 - **P21 · Sheets da mãe, da torcedora e do funcionário** (ok, com um alerta): @MAE e @TORCEDORA gerados; o @FUNCIONARIO foi atualizado sem os protetores auriculares (descritor e prompt do sheet ajustados). Alerta: a camisa da torcedora saiu com um escudo azul e amarelo no peito. O prompt do T11 manda ignorar o emblema, mas o ideal é gerar o sheet de novo (o prompt agora pede o peito liso) ou apagar o escudo da imagem antes de anexar. Também saiu com jeans marrom-escuro, não índigo; o descritor segue o sheet.
 - **P22 · Exceções de look no T09-B** (decidido): Só o plano 1 (ele de costas) é diferente: contraluz, com o sol baixo atrás da máquina, e UM flare. O plano 2 usa a mesma luz do T09-A (sol baixo à esquerda), sem flare. O resto do filme segue sem flares e com o sol à esquerda.
-- **P23 · Ônibus do T12 (cara brasileira)** (decidido): O interior estava com cara de ônibus gringo (alças de aço, bancos cinza). Agora segue as suas fotos: corrimãos amarelos, bancos azuis estampados, piso de borracha cinza. Duas referências só de lugar, sem pessoas: @ONIBUS_INT (a foto do interior) e @ONIBUS_CAB (a foto da cabine, já sem o motorista e sem textos). Antes de anexar a cabine, apague a estrela da marca no centro do volante. Ordem de upload: motorista, interior, estudante, cabine. O sheet do @MOTORISTA foi atualizado por você (uniforme sem escrita) e o descritor segue o sheet. Planos do T12 mais fechados.
+- **P23 · Ônibus do T12 (cara brasileira)** (decidido): O interior estava com cara de ônibus gringo (alças de aço, bancos cinza). Agora segue as suas fotos: corrimãos amarelos, bancos azuis estampados, piso de borracha cinza. Duas referências só de lugar, sem pessoas: @ONIBUS_INT (a foto do interior) e @ONIBUS_CAB (a foto da cabine, já sem o motorista e sem textos). Antes de anexar a cabine, apague a estrela da marca no centro do volante. Ordem de upload: motorista, interior, cabine. O ônibus fica parado e o estudante não aparece mais no T12. O sheet do @MOTORISTA foi atualizado por você (uniforme sem escrita) e o descritor segue o sheet.
 - **P11 · EPI da mina e da siderurgia** (validar): Os sheets trazem EPI padrão. Confirmar com a SST da operadora antes da geração final.
 - **P13 · Formato** (decidido): 21:9 em todas as gerações (variável única no build). As character sheets ficam em 16:9, porque são referência de identidade. Nos closes o 21:9 deixa muito espaço dos lados; se algum close vier aberto demais, aperte o FOV (por exemplo 29° para 18°).
 - **P17 · Corte T01-A → T01-B** (decidido): T01-A termina com ele totalmente de frente, ombros quadrados e olhando a lente; T01-B começa exatamente assim, em close. O corte cai no olhar, como um punch-in. A mesma luz (sol da esquerda) nos dois.
