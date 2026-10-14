@@ -61,7 +61,7 @@ CHARS = [
              outfit="light green school T-shirt with no emblem, black shorts, black rubber sandals",
              realism=CHILD_SKIN)),
     dict(tag="PROFESSORA", papel="Professora", idade="F, 40", r="BH", takes="T02",
-         obs="Tom de professora, dito com gentileza e rosto acolhedor, nunca severa. A VOZ vem da sua gravação do ElevenLabs (\"Scheila · Serious and Direct\", 2,4s, com a fala \"E minério não é só minério, viu?\"), anexada como @Audio1 no T01-B só como referência de voz e de tom.",
+         obs="Tom de professora, dito com gentileza e rosto acolhedor, nunca severa. A VOZ vem da sua gravação do ElevenLabs (\"Scheila · Serious and Direct\", 2,4s, com a fala \"E minério não é só minério, viu?\"), anexada como @Audio1 no T01-B como referência de voz e de tom; é a mesma fala que ela diz no filme.",
          prompt=sheet(
              who="a white Brazilian woman", age=40, person="woman", pron="she", poss="her",
              skin="Fair skin with light freckles across the nose and cheeks.",
