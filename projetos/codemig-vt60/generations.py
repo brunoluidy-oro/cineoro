@@ -580,13 +580,14 @@ T12 = join(
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
 @ONIBUS_INT — PLACE of the bus: the layout, the yellow handrails, the seats, the windows, the floor, the door. 100% matches the place.
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
-{SCOPE_ID} For @ONIBUS_INT: IGNORE any people, any text, stickers or signs, the light, the exposure and the colour grade.""",
+@ONIBUS_CAB — PLACE of the driver's cab: the seat, the steering wheel, the dash, the fare validator, the mirror, the yellow handrail, the steps. 100% matches the cab.
+{SCOPE_ID} For @ONIBUS_INT and @ONIBUS_CAB: IGNORE any people, any text, stickers, signs or logos (even on the steering wheel), the light, the exposure and the colour grade, raindrops on the glass, and whatever is seen outside the windows.""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @MOTORISTA ({ANCH['MOTORISTA']}) — the BUS DRIVER: at the wheel on the bus's left side, opens the door for the boy, greets him, drives, speaks once in shot 3; NEVER stands.
 @ESTUDANTE ({ANCH['ESTUDANTE']}) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
 FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.""",
-    """SCENE — Late afternoon inside a clean, well-kept Brazilian city bus in Belo Horizonte, stopped at a stop — yellow-painted steel handrails and stanchions, moulded grey seat shells with blue patterned cushions and yellow priority seats up front, a grey rubber floor with a yellow safety line at the steps, sliding side windows with small red emergency boxes, a folding glass door. @MOTORISTA sits at the wheel looking at you, the door shut beside him, a teenage student waiting outside with a backpack.
+    """SCENE — Late afternoon inside a clean, well-kept Brazilian city bus in Belo Horizonte, stopped at a stop — yellow handrails, blue patterned seats, a grey rubber floor, a folding glass door, the cab as in @ONIBUS_CAB. @MOTORISTA sits at the wheel looking at you, the door shut beside him, a teenage student waiting outside with a backpack.
 THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he knows this boy and is proud of where he is headed — he tells you the route with a smile.""",
     f"""{LOCKS_HEAD}
 1. Exactly 4 shots, 3 hard cuts at 3s, 6s and 11s — WRONG if extra cuts; shot 1 is the dolly-out, shots 2 to 4 are handheld.
@@ -609,7 +610,7 @@ THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to
     T.dolly_out(3) + """
 SHOTS 2–4: handheld, an operator with a body — breathing, small weight shifts, late corrections, never locked; in the close-ups it drifts and follows the action, in shot 3 it drifts slowly around the driver. HORIZON: level.""",
     T.MATCH_FRAME,
-    """GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side), a flat rectangular mirror, a fare validator on a post, a plain black steering wheel with no logo and a dash of rocker switches in the cab; in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus on a blue patterned seat.""",
+    """GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side), the cab exactly as in @ONIBUS_CAB (black fabric seat, black steering wheel with a plain hub, dash of rocker switches, fare validator on its post, flat rectangular mirror, yellow handrail by the seat); in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus on a blue patterned seat.""",
     """PHYSICS & MATERIAL — the door lever clicks and the door swings open on its pneumatic arm; the bus dips slightly as the boy steps in; when it pulls away everybody sways gently; the wheel turns under his palms; the city slides past the windows with motion blur. """ + REAL + """ MATERIAL TRUTH: the glass of the door, the grey rubber floor with its yellow edge line, yellow-painted handrails with grey clamp brackets, grey seat shells with blue patterned cushions, the cotton of his pale grey shirt, the city reflected in the windows.""",
     T.light_int("the bus's windshield and door-side windows",
                 "no other source inside the bus.",
@@ -617,7 +618,7 @@ SHOTS 2–4: handheld, an operator with a body — breathing, small weight shift
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: the door lever's click and the door's pneumatic hiss; the boy's steps; the engine pulling away; tyres on the avenue, traffic outside, a horn far off; the stop-request bell once (a single tone, not a melody); the engine's hum under his voice. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: chrome or satin-steel handrails, a European or American bus interior, an all-grey interior, readable stickers or fare signs, the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or a zoom in shot 1, a generic or plain-looking man, extra cuts, {T.NEG_DOLLY}.""",
+    f"""NEGATIVE: rain or raindrops on the windows, a logo on the steering wheel, chrome or satin-steel handrails, a European or American bus interior, an all-grey interior, readable stickers or fare signs, the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or a zoom in shot 1, a generic or plain-looking man, extra cuts, {T.NEG_DOLLY}.""",
     """[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly-out, at 2–3s his eyes drop to the door control and the glass door folds open — (2, 3–6s) tight CU, handheld: the door opens fully, the student's sneaker steps in — (3, 6–11s) medium shot, waist-up, at the wheel, the bus moving: his line, road and you — (4, 11–14s) tight CU: the student by the window, the city sliding past. Invariants: Brazilian city-bus look (yellow handrails, blue patterned seats, grey rubber floor); shot 1 face centred, camera backing away with no zoom; student silent; driver speaks only in shot 3; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
