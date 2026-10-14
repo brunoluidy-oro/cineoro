@@ -49,6 +49,14 @@ CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light."""
 
 
+# Variante diurna (a pedido, T08): manhã clara, sol alto — sem cara de entardecer.
+LIGHT_EXT_DAY = """LIGHT — NATURAL LIGHT ONLY, bright mid-morning (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: the sun ~5600 K from frame-LEFT, about 50° above the horizon, softened by a thin high veil of cloud; the blue sky with a few white clouds as the fill on the other side; the green leaves bounce a soft fill up under any hat brim.
+REACH: the sun lights the frame-LEFT side of every face and shoulder with a clean, neutral-warm edge; the frame-RIGHT side of each face sits in soft open shade, readable; shadows short and soft.
+EXPOSURE: exposed for skin; highlights creamy, the sky holding its blue; blacks slightly lifted; corners allowed to fall into shade.
+CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
+NOT: golden hour, orange or pink sky, long shadows, sunset glow, a low sun, sunbeams, sun disc in frame, reflector fill, flat overcast, harsh noon top light that buries the eyes in hat shadow."""
+
 def light_int(window, practicals, reach):
     """Base interior: the fixed lines are verbatim; only the scene's source and reach change."""
     return f"""LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.

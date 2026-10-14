@@ -359,36 +359,46 @@ NOT: shot 1 travelling, shot 1 tilted or angled, a tripod or locked-off frame in
 )
 
 T08 = join(
-    contract(10, "2 shots with 1 hard cut at 2s", "handheld travelling sideways from frame-left to frame-right in both shots"),
+    contract(10, "2 shots with 1 hard cut at 2s", "handheld, the operator backing up ahead of her at her walking pace in both shots"),
     f"""REFERENCES — each reference has ONE job:
 @AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@AGRICULTORA ({ANCH['AGRICULTORA']}) — the FARMER: walks her soybean field, checks the plants, speaks; NEVER walks toward the camera, NEVER stops walking.
+@AGRICULTORA ({ANCH['AGRICULTORA']}) — the FARMER: walks FORWARD along her soybean row straight toward the lens, facing the camera, checks the plants with her hand, speaks; NEVER walks sideways, NEVER walks away from the camera, NEVER stops walking.
 FACES: her face exists once; nobody else in frame.
 CONTACT: only her hands on the plants.""",
-    """SCENE — Late afternoon in a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: perfect rows, a centre-pivot irrigation arm in the distance. @AGRICULTORA is already walking along a row, her open hand passing over the tops of the plants.
-THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs it with pride; she walks you through it, delighted to get to the point.""",
-    rev_locks(2, [2], "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:",
-              "\n4b. She walks from frame-left to frame-right in every shot — WRONG if she walks toward or away from the camera."),
+    """SCENE — Bright mid-morning in a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: vivid green rows running straight away to the horizon, a centre-pivot irrigation arm far off, a blue sky with a few white clouds. @AGRICULTORA is already walking along a row straight toward the camera, her open hand passing over the tops of the plants.
+THE SOUL OF THE SCENE (play it, never explain it): this is her land and she runs it with pride; she comes walking toward you, delighted to get to the point.""",
+    f"""{LOCKS_HEAD}
+1. Exactly 2 shots with 1 hard cut at 2s — WRONG if there are extra cuts.
+2. She walks FORWARD along her row straight toward the lens for the whole take, her body and face square to the camera — WRONG if she walks sideways, walks away, or turns her head sideways to look at the camera.
+3. The handheld camera walks BACKWARD ahead of her at her pace and keeps the distance constant in both shots — WRONG if it stops, travels sideways, pushes in or pulls back.
+4. The close-up shows her hand and the plants only; she speaks only in the medium-wide shot, her eyes alive on the lens and readable under the hat brim — WRONG if glassy or hidden in shadow.
+5. Only @AGRICULTORA speaks, only "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:" — every other mouth closed.
+6. Bright mid-morning light from frame-LEFT, NOT golden hour — NO music.""",
     timeline(2, [2], [
-        "SHOT 1 (0–2s) — CU, 47°: her open hand passes over the tops of the soybean plants as she walks, the leaves brushing her palm and springing back. HARD CUT.",
-        "SHOT 2 (2–10s) — MWS (from the knees up, the rows and the pivot behind her), 63°: @AGRICULTORA walking left to right at the left-centre of the frame, turns her head to the lens and speaks at 2–9s, eyes moving between you and the field, smiling more as she goes; at 9–10s she keeps walking with a warm smile, eyes on you. Hard end mid-step.",
+        "SHOT 1 (0–2s) — CU, 47°, the lens at plant-top height about 0.6 m from her hand, backing up ahead of her: her open hand sweeps over the tops of the soybean plants toward the lens, the leaves brushing her palm and springing back; her body soft behind the hand, walking toward us. HARD CUT.",
+        "SHOT 2 (2–10s) — MWS (from the knees up, the rows converging behind her, the pivot far off), 63°, the camera about 3.5 m ahead of her, backing up at her pace: @AGRICULTORA walks straight toward the lens along her row, centred, square to the camera; she speaks at 2–9s, eyes on the lens with a quick glance down at the plants now and then, smiling more as she goes; at 9–10s she keeps walking with a warm smile, eyes on you. Hard end mid-step.",
     ]),
     dialogue(line(2, 9, "AGRICULTORA", "Enquanto o mundo olha para o nióbio e as terras raras de Minas, Minas olha para o que há de mais raro na nossa terra:"), "AGRICULTORA"),
     acting("AGRICULTORA", "she runs this land and knows what it is worth.",
-           "walk you through her field like a proud host and get to the point with a smile.",
-           "split between the plants and the lens; toward the end of the line they stay on you.",
-           "she breathes a short laugh through her nose", "arms spread over the field"),
-    T.REV_CAMERA,
-    """GEOMETRY — the rows run left to right across the frame; @AGRICULTORA walks along one row, the camera along the parallel row 2.5 m away; the plants knee-high; the centre-pivot arm about 300 m away; the sun low on frame-LEFT.""",
-    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; her boots press into the soft soil between rows; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: glossy healthy leaves, the light cotton of her sage-green shirt, the spray of the irrigation catching the sun far off.""",
-    T.LIGHT_EXT,
+           "come toward you like a proud host and get to the point with a smile.",
+           "on the lens, with a quick glance down at the plants now and then; steady on you toward the end of the line.",
+           "she breathes a short laugh through her nose", "arms spread over the field, looking sideways at the camera"),
+    """CAMERA — handheld, an operator with a body: the operator walks BACKWARD ahead of her at her walking pace and keeps the same distance from her in both shots — human footfall bounce, late small corrections; the camera never stops, never goes sideways, never pushes in or pulls back.
+SHOT 1: CU, the lens at plant-top height about 0.6 m from her hand. SHOT 2: lens at chest height, about 3.5 m ahead of her.
+OPTICS: as stated per shot; no lens drift inside a shot.
+FOCUS: on her hand in shot 1; on her eyes in shot 2, the field soft behind.
+HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, sideways travel, push-in, pull-back, zoom, the camera stopping.""",
+    """GEOMETRY — the soybean rows run straight away from the camera to the horizon; @AGRICULTORA walks along one row on the centre line, the camera backing along the same row ahead of her; the plants knee-high; the centre-pivot arm about 300 m away, small, behind her to frame-RIGHT; the sun high on frame-LEFT.""",
+    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; her boots press into the soft soil between rows; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: glossy healthy leaves, the light cotton of her sage-green shirt, the felt of her hat brim, the spray of the irrigation catching the sun far off.""",
+    T.LIGHT_EXT_DAY,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: walking toward the camera, stopping, the camera stopping, arms spread, a straw hat, eyes hidden under the hat brim, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: 2 shots, 1 hard cut at 2s, 10s, handheld travelling left to right in both shots — (1, 0–2s) CU: her hand over the plants — (2, 2–10s) medium-wide walk-and-talk: her line to the lens, smiling, still walking; hard end mid-step. Invariants: constant lateral travel; she walks left to right; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: walking sideways, walking away from the camera, her head turned sideways to the lens, a sideways-travelling camera, stopping, the camera stopping, push-in, pull-back, golden hour, a low orange sun, a sunset sky, long shadows, eyes hidden in the hat shadow, arms spread, a straw hat, a poor old farm, an old tractor, speaking in the close-ups, drone shot, extra cuts, {T.NEG_SPINE}.""",
+    """[ORDER: 2 shots, 1 hard cut at 2s, 10s, handheld, the operator backing up ahead of her at her walking pace in both shots — (1, 0–2s) CU: her hand sweeping over the plants toward the lens — (2, 2–10s) medium-wide: she walks straight toward the lens and says her line, eyes on you, smiling, still walking; hard end mid-step. Invariants: she walks forward toward the camera, never sideways; the camera backs up at her pace, distance constant; bright mid-morning light from frame-LEFT, not golden hour; eyes readable under the hat brim; living eyes; only her line. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T09
