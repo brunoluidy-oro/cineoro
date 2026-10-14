@@ -43,7 +43,7 @@ De costas pro mar de morros, o jovem vira; corte seco pro close, ele fala e a c�
 - **O que é dito:** nada.
 - **Tempo:** de costas, olhando os morros — 2s · vira por completo — 2s · segura de frente — 2s = 6s
 - **Como termina:** ele de frente, quadrado pra câmera, olhando a lente. O corte cai nesse olhar.
-- **Direção:** Plano aberto e simétrico, o único do filme: a figura inteira ao centro e os morros caindo dos dois lados, que no 21:9 ganham espaço. O giro é completo, para o T01-B começar de onde este termina (ele de frente, olhando a lente) e o corte pro close fazer sentido.
+- **Direção:** Plano bem aberto e simétrico, o único do filme: câmera baixa, a uns 60 cm do chão, mostrando a rocha em primeiro plano, a figura pequena e inteira ao centro e os morros caindo dos dois lados. O giro é completo, para o T01-B começar de onde este termina (ele de frente, olhando a lente) e o corte pro close fazer sentido.
 
 ```
 CONTRACT — Live-action photoreal film footage, 21:9, 6 seconds total, ONE continuous take, no cuts, handheld, drifting slowly, wide and centred, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
@@ -61,13 +61,13 @@ THE SOUL OF THE SCENE (play it, never explain it): he loves where he comes from 
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. ONE continuous handheld take, no cuts — WRONG if it cuts or the camera is locked.
-2. WIDE and CENTRED the whole take: @JOVEM on the vertical centre line, his entire body from head to boots inside the frame, standing about 10 m from the lens, filling about a third of the frame height — WRONG if the shot is a medium shot, over-the-shoulder, cropped at the body, or he sits off-centre.
+2. WIDE and CENTRED the whole take: @JOVEM on the vertical centre line, his entire body from head to boots inside the frame, standing about 16 m from the lens, filling only about a fifth of the frame height, with a band of rock ground visible in the lower frame in front of him — WRONG if the shot is a medium shot, over-the-shoulder, cropped at the body, he sits off-centre, or the ground is not visible.
 3. The turn is COMPLETE: by 4s his body and shoulders are square to the camera and his eyes are on the lens, and he holds that until the end — WRONG if the turn stops half-way, at three-quarter or in profile.
 4. NO dialogue — his mouth stays closed — WRONG if he speaks.
 5. Sun from frame-LEFT — NO music.
 
 TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:
-BEAT 1 (0–2s) — WS, 63°, handheld from 10 m behind him at chest height, drifting slowly: @JOVEM centred, back to camera, his backpack on both shoulders, boots on the rock, the layered hills falling away to both sides of him; his eyes travel the horizon.
+BEAT 1 (0–2s) — EWS, 84°, handheld from 16 m behind him with the lens low, about 60 cm above the rock, drifting slowly, a band of lichen-covered rock ground in the lower frame: @JOVEM centred, back to camera, his backpack on both shoulders, boots on the rock, the layered hills and a wide sky around him; his eyes travel the horizon.
 BEAT 2 (2–4s) — he turns all the way round, boots re-planting on the rock, until he stands square to the camera, smiling, eyes on the lens.
 BEAT 3 (4–6s) — he holds, square to the camera, centred, smile and eyes on the lens, the backpack straps on both shoulders. Hard end on the held look.
 
@@ -78,9 +78,9 @@ OPTICS: as stated per shot; no lens drift inside a shot.
 FOCUS: on the action in the close-ups; on the speaker's eyes in the line shot.
 HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom.
-COMPOSITION (the one deliberate symmetrical frame of the film): @JOVEM on the vertical centre line, entire body in frame, the hills falling away evenly on both sides, the horizon on the upper third, sky above.
+COMPOSITION (the one deliberate symmetrical frame of the film): a very wide, low frame — @JOVEM small on the vertical centre line with his entire body in frame, rock ground across the lower frame, the hills falling away evenly on both sides, the horizon on the upper third, sky above.
 
-GEOMETRY — the camera 10 m from @JOVEM at chest height; he stands 1 m back from the rock edge on the centre line; hills 2–10 km beyond on both sides, the farthest dissolving into haze.
+GEOMETRY — the camera 16 m from @JOVEM, lens about 60 cm above the rock; he stands 1 m back from the rock edge on the centre line; hills 2–10 km beyond on both sides, the farthest dissolving into haze.
 
 PHYSICS & MATERIAL — the wind from frame-left combs the grass and moves his overshirt; his boots shift on the rock when he turns; the backpack sways with the turn. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: lichen on the grey rock, the weave of his overshirt, the backpack's fabric and straps.
 
@@ -98,9 +98,9 @@ SOUND — LOCATION SOUND ONLY: wind across the open summit; dry grass hissing; h
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: speaking, a cut, over-the-shoulder framing, a medium shot, a cropped body, a figure off-centre, a half-finished turn, a three-quarter or profile ending, a dolly or drone move, a second person, raised arms, sun disc in frame, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: speaking, a cut, over-the-shoulder framing, a medium shot, a cropped body, a camera at chest or eye height, no ground in frame, a close or tight framing, a figure off-centre, a half-finished turn, a three-quarter or profile ending, a dolly or drone move, a second person, raised arms, sun disc in frame, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, gimbal glide, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: ONE handheld take, 6s, wide and centred, 21:9 — (0–2s) his back to camera on the centre line, entire body in frame, the hills on both sides — (2–4s) he turns all the way round to face the camera, smiling — (4–6s) he holds square to the camera, eyes on the lens; hard end. Invariants: wide, centred, entire body in frame; the turn is complete; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
+[ORDER: ONE handheld take, 6s, extra-wide, low camera, centred, 21:9 — (0–2s) his back to camera on the centre line, small, entire body in frame, rock ground in the lower frame, the hills on both sides — (2–4s) he turns all the way round to face the camera, smiling — (4–6s) he holds square to the camera, eyes on the lens; hard end. Invariants: extra-wide, low lens with ground visible, centred, entire body in frame; the turn is complete; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -109,7 +109,7 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 6s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @JOVEM (character sheet) — identidade
-Notas: o draft anterior saiu em médio sobre o ombro e terminou com ele meio virado. Confira três coisas: corpo inteiro no quadro, ele no centro, e o giro terminando de frente (ombros quadrados). Sem locação anexada: o pico sai só do texto.
+Notas: o draft anterior saiu em médio sobre o ombro e terminou com ele meio virado. Confira quatro coisas: câmera baixa com o chão aparecendo, plano bem aberto, ele no centro com o corpo inteiro, e o giro terminando de frente (ombros quadrados). Sem locação anexada: o pico sai só do texto.
 ```
 
 #### Geração T01-B · 18s · 1 plano(s)

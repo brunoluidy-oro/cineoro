@@ -99,26 +99,26 @@ FACES: his face exists once; nobody else in the frame.""",
 THE SOUL OF THE SCENE (play it, never explain it): he loves where he comes from and is about to tell you why.""",
     f"""{LOCKS_HEAD}
 1. ONE continuous handheld take, no cuts — WRONG if it cuts or the camera is locked.
-2. WIDE and CENTRED the whole take: @JOVEM on the vertical centre line, his entire body from head to boots inside the frame, standing about 10 m from the lens, filling about a third of the frame height — WRONG if the shot is a medium shot, over-the-shoulder, cropped at the body, or he sits off-centre.
+2. WIDE and CENTRED the whole take: @JOVEM on the vertical centre line, his entire body from head to boots inside the frame, standing about 16 m from the lens, filling only about a fifth of the frame height, with a band of rock ground visible in the lower frame in front of him — WRONG if the shot is a medium shot, over-the-shoulder, cropped at the body, he sits off-centre, or the ground is not visible.
 3. The turn is COMPLETE: by 4s his body and shoulders are square to the camera and his eyes are on the lens, and he holds that until the end — WRONG if the turn stops half-way, at three-quarter or in profile.
 4. NO dialogue — his mouth stays closed — WRONG if he speaks.
 5. Sun from frame-LEFT — NO music.""",
     timeline(1, [], [
-        "BEAT 1 (0–2s) — WS, 63°, handheld from 10 m behind him at chest height, drifting slowly: @JOVEM centred, back to camera, his backpack on both shoulders, boots on the rock, the layered hills falling away to both sides of him; his eyes travel the horizon.",
+        "BEAT 1 (0–2s) — EWS, 84°, handheld from 16 m behind him with the lens low, about 60 cm above the rock, drifting slowly, a band of lichen-covered rock ground in the lower frame: @JOVEM centred, back to camera, his backpack on both shoulders, boots on the rock, the layered hills and a wide sky around him; his eyes travel the horizon.",
         "BEAT 2 (2–4s) — he turns all the way round, boots re-planting on the rock, until he stands square to the camera, smiling, eyes on the lens.",
         "BEAT 3 (4–6s) — he holds, square to the camera, centred, smile and eyes on the lens, the backpack straps on both shoulders. Hard end on the held look.",
     ]),
     """ACTING — @JOVEM: TACTIC take in the view he loves, then turn to share it with you; eyes on the far ridges, then on the lens; involuntary detail: the wind lifts his collar; NOT a heroic pose, open arms, a solemn face.""",
     T.handheld() + """
-COMPOSITION (the one deliberate symmetrical frame of the film): @JOVEM on the vertical centre line, entire body in frame, the hills falling away evenly on both sides, the horizon on the upper third, sky above.""",
-    """GEOMETRY — the camera 10 m from @JOVEM at chest height; he stands 1 m back from the rock edge on the centre line; hills 2–10 km beyond on both sides, the farthest dissolving into haze.""",
+COMPOSITION (the one deliberate symmetrical frame of the film): a very wide, low frame — @JOVEM small on the vertical centre line with his entire body in frame, rock ground across the lower frame, the hills falling away evenly on both sides, the horizon on the upper third, sky above.""",
+    """GEOMETRY — the camera 16 m from @JOVEM, lens about 60 cm above the rock; he stands 1 m back from the rock edge on the centre line; hills 2–10 km beyond on both sides, the farthest dissolving into haze.""",
     """PHYSICS & MATERIAL — the wind from frame-left combs the grass and moves his overshirt; his boots shift on the rock when he turns; the backpack sways with the turn. """ + REAL + """ MATERIAL TRUTH: lichen on the grey rock, the weave of his overshirt, the backpack's fabric and straps.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: wind across the open summit; dry grass hissing; his boots on grit as he turns; a hawk far off. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: speaking, a cut, over-the-shoulder framing, a medium shot, a cropped body, a figure off-centre, a half-finished turn, a three-quarter or profile ending, a dolly or drone move, a second person, raised arms, sun disc in frame, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 6s, wide and centred, 21:9 — (0–2s) his back to camera on the centre line, entire body in frame, the hills on both sides — (2–4s) he turns all the way round to face the camera, smiling — (4–6s) he holds square to the camera, eyes on the lens; hard end. Invariants: wide, centred, entire body in frame; the turn is complete; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: speaking, a cut, over-the-shoulder framing, a medium shot, a cropped body, a camera at chest or eye height, no ground in frame, a close or tight framing, a figure off-centre, a half-finished turn, a three-quarter or profile ending, a dolly or drone move, a second person, raised arms, sun disc in frame, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 6s, extra-wide, low camera, centred, 21:9 — (0–2s) his back to camera on the centre line, small, entire body in frame, rock ground in the lower frame, the hills on both sides — (2–4s) he turns all the way round to face the camera, smiling — (4–6s) he holds square to the camera, eyes on the lens; hard end. Invariants: extra-wide, low lens with ground visible, centred, entire body in frame; the turn is complete; no dialogue; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T01-B (bloqueio 3D: close → terra → minério → aço → sala)
