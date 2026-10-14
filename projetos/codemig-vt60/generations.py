@@ -314,27 +314,28 @@ THE SOUL OF THE SCENE (play it, never explain it): she loves what she does and a
 )
 
 T07 = join(
-    contract(6, "2 shots with 1 hard cut at 3s", "handheld; shot 1 overhead and not travelling, shot 2 travelling sideways from frame-left to frame-right"),
+    contract(6, "2 shots with 1 hard cut at 3s", "handheld; shot 1 strictly top-down at 90° and not travelling, shot 2 travelling sideways from frame-left to frame-right"),
     f"""REFERENCES — each reference has ONE job:
 @DONO — IDENTITY of @DONO: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @DONO ({ANCH['DONO']}) — the OWNER: finishes the plate with a squeeze bottle, then speaks once, already looking at the lens, flicking a towel onto his shoulder; NEVER sits, NEVER walks out of frame.
-KITCHEN STAFF: three or four cooks working in the open kitchen behind him, distinct Brazilian men and women in plain white cook's jackets and dark aprons with no logos, soft and busy, silent, mouths closed.
+KITCHEN STAFF: three or four cooks working in the industrial kitchen behind him, distinct Brazilian men and women in plain white cook's jackets and dark aprons with no logos, soft and busy, silent, mouths closed.
 FACES: each face exists once; no twins, no clones.
 CONTACT: nobody touches anyone.""",
-    """SCENE — Lunchtime in a bright, contemporary healthy-food restaurant in Belo Horizonte, Brazil — light wood, plants, big windows, an open kitchen where the staff is busy. @DONO is already finishing a salad plate on the stainless-steel pass.
+    """SCENE — Lunchtime in the professional kitchen of a healthy-food restaurant in Belo Horizonte, Brazil — an industrial kitchen, stainless steel everywhere, practical and busy, nothing fancy; the pass window opens onto a sunlit dining room. @DONO is already finishing a salad plate on the stainless-steel pass counter.
 THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in this city for decades and this one is his pride — he lets you in on it like an old friend.""",
     f"""{LOCKS_HEAD}
 1. Exactly 2 shots with 1 hard cut at 3s — WRONG if there are extra cuts.
-2. Shot 1: the camera is held directly overhead and does NOT travel — it stays put with only a faint handheld breath. Shot 2: the handheld camera travels sideways from frame-left to frame-right at one steady pace — WRONG if shot 1 travels, or shot 2 stops, reverses, pushes in or glides.
-3. Shot 1 shows only the plate, the steel counter and his hand with the squeeze bottle, no face; in shot 2 he is ALREADY looking at the lens in the first frame and speaks only there, eyes alive.
-4. Only @DONO speaks, only "de uma economia mais sustentável." — the cooks never speak.
-5. In shot 2 he flicks the towel onto his shoulder WHILE he speaks, without turning away from the lens, and the open kitchen with working cooks fills the background — WRONG if the background is empty.
-6. Light from frame-LEFT — NO music.""",
+2. Shot 1 is ABSOLUTELY TOP-DOWN: a pure overhead flat-lay, the lens pointing exactly straight down at the counter, 90° to its surface — the round plate reads as a perfect circle and the counter fills the whole frame; NO horizon, NO wall, NO front edge of the counter, NO side of anything visible — WRONG if the view is angled, three-quarter, from the side or from the front.
+3. Shot 1: the camera does NOT travel — it stays put with only a faint handheld breath. Shot 2: the handheld camera travels sideways from frame-left to frame-right at one steady pace — WRONG if shot 1 travels, or shot 2 stops, reverses, pushes in or glides.
+4. Shot 1 shows only the plate, the steel counter and his hand with the squeeze bottle, no face; in shot 2 he is ALREADY looking at the lens in the first frame and speaks only there, eyes alive.
+5. Only @DONO speaks, only "de uma economia mais sustentável." — the cooks never speak.
+6. In shot 2 he flicks the towel onto his shoulder WHILE he speaks, without turning away from the lens, and the industrial stainless-steel kitchen with working cooks fills the background — WRONG if the background is empty or looks like a fancy dining room.
+7. Light from frame-LEFT — NO music.""",
     timeline(2, [3], [
-        "SHOT 1 (0–3s) — OVERHEAD, straight top-down (zenithal), 47°, held directly above and staying put: a ceramic plate of salad — fresh greens, grilled vegetables, cherry tomatoes, seeds — on a brushed stainless-steel pass counter; beside the plate, a silver service bell, chef's tools (tongs, a spoon, a pepper mill) and paper order tickets; @DONO's hand squeezes a plastic squeeze bottle that draws a thin line of DARK green herb oil over the salad, the oil beading on the leaves. HARD CUT.",
-        "SHOT 2 (3–6s) — MWS (from the knees up, the open kitchen behind him), 63°: @DONO at the right third, ALREADY looking at the lens from the first frame, the cooks working at the stoves and prep counter behind him, soft; he speaks at 3–5s with a complicit smile and flicks a clean white kitchen towel onto his left shoulder while he speaks; at 5–6s he holds the smile. Hard end.",
+        "SHOT 1 (0–3s) — OVERHEAD FLAT-LAY, 47°: the camera is exactly perpendicular to the counter, lens pointing straight down (zenithal, no tilt, no perspective angle), held directly above and staying put; the plate is a perfect circle and the steel counter fills the whole frame, no horizon and no walls visible: a plain white round plate of salad — fresh greens, grilled vegetables, cherry tomatoes, seeds — on a brushed stainless-steel pass counter; beside the plate, a silver service bell, chef's tools (tongs, a spoon, a pepper mill) and paper order tickets; @DONO's hand squeezes a plastic squeeze bottle that draws a thin line of DARK green herb oil over the salad, the oil beading on the leaves. HARD CUT.",
+        "SHOT 2 (3–6s) — MWS (from the knees up, the industrial kitchen behind him — stainless-steel prep tables, a range under an exhaust hood, steel shelving with pans and plastic containers), 63°: @DONO at the right third, ALREADY looking at the lens from the first frame, the cooks working at the range and the steel prep tables behind him, soft; he speaks at 3–5s with a complicit smile and flicks a clean white kitchen towel onto his left shoulder while he speaks; at 5–6s he holds the smile. Hard end.",
     ]),
     dialogue(line(3, 5, "DONO", "de uma economia mais sustentável."), "DONO"),
     acting("DONO", "decades in this city's kitchens, and this place is his pride.",
@@ -342,19 +343,19 @@ THE SOUL OF THE SCENE (play it, never explain it): he has run restaurants in thi
            "on the lens from the first frame of shot 2.",
            "his moustache lifts on one side before he speaks", "a waiter's bow, presenting the plate to the camera"),
     """CAMERA — handheld in both shots.
-SHOT 1: held directly above the plate, looking straight down, and it STAYS PUT: only a faint handheld breath, no travel.
+SHOT 1: held directly above the counter, the lens exactly vertical and looking straight down at 90° — no tilt, no angle — and it STAYS PUT: only a faint handheld breath, no travel.
 SHOT 2: the operator crab-walks sideways at an even slow walking pace from frame-LEFT to frame-RIGHT, lens at shoulder height, small footfall bounce; never stops, never reverses, never pushes in.
 OPTICS: as stated per shot; no lens drift. FOCUS: on the plate in shot 1; on his eyes in shot 2, the kitchen soft behind. HORIZON: level in shot 2.
-NOT: shot 1 travelling, a tripod or locked-off frame in shot 2, gimbal glide, drone, push-in, zoom.""",
-    """PHYSICS & MATERIAL — the squeeze bottle gives with a small hiss and draws a thin line of oil that beads on the leaves; the towel flicks through the air and lands on his shoulder; pans move and steam rises in the kitchen behind him. """ + REAL + """ MATERIAL TRUTH: glossy dark green herb oil, flakes of sea salt, the glaze of a handmade ceramic plate, brushed stainless steel with soft reflections, a silver service bell, order tickets in paper, the cotton of the towel.""",
-    T.light_int("the restaurant's big street windows",
-                "warm pendant lights over the pass and the kitchen lights in the background, small, never on his face.",
+NOT: shot 1 travelling, shot 1 tilted or angled, a tripod or locked-off frame in shot 2, gimbal glide, drone, push-in, zoom.""",
+    """PHYSICS & MATERIAL — the squeeze bottle gives with a small hiss and draws a thin line of oil that beads on the leaves; the towel flicks through the air and lands on his shoulder; pans move and steam rises from the range behind him. """ + REAL + """ MATERIAL TRUTH: glossy dark green herb oil, flakes of sea salt, the glaze of a plain white ceramic plate, brushed stainless steel with soft reflections on the counter, prep tables, shelving and exhaust hood, a silver service bell, order tickets in paper, plastic kitchen containers, the cotton of the towel.""",
+    T.light_int("the pass window that opens onto the sunlit dining room",
+                "bright white overhead kitchen lights as an even secondary on the steel behind, small, never on his face.",
                 "the daylight lights the frame-LEFT side of his face and the plate; the kitchen behind falls off a stop."),
     T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: the squeeze bottle's soft hiss; a service bell's single ding far off; the plate on the steel; pans sizzling and cutlery in the open kitchen; the cooks' murmur with no words standing out; the towel's soft flick; the street through the door. {T.MUSIC_POLICY}""",
+    f"""SOUND — LOCATION SOUND ONLY: the squeeze bottle's soft hiss; a service bell's single ding far off; the plate on the steel; pans sizzling and steel utensils and containers in the kitchen; the exhaust hood's steady hum; the cooks' murmur with no words standing out; the towel's soft flick. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a customer, a face in shot 1, a travelling or moving camera in shot 1, bright or golden oil, him turning toward the lens in shot 2, an empty kitchen, cooks speaking, a rustic old eatery, readable menu, logos on the uniforms, a locked-off or stopped camera in shot 2, push-in, extra cuts, {T.NEG_SPINE.replace("locked-off tripod shot, static camera, ", "")}.""",
-    """[ORDER: 2 shots, 1 hard cut at 3s, 6s, handheld — (1, 0–3s) overhead on the steel counter, camera staying put: dark green herb oil from a squeeze bottle over the salad — (2, 3–6s) medium-wide, travelling: already looking at the lens, the open kitchen behind him, he says his line and flicks the towel onto his shoulder. Invariants: shot 1 static overhead, no face; shot 2 lateral travel; he looks at the lens from the first frame; towel toss during the line; busy kitchen behind. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a customer, a face in shot 1, an angled, three-quarter, side or front view in shot 1, a horizon, walls or the counter's front edge in shot 1, a travelling or moving camera in shot 1, bright or golden oil, him turning toward the lens in shot 2, an empty kitchen, cooks speaking, an elegant dining room, light wood, plants, pendant lights, a fancy, upscale, rustic or home-style kitchen, readable menu, logos on the uniforms, a locked-off or stopped camera in shot 2, push-in, extra cuts, {T.NEG_SPINE.replace("locked-off tripod shot, static camera, ", "")}.""",
+    """[ORDER: 2 shots, 1 hard cut at 3s, 6s, handheld — (1, 0–3s) strictly top-down 90° flat-lay on the steel counter, camera staying put: dark green herb oil from a squeeze bottle over the salad — (2, 3–6s) medium-wide, travelling: already looking at the lens, the industrial stainless-steel kitchen behind him, he says his line and flicks the towel onto his shoulder. Invariants: shot 1 exactly top-down at 90° (never angled or from the side), static, no face; shot 2 lateral travel; he looks at the lens from the first frame; towel toss during the line; busy industrial steel kitchen behind, nothing fancy. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 T08 = join(
