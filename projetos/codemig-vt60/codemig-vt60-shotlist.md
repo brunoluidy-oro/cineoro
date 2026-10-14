@@ -1097,27 +1097,28 @@ O motorista, em médio close com dolly-out, sorri pra você e olha pra baixo pra
 
 #### Geração T12 + T13 · 14s · 4 plano(s)
 
-- **O que acontece:** Num ônibus moderno de BH: médio close do motorista, no centro e reto pra lente, com dolly-out lento; ele sorri e, aos 2s, olha pra baixo e abre a porta de vidro; corte para o tênis do estudante entrando; com o ônibus andando, o motorista fala; fecha no estudante na janela, BH passando.
+- **O que acontece:** Num ônibus urbano brasileiro de BH (corrimãos amarelos, bancos azuis estampados, piso de borracha cinza): médio close do motorista, no centro e reto pra lente, com dolly-out lento; ele sorri e, aos 2s, olha pra baixo e abre a porta de vidro; corte para o tênis do estudante entrando; com o ônibus andando, o motorista fala; fecha no estudante na janela, BH passando.
 - **O que é dito:** MOTORISTA: "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros." (na montagem, a V.O. "e trabalha aqui." cai no plano 1)
 - **Tempo:** motorista em médio close, olha pra baixo e abre a porta — 3s · porta e tênis — 3s · fala com o ônibus andando — 5s · estudante na janela — 3s = 14s
 - **Como termina:** o estudante na janela; corte seco.
-- **Direção:** O primeiro plano agora é o match do motorista: médio close centralizado, mesmo dolly-out de ~3s dos outros rostos; nesses 3s ele olha pra baixo e abre a porta. O resto segue (porta e tênis, fala com o ônibus andando, estudante na janela), só que o tênis agora vem depois de a porta abrir. O close final do estudante prepara o T14.
+- **Direção:** Mais fechado, como você pediu: o plano 2 e o plano 4 viraram close apertado (35°) e o plano 3 virou plano médio da cintura pra cima (40°); o plano 1 fica no médio close do match, que precisa ser igual ao dos outros rostos. O interior deixou de ser "ônibus gringo" (alças de aço cromado, bancos cinza) e passou a ser o ônibus brasileiro das suas fotos: corrimãos pintados de amarelo, bancos de casca cinza com almofada azul estampada e bancos amarelos de prioridade, piso de borracha cinza com faixa amarela nos degraus, janelas de correr com caixinhas vermelhas de emergência, porta de vidro sanfonada. A cabine vem da foto 2, só em texto (espelho retangular, validador, volante liso sem logo). O primeiro plano agora é o match do motorista: médio close centralizado, mesmo dolly-out de ~3s dos outros rostos; nesses 3s ele olha pra baixo e abre a porta. O resto segue (porta e tênis, fala com o ônibus andando, estudante na janela), só que o tênis agora vem depois de a porta abrir. O close final do estudante prepara o T14.
 
 ```
 CONTRACT — Live-action photoreal film footage, 21:9, 14 seconds total, 4 shots with 3 hard cuts at 3s, 6s and 11s, a slow dolly-out in shot 1, handheld in shots 2 to 4, inside a moving bus, real-time motion, dialogue as spoken on-camera audio in Brazilian Portuguese with light Minas Gerais accents. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
 
 REFERENCES — each reference has ONE job:
 @MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
+@ONIBUS_INT — PLACE of the bus: the layout, the yellow handrails, the seats, the windows, the floor, the door. 100% matches the place.
 @ESTUDANTE — IDENTITY of @ESTUDANTE: face, hair, build, hands and wardrobe. 100% matches.
-REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. For @ONIBUS_INT: IGNORE any people, any text, stickers or signs, the light, the exposure and the colour grade.
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
-@MOTORISTA (52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved uniform shirt with two flap chest pockets and small white name badges (nothing readable), worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, opens the door for the boy, greets him, drives, speaks once in shot 3; NEVER stands.
+@MOTORISTA (52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved open-collar uniform shirt with two flap chest pockets and nothing written on it, worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist) — the BUS DRIVER: at the wheel on the bus's left side, opens the door for the boy, greets him, drives, speaks once in shot 3; NEVER stands.
 @ESTUDANTE (15, mixed-race Brazilian teenage boy, light olive-tan skin, thin and tall for his age, short black hair cropped close all over, ears slightly sticking out, a faint teenage moustache and light chin stubble, dark charcoal (almost black) pullover hoodie with a kangaroo pocket, a white T-shirt hem showing below it, black skinny jeans, white canvas low-top sneakers) — the STUDENT: boards with a plain dark backpack on one shoulder, raises a hand, sits by a window; NEVER speaks, mouth closed.
 FACES: each face exists once; 3–4 seated passengers are distinct soft Brazilian adults, mouths closed; no twins, no clones.
 CONTACT: nobody touches anyone; the greeting is a raised hand and a nod.
 
-SCENE — Late afternoon on a modern, air-conditioned city bus in Belo Horizonte, Brazil, stopped at a stop; @MOTORISTA sits at the wheel looking at you, the glass door shut beside him, a teenage student waiting outside with a backpack.
+SCENE — Late afternoon inside a clean, well-kept Brazilian city bus in Belo Horizonte, stopped at a stop — yellow-painted steel handrails and stanchions, moulded grey seat shells with blue patterned cushions and yellow priority seats up front, a grey rubber floor with a yellow safety line at the steps, sliding side windows with small red emergency boxes, a folding glass door. @MOTORISTA sits at the wheel looking at you, the door shut beside him, a teenage student waiting outside with a backpack.
 THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he knows this boy and is proud of where he is headed — he tells you the route with a smile.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
@@ -1129,9 +1130,9 @@ ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 
 TIMELINE — 4 shots, 3 hard cuts; cuts only at the specified points, the camera adds no cuts of its own:
 SHOT 1 (0–3s) — the MATCH FRAME, MCU of @MOTORISTA at the wheel, face dead centre, straight into the lens with a warm smile, the stopped bus soft behind him — the windshield, the aisle and the glass door on frame-LEFT — opening wider as the slow dolly-out runs the whole shot; at 2–3s his eyes drop to the door control below frame, his hand works the lever and the glass door starts to fold open behind him with a pneumatic hiss. HARD CUT.
-SHOT 2 (3–6s) — CU, 47°, low at the door: the glass door folds fully open and @ESTUDANTE's white sneaker steps onto the low floor; his hand rises in a greeting. HARD CUT.
-SHOT 3 (6–11s) — MWS (the driver at the wheel, the windshield and the city ahead), 47°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 6–11s, glancing at the road and back, smiling. HARD CUT.
-SHOT 4 (11–14s) — CU, 47°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.
+SHOT 2 (3–6s) — CU, 35°, low at the door: the glass door folds fully open and @ESTUDANTE's white sneaker steps onto the step with its yellow safety line; his hand rises in a greeting. HARD CUT.
+SHOT 3 (6–11s) — MS (waist-up: the driver at the wheel, the windshield and the city soft behind him), 40°, handheld from the first row of seats: the bus is moving, the avenue sliding past; @MOTORISTA, hands on the wheel, speaks to the lens at 6–11s, glancing at the road and back, smiling. HARD CUT.
+SHOT 4 (11–14s) — CU, 35°: @ESTUDANTE seated by the window, the city of Belo Horizonte sliding past in the glass, a small smile. Hard end mid-ride.
 
 DIALOGUE — only these lines are spoken, each by the named character, lip-synced; NO dubbing, NO voice-over, NO narration, NO subtitles — the words exist only as sound. Every mouth not speaking stays closed.
 [6–11s] @MOTORISTA (on camera, Brazilian Portuguese): "Se Minas tem o que o futuro procura, esse futuro também precisa chegar até os mineiros."
@@ -1154,9 +1155,9 @@ SHOTS 2–4: handheld, an operator with a body — breathing, small weight shift
 
 MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
 
-GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side); in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus.
+GEOMETRY — driver's seat on the bus's left side, glass folding door on the right (frame-LEFT in shot 1, where the camera faces him from the windshield side), a flat rectangular mirror, a fare validator on a post, a plain black steering wheel with no logo and a dash of rocker switches in the cab; in shot 3 the camera in the first row behind and right of the driver, the windshield ahead; the student seated by a window mid-bus on a blue patterned seat.
 
-PHYSICS & MATERIAL — the door lever clicks and the door swings open on its pneumatic arm; the bus dips slightly as the boy steps in; when it pulls away everybody sways gently; the wheel turns under his palms; trees and buildings slide past the windows with motion blur. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the glass of the door, the textured low floor, satin-steel handrails, grey fabric seats, the cotton of his uniform shirt, Belo Horizonte's buildings and trees reflected in the windows.
+PHYSICS & MATERIAL — the door lever clicks and the door swings open on its pneumatic arm; the bus dips slightly as the boy steps in; when it pulls away everybody sways gently; the wheel turns under his palms; the city slides past the windows with motion blur. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the glass of the door, the grey rubber floor with its yellow edge line, yellow-painted handrails with grey clamp brackets, grey seat shells with blue patterned cushions, the cotton of his pale grey shirt, the city reflected in the windows.
 
 LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: daylight through the bus's windshield and door-side windows on frame-LEFT, ~5600 K, soft and directional; no other source inside the bus.
@@ -1172,9 +1173,9 @@ SOUND — LOCATION SOUND ONLY: the door lever's click and the door's pneumatic h
 
 WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
 
-NEGATIVE: the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or a zoom in shot 1, a generic or plain-looking man, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+NEGATIVE: chrome or satin-steel handrails, a European or American bus interior, an all-grey interior, readable stickers or fare signs, the student speaking, the driver standing, hands off the wheel while speaking, a parked bus in shot 3, an old run-down bus, company livery, route number, readable signs or displays, the driver's face drifting off centre or a zoom in shot 1, a generic or plain-looking man, extra cuts, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
 
-[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly-out, at 2–3s his eyes drop to the door control and the glass door folds open — (2, 3–6s) CU, handheld: the door opens fully, the student's sneaker steps in — (3, 6–11s) medium-wide at the wheel, the bus moving: his line, road and you — (4, 11–14s) CU: the student by the window, the city sliding past. Invariants: shot 1 face centred, the camera backing away with no zoom; student silent; driver speaks only in shot 3; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
+[ORDER: 4 shots, 3 hard cuts at 3s, 6s and 11s, 14s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly-out, at 2–3s his eyes drop to the door control and the glass door folds open — (2, 3–6s) tight CU, handheld: the door opens fully, the student's sneaker steps in — (3, 6–11s) medium shot, waist-up, at the wheel, the bus moving: his line, road and you — (4, 11–14s) tight CU: the student by the window, the city sliding past. Invariants: Brazilian city-bus look (yellow handrails, blue patterned seats, grey rubber floor); shot 1 face centred, camera backing away with no zoom; student silent; driver speaks only in shot 3; bus moving, hands on the wheel. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]
 ```
 
 ```
@@ -1183,8 +1184,9 @@ Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
 Duração: 14s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
 Anexar nesta ordem:
   1) @MOTORISTA (character sheet) — identidade
-  2) @ESTUDANTE (character sheet) — identidade
-Notas: risco: o estudante abrir a boca. O ônibus tem que estar andando quando o motorista fala; no plano 1 o rosto do motorista fica no centro e a câmera recua sem zoom.
+  2) @ONIBUS_INT (sua foto do interior do ônibus) — só o lugar; ignorar pessoas, textos, adesivos, luz e grade de cor
+  3) @ESTUDANTE (character sheet) — identidade
+Notas: conferir: interior com corrimãos amarelos e bancos azuis (nada de cromado nem tudo cinza), sem texto legível; risco: o estudante abrir a boca. O ônibus tem que estar andando quando o motorista fala; no plano 1 o rosto do motorista fica no centro e a câmera recua sem zoom.
 ```
 
 ### T14 · Trilhas de Futuro (Conexão, ~3.8s no corte)
@@ -1809,12 +1811,12 @@ A comissão conhece o lugar, a credibilidade pesa.
 Wide photograph of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil, late afternoon with low sun from frame-left, orderly terraced benches of ochre and brown earth, wide well-kept haul roads, large modern haul trucks with no logos far below, a stockpile of dark brown ore in the foreground, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
-### @ONIBUS_INT (Recomendável, T12, T13)
+### @ONIBUS_INT (Anexar a foto, T12, T13)
 
-Continuidade do interior entre os planos.
+Foto de ônibus urbano brasileiro enviada por você (interior com corrimãos amarelos e bancos azuis estampados), anexada como referência só do lugar: o escopo manda ignorar pessoas, textos, adesivos, luz e grade de cor. Não anexe a foto da cabine com o motorista real: ela traria o rosto dele, a marca no volante e textos legíveis.
 
 ```
-Photograph of the inside of a modern air-conditioned Brazilian city bus in Belo Horizonte, seen from the first passenger row looking forward, afternoon daylight from the door side, the driver's cab on the left, a glass folding front door on the right, low textured floor, satin-steel handrails, grey fabric seats, digital displays switched off, NO logos, NO route numbers, NO readable signs, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
+Photograph of the inside of a clean, well-kept Brazilian city bus in Belo Horizonte, seen from the first passenger row looking forward, afternoon daylight from the door side, the driver's cab on the left, a glass folding front door on the right, a grey rubber floor with a yellow safety line at the steps, yellow-painted steel handrails and stanchions, moulded grey seat shells with blue patterned cushions and yellow priority seats up front, sliding side windows with small red emergency boxes, displays switched off, NO logos, NO route numbers, NO readable signs, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render.
 ```
 
 ### @SALA_ESTADUAL (Opcional, T02)
@@ -1851,6 +1853,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **P20 · Os 5s antes dos match cuts** (decidido): Resolvidos pelo T09-B (a direção é sua): plano 1, wide baixíssimo dele de costas andando até a máquina, contra o sol e com flare, falando "Afinal, o que cresce aqui:"; plano 2, médio close dele com a fala e o dolly-out.
 - **P21 · Sheets da mãe, da torcedora e do funcionário** (ok, com um alerta): @MAE e @TORCEDORA gerados; o @FUNCIONARIO foi atualizado sem os protetores auriculares (descritor e prompt do sheet ajustados). Alerta: a camisa da torcedora saiu com um escudo azul e amarelo no peito. O prompt do T11 manda ignorar o emblema, mas o ideal é gerar o sheet de novo (o prompt agora pede o peito liso) ou apagar o escudo da imagem antes de anexar. Também saiu com jeans marrom-escuro, não índigo; o descritor segue o sheet.
 - **P22 · Exceções de look no T09-B** (decidido): Só o plano 1 (ele de costas) é diferente: contraluz, com o sol baixo atrás da máquina, e UM flare. O plano 2 usa a mesma luz do T09-A (sol baixo à esquerda), sem flare. O resto do filme segue sem flares e com o sol à esquerda.
+- **P23 · Ônibus do T12 (cara brasileira)** (decidido): O interior estava com cara de ônibus gringo (alças de aço, bancos cinza). Agora segue as suas fotos: corrimãos amarelos, bancos azuis estampados, piso de borracha cinza. A foto 1 (interior, sem pessoas) entra como referência só do lugar (@ONIBUS_INT, aba Locações). A foto 2 (cabine) não deve ser anexada: tem um motorista real, a marca no volante e textos legíveis; a cabine foi descrita em texto. O sheet do @MOTORISTA foi atualizado por você (uniforme sem escrita) e o descritor segue o sheet. Planos do T12 mais fechados.
 - **P11 · EPI da mina e da siderurgia** (validar): Os sheets trazem EPI padrão. Confirmar com a SST da operadora antes da geração final.
 - **P13 · Formato** (decidido): 21:9 em todas as gerações (variável única no build). As character sheets ficam em 16:9, porque são referência de identidade. Nos closes o 21:9 deixa muito espaço dos lados; se algum close vier aberto demais, aperte o FOV (por exemplo 29° para 18°).
 - **P17 · Corte T01-A → T01-B** (decidido): T01-A termina com ele totalmente de frente, ombros quadrados e olhando a lente; T01-B começa exatamente assim, em close. O corte cai no olhar, como um punch-in. A mesma luz (sol da esquerda) nos dois.
