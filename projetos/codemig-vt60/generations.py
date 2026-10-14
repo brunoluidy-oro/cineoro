@@ -126,7 +126,7 @@ COMPOSITION (the one deliberate symmetrical frame of the film): a very wide, low
 # ---------------------------------------------------------------- T01-B (bloqueio 3D: close → descida → sala), duas versões
 def t01b(short):
     total = 9 if short else 18
-    L = dict(j="0–3", a="5–6", p="6–9", nospeech="3–5") if short else dict(j="0–3", a="12–13", p="13–16", nospeech="3–12")
+    L = dict(j="0–3", a="5–6", p="6–8", nospeech="3–5") if short else dict(j="0–3", a="12–13", p="13–15", nospeech="3–12")
     ramp = (" SPEED RAMP: the descent leaves the man at once, peaks through earth, ore and beams with heavy motion blur, and decelerates smoothly into the landing; about 1.5 s of screen time.") if short else ""
     b1 = "BEAT 1 (0–3s) — CU, 47°, handheld, frontal and centred: @JOVEM already facing the lens, shoulders square, mid-smile, exactly as at the last frame of the previous wide take (the edit cuts on that look); he speaks at once, the line fills the 3 s, and the instant it ends the camera sinks."
     landing = "lands at a seated child's eye height on a medium shot of @ALUNO at his desk in the centre of the frame."
@@ -134,8 +134,9 @@ def t01b(short):
         beats = [b1,
             "BEAT 2 (3–5s) — the descent, level and facing forward, as a speed ramp: down his body and boots, into the earth (roots, red soil, a seam of iron ore), out through steel roof beams, past a white ceiling fan ON and spinning fast, into the bright classroom; it decelerates and " + landing,
             "BEAT 3 (5–6s) — handheld settles on the happy classroom, its back wall full of drawings, books and a cabinet; @ALUNO answers, looking toward the front; mid-line @PROFESSORA enters from frame-RIGHT, crouching beside his desk, and the camera pans slightly right to frame her.",
-            "BEAT 4 (6–9s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in the manner of @Audio1 with ONE quick glance to the lens mid-line; @ALUNO looks at her and, as she finishes, nods and smiles, the happy classmates around them. Hard end on the smile."]
-        order_t = "(0–3s) @JOVEM's line, the camera sinks at once — (3–5s) speed-ramp descent to @ALUNO — (5–6s) \"É futuro.\", @PROFESSORA crouches in from frame-RIGHT — (6–9s) her line to him with one glance to the lens, he nods and smiles"
+            "BEAT 4 (6–8s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in the voice and teacher's manner of @Audio1 with ONE quick glance to the lens mid-line; @ALUNO looks at her.",
+            "BEAT 5 (8–9s) — @ALUNO nods and smiles, the happy classmates around them. Hard end on the smile."]
+        order_t = "(0–3s) @JOVEM's line, the camera sinks at once — (3–5s) speed-ramp descent to @ALUNO — (5–6s) \"É futuro.\", @PROFESSORA crouches in from frame-RIGHT — (6–8s) her line to him with one glance to the lens — (8–9s) he nods and smiles"
     else:
         beats = [b1,
             "BEAT 2 (3–5s) — the camera sinks straight down, level and facing forward: his chest, overshirt, hands, legs and boots on the lichen rock slide up past the lens.",
@@ -143,9 +144,9 @@ def t01b(short):
             "BEAT 4 (8–10s) — out of the ore, steel roof beams rise past the lens; the camera passes between them and down through the gridded classroom ceiling beside a white ceiling fan that is ON, blades spinning fast.",
             "BEAT 5 (10–12s) — down into the bright classroom, decelerating, desks with seated students rising into view and, behind the boy, the bright back wall with its cabinet, bookshelf and drawings; it " + landing,
             "BEAT 6 (12–13s) — handheld settles; @ALUNO answers, looking toward the front; mid-line @PROFESSORA enters from frame-RIGHT, crouching beside his desk, and the camera pans slightly right to frame her.",
-            "BEAT 7 (13–16s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in the manner of @Audio1 with ONE quick glance to the lens mid-line; @ALUNO looks at her.",
-            "BEAT 8 (16–18s) — @ALUNO nods and smiles, the happy classmates around them; the two hold. Hard end on the smile."]
-        order_t = "(0–3s) @JOVEM's line, the camera sinks at once — (3–5s) down his body — (5–8s) earth and ore — (8–10s) beams, ceiling, fan — (10–12s) lands on @ALUNO — (12–13s) \"É futuro.\", @PROFESSORA crouches in — (13–16s) her line to him with one glance to the lens — (16–18s) he nods, smiles"
+            "BEAT 7 (13–15s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in the voice and teacher's manner of @Audio1 with ONE quick glance to the lens mid-line; @ALUNO looks at her.",
+            "BEAT 8 (15–18s) — @ALUNO nods and smiles, the happy classmates around them; the two hold. Hard end on the smile."]
+        order_t = "(0–3s) @JOVEM's line, the camera sinks at once — (3–5s) down his body — (5–8s) earth and ore — (8–10s) beams, ceiling, fan — (10–12s) lands on @ALUNO — (12–13s) \"É futuro.\", @PROFESSORA crouches in — (13–15s) her line to him with one glance to the lens — (15–18s) he nods, smiles"
     return join(
         contract(total, "ONE continuous take, no cuts", "one continuous level vertical descent that follows the attached 3D blocking video, handheld" + (", with a speed ramp in the descent" if short else ""), extra=" (speech only when the camera is not travelling)"),
         f"""REFERENCES — each reference has ONE job:
@@ -153,7 +154,7 @@ def t01b(short):
 @PICO_FRAME — PLACE AND WARDROBE STATE of the summit: lichen rock, green hills, sky, low warm sun from frame-left, and how his rust-red open overshirt, white T-shirt, black jeans, boots and backpack sit on him; beat 1 is the same place and clothes seen close.
 @ALUNO — IDENTITY of @ALUNO: face, hair, build, hands, wardrobe. 100% matches.
 @PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands, wardrobe. 100% matches.
-@Audio1 — VOICE of @PROFESSORA: the timbre, accent and manner of speaking of this recording (direct, clear, a little brisk). 100% matches her voice in every word she says. Take nothing else from it.
+@Audio1 — VOICE of @PROFESSORA: the timbre, accent and teacher's manner of speaking of this recording, in which a teacher says "E minério não é só minério, viu?". 100% matches her voice and manner in her line. Take nothing else from it, and NOT its words: she says only "Minério não é só minério."
 @Video1 — MOTION ONLY: the camera path, framing and timing of this 3D blocking (close-up, level descent, landing on the seated boy, slight pan right as the teacher crouches in). Take NOTHING else: ignore its flat colours, low-poly shapes and every word in it.
 {SCOPE_ID} @Audio1 supplies her voice ONLY. @PICO_FRAME supplies place, light and wardrobe ONLY — not its framing, not his pose, not a start frame, nothing of his face.""",
         f"""WHO IS WHO — READ FIRST, ABSOLUTE:
@@ -174,8 +175,8 @@ THE SOUL OF THE SCENE (play it, never explain it): earth, ore, steel, school —
         timeline(1, [], beats),
         dialogue(f'[{L["j"]}s] @JOVEM (on camera, Brazilian Portuguese, speaking up over the wind): "Em Minas, terra não é só terra."',
                  f'[{L["a"]}s] @ALUNO (on camera, Brazilian Portuguese): "É futuro."',
-                 f'[{L["p"]}s] @PROFESSORA (on camera, Brazilian Portuguese, in the voice and manner of @Audio1, said kindly with a warm face, speaking to the boy): "Minério não é só minério."',
-                 "JOVEM", "ALUNO", "PROFESSORA").replace(T.voice_lock("PROFESSORA"), "VOICE LOCK — @PROFESSORA: the voice of @Audio1 — its timbre, accent and manner. Identical in every generation of the film."),
+                 f'[{L["p"]}s] @PROFESSORA (on camera, Brazilian Portuguese, in the voice and the teacher-like manner of @Audio1, said kindly with a warm face, speaking to the boy; only these words, no "E" before and no "viu?" after): "Minério não é só minério."',
+                 "JOVEM", "ALUNO", "PROFESSORA").replace(T.voice_lock("PROFESSORA"), "VOICE LOCK — @PROFESSORA: the voice and teacher's manner of @Audio1. Identical in every generation of the film."),
         """ACTING — happy and proud of what they say; pupils search, settle and drift; a frozen pupil is wrong.
 @JOVEM: TACTIC say it like good news to a friend; eyes on yours; NOT a heroic pose, a solemn face.
 @ALUNO: TACTIC answer simply, then turn to the teacher, take her correction with a nod and a smile; NOT a cute pose.
@@ -192,7 +193,7 @@ NOT: a headlamp, glowing underground light, flat ceiling-panel key, frontal fill
         T.FILM_LOOK,
         f"""SOUND — NO SOUND EFFECTS ANYWHERE: nothing designed or synthetic during the descent — no rumble, whoosh, scraping, stones, hum, riser or impact. Only: strong wind across the summit under his line ({L['j']}s), dropping to near silence as the camera sinks below the ground; then, from the landing, the quiet room tone of a classroom — the soft whir of the spinning fan, a faint happy student murmur that drops during the lines. {T.MUSIC_POLICY}""",
         T.WORLD,
-        f"""NEGATIVE: sound effects, rumble, whoosh, text from the blocking video, low-poly shapes, a cut, a tilt down, speech during the descent, a classmate speaking, the teacher entering from the left or staring at the lens, a stopped fan, a whiteboard in frame or behind the boy, an empty classroom, a bare or sober back wall, sad or bored classmates, readable writing on drawings or book spines, a CGI cross-section, glowing ore, a black frame, {T.NEG_SPINE}.""",
+        f"""NEGATIVE: sound effects, rumble, whoosh, text from the blocking video, low-poly shapes, a cut, a tilt down, speech during the descent, a classmate speaking, the teacher entering from the left or staring at the lens, a stopped fan, a whiteboard in frame or behind the boy, an empty classroom, a bare or sober back wall, sad or bored classmates, readable writing on drawings or book spines, adding "E" or "viu?" to the teacher's line, a CGI cross-section, glowing ore, a black frame, {T.NEG_SPINE}.""",
         f"""[ORDER: ONE continuous take, {total}s, following @Video1, handheld{', speed-ramp descent' if short else ''} — {order_t}. Invariants: one level descent; sinks the instant his line ends; no speech while travelling; NO sound effects; fan ON; teacher from frame-RIGHT in the voice of @Audio1, one glance to the lens; happy classmates; cabinet, bookshelf, drawings behind the boy. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
     )
 

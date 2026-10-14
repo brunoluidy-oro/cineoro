@@ -9,7 +9,7 @@ ACCENT_BH = "Belo Horizonte accent with a soft aspirated R"
 VOICE = {
     "JOVEM": "young Brazilian man, 25, warm baritone; " + ACCENT_INTERIOR,
     "ALUNO": "Brazilian boy, 10, clear bright child's voice; " + ACCENT_BH,
-    "PROFESSORA": "Brazilian woman, the voice of the attached audio reference — its timbre, accent and manner (direct, clear, a little brisk)",
+    "PROFESSORA": "Brazilian woman, the voice and teacher's manner of the attached audio reference",
     "HOMEM_EV": "Brazilian man, 40, relaxed baritone; " + ACCENT_BH,
     "OPERARIO": "Brazilian man, 40, mid-low voice, slightly raised over the machines; " + ACCENT_INTERIOR,
     "PESQUISADORA": "Brazilian woman, 30, light quick mid voice; " + ACCENT_BH,
