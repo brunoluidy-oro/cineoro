@@ -56,12 +56,12 @@ EXPOSURE: exposed for skin; highlights creamy, the sky holding its blue; blacks 
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: golden hour, orange or pink sky, long shadows, sunset glow, a low sun, sunbeams, sun disc in frame, reflector fill, flat overcast, harsh noon top light that buries the eyes in hat shadow."""
 
-# Contraluz do T09-B (plantação), SÓ no plano 1 (ela de costas). O plano 2 usa a mesma luz do T09-A (LIGHT_EXT_DAY).
-LIGHT_DAY_BACK = """SHOT 1 — NATURAL BACKLIGHT, bright mid-morning (this shot only): the sun ~5600 K, about 35° above the horizon, behind the tractor and the woman and toward the lens, high in the upper part of the frame, softened by a thin veil of cloud; it rims her hat brim, shoulders and braid with a clean neutral-warm edge, glows in the drifting dust and stretches her shadow toward us; the sun itself just outside the top of the frame or half-hidden by a thin cloud, only its glow and the flare showing — never a clipped white disc, never a sunburst.
+# Contraluz do T09-B (plantação), SÓ no plano 1 (ela de costas, sem trator). O plano 2 usa a mesma luz do T09-A (LIGHT_EXT_DAY).
+LIGHT_DAY_BACK = """SHOT 1 — NATURAL BACKLIGHT, bright mid-morning (this shot only): the sun ~5600 K, about 35° above the horizon, directly behind the woman and toward the lens, high in the upper part of the frame, softened by a thin veil of cloud; it rims her hat brim, shoulders and braid with a clean neutral-warm edge, glows in the drifting dust and stretches her shadow toward us; the sun itself just outside the top of the frame or half-hidden by a thin cloud, only its glow and the flare showing — never a clipped white disc, never a sunburst.
 NOT: golden hour, a sunset or orange sky, a low sun."""
 
 # FILM LOOK com UM flare, só no plano 1 do T09-B (a pedido). O resto do filme segue sem flares.
-FILM_LOOK_FLARE = FILM_LOOK.split("NO LENS FLARES:")[0] + """LENS FLARE — SHOT 1 ONLY (a deliberate exception): the morning sun behind the tractor throws ONE soft flare across the upper part of the frame — a gentle veil, a faint horizontal streak, a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights."""
+FILM_LOOK_FLARE = FILM_LOOK.split("NO LENS FLARES:")[0] + """LENS FLARE — SHOT 1 ONLY (a deliberate exception): the morning sun behind her throws ONE soft flare across the upper part of the frame — a gentle veil, a faint horizontal streak, a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights."""
 
 
 # Luz artificial de interior (T15, a pedido): corredor de hospital moderno, claro, sem cara de lâmpada verde.
@@ -115,8 +115,8 @@ HORIZON: level.
 NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom."""
 
 
-# Quadro do T09-A (revelação, plantação): o close do pedido anterior, só para esse take.
-REVEAL_FRAME = """REVEAL FRAME (KEY): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes reach the lens they land on the upper-third line at about 45% of the frame width; the background soft."""
+# Quadro do plano 2 do T08 (nióbio na mão): o close do pedido anterior, só para esse plano.
+NIOBIUM_FRAME = """NIOBIUM FRAME (KEY): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes reach the lens they land on the upper-third line at about 45% of the frame width; the background soft."""
 
 # Quadro do match cut v2 (P2): MCU centralizado, reto pra câmera, mesma distância, dolly-out lento.
 MATCH_FRAME = """MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom)."""
