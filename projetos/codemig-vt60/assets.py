@@ -120,7 +120,7 @@ CHARS = [
              build="solid and upright, about 1.72 m",
              outfit="off-white linen short-sleeved shirt, crisp charcoal canvas apron tied at the back, dark grey trousers, brown leather loafers",
              bg="medium-grey")),
-    dict(tag="AGRICULTORA", papel="Agricultora", idade="F, 40", r="caipira", takes="T09-A, T09-B",
+    dict(tag="AGRICULTORA", papel="Agricultora", idade="F, 40", r="caipira", takes="T09",
          obs="Produtora moderna, com chapéu de fazendeira.",
          prompt=sheet(
              who="a Brazilian woman of mixed descent", age=40, person="woman", pron="she", poss="her",

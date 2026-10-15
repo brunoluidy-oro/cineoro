@@ -433,102 +433,61 @@ NOT: tripod, gimbal glide, drone, push-in, pull-back, zoom, a shot-1 frame that 
 )
 
 
-# ---------------------------------------------------------------- T09-A (plantação: "a nossa gente.", andando pela plantação)
+# ---------------------------------------------------------------- T09 (plantação, um take só: andando + drone + match com dolly-out)
 T09 = join(
-    contract(4, "ONE continuous take, no cuts", "handheld travelling sideways from frame-left to frame-right while backing up, arcing around her like a slow orbit as she walks forward"),
+    contract(10, "3 shots with 2 hard cuts at 2s and 4s", "handheld orbit in shot 1, a high drone orbit in shot 2, a slow dolly-out in shot 3"),
     f"""REFERENCES — each reference has ONE job:
 @AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@AGRICULTORA ({ANCH['AGRICULTORA']}) — the FARMER: walks FORWARD through her soybean field with no destination, head and body facing her line of walk, her open hand brushing the tops of the plants, says one short phrase; her eyes find the lens; NEVER walks sideways, NEVER walks away from the camera, NEVER stops walking.
-FACES: her face exists once; nobody else in frame.
-CONTACT: only her hand on the plants.""",
-    """SCENE — Bright mid-morning in a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: vivid green rows running straight away to the horizon, a centre-pivot irrigation arm far off, a blue sky with a few white clouds. @AGRICULTORA is already walking forward along a row, smiling, her open hand passing over the tops of the plants.
-THE SOUL OF THE SCENE (play it, never explain it): someone just left a sentence hanging — "the rarest thing in our land:" — and she is the answer; she gives it like the happy punchline of a story she is proud of, strolling toward you through her field with nowhere else to be.""",
+@AGRICULTORA ({ANCH['AGRICULTORA']}) — the FARMER: walks through her soybean field with no destination, her hand brushing the tops of the plants; in shot 1 she walks FORWARD toward the camera; in shot 2 she is small, seen from far above, walking on; in shot 3 she faces the lens; she speaks in all three; NEVER walks sideways, NEVER stops walking in shots 1 and 2.
+FACES: her face exists once; nobody else; no machine or vehicle anywhere in frame.""",
+    """SCENE — Bright mid-morning on a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: vivid green rows to the horizon, a blue sky with a few white clouds, a centre-pivot irrigation arm far off. @AGRICULTORA is already walking forward along a row, smiling, her open hand passing over the tops of the plants.
+THE SOUL OF THE SCENE (play it, never explain it): someone just left a sentence hanging — "the rarest thing in our land:" — and she is the answer; she walks her field with nowhere else to be, delighted, telling you what it is all for like happy news she can't wait to share.""",
     f"""{LOCKS_HEAD}
-1. ONE continuous take, no cuts — WRONG if it cuts.
-2. She walks FORWARD through the field for the whole take, easy and unhurried, her head and body facing her line of walk and only her eyes finding the lens — WRONG if she walks sideways, walks away, or turns her head sideways to look at the camera (the camera moves around her, she does not turn).
-3. The handheld camera travels sideways from frame-LEFT to frame-RIGHT at one steady pace while backing up at her walking pace, so it keeps its distance and ARCS around her like a slow orbit — about 15° off her line of walk on one side at the start to about 15° on the other by the end — WRONG if it stops, reverses, pushes in, pulls back, or swings round to her side or her back.
-4. She says ONLY "a nossa gente." — starting at once, the first word within the first third of a second, no silent beat before it — resolved, proud, smiling, never solemn; her mouth is closed after the line — WRONG if she pauses before it, says any other word, or her eyes are glassy or hidden in the hat shadow.
-5. No tractor, no machine and no vehicle in frame — WRONG if one appears.
-6. Bright mid-morning light from frame-LEFT, NOT golden hour — NO music.""",
-    timeline(1, [], [
-        "BEAT 1 (0–2s) — MWS (from the knees up, the rows behind her, the pivot far off), 63°, the camera about 3.5 m from her, already arcing from frame-LEFT to frame-RIGHT around her while backing up at her pace: @AGRICULTORA is already walking forward through her field, centred, smiling, easy and unhurried, her open hand sweeping over the tops of the soybean plants, the leaves brushing her palm and springing back; her eyes find the lens and she says her line at once, the first word in the first third of a second.",
-        "BEAT 2 (2–4s) — she keeps walking toward you, the smile warming, her hand still brushing the plants, eyes on you, mouth closed. Hard end mid-step.",
-    ]),
-    dialogue(line(0, 2, "AGRICULTORA", "a nossa gente.").replace(
-        "(on camera, Brazilian Portuguese)",
-        "(on camera, Brazilian Portuguese with a Minas Gerais accent, \"gente\" said GEN-tchi; the answer to a sentence someone else just left open — bright, buoyant and proud, a smile in the voice, a resolved close, never calm, soft or solemn)"), "AGRICULTORA"),
-    acting("AGRICULTORA", "someone just opened a sentence and she has the answer — the thing she is proudest of.",
-           "give the answer like the happy punchline of a story, bright and buoyant, a smile in the voice, strolling toward you with a proud smile.",
-           "on the lens from the first frame, steady and warm.",
-           "she breathes a short laugh through her nose", "arms spread over the field, turning her head sideways to look at the camera, a calm, soft or solemn delivery"),
-    """CAMERA — handheld, an operator with a body: the operator crab-walks sideways at an even slow pace from frame-LEFT to frame-RIGHT while also backing up at her walking pace, so the camera keeps its distance and ARCS around her like a slow orbit — about 15° off her line of walk on one side at the start, about 15° on the other by the end — with human footfall bounce and late small corrections; the camera never stops, never reverses, never pushes in or pulls back; she stays centred in the frame.
-FRAMING: lens at chest height, about 3.5 m from her. OPTICS: 63°; no lens drift.
-FOCUS: on her eyes, the field sliding soft behind her. HORIZON: level.
-NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, a wide orbit round to her side or back, push-in, pull-back, zoom, the camera stopping or reversing.""",
-    """GEOMETRY — the soybean rows run straight away from the camera to the horizon; @AGRICULTORA walks forward along one row on the centre line; the camera arcs across the rows from her front-left to her front-right, 3.5 m from her; the plants knee-high; the centre-pivot arm about 300 m away, small, sliding across behind her; the sun high on frame-LEFT.""",
-    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back behind her; her boots press into the soft soil between rows; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: glossy healthy leaves, the light cotton of her sage-green shirt, the felt of her hat brim, the spray of the irrigation catching the sun far off.""",
-    T.LIGHT_EXT_DAY,
-    T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: leaves brushing her hand and trousers in a steady rhythm; her boots on soft soil; wind over the field; a quero-quero bird calling far off; the faint hiss of the irrigation pivot. {T.MUSIC_POLICY}""",
-    T.WORLD,
-    f"""NEGATIVE: a pause or silent beat before the line, any word beyond "a nossa gente.", a Northeastern accent, a calm or soft delivery, a tractor, a combine or any machine or vehicle in frame, walking sideways, walking away from the camera, her head turned sideways to the lens, a camera that stays on one straight line, a camera that swings round to her side or back, stopping, push-in, pull-back, golden hour, a low orange sun, a sunset sky, long shadows, eyes hidden in the hat shadow, arms spread, a straw hat, a poor old farm, drone shot, extra cuts, {T.NEG_SPINE}.""",
-    """[ORDER: ONE continuous take, 4s, handheld travelling sideways from frame-left to frame-right while backing up, arcing around her like a slow orbit — (0–2s) MWS: she is already walking forward through her field, smiling, her hand sweeping the plants, and says only "a nossa gente." at once, eyes on you — (2–4s) she keeps walking toward you, smiling, mouth closed; hard end mid-step. Invariants: she walks forward, head on her line of walk, never sideways; constant lateral travel left to right with the distance held, a slow arc about 15° each side; bright mid-morning light from frame-LEFT, not golden hour; eyes readable under the hat brim; living eyes; only her line, no pause before it; no tractor or machine. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
-)
-
-
-# ---------------------------------------------------------------- T09-B (plantação: plano baixo + MCU com dolly-out)
-T09B = join(
-    contract(9, "2 shots with 1 hard cut at 3s", "a smooth drone-mounted camera in shot 1, a slow dolly-out in shot 2"),
-    f"""REFERENCES — each reference has ONE job:
-@AGRICULTORA — IDENTITY of @AGRICULTORA: face, hair, build, hands and wardrobe. 100% matches.
-{SCOPE_ID}""",
-    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@AGRICULTORA ({ANCH['AGRICULTORA']}) — the FARMER: in shot 1 she walks away from the camera, seen from behind and above, along her soybean row with no destination, speaking; in shot 2 she faces the lens in her field and speaks.
-FACES: her face exists once and shows only in shot 2; nobody else; no machine or vehicle anywhere in frame.""",
-    """SCENE — Bright mid-morning on a large, modern soybean farm in the Triângulo Mineiro, Minas Gerais, Brazil: dark soil between rows of vivid green soybean plants running straight to the horizon under a wide blue sky with a few white clouds. @AGRICULTORA is already walking away from the camera along a row, easy and unhurried, with no destination.
-THE SOUL OF THE SCENE (play it, never explain it): she walks through the work she is proudest of with nowhere else to be, then turns and tells you what it is all for — happy news she can't wait to share.""",
-    f"""{LOCKS_HEAD}
-1. Exactly 2 shots with 1 hard cut at 3s — WRONG if there are extra cuts.
-2. SHOT 1 is an AERIAL WIDE from a smooth, stable drone-mounted camera, about 12 m above the field and 25 m behind her, gliding slowly forward: she is small, seen only from BEHIND and above, walking away along the row with no destination, the rows converging to the horizon, the bright morning sun ahead above the frame with ONE soft flare — WRONG if the camera is at ground level or handheld, her face shows, she is close, any machine appears, or there is a second flare.
-3. NO drone sound of any kind (no rotor or propeller buzz, no motor whine, no helicopter thrum) in either shot; the aerial shot sounds like the open field — WRONG if any is heard.
-4. SHOT 2 is the MATCH FRAME, a hair closer than the rest of the series: face dead centre, straight into the lens, the field and the sky soft behind her; the camera moves slowly BACK (a dolly-out, no zoom) — WRONG if the lens zooms, the face drifts off centre or looks away, a flare appears, or a machine shows behind her.
-5. She speaks ONLY two lines, in one bright, buoyant, proud voice: "Afinal, o que cresce aqui:" at 0–2s (shot 1, mouth unseen, voice close and clear) and "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–7s (shot 2), one brisk flow with only a very short breath after "nasce," and after "vive," — WRONG if she says anything else, pauses elsewhere, or delivers it calmly, softly or slowly.
-6. In shot 2 her eyes are alive on the lens and readable under the hat brim — WRONG if glassy or hidden in shadow.
-7. Only shot 1 is backlit; shot 2 has the light of the previous take (bright mid-morning sun from frame-LEFT, NOT golden hour) — NO music.""",
-    timeline(2, [3], [
-        "SHOT 1 (0–3s) — WIDE, 84°, a smooth DRONE-mounted camera about 12 m above the field and 25 m behind her, tilted slightly down along her row, gliding slowly forward at her pace and rising very gently: @AGRICULTORA small in the middle distance, seen from behind and above, walking away at an easy pace along the row — no destination — saying her first line as she goes, her voice close and clear; the rows converge toward the horizon; the bright morning sun ahead above the top of the frame, one soft flare across the upper frame. HARD CUT.",
-        "SHOT 2 (3–9s) — the MATCH FRAME, a hair closer, MCU, 47° lens fixed: @AGRICULTORA dead centre, facing the lens, the soybean rows and the sky soft behind her; already facing the lens at the cut, she speaks at 3–7s, bright and proud, a smile in her voice, one brisk flow with a very short breath only after 'nasce,' and after 'vive,', while the slow dolly-out runs the whole shot — the frame opens toward a medium shot, the field and the horizon growing behind her, her face dead centre; at 7–9s she holds the smile. Hard end.",
+1. Exactly 3 shots, 2 hard cuts, at 2s and at 4s — WRONG if there are extra cuts.
+2. SHOT 1: she walks FORWARD, head and body facing her line of walk, only her eyes finding the lens; the handheld camera, at her EYE HEIGHT or a hair above (never below her eyes), travels sideways from frame-LEFT to frame-RIGHT while backing up at her pace, arcing about 15° each side — WRONG if she walks sideways or away or turns her head to the lens, or the camera is low, stops, reverses or swings to her side or back.
+3. SHOT 2: an AERIAL WIDE from a smooth drone-mounted camera about 36 m above the field and 35 m from her on a DIAGONAL (about 45° off her line of walk), ORBITING her slowly and steadily, she small and centred, walking — WRONG if the drone is low (under 30 m), straight behind her, static, shaky, or her face is large.
+4. NO drone sound (no rotor or propeller buzz, no motor whine, no helicopter thrum) in any shot; the aerial shot sounds like the open field.
+5. SHOT 3 is the MATCH FRAME, a hair closer than the series: face dead centre, straight into the lens, the camera at her eye height or a hair above (never below), the rows and horizon behind her READABLE and only gently soft; the camera moves slowly BACK (a dolly-out, no zoom) — WRONG if the camera is low, the background melts into a blur, the lens zooms or the face drifts off centre.
+6. Three lines only, ONE continuing speech in one bright, buoyant, proud voice with a Minas Gerais accent ("gente" said GEN-tchi), each starting the instant its shot begins, only a breath at each cut and two very short breaths in the last line, after "nasce," and after "vive," — WRONG if she says anything else, pauses elsewhere, or sounds calm, soft or slow.
+7. Her eyes are alive and readable under the hat brim in shots 1 and 3. Bright mid-morning light, the sun high, NOT golden hour, NO flares — NO music.""",
+    timeline(3, [2, 4], [
+        "SHOT 1 (0–2s) — MWS (from the knees up, the rows readable behind her), 63°, handheld, the camera at her eye height (a hair above, never below her eyes), about 3.5 m from her, already arcing from frame-LEFT to frame-RIGHT around her while backing up at her pace: @AGRICULTORA is already walking forward, centred, smiling, her open hand sweeping over the tops of the plants; her eyes find the lens and she says her first line at once, the first word within the first third of a second, then keeps walking and smiling until the cut. HARD CUT.",
+        "SHOT 2 (2–4s) — AERIAL WIDE (WS), 70°, a smooth, stable DRONE-mounted camera about 36 m above the field and 35 m from her on a diagonal, tilted about 45° down, orbiting her slowly and steadily (about 25° of arc over the shot) and keeping her small and centred: @AGRICULTORA walks on along her row, saying her next line as she goes, her voice close and clear; the rows sweep across the frame in long diagonals. HARD CUT.",
+        "SHOT 3 (4–10s) — the MATCH FRAME, a hair closer, MCU, 47° fixed, the camera at her eye height or a hair above: @AGRICULTORA dead centre, already facing the lens at the cut, the rows and horizon readable behind her; she speaks at 4–8s, bright and proud, a smile in her voice, one brisk flow with a very short breath only after 'nasce,' and after 'vive,', while the slow dolly-out runs the whole shot and the frame opens toward a medium shot; at 8–10s she holds the smile. Hard end.",
     ]),
     dialogue(
-        line(0, 2, "AGRICULTORA", "Afinal, o que cresce aqui:").replace(
+        line(0, 2, "AGRICULTORA", "a nossa gente.").replace(
             "(on camera, Brazilian Portuguese)",
-            "(on camera but seen from behind, walking away, Brazilian Portuguese with a Minas Gerais accent; her voice close, clear and dry, not distant; bright, buoyant and proud, a smile in the voice, never calm, soft or solemn)"),
-        line(3, 7, "AGRICULTORA", "também deve construir novos caminhos para quem nasce, vive e trabalha aqui.").replace(
+            "(on camera, Brazilian Portuguese with a Minas Gerais accent, \"gente\" said GEN-tchi; bright, buoyant and proud, a smile in the voice, never calm, soft or solemn)"),
+        line(2, 4, "AGRICULTORA", "Afinal, o que cresce aqui:").replace(
+            "(on camera, Brazilian Portuguese)",
+            "(on camera but seen from far above, walking, Brazilian Portuguese; her voice close, clear and dry, not distant; the same bright, buoyant delivery)"),
+        line(4, 8, "AGRICULTORA", "também deve construir novos caminhos para quem nasce, vive e trabalha aqui.").replace(
             "(on camera, Brazilian Portuguese)",
             "(on camera, Brazilian Portuguese; the same bright, buoyant, proud delivery, each phrase lifting a little — never calm, soft, measured or solemn)"),
         "AGRICULTORA",
-        pace="PACING — each line in ONE brisk, continuous flow (about 3 words a second or faster); in the second line two very short beats of silence (a quarter of a second each, just a breath) after \"nasce,\" and after \"vive,\" and no other pause; the first word lands as the window opens."),
-    acting("AGRICULTORA", "she has just walked her field, the work she is proudest of.",
-           "tell it like happy news she can't wait to share — brisk, bright and buoyant, a smile in the voice from the first word, each phrase lifting a little.",
-           "in shot 2 straight into the lens, bright and warm, readable under the hat brim.",
-           "her chin lifts a hair as she starts",
-           "a calm, soft, measured or reflective delivery, a slow explanation, a heroic pose, gesturing at the field, arms spread"),
-    """CAMERA — SHOT 1: a smooth, stable DRONE-mounted camera, about 12 m above the field and 25 m behind her, tilted slightly down along her row, gliding slowly forward at her walking pace and rising very gently; 84°, horizon level, deep focus; the drone, its shadow and its sound never exist. SHOT 2: the dolly-out below.
-NOT (shot 1): a ground-level or handheld camera, a fast flight, an orbit, a dive, a zoom, the drone or its shadow in frame.""",
-    T.dolly_out(6, start=1.2),
-    T.MATCH_FRAME.replace("KEY — identical in every shot of the match series", "KEY — a hair closer than the rest of the series").replace("about 1.3 m", "about 1.2 m"),
-    """GEOMETRY — shot 1: the drone about 12 m above the field and 25 m behind @AGRICULTORA, tilted about 12° down, the sun about 35° above the horizon ahead of the camera, above the frame. Shot 2: the camera starts 1.2 m from her face at eye height, the open field behind her, the sun high on frame-LEFT.""",
-    """PHYSICS & MATERIAL — from the air the soybean leaves ripple in the wind and the rows glint; her braid swings with each step. """ + REAL + """ MATERIAL TRUTH: dark moist soil, glossy green soybean leaves, the felt of her hat brim, the cotton of her shirt.""",
-    "LIGHT — TWO SETUPS under the same bright mid-morning sun; only shot 1 is backlit.\n" + T.LIGHT_DAY_BACK + "\nSHOT 2 — the same light as the previous take: the sun ~5600 K from frame-LEFT, about 50° above the horizon, softened by a thin high veil of cloud; it lights the frame-LEFT side of her face, the frame-RIGHT side in soft readable shade, the green leaves bouncing a soft fill up under the hat brim; the sun stays frame-LEFT and the lit side never flips. NOT: golden hour, long shadows, a low sun, harsh noon top light that buries the eyes in hat shadow.",
-    T.FILM_LOOK_FLARE,
-    f"""SOUND — LOCATION SOUND ONLY under her voice: wind over the field, the soft rustle of the soybean leaves, a quero-quero bird far off. ABSOLUTELY NO DRONE SOUND — no rotor or propeller buzz, no motor whine, no helicopter thrum — the aerial shot sounds exactly like the open field. {T.MUSIC_POLICY}""",
+        pace="PACING — the three lines are ONE continuing speech by the same woman, in ONE brisk, bright flow (about 3 words a second or faster): the same voice, accent and energy in all three shots, only a breath at each cut, no pause, no held beat; in the last line two very short beats of silence (a quarter of a second each) after \"nasce,\" and after \"vive,\" and no other pause."),
+    acting("AGRICULTORA", "someone just opened a sentence and she has the answer — the thing she is proudest of, and the land she walks every day.",
+           "give the answer like the happy punchline of a story, then tell what it is all for — brisk, bright and buoyant, a smile in the voice from the first word, each phrase lifting a little.",
+           "on the lens in shots 1 and 3, bright and warm, readable under the hat brim.",
+           "she breathes a short laugh through her nose",
+           "arms spread over the field, turning her head sideways to look at the camera, a calm, soft, measured or solemn delivery, a heroic pose"),
+    """CAMERA — SHOT 1: handheld, an operator with a body: crab-walking sideways at an even slow pace from frame-LEFT to frame-RIGHT while backing up at her walking pace, arcing about 15° each side of her line of walk, with footfall bounce and late small corrections; never stops or reverses; the lens at her EYE HEIGHT or a hair above, 3.5 m away, 63°. Deep focus: the rows, the pivot and the horizon stay readable, NO creamy bokeh.
+SHOT 2: a smooth, stable drone-mounted camera, 70°, deep focus; the drone, its shadow and its sound never exist. SHOT 3: the dolly-out below.
+NOT: a low camera in shots 1 and 3, a low, fast or static drone, a zoom.""",
+    T.dolly_out(6, start=1.2).replace("CAMERA — the DOLLY-OUT", "CAMERA — SHOT 3, the DOLLY-OUT").replace("FOCUS: on the eyes throughout.", "FOCUS: on the eyes throughout, with a deep depth of field — the rows and the horizon behind her stay readable, NO creamy bokeh.").replace("NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.", "NOT (shot 3): a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake."),
+    T.MATCH_FRAME.replace("KEY — identical in every shot of the match series", "KEY — a hair closer than the rest of the series").replace("about 1.3 m", "about 1.2 m").replace("the background soft", "the background readable and only gently soft"),
+    """GEOMETRY — shot 1: the camera 3.5 m from her at her eye height, arcing from her front-left to her front-right; the pivot about 300 m away, small. Shot 2: the drone 36 m up and 35 m from her on a diagonal, looking down 45°. Shot 3: the camera starts 1.2 m from her face at eye height or a hair above, the field behind her. The sun high on frame-LEFT in shots 1 and 3.""",
+    """PHYSICS & MATERIAL — the plants are springy: her hand bends the tops and they whip back; her boots press into the soft soil; her braid swings with each step; from the air the leaves ripple in the wind. """ + REAL + """ MATERIAL TRUTH: glossy healthy leaves, dark moist soil, the light cotton of her sage-green shirt, the felt of her hat brim.""",
+    T.LIGHT_EXT_DAY.replace("CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.", "CONTINUITY: in shots 1 and 3 the sun stays frame-LEFT and the lit side never flips; in the aerial shot 2 the orbit may change the angle, the same high bright sun, no flare."),
+    T.FILM_LOOK,
+    f"""SOUND — LOCATION SOUND ONLY under her voice: leaves brushing her hand and trousers (shot 1); wind over the field and the soft rustle of the soybean leaves; a quero-quero bird far off; the faint hiss of the irrigation pivot. NO DRONE SOUND in the aerial shot — no rotor or propeller buzz, no motor whine, no helicopter thrum: it sounds exactly like the open field. {T.MUSIC_POLICY.replace('NO drone, ', 'NO sustained tone, ')}""",
     T.WORLD,
-    f"""NEGATIVE: drone noise, rotor or propeller buzz, motor whine, helicopter thrum, a ground-level or handheld camera in shot 1, her face in shot 1, any machine or vehicle in frame, a second flare, a flare in shot 2, golden hour, a low orange sun, a sunset sky, a zoom or vertigo effect, a push-in, the face drifting off centre, her looking away in shot 2, eyes hidden in the hat shadow, a calm, soft, slow or measured delivery, a Northeastern accent, words beyond her two lines, gesturing, extra cuts, {T.NEG_DOLLY.replace("lens flare, ", "")}.""",
-    """[ORDER: 2 shots, 1 hard cut at 3s, 9s — (1, 0–3s) AERIAL WIDE from a smooth drone-mounted camera, about 12 m up and 25 m behind her, gliding slowly forward: she is small, from behind and above, walking away along her row with no destination, saying "Afinal, o que cresce aqui:" at 0–2s, the bright morning sun ahead above the frame, ONE soft flare — (2, 3–9s) MATCH FRAME, a hair closer, medium close-up, face dead centre, straight into the lens, slow dolly-out (no zoom): she says "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 3–7s in one brisk, bright flow, a very short breath only after "nasce," and after "vive,". Invariants: NO drone sound anywhere; shot 1 aerial and backlit, no machine; shot 2 centred, frontal, the light of the previous take (bright mid-morning, not golden hour); a bright, buoyant, proud delivery, never calm or slow; eyes readable under the hat brim; a flare only in shot 1. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: drone noise, rotor or propeller buzz, motor whine, helicopter thrum, a low, fast, static or shaky drone, a drone straight behind her, a low camera in shots 1 and 3, a blurred background, creamy bokeh, her face large in shot 2, any machine or vehicle in frame, a flare, golden hour, a low orange sun, a zoom or push-in, the face off centre, her looking away in shot 3, eyes hidden in the hat shadow, walking sideways or away in shot 1, a calm, soft, slow or measured delivery, a Northeastern accent, any word beyond her three lines, a pause between the lines, extra cuts, {T.NEG_DOLLY.replace("gimbal glide, ", "")}.""",
+    """[ORDER: 3 shots, 2 hard cuts at 2s and 4s, 10s — (1, 0–2s) MWS, handheld, camera at her eye height, arcing around her as she walks forward through her soybean field, smiling, hand brushing the plants: "a nossa gente." at once — (2, 2–4s) AERIAL WIDE, a smooth drone 36 m up and 35 m away on a diagonal, orbiting her slowly, she small and centred, walking: "Afinal, o que cresce aqui:" — (3, 4–10s) MATCH FRAME, a hair closer, camera at her eye height or a hair above, face dead centre, rows and horizon readable, slow dolly-out (no zoom): "também deve construir novos caminhos para quem nasce, vive e trabalha aqui." at 4–8s, then the smile held. Invariants: ONE continuing speech in the same voice, Minas Gerais accent ("gente" GEN-tchi) and bright, buoyant energy; NO drone sound; no machine; the camera never low in shots 1 and 3; the background readable; bright mid-morning light, no flares. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
-
 
 # ---------------------------------------------------------------- T10 / T11 (match, sem fala)
 def match_locks(subject, mouth_note, eyes="straight into the lens, the eyes alive"):

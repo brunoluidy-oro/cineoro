@@ -48,20 +48,13 @@ CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: orange postcard sky, sunbeams, sun disc in frame, reflector fill, flat overcast, midday top light."""
 
 
-# Variante diurna (a pedido, plantação, T09): manhã clara, sol alto — sem cara de entardecer.
+# Variante diurna (a pedido, plantação, T09): manhã clara, sol alto — sem cara de entardecer e sem flare.
 LIGHT_EXT_DAY = """LIGHT — NATURAL LIGHT ONLY, bright mid-morning (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
 SOURCE: the sun ~5600 K from frame-LEFT, about 50° above the horizon, softened by a thin high veil of cloud; the blue sky with a few white clouds as the fill on the other side; the green leaves bounce a soft fill up under any hat brim.
 REACH: the sun lights the frame-LEFT side of every face and shoulder with a clean, neutral-warm edge; the frame-RIGHT side of each face sits in soft open shade, readable; shadows short and soft.
 EXPOSURE: exposed for skin; highlights creamy, the sky holding its blue; blacks slightly lifted; corners allowed to fall into shade.
 CONTINUITY: the sun stays frame-LEFT in every shot; lit sides never flip.
 NOT: golden hour, orange or pink sky, long shadows, sunset glow, a low sun, sunbeams, sun disc in frame, reflector fill, flat overcast, harsh noon top light that buries the eyes in hat shadow."""
-
-# Contraluz do T09-B (plantação), SÓ no plano 1 (ela de costas, sem trator). O plano 2 usa a mesma luz do T09-A (LIGHT_EXT_DAY).
-LIGHT_DAY_BACK = """SHOT 1 — NATURAL BACKLIGHT, bright mid-morning (this shot only): the sun ~5600 K, about 35° above the horizon, directly behind the woman and toward the lens, high in the upper part of the frame, softened by a thin veil of cloud; it rims her hat brim, shoulders and braid with a clean neutral-warm edge, glows in the drifting dust and stretches her shadow toward us; the sun itself just outside the top of the frame or half-hidden by a thin cloud, only its glow and the flare showing — never a clipped white disc, never a sunburst.
-NOT: golden hour, a sunset or orange sky, a low sun."""
-
-# FILM LOOK com UM flare, só no plano 1 do T09-B (a pedido). O resto do filme segue sem flares.
-FILM_LOOK_FLARE = FILM_LOOK.split("NO LENS FLARES:")[0] + """LENS FLARE — SHOT 1 ONLY (a deliberate exception): the morning sun behind her throws ONE soft flare across the upper part of the frame — a gentle veil, a faint horizontal streak, a few soft ghost circles — subtle, never a hard star. In shot 2 and everywhere else: no flares, no light streaks, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights."""
 
 
 # Luz artificial de interior (T15, a pedido): corredor de hospital moderno, claro, sem cara de lâmpada verde.
