@@ -127,25 +127,25 @@ COMPOSITION (the one deliberate symmetrical frame of the film): a very wide, low
 def t01b(short):
     total = 9 if short else 18
     L = dict(j="0–3", a="5–6", p="6–9", nospeech="3–5") if short else dict(j="0–3", a="12–13", p="13–16", nospeech="3–12")
-    ramp = (" SPEED RAMP: the descent leaves the man at once, peaks through earth, ore and beams with heavy motion blur, and decelerates smoothly into the landing; about 1.5 s of screen time.") if short else ""
-    b1 = "BEAT 1 (0–3s) — CU, 47°, handheld, frontal and centred: @JOVEM already facing the lens, shoulders square, mid-smile, exactly as at the last frame of the previous wide take (the edit cuts on that look); he speaks at once, the line fills the 3 s, and the instant it ends the camera sinks."
+    ramp = (" SPEED RAMP: the descent leaves the man at once, peaks through stone, ore and beams with heavy motion blur, and decelerates smoothly into the landing; about 1.5 s of screen time.") if short else ""
+    b1 = "BEAT 1 (0–3s) — CU, 47°, handheld, frontal and centred: @JOVEM already facing the lens, shoulders square, mid-smile, as in the last frame of the previous wide take; he speaks at once, the line fills the 3 s, and the instant it ends the camera sinks."
     landing = "lands at a seated child's eye height on a medium shot of @ALUNO at his desk in the centre of the frame."
     if short:
         beats = [b1,
-            "BEAT 2 (3–5s) — the descent, level and facing forward, as a speed ramp: down his body and boots, into the earth (roots, red soil, a seam of iron ore), out through steel roof beams, past a white ceiling fan ON and spinning fast, into the bright classroom; it decelerates and " + landing,
-            "BEAT 3 (5–6s) — handheld settles on the happy classroom, its back wall full of drawings, books and a cabinet; @ALUNO answers, looking toward the front; mid-line @PROFESSORA enters from frame-RIGHT, crouching beside his desk, and the camera pans slightly right to frame her.",
+            "BEAT 2 (3–5s) — the descent, level and facing forward, as a speed ramp: down his body and boots, through a thin crust of topsoil in a flash (plain brown soil, a few fine pale grass roots, small and quiet), then down through layered grey stone and a broad seam of banded iron ore with metallic glints, the body of the descent, out through steel roof beams, past a white ceiling fan ON and spinning fast, into the bright classroom; it decelerates and " + landing,
+            "BEAT 3 (5–6s) — handheld settles on the happy classroom; @ALUNO answers, looking toward the front; mid-line @PROFESSORA enters from frame-RIGHT, crouching beside his desk, and the camera pans slightly right to frame her.",
             "BEAT 4 (6–9s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in the voice and teacher's manner of @Audio1 with ONE quick glance to the lens mid-line; @ALUNO looks at her and, as she finishes, nods and smiles, the happy classmates around them. Hard end on the smile."]
         order_t = "(0–3s) @JOVEM's line, the camera sinks at once — (3–5s) speed-ramp descent to @ALUNO — (5–6s) \"É futuro.\", @PROFESSORA crouches in from frame-RIGHT — (6–9s) her line to him with one glance to the lens, he nods and smiles"
     else:
         beats = [b1,
             "BEAT 2 (3–5s) — the camera sinks straight down, level and facing forward: his chest, overshirt, hands, legs and boots on the lichen rock slide up past the lens.",
-            "BEAT 3 (5–8s) — below the ground line: the earth in cross-section — roots, red soil, rock sliding upward — then a dark seam of banded iron ore with metallic glints.",
+            "BEAT 3 (5–8s) — below the ground line: a thin crust of topsoil for a flash (plain brown soil, a few fine pale grass roots, small and quiet), then layered grey stone sliding upward and a broad dark seam of banded iron ore with metallic glints, which fill most of these seconds.",
             "BEAT 4 (8–10s) — out of the ore, steel roof beams rise past the lens; the camera passes between them and down through the gridded classroom ceiling beside a white ceiling fan that is ON, blades spinning fast.",
             "BEAT 5 (10–12s) — down into the bright classroom, decelerating, desks with seated students rising into view and, behind the boy, the bright back wall with its cabinet, bookshelf and drawings; it " + landing,
             "BEAT 6 (12–13s) — handheld settles; @ALUNO answers, looking toward the front; mid-line @PROFESSORA enters from frame-RIGHT, crouching beside his desk, and the camera pans slightly right to frame her.",
             "BEAT 7 (13–16s) — @PROFESSORA, crouched, face turned toward him, speaks to HIM in the voice and teacher's manner of @Audio1 with ONE quick glance to the lens mid-line; @ALUNO looks at her.",
             "BEAT 8 (16–18s) — @ALUNO nods and smiles, the happy classmates around them; the two hold. Hard end on the smile."]
-        order_t = "(0–3s) @JOVEM's line, the camera sinks at once — (3–5s) down his body — (5–8s) earth and ore — (8–10s) beams, ceiling, fan — (10–12s) lands on @ALUNO — (12–13s) \"É futuro.\", @PROFESSORA crouches in — (13–16s) her line to him with one glance to the lens — (16–18s) he nods, smiles"
+        order_t = "(0–3s) @JOVEM's line, the camera sinks at once — (3–5s) down his body — (5–8s) a flash of topsoil, then stone and ore — (8–10s) beams, ceiling, fan — (10–12s) lands on @ALUNO — (12–13s) \"É futuro.\", @PROFESSORA crouches in — (13–16s) her line to him with one glance to the lens — (16–18s) he nods, smiles"
     return join(
         contract(total, "ONE continuous take, no cuts", "one continuous level vertical descent that follows the attached 3D blocking video, handheld" + (", with a speed ramp in the descent" if short else ""), extra=" (speech only when the camera is not travelling)"),
         f"""REFERENCES — each reference has ONE job:
@@ -153,24 +153,24 @@ def t01b(short):
 @PICO_FRAME — PLACE AND WARDROBE STATE of the summit: lichen rock, green hills, sky, low warm sun from frame-left, and how his rust-red open overshirt, white T-shirt, black jeans, boots and backpack sit on him; beat 1 is the same place and clothes seen close.
 @ALUNO — IDENTITY of @ALUNO: face, hair, build, hands, wardrobe. 100% matches.
 @PROFESSORA — IDENTITY of @PROFESSORA: face, hair, build, hands, wardrobe. 100% matches.
-@Audio1 — VOICE of @PROFESSORA: the timbre, accent and teacher's manner of speaking of this recording, in which a teacher says "E minério não é só minério, viu?" — the very line she says in this take. 100% matches her voice and manner in every word she says. Take nothing else from it.
-@Video1 — MOTION ONLY: the camera path, framing and timing of this 3D blocking (close-up, level descent, landing on the seated boy, slight pan right as the teacher crouches in). Take NOTHING else: ignore its flat colours, low-poly shapes and every word in it.
+@Audio1 — VOICE of @PROFESSORA: the timbre, accent and teacher's manner of this recording, in which a teacher says "E minério não é só minério, viu?" — the very line she says here. 100% matches her voice and manner. Take nothing else from it.
+@Video1 — MOTION ONLY: the camera path, framing and timing of this 3D blocking (close-up, level descent, landing on the seated boy, slight pan right as the teacher crouches in). Take NOTHING else: ignore its flat colours, low-poly shapes, its brown sticks (they stand for roots, which here are tiny) and every word in it.
 {SCOPE_ID} @Audio1 supplies her voice ONLY. @PICO_FRAME supplies place, light and wardrobe ONLY — not its framing, not his pose, not a start frame, nothing of his face.""",
         f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST on the summit: one line in close-up, then the camera leaves him.
-@ALUNO ({ANCH['ALUNO']}) — the STUDENT: seated at his desk, centre of frame, facing the front of the room (the whiteboard is behind the camera, never in frame); notebook, pencil case and textbook on his desk; answers, then looks at the teacher and agrees with a smile; NEVER stands.
-@PROFESSORA ({ANCH['PROFESSORA']}) — the TEACHER: enters from frame-RIGHT crouching beside his desk, three-quarter view from behind-side, face turned toward HIM; speaks to him, her eyes on him, with ONE quick glance to the lens mid-line and back; her hand rests on the edge of his desk; NEVER sits.
+@ALUNO ({ANCH['ALUNO']}) — the STUDENT: seated at his desk, centre of frame, facing the front of the room (the whiteboard is behind the camera, never in frame); notebook and pencil case on his desk; answers, then looks at the teacher and agrees with a smile; NEVER stands.
+@PROFESSORA ({ANCH['PROFESSORA']}) — the TEACHER: enters from frame-RIGHT crouching beside his desk, three-quarter view from behind-side, face turned toward HIM; speaks to him, her eyes on him, with ONE quick glance to the lens mid-line and back; NEVER sits.
 CLASSMATES: about ten students at their own desks in rows, same light-green school T-shirt, all facing the front; distinct faces; HAPPY — smiling, relaxed, bright-eyed, one nudging another, a couple laughing without a sound; silent; soft.
 FACES: each face exists once; no twins, no clones.""",
-        """SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil, @JOVEM in close-up, looking at you. When he has spoken, the camera sinks straight down through the ground — earth, iron ore, the steel of a roof — into a bright, recently built Brazilian public school classroom, warm and lived-in: on the back wall behind the boy a light-wood cabinet, a bookshelf of colourful books and rows of children's drawings (suns, trees, houses, a rocket, no writing). A student answers and his teacher crouches in beside him.
+        """SCENE — Late afternoon on a mountain summit in Minas Gerais, Brazil, @JOVEM in close-up, looking at you. When he has spoken, the camera sinks straight down through the ground — a thin crust of soil, then stone and iron ore, then the steel of a roof — into a bright, recently built Brazilian public school classroom, warm and lived-in. A student answers and his teacher crouches in beside him.
 THE SOUL OF THE SCENE (play it, never explain it): earth, ore, steel, school — one chain, one movement; the man who loves the land hands the film to the boy who is its future.""",
         f"""{LOCKS_HEAD}
-1. ONE continuous take, ONE level vertical descent following @Video1 — WRONG if it cuts, tilts down or flies like a drone.
+1. ONE continuous take, ONE level vertical descent following @Video1, through only a flash of plain soil with tiny grass roots and then mostly stone and iron ore — WRONG if it cuts, tilts down, flies like a drone, shows big or glowing roots or lingers on the soil.
 2. The camera starts sinking the INSTANT @JOVEM finishes his line — WRONG if he holds after it or it sinks before.
 3. No speech while the camera travels ({L['nospeech']}s): lines only at {L['j']}s (@JOVEM), {L['a']}s (@ALUNO), {L['p']}s (@PROFESSORA), each in the right mouth.
 4. NO sound effects of any kind, and the ceiling fan is ON and visibly spinning — WRONG if any rumble, whoosh or hum is heard or the fan is still.
 5. @ALUNO centred; @PROFESSORA enters from frame-RIGHT, crouched, mid-line, speaks to HIM with ONE quick glance to the lens; he looks at her, nods, smiles — WRONG if she enters from the left, speaks to the lens or stares at it.
-6. NO whiteboard behind the boy; his back wall shows a light-wood cabinet, a bookshelf of colourful books and children's drawings, and the classmates are HAPPY — WRONG if the wall is bare; handheld; light from frame-LEFT — NO music.""",
+6. NO whiteboard behind the boy; his back wall holds a cabinet, a bookshelf and children's drawings; the classmates are HAPPY — WRONG if the wall is bare; handheld; light from frame-LEFT — NO music.""",
         timeline(1, [], beats),
         dialogue(f'[{L["j"]}s] @JOVEM (on camera, Brazilian Portuguese, speaking up over the wind): "Em Minas, terra não é só terra."',
                  f'[{L["a"]}s] @ALUNO (on camera, Brazilian Portuguese): "É futuro."',
@@ -180,20 +180,20 @@ THE SOUL OF THE SCENE (play it, never explain it): earth, ore, steel, school —
 @JOVEM: TACTIC say it like good news to a friend; eyes on yours; NOT a heroic pose, a solemn face.
 @ALUNO: TACTIC answer simply, then turn to the teacher, take her correction with a nod and a smile; NOT a cute pose.
 @PROFESSORA: TACTIC complete his answer kindly, crouched to his level, eyes on him, with ONE quick glance to the lens mid-line as if sharing it with you; NOT lecturing, pointing, staring at the lens.
-Classmates: happy — smiling, relaxed, bright-eyed, enjoying the exchange; silent; NOT looking at the lens.""",
+Classmates: happy, relaxed, silent; NOT looking at the lens.""",
         """CAMERA — follows @Video1's path and timing, handheld (small human sway, never a mechanical glide); level and facing forward the whole descent, never tilting.""" + ramp + """ After landing it stays handheld and makes one slight pan right to frame @PROFESSORA as she enters.
 OPTICS: 47° throughout; no zoom. FOCUS: @JOVEM's eyes in beat 1; whatever passes the lens in the descent; then the faces of the exchange.
 NOT: a cut, a tilt down, a drone, a CGI fly-through, a zoom, a locked tripod frame.""",
-        """GEOMETRY — classroom: windows along the frame-LEFT wall; the whiteboard is on the front wall behind the camera, out of frame; @ALUNO at a second-row desk, centre of frame, 1.6 m from the lens; desks with seated students to both sides, soft; @PROFESSORA crouching at frame-RIGHT, 50 cm from his desk; on the back wall behind the boy: a light-wood cabinet with closed doors at frame-LEFT, a bookshelf of colourful books at frame-RIGHT, and rows of children's drawings pinned across the middle.""",
-        """PHYSICS & MATERIAL — strong wind tugs at his collar and hair; in the descent soil and stones fall past the lens, roots sway, the ore glints; the white ceiling fan spins fast, blades motion-blurred. """ + REAL + """ MATERIAL TRUTH: the weave of his overshirt, roots with soil, banded hematite, matte steel, new laminate desks with notebooks and textbooks, the light wood of the cabinet, colourful book spines (nothing legible), children's crayon drawings on paper.""",
+        """GEOMETRY — classroom: windows along the frame-LEFT wall; the whiteboard is on the front wall behind the camera, out of frame; @ALUNO at a second-row desk, centre of frame, 1.6 m from the lens; desks with seated students to both sides, soft; @PROFESSORA crouching at frame-RIGHT, 50 cm from his desk; back wall behind the boy: a light-wood cabinet at frame-LEFT, a bookshelf of colourful books at frame-RIGHT, rows of children's drawings (suns, trees, houses, a rocket, no writing) pinned between.""",
+        """PHYSICS & MATERIAL — strong wind tugs at his collar and hair; in the descent a little loose soil and small stones fall past the lens, a few fine grass roots sway, the ore glints; the white ceiling fan spins fast, blades motion-blurred. """ + REAL + """ MATERIAL TRUTH: the weave of his overshirt, plain brown topsoil with fine pale grass roots, layered grey stone, banded hematite, matte steel, new laminate desks, the light wood of the cabinet, book spines (nothing legible), crayon drawings on paper.""",
         """LIGHT — MOTIVATED, one dominant natural source per place with real falloff and soft-edged shadows.
-SUMMIT: low sun ~4300 K from frame-LEFT. THE GROUND: as if sliced open in that same soft daylight — readable, never black, no invented lamp. CLASSROOM: window daylight from frame-LEFT ~5600 K; the room a stop darker; corners allowed to fall into shade.
-NOT: a headlamp, glowing underground light, flat ceiling-panel key, frontal fill.""",
+SUMMIT: low sun ~4300 K from frame-LEFT. THE GROUND: as if sliced open in that same soft daylight — readable, never black, no invented lamp, no orange or red glow. CLASSROOM: window daylight from frame-LEFT ~5600 K; the room a stop darker; corners allowed to fall into shade.
+NOT: a headlamp, glowing underground light, glowing roots, lava-like colour, flat ceiling-panel key, frontal fill.""",
         T.FILM_LOOK,
         f"""SOUND — NO SOUND EFFECTS ANYWHERE: nothing designed or synthetic during the descent — no rumble, whoosh, scraping, stones, hum, riser or impact. Only: strong wind across the summit under his line ({L['j']}s), dropping to near silence as the camera sinks below the ground; then, from the landing, the quiet room tone of a classroom — the soft whir of the spinning fan, a faint happy student murmur that drops during the lines. {T.MUSIC_POLICY}""",
         T.WORLD,
-        f"""NEGATIVE: sound effects, rumble, whoosh, text from the blocking video, low-poly shapes, a cut, a tilt down, speech during the descent, a classmate speaking, the teacher entering from the left or staring at the lens, a stopped fan, a whiteboard in frame or behind the boy, an empty classroom, a bare or sober back wall, sad or bored classmates, readable writing on drawings or book spines, cutting the teacher's line short (dropping the "E" or the "viu?"), a CGI cross-section, glowing ore, a black frame, {T.NEG_SPINE}.""",
-        f"""[ORDER: ONE continuous take, {total}s, following @Video1, handheld{', speed-ramp descent' if short else ''} — {order_t}. Invariants: one level descent; sinks the instant his line ends; no speech while travelling; NO sound effects; fan ON; teacher from frame-RIGHT in the voice of @Audio1, the whole line "E minério não é só minério, viu?", one glance to the lens; happy classmates; cabinet, bookshelf, drawings behind the boy. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+        f"""NEGATIVE: sound effects, rumble, whoosh, text from the blocking video, low-poly shapes, a cut, a tilt down, speech during the descent, a classmate speaking, the teacher entering from the left or staring at the lens, a stopped fan, a whiteboard in frame or behind the boy, a bare or sober back wall, sad or bored classmates, readable writing on drawings or book spines, cutting the teacher's line short (dropping the "E" or the "viu?"), big, thick or glowing roots, lava-like orange or red glow in the ground, a soil layer as long as the stone, a CGI cross-section, glowing ore, a black frame, {T.NEG_SPINE}.""",
+        f"""[ORDER: ONE continuous take, {total}s, following @Video1, handheld{', speed-ramp descent' if short else ''} — {order_t}. Invariants: one level descent; only a flash of plain soil with tiny grass roots, then mostly stone and ore; sinks the instant his line ends; no speech while travelling; NO sound effects; fan ON; teacher from frame-RIGHT in the voice of @Audio1, the whole line "E minério não é só minério, viu?", one glance to the lens; happy classmates; cabinet, bookshelf, drawings. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
     )
 
 
@@ -714,7 +714,7 @@ NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom, the camera st
 
 # ---------------------------------------------------------------- T16
 T16 = join(
-    contract(11, "ONE continuous take, no cuts", "handheld, close and breathing, a tight close-up whose opening framing follows the attached depth map"),
+    contract(9, "ONE continuous take, no cuts", "handheld, close and breathing, a tight close-up whose opening framing follows the attached depth map"),
     f"""REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe. 100% matches.
 @DEPTH_T16 — DEPTH MAP of the opening frame: a grey picture where WHITE is nearest to the lens and DARK is farthest. Its ONLY job is the opening GEOMETRY: the head dead centre, the crown of the curls near the top edge, both ears and the neck, the collar and both backpack straps filling the bottom, the hills falling away in layers behind him. It is a measurement, not a photograph.
@@ -730,36 +730,36 @@ THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything a
 3. His eyes stay on the lens and ALIVE from start to finish, travelling between your two eyes — WRONG if glassy, frozen or looking away.
 4. The performance is warm and personal, a promise between friends — WRONG if it is a slogan, a speech, a stiff mask, a smirk, a wink or tears.
 5. Real skin in detail: pores, light stubble, the small mole on his left cheek (frame-right as he faces the lens) — WRONG if smooth or retouched.
-6. Only @JOVEM speaks, only this text, from 1s to 9s. Sun from frame-LEFT — NO music.""",
+6. Only @JOVEM speaks, only this text, from 1s to 8s, in ONE brisk flowing delivery — WRONG if he pauses between sentences for more than a breath, drags a word or stops for effect. Sun from frame-LEFT — NO music.""",
     timeline(1, [], [
         "BEAT 1 (0–1s) — CU, 31°, handheld 1.2 m from his face at eye height, breathing, framed EXACTLY as @DEPTH_T16: his head dead centre, the crown of his curls near the top edge, both ears and the neck visible, the collar and backpack straps at the bottom edge — in full colour, with a closed-mouth smile and eyes on the lens; a quiet breath in.",
-        "BEAT 2 (1–6s) — he speaks the first sentence to you like a thought he knows by heart, the smile warming as he goes.",
-        "BEAT 3 (6–9s) — he says the two short lines: first with quiet certainty, then as an invitation, the smile opening fully.",
-        "BEAT 4 (9–11s) — he holds your eyes with the open smile. Hard end on the held look.",
+        "BEAT 2 (1–6s) — he speaks the first sentence in one bright, flowing breath, like good news he can't wait to share, the smile warming as he goes.",
+        "BEAT 3 (6–8s) — with no gap he runs straight on into the two short lines: the first firm and quick, the second a bright invitation, the smile opening fully.",
+        "BEAT 4 (8–9s) — he holds your eyes with the open smile. Hard end on the held look.",
     ]),
-    dialogue(line(1, 9, "JOVEM", "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra. O minério é nosso. O futuro também."), "JOVEM"),
+    dialogue(line(1, 8, "JOVEM", "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra. O minério é nosso. O futuro também."), "JOVEM").replace("\nVOICE LOCK", "\nPACING — ONE continuous flow of speech from 1s to 8s, about 6 syllables per second: bright, brisk, forward. The gap between sentences is only a breath (about a quarter of a second). NO pause, NO held beat, NO trailing off, NO dramatic stop before \"O minério é nosso.\" or \"O futuro também.\" — the acting happens WHILE he speaks, never between the words.\nVOICE LOCK", 1),
     """ACTING — @JOVEM (fully invested in the tactic; the work happens in the eyes and the face)
 SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
 EVENT: he has just shown you everything he loves about this place; this is the last thing he wants you to take with you.
 MOTIVE: he is proud and a little moved, and he wants you to feel it too.
 GOAL: to get your yes — to make you feel that this future is yours as well.
-OBSTACLE: the lump in his throat; he is moved and keeps it light and warm, and it never becomes tears.
-TACTIC: say it close and warm, like a promise between friends — certain, never a speech.
+OBSTACLE: the lump in his throat, felt only in the eyes, never in the delivery — he keeps talking, brisk and warm, and it never becomes tears or a pause.
+TACTIC: say it close, bright and quick, like good news you can't wait to share — certain and flowing, never a speech, never slow.
 MOMENT TO MOMENT:
 (0–1s) the closed-mouth smile, eyes steady on you, a quiet breath in; one corner of his mouth lifts a little more just before he speaks.
-(1–6s) the first sentence is a thought he has long known by heart: his eyes travel between your two eyes, settle, drift a hair and come back; his brows lift a little on "força"; on each "nossa terra" the warmth rises — the cheeks lift and the eyes crinkle before the mouth does; one slow, small nod as "desenvolvimento" lands.
-(6–9s) "O minério é nosso." — quiet certainty: the chin lifts a hair, the smile pulls into one corner, a single small nod on "nosso". "O futuro também." — the invitation: the brows lift, the eyes widen slightly and brighten, the smile opens fully and he leans a hair toward the lens, asking for your yes.
-(9–11s) the held look: the smile at full, the eyes bright and a little glossy with joy (never tears), a short laugh of breath through the nose; he stays with you, never looks away.
+(1–6s) the first sentence in one flowing breath, like good news he has known for a long time: his eyes travel between your two eyes without stopping; his brows lift a little on "força"; on each "nossa terra" the warmth rises — the cheeks lift and the eyes crinkle before the mouth does; a quick small nod as "desenvolvimento" lands — all of it WHILE he speaks, never in a pause.
+(6–8s) straight on, no gap: "O minério é nosso." — firm and quick, the chin lifts a hair, one small nod on "nosso". "O futuro também." — the invitation: the brows lift, the eyes brighten, the smile opens fully and he leans a hair toward the lens, asking for your yes.
+(8–9s) the held look: the smile at full, the eyes bright and a little glossy with joy (never tears), a short laugh of breath through the nose; he stays with you, never looks away.
 EYES: on the lens throughout, travelling between your two eyes; pupils search, settle and drift; blinks uneven and never on the beat of the words; slight asymmetry; a real smile in which the eyes smile with the mouth.
-NOT: a slogan or campaign-ad delivery, a speech, a stiff mask of a face, a frozen pupil, a smirk, a wink, tears, crying, over-acting.""",
+NOT: a slow or deliberate delivery, pauses between sentences, a dramatic stop, trailing off, a slogan or campaign-ad delivery, a speech, a stiff mask of a face, a frozen pupil, a smirk, a wink, tears, crying, over-acting.""",
     T.handheld(),
     """PHYSICS & MATERIAL — the wind from frame-left moves a few curls at his temple and the edge of his collar; his breath moves his lips and nostrils; the handheld breath makes the frame sway a few millimetres; his skin catches the light unevenly. """ + REAL + """ MATERIAL TRUTH: pores and fine lines at the eyes, light stubble with individual hairs, the weave of his rust-red overshirt collar, the straps of his backpack.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: wind across the open summit, steady and quiet; dry grass hissing; his breath; after his last word, only the wind. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a cut, widening the frame, a push-in, an opening frame whose framing differs from @DEPTH_T16, a grey or black-and-white frame, a depth-map look, a blank or featureless face, a white silhouette, smooth retouched skin, watery eyes, tears, a wink, a smirk, a slogan or ad delivery, a stiff expressionless face, looking away, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 11s, tight CU 31°, opening framed EXACTLY like @DEPTH_T16, in full colour — (0–1s) head dead centre, closed-mouth smile, eyes on the lens — (1–6s) the first sentence, a thought he knows by heart, eyes travelling between yours, warmth rising on "nossa terra" — (6–9s) "O minério é nosso." in quiet certainty, "O futuro também." as an invitation, the smile opening fully — (9–11s) he holds your eyes with the open smile; hard end. Invariants: handheld, tight close-up; the depth-map framing, full colour; living eyes on the lens; warm and personal, never a slogan; real skin; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a cut, widening the frame, a push-in, an opening frame whose framing differs from @DEPTH_T16, a grey or black-and-white frame, a depth-map look, a blank or featureless face, a white silhouette, smooth retouched skin, watery eyes, tears, a wink, a smirk, a slogan or ad delivery, a stiff expressionless face, looking away, pauses between the sentences, a slow deliberate delivery, a dramatic stop before the short lines, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 9s, tight CU 31°, opening framed EXACTLY like @DEPTH_T16, in full colour — (0–1s) head dead centre, closed-mouth smile, eyes on the lens — (1–6s) the first sentence in one bright flowing breath, eyes travelling between yours, warmth rising on "nossa terra" — (6–8s) straight on, no gap: "O minério é nosso." firm and quick, "O futuro também." as an invitation, the smile opening fully — (8–9s) he holds your eyes with the open smile; hard end. Invariants: handheld, tight close-up; the depth-map framing, full colour; living eyes on the lens; ONE brisk flowing delivery, no pauses between sentences beyond a breath; warm and personal, never a slogan; real skin; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 
