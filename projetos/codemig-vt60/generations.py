@@ -607,6 +607,47 @@ SHOT 2: handheld, an operator with a body — breathing, small weight shifts, la
     """[ORDER: 2 shots, 1 hard cut at 3s, 10s — (1, 0–3s) MATCH FRAME medium close-up of the driver, face dead centre, smiling into the lens, slow dolly-out (no zoom) — (2, 3–10s) medium shot, waist-up, from the first row behind and right of him, the bus STOPPED: he is already turned to the lens and says his line at 3–8s in one brisk flow, smiling; he holds the smile at 8–10s. Invariants: Brazilian city-bus look (yellow handrails, blue patterned seats, grey rubber floor); the bus stopped, the door shut, no student; shot 1 face centred, camera backing away with no zoom; he speaks only in shot 2. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
+# ---------------------------------------------------------------- T12-B (só o dolly do motorista, em 4s; substitui o plano 1 da T12)
+T12B = join(
+    contract(4, "ONE continuous take, no cuts", "a slow dolly-out from a medium close-up, inside a stopped bus", dialogue=False),
+    f"""REFERENCES — each reference has ONE job:
+@MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
+@ONIBUS_INT — PLACE of the bus: the layout, the yellow handrails, the seats, the windows, the floor, the door. 100% matches the place.
+{SCOPE_ID} For @ONIBUS_INT: IGNORE any people, any text, stickers, signs or logos, the light, the exposure and the colour grade, raindrops on the glass, and whatever is seen outside the windows.""",
+    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@MOTORISTA ({ANCH['MOTORISTA']}) — the BUS DRIVER: sits at the wheel and smiles into the lens; NEVER speaks; the bus is STOPPED; NEVER stands, NEVER opens the door.
+FACES: his face exists once; nobody else near him; two or three seated passengers far back are soft Brazilian adults with their mouths closed; nobody boards, no student; no twins, no clones.
+CONTACT: nobody touches anyone.""",
+    """SCENE — Late afternoon inside a clean, well-kept Brazilian city bus in Belo Horizonte, STOPPED at a stop with the engine idling — yellow handrails, blue patterned seats, a grey rubber floor, a folding glass door shut. @MOTORISTA sits at the wheel looking at you; the camera faces him from the windshield side, the aisle, the seats and the windows of the bus behind him.
+THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he is proud of where this route goes — he looks at you with a smile, as if you had just stepped on.""",
+    f"""{LOCKS_HEAD}
+1. ONE take in the MATCH FRAME with the slow dolly-out (the camera moving back, no zoom), no cuts — WRONG if it cuts, if the camera is locked, or if the lens zooms or the camera pushes in.
+2. The FIRST FRAME is a medium close-up, head and shoulders: his WHOLE head in frame with air above the hair (his head about half of the frame height, the top of his head at about 12% from the top edge, his chin at about 62%), his collar and the tops of his shoulders in the lower third — WRONG if the start is tighter (an extreme close-up, the face filling the frame, the forehead or hair cropped) or the camera starts closer than 1.3 m.
+3. The camera stays at his EYE HEIGHT or a hair above, the 47° lens fixed, with DEEP focus: the yellow handrails, the blue seats and the windows behind him stay readable, only gently soft — WRONG if the camera is below his eyes or looks up at him, if the lens distorts his face (a wide-angle look, a big nose), or if the background melts into a blur.
+4. His face stays dead centre and frontal, straight into the lens with a warm smile for the whole take, while the framing opens gently toward a medium shot — the move covers only about a metre in total, ending about 2.3 m away — WRONG if the face drifts off centre, he looks away or down, the move is fast or the framing ends wide.
+5. NO dialogue: his mouth stays closed in a smile — WRONG if any mouth forms words. The bus is STOPPED: nothing slides past the windows, no motion blur, the glass door stays shut, nobody boards. Daylight from frame-LEFT — NO music.""",
+    timeline(1, [], [
+        "BEAT 1 (0–4s) — the MATCH FRAME, MCU: @MOTORISTA's face dead centre, his whole head in frame with air above the hair, the camera at his eye height or a hair above, his eyes straight into the lens, a warm smile for the whole take; the stopped bus behind him — the yellow handrails, the blue seats, the aisle and the windows, readable — opening wider as the slow, gentle dolly-out runs the whole take, ending as a medium shot with his face still dead centre. Hard end on the held smile.",
+    ]).replace("TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:", "TIMELINE — ONE continuous take, no cuts; the very first frame is already the MATCH FRAME (head and shoulders, 1.3 m):"),
+    acting("MOTORISTA", "every day he takes people to where the opportunities are, and you have just stepped onto his bus.",
+           "greet you with a warm, proud smile, like a friend glad to see you — easy and bright, nothing more.",
+           "on the lens throughout.",
+           "a slow happy blink",
+           "speaking, a blank face, looking away or down, standing up"),
+    T.dolly_out(4).replace("FOCUS: on the eyes throughout.", "FOCUS: on the eyes throughout, with a deep depth of field — the handrails, seats and windows behind him stay readable, NO creamy bokeh; the camera at his eye height or a hair above.").replace("the move never stops or reverses.", "the move is gentle, about 0.25 m a second, never closer than 1.3 m, never farther than 2.4 m, and never stops or reverses."),
+    T.MATCH_FRAME.replace("the camera at the subject's eye height about 1.3 m", "the camera at the subject's eye height or a hair above (never below), about 1.3 m").replace("medium close-up (head and shoulders) at 47°", "medium close-up (his whole head with air above the hair, and his shoulders) at 47°").replace("the background soft", "the background readable and only gently soft"),
+    """GEOMETRY — the driver's seat on the bus's left side; the camera faces him from the windshield side at his eye height or a hair above, starting 1.3 m from his face and backing along the same axis to about 2.3 m; behind him the aisle of the bus, the yellow handrails, the blue patterned seats and the windows, the glass folding door on frame-LEFT; the daylight from frame-LEFT.""",
+    """PHYSICS & MATERIAL — the bus is still, the engine idling with a faint vibration; light shifts softly on the glass; his shirt moves with his breath. """ + REAL + """ MATERIAL TRUTH: the glass of the door, the grey rubber floor with its yellow edge line, yellow-painted handrails with grey clamp brackets, grey seat shells with blue patterned cushions, the cotton of his pale grey shirt.""",
+    T.light_int("the bus's windshield and door-side windows",
+                "no other source inside the bus.",
+                "the daylight lights the frame-LEFT side of his face; the bus behind falls off a stop."),
+    T.FILM_LOOK,
+    f"""SOUND — LOCATION SOUND ONLY: the engine idling; a quiet stopped avenue outside, a distant horn; the fabric of his shirt. {T.MUSIC_POLICY}""",
+    T.WORLD,
+    f"""NEGATIVE: an extreme close-up, the face filling the frame, the forehead or hair cropped, a start closer than 1.3 m, a camera below his eyes or looking up at him, wide-angle distortion of the face, a big nose, a very blurred background, creamy bokeh, a fast move, the door opening, a student or any boarding passenger, a moving bus, motion blur outside, rain or raindrops on the windows, a logo on the steering wheel, chrome or satin-steel handrails, a European or American bus interior, an all-grey interior, readable stickers or fare signs, him standing, him speaking or any mouth forming words, the face drifting off centre, a zoom, a cut, a generic or plain-looking man, {T.NEG_DOLLY}.""",
+    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @MOTORISTA's face dead centre, his whole head in frame with air above the hair at the start (never an extreme close-up), the camera at his eye height or a hair above, eyes straight into the lens, a warm smile; the stopped Brazilian city bus behind him (yellow handrails, blue patterned seats, windows) readable and only gently soft, opening wider as the camera backs away gently from 1.3 m to about 2.3 m, no zoom; hard end on the held smile. Invariants: the start is head and shoulders; the camera never below his eyes; deep focus, not a blur; face centred throughout; no dialogue; the bus stopped, the door shut, no student. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
+)
+
 # ---------------------------------------------------------------- T14
 T14 = join(
     contract(6, "ONE continuous take, no cuts", "handheld"),

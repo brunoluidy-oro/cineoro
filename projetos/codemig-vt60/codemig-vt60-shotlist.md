@@ -1011,7 +1011,7 @@ Notas: conferir: ela animada e natural, nem blasé nem exagerada; peito da camis
 
 ### T12 · Ônibus (Match cut, ~5.6s no corte)
 
-O motorista, em médio close com dolly-out, sorri pra você; corte para o outro ângulo, e ele entrega a fala com o ônibus parado.
+O motorista, em médio close com dolly-out, sorri pra você; corte para o outro ângulo, e ele entrega a fala com o ônibus parado. A T12-B refaz só o dolly (4s, sem fala), para substituir o plano 1 da T12.
 
 #### Geração T12 · 10s · 2 plano(s)
 
@@ -1100,6 +1100,86 @@ Anexar nesta ordem:
   2) @ONIBUS_INT (sua foto do interior do ônibus) — só o lugar; ignorar pessoas, textos, adesivos, luz e grade de cor
   3) @ONIBUS_CAB (sua foto da cabine, sem o motorista e sem textos) — só o lugar; apagar antes a estrela no volante
 Notas: conferir: ônibus parado (nada deslizando pelas janelas), porta fechada, sem estudante; interior com corrimãos amarelos e bancos azuis (nada de cromado nem tudo cinza), sem texto legível; plano 1 com o rosto no centro e a câmera recuando sem zoom; no plano 2 ele já está virado pra lente no corte e fala logo, num fluxo só, sem pausa de meio segundo no meio da frase.
+```
+
+#### Geração T12-B · só o dolly · 4s · 1 plano(s)
+
+- **O que acontece:** No ônibus urbano de BH parado no ponto (corrimãos amarelos, bancos azuis estampados, piso de borracha cinza): médio close do motorista, no centro e reto pra lente, com a cabeça inteira no quadro e a câmera na altura dos olhos dele, sorrindo, enquanto a câmera recua devagar (dolly-out, sem zoom) e o quadro vai abrindo até um plano médio; o fundo (corrimãos, bancos, janelas) fica legível, sem desfoque forte. Sem fala e sem corte.
+- **O que é dito:** nada na geração. Na montagem: o áudio da agricultora segue por cima.
+- **Tempo:** médio close com dolly-out lento, sorri — 4s (na montagem entram ~3s)
+- **Como termina:** ele sorrindo pra lente, rosto no centro, em plano médio; corte para o plano 2 da T12 (a fala).
+- **Direção:** Só o dolly, como você pediu: a T12-B é uma geração de 4s (o mínimo do modelo; na montagem entram ~3s) que substitui o plano 1 da T12. O plano 2 da T12 (a fala) fica como está: na montagem, ~3s da T12-B e depois a T12 a partir dos 3s. Você não disse o que não funcionou no dolly, então olhei os quadros do clipe que você mandou (3,04s, 992×432, 24 fps). Não consigo ouvir o áudio: só medi a energia do som, que é um ruído constante de ambiente, sem fala. O que vi: (1) o primeiro frame é um close extremo: o rosto preenche o quadro e a testa e o cabelo saem pelo topo; (2) a câmera parece um pouco abaixo da linha dos olhos (dá pra ver a base do nariz) e o rosto tem aspecto de grande-angular de perto; (3) o fundo está bem desfocado no começo e só fica legível quando a câmera já se afastou; (4) o quadro abre bastante: a cabeça vai de mais que a altura do quadro até uns 35% dela aos 3s, enquanto o planejado, pelas minhas contas, era de ~46% a ~29% (1,3 m a 2,05 m). Os olhos ficam na linha do terço superior e o rosto no centro durante todo o clipe, e o final, em plano médio, é parecido com o planejado; o problema é o começo apertado e a câmera baixa. Mudei: o primeiro frame agora é fixado (cabeça inteira com ar em cima do cabelo, a cabeça com cerca de metade da altura do quadro, câmera nunca mais perto que 1,3 m); a câmera fica na altura dos olhos ou um tiquinho acima, nunca abaixo; o foco é profundo (corrimãos, bancos e janelas legíveis, sem bokeh cremoso, o mesmo ajuste que fiz no T09); a lente não distorce o rosto; o movimento é suave (~0,25 m/s, de 1,3 m a ~2,3 m em 4s); e o cabeçalho da linha do tempo diz que o primeiro frame já é o match frame. Se o que te incomodou era outra coisa (a velocidade, o sorriso, o lugar), me diga. Sem a @ONIBUS_CAB: o plano não mostra a cabine. Não testei nada disso no Seedance.
+
+```
+CONTRACT — Live-action photoreal film footage, 21:9, 4 seconds total, ONE continuous take, no cuts, a slow dolly-out from a medium close-up, inside a stopped bus, real-time motion, no dialogue — no one speaks. NO music, NO score. NO subtitles, NO captions, NO on-screen text, NO logos, NO brand names on any surface.
+
+REFERENCES — each reference has ONE job:
+@MOTORISTA — IDENTITY of @MOTORISTA: face, hair, build, hands and wardrobe. 100% matches.
+@ONIBUS_INT — PLACE of the bus: the layout, the yellow handrails, the seats, the windows, the floor, the door. 100% matches the place.
+REFERENCE SCOPE: character references supply face, hair, build, hands and wardrobe (with any safety equipment) ONLY — IGNORE their grey backdrop, studio lighting, exposure and colour grade. For @ONIBUS_INT: IGNORE any people, any text, stickers, signs or logos, the light, the exposure and the colour grade, raindrops on the glass, and whatever is seen outside the windows.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@MOTORISTA (52, Black Brazilian man, medium-brown skin, heavy-set with a round belly, close-cropped salt-and-pepper hair, round full-cheeked face, broad nose, clean-shaven, pale grey short-sleeved open-collar uniform shirt with two flap chest pockets and nothing written on it, worn untucked, dark navy trousers, black loafers, a steel wristwatch on the left wrist) — the BUS DRIVER: sits at the wheel and smiles into the lens; NEVER speaks; the bus is STOPPED; NEVER stands, NEVER opens the door.
+FACES: his face exists once; nobody else near him; two or three seated passengers far back are soft Brazilian adults with their mouths closed; nobody boards, no student; no twins, no clones.
+CONTACT: nobody touches anyone.
+
+SCENE — Late afternoon inside a clean, well-kept Brazilian city bus in Belo Horizonte, STOPPED at a stop with the engine idling — yellow handrails, blue patterned seats, a grey rubber floor, a folding glass door shut. @MOTORISTA sits at the wheel looking at you; the camera faces him from the windshield side, the aisle, the seats and the windows of the bus behind him.
+THE SOUL OF THE SCENE (play it, never explain it): every day he drives people to where the opportunities are; he is proud of where this route goes — he looks at you with a smile, as if you had just stepped on.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. ONE take in the MATCH FRAME with the slow dolly-out (the camera moving back, no zoom), no cuts — WRONG if it cuts, if the camera is locked, or if the lens zooms or the camera pushes in.
+2. The FIRST FRAME is a medium close-up, head and shoulders: his WHOLE head in frame with air above the hair (his head about half of the frame height, the top of his head at about 12% from the top edge, his chin at about 62%), his collar and the tops of his shoulders in the lower third — WRONG if the start is tighter (an extreme close-up, the face filling the frame, the forehead or hair cropped) or the camera starts closer than 1.3 m.
+3. The camera stays at his EYE HEIGHT or a hair above, the 47° lens fixed, with DEEP focus: the yellow handrails, the blue seats and the windows behind him stay readable, only gently soft — WRONG if the camera is below his eyes or looks up at him, if the lens distorts his face (a wide-angle look, a big nose), or if the background melts into a blur.
+4. His face stays dead centre and frontal, straight into the lens with a warm smile for the whole take, while the framing opens gently toward a medium shot — the move covers only about a metre in total, ending about 2.3 m away — WRONG if the face drifts off centre, he looks away or down, the move is fast or the framing ends wide.
+5. NO dialogue: his mouth stays closed in a smile — WRONG if any mouth forms words. The bus is STOPPED: nothing slides past the windows, no motion blur, the glass door stays shut, nobody boards. Daylight from frame-LEFT — NO music.
+
+TIMELINE — ONE continuous take, no cuts; the very first frame is already the MATCH FRAME (head and shoulders, 1.3 m):
+BEAT 1 (0–4s) — the MATCH FRAME, MCU: @MOTORISTA's face dead centre, his whole head in frame with air above the hair, the camera at his eye height or a hair above, his eyes straight into the lens, a warm smile for the whole take; the stopped bus behind him — the yellow handrails, the blue seats, the aisle and the windows, readable — opening wider as the slow, gentle dolly-out runs the whole take, ending as a medium shot with his face still dead centre. Hard end on the held smile.
+
+ACTING — @MOTORISTA (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — happy and proud of what you are saying, a real smile that comes and goes; the lens is that friend.
+MOTIVE: every day he takes people to where the opportunities are, and you have just stepped onto his bus.
+TACTIC: greet you with a warm, proud smile, like a friend glad to see you — easy and bright, nothing more.
+EYES: on the lens throughout. pupils search, settle and drift; blinks uneven; slight asymmetry. Involuntary detail: a slow happy blink. A frozen pupil is wrong.
+NOT: a solemn or serious face, a speech, a stiff advertising grin, speaking, a blank face, looking away or down, standing up.
+
+CAMERA — the DOLLY-OUT, slow, about 4s: the camera glides straight back along the lens axis, from about 1.3 m to about 2.3 m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move is gentle, about 0.25 m a second, never closer than 1.3 m, never farther than 2.4 m, and never stops or reverses.
+FOCUS: on the eyes throughout, with a deep depth of field — the handrails, seats and windows behind him stay readable, NO creamy bokeh; the camera at his eye height or a hair above. HORIZON: level.
+NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone.
+
+MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (his whole head with air above the hair, and his shoulders) at 47°, the camera at the subject's eye height or a hair above (never below), about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background readable and only gently soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom).
+
+GEOMETRY — the driver's seat on the bus's left side; the camera faces him from the windshield side at his eye height or a hair above, starting 1.3 m from his face and backing along the same axis to about 2.3 m; behind him the aisle of the bus, the yellow handrails, the blue patterned seats and the windows, the glass folding door on frame-LEFT; the daylight from frame-LEFT.
+
+PHYSICS & MATERIAL — the bus is still, the engine idling with a faint vibration; light shifts softly on the glass; his shirt moves with his breath. Nothing floats, nothing loops. If any surface looks plastic, CGI or rendered — WRONG. MATERIAL TRUTH: the glass of the door, the grey rubber floor with its yellow edge line, yellow-painted handrails with grey clamp brackets, grey seat shells with blue patterned cushions, the cotton of his pale grey shirt.
+
+LIGHT — MOTIVATED LIGHT ONLY, daytime interior (KEY): one dominant motivated natural source with real falloff and soft-edged shadows.
+SOURCE: daylight through the bus's windshield and door-side windows on frame-LEFT, ~5600 K, soft and directional; no other source inside the bus.
+REACH: the daylight lights the frame-LEFT side of his face; the bus behind falls off a stop.
+EXPOSURE: exposed for skin; highlights creamy and warm; blacks slightly lifted; the room behind about one stop darker; corners allowed to fall into shade.
+CONTINUITY: the daylight stays frame-LEFT in every shot; lit sides never flip.
+NOT: flat ceiling-panel light as the key, frontal fill, beauty light, a blown-out window flooding the frame, green fluorescent cast.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+NO LENS FLARES: no flares, no light streaks, no sun stars, no floating bokeh orbs; the warm halation stays a soft bloom around the highlights.
+
+SOUND — LOCATION SOUND ONLY: the engine idling; a quiet stopped avenue outside, a distant horn; the fabric of his shirt. NO music, NO score, NO BGM, NO instrumental, NO melody, NO jingle, NO ambient pad, NO drone, NO swell, NO chimes — the soundtrack is added in post; this generation carries only location sound and the scripted voice.
+
+WORLD — Minas Gerais, Brazil, today: a modern Brazilian state moving forward — contemporary architecture, new and well-kept public spaces, current equipment and technology, Brazilian people and Brazilian everyday details; nothing rustic, run-down, poor-looking, old-fashioned or colonial. Uniforms, vehicles, machines and signage carry NO brand names, NO logos, NO insignia and NO readable text (logos are added in post); screens are off or show only abstract shapes.
+
+NEGATIVE: an extreme close-up, the face filling the frame, the forehead or hair cropped, a start closer than 1.3 m, a camera below his eyes or looking up at him, wide-angle distortion of the face, a big nose, a very blurred background, creamy bokeh, a fast move, the door opening, a student or any boarding passenger, a moving bus, motion blur outside, rain or raindrops on the windows, a logo on the steering wheel, chrome or satin-steel handrails, a European or American bus interior, an all-grey interior, readable stickers or fare signs, him standing, him speaking or any mouth forming words, the face drifting off centre, a zoom, a cut, a generic or plain-looking man, glassy stare, frozen pupils, doll eyes, dead stare into the lens, solemn faces, warped hands, extra fingers, duplicated characters, twins, clones, looping motion, locked-off tripod shot, static camera, garbled text, readable signage, logos, brand names, watermark, subtitles, captions, music, score, jingle, rustic, run-down, colonial architecture, decay, grime, peeling paint, poverty, beauty retouching, porcelain or waxy skin, glossy AI commercial look, HDR glow, lens flare, crushed blacks, wrong aspect ratio.
+
+[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @MOTORISTA's face dead centre, his whole head in frame with air above the hair at the start (never an extreme close-up), the camera at his eye height or a hair above, eyes straight into the lens, a warm smile; the stopped Brazilian city bus behind him (yellow handrails, blue patterned seats, windows) readable and only gently soft, opening wider as the camera backs away gently from 1.3 m to about 2.3 m, no zoom; hard end on the held smile. Invariants: the start is head and shoulders; the camera never below his eyes; deep focus, not a blur; face centred throughout; no dialogue; the bus stopped, the door shut, no student. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]
+```
+
+```
+GENERATION CARD
+Modelo: Seedance 2.5 (Higgsfield) · Tarefa: reference-to-video
+Duração: 4s (= timeline) · Aspecto: 21:9 · Resolução: draft 480p → final 1080p · Áudio: on
+Anexar nesta ordem:
+  1) @MOTORISTA (character sheet) — identidade
+  2) @ONIBUS_INT (sua foto do interior do ônibus) — só o lugar; ignorar pessoas, textos, adesivos, luz e grade de cor
+Notas: conferir: o primeiro frame já é um médio close com a cabeça inteira (ar em cima do cabelo, gola e ombros embaixo), não um close extremo; a câmera na altura dos olhos dele, sem olhar de baixo pra cima; corrimãos amarelos, bancos azuis e janelas legíveis atrás, sem fundo derretido; o rosto no centro o tempo todo e a câmera recuando devagar e de verdade (sem zoom) até um plano médio; sem fala; ônibus parado, porta fechada, sem estudante e sem texto legível. Se o começo vier apertado de novo, aumente a distância inicial para 1,5 m.
 ```
 
 ### T14 · Trilhas de Futuro (Conexão, ~3.8s no corte)
@@ -1851,6 +1931,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **P25 · T16 em duas versões** (testar): v1 como estava (CU 18°, atuação resumida, sem imagem de apoio) e v2 com a atuação reforçada e a abertura guiada pelo seu mapa de profundidade (@DEPTH_T16, CU 31°). O keyframe colorido foi testado por você e perdeu qualidade, então saiu da v2. Gere as duas e fique com a melhor; a que não for usada pode sair. O mapa deve ter a proporção da geração (21:9)
 - **P26 · Exclusões** (decidido): T06 (laboratório) saiu: some o card, o prompt e o sheet da @PESQUISADORA; o revezamento fica T04, T05, T07 e T08, e a frase corre "…um mundo mais verde, de uma indústria mais eficiente, de uma economia mais sustentável." No T16 saiu "Para transformar a força que vem da nossa terra em mais desenvolvimento para a nossa terra." (eu tinha entendido o contrário): a fala é só "O minério é nosso, o futuro também.", em 2s, e o take tem 5s.
 - **P27 · T08-A e T08-B** (testar): T08-A (a v1: sem nióbio, plano 1 em plano médio-aberto e plano 2 em close) e T08-B (a v2: os dois planos abertos, com o corpo inteiro dele; plano 1 em órbita no fundo da cava e, depois do corte, ele no terço esquerdo da tela, na beira da cava, levantando um nióbio pequeno no espaço vazio da direita). A frase, a voz, a luz, o EPI e o tempo são os mesmos; mudam o enquadramento (a T08-B é mais aberta, sobretudo no plano 2) e o nióbio do plano 2. A primeira geração da T08-B saiu em take único e com o nióbio grande demais; o prompt foi reforçado (corte de imagem explícito, nióbio do tamanho de um punho, os dois planos abertos) e ainda não foi testado. Gere as duas e fique com a melhor; a outra pode sair.
+- **P28 · T12-B (só o dolly)** (testar): A T12-B é uma geração de 4s só com o dolly do motorista, para substituir o plano 1 da T12; o plano 2 da T12 (a fala) fica como está. No clipe que você mandou, o primeiro frame era um close extremo (rosto preenchendo o quadro, testa cortada), com a câmera um pouco baixa e o fundo bem desfocado. A T12-B fixa o primeiro frame (cabeça inteira, ~metade da altura do quadro), a câmera na altura dos olhos e o foco profundo. Montagem: ~3s da T12-B e depois a T12 a partir dos 3s.
 - **P11 · EPI da mina e da siderurgia** (validar): Os sheets trazem EPI padrão. Confirmar com a SST da operadora antes da geração final.
 - **P13 · Formato** (decidido): 21:9 em todas as gerações (variável única no build). As character sheets ficam em 16:9, porque são referência de identidade. Nos closes o 21:9 deixa muito espaço dos lados; se algum close vier aberto demais, aperte o FOV (por exemplo 29° para 18°).
 - **P17 · Corte T01-A → T01-B** (decidido): T01-A termina com ele totalmente de frente, ombros quadrados e olhando a lente; T01-B começa exatamente assim, em close. O corte cai no olhar, como um punch-in. A mesma luz (sol da esquerda) nos dois.
@@ -1867,6 +1948,7 @@ Photograph of a dark grey compact electric hatchback with NO badges and NO logos
 - **Take único no lugar de dois planos (T08-B):** o modelo pode ignorar o corte e fazer tudo num plano só, no mesmo lugar (aconteceu na primeira geração da T08-B). Com os dois planos abertos o risco é maior, porque ficam parecidos. O prompt trata o corte como corte de imagem, para outra câmera em outro lugar (fundo da cava x beira da cava), e o plano 1 orbita enquanto o plano 2 fica parado; se acontecer de novo, gere os dois planos separados (4s e 5s) e junte na montagem, e troque o áudio se a voz mudar no corte.
 - **Tamanho do nióbio (T08-B):** saiu grande demais na primeira geração; o prompt agora fixa ~10 cm (o tamanho de um punho) num plano aberto, onde ele fica em escala natural mas pequeno no quadro. Se ainda vier grande, diminua para ~6 cm; se sumir de tão pequeno, aproxime a câmera no plano 2.
 - **Pronúncia de nióbio (T08):** a agricultora dizia "niório"; a palavra agora está na fala do funcionário, escrita "nióbiu" no prompt, com guia nee-OH-byoo. Se errar de novo, grave só "nióbio" no ElevenLabs e troque no áudio.
+- **Dolly que começa apertado demais (T12-B):** o modelo abriu o plano 1 da T12 num close extremo, com a câmera baixa e o fundo desfocado. A T12-B trava o primeiro frame, a altura dos olhos e o foco profundo; se ainda vier apertado, comece a 1,5 m. O mesmo risco vale para T10 e T11 (também a 1,3 m): confira o primeiro frame.
 - **Dolly-out (match):** o modelo pode deixar a câmera parada ou dar um zoom em vez de recuar. No draft, confira se a câmera recua de verdade (o rosto encolhe aos poucos e o fundo abre); reforce "the camera moves back, no zoom" se precisar.
 - **Barulho de drone (T09, plano 2):** o modelo tende a pôr zumbido de hélice ou de motor em plano aéreo. O prompt proíbe na trava, no bloco de som e no NEGATIVE e manda o plano soar como o campo aberto; se vier mesmo assim, peça edição de áudio (tirar o zumbido, manter vento e fala) ou troque o som na pós.
 - **Sotaque da agricultora (T09):** em duas gerações curtas ela saiu com sotaque "errado" (um leve nordestino, relato seu). Nada no prompt pedia isso; a trava de voz traz o sotaque mineiro do interior, o "tch" de Minas (gente = GEN-tchi) e proíbe o nordestino. Agora a fala vem inteira num take só, o que dá mais material ao modelo (hipótese sua; eu não consigo ouvir o áudio). Se voltar, grave a fala no ElevenLabs e troque no áudio.
