@@ -111,8 +111,8 @@ NOT: tripod, locked-off frame, gimbal glide, dolly, drone, zoom."""
 # Quadro do plano 2 do T08 (close na beira da cava): o close do pedido anterior, só para esse plano.
 CLOSE_FRAME = """CLOSE FRAME (KEY): CU at 29°, handheld held close and breathing at the subject's eye height, 1.2 m from the face, frontal; the face just left of centre; when the eyes reach the lens they land on the upper-third line at about 45% of the frame width; the background soft."""
 
-# Quadro do plano 2 da T08-B (beira da cava, aberto): plano aberto de corpo inteiro, ele no terço esquerdo, câmera respirando no lugar.
-RIM_FRAME = """WIDE RIM FRAME (KEY): WS at 63°, handheld held steady and breathing at the subject's chest-to-eye height, about 5 m from him, frontal; his whole body on the LEFT third of the frame (body centre at about 30% of the frame width, head just under the upper-third line), the right side of the frame left open for the pit and the raised niobium; deep focus, the pit readable."""
+# Quadro do plano 2 da T08-B (beira da cava): o close da T08-A, com o rosto no terço esquerdo e o lado direito livre para o nióbio.
+CLOSE_FRAME_LEFT = CLOSE_FRAME.replace("the face just left of centre; when the eyes reach the lens they land on the upper-third line at about 45% of the frame width", "his face on the LEFT third of the frame, the eyes on the upper-third line at about 28% of the frame width, the right side of the frame left empty for the niobium")
 
 # Quadro do match cut v2 (P2): MCU centralizado, reto pra câmera, mesma distância, dolly-out lento.
 MATCH_FRAME = """MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom)."""
