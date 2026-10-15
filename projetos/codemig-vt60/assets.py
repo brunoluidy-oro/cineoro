@@ -120,7 +120,7 @@ CHARS = [
              build="solid and upright, about 1.72 m",
              outfit="off-white linen short-sleeved shirt, crisp charcoal canvas apron tied at the back, dark grey trousers, brown leather loafers",
              bg="medium-grey")),
-    dict(tag="AGRICULTORA", papel="Agricultora", idade="F, 40", r="caipira", takes="T08",
+    dict(tag="AGRICULTORA", papel="Agricultora", idade="F, 40", r="caipira", takes="T09-A, T09-B",
          obs="Produtora moderna, com chapéu de fazendeira.",
          prompt=sheet(
              who="a Brazilian woman of mixed descent", age=40, person="woman", pron="she", poss="her",
@@ -135,7 +135,7 @@ CHARS = [
              ordinary="an ordinary farmer and agronomist from the Triângulo Mineiro",
              build="strong, medium height",
              outfit="sand-coloured technical long-sleeved shirt, dark jeans, modern brown leather work boots, the same tan felt farmer's hat, the same sunglasses hooked on the collar")),
-    dict(tag="FUNCIONARIO", papel="Funcionário da mina de nióbio", idade="M, 30", r="caipira", takes="T09-A, T09-B",
+    dict(tag="FUNCIONARIO", papel="Funcionário da mina de nióbio", idade="M, 30", r="caipira", takes="T08",
          obs="EPI de mineração completo e correto, sem marca. Validar com a SST da operadora.",
          prompt=sheet(
              who="a Brazilian man of mixed descent", age=30, person="man", pron="he", poss="his",
@@ -237,7 +237,7 @@ LOCS = [
     dict(tag="PICO", prio="Essencial", takes="T01, T16",
          why="O mesmo lugar abre e fecha o filme.",
          prompt="Wide photograph of a mountain summit in Minas Gerais, Brazil, late afternoon with low sun from frame-left, clean grey rock with lichen, low green grass, a sea of rolling green hills running in layers to a hazy horizon, clear air, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render."),
-    dict(tag="MINA", prio="Recomendável", takes="T09-A, T09-B",
+    dict(tag="MINA", prio="Recomendável", takes="T08",
          why="A comissão conhece o lugar, a credibilidade pesa.",
          prompt="Wide photograph of a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil, late afternoon with low sun from frame-left, orderly terraced benches of ochre and brown earth, wide well-kept haul roads, large modern haul trucks with no logos far below, a stockpile of dark brown ore in the foreground, no people, eye-level, 21:9, photoreal, 35mm color negative look, not a render."),
     dict(tag="ONIBUS_INT", prio="Anexar a foto", takes="T12",
