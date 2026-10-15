@@ -714,25 +714,25 @@ NOT: tripod, locked-off frame, gimbal glide, drone, push-in, zoom, the camera st
 
 # ---------------------------------------------------------------- T16
 T16 = join(
-    contract(11, "ONE continuous take, no cuts", "handheld, close and breathing, a tight close-up that opens exactly like the keyframe"),
+    contract(11, "ONE continuous take, no cuts", "handheld, close and breathing, a tight close-up whose opening framing follows the attached depth map"),
     f"""REFERENCES — each reference has ONE job:
 @JOVEM — IDENTITY of @JOVEM: face, skin texture, hair and wardrobe. 100% matches.
-@KEYFRAME_T16 — the FIRST FRAME of this take: the exact framing, the head dead centre, the closed-mouth smile, the light, the background and the wardrobe. The take opens EXACTLY like this image.
-{SCOPE_ID} For @KEYFRAME_T16: match its composition, light, background, expression and wardrobe; ignore its compression and softness.""",
+@DEPTH_T16 — DEPTH MAP of the opening frame: a grey picture where WHITE is nearest to the lens and DARK is farthest. Its ONLY job is the opening GEOMETRY: the head dead centre, the crown of the curls near the top edge, both ears and the neck, the collar and both backpack straps filling the bottom, the hills falling away in layers behind him. It is a measurement, not a photograph.
+{SCOPE_ID} For @DEPTH_T16: take the framing, the distances and the layering of near and far, and NOTHING else — its grey look, its flat white head and shoulders, its blank featureless face and its lack of colour must NEVER appear. The film is full colour; his face is a real, detailed face that comes from @JOVEM; the colour, light and landscape come from this text.""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @JOVEM ({ANCH['JOVEM']}) — the PROTAGONIST: speaks his last words to you, close and warm; his face fills the frame dead centre.
 FACES: his face exists once; nobody else.""",
-    """SCENE — The same summit in Minas Gerais, Brazil, at the same late-afternoon hour: the layered green hills and flat-topped mesas of the keyframe fall away soft behind him under a pale, warm sky. @JOVEM, in a tight close-up, is already looking at you with a closed-mouth smile.
+    """SCENE — The same summit in Minas Gerais, Brazil, at the same late-afternoon hour: the layered green hills and flat-topped mesas fall away soft behind him under a pale, warm sky. @JOVEM, in a tight close-up, is already looking at you with a closed-mouth smile.
 THE SOUL OF THE SCENE (play it, never explain it): he has shown you everything and he is happy, a little moved, and sure — "O minério é nosso" is pride, "O futuro também" is an invitation to say yes with him.""",
     f"""{LOCKS_HEAD}
 1. ONE handheld take in a tight close-up — WRONG if it cuts, widens, pushes in or is locked.
-2. The FIRST FRAME is the keyframe: head dead centre, the crown of his curls at the top edge, chin at about 80% of the frame height, the collar and both backpack straps at the bottom edge, the closed-mouth smile, eyes on the lens — WRONG if the opening framing, light or expression differ.
+2. The FIRST FRAME has the framing of @DEPTH_T16 — head dead centre, the crown of his curls near the top edge, both ears and the neck, the collar and both backpack straps at the bottom edge, the hills receding in layers behind him — but in FULL COLOUR, with a real detailed face, a closed-mouth smile and eyes on the lens — WRONG if the framing differs, if any frame is grey or looks like a depth map, or if his face is blank, flat or smooth.
 3. His eyes stay on the lens and ALIVE from start to finish, travelling between your two eyes — WRONG if glassy, frozen or looking away.
 4. The performance is warm and personal, a promise between friends — WRONG if it is a slogan, a speech, a stiff mask, a smirk, a wink or tears.
 5. Real skin in detail: pores, light stubble, the small mole on his left cheek (frame-right as he faces the lens) — WRONG if smooth or retouched.
 6. Only @JOVEM speaks, only this text, from 1s to 9s. Sun from frame-LEFT — NO music.""",
     timeline(1, [], [
-        "BEAT 1 (0–1s) — CU, 31°, handheld 1.2 m from his face at eye height, breathing, EXACTLY the keyframe: his head dead centre, the crown of his curls at the top edge, the collar and backpack straps at the bottom edge, a closed-mouth smile, eyes on the lens; a quiet breath in.",
+        "BEAT 1 (0–1s) — CU, 31°, handheld 1.2 m from his face at eye height, breathing, framed EXACTLY as @DEPTH_T16: his head dead centre, the crown of his curls near the top edge, both ears and the neck visible, the collar and backpack straps at the bottom edge — in full colour, with a closed-mouth smile and eyes on the lens; a quiet breath in.",
         "BEAT 2 (1–6s) — he speaks the first sentence to you like a thought he knows by heart, the smile warming as he goes.",
         "BEAT 3 (6–9s) — he says the two short lines: first with quiet certainty, then as an invitation, the smile opening fully.",
         "BEAT 4 (9–11s) — he holds your eyes with the open smile. Hard end on the held look.",
@@ -746,7 +746,7 @@ GOAL: to get your yes — to make you feel that this future is yours as well.
 OBSTACLE: the lump in his throat; he is moved and keeps it light and warm, and it never becomes tears.
 TACTIC: say it close and warm, like a promise between friends — certain, never a speech.
 MOMENT TO MOMENT:
-(0–1s) as in the keyframe: the closed-mouth smile, eyes steady on you, a quiet breath in; one corner of his mouth lifts a little more just before he speaks.
+(0–1s) the closed-mouth smile, eyes steady on you, a quiet breath in; one corner of his mouth lifts a little more just before he speaks.
 (1–6s) the first sentence is a thought he has long known by heart: his eyes travel between your two eyes, settle, drift a hair and come back; his brows lift a little on "força"; on each "nossa terra" the warmth rises — the cheeks lift and the eyes crinkle before the mouth does; one slow, small nod as "desenvolvimento" lands.
 (6–9s) "O minério é nosso." — quiet certainty: the chin lifts a hair, the smile pulls into one corner, a single small nod on "nosso". "O futuro também." — the invitation: the brows lift, the eyes widen slightly and brighten, the smile opens fully and he leans a hair toward the lens, asking for your yes.
 (9–11s) the held look: the smile at full, the eyes bright and a little glossy with joy (never tears), a short laugh of breath through the nose; he stays with you, never looks away.
@@ -758,8 +758,8 @@ NOT: a slogan or campaign-ad delivery, a speech, a stiff mask of a face, a froze
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: wind across the open summit, steady and quiet; dry grass hissing; his breath; after his last word, only the wind. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: a cut, widening the frame, a push-in, an opening frame different from the keyframe, smooth retouched skin, watery eyes, tears, a wink, a smirk, a slogan or ad delivery, a stiff expressionless face, looking away, {T.NEG_SPINE}.""",
-    """[ORDER: ONE handheld take, 11s, tight CU 31°, opening EXACTLY like @KEYFRAME_T16 — (0–1s) head dead centre, closed-mouth smile, eyes on the lens — (1–6s) the first sentence, a thought he knows by heart, eyes travelling between yours, warmth rising on "nossa terra" — (6–9s) "O minério é nosso." in quiet certainty, "O futuro também." as an invitation, the smile opening fully — (9–11s) he holds your eyes with the open smile; hard end. Invariants: handheld, tight close-up; the keyframe opening; living eyes on the lens; warm and personal, never a slogan; real skin; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: a cut, widening the frame, a push-in, an opening frame whose framing differs from @DEPTH_T16, a grey or black-and-white frame, a depth-map look, a blank or featureless face, a white silhouette, smooth retouched skin, watery eyes, tears, a wink, a smirk, a slogan or ad delivery, a stiff expressionless face, looking away, {T.NEG_SPINE}.""",
+    """[ORDER: ONE handheld take, 11s, tight CU 31°, opening framed EXACTLY like @DEPTH_T16, in full colour — (0–1s) head dead centre, closed-mouth smile, eyes on the lens — (1–6s) the first sentence, a thought he knows by heart, eyes travelling between yours, warmth rising on "nossa terra" — (6–9s) "O minério é nosso." in quiet certainty, "O futuro também." as an invitation, the smile opening fully — (9–11s) he holds your eyes with the open smile; hard end. Invariants: handheld, tight close-up; the depth-map framing, full colour; living eyes on the lens; warm and personal, never a slogan; real skin; only his words; sun frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
 )
 
 
