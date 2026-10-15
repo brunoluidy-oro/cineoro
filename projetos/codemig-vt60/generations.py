@@ -381,6 +381,58 @@ NOT: tripod, gimbal glide, drone, push-in, pull-back, zoom, the shot-1 camera st
 )
 
 
+T08_V2 = join(
+    contract(9, "2 shots with 1 hard cut at 4s", "handheld; shot 1 travels sideways while backing up, orbiting him with his face always in frame; shot 2 a close, breathing frame"),
+    f"""REFERENCES — each reference has ONE job:
+@FUNCIONARIO — IDENTITY of @FUNCIONARIO: face, build, hands, wardrobe and safety equipment. 100% matches.
+{SCOPE_ID}""",
+    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@FUNCIONARIO ({ANCH['FUNCIONARIO']}) — the MINE WORKER: in shot 1 he walks FORWARD along the floor of the pit, head and body facing his line of walk, speaking, his eyes finding the lens; in shot 2 he stands at the left of the frame at the edge of the pit and raises a chunk of niobium in his gloved left hand into the empty space on the right, speaking to the lens; NEVER removes any safety equipment, NEVER walks sideways, NEVER walks away from the camera.
+FACES: his face exists once; nobody else in frame; the haul trucks far off have no visible drivers.
+CONTACT: only his gloved hand on the niobium.""",
+    """SCENE — Late afternoon in a modern open-pit niobium mine in Araxá, Minas Gerais, Brazil: orderly terraced benches, big modern haul trucks far off, all in clean low sunlight. Shot 1 is at the bottom of the pit, @FUNCIONARIO already walking forward along its flat floor; shot 2 is at the edge of the pit, he on the left of the frame, the benches and trucks soft far below on the right.
+THE SOUL OF THE SCENE (play it, never explain it): this is his work and he is proud of it; he sets up a punchline — what the whole world looks at, and what Minas looks at instead — with the smile of someone about to hand over the answer.""",
+    f"""{LOCKS_HEAD}
+1. Exactly 2 shots with 1 hard cut at 4s — WRONG if there are extra cuts.
+2. SHOT 1: he walks FORWARD along the floor of the pit, only his eyes finding the lens; the handheld camera, close and at his eye height, travels sideways from frame-LEFT to frame-RIGHT while backing up at his pace, ORBITING him about 15° each side of his line of walk, and his FACE stays in frame, large and centred, from the first frame to the last — WRONG if the frame starts low or at his feet, loses his face, he walks sideways or away or turns his head to the lens, or the camera stops, reverses, pushes in, pulls back or swings round to his side or back.
+3. SHOT 2 is the CLOSE FRAME at the edge of the pit, in the same low sun: his face on the LEFT third, fully visible, eyes alive on the lens; his gloved hand raises a chunk of niobium into the empty space on the right, to eye height, as sharp as his face — WRONG if the niobium covers his mouth or eyes or crosses his face, if he looks away, or if the camera travels or zooms.
+4. ONE sentence split by the cut: "Enquanto o mundo olha para o nióbiu e as terras raras de Minas" at 0–4s, ending mid-sentence on a continuing tone, and "Minas olha para o que há de mais raro na nossa terra:" at 4–7s, starting the instant the cut lands, the last words OPEN and expectant — the same voice and energy, no gap; "nióbiu" is said nee-OH-byoo, never "niório" — WRONG if he says any other word, pauses at the cut or ends like a verdict.
+5. Full mining safety equipment in both shots: hard hat with chin strap fastened, glasses, high-visibility vest, gloves, no logos.
+6. Late-afternoon light from frame-LEFT in both shots — NO music.""",
+    timeline(2, [4], [
+        "SHOT 1 (0–4s) — MS (head and chest), 47°, handheld, at his eye height about 2.2 m from his face, travelling sideways from frame-LEFT to frame-RIGHT while backing up at his pace and orbiting him: @FUNCIONARIO walks forward along the flat floor at the bottom of the pit, his FACE in frame and centred the whole time, his eyes finding the lens; he is already speaking the first part of his sentence in one brisk flow, smiling, ending mid-sentence on a continuing tone; the benches rise soft behind him. HARD CUT.",
+        "SHOT 2 (4–9s) — CU, 29°, handheld, close and breathing, the CLOSE FRAME at the edge of the pit: @FUNCIONARIO at the left of the frame, his face on the left third, facing the lens in the same low sun, the benches and trucks far below soft behind him; already speaking as the cut lands, within the first second he raises a chunk of raw niobium — rough, faceted, silvery-grey metal with sharp edges that glint — in his gloved left hand, up from below the frame into the empty space on the right to eye height, and holds it there, steady, as sharp as his face; the second part of the sentence at 4–7s in one brisk flow, the last words open and expectant; at 7–9s he holds the expectant smile, the niobium still raised, mouth closed. Hard end.",
+    ]),
+    dialogue(
+        line(0, 4, "FUNCIONARIO", "Enquanto o mundo olha para o nióbiu e as terras raras de Minas").replace(
+            "(on camera, Brazilian Portuguese)",
+            "(on camera, Brazilian Portuguese; the first part of a sentence that continues after the cut — a proud, smiling flow ending on a continuing, lifted tone)"),
+        line(4, 7, "FUNCIONARIO", "Minas olha para o que há de mais raro na nossa terra:").replace(
+            "(on camera, Brazilian Portuguese)",
+            "(on camera, Brazilian Portuguese; the second part, starting the instant the cut lands, same voice and energy — proud and smiling, the last words open and expectant, never a verdict)"),
+        "FUNCIONARIO",
+        pace="PACING — ONE sentence split by the cut at 4s: each part in ONE brisk flow (about 3 words a second), only a breath between phrases; the second part starts the instant the cut lands, no gap, same voice, pitch and energy; no pause, no held beat."
+        ).replace(
+        "\nVOICE LOCK",
+        "\nPRONUNCIATION — \"nióbiu\" is Brazilian Portuguese for niobium, said nee-OH-byoo: three syllables, stress on the OH, a clear B before the final \"byoo\" — NEVER \"niório\", never \"niobrio\". Say it once, clearly, inside the sentence.\nVOICE LOCK", 1),
+    acting("FUNCIONARIO", "he works in the place the whole world is staring at, and he knows what is rarer than any metal.",
+           "set up the punchline with a smile — first what the world looks at (the metal he lifts), then what Minas looks at — and leave the last word hanging.",
+           "on the lens in both shots, with one quick glance at the niobium at most as he lifts it; steady on you through the last words.",
+           "his chin lifts a hair as the niobium rises", "arms spread over the pit, a heroic pose, a solemn or conclusive ending"),
+    """CAMERA — handheld in BOTH shots, an operator with a body. SHOT 1: crab-walking sideways at an even slow pace from frame-LEFT to frame-RIGHT while backing up at his walking pace, ORBITING him about 15° each side of his line of walk so his face stays in frame, large and centred, with footfall bounce and late small corrections; never stops or reverses; lens at his eye height, about 2.2 m from his face, 47°. SHOT 2: close and breathing, holding its place, no lateral travel, 29°, eye height, 1.2 m from his face, his face on the left third. FOCUS: his eyes in both shots; the niobium as sharp as his face. HORIZON: level.
+NOT: tripod, gimbal glide, drone, push-in, pull-back, zoom, a shot-1 frame that starts low or tilts up from his feet, any travel or zoom in shot 2.""",
+    T.CLOSE_FRAME.replace("the face just left of centre; when the eyes reach the lens they land on the upper-third line at about 45% of the frame width", "his face on the LEFT third of the frame, the eyes on the upper-third line at about 28% of the frame width, the right side of the frame left empty for the niobium"),
+    """GEOMETRY — shot 1: the camera at his eye height, 2.2 m from his face, orbiting from his front-left to his front-right while he walks the flat pit floor; the benches soft behind him; the sun low on frame-LEFT. Shot 2: he stands at the edge of the pit, the camera 1.2 m from his face, his face on the left third (eyes at about 28% of the frame width), the raised niobium at about 70% of the width at eye height, the benches and trucks far below, soft; the sun low on frame-LEFT.""",
+    """PHYSICS & MATERIAL — the niobium is dense and heavy, sharp-edged: his padded glove presses into it and it turns a few degrees in his fingers, its facets glinting; the vest is stiff. """ + REAL + """ MATERIAL TRUTH: rough crystalline silvery-grey facets with a dull-bright metallic sheen and fine dust in the crevices (not a smooth ingot, not a mirror), glossy white helmet shell, black chin strap, reflective tape, clear glasses without glare, grey padded gloves.""",
+    T.LIGHT_EXT,
+    T.FILM_LOOK,
+    f"""SOUND — LOCATION SOUND ONLY: his boots on crushed stone in a steady rhythm (shot 1); wind over the open pit; a haul truck's diesel engine far off; a reversing alarm far away (single repeated tone, not a melody); the glove's fabric against the metal (shot 2). {T.MUSIC_POLICY}""",
+    T.WORLD + " Mining safety equipment is complete and correct; nobody in the pit without it.",
+    f"""NEGATIVE: mispronouncing "nióbiu" (as "niório" or any other word), walking sideways or away, his head turned sideways to the lens, a shot-1 camera that stays on one straight line, swings round to his side or back, starts at his feet or loses his face, the niobium covering his mouth or eyes or crossing his face, a smooth polished ingot, a mirror ball, glowing metal, gold, any niobium in shot 1, a pause or gap at the cut, a different voice or mood across the cut, a solemn, conclusive or verdict-like ending, any word beyond his sentence, a heroic pose, arms spread, dirty hands, missing helmet, unfastened chin strap, no glasses, no vest, logos, travel or zoom in shot 2, extra cuts, {T.NEG_SPINE}.""",
+    """[ORDER: 2 shots, 1 hard cut at 4s, 9s — (1, 0–4s) MS (head and chest), handheld, travelling sideways left to right while backing up, orbiting him, his face always in frame: he walks forward along the pit floor and says "Enquanto o mundo olha para o nióbiu e as terras raras de Minas", ending mid-sentence on a continuing tone — (2, 4–9s) CU, handheld and breathing, the CLOSE FRAME at the edge of the pit, same low sun, he on the left third, his gloved hand raising a chunk of niobium into the empty space on the right to eye height, face fully visible; he says "Minas olha para o que há de mais raro na nossa terra:" at 4–7s, the last words open and expectant, then holds the expectant smile. Invariants: one sentence split by the cut, same voice and energy, no gap; shot 1 face always in frame, slow orbit, forward walk; shot 2 close, no travel, niobium never over mouth or eyes; full safety equipment; "nióbiu" said nee-OH-byoo; late-afternoon light from frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+)
+
+
 # ---------------------------------------------------------------- T09-A (plantação: "a nossa gente.", andando pela plantação)
 T09 = join(
     contract(4, "ONE continuous take, no cuts", "handheld travelling sideways from frame-left to frame-right while backing up, arcing around her like a slow orbit as she walks forward"),
