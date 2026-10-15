@@ -13,7 +13,7 @@ VOICE = {
     "HOMEM_EV": "Brazilian man, 40, relaxed baritone; " + ACCENT_BH,
     "OPERARIO": "Brazilian man, 40, mid-low voice, slightly raised over the machines; " + ACCENT_INTERIOR,
     "DONO": "Brazilian man, 60, deep easy voice; " + ACCENT_INTERIOR,
-    "AGRICULTORA": "Brazilian woman, 40, steady mid-low voice; " + ACCENT_INTERIOR,
+    "AGRICULTORA": "Brazilian woman, 40, warm, bright mid-low voice, quick and smiling when she is happy; light Minas Gerais interior accent with a soft 'caipira' R and the soft 'tch' of Minas on 'te' and 'ti' (gente is said GEN-tchi), never a caricature and not a Northeastern accent",
     "FUNCIONARIO": "Brazilian man, 30, low calm chest voice; " + ACCENT_INTERIOR,
     "MOTORISTA": "Brazilian man, 52, plain friendly baritone; " + ACCENT_BH,
     "ESTUDANTE": "Brazilian teenage boy, 15, light new baritone; " + ACCENT_BH,
@@ -122,10 +122,10 @@ CLOSE_FRAME = """CLOSE FRAME (KEY): CU at 29°, handheld held close and breathin
 MATCH_FRAME = """MATCH FRAME (KEY — identical in every shot of the match series): medium close-up (head and shoulders) at 47°, the camera at the subject's eye height about 1.3 m from the face, straight to camera and frontal; the face dead centre, the eyes on the upper-third line looking into the lens; the background soft. Every shot of the series carries the same slow DOLLY-OUT (the camera moving back, no zoom)."""
 
 
-def dolly_out(secs):
+def dolly_out(secs, start=1.3):
     """Dolly-out lento: só a câmera recua; a lente fica fixa (sem zoom). O quadro abre de MCU para médio."""
-    end = round(1.3 + 0.25 * secs, 1)
-    return f"""CAMERA — the DOLLY-OUT, slow, about {secs}s: the camera glides straight back along the lens axis, from about 1.3 m to about {end} m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
+    end = round(start + 0.25 * secs, 1)
+    return f"""CAMERA — the DOLLY-OUT, slow, about {secs}s: the camera glides straight back along the lens axis, from about {start} m to about {end} m from the face at an even pace, the lens fixed at 47° — NO zoom, NO lens movement — so the framing opens gently from a medium close-up toward a medium shot, the face staying dead centre and the background growing wider behind it. A faint handheld breath rides on the move; the move never stops or reverses.
 FOCUS: on the eyes throughout. HORIZON: level.
 NOT: a zoom, a vertigo or dolly-zoom effect, a push-in, a locked frame, a handheld shake, an orbit, a gimbal glide, a drone."""
 
