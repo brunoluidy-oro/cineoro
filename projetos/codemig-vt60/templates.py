@@ -12,7 +12,6 @@ VOICE = {
     "PROFESSORA": "Brazilian woman, the voice and teacher's manner of the attached audio reference",
     "HOMEM_EV": "Brazilian man, 40, relaxed baritone; " + ACCENT_BH,
     "OPERARIO": "Brazilian man, 40, mid-low voice, slightly raised over the machines; " + ACCENT_INTERIOR,
-    "PESQUISADORA": "Brazilian woman, 30, light quick mid voice; " + ACCENT_BH,
     "DONO": "Brazilian man, 60, deep easy voice; " + ACCENT_INTERIOR,
     "AGRICULTORA": "Brazilian woman, 40, steady mid-low voice; " + ACCENT_INTERIOR,
     "FUNCIONARIO": "Brazilian man, 30, low calm chest voice; " + ACCENT_INTERIOR,
