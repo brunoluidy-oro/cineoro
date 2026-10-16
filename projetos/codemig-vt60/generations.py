@@ -442,6 +442,52 @@ NOT: tripod, gimbal glide, drone, push-in, pull-back, zoom, one continuous take,
 )
 
 
+# ---------------------------------------------------------------- T08-C (plano 2 novo: a lojista diz a segunda metade da frase, na lojinha de artesanato; foto @image 1 do usuário)
+T08C = join(
+    contract(5, "ONE continuous take, no cuts", "handheld, a wide shot travelling slowly sideways from frame-left to frame-right"),
+    f"""REFERENCES — each reference has ONE job:
+@LOJISTA — IDENTITY of @LOJISTA: face, hair, glasses, build, hands and wardrobe. 100% matches.
+@image 1 — PLACE: the building — a two-storey colonial-style corner building, white walls with deep-blue trim, an arcade of arched blue-framed openings under a dark wrought-iron balcony, a deep-blue pilaster at the corner, a white wall with a horizontal blue band and a large blue arched door at street level, a dark eave and a red clay-tile roof. 100% matches the building. The shop interior is not in the photo: it is described below.
+REFERENCE SCOPE: the character reference supplies face, hair, build, hands and wardrobe ONLY — IGNORE its grey backdrop, studio lighting, exposure and colour grade. For @image 1: IGNORE the man walking, the parked car, the palm tree, the lamp posts and signs, the street, the sky, the harsh midday light and the vertical framing.""",
+    f"""WHO IS WHO — READ FIRST, ABSOLUTE:
+@LOJISTA ({ANCH['LOJISTA']}) — the SHOP OWNER: stands on the pavement in front of her own craft shop, facing the lens, and speaks once; NEVER walks away, NEVER goes into the shop, NEVER holds an object up to the camera.
+THE SHOP — the ground floor of the building in @image 1 is her craft shop: its large blue arched door beside her stands OPEN and the interior shows through it — wooden shelves of ceramics, woven baskets, handwoven textiles and small carved wooden figures, a wooden counter, a few warm lamps, nobody inside; against the wall by the door, a low wooden stand with clay pots and two baskets; no sign with letters anywhere.
+FACES: her face exists once; nobody else in frame.
+CONTACT: only her hand resting on the stand.""",
+    """SCENE — Late afternoon on a quiet street in a Minas Gerais town: the restored colonial-style building of @image 1 — white walls, deep-blue trim, arched blue-framed openings, a dark wrought-iron balcony upstairs, a red clay-tile roof — is a craft shop on its ground floor. @LOJISTA stands on the pavement in front of the open door, already looking at you, one hand on the display stand.
+THE SOUL OF THE SCENE (play it, never explain it): a man at a mine just started a sentence and she picks it up — she lives from what Minas hands make and knows what is rarest here; she carries it on with a warm smile and leaves the last word hanging.""",
+    f"""{LOCKS_HEAD}
+1. ONE continuous handheld WIDE take, no cuts — WRONG if it cuts, if the shot is tight or a close-up, or if the lens zooms or the camera pushes in.
+2. The handheld camera travels slowly sideways from frame-LEFT to frame-RIGHT the whole time (about one metre in total), never stopping or reversing, while @LOJISTA stays where she stands, her whole body in frame — WRONG if the camera stops, reverses, glides or orbits, or if she walks away or into the shop.
+3. The building is the one in @image 1 and it is a SHOP: its large blue arched door beside her is OPEN and the craft shop's interior is visible through it, the blue-trimmed white walls, the arched openings and, along the top of the frame, the iron balcony and the red-tile eave filling the background — WRONG if the door is closed, the interior is not visible, the building is different, or there is any readable sign, text or logo.
+4. Only @LOJISTA speaks, only "Minas olha para o que há de mais raro na nossa terra:" — every other mouth closed; nobody else in frame — WRONG if she says any other word or ends like a verdict.
+5. Her eyes are alive on the lens and readable behind her glasses — WRONG if the glasses glare or hide them, or if she turns her head sideways to the lens.
+6. Late-afternoon light from frame-LEFT — NO music, NO radio.""",
+    timeline(1, [], [
+        "BEAT 1 (0–5s) — WS, 70°, handheld, about 6 m from her at chest-to-eye height, the camera pitched up a few degrees, travelling slowly sideways from frame-LEFT to frame-RIGHT: @LOJISTA stands on the pavement about 1.5 m in front of the shop, at the right third, her whole body in frame, one hand resting on the edge of the low display stand, already looking into the lens; the large blue arched door beside her stands open and the warm craft shop interior shows through it; behind her the white wall with its deep-blue trim, the corner pilaster, the arched openings and, along the top of the frame, a corner of the iron balcony and the red-tile eave; she speaks at 0–3s, the first word within the first third of a second, bright and warm, the last words open and expectant; as the camera passes she drifts toward the centre of the frame and the interior slides behind her; at 3–5s she holds the expectant smile, mouth closed. Hard end.",
+    ]),
+    dialogue(
+        line(0, 3, "LOJISTA", "Minas olha para o que há de mais raro na nossa terra:").replace(
+            "(on camera, Brazilian Portuguese)",
+            "(on camera, Brazilian Portuguese; the second half of a sentence a man began a moment ago — she picks it up at once, warm, proud and smiling, the last words open, lifted and expectant, never a verdict)"),
+        "LOJISTA"),
+    acting("LOJISTA", "she lives from what Minas hands make, and she knows what is rarest here — she is about to hand you the answer.",
+           "pick up the sentence a man just began and carry it on with a smile — first what Minas looks at, then leave the last word hanging, like passing you the ball.",
+           "on the lens, bright and warm, clear behind her glasses.",
+           "her fingertips tap once on the edge of the stand",
+           "a salesperson's pitch, pointing at her wares, holding an object up to the camera, a heroic pose, a solemn or conclusive ending"),
+    """CAMERA — handheld, an operator with a body: crab-walking sideways at a slow, even pace from frame-LEFT to frame-RIGHT (about one metre over the whole shot) with footfall bounce and late small corrections; never stops, never reverses, never pushes in. Lens 70°, about 6 m from her at chest-to-eye height, pitched up a few degrees so the top of the frame catches the iron balcony and the red-tile eave. DEEP focus: the facade, the open door and the shop's interior stay readable, NO creamy bokeh. HORIZON: level.
+NOT: tripod, locked-off frame, gimbal glide, dolly-smooth slide, drone, orbit, push-in, zoom, a close-up, the camera stopping or reversing.""",
+    """GEOMETRY — the camera looks at the building's corner from across the street: on one side the arcade of arched blue-framed openings with the iron balcony above, on the other the white wall with its blue band and the large blue arched door, standing open, the shop interior inside it; @LOJISTA stands on the pavement about 1.5 m in front of that wall, at the right third at the start, drifting toward the centre as the camera passes, the low display stand against the wall to her left, by the door; the sun low on frame-LEFT, raking along the white walls.""",
+    """PHYSICS & MATERIAL — the clay pots and baskets are light and handmade; the lime-washed walls show a faint texture; the blue paint is satin on old timber; her shirt moves with her breath; a faint breeze stirs a hanging textile inside. """ + REAL + """ MATERIAL TRUTH: white lime-washed plaster, deep-blue painted frames and door, red clay roof tiles, a dark wrought-iron balcony, honey-coloured wooden shelves, terracotta and glazed ceramics, woven straw baskets, handwoven cotton textiles, the cotton of her teal shirt, her slim glasses with clear lenses.""",
+    T.LIGHT_EXT + "\nSHOP INTERIOR: a few warm lamps glow softly through the open door, small and secondary, never lighting her face.",
+    T.FILM_LOOK,
+    f"""SOUND — LOCATION SOUND ONLY: the quiet street of a small Minas town — a far-off motorbike, a bird, a faint wind; the soft clack of a clay pot on the stand; her voice. NO radio, NO music from the shop. {T.MUSIC_POLICY}""",
+    T.WORLD_HIST,
+    f"""NEGATIVE: a closed shop door, no interior visible, an empty or dark interior, a different building, a church, a bell tower, a steeple, a readable sign or shop name, text or logos on any surface, customers or any other person in frame, a man walking in the street, a parked car, harsh midday light, a blown-out sky, her walking away or into the shop, her head turned sideways to the lens, holding an object up to the camera, a salesperson's pitch, glare on her glasses hiding her eyes, a close-up, a push-in, a zoom, a cut, a solemn or verdict-like ending, any word beyond her sentence, decayed walls, {T.NEG_BH}.""",
+    """[ORDER: ONE take, 5s, handheld WIDE shot travelling slowly left to right, never stopping — @LOJISTA stands on the pavement in front of her craft shop, at the right third, whole body in frame, one hand on the low display stand, looking into the lens; the large blue arched door beside her is open and the warm shop interior (ceramics, baskets, textiles) shows through it; behind her the white wall with deep-blue trim, the arched openings and, at the top edge, the iron balcony and the red-tile eave of the building in @image 1; she says "Minas olha para o que há de mais raro na nossa terra:" at 0–3s, bright and warm, the first word at once, the last words open and expectant, then holds the smile until 5s. Invariants: one wide take, no cuts, no close-up; the building of @image 1 as a shop, the door open, the interior visible; no readable sign or text; no church; nobody else in frame; her eyes readable behind the glasses; late-afternoon light from frame-LEFT. Look: 35mm color negative, warm halation, lifted blacks, organic grain. Brazilian Portuguese. NO music. NO subtitles, NO text.]""",
+)
+
 # ---------------------------------------------------------------- T09 (plantação, um take só: andando + drone + match com dolly-out)
 T09 = join(
     contract(10, "3 shots with 2 hard cuts at 2s and 4s", "handheld orbit in shot 1, a high drone orbit in shot 2, a slow dolly-out in shot 3"),
