@@ -87,8 +87,8 @@ NEG_SPINE = ("glassy stare, frozen pupils, doll eyes, dead stare into the lens, 
              "crushed blacks, wrong aspect ratio")
 
 # T04 (a pedido): o fundo é uma BH com prédios históricos coloniais restaurados e prédios grandes — exceção ao "nada colonial" do WORLD e da espinha do NEGATIVE.
-WORLD_BH = WORLD.replace("nothing rustic, run-down, poor-looking, old-fashioned or colonial.", "nothing rustic, run-down or poor-looking. The city in the background is Belo Horizonte today: tall modern towers mixed with a few low, restored historic buildings in colonial style — whitewashed façades, red-tile roofs, a white church with a bell tower — all clean and well kept, none decayed.")
-NEG_BH = NEG_SPINE.replace("colonial architecture, ", "")
+WORLD_BH = WORLD.replace("nothing rustic, run-down, poor-looking, old-fashioned or colonial.", "nothing rustic, run-down or poor-looking. The city in the background is Belo Horizonte today: tall modern towers mixed with a few low, restored historic buildings in colonial style — whitewashed façades, red-tile roofs, tall shuttered windows — all clean and well kept, none decayed, and NO churches, NO bell towers, NO steeples.")
+NEG_BH = NEG_SPINE.replace("colonial architecture, ", "churches, bell towers, steeples, ")
 
 SHARED_ACTING = ("SCENE DIRECTION (shared, unspoken): tell a friend some good news about your state — "
                  "happy and proud of what you are saying, a real smile that comes and goes; the lens "
