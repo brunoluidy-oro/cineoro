@@ -15,6 +15,7 @@ VOICE = {
     "DONO": "Brazilian man, 60, deep easy voice; " + ACCENT_INTERIOR,
     "AGRICULTORA": "Brazilian woman, 40, warm, bright mid-low voice, quick and smiling when she is happy; light Minas Gerais interior accent with a soft 'caipira' R and the soft 'tch' of Minas on 'te' and 'ti' (gente is said GEN-tchi), never a caricature and not a Northeastern accent",
     "FUNCIONARIO": "Brazilian man, 30, low calm chest voice; " + ACCENT_INTERIOR,
+    "LOJISTA": "Brazilian woman, 46, warm clear mid voice, friendly and a little brisk like someone used to talking to customers; " + ACCENT_BH,
     "MOTORISTA": "Brazilian man, 52, plain friendly baritone; " + ACCENT_BH,
     "ESTUDANTE": "Brazilian teenage boy, 15, light new baritone; " + ACCENT_BH,
     "ENFERMEIRA": "Brazilian woman, 42, soft calm mid voice; " + ACCENT_BH,
