@@ -151,7 +151,7 @@ CHARS = [
              build="medium build, about 1.74 m",
              outfit="white hard hat with chin strap and no logo, clear safety glasses, orange high-visibility vest with silver reflective strips and no text, long-sleeved grey cotton work shirt, dark grey work trousers, grey work gloves, black steel-toe boots")),
     dict(tag="LOJISTA", papel="Dona da lojinha de artesanato", idade="F, 46", r="BH", takes="T08",
-         obs="Nova no T08: no lugar do funcionário no plano 2, diz \"Minas olha para o que há de mais raro na nossa terra:\" na lojinha dela. Parda, de óculos, roupa de trabalho simples e discreta (nem formal nem informal demais).",
+         obs="Nova no T08: no lugar do funcionário no plano 2, diz \"Minas olha para o que há de mais raro na nossa terra:\" na lojinha dela. Parda, de óculos, com uma camisa social simples de botão (roupa de trabalho simples e discreta, nem formal nem informal demais).",
          prompt=sheet(
              who="a Brazilian woman of mixed descent", age=46, person="woman", pron="she", poss="her",
              skin="Warm medium-brown skin with a golden undertone, fine laugh lines at the eyes and around the mouth.",
@@ -164,7 +164,7 @@ CHARS = [
              marks="A tiny mole above the right corner of the upper lip.",
              ordinary="an ordinary craft-shop owner from Belo Horizonte",
              build="medium height, soft average build, about 1.63 m",
-             outfit="a plain muted teal cotton-linen blouse with a small notched collar and sleeves at three-quarter length, worn untucked, straight dark-charcoal trousers, simple closed black leather flats, a slim steel wristwatch on the left wrist, small silver hoop earrings, the same slim oval burgundy-framed glasses")),
+             outfit="a plain muted teal cotton button-up dress shirt (a simple camisa social) with a regular soft collar, a front placket of plain tonal buttons closed up to the second button, no chest pocket, long sleeves rolled to the forearms, worn untucked, straight dark-charcoal trousers, simple closed black leather flats, a slim steel wristwatch on the left wrist, small silver hoop earrings, the same slim oval burgundy-framed glasses")),
     dict(tag="MAE", papel="Mãe com o recém-nascido", idade="F, 29", r="BH", takes="T10",
          obs="Sem fala. Fazer este sheet antes do T10 (antes ela era improvisada pelo modelo). O bebê não ganha sheet: rosto quase todo coberto.",
          prompt=sheet(
