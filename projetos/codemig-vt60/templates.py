@@ -17,7 +17,7 @@ VOICE = {
     "FUNCIONARIO": "Brazilian man, 30, low calm chest voice; " + ACCENT_INTERIOR,
     "LOJISTA": "Brazilian woman, 46, warm clear mid voice, friendly and a little brisk like someone used to talking to customers; " + ACCENT_BH,
     "MOTORISTA": "Brazilian man, 52, plain friendly baritone; " + ACCENT_BH,
-    "ESTUDANTE": "Brazilian teenage boy, 15, light new baritone; " + ACCENT_BH,
+    "ESTUDANTE": "Brazilian teenage boy, 15, light new baritone, lively and bright, quick and smiling when he is excited; " + ACCENT_BH,
     "ENFERMEIRA": "Brazilian woman, 42, soft calm mid voice; " + ACCENT_BH,
 }
 
