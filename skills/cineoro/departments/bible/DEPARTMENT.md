@@ -52,7 +52,7 @@ and `departments/assets/references/asset-pipeline.md` (the registry format and a
    must say *what story mechanism it serves*.
 4. **Lock the verbatim templates** — CONTRACT line pattern, FILM LOOK, base LIGHT block(s), LENS LOOK,
    NO LENS FLARES, standing NEGATIVE spine for this world, WORLD block. Pull starting points from
-   `cineoro-light` and `cineoro-camera`, adapt once, then freeze. **Template budget:** the always-on
+   `departments/light/DEPARTMENT.md` and `departments/camera/DEPARTMENT.md`, adapt once, then freeze. **Template budget:** the always-on
    templates together stay under ~600 words, and no item is fenced in two templates (an anachronism
    banned in WORLD is not repeated in the NEGATIVE spine). Every word in a template is paid in every
    prompt of the film — a bloated bible pushes every shot past 2,500 words.
@@ -60,7 +60,7 @@ and `departments/assets/references/asset-pipeline.md` (the registry format and a
    (registry format in `departments/assets/references/asset-pipeline.md`). On Higgsfield, name each saved
    Element exactly as its tag without the `@`, so the picker and the prompt agree.
 6. **Cast sheets** — per character: tag, age, look, hands, temperament, super-objective, what they never
-   do, VOICE LOCK (`cineoro-sound` format).
+   do, VOICE LOCK (`departments/sound/DEPARTMENT.md` format).
 7. **World and daily life** — what exists, what doesn't, how things are made and used; props master list
    with function; the objects that carry more than themselves (locked harder).
 8. **Reference prompts** — one complete model prompt in SKILL.md §4.1, plus complete prompts for the
@@ -92,7 +92,7 @@ project-[slug]/
 ```
 
 The project skill's `name` is `project-[slug]` (kebab-case). Its description names the project, the main
-characters and locations, and says it is used with `cineoro-director` for every prompt of the project.
+characters and locations, and says it is used with the director (`SKILL.md`) for every prompt of the project.
 
 ## Rules for a good bible
 
@@ -115,7 +115,7 @@ characters and locations, and says it is used with `cineoro-director` for every 
 ## Hand-off
 
 Give the user the project skill (packaged), a one-paragraph summary of the locked decisions, and the
-list of assets still to build. From then on, `cineoro-director` loads the project skill first for
+list of assets still to build. From then on, the director (`SKILL.md`) loads the project skill first for
 every shot of that project.
 
 ## Checklist

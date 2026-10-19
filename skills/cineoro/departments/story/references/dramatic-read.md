@@ -4,7 +4,7 @@ Run silently whenever the input is a script or a written beat. Never shown in de
 STOP rule fires. Origin: the `cinedance` dramatic read; definitions kept exactly.
 
 ⚠️ **These five terms are DRAMATURGY definitions.** They are not the acting-task definitions in
-`cineoro-performance`, which use Goal / Obstacle / Tactic for what the actor does to the partner
+`departments/performance/DEPARTMENT.md`, which use Goal / Obstacle / Tactic for what the actor does to the partner
 moment to moment. This file decides *how many shots and where they cut*; the acting task decides *what
 the eyes do inside them*.
 

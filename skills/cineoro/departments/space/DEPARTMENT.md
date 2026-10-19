@@ -71,7 +71,7 @@ For a 20–30 s generation with 3–6 cuts, hold across every cut:
 - **body orientation** for a still body — "head toward frame-RIGHT, nose and gaze toward frame-LEFT
   — this orientation never flips; when she sits up she rises from the exact spot";
 - **prop in hand** — "the torch stays in his RIGHT hand in every shot";
-- **lit side** — with `cineoro-light`;
+- **lit side** — with `departments/light/DEPARTMENT.md`;
 - **background population** — "in EVERY shot the background carries people; never an empty street";
 - **states** — wounds, wet clothes, snow on shoulders, a hood up or down.
 
@@ -96,7 +96,7 @@ Road, travel and chase films need rules that hold for the whole film, written on
 - Count, spacing, rows, who occludes whom, and where visibility falls off. Spears/staffs/props in a
   crowd: far away, in the dark, out of focus, about a metre apart, six bearers at most, never
   clustered, nobody looking at the lens.
-- A crowd is one organism with one verb (see `cineoro-performance`).
+- A crowd is one organism with one verb (see `departments/performance/DEPARTMENT.md`).
 - Push background faces into darkness and softness; sharp faces only where the story needs them.
 - **More than four referenced people in one generation is unstable** (official guidance). Keep
   referenced identities ≤4; let the crowd be unreferenced, distinct, darker.
@@ -121,14 +121,14 @@ WHO IS WHO with left/right ownership and "NEVER" lists; contact map with hands n
   reference, with a positive-only connector text. **Read `references/staging-map.md`** before using
   it; it has a three-layer anti-bleed method.
 - **Keyframes** — an approved still of the exact composition, used as the start frame of a shot
-  (`cineoro-assets`).
+  (`departments/assets/DEPARTMENT.md`).
 
 If a reference image contradicts the text (it shows the characters on the other sides), the image
 usually wins: fix the image, not the prompt.
 
 ## Hand-off to the director
 
-Return to `cineoro-director`:
+Return to the director (`SKILL.md`):
 - **CAST — WHO IS WHO** and **GEOMETRY**;
 - the spatial clause of each **SHOT** (who is where in its first frame, exits and entries);
 - **locks**: axis, orientation, prop hand, contact, population, anti-clone — each with the failure it

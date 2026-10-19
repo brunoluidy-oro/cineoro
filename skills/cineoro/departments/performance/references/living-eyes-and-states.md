@@ -65,7 +65,7 @@ Write the marker the camera can see, never the label.
 - **Tears** swell at the lid, gather, run along the side of the nose, catch on the lip; in cold they
   freeze on lashes and cheek. If two characters cry, write it for both. The nose runs.
 - **Crying speech:** the break lives in the breath, in a swallow cutting a phrase in half, in a note
-  going wet and closing in the throat (voice side: `cineoro-sound`).
+  going wet and closing in the throat (voice side: `departments/sound/DEPARTMENT.md`).
 - **Laughter:** breath-driven, hitching, restarting, the shoulders and belly involved; under tension
   short, wrong, swallowed. Never "maniacal cackle".
 - **Screams:** ugly, hoarse, shapeless, the voice cracking and running out of air — never a clean
@@ -79,7 +79,7 @@ A crowd is a single organism with a task, not a list of extras.
 - **Nobody in the crowd looks into the lens.** Reaction lag: the back rows react a beat after the
   front.
 - Every face is distinct from every other and from the leads; the lead's face exists once
-  (anti-clone lock — hand to `cineoro-space`).
+  (anti-clone lock — hand to `departments/space/DEPARTMENT.md`).
 - Background faces fall into darkness and out of focus; sharp faces only where the story needs them.
 
 ## Animals
@@ -101,4 +101,4 @@ a toy, copy an adult's gesture a beat late). Write the activity and the distract
 Snow goggles or sunglasses, a deep hood shadow, a hat brim, smoke between lens and face, hair across
 the eyes, a backlit silhouette, a profile turned away, hands over the face, a mask pushed down. Then
 the performance runs through the **mouth, the jaw and the breath**. If the face must stay hidden,
-say "FACE NOT SHOWN" in every block that could reveal it (hand to `cineoro-realism`).
+say "FACE NOT SHOWN" in every block that could reveal it (hand to `departments/realism/DEPARTMENT.md`).

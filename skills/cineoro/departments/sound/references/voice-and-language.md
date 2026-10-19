@@ -50,7 +50,7 @@ Method proven in production:
 5. **When the engine can't say it:** regenerate with a different delivery description first; then
    simplify the spelling of the problem word toward what the engine can produce, keeping meaning and
    sound.
-6. The dictionary and grammar live in the project bible (`cineoro-bible`), never in a shot prompt.
+6. The dictionary and grammar live in the project bible (`departments/bible/DEPARTMENT.md`), never in a shot prompt.
 
 ## Accents
 

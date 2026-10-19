@@ -104,5 +104,5 @@ square frame, vertical frame" for a scope film).
 | Push-in became a zoom | "rough human walk-in", footstep bounce, "no zoom" |
 | Centred, symmetrical frame | off-centre placement with screen positions + "asymmetric" + negative "centred, symmetrical" |
 | Mushy framing, crops through faces | clean frames rule |
-| Wrong side of the axis after a cut | axis lock with `cineoro-space`; camera side stated in every shot |
+| Wrong side of the axis after a cut | axis lock with `departments/space/DEPARTMENT.md`; camera side stated in every shot |
 | Hidden action revealed by a reframe | "the camera never tilts down; ACTION BELOW FRAME" in every block |

@@ -101,7 +101,7 @@ location plates, state variants, voice clips) with ready image prompts:
 
 ## Hand-off to the director
 
-Return to `cineoro-director`:
+Return to the director (`SKILL.md`):
 - the **REFERENCES** block with SCOPE;
 - one-line **identity anchors** per character for CAST (age, build, 2–3 unique features, wardrobe
   state, "100% matches its reference");

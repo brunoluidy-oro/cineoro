@@ -7,7 +7,7 @@ glows. Every believable image starts by taking that away. Light here is **a prio
 decoration**: a source that exists in the world, a direction, a side of the face it reaches, a
 distance at which it dies, and a decision about what stays dark.
 
-You write the **LIGHT** block, the **FILM LOOK** lock (with `cineoro-camera` for the lens part) and
+You write the **LIGHT** block, the **FILM LOOK** lock (with `departments/camera/DEPARTMENT.md` for the lens part) and
 the **NO LENS FLARES** fence, and you hand the director the light locks that must survive every cut.
 
 ---
@@ -107,7 +107,7 @@ Production prompts kept a single generation's light consistent across 4–6 cuts
 
 ## Hand-off to the director
 
-Return to `cineoro-director`:
+Return to the director (`SKILL.md`):
 - the **LIGHT** block and the **FILM LOOK** lock (verbatim from the bible when one exists);
 - the light **locks** for the LOCKS block ("lit sides never flip", "no source in frame",
   "nothing burns inside — no glow, no embers");

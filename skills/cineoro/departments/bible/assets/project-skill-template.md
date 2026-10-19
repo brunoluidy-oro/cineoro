@@ -16,9 +16,9 @@ that matters most.]
 When asked for a shot or a scene, in order:
 1. **Plain-language header first** — what happens, what is said, how long each beat runs, how it
    ends. Four lines. If the shot can't be written there, it isn't designed yet.
-2. **Write the prompt in the CINEORO spine** (`cineoro-director`), pasting this file's templates
+2. **Write the prompt in the CINEORO spine** (the director (`SKILL.md`)), pasting this file's templates
    **verbatim** (§1.3) and tags (§1.2).
-3. **Check it** against the anti-AI-tell rules (`cineoro-realism` + §2 here) and add this project's
+3. **Check it** against the anti-AI-tell rules (`departments/realism/DEPARTMENT.md` + §2 here) and add this project's
    negatives (§5).
 
 Language rule: **the prompt is in English; spoken lines stay in [language/script] and are never
@@ -26,7 +26,7 @@ translated or romanized inside the prompt.**
 
 ## The tools
 
-[Model/platform and settings] — all video and speech. **Claude + this skill + cineoro-director** —
+[Model/platform and settings] — all video and speech. **Claude + this skill + the director** —
 every prompt. [Previz tool] — geometry, blocking, the numbers for GEOMETRY. [Image model] — assets.
 
 ## The point of the project
@@ -134,7 +134,7 @@ user, bible version bumped.
 > Realism is what you subtract, not what you add.
 
 [Rules learned on this project, each with the failure it prevents and the date it was added. Start
-with the world-specific ones; the general catalogue lives in `cineoro-realism`.]
+with the world-specific ones; the general catalogue lives in `departments/realism/DEPARTMENT.md`.]
 
 1. …
 
@@ -203,7 +203,7 @@ objective: [...]. Never: [...].
 # 8 · ACTING NOTES FOR THIS FILM
 
 **The principle:** the actor is invested in a TACTIC in service of a GOAL and never plays an emotion
-(`cineoro-performance`).
+(`departments/performance/DEPARTMENT.md`).
 [Per character: how their state is played as concrete tactics; contrast pairs and the essential axis.]
 
 ---

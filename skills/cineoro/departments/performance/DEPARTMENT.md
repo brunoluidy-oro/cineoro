@@ -7,7 +7,7 @@ that is *doing something* is not. This department gives every person on camera r
 emotion is produced by the work instead of being painted on.
 
 You write the **ACTING** block (one per character with a face in frame), the performance side of
-each beat in the **TIMELINE**, and you contribute the scene's **SOUL** line with `cineoro-story`.
+each beat in the **TIMELINE**, and you contribute the scene's **SOUL** line with `departments/story/DEPARTMENT.md`.
 
 ---
 
@@ -106,7 +106,7 @@ Fixes, in order of strength:
 4. **Hide the eyes where the risk is highest** and play the mouth, jaw and breath instead: goggles,
    a hood's shadow, a hat brim, smoke, backlight silhouette, a profile turned away, hands over the
    face. A face hidden on purpose must be stated in every block that could reveal it
-   (see `cineoro-realism`).
+   (see `departments/realism/DEPARTMENT.md`).
 5. **Gaze target is concrete and off-lens.** "eyes lock on her mouth", "past the camera into the
    dark frame-left" — never "looks into the distance", never into the lens unless the film breaks
    the fourth wall.
@@ -121,7 +121,7 @@ Never fix dead eyes with catchlights or lighting tricks; fix them with work.
 |---|---|---|
 | Holding back tears | breath catches, a swallow cuts the phrase, a note goes wet and closes in the throat, eyes over-blink | "she is about to cry" |
 | Crying | tears swell at the lid, run along the nose, the nose runs; breath shudders on the inhale | "sobbing loudly", "crying beautifully" |
-| Whisper / failing speech | lips barely moving, almost no jaw, words dissolving into breath on the exhale | the word "whisper" (hand delivery to `cineoro-sound`) |
+| Whisper / failing speech | lips barely moving, almost no jaw, words dissolving into breath on the exhale | the word "whisper" (hand delivery to `departments/sound/DEPARTMENT.md`) |
 | Exhaustion | movements a half-beat late, hands that miss and retry, weight sinking between steps | "tired" |
 | Cold | stiff fingers that won't curl, breath fog torn by wind, shoulders up, talking through teeth | "freezing" |
 | Pain | the body protects the injured side, a stop before each move, breath held then released through the nose | "in agony" |
@@ -156,10 +156,10 @@ and an approved example: `references/acting-task.md`.
 
 ## Hand-off to the director
 
-Return to `cineoro-director`:
+Return to the director (`SKILL.md`):
 - one **ACTING** block per face in frame (full or short form);
 - the performance verbs for each beat of the **TIMELINE**, with seconds;
-- the **SOUL** line (with `cineoro-story`): the inner logic of the scene in one or two sentences,
+- the **SOUL** line (with `departments/story/DEPARTMENT.md`): the inner logic of the scene in one or two sentences,
   "to be played, never explained";
 - **locks** for the performance failures this shot invites (e.g. "she never looks at his face",
   "his mouth stays shut — the voice is off-screen") and the matching **negatives**.

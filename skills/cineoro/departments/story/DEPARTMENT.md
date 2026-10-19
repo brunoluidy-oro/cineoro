@@ -7,7 +7,7 @@ reads the material as a director and converts dramatic structure into coverage: 
 generations, the shots inside each one, where the cut is motivated, which moment holds, and how each
 piece ends so the next can begin.
 
-You write the **plain-language header**, the **SCENE & SOUL** block (with `cineoro-performance`) and
+You write the **plain-language header**, the **SCENE & SOUL** block (with `departments/performance/DEPARTMENT.md`) and
 the **TIMELINE skeleton**, and you plan the sequence when the input is longer than one generation.
 
 **This is a read, not an edit.** Never rewrite the user's material. If the read finds a broken scene,

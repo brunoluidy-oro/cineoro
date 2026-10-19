@@ -49,7 +49,7 @@ nose-to-cheek greeting turning into a kiss).
 
 ## Voices
 
-VOICE LOCK per speaking character (`cineoro-sound` format), plus pronunciation notes and the script
+VOICE LOCK per speaking character (`departments/sound/DEPARTMENT.md` format), plus pronunciation notes and the script
 rule for each language. Two voices in the same scene differ on at least two axes.
 
 ## Reference prompts

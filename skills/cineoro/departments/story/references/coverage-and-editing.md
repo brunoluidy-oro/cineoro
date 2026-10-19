@@ -47,7 +47,7 @@ The engine has no memory, so continuity between generations is designed:
 - write the **end state** of generation N in detail (positions, prop hands, wardrobe states, light,
   emotional state) and make it the **first-frame state** of N+1;
 - chain with the last frame of N as the keyframe/first frame of N+1 when exact continuity matters
-  (`cineoro-assets`);
+  (`departments/assets/DEPARTMENT.md`);
 - for emotional continuity only: "Prior audio context only, not visual content: '[line]'".
 
 ## Motifs and rhymes (planned here, executed as locks)
@@ -58,8 +58,8 @@ The engine has no memory, so continuity between generations is designed:
   word.
 - **A loop** — the film opens and closes on the same image or creature, with the meaning inverted.
 - **A paid-three-times structure** — the same exchange made three times, explained once.
-- **A colour or light exception** used once (with `cineoro-light`).
-- **A sound motif** (breath, a drum, a lullaby) that returns at the turns (with `cineoro-sound`).
+- **A colour or light exception** used once (with `departments/light/DEPARTMENT.md`).
+- **A sound motif** (breath, a drum, a lullaby) that returns at the turns (with `departments/sound/DEPARTMENT.md`).
 
 ## Runtime planning
 
@@ -75,4 +75,4 @@ Every visual choice serves the story's mechanism, not a style:
 - *Cold is the permanent state, warmth is man-made* → palette and light system.
 - *Low angle when the world presses down; canted horizon only when control is lost.*
 - *Documentary cuts for life, an authored form at the turns.*
-Write the statement once in the project bible (`cineoro-bible`); this department applies it per scene.
+Write the statement once in the project bible (`departments/bible/DEPARTMENT.md`); this department applies it per scene.

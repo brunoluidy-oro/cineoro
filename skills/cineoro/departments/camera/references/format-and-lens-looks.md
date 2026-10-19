@@ -1,6 +1,6 @@
 # Format and lens looks — paste-ready blocks
 
-A project's lens look is decided once (in the project bible, `cineoro-bible`) and pasted verbatim into
+A project's lens look is decided once (in the project bible, `departments/bible/DEPARTMENT.md`) and pasted verbatim into
 every prompt. Never rewrite it per shot — consistency across a film comes from identical text.
 
 **How a look block works:** an optional format anchor (a name the engine has seen a lot of) +

@@ -7,7 +7,7 @@ character. The engine's instinct is the opposite — a weightless, stabilized, c
 "AI camera". This department replaces that instinct with an operator.
 
 You write the **CAMERA** block, the camera half of every shot in the **TIMELINE** (size, angle,
-lens, movement), and — with `cineoro-light` — the optical half of the **FILM LOOK**.
+lens, movement), and — with `departments/light/DEPARTMENT.md` — the optical half of the **FILM LOOK**.
 
 ---
 
@@ -130,7 +130,7 @@ Full library, including slow-motion rules, POV, vehicle and multi-shot camera co
 - **Scale:** in wide formats (21:9), people are small in an enormous space; in vertical (9:16) the
   subject owns the frame and the background is texture.
 - **Axis:** the camera stays on one side of the action axis across all cuts unless a cross is
-  designed and stated (lock it with `cineoro-space`).
+  designed and stated (lock it with `departments/space/DEPARTMENT.md`).
 
 ---
 
@@ -146,10 +146,10 @@ spherical large-format, 16 mm documentary, vintage, clean modern digital) and do
 
 ## Hand-off to the director
 
-Return to `cineoro-director`:
+Return to the director (`SKILL.md`):
 - the **CAMERA** block;
 - the camera line for each **SHOT** of the TIMELINE (size, FOV, position, movement, focus, cut type);
-- the optical paragraph for **FILM LOOK** (with `cineoro-light`);
+- the optical paragraph for **FILM LOOK** (with `departments/light/DEPARTMENT.md`);
 - **locks** (e.g. "the camera stays on her left side of the axis in every shot", "NOT ONE SECOND
   static or stabilized") and camera **negatives**.
 

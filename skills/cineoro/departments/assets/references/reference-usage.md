@@ -66,7 +66,7 @@ text (positions, sides), the image usually wins — fix the image.
 
 1. **Generate** (draft if available).
 2. **Check** against the QA list (`references/qa-and-repair.md`).
-3. **Diagnose** the one block that failed (`cineoro-realism` has the symptom → cause → fix table).
+3. **Diagnose** the one block that failed (`departments/realism/DEPARTMENT.md` has the symptom → cause → fix table).
 4. **Choose the cheapest fix:**
    - wrong for 1–3 seconds → **edit** those seconds;
    - right but too short → **extend**;

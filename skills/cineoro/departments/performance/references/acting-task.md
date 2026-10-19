@@ -5,7 +5,7 @@ Read this before writing any ACTING block. These definitions come from Tigran's 
 Apply them exactly as written; do not replace them with textbook Stanislavski summaries.
 
 ⚠️ **Goal / Obstacle / Tactic here are PERFORMANCE terms** — what the actor does to the partner,
-moment to moment. `cineoro-story` uses the same three words as DRAMATURGY terms (what the story does,
+moment to moment. `departments/story/DEPARTMENT.md` uses the same three words as DRAMATURGY terms (what the story does,
 to decide coverage). Keep the two lanes separate.
 
 **Contents:** core principle · the ladder · writing the block · contrast pairing · worked examples ·

@@ -61,7 +61,7 @@ this scene uses.
 
 - One FILM LOOK block per sequence, pasted verbatim.
 - Same Kelvin per location and time of day across all its shots.
-- Keyframes from approved takes carry the grade into new generations (see `cineoro-assets`).
+- Keyframes from approved takes carry the grade into new generations (see `departments/assets/DEPARTMENT.md`).
 - If colour drifts between generations, attach the last approved frame as a look reference with the
   scope "grade, palette, exposure and skin texture only — not composition".
 

@@ -132,8 +132,8 @@ This is a single skill: the departments are files inside it, at `departments/<na
 
 Consult the department when the shot touches its area. The minimum law below is the floor, not the craft.
 
-**Reading budget:** read the SKILL.md of each department the shot touches; open a department's
-reference files only when its SKILL.md sends you there for this case (staging map only with a frame to
+**Reading budget:** read the DEPARTMENT.md of each department the shot touches; open a department's
+reference files only when its DEPARTMENT.md sends you there for this case (staging map only with a frame to
 map, diagnosis only in repair, voice-and-language only with speech, previz only with blocking
 problems). Read `references/worked-examples.md` once per session to calibrate density.
 

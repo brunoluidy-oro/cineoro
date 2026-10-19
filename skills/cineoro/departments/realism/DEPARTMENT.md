@@ -18,7 +18,7 @@ get **repeated**, and own the **diagnosis** of failed takes.
 ## Eight laws
 
 1. **Behaviour carries belief.** Every action is written as mechanics with resistance (hand to
-   `cineoro-performance` for the body; you own the material side — what the world does back).
+   `departments/performance/DEPARTMENT.md` for the body; you own the material side — what the world does back).
 2. **Subtract subjects, not specification.** Cut decorative description, extra people, readable
    backgrounds, beauty words. Keep every line that controls a known failure (locks, mechanics, geometry).
 3. **Objects have a function, not a presence.** Nothing appears because it looks good. Each object is

@@ -116,4 +116,4 @@ film), choose the one that fits the world, state the choice in one line, and off
 Every object on a body or in a hand earns its place by what it is for, and the character uses it the
 way people who own it do. Name the function in the prompt ("the waterskin is warmed against the body
 and steams"), and keep the objects that carry the story locked harder than the rest (hand to
-`cineoro-bible` for the project's props master list).
+`departments/bible/DEPARTMENT.md` for the project's props master list).

@@ -110,7 +110,7 @@ artifacts: **`references/soundscape.md`**.
 
 ## Hand-off to the director
 
-Return to `cineoro-director`:
+Return to the director (`SKILL.md`):
 - the **DIALOGUE & VOICE** block (lines with seconds, ON/OFF labels, voice locks, audio binding);
 - the **SOUND** block;
 - audio **locks** ("only @A speaks — one word, twice", "her mouth stays shut the entire scene");
