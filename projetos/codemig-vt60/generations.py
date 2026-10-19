@@ -554,38 +554,50 @@ def match_locks(subject, mouth_note, eyes="straight into the lens, the eyes aliv
 4. Light from frame-LEFT — NO music."""
 
 
+def add_lock(locks, text):
+    """Insert one extra lock before the closing light lock of a match-series take."""
+    tail = "4. Light from frame-LEFT — NO music."
+    assert tail in locks
+    return locks.replace(tail, text + "\n5. Light from frame-LEFT — NO music.")
+
+
 T10 = join(
     contract(4, "ONE continuous take, no cuts", "a slow dolly-out from a medium close-up", dialogue=False),
     f"""REFERENCES — each reference has ONE job:
-@MAE — IDENTITY of @MAE: face, hair, build, hands and wardrobe. 100% matches.
-{SCOPE_ID}""",
+@MAE — IDENTITY of @MAE: face, hair, build, hands and wardrobe. 100% matches. Her SKIN in the footage is real skin (see PHYSICS & MATERIAL): any retouched, smoothed or glowing finish in the reference does NOT carry over.
+{SCOPE_ID.replace("exposure and colour grade.", "exposure, colour grade and skin finish.")}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
-@MAE ({ANCH['MAE']}) — the MOTHER: holds her newborn in her arms and smiles into the lens; NEVER speaks.
-NEWBORN — a real newborn of a few days, small and correctly proportioned, wrapped in a pale cotton blanket and held in her arms at the bottom edge of the frame, most of the face covered by the blanket; only a forehead, a closed eye and a cheek show.
+@MAE ({ANCH['MAE']}) — the MOTHER: holds her newborn in her arms and looks into the lens, the smile breaking through her closed lips; NEVER speaks.
+NEWBORN — a real newborn of a few days, small and correctly proportioned, wrapped in a pale cotton blanket and held in her arms at the bottom edge of the frame, most of the face covered by the blanket; only a flushed, slightly blotchy forehead with fine downy hair, a closed swollen eyelid and a cheek show.
 FACES: each face exists once; nobody else in the room.
 CONTACT: only her hands on the baby.""",
-    """SCENE — A bright bedroom in a modern apartment in Belo Horizonte, Brazil, afternoon; @MAE stands by the window holding her newborn in her arms, looking at you.
-THE SOUL OF THE SCENE (play it, never explain it): someone new just arrived — she looks at you, radiant, as if you had come in to meet him.""",
-    match_locks("@MAE", "her mouth stays closed in a smile, the baby makes only small breathing sounds"),
+    """SCENE — A bedroom in a modern apartment in Belo Horizonte, Brazil, afternoon, lived-in like a real home with a newborn: the window on frame-LEFT, the slept-in bed behind her on frame-RIGHT with the duvet pushed back, a nursing pillow and a creased muslin cloth on it, a glass of water on the bedside table; @MAE stands by the window holding her newborn in her arms, looking at you.
+THE SOUL OF THE SCENE (play it, never explain it): someone new just arrived — she looks at you with the happiness of a mother who has hardly slept, as if you had come in to meet him; a caught moment, never a posed portrait.""",
+    add_lock(match_locks("@MAE", "her mouth stays closed in a smile, the baby makes only small breathing sounds"),
+             "4. REAL: her skin is real skin (visible pores, freckles, fine downy hairs, a natural shine), her smile a little uneven, the room lived-in — WRONG if her skin looks smooth, glowing or retouched, her smile is a frozen symmetrical grin, or the room looks like a showroom."),
     timeline(1, [], [
-        "BEAT 1 (0–4s) — the MATCH FRAME, MCU: @MAE's face dead centre, eyes on the lens, a warm radiant smile, the swaddled newborn held in her arms at the bottom edge of the frame; the slow dolly-out runs the whole take, the bedroom opening wider behind her; she keeps her eyes on you and the smile. Hard end on the held look.",
+        "BEAT 1 (0–4s) — the MATCH FRAME, MCU: @MAE's face dead centre, eyes on the lens, the smile already in progress at the first frame — a little uneven, breaking through her closed lips and widening slightly as the take runs — the swaddled newborn held in her arms at the bottom edge of the frame, his chest rising and falling under her hand; she shifts her weight once and the blanket moves with her; one slow blink and one small quick one; the slow dolly-out runs the whole take, the lived-in bedroom opening wider behind her. Hard end mid-breath, the smile still alive.",
     ]),
-    acting("MAE", "everything is new and she is happy.",
-           "smile at you with the baby in her arms — \"look who arrived\".",
-           "on the lens throughout.",
-           "a slow happy blink",
-           "speaking, crying, rocking theatrically, presenting the baby to the camera"),
+    acting("MAE", "everything is new and she is happy — she has hardly stopped looking at him since he arrived.",
+           "introduce him to you without a word and without waking him — she is bursting with it and holding it in, so the smile leaks through her lips; her eyes check that you see how perfect he is.",
+           "on the lens throughout, reading you.",
+           "a short breath of a laugh through her nose",
+           "speaking, crying, rocking theatrically, presenting the baby to the camera, a frozen or perfectly symmetrical smile, a posed stock-photo mother"),
     T.dolly_out(4),
     T.MATCH_FRAME,
-    """PHYSICS & MATERIAL — the baby is light, warm and limp, sinking into the crook of her arm; the blanket's cotton folds; a tiny movement of the baby's chest under her hand. """ + REAL + """ MATERIAL TRUTH: the fine rib of her ivory knit, a few loose strands of hair across her cheek, the baby's delicate newborn skin, the sheer curtain glowing behind her.""",
-    T.light_int("the bedroom window with a sheer curtain",
+    """PHYSICS & MATERIAL — the baby is light, warm and limp, sinking into the crook of her arm; the blanket's cotton folds and shifts with her breathing; a tiny movement of the baby's chest under her hand; her weight settles from one foot to the other. Nothing floats, nothing loops. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.
+OVER-REAL — HER SKIN: visible pores on the nose and cheeks, freckles of different sizes, fine downy hair along her temples and jaw catching the window light, a faint natural shine on the forehead and nose bridge, slightly dry lips with a small crease, a faint tired shadow under the eyes, no visible makeup, a smile a little asymmetric, a few flyaway hairs and a loose strand across her cheek. THE BABY: flushed, slightly blotchy newborn skin, fine downy hair, a swollen translucent eyelid. THE ROOM: the fine rib of her ivory knit, the creased muslin, the plain white curtain's uneven folds, the slept-in duvet, a few small scuffs on the painted wall.""",
+    T.light_int("the bedroom window with a plain, slightly creased white curtain",
                 "no other source.",
-                "the daylight lights the frame-LEFT side of her face and the blanket; the room behind falls off a stop."),
-    T.FILM_LOOK,
-    f"""SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and one tiny sigh; the knit's soft rustle; the city far below the window. {T.MUSIC_POLICY}""",
+                "the daylight lights the frame-LEFT side of her face with a visible gradient across the cheek, a small soft window-shaped reflection in each eye and the soft shadow of her nose on the frame-RIGHT cheek; the frame-RIGHT side of her face and the room behind fall into soft shade, the wall brighter near the window and darker away from it; the daylight reads cool-neutral on her skin and the shade side takes a warm bounce from the walls, both muted.")
+     .replace("highlights creamy and warm", "skin highlights keep their texture, never a glow")
+     .replace("beauty light,", "beauty light, a glow on the skin,"),
+    T.FILM_LOOK.replace("gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white",
+                        "a faint warm halation around the window only, none on the skin; skin highlights keep their texture, never creamy or glowing, never pure white"),
+    f"""SOUND — LOCATION SOUND ONLY: quiet room tone; the baby's small breathing and one tiny sigh; her own quiet breath through her nose; the knit's soft rustle; the city far below the window. {T.MUSIC_POLICY}""",
     T.WORLD,
-    f"""NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, the baby's full face, presenting the baby to the camera, crying, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, {T.NEG_DOLLY}.""",
-    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @MAE's face dead centre, eyes on the lens, a warm radiant smile, the swaddled newborn held in her arms at the bottom edge, the room opening wider behind her as the camera backs away; hard end on the held look. Invariants: face centred throughout, the camera backing away with no zoom; no dialogue; baby partly covered, correct proportions. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
+    f"""NEGATIVE: the mother speaking, any mouth forming words, a doll-like baby, wrong newborn proportions, the baby's full face, presenting the baby to the camera, crying, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, a frozen or perfectly symmetrical smile, a posed stock-photo portrait, smooth or airbrushed skin, a glowing or luminous skin finish, visible makeup, glamour or beauty lighting, salon-styled hair, perfect teeth, glowing eyes, a showroom-clean bedroom, a staged catalogue nursery, {T.NEG_DOLLY}.""",
+    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @MAE's face dead centre, eyes on the lens, a smile already in progress and a little uneven, breaking through her closed lips, the swaddled newborn held in her arms at the bottom edge, the lived-in bedroom opening wider behind her as the camera backs away; hard end mid-breath. Invariants: face centred throughout, the camera backing away with no zoom; no dialogue; baby partly covered, correct proportions; REAL skin with pores, freckles, fine hairs and a natural shine, never smooth, glowing or retouched; a lived-in room, not a showroom. Look: 35mm color negative, halation at the window only, lifted blacks, organic grain. NO music. NO subtitles, NO text.]""",
 )
 
 T11 = join(
@@ -595,14 +607,20 @@ T11 = join(
 {SCOPE_ID}""",
     f"""WHO IS WHO — READ FIRST, ABSOLUTE:
 @TORCEDORA ({ANCH['TORCEDORA']}) — the FAN: sits in a grandstand watching the match with bright, excited attention, her eyes on the pitch just beside the lens; NEVER speaks, NEVER shouts, NEVER looks straight into the lens.
-CROWD — many other fans seated and standing all around her, left, right and behind: distinct people, soft and out of focus, in everyday clothes of mixed colours, all watching the match and excited too; nobody with her face; no twins, no clones.
+CROWD — the stand around her is full and every fan is a DIFFERENT person — a different age, sex, skin tone, hair and build; none has her face and none repeats another — all watching the match and excited too, none looking at the lens, all in plain generic football shirts (see SHIRTS). Seat by seat:
+NEIGHBOUR on frame-LEFT, shoulder to shoulder with her: a Brazilian man of about 50, light-brown (pardo) skin, heavy-set, short black hair flecked with grey and a thick moustache, a hand on his forehead and his mouth open in a long "oh".
+NEIGHBOUR on frame-RIGHT, shoulder to shoulder with her: a white Brazilian woman of about 62, fair freckled skin, short silver curls and thin-framed glasses, her hands pressed together at her chin, beaming.
+BEHIND THEM, partly visible and a little softer: a young Black man of about 20 with a shaved head, standing, his hands on top of his head; a white man of about 38 with a short brown beard, leaning forward on his elbows; a girl of about 15 with light-brown skin and long straight black hair in a high ponytail, a hand over her mouth.
+FURTHER BACK: soft figures, young and old, women and men, hair dark, grey, shaved, braided or curly — never two alike; the back rows react a beat after the front.
+SHIRTS — every fan, hers included, wears a plain generic football shirt in ONE of three colourways and none outside them: TERRACOTTA (washed terracotta body, cream collar and cuffs, like hers) on about half of them, CREAM (cream body, terracotta collar and cuffs) on about a third, BRICK (deep brick-brown body, cream collar and cuffs) on the rest; every chest plain: no crest, no sponsor, no number, no text.
 CONTACT: nobody touches her.""",
-    """SCENE — A late-afternoon football match: @TORCEDORA sits in the grandstand of a stadium with many fans all around her, watching the match.
+    """SCENE — A late-afternoon football match: @TORCEDORA sits in the grandstand of a stadium full of fans all around her in terracotta, cream and brick football shirts, watching the match.
 THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her week — she is hooked on the game, lit up and happy, natural and never overplayed.""",
-    match_locks("@TORCEDORA", "her lips may part in a small excited breath but form no words; the crowd is only a roar with no words standing out",
-                eyes="her eyes bright on the match just beside the lens, close to the camera but never into it"),
+    add_lock(match_locks("@TORCEDORA", "her lips may part in a small excited breath but form no words; the crowd is only a roar with no words standing out",
+                         eyes="her eyes bright on the match just beside the lens, close to the camera but never into it"),
+             "4. CROWD: every fan around her is a different person — a different age, sex, skin tone and hair, the two neighbours unlike each other and unlike her — and every one wears a plain generic football shirt in terracotta, cream or brick — WRONG if two fans look alike, anyone has her face, anyone wears everyday clothes or a colour outside the three, or any shirt shows a crest, sponsor, number or text."),
     timeline(1, [], [
-        "BEAT 1 (0–4s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre and frontal, her eyes bright and locked on the play just beside the lens, lit up with excitement — a small excited breath, a smile that comes and goes and widens as the play builds — the fans around her soft and excited too; the slow dolly-out runs the whole take, the crowd opening wider around her. Hard end.",
+        "BEAT 1 (0–4s) — the MATCH FRAME, MCU: @TORCEDORA's face dead centre and frontal, her eyes bright and locked on the play just beside the lens, lit up with excitement — a small excited breath, a smile that comes and goes and widens as the play builds — the heavy-set man on frame-LEFT, the silver-haired woman in glasses on frame-RIGHT and the fans behind them, each a different person in terracotta, cream and brick football shirts, a little softer than her and excited too; the slow dolly-out runs the whole take, the crowd opening wider around her. Hard end.",
     ]),
     acting("TORCEDORA", "this is her Sunday ritual and she is hooked.",
            "follow the play with bright, happy attention, like a friend in the next seat who is thrilled to be there.",
@@ -611,13 +629,13 @@ THE SOUL OF THE SCENE (play it, never explain it): this is the best part of her 
            "blasé, flat or calm, exaggerated or frantic reactions, shouting, arms up, face paint, a scarf, a club crest or sponsor on her jersey, looking straight into the lens"),
     T.dolly_out(4),
     T.MATCH_FRAME + "\nIn this take her face is frontal and dead centre as in the frame above, but her eyes are on the match, just beside the lens, not into it.",
-    """PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves the hem of her jersey; the fans around her rise and settle, lean and gasp, soft shapes. """ + REAL + """ MATERIAL TRUTH: the velour of her terracotta football jersey with its cream polo collar and cuffs and a plain chest, her smooth slicked-back hair, a bead of sweat at the hairline, the glint of her gold hoops.""",
+    """PHYSICS & MATERIAL — the stand vibrates faintly with the crowd; wind moves the hem of her jersey; the fans around her rise and settle, lean and gasp, each in their own way, soft shapes. """ + REAL + """ MATERIAL TRUTH: the velour of her terracotta football jersey with its cream polo collar and cuffs and a plain chest, her smooth slicked-back hair, a bead of sweat at the hairline, the glint of her gold hoops; the polyester weave of the fans' plain football shirts, their cream collars, the creases across their chests.""",
     T.LIGHT_EXT,
     T.FILM_LOOK,
     f"""SOUND — LOCATION SOUND ONLY: a dense wordless crowd roar swelling, soft gasps and "oh" sounds around her; a whistle far off. NO chanting songs, NO drums, NO brass band, NO anthem. {T.MUSIC_POLICY}""",
-    T.WORLD + " Wardrobe and crowd carry NO football club colour combinations (black-and-white, blue-and-white, green-and-white), NO yellow-and-green, NO flags, NO scarves; her football jersey is generic and fictional — a plain chest, no crest, no sponsor, no number, no text — and nobody in the crowd wears a club shirt.",
-    f"""NEGATIVE: a blasé, bored, flat or neutral expression, exaggerated or frantic reactions, the fan speaking or shouting, any mouth forming words, her looking straight into the lens, cheering arms, an emblem or crest on her jersey chest, a sponsor logo, a shirt number or text on her jersey, a recognisable club's kit, loose or voluminous hair, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, yellow-and-green, readable faces in the crowd, chanting, drums, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, {T.NEG_DOLLY}.""",
-    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @TORCEDORA's face dead centre and frontal, her eyes bright on the match just beside the lens, lit up, a smile that comes and goes and widens, many excited fans all around her, the crowd opening wider as the camera backs away; hard end. Invariants: face centred throughout, the camera backing away with no zoom; eyes just beside the lens, never into it; lively and happy, never blasé and never overplayed; no dialogue; a generic jersey with a plain chest, no club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]""",
+    T.WORLD + " Wardrobe and crowd carry NO real football club colour combinations (black-and-white, blue-and-white, green-and-white, red-and-black), NO yellow-and-green, NO flags, NO scarves; every football shirt in the frame, hers included, is generic and fictional — a plain chest, no crest, no sponsor, no number, no text — and belongs to one short palette: terracotta, cream and brick, nothing else.",
+    f"""NEGATIVE: a blasé, bored, flat or neutral expression, exaggerated or frantic reactions, the fan speaking or shouting, any mouth forming words, her looking straight into the lens, cheering arms, an emblem or crest on her jersey chest, a sponsor logo, a shirt number or text on her jersey, a recognisable real club's kit, a crest, sponsor, number or text on any shirt in the crowd, a shirt in any colour outside terracotta, cream and brick, fans in everyday clothes, neighbours who look alike or share the same hair, age or skin tone, a long-haired young woman on each side of her, a fan with her face, a flat crowd, fans looking into the lens, loose or voluminous hair on her, scarf, flag, face paint, black-and-white, blue-and-white, green-and-white, red-and-black, yellow-and-green, faces in the crowd sharper than hers, chanting, drums, a cut, the face drifting off centre, a zoom, a generic or plain-looking woman, {T.NEG_DOLLY}.""",
+    """[ORDER: ONE take, 4s, MATCH FRAME medium close-up with a slow dolly-out — @TORCEDORA's face dead centre and frontal, her eyes bright on the match just beside the lens, lit up, a smile that comes and goes and widens, a full stand of excited fans all around her — a heavy-set man on frame-LEFT, a silver-haired woman in glasses on frame-RIGHT, a different face in every seat — all in plain generic football shirts in terracotta, cream and brick, the crowd opening wider as the camera backs away; hard end. Invariants: face centred throughout, the camera backing away with no zoom; eyes just beside the lens, never into it; lively and happy, never blasé and never overplayed; no dialogue; every fan a different person, the two neighbours unlike each other; every shirt a plain generic one in terracotta, cream or brick, no crest, sponsor, number or text, no real club colours. Look: 35mm color negative, warm halation, lifted blacks, organic grain. NO music, NO chants, NO drums. NO subtitles, NO text.]""",
 )
 
 # ---------------------------------------------------------------- T12 (só o motorista: match + fala, ônibus parado)
