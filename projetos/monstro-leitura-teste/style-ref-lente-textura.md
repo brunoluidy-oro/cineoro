@@ -34,10 +34,10 @@ oclusor desfocado em primeiro plano, inserts de produto em macro e pele, tecido 
 | Lente | normal a aberta **colada no rosto** (≈ 24–35 mm em S35, estimativa), esticamento leve de nariz e testa nos closes | **63°** nos closes e na abertura (≈ 28–35 mm), 0,6 m do rosto |
 | Foco | **raso**: olhos nítidos, fundo (turma, estantes) em bokeh grande, redondo, cremoso | foco raso nos closes; rack focus nos inserts de produto |
 | Oclusores | cabelo, ombro ou carteira **desfocados** na borda do quadro em over-the-shoulder | OTS por cima do ombro do pai nos takes de apresentação |
-| Câmera | **5 de 13 planos sem nenhum movimento**; os demais com deriva ou pan lento (≤ 2 px/quadro a 320 px); **não é câmera na mão** | travada em todos os takes; **um único movimento**: a puxada da virada |
+| Câmera | **5 de 13 planos sem nenhum movimento**; os demais com deriva ou pan lento (≤ 2 px/quadro a 320 px); **não é câmera na mão** | travada em todos os takes, exceto a **puxada handheld** de ~1 s da virada |
 | Alturas | contra-picado na altura da carteira (teto à vista), top-down na mesa, POV baixo, closes frontais olhando para a lente nos gags | contra-picado na comemoração; mesa em plano baixo no packshot |
-| Composição | rosto no terço inferior/centro, muito pé-direito, **faixa de cor horizontal atrás das cabeças**, fundo cheio de gente desfocada | rosto no terço esquerdo com **espaço de olhar** à direita (é ali que a virada aparece) |
-| Ritmo | 13 planos em 21,3 s (≈ 1,6 s/plano); plano de gag mais longo ≈ 3,5 s | aqui: 9 takes em 30 s, um deles de 13 s (a virada) |
+| Composição | rosto no terço inferior/centro, muito pé-direito, **faixa de cor horizontal atrás das cabeças**, fundo cheio de gente desfocada | close frontal e centrado do pai olhando para a lente, como os closes de gag do original; takes de produto e de pai em lugares diferentes da loja |
+| Ritmo | 13 planos em 21,3 s (≈ 1,6 s/plano); plano de gag mais longo ≈ 3,5 s | aqui: 11 takes em 30 s, um deles de 8 s (a virada) |
 
 ## 4. Textura (o que se transfere)
 
@@ -54,8 +54,8 @@ oclusor desfocado em primeiro plano, inserts de produto em macro e pele, tecido 
 ```
 MEDIUM: live-action photoreal commercial.
 REGISTER: authored-composed comedy commercial.
-CAMERA LANGUAGE: locked-off and composed (tripod or dolly head), no hand-held shake; frontal close-ups with look-room,
-  over-the-shoulder frames with a soft foreground occluder, macro product inserts; moves are rare and decisive.
+CAMERA LANGUAGE: locked-off and composed (tripod or dolly head), no hand-held shake; frontal centred close-ups (eyes on the lens for the gag beats),
+  over-the-shoulder frames with a soft foreground occluder, macro product inserts; moves are rare and decisive (one hand-held yank for the reveal).
 LIGHT LOGIC: NOT part of this style ref; set by the location.
 COLOUR: NOT part of this style ref; natural and faithful to the location.
 TEXTURE: clean digital with a filmic softness, soft bloom on light sources in frame, real skin, fabric weave, lived-in props.
@@ -70,7 +70,7 @@ shallow depth of field with round creamy bokeh, focus peaked on the eyes, shelve
 behind, soft foreground hair, shoulders or furniture as occluders at the frame edge; 16:9, 24p, natural motion blur on
 fast hands.
 CAMERA: locked-off and composed — tripod or dolly head, no hand-held shake, no gimbal glide; at most one single decisive
-move per sequence; frontal and centred or off-centre with look-room for the close-ups, low desk-height angle looking up
+move per sequence; frontal and centred for the close-ups, low desk-height angle looking up
 for the celebration, over-the-shoulder with a soft foreground shoulder for presentations, macro rack-focus inserts for
 products.
 ```
