@@ -175,8 +175,10 @@ Notes: [draft first to check blocking / what to look at in QA / the risk most li
 
 Write the header, the card and any notes in the user's language; the prompt is always English (with
 spoken lines in their own language). Never output the diagnosis, the checklist or the department
-reasoning — the deliverable is the header, the prompt and the card. In Mode C, the deliverable is the diagnosis line, the changed block and the
-regeneration path.
+reasoning — the deliverable is the header, the prompt and the card. In Mode C, follow `references/qa-and-repair.md`: for a CINEORO prompt, the diagnosis line, the
+changed block and the regeneration path; for a one-line or mood prompt, the diagnosis table plus a full
+Mode A rebuild. Repairs always include `departments/realism/DEPARTMENT.md`; read `assets` only when
+references or keyframes are involved.
 
 ## Final checklist (silent)
 

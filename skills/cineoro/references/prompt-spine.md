@@ -56,6 +56,10 @@ ONLY — IGNORE their backdrops, ground, sky, weather, lighting direction, expos
 
 ## 2 · WHO IS WHO (conditional — people or animals)
 
+Solo subject: keep a one-line WHO IS WHO (identity, role, side of frame, NEVER list, "nobody else in
+frame — no second person, no figure in the background"); the anti-second-person lock also goes into
+ABSOLUTE LOCKS.
+
 From `cineoro-space`.
 ```
 WHO IS WHO — READ FIRST, ABSOLUTE:

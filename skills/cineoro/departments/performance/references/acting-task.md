@@ -1,7 +1,7 @@
 # Acting task — full method
 
 Read this before writing any ACTING block. These definitions come from Tigran's directing school
-(carried over from the `cinedance` skill) and from the acting method proven on a 20-minute AI short.
+(carried over from the Tigran method) and from the acting method proven on a 20-minute AI short.
 Apply them exactly as written; do not replace them with textbook Stanislavski summaries.
 
 ⚠️ **Goal / Obstacle / Tactic here are PERFORMANCE terms** — what the actor does to the partner,
