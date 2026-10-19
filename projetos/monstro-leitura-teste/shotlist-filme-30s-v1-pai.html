@@ -1,0 +1,813 @@
+<meta charset="utf-8">
+<meta name="claude:viewport-fit-sides" content="cover">
+<title>Monstro Leitura (teste)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Instrument+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one long board — header, 30 s timeline with tracks, beat cards, cast + frame diagram, lines, locks, style ref, copyable prompt, checklists. */
+:root {
+  --bg: #f2f2f7;
+  --surface: #ffffff;
+  --surface-2: #e9e8f1;
+  --ink: #16172b;
+  --ink-2: #4a4c66;
+  --line: #d6d5e3;
+  --cobalt: #2146c7;
+  --cobalt-soft: #dde4fb;
+  --amber: #8f5508;
+  --amber-soft: #f7e6cc;
+  --pink: #a8336d;
+  --pink-soft: #f8dce9;
+  --violet: #5a3fc0;
+  --violet-soft: #e5defa;
+  --slate: #3d4c7d;
+  --slate-soft: #dfe3f1;
+  --danger: #b3261e;
+  --on-cobalt: #ffffff;
+  /* scene colours used by the frame diagram (same in both themes: they are the film's palette) */
+  --sc-wall: #7d6249;
+  --sc-ceiling: #a38a70;
+  --sc-blue: #27408f;
+  --sc-glow: #f0b35c;
+  --sc-pai: #26325e;
+  --sc-filho: #d98bb0;
+  --sc-liv: #d9a521;
+  --sc-skin: #b9825c;
+  --sc-skin-2: #8a5a3c;
+  --sc-skin-3: #d19a76;
+  --f-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Instrument Sans", "Segoe UI", system-ui, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e0f1b; --surface: #171829; --surface-2: #202139; --ink: #efebe4; --ink-2: #a9a8bd; --line: #2d2e48;
+    --cobalt: #8ea4ff; --cobalt-soft: #1e2850; --amber: #eab063; --amber-soft: #3b2b14;
+    --pink: #f09abf; --pink-soft: #3c1f2f; --violet: #b7a2ff; --violet-soft: #2a2250;
+    --slate: #a5b3e6; --slate-soft: #22294a; --danger: #ff8a80; --on-cobalt: #0e0f1b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e0f1b; --surface: #171829; --surface-2: #202139; --ink: #efebe4; --ink-2: #a9a8bd; --line: #2d2e48;
+  --cobalt: #8ea4ff; --cobalt-soft: #1e2850; --amber: #eab063; --amber-soft: #3b2b14;
+  --pink: #f09abf; --pink-soft: #3c1f2f; --violet: #b7a2ff; --violet-soft: #2a2250;
+  --slate: #a5b3e6; --slate-soft: #22294a; --danger: #ff8a80; --on-cobalt: #0e0f1b; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font: 15px/1.55 var(--f-body);
+  padding-block: 28px 72px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1040px; margin: 0 auto; display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--f-display); margin: 0; text-wrap: balance; letter-spacing: -0.01em; }
+h1 { font-size: clamp(30px, 6vw, 48px); font-weight: 800; line-height: 1.05; }
+h2 { font-size: 22px; font-weight: 800; }
+h3 { font-size: 16px; font-weight: 600; }
+p { margin: 0; }
+code, pre, .mono { font-family: var(--f-mono); }
+.eyebrow { font: 500 12px/1 var(--f-mono); letter-spacing: .12em; text-transform: uppercase; color: var(--cobalt); }
+.sub { color: var(--ink-2); max-width: 70ch; }
+.sec-head { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+.sec-head p { color: var(--ink-2); max-width: 72ch; }
+
+/* header */
+.hero { display: flex; flex-direction: column; gap: 14px; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: 500 12px/1 var(--f-mono); padding: 7px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--surface); color: var(--ink-2); }
+.chip b { color: var(--ink); font-weight: 500; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+button { font: 600 13px/1 var(--f-body); cursor: pointer; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); padding: 10px 14px; }
+button:hover { border-color: var(--cobalt); }
+button.primary { background: var(--cobalt); color: var(--on-cobalt); border-color: var(--cobalt); }
+button.copy { padding: 6px 10px; font-size: 12px; font-family: var(--f-mono); font-weight: 500; }
+button.copied { border-color: var(--cobalt); color: var(--cobalt); }
+:focus-visible { outline: 2px solid var(--cobalt); outline-offset: 2px; }
+
+.panel { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.premise { padding: 18px 20px; display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+.premise div { display: flex; flex-direction: column; gap: 4px; }
+.premise .k { font: 500 11px/1 var(--f-mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-2); }
+.premise .v { font-size: 15px; }
+
+/* timeline */
+.tl-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+.tl { position: relative; min-width: 940px; padding: 14px 16px 16px; }
+.tl-row { display: grid; grid-template-columns: 124px 1fr; align-items: center; min-height: 36px; border-top: 1px solid var(--line); }
+.tl-row:first-child { border-top: 0; }
+.tl-lab { font: 500 11px/1.2 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); padding-right: 8px; }
+.tl-area { position: relative; height: 28px; background-image: repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 3.3333%); }
+.tl-area.ruler { height: 22px; background-image: none; }
+.ruler span { position: absolute; top: 0; transform: translateX(-50%); white-space: nowrap; font: 500 11px/1 var(--f-mono); color: var(--ink-2); }
+.ruler span:first-child { transform: none; }
+.ruler span:last-child { transform: translateX(-100%); }
+.seg { position: absolute; top: 3px; bottom: 3px; border-radius: 5px; font: 500 11px/22px var(--f-mono); padding: 0 6px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: var(--ink); box-shadow: inset 3px 0 0 var(--c, var(--ink-2)); background: var(--cs, var(--surface-2)); }
+.seg.slate { --c: var(--slate); --cs: var(--slate-soft); }
+.seg.cobalt { --c: var(--cobalt); --cs: var(--cobalt-soft); }
+.seg.amber { --c: var(--amber); --cs: var(--amber-soft); }
+.seg.pink { --c: var(--pink); --cs: var(--pink-soft); }
+.seg.violet { --c: var(--violet); --cs: var(--violet-soft); }
+.seg.mute { --c: var(--line); --cs: transparent; border: 1px dashed var(--line); color: var(--ink-2); }
+.seg.hot { --c: var(--danger); --cs: transparent; border: 1px solid var(--danger); color: var(--danger); padding: 0 3px; }
+.seg.beat { --c: var(--ink-2); --cs: var(--surface-2); text-align: center; padding: 0 2px; box-shadow: none; border: 1px solid var(--line); }
+.tl-ov { position: absolute; left: calc(16px + 124px); right: 16px; top: 50px; bottom: 16px; pointer-events: none; }
+.mk { position: absolute; top: 0; bottom: 0; width: 0; border-left: 1.5px dashed var(--danger); }
+.flags { position: relative; height: 44px; }
+.flag { position: absolute; font: 500 11px/1.2 var(--f-mono); color: var(--danger); white-space: nowrap; padding-left: 5px; border-left: 1.5px solid var(--danger); }
+.flag.r2 { top: 22px; }
+.flag.end { transform: translateX(-100%); border-left: 0; border-right: 1.5px solid var(--danger); padding: 0 5px 0 0; }
+.legend { margin-top: 10px; color: var(--ink-2); font-size: 13px; }
+
+/* beats */
+.beats { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); }
+.beat { padding: 16px 18px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.beat.key { border-color: var(--danger); }
+.beat-top { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+.beat-top .t { font: 500 13px/1 var(--f-mono); color: var(--cobalt); }
+.beat dl { margin: 0; display: grid; grid-template-columns: 76px 1fr; gap: 6px 12px; font-size: 14px; }
+.beat dt { font: 500 11px/1.6 var(--f-mono); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-2); }
+.beat dd { margin: 0; min-width: 0; }
+.tag { display: inline-block; font: 500 11px/1 var(--f-mono); padding: 4px 7px; border-radius: 5px; background: var(--surface-2); color: var(--ink-2); margin-right: 4px; }
+.watch { color: var(--danger); }
+
+/* cast */
+.split { display: grid; gap: 18px; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); align-items: start; }
+@media (max-width: 820px) { .split { grid-template-columns: minmax(0, 1fr); } }
+.frame { padding: 12px; }
+.frame svg { width: 100%; height: auto; display: block; border-radius: 6px; }
+.frame figcaption { color: var(--ink-2); font-size: 13px; margin-top: 8px; }
+.cast { display: grid; gap: 12px; }
+.person { padding: 14px 16px; display: grid; grid-template-columns: 14px 1fr; gap: 12px; }
+.sw { width: 14px; border-radius: 4px; align-self: stretch; }
+.person h3 { display: flex; gap: 8px; align-items: baseline; flex-wrap: wrap; }
+.person .meta { font: 500 12px/1.4 var(--f-mono); color: var(--ink-2); }
+.person ul { margin: 6px 0 0; padding-left: 18px; font-size: 14px; }
+.person li { margin: 2px 0; }
+
+/* tables */
+.tbl { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 760px; font-size: 14px; }
+th, td { text-align: left; padding: 10px 14px; border-top: 1px solid var(--line); vertical-align: top; }
+thead th { border-top: 0; font: 500 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); background: var(--surface-2); }
+td.t { font-family: var(--f-mono); font-size: 13px; white-space: nowrap; }
+td.q { font-weight: 500; }
+td.onoff { white-space: nowrap; }
+.who { font: 600 12px/1 var(--f-mono); padding: 4px 7px; border-radius: 5px; white-space: nowrap; }
+.who.pink { background: var(--pink-soft); color: var(--pink); }
+.who.amber { background: var(--amber-soft); color: var(--amber); }
+.who.slate { background: var(--slate-soft); color: var(--slate); }
+.who.cobalt { background: var(--cobalt-soft); color: var(--cobalt); }
+.onoff { font: 500 11px/1 var(--f-mono); color: var(--ink-2); }
+
+/* locks */
+.locks { display: grid; gap: 10px; counter-reset: lk; padding: 0; margin: 0; list-style: none; }
+.locks li { counter-increment: lk; padding: 12px 16px 12px 52px; position: relative; }
+.locks li::before { content: counter(lk); position: absolute; left: 16px; top: 12px; width: 24px; height: 24px; border-radius: 6px; background: var(--ink); color: var(--bg); font: 700 13px/24px var(--f-mono); text-align: center; }
+.locks b { display: block; font-weight: 600; }
+.locks .wrong { color: var(--danger); font-size: 14px; }
+
+/* style ref */
+.swatches { display: grid; grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 8px; }
+.swatch { border-radius: 8px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.swatch i { display: block; height: 54px; }
+.swatch span { display: block; padding: 6px 8px; font: 500 11px/1.4 var(--f-mono); color: var(--ink-2); }
+.facts { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); margin-top: 14px; }
+.fact { padding: 14px 16px; }
+.fact h3 { margin-bottom: 6px; }
+.fact ul { margin: 0; padding-left: 18px; font-size: 14px; color: var(--ink-2); }
+.fact li { margin: 3px 0; }
+.fold { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); margin-top: 10px; }
+.fold summary { cursor: pointer; padding: 12px 16px; display: flex; justify-content: space-between; align-items: center; gap: 10px; font-weight: 600; }
+.fold summary code { font-size: 11px; color: var(--ink-2); font-weight: 400; }
+.fold-body { border-top: 1px solid var(--line); }
+.bar { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--surface-2); }
+.bar-l { font: 500 11px/1 var(--f-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-2); }
+pre { margin: 0; padding: 14px 16px; font-size: 12.5px; line-height: 1.55; white-space: pre-wrap; word-break: break-word; overflow-wrap: anywhere; max-width: 100%; }
+pre.scroll { max-height: 520px; overflow: auto; }
+.notes-list { margin: 0; padding-left: 20px; display: grid; gap: 8px; }
+.notes-list li { max-width: 90ch; }
+
+/* checks */
+.checks { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); }
+.check-card { padding: 16px 18px; }
+.check-card h3 { margin-bottom: 8px; }
+.check { display: flex; gap: 10px; padding: 7px 0; border-top: 1px solid var(--line); cursor: pointer; align-items: flex-start; }
+.check:first-of-type { border-top: 0; }
+.check input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--cobalt); flex: none; }
+.check.done span { color: var(--ink-2); text-decoration: line-through; }
+.foot { color: var(--ink-2); font-size: 13px; }
+</style>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Livraria Leitura · Volta às Aulas 26</div>
+    <h1>MONSTRO LEITURA (teste)<br>Filme 30" · versão 1, pai</h1>
+    <p class="sub">Um plano contínuo de 30 s para o Seedance 2.5: o pai lê o caderno com cara de paisagem enquanto o filho e o livreiro "narram" o pensamento dele para convencê-lo. A câmera é puxada para trás em ~1 s e a virada acontece.</p>
+    <div class="chips">
+      <span class="chip"><b>1</b> geração</span>
+      <span class="chip"><b>30 s</b> = timeline</span>
+      <span class="chip"><b>16:9</b> · 24p</span>
+      <span class="chip"><b>480p</b> rascunho → <b>1080p</b></span>
+      <span class="chip">áudio <b>on</b></span>
+      <span class="chip"><b>sem</b> referências</span>
+      <span class="chip">estilo <b>TARDE DOURADA</b></span>
+    </div>
+    <div class="actions">
+      <button class="primary copy" data-target="#prompt">Copiar prompt (EN)</button>
+      <button class="copy" data-target="#card">Copiar card de geração</button>
+      <a href="#prompt-sec" class="foot">ir para o prompt ↓</a>
+    </div>
+  </header>
+
+  <section>
+    <div class="sec-head"><h2>A virada</h2></div>
+    <div class="panel premise">
+      <div><span class="k">Setup · 0–16 s</span><span class="v">Só o rosto do pai em close. Vozes de criança e de adulto "dublam" o pensamento dele, com um violão de fundo.</span></div>
+      <div><span class="k">Virada · 16,2–17,2 s</span><span class="v">A câmera é puxada para trás em ~1 s: eram o filho e o livreiro, colados nos ouvidos dele, tentando influenciá-lo.</span></div>
+      <div><span class="k">Rendição · 17,7–22 s</span><span class="v">"Tá bom! Já pode parar de tocar o violão…" O violão morre seco. "…vocês me convenceram." Palmas.</span></div>
+      <div><span class="k">Oferta · 22–30 s</span><span class="v">Locução, trilha pop e o pai rindo. Lettering e assinatura entram em pós.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Linha do tempo · 30 s</h2>
+      <p>Tudo em segundos exatos do prompt. A linha tracejada vermelha marca os eventos que o rascunho precisa acertar. Role para o lado em telas estreitas.</p>
+    </div>
+    <div class="tl-scroll"><div class="tl">
+      <div class="tl-row"><div class="tl-lab"></div><div class="tl-area ruler">
+        <span style="left:0">0 s</span><span style="left:16.667%">5</span><span style="left:33.333%">10</span><span style="left:50%">15</span><span style="left:66.667%">20</span><span style="left:83.333%">25</span><span style="left:100%">30 s</span>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Beats</div><div class="tl-area">
+        <div class="seg beat" style="left:0;width:16.667%">B1 · 0–5</div>
+        <div class="seg beat" style="left:16.667%;width:13.333%">B2 · 5–9</div>
+        <div class="seg beat" style="left:30%;width:23.333%">B3 · 9–16</div>
+        <div class="seg beat" style="left:53.333%;width:6.667%">B4</div>
+        <div class="seg beat" style="left:60%;width:13.333%">B5 · 18–22</div>
+        <div class="seg beat" style="left:73.333%;width:26.667%">B6 · 22–30</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Câmera</div><div class="tl-area">
+        <div class="seg slate" style="left:0;width:54%">travada · CU 63° · 0,6 m</div>
+        <div class="seg hot" style="left:54%;width:3.333%" title="puxada seca de ~1 s">↤</div>
+        <div class="seg slate" style="left:57.333%;width:42.667%">travada · 3-shot peito para cima · 2,4 m</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Em quadro</div><div class="tl-area">
+        <div class="seg mute" style="left:0;width:54%">só o pai</div>
+        <div class="seg mute" style="left:54%;width:3.333%;padding:0">+2</div>
+        <div class="seg mute" style="left:57.333%;width:42.667%">filho · pai · livreiro</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Pai · boca</div><div class="tl-area">
+        <div class="seg mute" style="left:0;width:59%">boca fechada até 17,7 s</div>
+        <div class="seg slate" style="left:59%;width:7.333%" title="fala 5">fala 5</div>
+        <div class="seg slate" style="left:68.333%;width:4%;padding:0 2px;text-align:center" title="fala 6">6</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Vozes off</div><div class="tl-area">
+        <div class="seg pink" style="left:0.667%;width:6.667%">1 filho</div>
+        <div class="seg amber" style="left:8%;width:7%">2 livreiro</div>
+        <div class="seg pink" style="left:15.667%;width:13.333%">3 filho</div>
+        <div class="seg amber" style="left:29.667%;width:24%">4 livreiro (a mais longa)</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Violão</div><div class="tl-area">
+        <div class="seg amber" style="left:0;width:66.667%">violão tocando sem falha — morre seco aos 20,0 s</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Trilha pop</div><div class="tl-area">
+        <div class="seg violet" style="left:73.333%;width:26.667%">entra na palma · botão aos 30 s</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Locução</div><div class="tl-area">
+        <div class="seg cobalt" style="left:74%;width:13.667%">locução 1</div>
+        <div class="seg cobalt" style="left:88.333%;width:9%">locução 2</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Luz</div><div class="tl-area">
+        <div class="seg mute" style="left:0;width:100%">idêntica em todos os frames · sol baixo pela persiana, à direita</div>
+      </div></div>
+      <div class="tl-row"><div class="tl-lab">Eventos</div><div class="tl-area flags" style="background-image:none">
+        <span class="flag" style="left:54%">16,2 puxada</span>
+        <span class="flag r2" style="left:59%">17,7 pai fala</span>
+        <span class="flag" style="left:66.667%">20,0 palma</span>
+        <span class="flag r2" style="left:73.333%">22,0 palmas</span>
+        <span class="flag end" style="left:100%">30 botão</span>
+      </div></div>
+      <div class="tl-ov">
+        <div class="mk" style="left:54%"></div><div class="mk" style="left:59%"></div><div class="mk" style="left:66.667%"></div><div class="mk" style="left:73.333%"></div>
+      </div>
+    </div></div>
+    <p class="legend">Cores: <b style="color:var(--pink)">filho</b> · <b style="color:var(--amber)">livreiro e violão</b> · <b style="color:var(--slate)">pai e câmera</b> · <b style="color:var(--cobalt)">locução</b> · <b style="color:var(--violet)">trilha pop</b>. O ritmo das falas é estimativa (sílabas contadas à mão): cabe em 30 s, sem folga.</p>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Plano a plano</h2>
+      <p>É um único plano contínuo, dividido em seis beats por mudança de tática. Nenhum corte.</p>
+    </div>
+    <div class="beats">
+
+      <article class="panel beat">
+        <div class="beat-top"><h3>Beat 1 · pai lê, vozes 1 e 2</h3><span class="t">0–5 s</span></div>
+        <div><span class="tag">CU frontal</span><span class="tag">63°</span><span class="tag">0,6 m</span><span class="tag">travada</span></div>
+        <dl>
+          <dt>Em quadro</dt><dd>Só o pai, centrado, olhos na contracapa de um caderno de espiral (só a borda colorida aparece embaixo). Faixa azul-cobalto desfocada atrás da cabeça; brilho dourado borrado na borda direita.</dd>
+          <dt>Ação</dt><dd>2,4 s: o caderno sai de quadro e sobe uma caixa de canetinhas; os olhos descem para ela.</dd>
+          <dt>Áudio</dt><dd>Violão já em curso. Voz 1 (filho) 0,2–2,2 · Voz 2 (livreiro) 2,4–4,5.</dd>
+          <dt>Atenção</dt><dd class="watch">Boca fechada. Ninguém mais em quadro: nem mão, nem ombro, nem braço do violão.</dd>
+        </dl>
+      </article>
+
+      <article class="panel beat">
+        <div class="beat-top"><h3>Beat 2 · o pai resiste</h3><span class="t">5–9 s</span></div>
+        <div><span class="tag">mesmo quadro</span><span class="tag">travada</span></div>
+        <dl>
+          <dt>Ação</dt><dd>Aos 5,5 s os olhos disparam para baixo-esquerda, na direção da voz, e voltam às canetinhas. Os lábios apertam numa linha reta.</dd>
+          <dt>Áudio</dt><dd>Voz 3 (filho, mais rápida e esperançosa) 4,7–8,7. Violão continua.</dd>
+          <dt>Atenção</dt><dd class="watch">Só o rosto se mexe.</dd>
+        </dl>
+      </article>
+
+      <article class="panel beat">
+        <div class="beat-top"><h3>Beat 3 · o discurso de vendas</h3><span class="t">9–16 s</span></div>
+        <div><span class="tag">mesmo quadro</span><span class="tag">travada</span></div>
+        <dl>
+          <dt>Ação</dt><dd>Os olhos acompanham a voz até a origem e voltam. Engole a seco por volta de 13 s. Por volta de 15 s o canto da boca cede meio milímetro e ele achata.</dd>
+          <dt>Áudio</dt><dd>Voz 4 (livreiro, a mais longa, 7,2 s) 8,9–16,1. Violão continua.</dd>
+          <dt>Atenção</dt><dd class="watch">Nada muda no quadro até a última sílaba da voz 4.</dd>
+        </dl>
+      </article>
+
+      <article class="panel beat key">
+        <div class="beat-top"><h3>Beat 4 · a puxada (a virada)</h3><span class="t">16–18 s</span></div>
+        <div><span class="tag">dolly para trás</span><span class="tag">~1 s</span><span class="tag">0,6 → 2,4 m</span><span class="tag">freia seco</span></div>
+        <dl>
+          <dt>Ação</dt><dd>16,2 s: o dolly é puxado de supetão, acelera na hora, freia em 17,2 s com um pequeno assentar. Entram em quadro o filho (esq.) e o livreiro (dir.), pegos inclinados nos ouvidos do pai, o menino na ponta dos pés. Ao parar, endireitam o corpo com cara de inocentes (anjinho para o pai; o livreiro seguindo o violão com seriedade). O pai olha para a esquerda, para a direita (17,2–17,7), e fala.</dd>
+          <dt>Áudio</dt><dd>Voz 4 já terminou. Violão segue. 17,7: "Tá bom!" (fala 5). Sem whoosh, sem efeito cômico.</dd>
+          <dt>Atenção</dt><dd class="watch">A revelação tem de ser curta, seca e sem deslizar. A luz não pode mudar. O pai não se assusta.</dd>
+        </dl>
+      </article>
+
+      <article class="panel beat">
+        <div class="beat-top"><h3>Beat 5 · rendição e palmas</h3><span class="t">18–22 s</span></div>
+        <div><span class="tag">3-shot simétrico</span><span class="tag">63°</span><span class="tag">2,4 m</span><span class="tag">travada</span></div>
+        <dl>
+          <dt>Ação</dt><dd>18,4–19,9: "Já pode parar de tocar o violão…", olhos nas mãos do livreiro. 20,0: a palma do livreiro cai chapada nas cordas, o violão morre em um baque abafado. Silêncio até 20,5. 20,5–21,7: "vocês me convenceram." A partir de 21,7 as mãos do livreiro e do filho sobem; o pai inclina o tronco para trás. 22,0: palmas.</dd>
+          <dt>Áudio</dt><dd>Corte seco do violão, 0,5 s de silêncio com só o som da loja, palmas aos 22,0 sobre o primeiro tempo da trilha pop.</dd>
+          <dt>Atenção</dt><dd class="watch">O violão não pode sumir aos poucos nem voltar. Só um toque físico além da palma: a palma de mão com mão.</dd>
+        </dl>
+      </article>
+
+      <article class="panel beat">
+        <div class="beat-top"><h3>Beat 6 · comemoração e oferta</h3><span class="t">22–30 s</span></div>
+        <div><span class="tag">3-shot</span><span class="tag">travada</span><span class="tag">termina no botão</span></div>
+        <dl>
+          <dt>Ação</dt><dd>O menino pula uma vez; o livreiro ri sem som, violão pendurado na alça. O pai balança a cabeça, solta o ar pelo nariz, enfia o caderno debaixo do braço e o sorriso que ele segurava abre. Fim seco no botão da trilha, no meio da risada.</dd>
+          <dt>Áudio</dt><dd>Locução 22,2–26,3 e 26,5–29,2 sobre a trilha pop (≈ −12 dB), que sobe um pouco no fim e para num botão de um tempo aos 30 s.</dd>
+          <dt>Pós</dt><dd>Lettering (2) e assinatura "Livraria Leitura · 60 anos" sobre estes segundos finais.</dd>
+        </dl>
+      </article>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Elenco e posições</h2>
+      <p>Três pessoas, uma linha paralela à câmera, cada uma com seu lado do quadro. O diagrama mostra o enquadramento final (2,4 m) com o recorte do close (0,6 m) tracejado: antes da puxada, ninguém além do pai pode entrar nesse retângulo menor, nem as cabeças inclinadas.</p>
+    </div>
+    <div class="split">
+      <figure class="panel frame" style="margin:0">
+        <svg viewBox="0 0 640 360" role="img" aria-label="Enquadramento final do filme: filho à esquerda, pai ao centro, livreiro à direita; retângulo tracejado mostra o recorte do close inicial">
+          <defs>
+            <linearGradient id="glow" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#f0b35c" stop-opacity=".95"/><stop offset="1" stop-color="#f0b35c" stop-opacity="0"/></linearGradient>
+          </defs>
+          <rect width="640" height="360" fill="#7d6249"/>
+          <rect width="640" height="62" fill="#a38a70"/>
+          <rect y="78" width="640" height="150" fill="#27408f"/>
+          <g stroke="#1b2d6b" stroke-width="2" opacity=".6"><line x1="0" y1="112" x2="640" y2="112"/><line x1="0" y1="150" x2="640" y2="150"/><line x1="0" y1="188" x2="640" y2="188"/></g>
+          <rect x="500" y="40" width="140" height="190" fill="url(#glow)"/>
+          <g stroke="#7d6249" stroke-width="3" opacity=".5"><line x1="540" y1="56" x2="640" y2="56"/><line x1="540" y1="76" x2="640" y2="76"/><line x1="540" y1="96" x2="640" y2="96"/><line x1="540" y1="116" x2="640" y2="116"/><line x1="540" y1="136" x2="640" y2="136"/><line x1="540" y1="156" x2="640" y2="156"/><line x1="540" y1="176" x2="640" y2="176"/></g>
+          <rect y="324" width="640" height="36" fill="#4d3a2b"/>
+          <!-- pai -->
+          <rect x="270" y="214" width="100" height="146" rx="28" fill="#26325e"/>
+          <ellipse cx="320" cy="180" rx="21" ry="26" fill="#b9825c"/>
+          <path d="M299 168 q21 -26 42 0 q-6 -9 -21 -10 q-15 1 -21 10z" fill="#1d1612"/>
+          <!-- filho -->
+          <rect x="146" y="312" width="68" height="48" rx="22" fill="#d98bb0"/>
+          <ellipse cx="180" cy="280" rx="17" ry="21" fill="#8a5a3c"/>
+          <path d="M163 274 q17 -26 34 0 q-8 -6 -17 -6 q-9 0 -17 6z" fill="#1d1612"/>
+          <rect x="138" y="318" width="26" height="18" rx="3" fill="#5d7ad6" opacity=".9"/>
+          <!-- livreiro -->
+          <rect x="437" y="214" width="92" height="146" rx="26" fill="#efeadf"/>
+          <rect x="446" y="240" width="74" height="120" rx="14" fill="#d9a521"/>
+          <ellipse cx="483" cy="180" rx="19" ry="25" fill="#d19a76"/>
+          <path d="M465 170 q18 -22 36 0 q-8 -7 -18 -7 q-10 0 -18 7z" fill="#1d1612"/>
+          <ellipse cx="470" cy="304" rx="42" ry="28" fill="#b9733a"/>
+          <ellipse cx="470" cy="304" rx="9" ry="9" fill="#2a1a10"/>
+          <line x1="500" y1="292" x2="620" y2="248" stroke="#5a3a22" stroke-width="9" stroke-linecap="round"/>
+          <!-- palmas -->
+          <circle cx="320" cy="256" r="8" fill="#ffd9a0" stroke="#7d6249" stroke-width="2"/>
+          <path d="M214 300 Q260 250 312 256" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="4 5" opacity=".8"/>
+          <path d="M440 296 Q390 250 328 256" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="4 5" opacity=".8"/>
+          <!-- cabeças inclinadas (fantasmas) -->
+          <ellipse cx="200" cy="262" rx="15" ry="19" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="4 4"/>
+          <ellipse cx="440" cy="186" rx="17" ry="22" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="4 4"/>
+          <!-- recorte do close -->
+          <rect x="240" y="135" width="160" height="90" fill="none" stroke="#ff6b5e" stroke-width="3" stroke-dasharray="8 5"/>
+          <rect y="332" width="640" height="28" fill="#140e0a" opacity=".78"/>
+          <g font-family="JetBrains Mono, monospace" font-size="12" fill="#fff" font-weight="500">
+            <rect x="240" y="108" width="154" height="20" rx="4" fill="#b3261e"/><text x="248" y="122">CU 0,6 m · 0–16,2 s</text>
+            <text x="146" y="350" fill="#fff">FILHO · esq.</text>
+            <text x="283" y="350" fill="#fff">PAI · centro</text>
+            <text x="440" y="350" fill="#fff">LIVREIRO · dir.</text>
+            <text x="14" y="26" fill="#1d1612">3-shot 2,4 m · 63° · 17,2–30 s</text>
+          </g>
+        </svg>
+        <figcaption>Linhas brancas tracejadas: onde as duas cabeças estão inclinadas até 17,2 s (fora do recorte do close) e o caminho das mãos até a palma aos 22,0 s. Janela com persiana dourada à direita; faixa azul-cobalto atrás das cabeças. Desenho esquemático de posições, não é render do filme.</figcaption>
+      </figure>
+
+      <div class="cast">
+        <article class="panel person"><i class="sw" style="background:var(--sc-pai)"></i><div>
+          <h3>@PAI <span class="meta">~40 · camiseta azul-marinho lavada</span></h3>
+          <ul><li>Centro do quadro, pés plantados. Barba aparada com fios grisalhos no queixo.</li><li><b>Nunca</b> fala antes de 17,7 s, olha para a lente nem mexe os pés.</li><li>Tática: fazer cara de paisagem e ler o produto; perde a aposta.</li><li>Voz: barítono médio-grave, seco, cansado e caloroso por baixo.</li></ul>
+        </div></article>
+        <article class="panel person"><i class="sw" style="background:var(--sc-filho)"></i><div>
+          <h3>@FILHO <span class="meta">9 · camiseta rosa-empoeirada</span></h3>
+          <ul><li>Esquerda do quadro, cabeça na altura do peito do pai; cesta com cadernos, canetinhas e estojo no antebraço.</li><li>Nunca fala em quadro. Imita a voz do pai em tom grave de brincadeira, que racha.</li><li>Tática: ser a consciência do pai, sussurrando no ouvido.</li></ul>
+        </div></article>
+        <article class="panel person"><i class="sw" style="background:var(--sc-liv)"></i><div>
+          <h3>@LIVREIRO <span class="meta">~24 · avental mostarda sem logo</span></h3>
+          <ul><li>Direita do quadro, violão na alça com o braço apontando para a direita.</li><li>Nunca fala em quadro. Copia a entonação cansada-calorosa do pai, com brilho de vendedor.</li><li>Tática: ser o minstrel sincero que dá trilha para a vida interior de um homem.</li></ul>
+        </div></article>
+        <article class="panel person"><i class="sw" style="background:var(--cobalt)"></i><div>
+          <h3>Locutora <span class="meta">off · ~30 anos</span></h3>
+          <ul><li>Voz brilhante, sorridente, ritmo de anúncio, microfone próximo e seca.</li><li>Nada de rosto: só voz sobre a comemoração.</li></ul>
+        </div></article>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Falas</h2>
+      <p>Oito falas, todas em português brasileiro com sotaque neutro. Números escritos por extenso para guiar a pronúncia. As quatro primeiras são imitações do pai, de gente fora de quadro: nenhuma boca visível as forma.</p>
+    </div>
+    <div class="tbl"><table>
+      <thead><tr><th>#</th><th>Tempo</th><th>Voz</th><th>Onde</th><th>Fala</th><th>Entrega</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td class="t">0,2–2,2</td><td><span class="who pink">FILHO</span></td><td class="onoff">OFF · esq., baixo</td><td class="q">Olha que caderno legal pro meu filho…</td><td>criança de 9 anos forçando a voz grave do pai, lenta e doce</td></tr>
+        <tr><td>2</td><td class="t">2,4–4,5</td><td><span class="who amber">LIVREIRO</span></td><td class="onoff">OFF · dir.</td><td class="q">E esse kit de canetinhas? Vem com tantas cores…</td><td>copia a entonação cansada-calorosa do pai; a pergunta sobe no fim</td></tr>
+        <tr><td>3</td><td class="t">4,7–8,7</td><td><span class="who pink">FILHO</span></td><td class="onoff">OFF · esq., baixo</td><td class="q">Pra esse montão de material também preciso de um estojo do desenho favorito dele!</td><td>mesmo registro, mais rápido e esperançoso; a voz racha uma vez perto do fim</td></tr>
+        <tr><td>4</td><td class="t">8,9–16,1</td><td><span class="who amber">LIVREIRO</span></td><td class="onoff">OFF · dir.</td><td class="q">Relaxa! No aniversário de sessenta anos da Leitura, dá pra parcelar em até dez vezes sem juros e ainda tem sessenta produtos exclusivos com descontos incríveis.</td><td>ágil; o brilho de vendedor vaza pela entonação do pai</td></tr>
+        <tr><td>5</td><td class="t">17,7–19,9</td><td><span class="who slate">PAI</span></td><td class="onoff">EM QUADRO</td><td class="q">Tá bom! Já pode parar de tocar o violão…</td><td>respiração de rendição na 1ª palavra, depois seco e chapado; olhos nas mãos do livreiro</td></tr>
+        <tr><td>6</td><td class="t">20,5–21,7</td><td><span class="who slate">PAI</span></td><td class="onoff">EM QUADRO</td><td class="q">vocês me convenceram.</td><td>mais baixo, o sorriso começa na última palavra</td></tr>
+        <tr><td>7</td><td class="t">22,2–26,3</td><td><span class="who cobalt">LOCUTORA</span></td><td class="onoff">VOZ OFF</td><td class="q">Volta às aulas Leitura com descontos incríveis em sessenta produtos exclusivos? Presente!</td><td>brilhante, rápida, sorrindo; pequena subida antes da última palavra</td></tr>
+        <tr><td>8</td><td class="t">26,5–29,2</td><td><span class="who cobalt">LOCUTORA</span></td><td class="onoff">VOZ OFF</td><td class="q">E nas compras a partir de quatrocentos reais ganhe uma sacola.</td><td>confiante; a última palavra cai no tempo</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Travas</h2>
+      <p>Cinco invariantes críticas são repetidas no prompt em quatro lugares: travas, texto do beat, negativo e recapitulação final. Se uma quebrar, o take está errado e se regera.</p>
+    </div>
+    <ol class="locks">
+      <li class="panel"><b>Pai sozinho até a puxada</b><span class="wrong">Errado se qualquer mão, ombro, cabelo, cesta ou braço do violão aparecer antes de 16,2 s.</span></li>
+      <li class="panel"><b>Boca do pai selada até 17,7 s</b><span class="wrong">Errado se os lábios se mexerem junto com qualquer uma das quatro vozes fora de quadro.</span></li>
+      <li class="panel"><b>Um plano, uma puxada</b><span class="wrong">Errado se a revelação for lenta, deslizar, durar 2 s ou mais, cortar, dar zoom ou girar.</span></li>
+      <li class="panel"><b>Posições: filho à esquerda, pai ao centro, livreiro à direita</b><span class="wrong">Errado se trocarem de lado; o braço do violão aponta para a direita; os três em uma linha paralela à câmera.</span></li>
+      <li class="panel"><b>O violão morre seco aos 20,0 s e nunca volta</b><span class="wrong">Errado se sumir aos poucos, continuar tocando ou voltar depois.</span></li>
+      <li class="panel"><b>Luz nunca muda</b><span class="wrong">Errado se houver rampa, dimmer, flash ou mudança de cor: quem revela é a câmera, não a luz.</span></li>
+      <li class="panel"><b>Sem verde</b><span class="wrong">Errado se qualquer objeto, roupa ou tom de grade ficar verde.</span></li>
+    </ol>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Style ref · TARDE DOURADA</h2>
+      <p>Estética extraída do filme de referência: sol baixo de fim de tarde por persiana, pele quente, pretos violeta, âmbar com azul-cobalto e rosa, sem verde, lente aberta colada no rosto, câmera travada. Medido em 43 quadros do arquivo (H.264 de YouTube): grão e Kelvin <b>não são mensuráveis</b>, são estimativas visuais. Áudio não analisado. Nada do produto, texto ou elenco original é para copiar.</p>
+    </div>
+    <div class="swatches" role="list" aria-label="Paleta medida por agrupamento de cor">
+      <div class="swatch" role="listitem"><i style="background:#0f0b0e"></i><span>#0f0b0e · 17%<br>preto violeta</span></div>
+      <div class="swatch" role="listitem"><i style="background:#2f1e1c"></i><span>#2f1e1c · 13%<br>umber profundo</span></div>
+      <div class="swatch" role="listitem"><i style="background:#4a332f"></i><span>#4a332f · 14%<br>marrom</span></div>
+      <div class="swatch" role="listitem"><i style="background:#664c42"></i><span>#664c42 · 14%<br>marrom quente</span></div>
+      <div class="swatch" role="listitem"><i style="background:#806658"></i><span>#806658 · 15%<br>pele/madeira</span></div>
+      <div class="swatch" role="listitem"><i style="background:#9e806d"></i><span>#9e806d · 11%<br>tan</span></div>
+      <div class="swatch" role="listitem"><i style="background:#c3a88b"></i><span>#c3a88b · 4%<br>luz âmbar</span></div>
+      <div class="swatch" role="listitem"><i style="background:#efede4"></i><span>#efede4 · 1%<br>branco quente</span></div>
+      <div class="swatch" role="listitem"><i style="background:#162036"></i><span>#162036 · 9%<br>azul-marinho</span></div>
+      <div class="swatch" role="listitem"><i style="background:#34445c"></i><span>#34445c · 4%<br>azul-ardósia</span></div>
+    </div>
+    <div class="facts">
+      <div class="panel fact"><h3>Luz</h3><ul><li>Sol baixo (~3200–3800 K, estimado) pela persiana, à direita e um pouco atrás.</li><li>Aro dourado no cabelo, brilho na pele, halo suave na persiana.</li><li>Fill por rebote de parede bege, ~3:1; sombras macias.</li><li>Tubos no teto são secundários.</li></ul></div>
+      <div class="panel fact"><h3>Cor</h3><ul><li>Miolo âmbar-marrom; sombras violeta-frias; altas âmbar, nunca branco puro.</li><li>Azul-cobalto e rosa-magenta empoeirado como acentos; mostarda como respiro.</li><li>Verde &lt; 0,5% dos pixels saturados.</li><li>Saturação média 41% (HSV).</li></ul></div>
+      <div class="panel fact"><h3>Exposição</h3><ul><li>Luma mediana ≈ 25% da escala; P99 ≈ 74%.</li><li>Pretos fundos, mas abertos (P1 ≈ 4/255).</li><li>Sem vinheta aplicada; queda natural.</li></ul></div>
+      <div class="panel fact"><h3>Textura e lente</h3><ul><li>Digital limpo, maciez filmica, sem grão pesado.</li><li>Pele real com poros e brilho; malhas e tecidos com trama.</li><li>Lente esférica, bokeh redondo e cremoso, foco raso, lente aberta colada no rosto.</li></ul></div>
+      <div class="panel fact"><h3>Câmera</h3><ul><li>5 dos 13 planos com movimento zero; o resto, deriva ou pan lento.</li><li>Contra-picado na altura da carteira, top-down e closes frontais centrados.</li><li>Referência corta a ~1,6 s; este filme é 1 plano de 30 s.</li></ul></div>
+      <div class="panel fact"><h3>Aplicado neste filme</h3><ul><li>Avental mostarda, camiseta rosa, camiseta azul-marinho, faixa azul-cobalto atrás do pai.</li><li>Lente 63° a 0,6 m, câmera travada em dolly.</li><li>Estas cores vêm da referência, não da marca Leitura.</li></ul></div>
+    </div>
+    <h3 style="margin-top:18px">Blocos prontos (em inglês, para colar)</h3>
+    
+    <details class="fold">
+      <summary><span>Intenção de estilo</span><code>STYLE INTENT</code></summary>
+      <div class="fold-body">
+        <div class="bar"><span class="bar-l">colar no prompt</span><button class="copy" data-target="#sb0">Copiar</button></div>
+        <pre id="sb0">MEDIUM: live-action photoreal commercial.
+REGISTER: authored-composed comedy commercial, youth / school world.
+CAMERA LANGUAGE: locked-off, composed frames; slow drifts only; frontal centred close-ups, low desk-height angles,
+  occasional top-down.
+LIGHT LOGIC: low late-afternoon sun through half-closed blinds as the motivated key; warm bounce fill; fluorescent
+  tubes as secondary practicals.
+COLOUR &amp; TEXTURE: amber-umber core, cool violet-black shadows, cobalt-blue and dusty magenta accents, NO green;
+  clean digital with soft halation, no heavy grain; soft bloom on windows and tubes allowed, no lens flares.
+MOTION: real-time 24p with a natural 180-degree shutter.
+REALIST PRESET RULES SWITCHED OFF: handheld, grain, muted palette, off-centre framing, chiaroscuro darkness,
+  "no glow".</pre>
+      </div>
+    </details>
+    <details class="fold">
+      <summary><span>Luz</span><code>LIGHT (base)</code></summary>
+      <div class="fold-body">
+        <div class="bar"><span class="bar-l">colar no prompt</span><button class="copy" data-target="#sb1">Copiar</button></div>
+        <pre id="sb1">LIGHT — MOTIVATED LIGHT ONLY, late-afternoon interior, WARM &amp; DENSE (KEY): SOURCE: the only key is low sun, amber
+~3200–3800 K, coming through half-closed venetian blinds from a large window at frame-right, slightly behind the
+subjects, about 20° above the horizon; it wraps the right cheek, ear and hair edge with a golden rim, and the blinds
+glow hot and soft with a gentle halation. FILL: the warm bounce of beige walls and ceiling (~4000 K), about three
+times dimmer than the key on the face, soft shadows with no hard edges. PRACTICALS: linear fluorescent ceiling tubes,
+cool-white, secondary, never the dominant colour. REACH: the sun reaches the window-side of every face and dies
+across the room; the far wall stays warm and soft. EXPOSURE: exposed for the skin; dense midtones (median luminance
+about a quarter of full range), highlights roll off softly with the peak around three quarters except for the window
+and tubes, blacks deep but open with a faint cool-violet tint; natural falloff, NO vignette overlay. CONTINUITY: the
+window stays frame-right in every frame, lit sides never flip, the light never changes during the take. NOT: flat
+even light, cold daylight, hard-edged shadows, overexposed skin, crushed muddy blacks, a second sun.</pre>
+      </div>
+    </details>
+    <details class="fold">
+      <summary><span>Look de filme</span><code>FILM LOOK (lock)</code></summary>
+      <div class="fold-body">
+        <div class="bar"><span class="bar-l">colar no prompt</span><button class="copy" data-target="#sb2">Copiar</button></div>
+        <pre id="sb2">FILM LOOK (KEY — reproduce this exact photographic character): modern digital cinema capture at 24 fps with a
+natural 180° shutter, graded for a warm, dense commercial look: amber-umber midtones and highlights, cool violet-black
+shadows, saturated cobalt-blue and dusty magenta-pink accents against them, NO green anywhere in the palette;
+moderate overall saturation with skin kept warm and natural; soft S-curve contrast, highlights rolling off with gentle
+halation on windows and lamps, blacks deep but open; clean image with a filmic softness, no heavy grain, no sharpening
+halos; real skin with pores, a light sheen on forehead and nose, flyaway hair catching the backlight. Lens: spherical,
+round soft creamy bokeh, shallow depth of field, normal-to-wide focal length used close to faces for a slight
+perspective stretch; soft out-of-focus foreground occluders (hair, shoulders, desks) at the frame edges.
+MEGA-REAL, NOT a render, NOT HDR, NOT teal-and-orange.
+SOFT BLOOM on the window and tube lights only; NO lens flares, no streaks, no floating bokeh orbs.</pre>
+      </div>
+    </details>
+    <details class="fold">
+      <summary><span>Câmera e lente</span><code>CAMERA &amp; LENS</code></summary>
+      <div class="fold-body">
+        <div class="bar"><span class="bar-l">colar no prompt</span><button class="copy" data-target="#sb3">Copiar</button></div>
+        <pre id="sb3">LENS LOOK: spherical normal-to-wide lens working close to faces (a slight stretch of nose and forehead in close-ups),
+shallow depth of field with round creamy bokeh, focus peaked on the eyes, a blurred crowd or shelves behind, soft
+foreground hair, shoulders or furniture as occluders; 16:9, 24p, natural motion blur on fast arms and hands.
+CAMERA LANGUAGE: locked-off and composed — a tripod or dolly head, no hand-held shake, no gimbal glide; moves, when
+they exist, are slow drifts or a single decisive pull. Angles: frontal and centred for the gag close-ups, low desk-height
+looking up (ceiling visible) for wides, top-down for the table.</pre>
+      </div>
+    </details>
+    <details class="fold">
+      <summary><span>Paleta e direção de arte</span><code>COLOUR / PRODUCTION DESIGN</code></summary>
+      <div class="fold-body">
+        <div class="bar"><span class="bar-l">colar no prompt</span><button class="copy" data-target="#sb4">Copiar</button></div>
+        <pre id="sb4">PALETTE — core: amber, umber, tan and warm brown (walls, wood, skin); counter-colour: deep cobalt and navy blue
+(a pin-board or feature wall as a horizontal colour band behind the heads, uniforms, floor); accent: dusty magenta-pink
+(one garment); rare warm accent: mustard yellow. Shadows: violet-black. Highlights: warm off-white, never pure white.
+NO green. Everything lived-in: scuffed laminate, spiral notebooks, beaded bracelets, washed cotton, striped knits,
+pinned papers blurred on a blue board.</pre>
+      </div>
+    </details>
+    <details class="fold">
+      <summary><span>Negativo de estilo</span><code>NEGATIVE (style spine)</code></summary>
+      <div class="fold-body">
+        <div class="bar"><span class="bar-l">colar no prompt</span><button class="copy" data-target="#sb5">Copiar</button></div>
+        <pre id="sb5">teal-and-orange grade, green cast, neon saturation, cold blue daylight, flat even light, overexposed or blown skin,
+crushed muddy blacks, HDR look, beauty retouching, plastic skin, heavy film grain, hand-held shaky camera, gimbal glide,
+vignette overlay, lens flares, anamorphic streaks, hard-edged shadows, clean showroom set.</pre>
+      </div>
+    </details>
+  </section>
+
+  <section id="prompt-sec">
+    <div class="sec-head">
+      <h2>Prompt para o Seedance 2.5</h2>
+      <p>Em inglês, na ordem da espinha CINEORO, com as falas em português. Tem 4.144 palavras (~24.454 caracteres): sem limite de tamanho, como pedido, mas acima dos ~19 mil caracteres que a CINEORO registra funcionando. Se a plataforma truncar ou ignorar o final, a ordem de corte é: negativos repetidos, adjetivos, acting do filho e do livreiro, GEOMETRY; nunca as travas, a política de música, as vozes e o ORDER.</p>
+    </div>
+    <div class="fold panel" style="border-radius:12px;margin-top:0">
+      <div class="bar"><span class="bar-l">header para o diretor</span><button class="copy" data-target="#hdr">Copiar</button></div>
+      <pre id="hdr">WHAT HAPPENS: Numa loja de papelaria/livraria, num fim de tarde dourado, um pai lê a contracapa de um caderno
+com cara de paisagem enquanto duas pessoas fora de quadro "dublam" o que ele estaria pensando — o filho e um
+livreiro que toca violão como trilha do monólogo interno — na verdade tentando convencê-lo a comprar. A câmera
+é puxada para trás de supetão (~1 s) e revela os dois colados nos ouvidos dele, pegos no flagra. Ele se
+rende, o violão morre seco, os dois batem as mãos.
+WHAT IS SAID: 4 falas fora de quadro (filho, livreiro, filho, livreiro) imitando o pai · 2 falas do pai
+em quadro · 2 frases de locução off. Texto do roteiro mantido; números escritos por extenso (ver notas).
+TIMING: close fixo, falas 1–2 — 5s · fala 3 — 4s · fala 4 — 7s · revelação-relâmpago (1 s) + "Tá bom!"
+— 2s · "já pode parar…", violão morre, "vocês me convenceram", palmas — 4s · comemoração + locução +
+trilha pop — 8s = 30s
+HOW IT ENDS: no botão da trilha pop, os três em plano aberto, o pai finalmente rindo. Lettering e
+assinatura entram em pós sobre os últimos segundos.
+DIRECTION: (1) A graça é a virada: o espectador passa 16 s achando que são pensamentos do pai e só então
+entende que são duas pessoas tentando influenciá-lo. Por isso o close frontal e centrado não tem nenhum outro
+elemento em quadro, e a revelação é UM movimento curto e seco (puxada de dolly), sem deslizar: quanto mais
+rápida, mais forte o riso. (2) A luz não muda em nenhum momento — quem revela é a câmera, não a iluminação.
+(3) Estética TARDE DOURADA: sol baixo por persiana à direita, pele quente, pretos violeta, âmbar com azul-cobalto
+e rosa, sem verde, câmera travada, lente aberta colada no rosto — o simétrico e travado também serve ao
+deadpan. (4) O pai nunca mexe a boca até a primeira fala dele. (5) O corte seco do violão (palma na corda) é o
+gatilho da rendição.</pre>
+    </div>
+    <div class="fold panel" style="border-radius:12px;margin-top:12px;overflow:hidden">
+      <div class="bar"><span class="bar-l">prompt completo · EN</span><button class="copy primary" data-target="#prompt">Copiar prompt</button></div>
+      <pre id="prompt" class="scroll">CONTRACT — Live-action photoreal commercial footage (a comic parody of the social-media "voice-dub" format, shot like a real TV spot in the TARDE DOURADA look), 16:9, 24 fps, 30 seconds, ONE continuous take, no cuts, camera on a dolly with a fluid head: LOCKED OFF close-up from 0 to 16.2s, one fast hard dolly pull straight backward lasting about one second (16.2–17.2s) that reveals who has been talking, then LOCKED OFF three-shot to the end; real-time motion. LIGHT IS CONSTANT: the same direction, intensity and colour from the first frame to the last. All speech in Brazilian Portuguese, neutral national accent: eight scripted lines, nothing else spoken. MUSIC POLICY: the ONLY music is (a) an acoustic guitar played live in the room by @LIVREIRO from the first frame until a flat palm kills it dead at 20.0s, and (b) an instrumental pop track from the high-five at 22.0s to a hard button at 30s; no other music, no stinger, no vocals, no lyrics. TEXT POLICY: NO subtitles, captions, on-screen text or logos, and no readable letters or numbers on any surface — all text is added in post.
+
+WHO IS WHO — READ FIRST, ABSOLUTE:
+@PAI (about 40, medium-brown skin, short dark hair, trimmed black beard with grey at the chin, washed dark-navy crew-neck T-shirt) — the FATHER, the shopper: dead-centre of the frame, feet planted; NEVER speaks before 17.7s, NEVER looks into the lens, NEVER moves his feet; owns the CENTRE.
+@FILHO (9, small, curly dark hair, dusty orchid-pink T-shirt with a generic invented cartoon monster, a plastic hand-basket of notebooks, markers and a pencil case on his right forearm) — the SON: frame-LEFT of @PAI, head at @PAI's chest height; NEVER speaks on camera; owns the LEFT side.
+@LIVREIRO (about 24, slim, short black hair, plain mustard-yellow apron with no logo over a white T-shirt, worn acoustic guitar on a strap, neck toward frame-RIGHT) — the BOOKSELLER: frame-RIGHT of @PAI, plays the guitar; NEVER speaks on camera; owns the RIGHT side.
+FACES: each face exists ONCE; nobody else in the shop — no customers, no staff, no sharp background faces; no twins, no clones.
+CONTACT: only two touches exist. At 20.0s @LIVREIRO's right palm lands flat on the guitar strings. At 22.0s his right palm and @FILHO's left palm meet in one high-five in front of @PAI's chest. Nobody touches @PAI; he touches only the notebook and the marker pack.
+
+SCENE — Weekday late afternoon, school-supply aisle of a Brazilian bookshop, back-to-school season, low sun coming in through the shopfront blinds. @PAI stands at the notebook display reading the back of a spiral notebook. @FILHO and @LIVREIRO stand right beside him, just out of frame, leaning in toward his ears like a shoulder angel and a shoulder devil, voicing aloud what they pretend he is thinking — in his own voice, to sway him into buying — while the bookseller plays guitar under it like the underscore of an inner monologue.
+THE SOUL OF THE SCENE (play it, never explain it): for sixteen seconds the audience believes it is hearing the father's thoughts; then the camera is yanked back and shows that two people have been working on him the whole time. The father tries to be the sensible one and stonewalls; he does not play being persuaded, he plays not wanting to be seen being persuaded — and loses. The comedy is the straight face against the voices and the speed of the reveal; nobody in the scene knows it is funny.
+
+ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
+1. FATHER ALONE UNTIL THE PULL — from 0 to 16.2s the only person in frame is @PAI: no hand, shoulder, hair, guitar neck, basket, child or second face enters. WRONG if anyone else is visible before the camera starts to move.
+2. THE FATHER'S MOUTH — sealed and still from 0 to 17.7s; the first four lines come from two people out of frame, no visible mouth forms them, he does NOT lip-sync them. WRONG if his lips move with any of them.
+3. ONE TAKE, ONE PULL — the camera is locked off 0–16.2s, then retreats straight backward in a single fast hard dolly pull of about one second (16.2–17.2s), braking to a dead stop, then locked off to the end. WRONG if the reveal is slow, eased, glides, takes two seconds or more, cuts, zooms or turns.
+4. POSITIONS — @FILHO frame-LEFT, @PAI CENTRE, @LIVREIRO frame-RIGHT, guitar neck toward frame-RIGHT, standing in one line parallel to the camera so all three faces are equally sharp. WRONG if they swap sides.
+5. THE GUITAR — mid-phrase at the first frame, no gap until a flat palm kills it dead at 20.0s, NEVER resumes; no other instrument until the pop track at 22.0s. WRONG if it fades out, keeps playing or returns.
+6. LIGHT NEVER CHANGES — the low sun stays frame-right and the light is identical in the first and the last frame: no ramp, swell, dimming, flash, flicker or colour shift. WRONG if the light differs between frames; the reveal is made by the camera alone.
+7. NO GREEN — nothing green in the frame (wardrobe, props, shelving, wall). WRONG if a green object or green cast appears.
+
+TIMELINE — ONE continuous take, already in progress at the first frame:
+BEAT 1 (0–5s) — CU @PAI, frontal, centred, 63°, camera at his eye level 0.6 m away, LOCKED OFF: the guitar is already mid-phrase from just out of frame right; he reads the back of a spiral notebook held below the frame (only its colourful top edge shows at the bottom); voice line 1 runs 0.2–2.2s; at 2.4s the notebook drops out of frame and the top of a marker pack rises into the bottom of the frame, his eyes drop to it; voice line 2 runs 2.4–4.5s. Lips sealed, jaw still, nothing else in frame; behind him a cobalt-blue feature wall in soft focus as a horizontal colour band, warm golden glow of the shopfront blurred at the frame-right edge.
+BEAT 2 (5–9s) — same frame, nothing moves but his face: voice line 3 runs 4.7–8.7s from frame-left, low and close; at 5.5s his eyes flick down-left toward it and back to the pack; his lips press into a flat line.
+BEAT 3 (9–16s) — same frame: voice line 4 runs 8.9–16.1s from frame-right, close to his ear; his eyes slide up toward it and settle back on the pack; a swallow at about 13s; at about 15s one corner of his mouth gives half a millimetre and he flattens it; the guitar keeps playing. Nothing changes in the frame until the last syllable of line 4 has landed.
+BEAT 4 (16–18s) — THE PULL: at 16.2s the dolly is yanked straight backward — it accelerates at once, a hard fast pull of about one second, the frame jolting at the start and braking to a dead stop with a tiny settle — from 0.6 m to 2.4 m, stopped by 17.2s, slight motion blur on the edges during the move. As the frame opens, @FILHO (left) and @LIVREIRO (right) are caught in the act, leaning in toward @PAI's ears, the boy on tiptoe with the basket on his forearm, the bookseller bent over his guitar mid-pick; the instant the camera stops (17.2s) they straighten up and put on innocent faces — the boy an angelic upward look at his father, the bookseller still picking with solemn sincerity — both looking at @PAI, never the lens. @PAI turns his eyes left to the boy, then right to the bookseller (17.2–17.7s), then speaks: line 5 begins at 17.7s. The light does not change.
+BEAT 5 (18–22s) — held three-shot, camera LOCKED OFF: line 5 continues (18.4–19.9s, eyes on the bookseller's hands); at 20.0s, as his last word ends, @LIVREIRO's flat right palm slaps the strings and the sound dies instantly in a short muted thud; room tone only until 20.5s; line 6 runs 20.5–21.7s; from 21.7s the bookseller's right hand and the boy's left hand rise toward each other in front of @PAI's chest and @PAI leans his torso back to let them pass; at 22.0s the palms meet; the clap lands on the first beat of the pop track.
+BEAT 6 (22–30s) — same three-shot, camera LOCKED OFF: the pair keep celebrating (the boy bounces once on his toes, the bookseller laughs without a sound, guitar hanging on its strap); @PAI shakes his head once, breath out through the nose, tucks the notebook under his arm, and the grin he has been holding breaks open; announcer voice-over 22.2–29.2s; the pop track plays on to the button at 30s. Hard end on the button, mid-laugh.
+
+DIALOGUE — only these lines are spoken, each by the named voice; the four lines before 17.7s are OFF-SCREEN impersonations of the father and no visible mouth forms them; ON CAMERA lines are lip-synced exactly; NO dubbing of the father's face, NO subtitles, NO on-screen text — the words exist only as sound. Every mouth not speaking stays closed.
+[0.2–2.2s] @FILHO (OFF-SCREEN, from frame-left, low, about 0.5 m from the father's ear, Brazilian Portuguese, a nine-year-old pushing his voice down into a comic over-solemn dad register, slow and sweet): "Olha que caderno legal pro meu filho…"
+[2.4–4.5s] @LIVREIRO (OFF-SCREEN, from frame-right, about 0.5 m from the father's ear, Brazilian Portuguese, a young man copying the father's weary-warm intonation, the question rising at its end): "E esse kit de canetinhas? Vem com tantas cores…"
+[4.7–8.7s] @FILHO (OFF-SCREEN, from frame-left, same mock-dad register, quicker and more hopeful, cracking once near the end): "Pra esse montão de material também preciso de um estojo do desenho favorito dele!"
+[8.9–16.1s] @LIVREIRO (OFF-SCREEN, from frame-right, brisk, a salesman's brightness leaking through the copied dad intonation): "Relaxa! No aniversário de sessenta anos da Leitura, dá pra parcelar em até dez vezes sem juros e ainda tem sessenta produtos exclusivos com descontos incríveis."
+[17.7–19.9s] @PAI (on camera, Brazilian Portuguese, a breath of surrender on the first word, then flat and dry with a short beat before the last words, eyes on the bookseller's hands): "Tá bom! Já pode parar de tocar o violão…"
+[20.5–21.7s] @PAI (on camera, Brazilian Portuguese, quieter, a smile starting at the last word): "vocês me convenceram."
+[22.2–26.3s] ANNOUNCER (VOICE-OVER, no visible speaker, Brazilian Portuguese, bright, brisk, smiling, a small lift before the last word): "Volta às aulas Leitura com descontos incríveis em sessenta produtos exclusivos? Presente!"
+[26.5–29.2s] ANNOUNCER (VOICE-OVER, same voice, confident, the last word landing on the beat): "E nas compras a partir de quatrocentos reais ganhe uma sacola."
+VOICE LOCK — @PAI: man of about 40, low-mid baritone, dry, slightly hoarse, unhurried, resigned with warmth underneath, never shouts. VOICE LOCK — @FILHO: boy of nine, high bright nasal child's voice that cannot stay down in the dad register. VOICE LOCK — @LIVREIRO: young man of 24, warm medium baritone, quick, clear diction, retail-bright. VOICE LOCK — ANNOUNCER: adult woman of about 30, clear, bright, smiling, ad-read cadence, close-miked and dry. These voice identities are fixed for the whole take; the four impersonations must sound like a plausible copy of @PAI's real voice, so that the audience takes them for his thoughts until the reveal.
+
+ACTING — @PAI (fully invested in the tactic; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): keep it a normal shopping trip.
+EVENT: a man who came for the essentials is worn down by two people shopping inside his head, and gladly gives in.
+MOTIVE: he loves the boy and the offers are real; the voices keep being a little bit right.
+GOAL: read the price as if nothing is happening and not be seen enjoying any of it.
+OBSTACLE: each voice says aloud what he was about to think; one visible smile and he has lost.
+TACTIC: stonewall — poker face, reading the product as if nobody were talking, while his eyes keep betraying the count; when the camera is yanked back he is not surprised, only tired — he knew they were there.
+MOMENT TO MOMENT: — [0–5s] eyes on the notebook's back cover, then down to the marker pack, steady breath — [5–9s] eyes flick to the voice and back, lips press flat — [9–16s] eyes follow the pitch toward its source and return, a swallow at about 13s, one corner of the mouth gives and is flattened at about 15s — [17.2–17.7s] eyes left to the boy, right to the bookseller, a long deadpan beat — [17.7–20s] a breath out, shoulders drop, the words delivered to the bookseller's hands — [20–22s] the guitar dies, a silent beat, he lets the smile start — [22–30s] leans back as their hands pass, head shake, laughter through the nose.
+LIVING EYES: pupils move with the task — notebook, markers, the voices' positions — uneven late blinks, brows working independently, slight asymmetry; involuntary detail: the swallow at about 13s. A soft golden reflection of the window in the eyes is fine; a frozen pupil is wrong.
+NOT: lips moving before 17.7s, looking into the lens, a startled jump at the reveal, grinning early, eye-rolling, theatrical frowning, glassy stare.
+
+ACTING — @FILHO (fully invested; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): help dad decide.
+EVENT: a boy and a bookseller shop inside dad's head, and win.
+MOTIVE: he wants the monster pencil case and truly believes dad wants it too.
+GOAL: get dad to say yes without dad noticing he is being worked.
+OBSTACLE: dad's poker face; one wrong word and it is a no.
+TACTIC: be dad's conscience — speak in his voice, solemn and sweet, from his ear.
+MOMENT TO MOMENT: — [0–16.2s] out of frame, on tiptoe, leaning in, eyes on his father's cheek — [16.2–17.7s] caught: straightens, an angelic upward look — [17.7–22s] eyes on his father's face for the verdict, hope rising — [22–30s] victory: one high-five, one bounce.
+LIVING EYES: pupils lock on his father's face, flick to the basket and back, uneven blinks; involuntary detail: rocking onto his toes when excited.
+NOT: speaking on camera, mugging into the lens, a wink, a victory scream.
+
+ACTING — @LIVREIRO (fully invested; the work happens in the eyes)
+SCENE DIRECTION (shared, unspoken): help dad decide.
+EVENT: the same — a sale and a joke he is committed to.
+MOTIVE: the discount is real and the bit is too good to drop.
+GOAL: keep the underscore alive until the father yields.
+OBSTACLE: dad's stone face and the bookseller's own urge to laugh.
+TACTIC: play the sincere minstrel scoring a man's inner life while salesman-whispering into his ear.
+MOMENT TO MOMENT: — [0–16.2s] out of frame, fingerpicking, bent toward dad's ear, eyes on his profile — [16.2–17.7s] caught: straightens, keeps picking with solemn sincerity, one eyebrow lifts slowly — [17.7–20s] watches dad's mouth for the verdict — [20s] the palm kills the strings — [22–30s] high-five, silent laugh.
+LIVING EYES: pupils on dad's face, glances to the boy and back, uneven blinks; involuntary detail: a suppressed smile pulling one cheek.
+NOT: speaking on camera, looking into the lens, a smug grin.
+
+CAMERA — cinema camera on a dolly with a fluid head, locked off, no operator shake, the lens at @PAI's eye level (1.65 m), frontal and on-axis, 0.6 m from his face at the start and 2.4 m back at the end.
+MOVEMENT: 0–16.2s STAYS PUT, absolutely steady; 16.2–17.2s TRAVELS straight backward along the same axis on the dolly track in one hard fast pull of about one second — it starts at once with a jolt, rushes back, brakes to a dead stop with a tiny settle; not a glide, not eased, no turn; 17.2–30s STAYS PUT, locked off. One movement only.
+OPTICS: 63° throughout, no lens drift — a spherical normal-to-wide lens working close to his face: a tight CU at 0.6 m (forehead to chin, a slight perspective stretch of nose and forehead, frame edges about 0.37 m either side of his nose), a chest-up three-shot at 2.4 m; symmetrical, @PAI dead-centre, level horizon; shallow depth of field with round creamy bokeh, focus on @PAI's eyes the whole take, the shelves and the cobalt wall soft behind, the other two equally sharp once revealed.
+HORIZON: level, a calm and deadpan frame.
+NOT: hand-held shake, gimbal glide, zoom, push-in, a slow or eased pull, whip pan, rack focus, orbit, drone, slow motion, a reveal that lasts two seconds or more.
+
+GEOMETRY — @PAI faces the camera at the notebook display, feet planted, torso upright; @FILHO 0.65 m to his left (frame-left) and @LIVREIRO 0.75 m to his right (frame-right) when standing straight, shoulder lines parallel to the lens, both leaning in toward his ears until 17.2s so that their heads are about 0.55 m from his — just outside the CU frame; the guitar body at the bookseller's waist, neck toward frame-right; a cobalt-blue feature wall 1.5 m behind @PAI forming a horizontal colour band behind the heads, shelves of notebooks beside it; the shopfront window with half-closed venetian blinds 3 m behind and to the right of the bookseller; the display table is below frame. The camera never leaves the axis. The high-five happens 0.3 m in front of @PAI's chest, palms meeting at about 1.3 m height.
+
+PHYSICS &amp; MATERIAL — the notebook cover resists, then flexes under his thumb; the marker pack's cellophane crackles when it rises; guitar strings ring and decay naturally and the palm kills them with a dry thud; the high-five is a real slap, palms flatten and recoil; the basket handle creaks on the boy's forearm; the boy's weight rises onto his toes and settles; the dolly pull is fast and mechanical, the frame jolting as it starts and braking hard with a slight settle. Nothing floats, nothing loops. OVER-REAL: pores and a light oily sheen on the father's forehead and nose, beard stubble catching the golden rim, flyaway hair lit from behind, cotton weave on the washed T-shirts, the gleam of the spiral wire, matte cardboard grain on the marker pack, a worn pickguard on the guitar, light creases at the notebook corner, scuffed light-wood display tables. If any surface looks plastic, CGI or rendered — WRONG.
+
+LIGHT — MOTIVATED LIGHT ONLY, late-afternoon shop interior, WARM &amp; DENSE, IDENTICAL FROM FIRST FRAME TO LAST (KEY): SOURCE: the only key is low sun, amber ~3200–3800 K, coming through the half-closed venetian blinds of the shopfront window at frame-right, slightly behind the subjects, about 20° above the horizon; it wraps the right cheek, ear and hair edge of every face with a golden rim, and the blinds glow hot and soft with a gentle halation. FILL: the warm bounce of beige walls and ceiling (~4000 K), about three times dimmer than the key on the face, soft shadows with no hard edges. PRACTICALS: linear ceiling tubes, cool-white, secondary, never the dominant colour. REACH: the sun reaches the window-side of every face and dies across the room; the cobalt wall stays soft. EXPOSURE: exposed for the skin; dense midtones (median luminance about a quarter of full range), highlights roll off softly with the peak around three quarters except the window and tubes, blacks deep but open with a faint cool-violet tint; natural falloff, NO vignette overlay. CONTINUITY: the window stays frame-right in every frame, lit sides never flip, nothing about the light changes during the take. NOT: flat even light, cold daylight, hard-edged shadows, overexposed skin, crushed muddy blacks, a second sun, a light change at the reveal.
+
+FILM LOOK (KEY — reproduce this exact photographic character): modern digital cinema capture at 24 fps with a natural 180° shutter, graded for a warm, dense commercial look: amber-umber midtones and highlights, cool violet-black shadows, saturated cobalt-blue and dusty magenta-pink accents against them, NO green anywhere in the palette; moderate overall saturation with skin kept warm and natural; soft S-curve contrast, highlights rolling off with gentle halation on windows and lamps, blacks deep but open; clean image with a filmic softness, no heavy grain, no sharpening halos; real skin with pores, a light sheen on forehead and nose, flyaway hair catching the backlight. Lens: spherical, round soft creamy bokeh, shallow depth of field, normal-to-wide focal length used close to faces for a slight perspective stretch; soft out-of-focus foreground occluders at the frame edges when available. MEGA-REAL, NOT a render, NOT HDR, NOT teal-and-orange.
+SOFT BLOOM on the window and tube lights only; NO lens flares, no streaks, no floating bokeh orbs.
+
+SOUND — shop room tone low and constant (air-conditioning hush, a distant shopping-cart wheel); no public-address voice, no shop music; no whoosh, no stinger, no comedic sound effect at the reveal — the only thing that changes at the pull is that the voices stop and the guitar goes on. In order of prominence: @LIVREIRO's acoustic guitar from frame-right, close, dry, un-reverbed, a slow fingerpicked minor-key arpeggio at about 70 bpm, wistful and sincere like a drama's underscore, continuous from 0s to 20.0s; paper and cardboard sounds at 0–5s; @PAI's nasal breath and shirt fabric; at 20.0s one flat palm slap on the strings and a short muted thud, then 0.5s of near silence with only room tone; the dry slap of the high-five at 22.0s; from 22.0s a bright instrumental pop track (about 118 bpm, major key, handclaps and finger snaps on beats 2 and 4, bouncy electric bass, a plucky marimba-like synth riff, tight kick) entering on the clap, about 12 dB under the voice-over, rising a little after the voice-over ends at 29.2s, stopping dead on a one-beat button at 30s. NO other music, NO vocals or lyrics in the track, NO laugh track, NO record scratch.
+
+WORLD — a Brazilian bookshop and stationery store, back-to-school season, late afternoon: tall shelves of notebooks, backpacks, pencil cases and binders in cobalt, navy, dusty magenta-pink, warm yellow and white, a cobalt-blue feature wall, light-wood display tables, a polished floor, a shopfront window with half-closed venetian blinds, linear tubes on the ceiling; lived-in and slightly worn, not a showroom; NO green on any object; all packaging, price tags and signs show colour blocks and abstract marks only, NO readable text on anything; NO other shoppers.
+
+NEGATIVE: @PAI's lips moving during 0–17.7s, @PAI lip-syncing the off-screen voices, @PAI looking into the lens, @PAI startled or jumping at the reveal, anyone visible before 16.2s (hand, shoulder, hair, child, guitar neck), a cut or jump cut, zoom or push-in, whip pan, orbit, drone, hand-held shake, gimbal glide, slow motion, a slow, eased or gliding reveal, a reveal longer than about one second, sides swapped, mirrored positions, @FILHO or @LIVREIRO speaking on camera, the pair looking into the lens, the guitar fading out instead of stopping dead, the guitar returning after 20.0s, any music beyond the guitar and the pop track, stinger, record scratch, whoosh, shop PA music, vocals or lyrics in the pop track, laugh track, subtitles, captions, on-screen text, logos, readable letters or numbers on any surface, any change of light during the take (dimming, ramp, swell, flash, flicker, colour shift), teal-and-orange grade, green cast, green objects, neon saturation, cold blue daylight, flat even light, hard-edged shadows, overexposed or blown skin, crushed muddy blacks, HDR look, heavy film grain, vignette overlay, lens flares, anamorphic streaks, glow overlays, nightclub colours, other shoppers, clones, twins, sharp background faces, warped hands on the guitar or in the high-five, extra fingers, glassy stare, frozen pupils, plastic skin, beauty retouching, clean-CGI gloss, clean showroom set, vertical or square framing, watermark.
+
+[ORDER: ONE continuous take, 30s, 16:9, 24p, TARDE DOURADA look, constant light, locked-off dolly camera then one fast hard pull-back — (0–5s) CU @PAI frontal 63°, eyes on notebook then markers, voice lines 1–2 off-screen — (5–9s) line 3, eyes flick to the voice, lips pressed — (9–16s) line 4, a swallow, the mouth almost gives — (16–18s) at 16.2s the dolly is yanked straight back to 2.4 m in about one second and catches the boy (left) and the bookseller (right) leaning in at his ears; they straighten, innocent; @PAI looks left, right, then speaks first on camera at 17.7s — (18–22s) a palm kills the guitar dead at 20.0s, silence, his second line, the high-five at 22.0s — (22–30s) celebration, announcer voice-over, pop track, hard end on the button mid-laugh. Invariants: father alone in frame until 16.2s; father's lips sealed until 17.7s; one take and a reveal of about one second; boy left / father centre / bookseller right; guitar plays until a palm kills it dead at 20.0s and never returns; light identical in every frame, sun frame-right; no green. Look: low golden sun through blinds, warm amber and umber with cobalt and dusty pink, violet-black shadows, real skin, shallow creamy focus, no flares. Only the guitar and the pop track; no other music. NO subtitles, NO on-screen text.]</pre>
+    </div>
+    <div class="fold panel" style="border-radius:12px;margin-top:12px;overflow:hidden">
+      <div class="bar"><span class="bar-l">card de geração</span><button class="copy" data-target="#card">Copiar</button></div>
+      <pre id="card">GENERATION CARD
+Model: Seedance 2.5 · Task: text-to-video (sem referências)
+Duration: 30s (= timeline) · Aspect: 16:9 · Resolution: draft 480p → final 1080p · Audio: on
+Attach in this order: nada é obrigatório. Opcional, se a plataforma aceitar rostos: 1) retrato do pai —
+identidade de @PAI · 2) retrato do filho — identidade de @FILHO · 3) retrato do livreiro — identidade
+de @LIVREIRO (máx. 3 pessoas referenciadas; ao anexar, acrescentar um bloco REFERENCES com um job por
+imagem e "IGNORE their backdrops, lighting and colour grade"). Estilo: o style ref TARDE DOURADA já está
+em texto dentro do prompt; não anexe quadros do filme de referência (têm rosto, logo e texto).
+Notes: gere o draft 480p primeiro e confira, nesta ordem: (1) a boca do pai fechada até 17,7 s;
+(2) ninguém aparece em quadro antes da puxada; (3) a puxada dura cerca de 1 s e é seca, sem deslizar;
+(4) o violão para seco em ~20 s e não volta; (5) a luz é a mesma do primeiro ao último frame, sol
+vindo da direita; (6) nada verde; (7) as falas cabem nos segundos (ver nota de ritmo abaixo);
+(8) nenhum texto/legenda aparece. Risco mais provável: a puxada sair lenta ou virar corte, e o ritmo das
+falas (a fala 4 é a mais longa).</pre>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head">
+      <h2>Checklists</h2>
+      <p>O progresso fica salvo neste navegador.</p>
+    </div>
+    <div class="checks">
+      <div class="panel check-card">
+        <h3>Conferir no rascunho 480p</h3>
+        <label class="check"><input type="checkbox" data-k="qa1"><span>Boca do pai fechada até 17,7 s</span></label>
+        <label class="check"><input type="checkbox" data-k="qa2"><span>Ninguém aparece em quadro antes da puxada (16,2 s)</span></label>
+        <label class="check"><input type="checkbox" data-k="qa3"><span>A puxada dura ~1 s, é seca e sem deslizar; sem corte</span></label>
+        <label class="check"><input type="checkbox" data-k="qa4"><span>Filho à esquerda, pai ao centro, livreiro à direita</span></label>
+        <label class="check"><input type="checkbox" data-k="qa5"><span>Violão sem falha; morre seco aos 20,0 s e não volta</span></label>
+        <label class="check"><input type="checkbox" data-k="qa6"><span>Luz idêntica do primeiro ao último frame, sol à direita</span></label>
+        <label class="check"><input type="checkbox" data-k="qa7"><span>Nada verde; nenhum texto, legenda ou logo</span></label>
+        <label class="check"><input type="checkbox" data-k="qa8"><span>As 8 falas cabem, na ordem; a fala 4 não invade a puxada</span></label>
+        <label class="check"><input type="checkbox" data-k="qa9"><span>Trilha pop entra na palma (22,0 s); locução inteligível; botão em 30 s</span></label>
+      </div>
+      <div class="panel check-card">
+        <h3>Pós-produção (fora do prompt)</h3>
+        <label class="check"><input type="checkbox" data-k="po1"><span>Lettering 1: "60 produtos com descontos imbatíveis"</span></label>
+        <label class="check"><input type="checkbox" data-k="po2"><span>Lettering 2: "A cada R$ 400 em compras = 01 sacola exclusiva"</span></label>
+        <label class="check"><input type="checkbox" data-k="po3"><span>Assinatura "Livraria Leitura · 60 anos" nos segundos finais (logo oficial)</span></label>
+        <label class="check"><input type="checkbox" data-k="po4"><span>Mix: violão e trilha contra a voz; sem clique no fim</span></label>
+        <label class="check"><input type="checkbox" data-k="po5"><span>Se o monstro for aprovado: elenco real (influenciadores) e uniforme real da Leitura</span></label>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="sec-head"><h2>Plano B e decisões em aberto</h2></div>
+    <ul class="notes-list">
+      <li><b>Se o rascunho estourar o tempo:</b> dividir no segundo 16. Geração A (0–16 s): close com as quatro vozes. Geração B (16–30 s): puxada, pai, palmas, locução, usando o último frame de A como primeiro frame de B. O prompt de B se escreve a partir deste.</li>
+      <li><b>Se a puxada sair lenta ou virar corte:</b> aceitar um corte seco para o plano aberto tem efeito cômico parecido; o rascunho mostra na hora.</li>
+      <li><b>Formato:</b> 16:9 por ser filme de TV. Para vertical 9:16 (redes) a puxada e o enquadramento da revelação mudam: peça uma variação.</li>
+      <li><b>Escolhas minhas, não do briefing:</b> sotaque neutro, elenco, figurino e cores, trilha pop e violão descritos por mim, os dois colados nos ouvidos do pai.</li>
+      <li><b>O que usei de referência:</b> o vídeo do formato de rede social (17,6 s, vertical) e o vídeo BIS (26,7 s, 1080p, só a estética). Li só a imagem de ambos; não analisei o áudio. Não chegaram imagens de storyboard, só o texto.</li>
+    </ul>
+    <p class="foot" style="margin-top:14px">Arquivos do projeto no branch <code>MONSTRO-LEITURA-teste</code>, pasta <code>projetos/monstro-leitura-teste/</code>.</p>
+  </section>
+
+</div>
+
+<script>
+(function () {
+  function fallbackCopy(el) {
+    try {
+      var r = document.createRange(); r.selectNodeContents(el);
+      var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+    } catch (e) {}
+  }
+  document.querySelectorAll('button.copy').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var el = document.querySelector(btn.dataset.target);
+      if (!el) return;
+      var label = btn.textContent;
+      function ok() { btn.classList.add('copied'); btn.textContent = 'Copiado'; setTimeout(function () { btn.classList.remove('copied'); btn.textContent = label; }, 1600); }
+      function fail() { fallbackCopy(el); btn.textContent = 'Selecionado: Ctrl+C'; setTimeout(function () { btn.textContent = label; }, 2200); }
+      try {
+        navigator.clipboard.writeText(el.textContent).then(ok, fail);
+      } catch (e) { fail(); }
+    });
+  });
+  document.querySelectorAll('.check input').forEach(function (cb) {
+    var key = 'monstro-leitura-v1-pai-' + cb.dataset.k;
+    try { if (localStorage.getItem(key) === '1') { cb.checked = true; cb.closest('.check').classList.add('done'); } } catch (e) {}
+    cb.addEventListener('change', function () {
+      cb.closest('.check').classList.toggle('done', cb.checked);
+      try { localStorage.setItem(key, cb.checked ? '1' : '0'); } catch (e) {}
+    });
+  });
+})();
+</script>
