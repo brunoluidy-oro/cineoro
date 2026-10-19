@@ -41,7 +41,7 @@ Os pacotes prontos estão em [`dist/`](dist/), um `.skill` por skill (o arquivo 
 - **claude.ai / app do Claude:** envie cada arquivo `.skill` na área de Skills das configurações. Instale pelo menos `cineoro-director`; o ideal é instalar as 10.
 - **Claude Code:** copie as pastas de [`skills/`](skills/) para `~/.claude/skills/` (ou para `.claude/skills/` do projeto).
 
-> **Conflito com a cinedance:** as duas disparam com "prompt de Seedance". Se mantiver as duas ativas, peça explicitamente "usa o cineoro" ou desative a cinedance. A CINEORO cobre tudo o que ela fazia.
+> **Quando a CINEORO dispara:** só quando você pede por nome ("usa o cineoro", "com a cineoro", "cineoro, monta…"). Um pedido comum de prompt de vídeo ou de Seedance, sem citar a CINEORO, continua indo para a **cinedance** (mais leve, para conteúdos menos elaborados). Os departamentos também só entram quando você os chama pelo nome ou quando o diretor os aciona.
 
 ## Como pedir
 

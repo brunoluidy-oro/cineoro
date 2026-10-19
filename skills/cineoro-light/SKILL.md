@@ -1,6 +1,6 @@
 ---
 name: cineoro-light
-description: Light, exposure and film-look department of the CINEORO directing tree for Seedance 2.5 video prompts. Writes the LIGHT block (motivated sources, direction, side, falloff, exposure priority, Kelvin, continuity of the lit side across cuts), the FILM LOOK lock (capture medium, grain, halation, roll-off, colour as material plus light plus role, no vignette) and the NO LENS FLARES fence. Use it whenever a prompt needs lighting or a consistent look, whenever a take came back flat, over-bright, front-lit, with milky or crushed blacks, a dark vignette, a teal-and-orange grade, invented daylight, lens flares, HDR glow or a look that changes between shots, and whenever the user asks how to light a scene or keep colour consistent across a film. Triggers include "iluminação", "luz natural", "fotografia do filme", "grade", "color", "the image is too bright", "flat light", "keep the color consistent", "night scene by firelight", "film look". Called by cineoro-director; also usable on its own.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (light, exposure and film look: LIGHT block, FILM LOOK, flare and glow policy, colour). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run for lighting and look consistency.'
 ---
 
 # CINEORO · LIGHT

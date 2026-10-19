@@ -1,6 +1,6 @@
 ---
 name: cineoro-sound
-description: Voice, dialogue and sound department of the CINEORO directing tree for Seedance 2.5 video prompts, where speech, lip-sync, effects and ambience are generated in the same pass as the picture. Writes the DIALOGUE and VOICE block (who speaks, on or off screen, language and accent, delivery as mouth and breath physics, timing in seconds), the per-character VOICE LOCK, audio-reference binding, and the SOUND block (specific diegetic sources, silence design, a music policy that actually holds). Use it whenever a shot has a spoken line, a voice that must stay identical across shots, a foreign or invented language, whispering, crying or screaming speech, an off-screen voice, or whenever a take came back with unwanted music, subtitles, wrong lips moving, an English accent on another language, robotic voice, echo or chimes. Triggers include "diálogo", "fala", "voz", "sotaque", "dublagem", "lip sync", "no music", "keep the same voice", "she whispers", "voice reference". Called by cineoro-director; also usable on its own.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (voice, dialogue and sound: DIALOGUE and VOICE LOCK, music policy, soundscape). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run for speech, accents, music and sound.'
 ---
 
 # CINEORO · SOUND

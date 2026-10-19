@@ -1,6 +1,6 @@
 ---
 name: cineoro-story
-description: Story, coverage and editing department of the CINEORO directing tree for Seedance 2.5. Reads a script, treatment or beat silently as a director (goal, obstacle, tactic, reversal, value shift) and turns it into coverage - how many generations a scene needs, how many shots inside each 4-30 second generation, where cuts are motivated, which beat holds, how it ends - then writes the SOUL line, the plain-language header and the TIMELINE skeleton in whole seconds. Also plans editing grammar (documentary jump cuts vs authored moments), motifs across a film and hand-offs between generations. Use it whenever the input is a script, scene, sequence or story idea rather than a single image, when the user asks to break something into shots or decide pacing, or when a take felt rushed, overstuffed, mis-cut or ended a beat early. Triggers - "decupagem", "roteiro", "shotlist", "quantos planos", "ritmo", "montagem", "jump cut", "turn this script into prompts". Called by cineoro-director; never rewrites the user's script.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (story, coverage and editing: reads a script as a director, decides generations, shots, cuts, timeline and SOUL line). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run for scripts, scenes, shotlists and pacing.'
 ---
 
 # CINEORO · STORY

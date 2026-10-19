@@ -1,6 +1,6 @@
 ---
 name: cineoro-bible
-description: Project-bible builder of the CINEORO directing tree for Seedance 2.5 films, series, ads and music videos. Interviews the user (or reads the treatment, script and references) and generates a dedicated PROJECT SKILL - the film's bible - with look templates pasted verbatim into every prompt, the @TAG registry, cast sheets with voice locks, props with their functions, world rules, project anti-AI-tell rules and negatives, reference prompts by scene type, the script in its original language, an optional invented-language dictionary, and the director's statement as functional rules. Use it whenever the user starts a new film or series, says "new project", "bíblia do filme", "skill do projeto", "lock the style for the whole film", "create a project bible for my film", or when prompts for one project keep drifting in look, voice or naming. Works with cineoro-director, which uses the project skill as its source of verbatim templates.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (project bible builder: interviews the user and generates a dedicated project skill with locked templates, tags, voices, exceptions and reference prompts). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run when a new film or series needs a bible.'
 ---
 
 # CINEORO · BIBLE

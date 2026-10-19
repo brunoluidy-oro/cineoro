@@ -1,6 +1,6 @@
 ---
 name: cineoro-assets
-description: References and assets department of the CINEORO directing tree for Seedance 2.5. Builds reference assets (face anchor, turnaround, props on neutral ground, location plates, voice clips) under one @TAG convention, writes the REFERENCES block giving each attached image, video or audio exactly one job (identity, keyframe for shot N, world, object only, voice, motion, previous take) plus a scope of what to ignore, and runs the iteration loop - keyframes from approved takes, draft then final, timestamped edits, extensions. Use it whenever a prompt attaches references; when identity drifted, a face swapped, a reference's background or light leaked in, or a take needs fixing without regenerating everything; and when the user asks how to make character sheets, Elements, keyframes or reference images for Seedance or Higgsfield. Triggers - "referência", "character sheet", "keyframe", "@image", "identity drift", "refazer o take", "extend", "edit video". Called by cineoro-director; also usable alone.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (references and assets: reference roles and scope, keyframes, standard character sheet template, draft/edit/extend loop). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run whenever references or character sheets are involved.'
 ---
 
 # CINEORO · ASSETS

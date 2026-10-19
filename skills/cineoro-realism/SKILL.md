@@ -1,6 +1,6 @@
 ---
 name: cineoro-realism
-description: Believability department of the CINEORO directing tree for Seedance 2.5 - the anti-AI-tell doctrine. Writes the PHYSICS and MATERIAL block (mass, resistance, gradual states, fluids, particles, over-real textures), builds the NEGATIVE block (standing spine, scene-type library, this shot's specific failures), picks which invariants get repeated across blocks, and diagnoses failed takes with a symptom-cause-fix table routed to the right department. Use it whenever a prompt must read as real live-action footage, and whenever a take came back looking like AI - plastic or waxy skin, doll eyes, floaty physics, looping motion, clean CGI surfaces, flat crowds of sharp faces, invented daily life, bright red blood, gore where violence should be implied - or the user asks why a shot looks fake. Triggers - "parece IA", "looks fake", "anti-AI", "slop", "plastic skin", "realismo", "negative prompt", "física", "what went wrong in this take". Called by cineoro-director; also usable alone.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (believability: anti-AI-tell doctrine, PHYSICS and MATERIAL, NEGATIVE block, take diagnosis). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run for realism, negatives and repairing failed takes.'
 ---
 
 # CINEORO · REALISM

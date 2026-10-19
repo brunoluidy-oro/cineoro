@@ -1,6 +1,6 @@
 ---
 name: cineoro-performance
-description: Acting department of the CINEORO directing tree for Seedance 2.5 video prompts. Builds the ACTING block for every face on camera — the invested tactic (event, motive, goal, obstacle, tactic, moment-to-moment) plus the living-eyes physiology layer that kills glassy AI stares — and describes behaviour as body mechanics instead of poses. Use it whenever a prompt has a character, an animal or a crowd on camera, whenever a generated take came back with dead eyes, doll faces, melodrama, overacting, frozen listeners or fake crying, and whenever the user asks how a character should play a moment. Triggers include "acting task", "the eyes are dead", "olhar de vidro", "atuação", "como ele reage", "make her cry believably", "madness scene", "he looks like a doll". Called by cineoro-director; also use it on its own for performance questions.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (acting: the ACTING block, tactic instead of emotion, living eyes, behaviour as mechanics). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run for any face, animal or crowd on camera.'
 ---
 
 # CINEORO · PERFORMANCE

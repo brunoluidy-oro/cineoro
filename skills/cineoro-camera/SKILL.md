@@ -1,6 +1,6 @@
 ---
 name: cineoro-camera
-description: Camera and optics department of the CINEORO directing tree for Seedance 2.5 video prompts. Decides shot size, field of view in degrees, lens character (including anamorphic and large-format looks), camera height, side, distance, operator behaviour (handheld physics, travels vs stays put, push-ins, pull-backs, whips), focus behaviour, horizon, composition and per-shot camera specs inside multi-shot timelines. Use it whenever a prompt needs a CAMERA block or per-shot framing, whenever a take came back with lens drift, gimbal-smooth or drone-like motion, a static locked frame, centred symmetrical composition, mushy framing, a flipped axis or the wrong shot size, and whenever the user asks how to frame, move or lens a shot. Triggers include "camera block", "enquadramento", "lente", "plano fechado", "câmera na mão", "push-in", "anamorphic", "FOV", "the lens keeps drifting", "too smooth". Called by cineoro-director; also usable on its own.
+description: 'Department of the CINEORO directing tree for Seedance 2.5 (camera and optics: shot size, FOV in degrees, operator, composition, lens looks). Use ONLY when the user explicitly asks for CINEORO or when cineoro-director calls it; never trigger on generic video-prompt, Seedance or Higgsfield requests (those go to cinedance). Used inside a CINEORO run for CAMERA blocks and per-shot framing.'
 ---
 
 # CINEORO · CAMERA
