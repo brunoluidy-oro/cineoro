@@ -39,11 +39,11 @@ def asset_prompts_html() -> str:
 
 def asset_prompts_md() -> str:
     lines = [
-        "# Prompts de assets (GPT): sheets de produto, uma visão por imagem",
+        "# Prompts de assets (GPT): pote real e objetos toon",
         "",
         "Gerado por `build.py` a partir de `assets_prompts.py`. Edite lá, não aqui.",
         "",
-        "Como usar: uma imagem por vez; anexe o que a nota pede; depois de aprovada, anexe a imagem nas visões seguintes.",
+        "Como usar: uma imagem por vez; anexe o que a nota pede; depois de aprovada, anexe a imagem aprovada nas seguintes.",
         "",
     ]
     for obj in OBJECTS:

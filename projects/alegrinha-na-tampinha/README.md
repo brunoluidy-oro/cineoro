@@ -28,7 +28,7 @@ Filme de 60″ para o iogurte **Laticínios Porto Alegre** (bandeja de 540 g, 6 
 
 ## Bloqueia o primeiro draft (P0)
 
-1. Foto do pote avulso + tampa (real).
+1. Pote avulso (stand-in gerado com o prompt de `assets-prompts.md`: copo rosa ribado, tampa verde impressa com aba "PUXE").
 2. Cozinha de verão (placas) e os quadros da Codemig.
 3. Fábrica: planta, panorama-mestre e uma placa por setor.
 

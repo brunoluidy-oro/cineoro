@@ -201,7 +201,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 
   <div class="callout berry" style="margin-top:22px">
     <strong>O que bloqueia o primeiro draft</strong>
-    Três assets: foto do pote avulso com tampa, placas da cozinha de verão (mais os quadros do filme da Codemig, para a textura) e a fábrica (planta, panorama-mestre e uma placa por setor). A vaca fosca já chegou.
+    Três assets: o pote avulso (o prompt de stand-in já está pronto), placas da cozinha de verão (mais os quadros do filme da Codemig, para a textura) e a fábrica (planta, panorama-mestre e uma placa por setor). A vaca fosca já chegou.
   </div>
 
   <div class="grid g3" style="margin-top:14px">
@@ -259,7 +259,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <div class="k">Som</div><div class="v">só SFX dentro das gerações. O “créqui” de herói, a locução e a música entram em pós</div>
     </div>
   </div>
-  <p style="font-size:13px;color:var(--muted);margin-top:8px">Risco previsto para a macro: o rótulo impresso da bandeja, visto de perto, expõe qualquer microtexto inventado. Os closes mais seguros são nas pontes de plástico entre os potes, na superfície do pote com condensação, na borda da tampa e no iogurte. Rótulo em close só com arte em alta ou composição em pós.</p>
+  <p style="font-size:13px;color:var(--muted);margin-top:8px">Risco previsto para a macro: a tampa impressa da bandeja (logo, texto e código de barras), vista de perto, expõe qualquer microtexto inventado. Os closes mais seguros são nas pontes de plástico entre os potes, nas paredes ribadas do copo com condensação, na borda da tampa e no iogurte. Tampa impressa em close só com arte em alta ou composição em pós.</p>
 
   <h3 style="margin-top:22px">Fábrica <span class="tag t-ok">decidido: B</span></h3>
   <div class="grid g2">
@@ -391,15 +391,15 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <div class="scroll-x"><table>
     <thead><tr><th>Prio</th><th>Asset</th><th>O que precisa conter</th><th>Bloqueia</th></tr></thead>
     <tbody>
-      <tr><td><span class="tag t-p0">P0</span></td><td><b>@POTE</b> real</td><td>foto do pote avulso: fechado, aberto, tampa por baixo, como destaca da bandeja, escala na mão. O render da bandeja mostra o rótulo e as laterais dos potes, mas não a tampa. Há prompt de stand-in na seção seguinte.</td><td>cenas 1, 2, 7</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@POTE</b> real (stand-in)</td><td>gerar com o prompt da seção seguinte: copo rosa ribado com borda branca e tampa verde impressa com aba, fechado e aberto no mesmo painel. A tampa verde é o que o render da bandeja mostra de cima. Uma foto do pote real só serve para conferir.</td><td>cenas 1, 2, 7</td></tr>
       <tr><td><span class="tag t-p0">P0</span></td><td><b>@COZINHA</b> de verão</td><td>2 ou 3 placas: cozinha com luz natural forte, interior da geladeira, balcão. Mais os quadros do filme da Codemig, para a textura.</td><td>cenas 1, 2, 7</td></tr>
       <tr><td><span class="tag t-p0">P0</span></td><td><b>@FABRICA</b> mestre e setores</td><td>panorama-mestre dos quatro setores, mais 2 a 3 placas por setor, sem personagens e sem texto, em vinil fosco.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Macro-texturas do produto real</td><td>fotos de perto (celular com macro serve): superfície do pote com condensação, ponte de plástico entre potes, borda da tampa, iogurte. Alimentam as tomadas da sonda.</td><td>cena 1</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Alegrinha: rosto, mãos, reações</td><td>close do rosto (âncora de identidade), mãos de luva e uma folha de reações para comédia (olho apertado, olho fechado de prazer, susto, orgulho), no mesmo vinil fosco.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>4 figurinos</td><td>Seletora (touca, galocha), Cientista (jaleco, crachá em branco), Som (headphone), Pintora (boina, avental). Cada figurino é uma tag nova.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Kit de props toon</td><td>frutas (morango, banana, mamão, maçã, coco), tubos de polpa e ensaio, microfone, tampas, bisnaga de confeiteiro, cavaletes.</td><td>cenas 3 a 6</td></tr>
-      <tr><td><span class="tag t-p1">P1</span></td><td>Sheets de produto (real e toon)</td><td>prompts curtos prontos na seção seguinte (pote real e toon). O pote real é um stand-in até chegar a foto.</td><td>cenas 1, 5, 6</td></tr>
-      <tr><td><span class="tag t-p1">P1</span></td><td>Bandeja real: outros ângulos</td><td>topo e lado, a partir de foto ou render. Hoje só temos o 3/4 com o rótulo.</td><td>cenas 1, 7</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>Sheets de produto (real e toon)</td><td>prompts curtos prontos na seção seguinte (pote real e toon), em painel dividido: fechado à esquerda, aberto à direita.</td><td>cenas 1, 5, 6</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>Bandeja real: outros ângulos</td><td>lado e por baixo, a partir de foto ou render. Hoje só temos o 3/4 visto de cima, com as tampas verdes.</td><td>cenas 1, 7</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Keyframes</td><td>saem dos rascunhos aprovados: o último quadro da cena 1 alimenta as cenas 2 e 7.</td><td>cenas 2, 7</td></tr>
       <tr><td><span class="tag t-p2">P2</span></td><td>Arte e áudio de pós</td><td>logo vetorial, tipografia dos letterings, arte da mensagem da tampa, layout da cartela, locução, SFX e trilha. Ver Pós e áudio.</td><td>cena 8, final</td></tr>
     </tbody>
@@ -409,24 +409,22 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 <!-- ===================== PROMPTS DE ASSETS ===================== -->
 <section id="prompts-assets">
   <h2>Prompts de assets para o GPT</h2>
-  <p class="sub">Curtos, uma imagem por vez. A bandeja real você já tem, então aqui estão o pote real e a versão toon. Gere o fechado primeiro e anexe-o nas visões seguintes.</p>
+  <p class="sub">Curtos, uma imagem por vez. A bandeja real você já tem, então aqui estão o pote real e a versão toon. Os potes saem num painel dividido em 16:9: fechado à esquerda, aberto com a tampa por perto à direita.</p>
   <details><summary>Pote real (stand-in) <span class="tag t-live">captação</span> <code>@POTE</code></summary><div>
-<p><b>Anexar:</b> Anexe a bandeja Morango (a de 1920×1080). Na visão aberta, anexe também o pote fechado aprovado.</p>
-<p style="color:var(--muted)">A tampa não aparece em nenhuma imagem da bandeja, então o GPT vai inventá-la. Use como stand-in até chegar a foto do pote real, e confira se a tampa bate com a verdadeira.</p>
-<div class="pview"><div class="pbar"><span>Visão: fechado</span><button class="copy" type="button" data-target="p-pote-real-0">Copiar prompt</button></div><pre class="prompt" id="p-pote-real-0">Using the attached tray as reference, create ONE single yogurt pot taken from it, with its lid closed. Same pale-pink cup, same green label with the white shield and gold bell, scaled to one pot. Three-quarter view, centered, plain medium-grey background, soft studio light. Photorealistic. One pot only: no tray, no hands, no new text.</pre></div>
-<div class="pview"><div class="pbar"><span>Visão: aberto</span><button class="copy" type="button" data-target="p-pote-real-1">Copiar prompt</button></div><pre class="prompt" id="p-pote-real-1">The same pot as the attached image, now with the lid peeled off and resting beside the cup, yogurt visible inside. Same view, background and light. Photorealistic.</pre></div>
+<p><b>Anexar:</b> Anexe a bandeja Morango (a de 1920×1080).</p>
+<p style="color:var(--muted)">A tampa está descrita em palavras, a partir do que você explicou: película verde impressa, quadrada de cantos arredondados, com aba. Se o recorte ou a aba reais forem diferentes, ajuste só a frase da tampa.</p>
+<div class="pview"><div class="pbar"><span>Visão: painel: fechado à esquerda, aberto à direita</span><button class="copy" type="button" data-target="p-pote-real-0">Copiar prompt</button></div><pre class="prompt" id="p-pote-real-0">A 16:9 image split into two equal panels by a thin vertical line, same plain medium-grey background and soft studio light in both. LEFT: one single yogurt pot with its lid closed. RIGHT: the same pot opened, the lid resting against the cup beside it, smooth pink yogurt visible inside. Three-quarter view from above in both. The cup is pink, rounded-square, with vertical ribs and a thin white rim. The lid is a flat rounded-square film printed in green, with a white shield logo with a small gold bell, the word MORANGO, a strawberry picture and a small pull tab at one corner. Use the attached tray for the exact colors and lid print. Photorealistic. One pot per panel: no tray, no hands, no other text.</pre></div>
 </div></details>
 <details><summary>Bandeja toon (fosca) <span class="tag t-toon">animação</span> <code>@BANDEJA_TOON</code></summary><div>
 <p><b>Anexar:</b> Anexe a bandeja Morango e a model sheet da vaca fosca.</p>
 <p style="color:var(--muted)">Sem texto, sem número, sem código de barras: o logo e as letras entram em pós.</p>
-<div class="pview"><div class="pbar"><span>Visão: 3/4</span><button class="copy" type="button" data-target="p-bandeja-toon-0">Copiar prompt</button></div><pre class="prompt" id="p-bandeja-toon-0">Redraw the attached tray as a 3D toy object in the same matte toy style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Same shape and same six pots, same green label layout, but simplified: a white shield with a small gold bell, big flat strawberry shapes, no text, no numbers, no barcode. Three-quarter view, centered, plain medium-grey background, soft studio light.</pre></div>
+<div class="pview"><div class="pbar"><span>Visão: 3/4</span><button class="copy" type="button" data-target="p-bandeja-toon-0">Copiar prompt</button></div><pre class="prompt" id="p-bandeja-toon-0">Redraw the attached tray as a 3D toy object in the same matte style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Same shape and same angle, six pink ribbed cups, each with its green lid, simplified: a white shield with a small gold bell, big flat strawberry shapes, no text, no numbers, no barcode. Plain medium-grey background, soft studio light.</pre></div>
 </div></details>
 <details><summary>Pote toon (fosco) <span class="tag t-toon">animação</span> <code>@POTE_TOON</code></summary><div>
-<p><b>Anexar:</b> Anexe a bandeja toon aprovada e a model sheet da vaca fosca. Nas visões seguintes, anexe o pote fechado aprovado.</p>
-<p style="color:var(--muted)">A tampa de frente serve ao Setor Tampinha e à cena do prêmio: o centro fica liso de propósito, porque a mensagem é escrita em pós.</p>
-<div class="pview"><div class="pbar"><span>Visão: fechado</span><button class="copy" type="button" data-target="p-pote-toon-0">Copiar prompt</button></div><pre class="prompt" id="p-pote-toon-0">ONE single yogurt pot taken from the attached toy tray, with its lid closed, in the same matte toy style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Pale-pink cup, green label band with a white shield and a small gold bell, one flat strawberry, no text. Three-quarter view, centered, plain medium-grey background, soft studio light.</pre></div>
-<div class="pview"><div class="pbar"><span>Visão: aberto</span><button class="copy" type="button" data-target="p-pote-toon-1">Copiar prompt</button></div><pre class="prompt" id="p-pote-toon-1">The same pot as the attached image, lid open and resting beside the cup, soft cream yogurt inside. Same view, background and light.</pre></div>
-<div class="pview"><div class="pbar"><span>Visão: tampa de frente</span><button class="copy" type="button" data-target="p-pote-toon-2">Copiar prompt</button></div><pre class="prompt" id="p-pote-toon-2">Only the lid of the attached pot, seen straight from above, underside facing the camera: a flat round matte cream disc with a thin ring of cream along the rim and a small pull tab. The center of the disc is completely smooth and empty. Plain medium-grey background, soft studio light.</pre></div>
+<p><b>Anexar:</b> Anexe a bandeja toon aprovada e a model sheet da vaca fosca. Para a tampa de frente, anexe o painel do pote aprovado.</p>
+<p style="color:var(--muted)">A tampa de frente é opcional: serve ao Setor Tampinha e à cena do prêmio. O centro fica liso de propósito, porque a mensagem é escrita em pós.</p>
+<div class="pview"><div class="pbar"><span>Visão: painel: fechado à esquerda, aberto à direita</span><button class="copy" type="button" data-target="p-pote-toon-0">Copiar prompt</button></div><pre class="prompt" id="p-pote-toon-0">A 16:9 image split into two equal panels by a thin vertical line, same plain medium-grey background and soft studio light in both. LEFT: one single yogurt pot with its lid closed. RIGHT: the same pot opened, the lid resting against the cup beside it, soft pink yogurt inside. Three-quarter view from above in both. Make it a 3D toy object in the same matte style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Pink ribbed cup with a thin white rim; the lid is a flat rounded-square green film with a white shield, a small gold bell, one flat strawberry and a small pull tab; no text.</pre></div>
+<div class="pview"><div class="pbar"><span>Visão: tampa de frente (opcional)</span><button class="copy" type="button" data-target="p-pote-toon-1">Copiar prompt</button></div><pre class="prompt" id="p-pote-toon-1">Only the lid of the attached toy pot, seen straight from above with its underside facing the camera: a flat rounded-square matte cream shape with a thin ring of pink yogurt along the edge and a small pull tab at one corner. The center is completely smooth and empty. Plain medium-grey background, soft studio light.</pre></div>
 </div></details>
 </section>
 
@@ -451,7 +449,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
         <dt>Como termina</dt><dd>Plano médio dele em pé na porta aberta, a bandeja na mão direita, séria demais para o que é.</dd>
         <dt>Direção</dt><dd>O POV é da geladeira, como você definiu. O recuo da macro é a “câmera que expande” do roteiro e vai do detalhe ao homem num único movimento. Verão: depois do recuo, o sol da janela entra pelo lado direito do quadro e a geladeira fica à esquerda.</dd>
         <dt>Usa</dt><dd>@HOMEM (temos), bandeja Morango (temos, um ângulo), <span class="pending">@COZINHA e macro-texturas (faltam)</span></dd>
-        <dt>Testar no draft</dt><dd><ul><li>seis potes na bandeja</li><li>a macro passa sobre o pote e a condensação, não sobre o rótulo impresso</li><li>o recuo não deforma a bandeja nem o logo</li><li>mãos: direita carrega a bandeja</li><li>geladeira à esquerda do quadro depois do recuo</li></ul></dd>
+        <dt>Testar no draft</dt><dd><ul><li>seis potes na bandeja</li><li>a macro passa sobre o pote e a condensação, não sobre a tampa impressa</li><li>o recuo não deforma a bandeja nem o logo</li><li>mãos: direita carrega a bandeja</li><li>geladeira à esquerda do quadro depois do recuo</li></ul></dd>
         <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
       </dl>
     </div>
@@ -678,7 +676,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <tbody>
       <tr><td>Congelar e descongelar</td><td>cenas 1, 2, 7</td><td>a geração 2a tenta o tempo parado na câmera; o plano B é pós</td><td>último quadro aprovado de 1c</td></tr>
       <tr><td>Letterings dos 4 setores</td><td>cenas 3 a 6</td><td>texto confiável não sai do motor</td><td>tipografia e estilo; nomes do roteiro: Sabores da Fazenda, Polpa de Verdade, Créqui Perfeito, Tampinha Recheada</td></tr>
-      <tr><td>Rótulo e logo da bandeja</td><td>cena 1, 7</td><td>logo e microtexto deformam, sobretudo em macro; composição rastreada se for preciso</td><td>logo vetorial e arte do rótulo em alta</td></tr>
+      <tr><td>Tampa impressa e logo da bandeja</td><td>cena 1, 7</td><td>logo e microtexto deformam, sobretudo em macro; composição rastreada se for preciso</td><td>logo vetorial e arte da tampa em alta</td></tr>
       <tr><td>Mensagem da tampa</td><td>cenas 6 e 7</td><td>“Parabéns! Você ganhou uma Alegrinha Colecionável” é texto longo</td><td>arte e tipografia</td></tr>
       <tr><td>Cena 8</td><td>52″ a 60″</td><td>assinatura, cartela e exibição dos chaveiros</td><td>layout da cartela, logo, stills dos chaveiros (temos)</td></tr>
       <tr><td>Locução</td><td>7 falas</td><td>o roteiro é em off; as gerações não têm fala</td><td>locutor ou scratch para fechar os tempos dos setores</td></tr>
@@ -699,7 +697,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <tr><td class="num">2</td><td><b>Dose de comédia:</b> seca (seriedade que se rompe) ou física (exagero de corpo)?</td><td>Seca em toda a captação, com um pico físico contido na vitória.</td><td>todas</td></tr>
       <tr><td class="num">3</td><td><b>Rosto da vaca:</b> sorriso fixo, como na model sheet, ou com reações (olho apertado, olho fechado, susto)?</td><td>Sorriso fixo; reação por orelha, sino, cabeça e corpo. Se quiser olhos expressivos, preciso de uma folha de reações.</td><td>cenas 3 a 6</td></tr>
       <tr><td class="num">4</td><td><b>Coleira vermelha:</b> a vaca fosca não tem, só o cordão. Pode ficar assim?</td><td>Sim.</td><td>assets</td></tr>
-      <tr><td class="num">5</td><td>Como é o pote real? A tampa é de alumínio ou plástico, como ela solta? O “créqui” é o estalo do pote saindo da bandeja? E “polpas” no roteiro quer dizer potes?</td><td>Sim para as duas suposições; preciso das fotos.</td><td>cenas 1, 2, 5, 7</td></tr>
+      <tr><td class="num">5</td><td><b>Pote real:</b> a tampa é a película verde impressa e descola inteira pela aba “PUXE”? O “créqui” é o estalo do pote saindo da bandeja? E “polpas” no roteiro quer dizer potes?</td><td>Sim para as três suposições.</td><td>cenas 1, 2, 5, 7</td></tr>
       <tr><td class="num">6</td><td>Qual sabor é o herói?</td><td>Morango, pelo contraste com o verde.</td><td>cenas 1, 7</td></tr>
       <tr><td class="num">7</td><td>Há outras versões (9:16, 1:1, 15″, 30″)? Uma faixa lateral não funciona em vertical.</td><td>Só 16:9, 60″.</td><td>todas</td></tr>
       <tr><td class="num">8</td><td>Quando a locução e a trilha existem? Os tempos dos setores são estimativa.</td><td>Ritmo de leitura estimado, a fechar com um scratch.</td><td>cenas 3 a 6</td></tr>
