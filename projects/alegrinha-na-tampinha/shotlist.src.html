@@ -1,0 +1,616 @@
+<title>Alegrinha na Tampinha</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap">
+<style>
+/* Layout: uma página de trabalho em seções ancoradas; nav fixa no topo, blocos de geração como fichas densas. */
+:root {
+  --bg: #f3f6f1;
+  --surface: #ffffff;
+  --surface-2: #eaf0e7;
+  --ink: #12261a;
+  --muted: #536a5a;
+  --line: #d3ddd0;
+  --green: #1d6b3c;
+  --green-soft: #dcefe0;
+  --berry: #c0324a;
+  --berry-soft: #f8dfe3;
+  --amber: #a86a00;
+  --amber-soft: #f9ecd0;
+  --slate: #5b6770;
+  --slate-soft: #e4e8ea;
+  --hall1: #f6d3d6;
+  --hall2: #cfeae3;
+  --hall3: #f7e3a1;
+  --hall4: #e3d6f1;
+  --font-display: "Bricolage Grotesque", "Trebuchet MS", system-ui, sans-serif;
+  --font-body: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1912; --surface: #15251b; --surface-2: #1b2f22; --ink: #e5efe7; --muted: #9ab2a1; --line: #28402f;
+    --green: #67c98c; --green-soft: #173a24; --berry: #f0768a; --berry-soft: #44202a;
+    --amber: #f2b84b; --amber-soft: #3d2f10; --slate: #a4b0b8; --slate-soft: #26323a;
+    --hall1: #5a3a3f; --hall2: #2f544d; --hall3: #655526; --hall4: #4a3d5e;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1912; --surface: #15251b; --surface-2: #1b2f22; --ink: #e5efe7; --muted: #9ab2a1; --line: #28402f;
+  --green: #67c98c; --green-soft: #173a24; --berry: #f0768a; --berry-soft: #44202a;
+  --amber: #f2b84b; --amber-soft: #3d2f10; --slate: #a4b0b8; --slate-soft: #26323a;
+  --hall1: #5a3a3f; --hall2: #2f544d; --hall3: #655526; --hall4: #4a3d5e;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body {
+  margin: 0; background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.55;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 72px;
+}
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); background: var(--bg); z-index: 20; }
+.wrap { max-width: 1040px; margin: 0 auto; }
+nav.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 15; background: var(--bg);
+  border-bottom: 1px solid var(--line); margin-inline: calc(-1 * max(16px, env(safe-area-inset-left, 0px)));
+  padding: 10px max(16px, env(safe-area-inset-left, 0px));
+}
+nav.top .row { max-width: 1040px; margin: 0 auto; display: flex; gap: 6px; overflow-x: auto; scrollbar-width: thin; }
+nav.top a {
+  flex: none; text-decoration: none; color: var(--muted); font-weight: 600; font-size: 13px;
+  padding: 6px 12px; border-radius: 999px; border: 1px solid transparent; white-space: nowrap;
+}
+nav.top a:hover { color: var(--ink); border-color: var(--line); }
+nav.top a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
+header.hero { padding: 40px 0 8px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+h1 { font-family: var(--font-display); font-weight: 700; font-size: clamp(34px, 6vw, 58px); line-height: 1.02; margin: 8px 0 10px; letter-spacing: -.02em; text-wrap: balance; }
+h2 { font-family: var(--font-display); font-weight: 700; font-size: clamp(24px, 3.4vw, 32px); line-height: 1.1; margin: 0 0 6px; letter-spacing: -.01em; text-wrap: balance; }
+h3 { font-family: var(--font-display); font-weight: 700; font-size: 18px; margin: 0 0 6px; }
+.lede { font-size: 17px; color: var(--muted); max-width: 62ch; margin: 0; }
+section { padding: 44px 0 4px; }
+section > .sub { color: var(--muted); max-width: 66ch; margin: 0 0 20px; }
+p { margin: 0 0 12px; max-width: 70ch; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 16px 18px; }
+.callout { background: var(--green-soft); border: 1px solid var(--line); border-radius: 10px; padding: 14px 18px; margin: 18px 0; }
+.callout.warn { background: var(--amber-soft); }
+.callout.berry { background: var(--berry-soft); }
+.callout strong:first-child { display: block; margin-bottom: 2px; }
+.grid { display: grid; gap: 14px; }
+.g2 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+.g3 { grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; border-radius: 4px; padding: 2px 7px; vertical-align: 1px; }
+.t-live { background: var(--green-soft); color: var(--green); }
+.t-toon { background: var(--amber-soft); color: var(--amber); }
+.t-post { background: var(--slate-soft); color: var(--slate); }
+.t-have { background: var(--green-soft); color: var(--green); }
+.t-p0 { background: var(--berry-soft); color: var(--berry); }
+.t-p1 { background: var(--amber-soft); color: var(--amber); }
+.t-p2 { background: var(--slate-soft); color: var(--slate); }
+.t-off { background: var(--slate-soft); color: var(--slate); }
+.scroll-x { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); background: var(--surface-2); white-space: nowrap; }
+tr:last-child td { border-bottom: 0; }
+td.num, th.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.timeline { display: flex; height: 44px; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); margin: 18px 0 6px; }
+.timeline div { display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: 700; min-width: 0; overflow: hidden; white-space: nowrap; border-right: 1px solid var(--bg); }
+.timeline div:last-child { border-right: 0; }
+.timeline .live { background: var(--green-soft); color: var(--green); }
+.timeline .toon { background: var(--amber-soft); color: var(--amber); }
+.timeline .post { background: var(--slate-soft); color: var(--slate); }
+.timeline-scale { display: flex; justify-content: space-between; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.thumbs { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px; }
+.thumb { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column; }
+.thumb img { width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block; background: var(--surface-2); }
+.thumb .cap { padding: 8px 10px 10px; font-size: 13px; }
+.thumb .cap b { display: block; font-family: var(--font-display); }
+.thumb .cap span { color: var(--muted); font-size: 12px; }
+.scene { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 16px; }
+.scene-head { display: flex; gap: 12px; align-items: flex-start; }
+.scene-head input { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--green); flex: none; cursor: pointer; }
+.scene-num { font-family: var(--font-display); font-weight: 700; font-size: 22px; min-width: 30px; color: var(--green); }
+.scene-desc { flex: 1; min-width: 0; }
+.scene-desc b { font-family: var(--font-display); font-size: 18px; display: block; }
+.scene.done .scene-desc b { text-decoration: line-through; color: var(--muted); }
+.gen { border: 1px solid var(--line); border-radius: 10px; margin-top: 12px; overflow: hidden; background: var(--bg); }
+.gen-bar { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; justify-content: space-between; padding: 9px 14px; background: var(--surface-2); border-bottom: 1px solid var(--line); font-size: 13px; font-weight: 600; }
+.gen-bar .meta { color: var(--muted); font-weight: 500; font-variant-numeric: tabular-nums; }
+dl.rows { margin: 0; padding: 4px 14px 10px; display: grid; grid-template-columns: minmax(110px, 150px) 1fr; gap: 0 14px; }
+dl.rows dt { font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); padding: 9px 0; border-top: 1px solid var(--line); }
+dl.rows dd { margin: 0; padding: 8px 0; border-top: 1px solid var(--line); min-width: 0; }
+dl.rows dt:first-of-type, dl.rows dd:first-of-type { border-top: 0; }
+dl.rows ul { margin: 0; padding-left: 18px; }
+dl.rows li { margin: 2px 0; }
+.pending { color: var(--berry); font-weight: 600; }
+.quote { font-style: italic; }
+details { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); margin: 10px 0; }
+summary { cursor: pointer; padding: 11px 16px; font-weight: 600; }
+details > div { padding: 2px 16px 14px; }
+.plan-svg { width: 100%; height: auto; display: block; }
+.plan-svg text { fill: var(--ink); font-family: var(--font-body); font-size: 12px; }
+.plan-svg .small { font-size: 11px; fill: var(--muted); }
+.plan-svg .stroke { stroke: var(--ink); stroke-width: 1.5; fill: none; }
+.plan-svg .belt { fill: var(--surface-2); stroke: var(--ink); stroke-width: 1.5; }
+.plan-svg .gate { fill: var(--bg); stroke: var(--green); stroke-width: 3; }
+.plan-svg .cow { fill: var(--surface); stroke: var(--ink); stroke-width: 1.5; }
+.plan-svg .ear { fill: var(--ink); }
+.plan-svg .cam { stroke: var(--berry); stroke-width: 2.5; fill: none; }
+.plan-svg .camfill { fill: var(--berry); }
+.plan-svg .h1 { fill: var(--hall1); } .plan-svg .h2 { fill: var(--hall2); } .plan-svg .h3 { fill: var(--hall3); } .plan-svg .h4 { fill: var(--hall4); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: 13px; color: var(--muted); margin-top: 8px; }
+ol.steps { margin: 0; padding-left: 20px; } ol.steps li { margin: 6px 0; max-width: 70ch; }
+.kv { display: grid; grid-template-columns: minmax(120px, 190px) 1fr; gap: 0 14px; }
+.kv > div { padding: 8px 0; border-top: 1px solid var(--line); min-width: 0; }
+.kv > div:nth-child(-n+2) { border-top: 0; }
+.kv .k { font-weight: 700; }
+footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 14px; }
+@media (max-width: 640px) {
+  dl.rows, .kv { grid-template-columns: 1fr; }
+  dl.rows dt { padding-bottom: 0; border-top: 1px solid var(--line); }
+  dl.rows dd { border-top: 0; padding-top: 2px; }
+  dl.rows dt:first-of-type { border-top: 0; }
+  .kv > div:nth-child(2) { border-top: 0; } .kv > div:nth-child(-n+2) { border-top: 0; }
+  .kv .k { padding-bottom: 0; } .kv .v { border-top: 0; padding-top: 0; }
+  .timeline div { font-size: 10px; }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+</style>
+
+<nav class="top" aria-label="Seções"><div class="row">
+  <a href="#resumo">Resumo</a><a href="#referencias">Referências</a><a href="#direcoes">Direções</a><a href="#fabrica">Fábrica</a>
+  <a href="#assets">Assets</a><a href="#shotlist">Shotlist</a><a href="#pos">Pós e áudio</a><a href="#perguntas">Perguntas</a>
+</div></nav>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">Filme 60″ · Laticínios Porto Alegre · Seedance 2.5 · CINEORO</div>
+  <h1>Alegrinha na Tampinha</h1>
+  <p class="lede">Decupagem v0 e plano de assets. Os prompts ainda não foram escritos, de propósito: primeiro travamos a direção da fábrica e os assets que bloqueiam o primeiro draft.</p>
+  <p class="small" style="color:var(--muted);font-size:13px;margin-top:10px">Título de trabalho, tirado da frase da promoção. Branch <code>claude/vibrant-goodall-jpk3x5</code>, pasta <code>projects/alegrinha-na-tampinha/</code>.</p>
+</header>
+
+<!-- ===================== RESUMO ===================== -->
+<section id="resumo">
+  <h2>Resumo</h2>
+  <p class="sub">Dois mundos. Na captação, um homem abre a geladeira, destaca um pote da bandeja e lambe a tampa. Na animação, Alegrinhas vestidas de funcionárias, cientistas, técnicas de som e pintoras mostram de onde vem esse sabor. A história sai do produto e volta para ele.</p>
+
+  <div class="timeline" role="img" aria-label="Linha do tempo de 60 segundos: captação 14 s, congelamento 3 s, fábrica 29 s, payoff 6 s, assinatura 8 s">
+    <div class="live" style="flex:14">1a · 14 s</div>
+    <div class="live" style="flex:3">2a</div>
+    <div class="toon" style="flex:7">3a · 7</div>
+    <div class="toon" style="flex:7">3b · 7</div>
+    <div class="toon" style="flex:7">3c · 7</div>
+    <div class="toon" style="flex:8">3d · 8</div>
+    <div class="live" style="flex:6">4a · 6</div>
+    <div class="post" style="flex:8">5 · pós 8</div>
+  </div>
+  <div class="legend"><span><span class="tag t-live">captação</span></span><span><span class="tag t-toon">animação</span></span><span><span class="tag t-post">pós</span></span></div>
+  <p style="font-size:13px;color:var(--muted);margin-top:8px;font-variant-numeric:tabular-nums">1a 0–14″ · 2a 14–17″ · 3a 17–24″ · 3b 24–31″ · 3c 31–38″ · 3d 38–46″ · 4a 46–52″ · cena 5 52–60″. Os tempos são nominais: a locução real ainda não existe, então os setores (7 a 8 s) são estimados.</p>
+
+  <div class="callout berry" style="margin-top:22px">
+    <strong>O que bloqueia o primeiro draft</strong>
+    Quatro assets: foto do pote avulso com tampa, placas da cozinha e da geladeira, model sheet 3D da Alegrinha sem argola, e a fábrica (planta, panorama-mestre e uma placa por setor). Detalhes na seção Assets.
+  </div>
+
+  <div class="grid g3" style="margin-top:14px">
+    <div class="card"><h3>7 gerações + pós</h3><p style="margin:0">Sete gerações no Seedance (1a, 2a, 3a a 3d e 4a) e a cena 5 inteira em pós.</p></div>
+    <div class="card"><h3>3 vacas por setor</h3><p style="margin:0">Número fixo em cada geração de fábrica. Controla clones e fusões sem precisar travar cada vaca.</p></div>
+    <div class="card"><h3>Texto só em pós</h3><p style="margin:0">Letterings, logo, mensagem da tampa, assinatura e cartela. O motor não gera texto confiável, então os planos deixam áreas livres.</p></div>
+  </div>
+</section>
+
+<!-- ===================== REFERÊNCIAS ===================== -->
+<section id="referencias">
+  <h2>O que vi nas suas referências</h2>
+  <p class="sub">Assisti por quadros extraídos e medi os cortes por detecção automática (pode errar em fusões). O que não consegui ver está marcado.</p>
+
+  <div class="grid g2">
+    <div class="card">
+      <h3>Welcome to tvN Factory <span class="tag t-toon">ref maior</span></h3>
+      <div class="kv">
+        <div class="k">Duração</div><div class="v">30 s, 640×360</div>
+        <div class="k">Ritmo</div><div class="v">cerca de 11 planos, média de 2,7 s</div>
+        <div class="k">Mundo</div><div class="v">fábrica de mesa em azul-pastel, simetria frontal, esteiras e braços robóticos, personagens em massa fosca com rosto mínimo</div>
+        <div class="k">Usável aqui</div><div class="v">uma vista lateral de esteira com braços robóticos (por volta de 7,5 s), útil como composição da faixa, e um estúdio fotográfico em miniatura com fundo amarelo, guarda-chuva e refletores (10 a 12,5 s). O segundo serve direto de modelo para o Setor Créqui. Por quadro fixo não dá para confirmar se a câmera corre na primeira.</div>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Emoji Factory <span class="tag t-toon">ref adicional</span></h3>
+      <div class="kv">
+        <div class="k">Duração</div><div class="v">49,7 s, 640×360</div>
+        <div class="k">Ritmo</div><div class="v">cerca de 16 planos, mas com takes de 5 a 9 s</div>
+        <div class="k">Mundo</div><div class="v">plástico de brinquedo brilhante em laranja e amarelo, macro com foco raso, esteiras com esferas, braços robóticos</div>
+        <div class="k">Estrutura</div><div class="v">abre numa mesa de quarto com um celular e fecha de volta no quarto. A fábrica vive dentro do objeto, como o iogurte no seu roteiro.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout warn">
+    <strong>Links do PDF</strong>
+    O primeiro é o “Coca-Cola, Happiness Factory (2006, Netherlands)” e o segundo é “MorumBIS, o estádio aBISurdo”, do canal Bis. Só consegui ler os títulos, não assisti. Se algum plano deles for importante, mande o quadro ou descreva.
+  </div>
+
+  <p><strong>O que isso muda no plano.</strong> As duas referências cortam mais rápido (média de 2,7 a 3 s) do que quatro setores de 7 a 8 s seguidos. Por isso 3c e 3d têm cortes internos, e só 3a e 3b são takes contínuos. A Emoji Factory tem takes de 5 a 9 s, então planos de 7 a 8 s cabem nesse tipo de filme; a tvN raramente passa de 4 s.</p>
+</section>
+
+<!-- ===================== DIREÇÕES ===================== -->
+<section id="direcoes">
+  <h2>Direções de estilo</h2>
+  <p class="sub">A skill pede abrir 2 ou 3 direções antes de congelar. A captação fica provisória até o style ref chegar. A fábrica tem três leituras e uma recomendação.</p>
+
+  <h3>Captação <span class="tag t-live">provisório</span></h3>
+  <div class="card">
+    <div class="kv">
+      <div class="k">Meio e registro</div><div class="v">live-action fotorreal, comercial, composto e limpo</div>
+      <div class="k">Câmera</div><div class="v">tripé travado e um único dolly-out lento. Nada de câmera na mão</div>
+      <div class="k">Luz</div><div class="v">duas fontes: a luz fria do LED da geladeira, vinda do lado esquerdo do quadro, e uma janela quente do lado direito. O lado iluminado nunca troca</div>
+      <div class="k">Cor e textura</div><div class="v">brancos limpos e verdes sálvia/marca contra pele e madeira clara. Sem grão, sem flare</div>
+      <div class="k">Som</div><div class="v">só SFX da cena dentro das gerações. Locução, música e o “créqui” de herói entram em pós</div>
+      <div class="k">Regras realistas desligadas</div><div class="v">câmera observada, grão, chiaroscuro, som “sujo”. Quando o style ref chegar, troca-se só o bloco de look e luz</div>
+    </div>
+  </div>
+
+  <h3 style="margin-top:22px">Fábrica <span class="tag t-toon">escolher</span></h3>
+  <div class="scroll-x"><table>
+    <thead><tr><th></th><th>A · Diorama de feltro</th><th>B · Massa fosca (tvN)</th><th>C · Doce brilhante (Emoji)</th></tr></thead>
+    <tbody>
+      <tr><th>Mundo</th><td>tudo têxtil: feltro, pelúcia, costuras</td><td>plástico soft-touch fosco, bordas arredondadas</td><td>plástico translúcido e brilhante, cara de bala</td></tr>
+      <tr><th>Vacas</th><td>pelúcia de pelo curto, igual ao chaveiro</td><td>formas simplificadas e foscas, sem pelo</td><td>lisas e brilhantes</td></tr>
+      <tr><th>Luz e paleta</th><td>quente e suave, creme com verde e cores de fruta</td><td>pastel claro, uma cor de parede por setor</td><td>laranja e amarelo saturados</td></tr>
+      <tr><th>Câmera</th><td>macro com foco raso</td><td>frontal e simétrica, travelling lateral na esteira</td><td>macro muito próxima, foco raso</td></tr>
+      <tr><th>Risco provável no motor</th><td>pelo e fiapos tremendo, textura repetida em áreas grandes</td><td>o menor dos três: superfícies limpas seguram bem</td><td>reflexos piscando; o laranja disputa com o verde da marca</td></tr>
+      <tr><th>Efeito no chaveiro final</th><td>é literalmente o mesmo material</td><td>salto pequeno entre vaca fosca e pelúcia real</td><td>o maior salto</td></tr>
+    </tbody>
+  </table></div>
+  <p style="font-size:13px;color:var(--muted);margin-top:8px">Os riscos são previsões a confirmar em draft, não resultados medidos.</p>
+
+  <div class="callout">
+    <strong>Recomendação: B no mundo e A nas vacas</strong>
+    Cenário em massa fosca, como na tvN, e Alegrinhas de pelúcia de pelo curto. Três razões: a tvN é sua referência maior; a vaca de pelúcia é o mesmo material do chaveiro que aparece no final; e a diferença de material separa personagem de cenário. O custo é testar o pelo antes de travar: um draft com uma vaca só, parada numa esteira.
+  </div>
+</section>
+
+<!-- ===================== FÁBRICA ===================== -->
+<section id="fabrica">
+  <h2>Como montar a fábrica</h2>
+  <p class="sub">Respostas diretas às suas três perguntas, depois as regras e a planta.</p>
+
+  <div class="grid g3">
+    <div class="card">
+      <h3>3D para blocking?</h3>
+      <p><strong>Ainda não.</strong> A câmera é um travelling lateral reto sobre uma faixa. O que o motor precisa é consistência de lugar (altura da esteira, forma dos portões, ordem dos setores), e planta 2D, panorama-mestre e placas por setor resolvem isso.</p>
+      <p style="margin:0">Gatilho para fazer o blockout no Blender: o draft 480p de 3a para 3b não emendar (esteira muda de altura, portão muda de forma).</p>
+    </div>
+    <div class="card">
+      <h3>Sheet dos produtos?</h3>
+      <p><strong>Sim, dois.</strong> (1) Bandeja e pote reais: hoje há um ângulo por sabor. (2) Bandeja e pote em versão toon, simplificados, para aparecer nos setores 3 e 4 com o mesmo desenho.</p>
+      <p style="margin:0">Os chaveiros já têm duas vistas e servem de identidade da Alegrinha, mas não são um turnaround da vaca animada.</p>
+    </div>
+    <div class="card">
+      <h3>Aviso da skill</h3>
+      <p>Render cinza de previz usado como imagem de referência fez o motor copiar “plástico cinza” em produção. Se um dia houver previz 3D, entra como vídeo de movimento e luz, com escopo travado, depois de um teste.</p>
+      <p style="margin:0">Hoje o modo seguro é passar os números do espaço para o texto do prompt.</p>
+    </div>
+  </div>
+
+  <h3 style="margin-top:26px">Planta da faixa</h3>
+  <div class="scroll-x" style="padding:12px">
+    <svg class="plan-svg" viewBox="0 0 960 300" role="img" aria-label="Planta lateral da fábrica: quatro setores em fila, separados por portões em arco, com uma esteira única e a câmera correndo da esquerda para a direita" style="min-width:720px">
+      <rect class="h1" x="10" y="40" width="218" height="190" rx="6"/>
+      <rect class="h2" x="248" y="40" width="218" height="190" rx="6"/>
+      <rect class="h3" x="486" y="40" width="218" height="190" rx="6"/>
+      <rect class="h4" x="724" y="40" width="218" height="190" rx="6"/>
+      <path class="gate" d="M228 230 V140 a10 10 0 0 1 10 -12 a10 10 0 0 1 10 12 V230"/>
+      <path class="gate" d="M466 230 V140 a10 10 0 0 1 10 -12 a10 10 0 0 1 10 12 V230"/>
+      <path class="gate" d="M704 230 V140 a10 10 0 0 1 10 -12 a10 10 0 0 1 10 12 V230"/>
+      <rect class="belt" x="10" y="196" width="932" height="22" rx="4"/>
+      <text x="119" y="62" text-anchor="middle">1 · Sabores</text><text class="small" x="119" y="78" text-anchor="middle">rosa-morango</text>
+      <text x="357" y="62" text-anchor="middle">2 · Polpa</text><text class="small" x="357" y="78" text-anchor="middle">azul-menta</text>
+      <text x="595" y="62" text-anchor="middle">3 · Créqui</text><text class="small" x="595" y="78" text-anchor="middle">amarelo</text>
+      <text x="833" y="62" text-anchor="middle">4 · Tampinha</text><text class="small" x="833" y="78" text-anchor="middle">lilás</text>
+      <g>
+        <circle class="cow" cx="58" cy="170" r="13"/><circle class="ear" cx="48" cy="161" r="5"/><circle class="cow" cx="119" cy="170" r="13"/><circle class="ear" cx="109" cy="161" r="5"/><circle class="cow" cx="180" cy="170" r="13"/><circle class="ear" cx="170" cy="161" r="5"/>
+        <circle class="cow" cx="296" cy="170" r="13"/><circle class="ear" cx="286" cy="161" r="5"/><circle class="cow" cx="357" cy="170" r="13"/><circle class="ear" cx="347" cy="161" r="5"/><circle class="cow" cx="418" cy="170" r="13"/><circle class="ear" cx="408" cy="161" r="5"/>
+        <circle class="cow" cx="534" cy="170" r="13"/><circle class="ear" cx="524" cy="161" r="5"/><circle class="cow" cx="580" cy="170" r="13"/><circle class="ear" cx="570" cy="161" r="5"/><circle class="cow" cx="650" cy="170" r="13"/><circle class="ear" cx="640" cy="161" r="5"/>
+        <circle class="cow" cx="772" cy="170" r="13"/><circle class="ear" cx="762" cy="161" r="5"/><circle class="cow" cx="833" cy="170" r="13"/><circle class="ear" cx="823" cy="161" r="5"/><circle class="cow" cx="894" cy="170" r="13"/><circle class="ear" cx="884" cy="161" r="5"/>
+      </g>
+      <text class="small" x="119" y="250" text-anchor="middle">touca e galocha</text>
+      <text class="small" x="357" y="250" text-anchor="middle">jaleco e crachá</text>
+      <text class="small" x="595" y="250" text-anchor="middle">headphone</text>
+      <text class="small" x="833" y="250" text-anchor="middle">boina e avental</text>
+      <text class="small" x="119" y="212" text-anchor="middle">fruta →</text>
+      <text class="small" x="357" y="212" text-anchor="middle">polpa →</text>
+      <text class="small" x="595" y="212" text-anchor="middle">bandeja →</text>
+      <text class="small" x="833" y="212" text-anchor="middle">tampa →</text>
+      <path class="cam" d="M30 20 H910"/><path class="camfill" d="M910 14 L926 20 L910 26 Z"/>
+      <text class="small" x="30" y="12">câmera no trilho: sempre da esquerda para a direita, velocidade constante</text>
+      <text class="small" x="476" y="282" text-anchor="middle">emenda: cada geração termina entrando num portão e a seguinte começa saindo de um</text>
+    </svg>
+  </div>
+
+  <h3 style="margin-top:26px">Regras da fábrica <span class="tag t-toon">propostas, a confirmar</span></h3>
+  <div class="grid g2">
+    <div class="card"><h3>Lei de escala</h3><p style="margin:0">1 vaca = 1 unidade de altura. Morango 0,6 · maçã 0,5 · cacho de banana 0,8 · metade de mamão 0,7 · metade de coco 0,6 · um pote de iogurte 1,0. A esteira tem 1,0 de largura e as portas, 1,6. Tudo é feito para casco e mão de feltro; nada para humanos. Pergunta aberta: os números são palpite meu, a escala final sai do model sheet.</p></div>
+    <div class="card"><h3>Lei de fluxo</h3><p style="margin:0">Uma única esteira atravessa a fábrica inteira, da esquerda para a direita: fruta, polpa, bandeja, tampa. A ordem dos setores nunca muda e o produto nunca volta.</p></div>
+    <div class="card"><h3>Regra da emenda</h3><p style="margin:0">Os quatro portões em arco são idênticos. Cada geração termina com a câmera entrando num portão à direita e a seguinte começa saindo de um à esquerda. O corte acontece dentro do escuro suave do arco.</p></div>
+    <div class="card"><h3>Regra de câmera e luz</h3><p style="margin:0">A câmera corre num trilho paralelo à esteira, sem rotação, sempre da esquerda para a direita, a cerca de uma vaca por segundo. A esteira fica no terço inferior em todos os planos. A luz principal viaja com a câmera, no lado esquerdo, e nunca troca de lado.</p></div>
+  </div>
+
+  <h3 style="margin-top:26px">Ordem de montagem</h3>
+  <ol class="steps">
+    <li>Travar as quatro regras acima na bíblia (texto, sem imagem).</li>
+    <li>Gerar o panorama-mestre dos quatro setores numa imagem larga. Se o modelo de imagem não fizer o formato, gerar quatro placas com as bordas casadas nos portões.</li>
+    <li>Fazer 2 ou 3 placas por setor: lateral, reverso em 3/4 e detalhe.</li>
+    <li>Fazer o model sheet da Alegrinha, depois os quatro figurinos e o kit de props. As vacas só se fecham depois que o pelo passar no teste de draft.</li>
+    <li>Draft 480p de 3a e 3b só para ver se a emenda segura. Se falhar: plano B ou blockout 3D.</li>
+  </ol>
+  <div class="callout warn">
+    <strong>Plano B para a faixa lateral</strong>
+    Se o motor não sustentar o travelling contínuo, cada setor vira um plano de câmera parada (a tvN usa muito plano fixo frontal) e a passagem de um setor para o outro é um deslize feito em pós. Perde-se a continuidade do movimento, ganha-se controle por setor.
+  </div>
+</section>
+
+<!-- ===================== ASSETS ===================== -->
+<section id="assets">
+  <h2>Assets</h2>
+  <p class="sub">O que já chegou, o que falta e o que bloqueia o quê. P0 impede o primeiro draft, P1 é necessário antes do final, P2 é pós.</p>
+
+  <h3>O que temos <span class="tag t-have">recebido</span></h3>
+  <div class="thumbs">
+    <div class="thumb"><img src="{{IMG:homem}}" alt="Character sheet do homem: frente, perfil, costas e close"><div class="cap"><b>@HOMEM</b><span>4 painéis, 2752×1536. Pronto como identidade.</span></div></div>
+    <div class="thumb"><img src="{{IMG:mae}}" alt="Character sheet da mãe: frente, perfil, costas e close"><div class="cap"><b>@MAE <span class="tag t-off">fora do roteiro</span></b><span>Não aparece no filme de 60″.</span></div></div>
+    <div class="thumb"><img src="{{IMG:bandeja-morango}}" alt="Bandeja de iogurte de morango"><div class="cap"><b>Bandeja Morango</b><span>1000×812, um ângulo.</span></div></div>
+    <div class="thumb"><img src="{{IMG:bandeja-coco}}" alt="Bandeja de iogurte de coco"><div class="cap"><b>Bandeja Coco</b><span>1000×813, um ângulo.</span></div></div>
+    <div class="thumb"><img src="{{IMG:bandeja-frutas}}" alt="Bandeja de iogurte de salada de frutas"><div class="cap"><b>Bandeja Salada de Frutas</b><span>1000×812, um ângulo.</span></div></div>
+    <div class="thumb"><img src="{{IMG:alegrinha-fabrica}}" alt="Chaveiro de pelúcia da Alegrinha de jaleco, frente e costas"><div class="cap"><b>Chaveiro Fábrica</b><span>2688×1520, 2 vistas. Base da cientista.</span></div></div>
+    <div class="thumb"><img src="{{IMG:alegrinha-frutas}}" alt="Chaveiro de pelúcia da Alegrinha com cesta de frutas"><div class="cap"><b>Chaveiro Frutas</b><span>2688×1520, 2 vistas. Base da seletora.</span></div></div>
+    <div class="thumb"><img src="{{IMG:alegrinha-coco}}" alt="Chaveiro de pelúcia da Alegrinha com coco"><div class="cap"><b>Chaveiro Coco</b><span>2688×1520, 2 vistas.</span></div></div>
+    <div class="thumb"><img src="{{IMG:alegrinha-morango}}" alt="Chaveiro de pelúcia da Alegrinha com morango"><div class="cap"><b>Chaveiro Morango</b><span>2688×1520, 2 vistas.</span></div></div>
+  </div>
+  <div class="callout" style="margin-top:14px">
+    <strong>Detalhes que viram regra (travar com palavras, o motor esquece)</strong>
+    <b>Homem:</b> óculos redondos pretos, cabelo cacheado escuro, barba curta, camisa verde xadrez de janela aberta sobre camiseta branca, calça preta larga, tênis branco, pulseira fina de corrente no <b>pulso esquerdo</b>.<br>
+    <b>Alegrinha:</b> pelúcia creme de pelo curto; a <b>orelha direita da vaca é a preta</b> (aparece à esquerda da tela quando ela olha para a câmera) e a esquerda é creme com interior rosa; mãos e cascos pretos; coleira vermelha com sininho dourado; rabo creme com tufo branco; barriga rosa com tetas pequenas. O chaveiro tem argola e corrente na cabeça: <b>a vaca animada não tem</b>.
+  </div>
+  <p style="font-size:13px;color:var(--muted)">Presumo que os quatro chaveiros (Fábrica, Frutas, Coco, Morango) sejam a coleção da promoção. Confirmar.</p>
+
+  <h3 style="margin-top:26px">O que falta</h3>
+  <div class="scroll-x"><table>
+    <thead><tr><th>Prio</th><th>Asset</th><th>O que precisa conter</th><th>Bloqueia</th></tr></thead>
+    <tbody>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@POTE</b> real</td><td>foto do pote avulso: fechado, aberto, tampa por baixo, como destaca da bandeja, escala na mão. Hoje só vemos o rótulo da bandeja, não a tampa.</td><td>1a, 2a, 4a</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@COZINHA</b> e geladeira</td><td>2 ou 3 placas: cozinha aberta, interior da geladeira, balcão. Esperam o style ref da captação.</td><td>1a, 2a, 4a</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@ALEGRINHA</b> model sheet 3D</td><td>layout adaptado do template da skill: close, frente, perfil, costas; sem argola nem corrente; no material da direção escolhida.</td><td>3a a 3d</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@FABRICA</b> mestre e setores</td><td>panorama-mestre dos quatro setores, mais 2 a 3 placas por setor, sem personagens e sem texto.</td><td>3a a 3d</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>4 figurinos</td><td>Seletora (touca, galocha), Cientista (jaleco, crachá em branco), Som (headphone), Pintora (boina, avental). Cada figurino é uma tag nova, nunca sobrescreve a base.</td><td>3a a 3d</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>Kit de props toon</td><td>frutas (morango, banana, mamão, maçã, coco), tubos de polpa e ensaio, microfone, tampas, bisnaga de confeiteiro, cavaletes.</td><td>3a a 3d</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>Bandeja, pote e tampa toon</td><td>o mesmo objeto em versão simplificada, sem microtexto, para os setores 3 e 4.</td><td>3c, 3d</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>Bandeja real em melhor qualidade</td><td>frente, topo, lado e altura, a partir de arquivo de arte ou fotografia. O PNG atual tem 1000 px e 256 cores.</td><td>1a, 4a</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>Keyframes</td><td>saem dos drafts aprovados: último quadro de 1a alimenta 2a e 4a.</td><td>2a, 4a</td></tr>
+      <tr><td><span class="tag t-p2">P2</span></td><td>Arte e áudio de pós</td><td>logo vetorial, tipografia dos letterings, arte da mensagem da tampa, layout da cartela, locução, SFX e trilha. Ver Pós e áudio.</td><td>cena 5, final</td></tr>
+    </tbody>
+  </table></div>
+  <div class="callout warn">
+    <strong>Por que a vaca animada precisa de um sheet próprio</strong>
+    O chaveiro é uma foto de objeto com argola. A skill manda gerar o rosto uma vez, em close, e construir o resto em volta dele. O model sheet 3D vira a âncora de identidade das quatro gerações de fábrica.
+  </div>
+</section>
+
+<!-- ===================== SHOTLIST ===================== -->
+<section id="shotlist">
+  <h2>Shotlist</h2>
+  <p class="sub">Decupagem por geração: tempo, planos, o que é dito, como termina, o que usar e o que olhar no draft. O campo Prompt fica pendente até você liberar. Marque a cena quando todas as suas gerações estiverem aprovadas; o progresso fica salvo neste navegador.</p>
+
+  <!-- CENA 1 -->
+  <div class="scene" data-scene="1">
+    <div class="scene-head">
+      <input type="checkbox" data-scene="1" aria-label="Cena 1 concluída">
+      <div class="scene-num">1</div>
+      <div class="scene-desc"><b>Cozinha: o estalo e a lambida</b>O homem abre a geladeira, pega a bandeja, destaca um pote e lambe a tampa.</div>
+    </div>
+    <div class="gen">
+      <div class="gen-bar"><span>Geração 1a <span class="tag t-live">captação</span></span><span class="meta">14 s · 3 planos · cortes em 3 s e 8 s · 16:9 · no filme 0″ a 14″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>Plano 1 (0 a 3 s): câmera dentro da geladeira, o ponto de vista do produto. A porta já está abrindo, ele aparece, olha para a lente, sorri e a mão dele cobre a lente. Plano 2 (3 a 8 s): a câmera recua e revela a bandeja na mão direita; a mão esquerda destaca um pote com o “créqui”; ele reage ao som e pousa a bandeja no balcão. Plano 3 (8 a 14 s): descola a tampa e lambe o recheio.</dd>
+        <dt>O que é dito</dt><dd>Nada em cena. Locução em off, entrando por volta de 8,5 s: <span class="quote">“Você já se perguntou: de onde vem esse gostinho de alegria que a gente nunca esquece?”</span></dd>
+        <dt>Como termina</dt><dd>Corte seco no meio da lambida, tampa na boca, pote na mão esquerda. Um quadro dos últimos 1 a 2 s vira o congelamento e o keyframe de 2a e 4a.</dd>
+        <dt>Direção</dt><dd>Plano 1 é o único em que ele olha para a lente: a lente é o iogurte, e o roteiro pede que ele olhe, sorria e estenda a mão. Depois ele nunca mais olha para a câmera. O recuo do plano 2 é a “câmera que expande” do roteiro.</dd>
+        <dt>Usa</dt><dd>@HOMEM (temos), bandeja Morango (temos, um ângulo), <span class="pending">@POTE e @COZINHA (faltam, P0)</span></dd>
+        <dt>Testar no draft</dt><dd><ul><li>seis potes na bandeja, cinco depois do estalo</li><li>mãos certas: direita carrega a bandeja, esquerda destaca, direita segura a tampa</li><li>fundo da geladeira à esquerda do quadro, luz fria sempre desse lado do rosto</li><li>reflexo nos óculos sem esconder os olhos</li><li>rótulo da bandeja: se o logo deformar, entra comp em pós</li><li>a lambida não pode ficar estranha; o estalo cai por volta de 5 s</li></ul></dd>
+        <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- CENA 2 -->
+  <div class="scene" data-scene="2">
+    <div class="scene-head">
+      <input type="checkbox" data-scene="2" aria-label="Cena 2 concluída">
+      <div class="scene-num">2</div>
+      <div class="scene-desc"><b>A imagem congela e a câmera entra no iogurte</b>Zoom no pote, transição para a animação.</div>
+    </div>
+    <div class="gen">
+      <div class="gen-bar"><span>Geração 2a <span class="tag t-live">captação</span></span><span class="meta">4 s (3 s no filme) · 1 take · 16:9 · no filme 14″ a 17″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>Tempo parado: ele, o fio de iogurte na tampa e o brilho nos óculos ficam imóveis; só a câmera se move, descendo em arco até o pote e mergulhando no iogurte, que enche o quadro.</dd>
+        <dt>O que é dito</dt><dd>Nada. A locução de 1a termina aqui.</dd>
+        <dt>Como termina</dt><dd>Quadro cheio e uniforme de rosa-creme, sem borda de pote. O corte para a fábrica acontece nesse branco.</dd>
+        <dt>Direção</dt><dd>O congelamento do roteiro vira o próprio movimento de câmera, sem depender de efeito em pós. A troca de meio (live para animação) é escondida no quadro uniforme.</dd>
+        <dt>Usa</dt><dd>último quadro de 1a como keyframe (sai do draft aprovado) e @POTE</dd>
+        <dt>Testar no draft</dt><dd><ul><li>o motor segura o “tempo parado”? Se o homem respirar ou o iogurte ondular, vale o plano B</li><li>plano B: congelar o quadro em pós e fazer o zoom digital até o pote (perde resolução)</li></ul></dd>
+        <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- CENA 3 -->
+  <div class="scene" data-scene="3">
+    <div class="scene-head">
+      <input type="checkbox" data-scene="3" aria-label="Cena 3 concluída">
+      <div class="scene-num">3</div>
+      <div class="scene-desc"><b>A fábrica das Alegrinhas, em quatro setores</b>Uma esteira, quatro portões, três vacas em cada setor. A câmera corre da esquerda para a direita.</div>
+    </div>
+
+    <div class="gen">
+      <div class="gen-bar"><span>Geração 3a <span class="tag t-toon">animação</span> · Setor Sabores da Fazenda</span><span class="meta">7 s · 1 take contínuo · no filme 17″ a 24″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>Três Alegrinhas de touca e galocha, uma em cada mesa, escolhem as frutas uma a uma. A da esquerda inspeciona um morango grande e o põe na esteira. A do meio descarta uma maçã machucada. A da direita carrega meio coco. A câmera chega ao portão em arco e o morango entra nele.</dd>
+        <dt>O que é dito</dt><dd><span class="quote">“Tudo começa pela seleção das frutas com MÚUUito sabor.”</span> Lettering em pós: Setor Sabores da Fazenda.</dd>
+        <dt>Como termina</dt><dd>Corte seco com o escuro do portão ocupando o terço direito e o morango entrando.</dd>
+        <dt>Direção</dt><dd>Um único take lateral: apresenta a regra da fábrica (esteira no terço inferior, câmera sempre para a direita) antes de variar. As vacas atuam com orelha, cabeça e corpo, porque o rosto bordado da pelúcia não muda.</dd>
+        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_SELETORA, placa do setor 1, kit de frutas (faltam)</span></dd>
+        <dt>Testar no draft</dt><dd><ul><li>exatamente três vacas, nenhuma quarta ao fundo</li><li>velocidade da câmera constante, sem inverter</li><li>orelha preta sempre a direita da vaca, sem argola na cabeça</li><li>frutas na escala certa e nenhuma letra em caixas ou placas</li></ul></dd>
+        <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
+      </dl>
+    </div>
+
+    <div class="gen">
+      <div class="gen-bar"><span>Geração 3b <span class="tag t-toon">animação</span> · Setor Polpa de Verdade</span><span class="meta">7 s · 1 take contínuo · no filme 24″ a 31″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>A câmera sai do portão para um laboratório azul-menta com tubos de vidro. Três Alegrinhas de jaleco avaliam a polpa: uma enche um tubo de ensaio, outra compara a cor com uma tira de amostras, a terceira aperta um botão num console e faz joinha. A câmera chega ao próximo portão.</dd>
+        <dt>O que é dito</dt><dd><span class="quote">“Depois, vem a extração da polpa ‘pra’ MÚUUltiplicar a qualidade.”</span> Lettering em pós: Setor Polpa de Verdade.</dd>
+        <dt>Como termina</dt><dd>Corte seco com um copo de polpa entrando no portão, que brilha amarelo por dentro.</dd>
+        <dt>Direção</dt><dd>“Equipamentos tecnológicos” em tom de brinquedo: o console tem uma tela em branco com um único gráfico de barras, sem números.</dd>
+        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_CIENTISTA (base no chaveiro Fábrica), placa do setor 2, kit de props (faltam)</span></dd>
+        <dt>Testar no draft</dt><dd><ul><li>a emenda com o fim de 3a: mesma esteira, mesma altura, mesmo portão</li><li>o líquido rosa da polpa nos tubos mantém a cor e o fluxo</li><li>crachá sem letras</li></ul></dd>
+        <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
+      </dl>
+    </div>
+
+    <div class="gen">
+      <div class="gen-bar"><span>Geração 3c <span class="tag t-toon">animação</span> · Setor Créqui Perfeito</span><span class="meta">7 s · 3 planos · cortes em 2 s e 5 s · no filme 31″ a 38″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>Plano 1 (0 a 2 s): a câmera sai do portão num estúdio amarelo; duas Alegrinhas de headphone numa cabine à esquerda, uma ao microfone com uma bandeja. Plano 2 (2 a 5 s): câmera parada; a do microfone destaca um pote, o “créqui” estala, o ponteiro do medidor pula e as outras duas balançam de olhos fechados. Plano 3 (5 a 7 s): a câmera volta a correr até o portão com a bandeja na esteira.</dd>
+        <dt>O que é dito</dt><dd><span class="quote">“Na embalagem, é hora de encontrar o ‘créqui’ que soa como MÚUUsica ‘pros’ ouvidos.”</span> Lettering em pós: Setor Créqui Perfeito.</dd>
+        <dt>Como termina</dt><dd>Corte seco com a bandeja de cinco potes entrando no portão.</dd>
+        <dt>Direção</dt><dd>É o único setor cujo som é o conceito, então o plano 2 é parado: é a cena do estalo. O “créqui” de herói vem do banco de SFX em pós e o do motor serve de guia de tempo. O estúdio amarelo vem da referência da tvN.</dd>
+        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_SOM, placa do setor 3, bandeja e pote toon (faltam)</span></dd>
+        <dt>Testar no draft</dt><dd><ul><li>o lado da cabine (esquerda) e do microfone (direita) não troca entre os cortes</li><li>pote sai da bandeja de verdade, não aparece do nada</li><li>nenhum som musical vindo do medidor</li></ul></dd>
+        <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
+      </dl>
+    </div>
+
+    <div class="gen">
+      <div class="gen-bar"><span>Geração 3d <span class="tag t-toon">animação</span> · Setor Tampinha Recheada</span><span class="meta">8 s · 2 planos · corte em 3 s · no filme 38″ a 46″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>Plano 1 (0 a 3 s): a câmera sai do portão num ateliê lilás; três Alegrinhas de boina e avental, cada uma com uma tampa grande num cavalete, uma recuando para julgar a obra. Plano 2 (3 a 8 s): foco raso numa delas desenhando uma linha em laço na borda da tampa com a bisnaga; no fim ela ergue a tampa até a lente.</dd>
+        <dt>O que é dito</dt><dd><span class="quote">“Já no toque final, cada tampinha é preparada ‘pra’ ter recheio até a ÚUUltima lambida…”</span> Lettering em pós: Setor Tampinha Recheada.</dd>
+        <dt>Como termina</dt><dd>A tampa lisa ocupa o quadro, com o centro vazio. A mensagem “Parabéns! Você ganhou uma Alegrinha Colecionável” é escrita em pós com animação de escrita.</dd>
+        <dt>Direção</dt><dd>O roteiro pede foco numa delas escrevendo na tampa. O motor não escreve texto, então ela só traça laços sem letras e o centro fica livre para a mensagem. A tampa em primeiro plano prepara o corte para o homem da cena 4.</dd>
+        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_PINTORA, placa do setor 4, tampa toon (faltam)</span></dd>
+        <dt>Testar no draft</dt><dd><ul><li>nenhuma letra na tampa, nem rabisco que pareça texto</li><li>o centro da tampa fica realmente liso</li><li>a vaca ergue a tampa sem a câmera se mover</li></ul></dd>
+        <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- CENA 4 -->
+  <div class="scene" data-scene="4">
+    <div class="scene-head">
+      <input type="checkbox" data-scene="4" aria-label="Cena 4 concluída">
+      <div class="scene-num">4</div>
+      <div class="scene-desc"><b>A imagem descongela: ele ganhou</b>Volta ao homem, que descobre a Alegrinha Colecionável.</div>
+    </div>
+    <div class="gen">
+      <div class="gen-bar"><span>Geração 4a <span class="tag t-live">captação</span></span><span class="meta">6 s · 1 take · 16:9 · no filme 46″ a 52″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>Começa no mesmo quadro de 1a: a lambida termina, ele baixa a tampa, vira para olhar o verso, a expressão muda e ele comemora, erguendo a tampa e o pote.</dd>
+        <dt>O que é dito</dt><dd>Nada em cena. Locução: <span class="quote">“E, ‘pros’ mais sortudos, até uma sÚUUrpresa escondida.”</span></dd>
+        <dt>Como termina</dt><dd>Corte seco no meio da comemoração.</dd>
+        <dt>Direção</dt><dd>É a virada do filme (a vitória) e fica num take único. Mesmo enquadramento do plano 3 de 1a para o corte casar.</dd>
+        <dt>Usa</dt><dd>último quadro de 1a como keyframe, @HOMEM, @POTE. A mensagem da tampa é composta em pós.</dd>
+        <dt>Testar no draft</dt><dd><ul><li>a luz e a pele continuam o quadro de 1a</li><li>a risada é sem palavras (nada de “uhul” ou frase)</li><li>a tampa não mostra texto legível</li></ul></dd>
+        <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
+      </dl>
+    </div>
+  </div>
+
+  <!-- CENA 5 -->
+  <div class="scene" data-scene="5">
+    <div class="scene-head">
+      <input type="checkbox" data-scene="5" aria-label="Cena 5 concluída">
+      <div class="scene-num">5</div>
+      <div class="scene-desc"><b>Assinatura, cartela e chaveiros</b>Feita em pós.</div>
+    </div>
+    <div class="gen">
+      <div class="gen-bar"><span>Cena 5 <span class="tag t-post">pós</span></span><span class="meta">8 s · no filme 52″ a 60″</span></div>
+      <dl class="rows">
+        <dt>O que acontece</dt><dd>Assinatura, cartela da promoção e exibição dos chaveiros (os quatro stills de pelúcia que já temos).</dd>
+        <dt>O que é dito</dt><dd><span class="quote">“Porto Alegre. A alegria que a gente nunca esquece. Alegrinha na tampinha. Achou? Resgate a sua.”</span> O texto também aparece na tela, repetido no roteiro.</dd>
+        <dt>Usa</dt><dd>logo vetorial, layout da cartela e os stills de pelúcia. Nenhuma geração é necessária; se a agência quiser movimento nos chaveiros, vira uma geração nova.</dd>
+        <dt>Prompt</dt><dd>Não se aplica.</dd>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PÓS ===================== -->
+<section id="pos">
+  <h2>Pós e áudio</h2>
+  <p class="sub">O que não sai do motor e precisa de insumo seu. As gerações saem sem música e sem voz; o áudio do motor serve de guia.</p>
+  <div class="scroll-x"><table>
+    <thead><tr><th>Item</th><th>Onde entra</th><th>Por que é em pós</th><th>Insumo</th></tr></thead>
+    <tbody>
+      <tr><td>Congelar e descongelar</td><td>1a, 2a, 4a</td><td>2a tenta fazer o tempo parado na câmera; o plano B é pós</td><td>último quadro aprovado de 1a</td></tr>
+      <tr><td>Letterings dos 4 setores</td><td>3a a 3d</td><td>texto confiável não sai do motor</td><td>tipografia e estilo; nomes do roteiro: Sabores da Fazenda, Polpa de Verdade, Créqui Perfeito, Tampinha Recheada</td></tr>
+      <tr><td>Rótulo e logo da bandeja</td><td>1a, 4a</td><td>logo e microtexto deformam; entra composição rastreada se for preciso</td><td>logo vetorial e arte do rótulo</td></tr>
+      <tr><td>Mensagem da tampa</td><td>3d, 4a</td><td>“Parabéns! Você ganhou uma Alegrinha Colecionável” é texto longo</td><td>arte e tipografia</td></tr>
+      <tr><td>Cena 5</td><td>52″ a 60″</td><td>assinatura, cartela e exibição dos chaveiros</td><td>layout da cartela, logo, stills dos chaveiros (temos)</td></tr>
+      <tr><td>Locução</td><td>7 falas</td><td>o roteiro é em off; as gerações não têm fala</td><td>locutor ou scratch para fechar os tempos dos setores</td></tr>
+      <tr><td>SFX</td><td>1a, 3c, 3d</td><td>o “créqui”, a lambida, a bandeja e o sininho das vacas são o som da marca</td><td>banco ou gravação do estalo real do pote</td></tr>
+      <tr><td>Trilha pop e animada</td><td>cena 3</td><td>o roteiro marca trilha só na fábrica</td><td>faixa licenciada</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- ===================== PERGUNTAS ===================== -->
+<section id="perguntas">
+  <h2>Decisões e perguntas</h2>
+  <p class="sub">Adotei um padrão para cada ponto para o trabalho não parar. Respostas diferentes mudam as gerações indicadas.</p>
+
+  <h3>Perguntas que mudam planos</h3>
+  <div class="scroll-x"><table>
+    <thead><tr><th>#</th><th>Pergunta</th><th>Padrão que adotei</th><th>Muda</th></tr></thead>
+    <tbody>
+      <tr><td class="num">1</td><td>O roteiro diz “POV de um homem abrindo a geladeira”, mas também que ele olha, sorri e a câmera “expande” para revelar a bandeja. É o POV do produto (câmera na geladeira, vemos o rosto) ou a primeira pessoa dele (só vemos as mãos)?</td><td>POV do produto: é a única leitura em que vemos o sorriso e a mão cobre a lente antes do recuo.</td><td>1a</td></tr>
+      <tr><td class="num">2</td><td>Qual sabor é o herói da cena?</td><td>Morango: maior contraste com o verde do rótulo e da camisa, e existe o chaveiro de morango.</td><td>1a, 4a</td></tr>
+      <tr><td class="num">3</td><td>Como é o pote real? A tampa é de alumínio ou plástico, como ela solta? O “créqui” é o estalo do pote saindo da bandeja? E “polpas” no roteiro quer dizer potes?</td><td>Sim para ambas as suposições; preciso das fotos.</td><td>1a, 2a, 3c, 4a</td></tr>
+      <tr><td class="num">4</td><td>Há outras versões (9:16, 1:1, 15″, 30″)? Uma faixa lateral não funciona em vertical.</td><td>Só 16:9, 60″.</td><td>todas</td></tr>
+      <tr><td class="num">5</td><td>Quando a locução e a trilha existem? Os tempos dos setores (7 a 8 s) são estimativa.</td><td>Estimativa de ritmo de leitura, a fechar com um scratch.</td><td>3a a 3d</td></tr>
+      <tr><td class="num">6</td><td>Direção da fábrica: B no mundo e A nas vacas, ou outra?</td><td>B + A.</td><td>3a a 3d, assets</td></tr>
+      <tr><td class="num">7</td><td>A mãe aparece em algum filme desta campanha? O character ref dela veio, mas o roteiro de 60″ só tem o homem.</td><td>Fora deste filme.</td><td>nenhuma</td></tr>
+      <tr><td class="num">8</td><td>Qual dos quatro chaveiros ele ganha, ou fica em aberto?</td><td>Em aberto; a mensagem diz só “uma Alegrinha Colecionável”.</td><td>4a, cena 5</td></tr>
+    </tbody>
+  </table></div>
+
+  <h3 style="margin-top:22px">Outras decisões que tomei</h3>
+  <ul style="max-width:72ch;padding-left:20px">
+    <li>Formato 16:9, 24 fps, rascunho em 480p e final em 1080p. O Seedance 2.5 não tem 4K.</li>
+    <li>A captação não tem fala, nem a risada tem palavra. Só a locução em off, em pós.</li>
+    <li>Cada geração começa com a ação já em andamento e termina em corte seco, para o motor não esticar o final. A duração da geração é a soma dos planos.</li>
+    <li>No máximo quatro pessoas referenciadas por geração; aqui nunca passa de uma. As três vacas de cada setor usam o mesmo figurino de referência.</li>
+  </ul>
+
+  <footer>Decupagem v0 gerada com a skill CINEORO. Quando você liberar a direção da fábrica e os assets P0, eu escrevo os prompts e atualizo este arquivo.</footer>
+</section>
+
+</div>
+
+<script>
+(function () {
+  var boxes = document.querySelectorAll('.scene-head input[type="checkbox"]');
+  boxes.forEach(function (cb) {
+    var key = 'alegrinha-cena-' + cb.dataset.scene;
+    try { if (localStorage.getItem(key) === '1') { cb.checked = true; cb.closest('.scene').classList.add('done'); } } catch (e) {}
+    cb.addEventListener('change', function () {
+      try { localStorage.setItem(key, cb.checked ? '1' : '0'); } catch (e) {}
+      cb.closest('.scene').classList.toggle('done', cb.checked);
+    });
+  });
+})();
+</script>
