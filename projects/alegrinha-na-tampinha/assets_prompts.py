@@ -21,7 +21,7 @@ OBJECTS = [
         "kind": "real",
         "tag": "@POTE",
         "attach": "Anexe a bandeja Morango (a de 1920×1080).",
-        "note": "A tampa está descrita em palavras, a partir do que você explicou: película verde impressa, quadrada de cantos arredondados, com aba. Se o recorte ou a aba reais forem diferentes, ajuste só a frase da tampa.",
+        "note": "Já gerado pelo diretor (Element prop_pote-morango-real). Fica aqui como registro. A tampa está descrita em palavras: película verde impressa, quadrada de cantos arredondados, com aba.",
         "prompts": [
             ("painel: fechado à esquerda, aberto à direita",
              SPLIT.format(yogurt="smooth pink yogurt visible")

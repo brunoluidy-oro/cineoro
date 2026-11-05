@@ -177,7 +177,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 <header class="hero">
   <div class="eyebrow">Filme 60″ · Laticínios Porto Alegre · Seedance 2.5 · CINEORO</div>
   <h1>Alegrinha na Tampinha</h1>
-  <p class="lede">Decupagem v0.2: tom cômico, captação com sonda macro, fábrica em espinha lateral com inserts, tudo fosco. Os prompts de vídeo ainda não foram escritos. Os prompts de imagem dos sheets de produto já estão prontos para o GPT.</p>
+  <p class="lede">Decupagem v0.5: tom cômico, captação com sonda macro e o look da Codemig, fábrica em espinha lateral com inserts, tudo fosco. Os prompts de vídeo ainda não foram escritos.</p>
   <p style="color:var(--muted);font-size:13px;margin-top:10px">Título de trabalho, tirado da frase da promoção. Branch <code>claude/vibrant-goodall-jpk3x5</code>, pasta <code>projects/alegrinha-na-tampinha/</code>.</p>
 </header>
 
@@ -200,8 +200,12 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <p style="font-size:13px;color:var(--muted);margin-top:8px;font-variant-numeric:tabular-nums">Cena 1: 0–14″ · 2: 14–17″ · 3 (Sabores): 17–24″ · 4 (Polpa): 24–31″ · 5 (Créqui): 31–38″ · 6 (Tampinha): 38–46″ · 7: 46–52″ · 8: 52–60″. Os tempos são nominais: a locução real ainda não existe, então os setores (7 a 8 s) são estimados.</p>
 
   <div class="callout berry" style="margin-top:22px">
-    <strong>O que bloqueia o primeiro draft</strong>
-    Três assets: o pote avulso (o prompt de stand-in já está pronto), placas da cozinha de verão (mais os quadros do filme da Codemig, para a textura) e a fábrica (planta, panorama-mestre e uma placa por setor). A vaca fosca já chegou.
+    <strong>O que falta, em três passos</strong>
+    <ol style="margin:6px 0 0;padding-left:20px">
+      <li><b>Você decide:</b> o formato (21:9 ou 16:9), se o look da Codemig vale só na captação e se o rosto da vaca muda ou fica fixo.</li>
+      <li><b>Você gera as imagens:</b> a cozinha de verão, a fábrica (panorama e uma placa por setor) e a Alegrinha completa (rosto, mãos, figurinos). Já estão prontos: o homem, a vaca fosca, a bandeja e o pote real.</li>
+      <li><b>Eu escrevo os prompts de vídeo</b>, depois que os passos 1 e 2 estiverem fechados.</li>
+    </ol>
   </div>
 
   <div class="grid g3" style="margin-top:14px">
@@ -214,14 +218,17 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 <!-- ===================== DECIDIDAS ===================== -->
 <section id="decididas">
   <h2>O que você já decidiu</h2>
-  <p class="sub">Quatro respostas suas que eu já apliquei nesta versão.</p>
+  <p class="sub">Respostas suas que eu já apliquei nesta versão.</p>
   <div class="scroll-x"><table>
     <thead><tr><th>Decisão</th><th>Efeito na decupagem</th></tr></thead>
     <tbody>
       <tr><td><b>Plano 1 é o POV da geladeira.</b> A câmera começa dentro dela, o homem abre a porta e pega um produto que ainda não vemos.</td><td>Cena 1 reescrita. Não há olhar para a lente; ele fixa um ponto dentro da geladeira. O produto só aparece depois, quando a câmera “expande”.</td></tr>
       <tr><td><b>Travelling lateral é o take-base da fábrica</b>, intercalado com takes de cima, closes e outros planos das vacas executando os processos.</td><td>Cada setor vira duas gerações: a espinha (travelling) e as inserts (planta e close). A montagem intercala as duas.</td></tr>
       <tr><td><b>Tudo fosco</b>, como a vaca enviada.</td><td>Direção B para mundo e vacas. A pelúcia (A) e o brilhante (C) estão descartados. A model sheet 3D da Alegrinha deixa de ser P0.</td></tr>
-      <tr><td><b>O filme inteiro tem pegada cômica</b>: nos takes, no timing e na direção.</td><td>Nova seção Tom. Cada geração ganhou uma linha de gag (sugestão minha), e a sonda macro virou recurso de comédia.</td></tr>
+      <tr><td><b>O filme inteiro tem pegada cômica</b>: nos takes, no timing e na direção.</td><td>Seção Tom, com princípios de timing e atuação. A sonda macro virou recurso de comédia.</td></tr>
+      <tr><td><b>Sem gags.</b> Os gags que eu tinha sugerido foram retirados.</td><td>Ficam só os princípios de timing e atuação e o que o roteiro já diz.</td></tr>
+      <tr><td><b>O look da captação é o da Codemig</b>: negativo colorido 35 mm.</td><td>Bloco de look travado na seção Direções. Define grão, halação, sombras e vinheta da captação.</td></tr>
+      <tr><td><b>Pote real gerado</b> (Element <code>prop_pote-morango-real</code>).</td><td>Copo rosa ribado com borda branca e tampa verde impressa, fechado e aberto no mesmo painel. Sai da lista de assets que faltam.</td></tr>
     </tbody>
   </table></div>
 </section>
@@ -229,25 +236,25 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 <!-- ===================== TOM ===================== -->
 <section id="tom">
   <h2>Tom: comédia seca</h2>
-  <p class="sub">O que a skill permite e como aplico. As sugestões de gag são minhas: aceite, troque ou corte. O roteiro não foi alterado.</p>
+  <p class="sub">Princípios de timing e atuação para a comédia. Não proponho piadas específicas e o roteiro não foi alterado.</p>
   <div class="grid g2">
     <div class="card"><h3>Seriedade como motor</h3><p style="margin:0">O homem trata o iogurte como um ritual sagrado. As vacas tratam a seleção, o laboratório, o estúdio e o ateliê como esporte olímpico, cirurgia, orquestra e galeria de arte. Ninguém sabe que é engraçado.</p></div>
-    <div class="card"><h3>Montar-segurar-estourar</h3><p style="margin:0">Todo gag tem uma preparação, uma pausa curta (de 0,5 a 1 s) e o estouro. O maior é o créqui: a sonda macro desliza, o homem hesita, a pausa dura quase demais, e o estalo vem. Pausas entram nos tempos da geração, em segundos inteiros.</p></div>
+    <div class="card"><h3>Preparar, segurar, estourar</h3><p style="margin:0">Cada momento engraçado tem uma preparação, uma pausa curta (de 0,5 a 1 s) e o remate. As pausas entram nos tempos da geração, em segundos inteiros.</p></div>
     <div class="card"><h3>A sonda como narrador</h3><p style="margin:0">A macro percorre a bandeja como num documentário de natureza: um movimento épico sobre um objeto banal. O contraste entre a escala da câmera e o assunto é a piada.</p></div>
-    <div class="card"><h3>Final no gag, não no meio</h3><p style="margin:0">Para observação realista a skill manda terminar em meio à ação. Em comédia o plano termina no estouro. A exceção planejada é a lambida da cena 1: o congelamento no meio dela já é o remate.</p></div>
+    <div class="card"><h3>Termina no remate, não no meio</h3><p style="margin:0">Para observação realista a skill manda terminar em meio à ação. Em comédia o plano termina no remate. A exceção planejada é a lambida da cena 1: o congelamento no meio dela já é o remate.</p></div>
   </div>
   <div class="callout warn">
     <strong>Atuação na comédia</strong>
-    Para gag seco a skill usa a forma curta: a tarefa é o próprio idioma da atuação (por exemplo, “segurar um olhar sério demais”). Os olhos vivos continuam obrigatórios no homem, em rostos longos e em close. As vacas têm sorriso fixo, então a reação delas vem de orelha, sino, cabeça e corpo.
+    Para comédia seca a skill usa a forma curta: a tarefa é o próprio idioma da atuação (por exemplo, “segurar um olhar sério demais”). Os olhos vivos continuam obrigatórios no homem, em rostos longos e em close. As vacas têm sorriso fixo, então a reação delas vem de orelha, sino, cabeça e corpo.
   </div>
 </section>
 
 <!-- ===================== DIREÇÕES ===================== -->
 <section id="direcoes">
   <h2>Direções de estilo</h2>
-  <p class="sub">A captação tem look provisório até chegarem os quadros da Codemig. A fábrica está decidida: tudo fosco.</p>
+  <p class="sub">A captação usa o look da Codemig. A fábrica está decidida: tudo fosco.</p>
 
-  <h3>Captação <span class="tag t-live">provisório</span></h3>
+  <h3>Captação <span class="tag t-ok">look travado</span></h3>
   <div class="card">
     <div class="kv">
       <div class="k">Meio e registro</div><div class="v">live-action fotorreal, comercial, comédia seca</div>
@@ -255,10 +262,18 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <div class="k">Câmera</div><div class="v">closes imersivos de macro com lente probe, como a Laowa 24 mm f/14 2x: a câmera percorre a bandeja, passa entre os potes, acompanha a tampa que se abre e a bandeja que se parte. Poucos planos abertos: o POV da geladeira, a revelação e o rosto dele</div>
       <div class="k">Óptica na tabela da skill</div><div class="v">24 mm em full-frame é cerca de 84° na diagonal, o passo de 84° da tabela. O nome da lente não controla o motor; o que entra no prompt são os resultados: perspectiva exagerada, objetos próximos enormes, a câmera passando rente às superfícies, foco decidido por plano</div>
       <div class="k">Luz</div><div class="v">natural, forte e quente, de janela. A abertura da geladeira dá um segundo foco frio quando a porta abre. A sonda precisa de muita luz, o que combina com o verão</div>
-      <div class="k">Textura</div><div class="v"><span class="pending">pendente</span>: você disse para basear no filme da Codemig. Não tenho acesso a ele. Mande 2 ou 3 quadros, ou descreva câmera, grão e grade, e eu travo o bloco de look</div>
+      <div class="k">Textura</div><div class="v">negativo colorido 35 mm: grão orgânico vivo nas sombras, halação quente em janelas e manchas de sol, sombras levantadas com um tom frio verde-azulado, vinheta suave, franja cromática sutil. A cor vem do lugar, sem grade por cima. O bloco completo está logo abaixo</div>
       <div class="k">Som</div><div class="v">só SFX dentro das gerações. O “créqui” de herói, a locução e a música entram em pós</div>
     </div>
   </div>
+  <details>
+    <summary>Look travado da captação (texto do filme da Codemig)</summary>
+    <div>
+      <p style="color:var(--muted);font-size:13px">Colado igual em todo prompt de captação. Está escrito para 21:9: se o filme da Porto Alegre ficar em 16:9, só a linha do formato muda. O mundo animado não usa este bloco: continua limpo, sem grão.</p>
+      <div class="pbar"><span>Look da captação</span><button class="copy" type="button" data-target="p-look-codemig">Copiar</button></div>
+      <pre class="prompt" id="p-look-codemig">FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 21:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.</pre>
+    </div>
+  </details>
   <p style="font-size:13px;color:var(--muted);margin-top:8px">Risco previsto para a macro: a tampa impressa da bandeja (logo, texto e código de barras), vista de perto, expõe qualquer microtexto inventado. Os closes mais seguros são nas pontes de plástico entre os potes, nas paredes ribadas do copo com condensação, na borda da tampa e no iogurte. Tampa impressa em close só com arte em alta ou composição em pós.</p>
 
   <h3 style="margin-top:22px">Fábrica <span class="tag t-ok">decidido: B</span></h3>
@@ -366,6 +381,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <h3>O que temos <span class="tag t-have">recebido</span></h3>
   <div class="thumbs">
     <div class="thumb wide"><img src="{{IMG:alegrinha-3d}}" alt="Model sheet da Alegrinha em vinil fosco: frente, três quartos e costas"><div class="cap"><b>@ALEGRINHA <span class="tag t-ok">aprovada</span></b><span>Vinil fosco, 3 vistas (frente, 3/4, costas). Falta close do rosto, mãos, figurinos e reações.</span></div></div>
+    <div class="thumb wide"><img src="{{IMG:pote-real}}" alt="Pote de iogurte de morango fechado à esquerda e aberto à direita, com a tampa verde ao lado"><div class="cap"><b>@POTE <span class="tag t-ok">pronto</span></b><span>Element prop_pote-morango-real: fechado e aberto, tampa verde impressa ao lado.</span></div></div>
     <div class="thumb"><img src="{{IMG:homem}}" alt="Character sheet do homem: frente, perfil, costas e close"><div class="cap"><b>@HOMEM</b><span>4 painéis, 2752×1536. Pronto como identidade.</span></div></div>
     <div class="thumb"><img src="{{IMG:mae}}" alt="Character sheet da mãe: frente, perfil, costas e close"><div class="cap"><b>@MAE <span class="tag t-off">fora do roteiro</span></b><span>Não aparece no filme de 60″.</span></div></div>
     <div class="thumb"><img src="{{IMG:bandeja-morango}}" alt="Bandeja de iogurte de morango"><div class="cap"><b>Bandeja Morango</b><span>Bandeja inteira, 1920×1080, um ângulo (3/4).</span></div></div>
@@ -391,14 +407,13 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <div class="scroll-x"><table>
     <thead><tr><th>Prio</th><th>Asset</th><th>O que precisa conter</th><th>Bloqueia</th></tr></thead>
     <tbody>
-      <tr><td><span class="tag t-p0">P0</span></td><td><b>@POTE</b> real (stand-in)</td><td>gerar com o prompt da seção seguinte: copo rosa ribado com borda branca e tampa verde impressa com aba, fechado e aberto no mesmo painel. A tampa verde é o que o render da bandeja mostra de cima. Uma foto do pote real só serve para conferir.</td><td>cenas 1, 2, 7</td></tr>
-      <tr><td><span class="tag t-p0">P0</span></td><td><b>@COZINHA</b> de verão</td><td>2 ou 3 placas: cozinha com luz natural forte, interior da geladeira, balcão. Mais os quadros do filme da Codemig, para a textura.</td><td>cenas 1, 2, 7</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@COZINHA</b> de verão</td><td>2 ou 3 placas: cozinha com luz natural forte, interior da geladeira, balcão. No look da Codemig (negativo 35 mm).</td><td>cenas 1, 2, 7</td></tr>
       <tr><td><span class="tag t-p0">P0</span></td><td><b>@FABRICA</b> mestre e setores</td><td>panorama-mestre dos quatro setores, mais 2 a 3 placas por setor, sem personagens e sem texto, em vinil fosco.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Macro-texturas do produto real</td><td>fotos de perto (celular com macro serve): superfície do pote com condensação, ponte de plástico entre potes, borda da tampa, iogurte. Alimentam as tomadas da sonda.</td><td>cena 1</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Alegrinha: rosto, mãos, reações</td><td>close do rosto (âncora de identidade), mãos de luva e uma folha de reações para comédia (olho apertado, olho fechado de prazer, susto, orgulho), no mesmo vinil fosco.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>4 figurinos</td><td>Seletora (touca, galocha), Cientista (jaleco, crachá em branco), Som (headphone), Pintora (boina, avental). Cada figurino é uma tag nova.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Kit de props toon</td><td>frutas (morango, banana, mamão, maçã, coco), tubos de polpa e ensaio, microfone, tampas, bisnaga de confeiteiro, cavaletes.</td><td>cenas 3 a 6</td></tr>
-      <tr><td><span class="tag t-p1">P1</span></td><td>Sheets de produto (real e toon)</td><td>prompts curtos prontos na seção seguinte (pote real e toon), em painel dividido: fechado à esquerda, aberto à direita.</td><td>cenas 1, 5, 6</td></tr>
+      <tr><td><span class="tag t-p1">P1</span></td><td>Sheets toon (bandeja e pote)</td><td>prompts curtos prontos na seção seguinte; o do pote sai em painel dividido (fechado à esquerda, aberto à direita). O pote real já está pronto.</td><td>cenas 5, 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Bandeja real: outros ângulos</td><td>lado e por baixo, a partir de foto ou render. Hoje só temos o 3/4 visto de cima, com as tampas verdes.</td><td>cenas 1, 7</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Keyframes</td><td>saem dos rascunhos aprovados: o último quadro da cena 1 alimenta as cenas 2 e 7.</td><td>cenas 2, 7</td></tr>
       <tr><td><span class="tag t-p2">P2</span></td><td>Arte e áudio de pós</td><td>logo vetorial, tipografia dos letterings, arte da mensagem da tampa, layout da cartela, locução, SFX e trilha. Ver Pós e áudio.</td><td>cena 8, final</td></tr>
@@ -416,7 +431,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 <!-- ===================== SHOTLIST ===================== -->
 <section id="shotlist">
   <h2>Shotlist</h2>
-  <p class="sub">Decupagem por geração: tempo, planos, o que é dito, como termina, o que usar e o que olhar no draft. O campo Prompt fica pendente até você liberar. As linhas de gag são sugestões minhas. Marque a cena quando todas as suas gerações estiverem aprovadas; o progresso fica salvo neste navegador.</p>
+  <p class="sub">Decupagem por geração: tempo, planos, o que é dito, como termina, o que usar e o que olhar no draft. O campo Prompt fica pendente até você liberar. Marque a cena quando todas as suas gerações estiverem aprovadas; o progresso fica salvo neste navegador.</p>
 
   <!-- CENA 1 -->
   <div class="scene" data-scene="1">
@@ -429,7 +444,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <div class="gen">
       <div class="gen-bar"><span>Geração 1a <span class="tag t-live">captação</span> · POV da geladeira e revelação</span><span class="meta">6 s · 2 planos · corte em 3 s · no filme 0″ a 5″</span></div>
       <dl class="rows">
-        <dt>O que acontece</dt><dd>Plano 1 (0 a 3 s): câmera dentro da geladeira, no nível da prateleira. A porta já está abrindo, a luz fria banha a lente, ele aparece, fixa um ponto dentro da geladeira, sorri e leva a mão para pegar um produto. Não vemos o quê: a mão e o braço cobrem a lente. Plano 2 (3 a 6 s): macro com a sonda sobre a superfície rosa dos potes, com condensação; a câmera “expande”, recuando em um único movimento, e revela a bandeja na mão dele e o homem inteiro.<span class="gag">Gag (sugestão): antes de pegar o produto, a mão hesita sobre a alface e o pote de vidro, como quem finge indecisão, e só então vai ao alvo.</span></dd>
+        <dt>O que acontece</dt><dd>Plano 1 (0 a 3 s): câmera dentro da geladeira, no nível da prateleira. A porta já está abrindo, a luz fria banha a lente, ele aparece, fixa um ponto dentro da geladeira, sorri e leva a mão para pegar um produto. Não vemos o quê: a mão e o braço cobrem a lente. Plano 2 (3 a 6 s): macro com a sonda sobre a superfície rosa dos potes, com condensação; a câmera “expande”, recuando em um único movimento, e revela a bandeja na mão dele e o homem inteiro.</dd>
         <dt>O que é dito</dt><dd>Nada.</dd>
         <dt>Como termina</dt><dd>Plano médio dele em pé na porta aberta, a bandeja na mão direita, séria demais para o que é.</dd>
         <dt>Direção</dt><dd>O POV é da geladeira, como você definiu. O recuo da macro é a “câmera que expande” do roteiro e vai do detalhe ao homem num único movimento. Verão: depois do recuo, o sol da janela entra pelo lado direito do quadro e a geladeira fica à esquerda.</dd>
@@ -442,7 +457,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <div class="gen">
       <div class="gen-bar"><span>Geração 1b <span class="tag t-live">captação</span> · O créqui</span><span class="meta">5 s · 2 planos · corte em 3 s · no filme 5″ a 9″</span></div>
       <dl class="rows">
-        <dt>O que acontece</dt><dd>Plano 1 (0 a 3 s): macro com a sonda, deslizando entre os potes ao longo da ponte de plástico que os une. Dois dedos entram e pinçam um pote. Pausa de quase um segundo, imóvel. O estalo seco, o “créqui”, e o pote se solta. Plano 2 (3 a 5 s): close dele, de olhos meio fechados, um arrepio mínimo de prazer. Ele pousa a bandeja no balcão.<span class="gag">Gag: a pausa antes do estalo é o remate de comédia. Quanto mais séria a macro, melhor.</span></dd>
+        <dt>O que acontece</dt><dd>Plano 1 (0 a 3 s): macro com a sonda, deslizando entre os potes ao longo da ponte de plástico que os une. Dois dedos entram e pinçam um pote. Pausa de quase um segundo, imóvel. O estalo seco, o “créqui”, e o pote se solta. Plano 2 (3 a 5 s): close dele, de olhos meio fechados, um arrepio mínimo de prazer. Ele pousa a bandeja no balcão.</dd>
         <dt>O que é dito</dt><dd>Nada. O “créqui” de herói vem do banco de SFX em pós, e o do motor serve de guia de tempo.</dd>
         <dt>Como termina</dt><dd>Pote na mão esquerda, bandeja no balcão à direita do quadro com cinco potes.</dd>
         <dt>Direção</dt><dd>É o momento central da marca (o som do produto). A sonda “estuda” a ponte como um bicho raro e a comédia vem da distância entre a solenidade da câmera e o assunto.</dd>
@@ -458,7 +473,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
         <dt>O que acontece</dt><dd>Plano 1 (0 a 2 s): macro na borda da tampa; a unha levanta a ponta, a tampa descola com resistência e um fio de iogurte se estica e quebra. Plano 2 (2 a 6 s): plano médio fechado dele olhando a tampa com reverência, levando-a à boca e lambendo. A geração termina na lambida.</dd>
         <dt>O que é dito</dt><dd><span class="quote">“Você já se perguntou: de onde vem esse gostinho de alegria que a gente nunca esquece?”</span> Locução em off, em pós.</dd>
         <dt>Como termina</dt><dd>Corte seco no meio da lambida, tampa na boca, pote na mão esquerda. Um quadro dos últimos 1 a 2 s vira o congelamento, o remate cômico e o keyframe das cenas 2 e 7.</dd>
-        <dt>Direção</dt><dd>O congelamento no meio da lambida é o gag do roteiro, então este plano termina no estouro, não em ação aberta. Escolher um quadro em que os olhos estejam visíveis e a lambida não fique estranha.</dd>
+        <dt>Direção</dt><dd>O congelamento no meio da lambida é o remate do roteiro, então este plano termina nele, não em ação aberta. Escolher um quadro em que os olhos estejam visíveis e a lambida não fique estranha.</dd>
         <dt>Usa</dt><dd>@HOMEM, @POTE (falta), macro-textura da tampa (falta)</dd>
         <dt>Testar no draft</dt><dd><ul><li>nenhuma letra legível na tampa</li><li>mão direita segura a tampa, esquerda segura o pote</li><li>a lambida não parece estranha; escolher o quadro do congelamento</li><li>luz de janela e rosto no mesmo lado das gerações 1a e 1b</li></ul></dd>
         <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
@@ -507,7 +522,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <div class="gen">
       <div class="gen-bar"><span>Geração 3b <span class="tag t-toon">inserts</span></span><span class="meta">8 s · 2 planos de 4 s · corte em 4 s</span></div>
       <dl class="rows">
-        <dt>O que acontece</dt><dd>Plano 1: <b>de cima</b>, a esteira com frutas passando e luvas pretas escolhendo uma a uma; a maçã machucada sai da linha. Plano 2: <b>close</b> da luva da vaca virando um morango grande para inspecionar, com o sino balançando.<span class="gag">Gag (sugestão): o descarte da maçã é solene, como uma sentença. A vaca ergue a maçã contra a luz, assente devagar e a larga na lixeira.</span></dd>
+        <dt>O que acontece</dt><dd>Plano 1: <b>de cima</b>, a esteira com frutas passando e luvas pretas escolhendo uma a uma; a maçã machucada sai da linha. Plano 2: <b>close</b> da luva da vaca virando um morango grande para inspecionar, com o sino balançando.</dd>
         <dt>Montagem sugerida (7 s)</dt><dd>espinha 2 s · de cima 1,5 s · espinha 1,5 s · close 1,5 s · espinha 0,5 s no portão. É um corte a cada 1,4 s, mais rápido que as referências (2,7 a 3 s); se pesar, tire um insert.</dd>
         <dt>Usa</dt><dd><span class="pending">mesmos assets de 3a</span></dd>
         <dt>Testar no draft</dt><dd><ul><li>a luz principal continua à esquerda no plano de cima</li><li>a esteira corre da esquerda para a direita da tela em todas as inserts</li></ul></dd>
@@ -536,7 +551,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <div class="gen">
       <div class="gen-bar"><span>Geração 4b <span class="tag t-toon">inserts</span></span><span class="meta">8 s · 2 planos de 4 s · corte em 4 s</span></div>
       <dl class="rows">
-        <dt>O que acontece</dt><dd>Plano 1: <b>de cima, em ângulo alto</b>, a prensa de polpa: morangos descem pelo funil e a polpa rosa corre pelos tubos de vidro. Plano 2: <b>close</b> do tubo de ensaio contra a tira de amostras, com a vaca no fundo, mais séria do que a polpa merece.<span class="gag">Gag (sugestão): a cientista prova a polpa com uma colher e treme inteira, o sino tocando sem parar, e depois escreve a nota numa prancheta com cara de quem acabou de ver o futuro.</span></dd>
+        <dt>O que acontece</dt><dd>Plano 1: <b>de cima, em ângulo alto</b>, a prensa de polpa: morangos descem pelo funil e a polpa rosa corre pelos tubos de vidro. Plano 2: <b>close</b> do tubo de ensaio contra a tira de amostras, com a vaca no fundo, mais séria do que a polpa merece.</dd>
         <dt>Montagem sugerida (7 s)</dt><dd>espinha 2 s · alto 1,5 s · espinha 1,5 s · close 1,5 s · espinha 0,5 s no portão.</dd>
         <dt>Usa</dt><dd><span class="pending">mesmos assets de 4a</span></dd>
         <dt>Testar no draft</dt><dd><ul><li>o líquido nos tubos mantém a cor em todos os planos</li><li>a prancheta sem texto</li></ul></dd>
@@ -565,7 +580,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <div class="gen">
       <div class="gen-bar"><span>Geração 5b <span class="tag t-toon">inserts</span></span><span class="meta">8 s · 2 planos de 4 s · corte em 4 s</span></div>
       <dl class="rows">
-        <dt>O que acontece</dt><dd>Plano 1: <b>close</b> no filtro anti-pop: a luva da vaca parte um pote da bandeja, o “créqui” estala e o ponteiro do medidor pula. Plano 2: <b>close</b> das duas vacas da cabine, de headphone, balançando juntas de olhos fechados, orelhas batendo no tempo.<span class="gag">Gag (sugestão): a engenheira prova o créqui como um sommelier prova vinho: fecha os olhos, inclina a cabeça, faz uma pausa longa e sinaliza “perfeito” com um círculo de luva.</span></dd>
+        <dt>O que acontece</dt><dd>Plano 1: <b>close</b> no filtro anti-pop: a luva da vaca parte um pote da bandeja, o “créqui” estala e o ponteiro do medidor pula. Plano 2: <b>close</b> das duas vacas da cabine, de headphone, balançando juntas de olhos fechados, orelhas batendo no tempo.</dd>
         <dt>Montagem sugerida (7 s)</dt><dd>espinha 2 s · close do créqui 1,5 s · espinha 1,5 s · close da cabine 1,5 s · espinha 0,5 s no portão. O estalo cai no meio da locução, em “créqui”.</dd>
         <dt>Usa</dt><dd><span class="pending">mesmos assets de 5a</span></dd>
         <dt>Testar no draft</dt><dd><ul><li>o pote sai da bandeja de verdade, não aparece do nada</li><li>o estalo e a pausa lembram o da cena 1b</li></ul></dd>
@@ -594,7 +609,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <div class="gen">
       <div class="gen-bar"><span>Geração 6b <span class="tag t-toon">inserts</span></span><span class="meta">8 s · 2 planos de 4 s · corte em 4 s</span></div>
       <dl class="rows">
-        <dt>O que acontece</dt><dd>Plano 1: <b>de cima</b>, os cavaletes e as tampas, uma vaca recuando para julgar. Plano 2: <b>macro</b> da bisnaga traçando laços na borda da tampa; no fim a vaca ergue a tampa até a lente.<span class="gag">Gag (sugestão): galeria de arte. Recuar, a luva no queixo, a cabeça inclinada, uma boina ajustada. Ninguém ri.</span></dd>
+        <dt>O que acontece</dt><dd>Plano 1: <b>de cima</b>, os cavaletes e as tampas, uma vaca recuando para julgar. Plano 2: <b>macro</b> da bisnaga traçando laços na borda da tampa; no fim a vaca ergue a tampa até a lente.</dd>
         <dt>Como termina</dt><dd>A tampa lisa ocupa o quadro, com o centro vazio. A mensagem “Parabéns! Você ganhou uma Alegrinha Colecionável” é escrita em pós com animação de escrita. O motor não escreve texto, então a vaca só traça laços sem letras.</dd>
         <dt>Montagem sugerida (8 s)</dt><dd>espinha 2,5 s · de cima 1,5 s · espinha 1 s · macro da escrita 3 s, terminando na tampa na lente.</dd>
         <dt>Usa</dt><dd><span class="pending">mesmos assets de 6a</span></dd>
@@ -614,7 +629,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <div class="gen">
       <div class="gen-bar"><span>Geração 7a <span class="tag t-live">captação</span></span><span class="meta">6 s · 1 take · 16:9</span></div>
       <dl class="rows">
-        <dt>O que acontece</dt><dd>Começa no mesmo quadro de 1c: a lambida termina, ele baixa a tampa, vira para olhar o verso e a expressão muda devagar. Silêncio de quase um segundo. Então comemora, sem palavras.<span class="gag">Gag (sugestão): a virada mais lenta possível, uma seriedade que se rompe, e só então a explosão. Um erguer de punhos contido, de homem que não quer acordar o vizinho.</span></dd>
+        <dt>O que acontece</dt><dd>Começa no mesmo quadro de 1c: a lambida termina, ele baixa a tampa, vira para olhar o verso e a expressão muda devagar. Silêncio de quase um segundo. Então comemora, sem palavras.</dd>
         <dt>O que é dito</dt><dd>Nada em cena. Locução em off.</dd>
         <dt>Como termina</dt><dd>Corte seco no estouro da comemoração.</dd>
         <dt>Direção</dt><dd>É a virada do filme e fica num take único, no mesmo enquadramento do plano 2 de 1c para o corte casar. Risada sem palavras.</dd>
@@ -678,17 +693,18 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <div class="scroll-x"><table>
     <thead><tr><th>#</th><th>Pergunta</th><th>Padrão que adotei</th><th>Muda</th></tr></thead>
     <tbody>
-      <tr><td class="num">1</td><td><b>Codemig:</b> quais quadros ou qual descrição (câmera, grão, grade, cor) definem a textura que você quer? Não tenho acesso ao filme.</td><td>Look limpo e natural, provisório.</td><td>cenas 1, 2, 7</td></tr>
+      <tr><td class="num">1</td><td><b>Formato:</b> o look da Codemig vem escrito para 21:9. O filme da Porto Alegre também é 21:9, ou fica 16:9?</td><td>16:9 até você dizer. Sugiro 21:9: a faixa lateral ganha espaço.</td><td>todas</td></tr>
       <tr><td class="num">2</td><td><b>Dose de comédia:</b> seca (seriedade que se rompe) ou física (exagero de corpo)?</td><td>Seca em toda a captação, com um pico físico contido na vitória.</td><td>todas</td></tr>
       <tr><td class="num">3</td><td><b>Rosto da vaca:</b> sorriso fixo, como na model sheet, ou com reações (olho apertado, olho fechado, susto)?</td><td>Sorriso fixo; reação por orelha, sino, cabeça e corpo. Se quiser olhos expressivos, preciso de uma folha de reações.</td><td>cenas 3 a 6</td></tr>
       <tr><td class="num">4</td><td><b>Coleira vermelha:</b> a vaca fosca não tem, só o cordão. Pode ficar assim?</td><td>Sim.</td><td>assets</td></tr>
-      <tr><td class="num">5</td><td><b>Pote real:</b> a tampa é a película verde impressa e descola inteira pela aba “PUXE”? O “créqui” é o estalo do pote saindo da bandeja? E “polpas” no roteiro quer dizer potes?</td><td>Sim para as três suposições.</td><td>cenas 1, 2, 5, 7</td></tr>
+      <tr><td class="num">5</td><td><b>Estalo:</b> o “créqui” é o estalo do pote saindo da bandeja, e a tampa descola inteira pela aba “PUXE”? E “polpas” no roteiro quer dizer potes?</td><td>Sim para as três suposições.</td><td>cenas 1, 2, 5, 7</td></tr>
       <tr><td class="num">6</td><td>Qual sabor é o herói?</td><td>Morango, pelo contraste com o verde.</td><td>cenas 1, 7</td></tr>
       <tr><td class="num">7</td><td>Há outras versões (9:16, 1:1, 15″, 30″)? Uma faixa lateral não funciona em vertical.</td><td>Só 16:9, 60″.</td><td>todas</td></tr>
       <tr><td class="num">8</td><td>Quando a locução e a trilha existem? Os tempos dos setores são estimativa.</td><td>Ritmo de leitura estimado, a fechar com um scratch.</td><td>cenas 3 a 6</td></tr>
       <tr><td class="num">9</td><td>A mãe aparece em algum filme desta campanha? O roteiro de 60″ só tem o homem.</td><td>Fora deste filme.</td><td>nenhuma</td></tr>
       <tr><td class="num">10</td><td>Qual dos quatro chaveiros ele ganha, ou fica em aberto?</td><td>Em aberto.</td><td>cenas 7, 8</td></tr>
       <tr><td class="num">11</td><td>A geração opcional 7b (macro da mensagem na tampa) entra?</td><td>Fica como opcional.</td><td>cena 7</td></tr>
+      <tr><td class="num">12</td><td><b>Look da Codemig:</b> vale só para a captação? A fábrica fica limpa, sem grão?</td><td>Sim: captação com cara de filme, fábrica limpa.</td><td>cenas 3 a 6</td></tr>
     </tbody>
   </table></div>
 
@@ -700,7 +716,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <li>Nunca mais de quatro pessoas referenciadas por geração; aqui é no máximo uma. As três vacas de cada setor usam o mesmo figurino de referência.</li>
   </ul>
 
-  <footer>Decupagem v0.2 gerada com a skill CINEORO. Quando você liberar os assets P0 e responder as perguntas 1 a 3, eu escrevo os prompts de vídeo e atualizo este arquivo.</footer>
+  <footer>Decupagem v0.5 gerada com a skill CINEORO. Quando você fechar o formato, o rosto da vaca e o look da fábrica, e gerar a cozinha e a fábrica, eu escrevo os prompts de vídeo e atualizo este arquivo.</footer>
 </section>
 
 </div>
