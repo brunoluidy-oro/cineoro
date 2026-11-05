@@ -2,7 +2,7 @@
 
 Filme de 60″ para o iogurte **Laticínios Porto Alegre** (bandeja de 540 g, 6 potes de 90 g) e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
 
-**Status:** decupagem v0.2. Os prompts de **vídeo** ainda não foram escritos, a pedido. Os prompts de **imagem** dos sheets de produto (GPT) estão prontos em `assets-prompts.md`. Abra `shotlist.html` para tudo o mais.
+**Status:** decupagem v0.2. Os prompts de **vídeo** ainda não foram escritos, a pedido. Os prompts de **imagem** (GPT, curtos) do pote real e dos objetos toon estão em `assets-prompts.md`; a bandeja real já existe. Abra `shotlist.html` para tudo o mais.
 
 ## Decisões do diretor
 
