@@ -2,7 +2,7 @@
 
 Filme de 60″ para o iogurte **Laticínios Porto Alegre** (bandeja de 540 g, 6 potes de 90 g) e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
 
-**Status:** decupagem v0.7. Os prompts de **vídeo** ainda não foram escritos, a pedido. Abra `shotlist.html` para tudo.
+**Status:** decupagem v0.8. Os prompts de **vídeo** ainda não foram escritos, a pedido. Abra `shotlist.html` para tudo.
 
 ## Decisões do diretor
 
@@ -11,22 +11,22 @@ Filme de 60″ para o iogurte **Laticínios Porto Alegre** (bandeja de 540 g, 6 
 - **Captação:** cozinha brasileira de verão, luz natural, macro com lente probe. Look da Codemig (negativo colorido 35 mm), bloco travado no HTML, ajustado para 16:9. **Só na captação.**
 - **Plano 1:** POV da geladeira. A câmera começa dentro dela, o homem abre a porta e pega um produto que ainda não vemos.
 - **Créqui** é destacar o copo da bandeja (nesses multipacks, normalmente dobrando o copo contra uma linha de quebra; não há fonte sobre esta bandeja, então vale gravar um pote real).
-- **Fábrica:** tudo fosco e **meio monocromática em verde**, sem distribuição literal de cores. Limpa, sem grão. Acentos da marca podem aparecer em detalhes.
-- **Espinha:** um travelling horizontal contínuo de 30 s, **uma geração só** (o Seedance 2.5 gera até 30 s), insinuando uma linha de produção. Sem portões. Inserts (de cima, close, macro) entram por cima como cutaways.
+- **Fábrica:** tudo fosco e **meio monocromática em verde**. Limpa, sem grão. Acentos da marca podem aparecer em detalhes.
+- **Espinha:** um travelling horizontal contínuo de 30 s, **uma geração só**, insinuando uma linha de produção. Sem cortes entre os setores; as paredes com abertura em arco do panorama são atravessadas pela câmera. Inserts (de cima, close, macro) entram por cima como cutaways.
 - **Vacas** sempre felizes por estarem trabalhando, com o sorriso variando. O vermelho do chaveiro é a boca dela, não uma coleira.
 - **Cena 7:** ele só comemora; nenhum chaveiro aparece. O tempo se ajusta na pós, cortando.
 
 ## O que já temos
 
-Roteiro de 60″ decupado em 8 cenas e 10 gerações (mais 1 opcional) · homem · vaca fosca (model sheet, 3 vistas) · 3 bandejas inteiras · 4 chaveiros · pote real (Element `prop_pote-morango-real`).
+Roteiro de 60″ decupado em 8 cenas e 10 gerações (mais 1 opcional) · homem · vaca fosca (model sheet, 3 vistas) · 3 bandejas inteiras · 4 chaveiros · pote real (Element `prop_pote-morango-real`) · cozinha (Element `loc_cozinha`) · panorama isométrico da fábrica.
 
 ## O que falta
 
 **Você gera as imagens**
-1. Cozinha de verão: 2–3 placas (cozinha, interior da geladeira, balcão), no look da Codemig.
-2. Fábrica: panorama-mestre dos 4 setores e uma placa por setor, em vinil fosco, meio monocromática em verde.
-3. Alegrinha completa: close do rosto, mãos, 4 figurinos (Seletora, Cientista, Som, Pintora) e folha de expressões felizes (inclui a boca vermelha quando o sorriso abre).
-4. Toons: bandeja, pote e kit de props (prompts da bandeja e do pote em `assets-prompts.md`).
+1. **Alegrinha:** painel com os 4 looks lado a lado (Seletora, Cientista, Som, Pintora) e painel de expressões felizes. Prompts curtos em `assets-prompts.md`.
+2. **Interior da geladeira**, visto de dentro, olhando para fora (o POV do plano 1).
+3. **Fábrica vista de lado**, na altura da esteira, de frente para os setores (o ângulo do travelling). O panorama atual é isométrico.
+4. Toons: bandeja e pote (prompts em `assets-prompts.md`).
 
 **Pós (pode vir depois)**: logo vetorial, tipografia dos letterings, arte da mensagem da tampa, layout da cartela, locução, SFX do “créqui”, trilha.
 

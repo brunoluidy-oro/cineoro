@@ -29,6 +29,20 @@ OBJECTS = [
         ],
     },
     {
+        "id": "alegrinha-looks",
+        "title": "Alegrinha: 4 looks e expressões",
+        "kind": "toon",
+        "tag": "@ALEGRINHA_LOOKS",
+        "attach": "Anexe a model sheet da vaca fosca.",
+        "note": "Um painel com os 4 looks vale como uma referência só no vídeo (mais estável do que quatro referências separadas). O painel de expressões inclui a boca vermelha, que no chaveiro é um pedacinho da boca dela.",
+        "prompts": [
+            ("4 looks lado a lado",
+             "Using the attached cow as reference, show the same cow four times side by side in one 16:9 image, full body, front view, same scale, same matte vinyl style, plain medium-grey background, soft studio light. Four work outfits, left to right: 1) a white hairnet with the horns poking through, white rubber boots, a pale-green apron; 2) a white lab coat with a blank ID badge, white rubber boots; 3) big over-ear headphones; 4) a cream painter's smock with a small beret between the horns. Keep her exact face, ears, bell and colors. Happy, relaxed smile in all four."),
+            ("expressões felizes",
+             "Using the attached cow as reference, a 16:9 image split into four equal panels, close-up of her head and shoulders in each, same matte vinyl style, plain medium-grey background, soft studio light. Always happy, never sad or angry: 1) calm smile; 2) big open smile showing her red mouth; 3) happy eyes closed with pleasure; 4) focused and content, working. Same face, ears and colors in every panel."),
+        ],
+    },
+    {
         "id": "bandeja-toon",
         "title": "Bandeja toon (fosca)",
         "kind": "toon",

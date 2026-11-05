@@ -110,6 +110,8 @@ td.num, th.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
 .thumb .cap b { display: block; font-family: var(--font-display); }
 .thumb .cap span { color: var(--muted); font-size: 12px; }
 .thumb.wide { grid-column: span 2; }
+.thumb.pano { grid-column: span 3; }
+.thumb.pano img { aspect-ratio: 2000 / 848; object-fit: contain; }
 .scene { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; margin-bottom: 16px; }
 .scene-head { display: flex; gap: 12px; align-items: flex-start; }
 .scene-head input { width: 20px; height: 20px; margin-top: 3px; accent-color: var(--green); flex: none; cursor: pointer; }
@@ -137,6 +139,7 @@ details > div { padding: 2px 16px 14px; }
 .plan-svg .small { font-size: 11px; fill: var(--muted); }
 .plan-svg .belt { fill: #ffffff; stroke: #006536; stroke-width: 1.5; }
 .plan-svg .col { fill: #006536; }
+.plan-svg .arch { fill: #cfe8d5; }
 .plan-svg .cow { fill: #f6f1e4; stroke: #1d1d1d; stroke-width: 1.5; }
 .plan-svg .ear { fill: #1d1d1d; }
 .plan-svg text.ht { fill: #0b2a17; }
@@ -166,7 +169,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   dl.rows dt:first-of-type { border-top: 0; }
   .kv > div:nth-child(2) { border-top: 0; } .kv .k { padding-bottom: 0; } .kv .v { border-top: 0; padding-top: 0; }
   .timeline div { font-size: 10px; }
-  .thumb.wide { grid-column: span 1; }
+  .thumb.wide, .thumb.pano { grid-column: span 1; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 </style>
@@ -181,7 +184,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 <header class="hero">
   <div class="eyebrow">Filme 60″ · Laticínios Porto Alegre · Seedance 2.5 · CINEORO</div>
   <h1>Alegrinha na Tampinha</h1>
-  <p class="lede">Decupagem v0.7: tom cômico, captação com sonda macro e o look da Codemig, fábrica em espinha lateral com inserts, tudo fosco. Os prompts de vídeo ainda não foram escritos.</p>
+  <p class="lede">Decupagem v0.8: tom cômico, captação com sonda macro e o look da Codemig, fábrica em espinha lateral com inserts, tudo fosco. Os prompts de vídeo ainda não foram escritos.</p>
   <p style="color:var(--muted);font-size:13px;margin-top:10px">Título de trabalho, tirado da frase da promoção. Branch <code>claude/vibrant-goodall-jpk3x5</code>, pasta <code>projects/alegrinha-na-tampinha/</code>.</p>
 </header>
 
@@ -207,7 +210,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
     <strong>O que falta, em três passos</strong>
     <ol style="margin:6px 0 0;padding-left:20px">
       <li><b>Você decide:</b> nada bloqueia. Só resta a geração opcional 7b (macro da mensagem na tampa), que você vai pensar.</li>
-      <li><b>Você gera as imagens:</b> a cozinha de verão, a fábrica meio monocromática em verde (panorama e uma placa por setor) e a Alegrinha completa (rosto, mãos, figurinos, expressões felizes). Já estão prontos: o homem, a vaca fosca, a bandeja e o pote real.</li>
+      <li><b>Você gera as imagens:</b> a Alegrinha com os 4 looks e as expressões felizes, o interior da geladeira (POV do plano 1) e a fábrica vista de lado, na altura da esteira. Já estão prontos: o homem, a vaca fosca, a bandeja, o pote real, a cozinha e o panorama da fábrica.</li>
       <li><b>Eu escrevo os prompts de vídeo</b>, depois que o passo 2 estiver fechado.</li>
     </ol>
   </div>
@@ -237,7 +240,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <tr><td><b>O look da Codemig vale só na captação.</b> A fábrica não leva nada dele.</td><td>Fábrica limpa, sem grão, sem halação e sem vinheta.</td></tr>
       <tr><td><b>Vacas sempre felizes, sem sorriso travado.</b> Elas estão felizes de estarem trabalhando.</td><td>O sorriso varia de intensidade e o rosto muda. Precisa de uma folha de expressões felizes.</td></tr>
       <tr><td><b>A fábrica é meio monocromática em verde</b>, sem distribuição literal de cores.</td><td>Variações de verde, com a marca como pano de fundo. As vacas e as frutas mantêm as próprias cores, e os acentos da marca podem aparecer em detalhes.</td></tr>
-      <tr><td><b>O travelling horizontal é contínuo o tempo todo</b>, insinuando uma linha de produção.</td><td>Os portões saíram. A espinha é um travelling único, numa geração de 30 s.</td></tr>
+      <tr><td><b>O travelling horizontal é contínuo o tempo todo</b>, insinuando uma linha de produção.</td><td>Sem cortes entre os setores. A espinha é um travelling único, numa geração de 30 s. A fábrica enviada tem paredes com abertura em arco entre os setores, e a câmera atravessa as aberturas sem cortar.</td></tr>
       <tr><td><b>Créqui é destacar o copo da bandeja.</b></td><td>Cena 1b: ele destaca um copo da bandeja e o estalo é o som. Pesquisei como esses multipacks funcionam (ver cena 1b).</td></tr>
       <tr><td><b>Sabor Morango. Só 16:9. Mãe ignorada. Nenhum chaveiro aparece: ele só comemora.</b></td><td>Cena 7 sem chaveiro na mão. A mãe saiu da página.</td></tr>
       <tr><td><b>O tempo se ajusta na pós, cortando.</b></td><td>As gerações podem ter folga; os setores (7 a 8 s) são nominais.</td></tr>
@@ -362,14 +365,14 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 
   <h3 style="margin-top:26px">Planta da faixa</h3>
   <div class="scroll-x" style="padding:12px">
-    <svg class="plan-svg" viewBox="0 0 960 300" role="img" aria-label="Planta lateral da fábrica: quatro setores em tons de verde, em fila, separados por colunas escuras, com uma esteira única e a câmera correndo da esquerda para a direita" style="min-width:720px">
+    <svg class="plan-svg" viewBox="0 0 960 322" role="img" aria-label="Planta lateral da fábrica: quatro setores em tons de verde, em fila, separados por paredes com abertura em arco, com uma esteira única e a câmera correndo da esquerda para a direita" style="min-width:720px">
       <rect class="h1" x="10" y="40" width="218" height="190" rx="6"/>
       <rect class="h2" x="248" y="40" width="218" height="190" rx="6"/>
       <rect class="h3" x="486" y="40" width="218" height="190" rx="6"/>
       <rect class="h4" x="724" y="40" width="218" height="190" rx="6"/>
-      <rect class="col" x="226" y="40" width="24" height="190"/>
-      <rect class="col" x="464" y="40" width="24" height="190"/>
-      <rect class="col" x="702" y="40" width="24" height="190"/>
+      <rect class="col" x="226" y="40" width="24" height="190"/><path class="arch" d="M229 230 V150 a9 9 0 0 1 18 0 V230 Z"/>
+      <rect class="col" x="464" y="40" width="24" height="190"/><path class="arch" d="M467 230 V150 a9 9 0 0 1 18 0 V230 Z"/>
+      <rect class="col" x="702" y="40" width="24" height="190"/><path class="arch" d="M705 230 V150 a9 9 0 0 1 18 0 V230 Z"/>
       <rect class="belt" x="10" y="196" width="932" height="22" rx="4"/>
       <text class="ht" x="119" y="62" text-anchor="middle">1 · Sabores</text>
       <text class="ht" x="357" y="62" text-anchor="middle">2 · Polpa</text>
@@ -391,7 +394,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <text class="small ht" x="833" y="212" text-anchor="middle">tampa →</text>
       <path class="cam" d="M30 20 H910"/><path class="camfill" d="M910 14 L926 20 L910 26 Z"/>
       <text class="small" x="30" y="12">espinha: câmera no trilho, sempre da esquerda para a direita, velocidade constante</text>
-      <text class="small" x="476" y="282" text-anchor="middle">um travelling só, sem corte aparente. As colunas escuras separam os setores e servem de esconderijo de corte, se for preciso dividir a espinha</text>
+      <text class="small" x="476" y="282" text-anchor="middle">um travelling só, sem corte aparente: a câmera atravessa as aberturas em arco entre os setores</text><text class="small" x="476" y="302" text-anchor="middle">a parede que cruza a lente serve de esconderijo de corte, se for preciso dividir a espinha</text>
     </svg>
   </div>
 
@@ -399,7 +402,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <div class="grid g2">
     <div class="card"><h3>Lei de escala</h3><p style="margin:0">1 vaca = 1 unidade de altura. Morango 0,6 · maçã 0,5 · cacho de banana 0,8 · metade de mamão 0,7 · metade de coco 0,6 · um pote de iogurte 1,0. A esteira tem 1,0 de largura e as portas, 1,6. Tudo é feito para mão de luva e casco; nada para humanos. Os números são palpite meu; a escala final sai da model sheet.</p></div>
     <div class="card"><h3>Lei de fluxo</h3><p style="margin:0">Uma única esteira atravessa a fábrica inteira, da esquerda para a direita: fruta, polpa, bandeja, tampa. A ordem dos setores nunca muda e o produto nunca volta. Nas inserts de cima, a esteira também corre da esquerda para a direita da tela.</p></div>
-    <div class="card"><h3>Regra da continuidade</h3><p style="margin:0">A câmera nunca para nem corta: o travelling é um só, de ponta a ponta, numa geração de 30 s. Não há portões nem passagens visíveis entre os setores. Se a geração perder a altura da esteira ou a identidade das vacas com o tempo, divido em duas metades e escondo o corte atrás de uma coluna verde que cruza a lente.</p></div>
+    <div class="card"><h3>Regra da continuidade</h3><p style="margin:0">A câmera nunca para nem corta: o travelling é um só, de ponta a ponta, numa geração de 30 s. Os setores são separados por paredes com abertura em arco, como no panorama; a esteira e a câmera atravessam as aberturas sem corte. Se a geração perder a altura da esteira ou a identidade das vacas com o tempo, divido em duas metades e escondo o corte atrás de uma parede que cruza a lente.</p></div>
     <div class="card"><h3>Regra de câmera e luz</h3><p style="margin:0">Na espinha a câmera corre num trilho paralelo à esteira, sem rotação, a cerca de uma vaca por segundo, com a esteira no terço inferior. A luz principal viaja com a câmera, no lado esquerdo, e nunca troca de lado, nem nas inserts.</p></div>
   </div>
 
@@ -424,7 +427,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   </ol>
   <div class="callout warn">
     <strong>Plano B para a espinha</strong>
-    Se a espinha perder a altura da esteira ou a identidade das vacas ao longo dos 30 s, divido em duas metades e escondo o corte atrás de uma coluna. Se ainda falhar, cada setor vira um plano de câmera parada (a tvN usa muito plano fixo frontal) e a passagem de um para o outro é um deslize feito em pós.
+    Se a espinha perder a altura da esteira ou a identidade das vacas ao longo dos 30 s, divido em duas metades e escondo o corte atrás de uma parede que cruza a lente. Se ainda falhar, cada setor vira um plano de câmera parada (a tvN usa muito plano fixo frontal) e a passagem de um para o outro é um deslize feito em pós.
   </div>
 </section>
 
@@ -437,6 +440,8 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <div class="thumbs">
     <div class="thumb wide"><img src="{{IMG:alegrinha-3d}}" alt="Model sheet da Alegrinha em vinil fosco: frente, três quartos e costas"><div class="cap"><b>@ALEGRINHA <span class="tag t-ok">aprovada</span></b><span>Vinil fosco, 3 vistas (frente, 3/4, costas). Falta close do rosto, mãos, figurinos e reações.</span></div></div>
     <div class="thumb wide"><img src="{{IMG:pote-real}}" alt="Pote de iogurte de morango fechado à esquerda e aberto à direita, com a tampa verde ao lado"><div class="cap"><b>@POTE <span class="tag t-ok">pronto</span></b><span>Element prop_pote-morango-real: fechado e aberto, tampa verde impressa ao lado.</span></div></div>
+    <div class="thumb wide"><img src="{{IMG:cozinha}}" alt="Cozinha brasileira de verão: azulejo verde, geladeira inox, janela com plantas, mesa de madeira com frutas"><div class="cap"><b>@COZINHA <span class="tag t-ok">pronta</span></b><span>Element loc_cozinha. Luz de janela, azulejo verde, geladeira inox, mesa de madeira. Atenção: a camisa verde dele pode se perder no azulejo verde.</span></div></div>
+    <div class="thumb pano"><img src="{{IMG:fabrica-mestre}}" alt="Panorama isométrico da fábrica em tons de verde: setor de frutas, polpa, estúdio de som e ateliê de tampas, com esteira contínua"><div class="cap"><b>@FABRICA panorama <span class="tag t-ok">pronto</span></b><span>Vista isométrica dos 4 setores, tudo em verde, uma esteira contínua, paredes com abertura em arco. Serve de layout e paleta; não é o ângulo do travelling.</span></div></div>
     <div class="thumb"><img src="{{IMG:homem}}" alt="Character sheet do homem: frente, perfil, costas e close"><div class="cap"><b>@HOMEM</b><span>4 painéis, 2752×1536. Pronto como identidade.</span></div></div>
     <div class="thumb"><img src="{{IMG:bandeja-morango}}" alt="Bandeja de iogurte de morango"><div class="cap"><b>Bandeja Morango</b><span>Bandeja inteira, 1920×1080, um ângulo (3/4).</span></div></div>
     <div class="thumb"><img src="{{IMG:bandeja-coco}}" alt="Bandeja de iogurte de coco"><div class="cap"><b>Bandeja Coco</b><span>Bandeja inteira, 1920×1080, um ângulo (3/4).</span></div></div>
@@ -461,12 +466,12 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
   <div class="scroll-x"><table>
     <thead><tr><th>Prio</th><th>Asset</th><th>O que precisa conter</th><th>Bloqueia</th></tr></thead>
     <tbody>
-      <tr><td><span class="tag t-p0">P0</span></td><td><b>@COZINHA</b> de verão</td><td>2 ou 3 placas: cozinha com luz natural forte, interior da geladeira, balcão. No look da Codemig (negativo 35 mm).</td><td>cenas 1, 2, 7</td></tr>
-      <tr><td><span class="tag t-p0">P0</span></td><td><b>@FABRICA</b> mestre e setores</td><td>panorama-mestre dos quatro setores, mais 2 a 3 placas por setor, sem personagens e sem texto, em vinil fosco e só em tons de verde da marca (paleta na seção Fábrica).</td><td>cenas 3 a 6</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@GELADEIRA</b> interior</td><td>o interior da geladeira visto de dentro, olhando para fora (o POV do plano 1): prateleiras com poucas coisas e a luz da geladeira, combinando com a geladeira inox da cozinha. A cozinha enviada serve para os planos 2 e 3.</td><td>cena 1</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@FABRICA</b> vista lateral</td><td>a mesma fábrica vista de lado, na altura da esteira, com a câmera de frente para os setores (o ângulo da espinha). O panorama enviado é isométrico: serve de layout e paleta, mas não é esse ângulo. Placas por setor só se faltar detalhe.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Macro-texturas do produto real</td><td>fotos de perto (celular com macro serve): superfície do pote com condensação, ponte de plástico entre potes, borda da tampa, iogurte. Alimentam as tomadas da sonda.</td><td>cena 1</td></tr>
-      <tr><td><span class="tag t-p1">P1</span></td><td>Alegrinha: rosto, mãos, reações</td><td>close do rosto (âncora de identidade), mãos de luva e uma folha de expressões felizes (sorriso largo, suave, de olho fechado de prazer, concentrada e contente, orgulhosa, com a boca vermelha aparecendo quando o sorriso abre; nunca triste ou brava), no mesmo vinil fosco.</td><td>cenas 3 a 6</td></tr>
-      <tr><td><span class="tag t-p1">P1</span></td><td>4 figurinos</td><td>Seletora (touca, galocha), Cientista (jaleco, crachá em branco), Som (headphone), Pintora (boina, avental). Cada figurino é uma tag nova.</td><td>cenas 3 a 6</td></tr>
-      <tr><td><span class="tag t-p1">P1</span></td><td>Kit de props toon</td><td>frutas (morango, banana, mamão, maçã, coco), tubos de polpa e ensaio, microfone, tampas, bisnaga de confeiteiro, cavaletes.</td><td>cenas 3 a 6</td></tr>
+      <tr><td><span class="tag t-p0">P0</span></td><td><b>@ALEGRINHA</b> looks e expressões</td><td>um painel com os 4 looks lado a lado (Seletora, Cientista, Som, Pintora) e um painel de expressões felizes, com a boca vermelha aparecendo quando o sorriso abre. Prompts curtos na seção seguinte.</td><td>cenas 3 a 6</td></tr>
+      
+      <tr><td><span class="tag t-off">opcional</span></td><td>Kit de props toon</td><td>frutas, tubos de ensaio, microfone, cavaletes e bisnaga já aparecem no panorama, no mesmo estilo. Só vale um kit à parte se faltar um close de algum prop.</td><td>cenas 3 a 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Sheets toon (bandeja e pote)</td><td>prompts curtos prontos na seção seguinte; o do pote sai em painel dividido (fechado à esquerda, aberto à direita). O pote real já está pronto.</td><td>cenas 5, 6</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Bandeja real: outros ângulos</td><td>lado e por baixo, a partir de foto ou render. Hoje só temos o 3/4 visto de cima, com as tampas verdes.</td><td>cenas 1, 7</td></tr>
       <tr><td><span class="tag t-p1">P1</span></td><td>Keyframes</td><td>saem dos rascunhos aprovados: o último quadro da cena 1 alimenta as cenas 2 e 7.</td><td>cenas 2, 7</td></tr>
@@ -502,7 +507,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
         <dt>O que é dito</dt><dd>Nada.</dd>
         <dt>Como termina</dt><dd>Plano médio dele em pé na porta aberta, a bandeja na mão direita, séria demais para o que é.</dd>
         <dt>Direção</dt><dd>O POV é da geladeira, como você definiu. O recuo da macro é a “câmera que expande” do roteiro e vai do detalhe ao homem num único movimento. Verão: depois do recuo, o sol da janela entra pelo lado direito do quadro e a geladeira fica à esquerda.</dd>
-        <dt>Usa</dt><dd>@HOMEM (temos), bandeja Morango (temos, um ângulo), <span class="pending">@COZINHA e macro-texturas (faltam)</span></dd>
+        <dt>Usa</dt><dd>@HOMEM (temos), bandeja Morango (temos, um ângulo), @COZINHA (temos), <span class="pending">@GELADEIRA e macro-texturas (faltam)</span></dd>
         <dt>Testar no draft</dt><dd><ul><li>seis potes na bandeja</li><li>a macro passa sobre o pote e a condensação, não sobre a tampa impressa</li><li>o recuo não deforma a bandeja nem o logo</li><li>mãos: direita carrega a bandeja</li><li>geladeira à esquerda do quadro depois do recuo</li></ul></dd>
         <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
       </dl>
@@ -568,7 +573,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <dl class="rows">
         <dt>O que acontece</dt><dd>Uma geração só de 30 s, com os quatro setores em sequência; os trechos estão nas cenas 3 a 6. Trecho de 0 a 7 s (Setor Sabores): o travelling corre pela esteira. As três vacas, uma em cada mesa, escolhem as frutas. A da esquerda inspeciona um morango grande, a do meio descarta uma maçã machucada, a da direita carrega meio coco. A câmera segue em frente, sem parar, e a esteira leva o morango para o setor seguinte.</dd>
         <dt>Como termina</dt><dd>Sem corte em nenhum ponto. A geração termina aos 30 s, no fim do Setor Tampinha, em plano aberto e no meio do movimento.</dd>
-        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_SELETORA, placa do setor 1, kit de frutas (faltam)</span></dd>
+        <dt>Usa</dt><dd>@FABRICA panorama (temos), <span class="pending">vista lateral da fábrica e painel de looks da Alegrinha (faltam)</span></dd>
         <dt>Testar no draft</dt><dd><ul><li>exatamente três vacas</li><li>velocidade constante, sem inverter</li><li>orelha preta sempre à direita da vaca, sem argola</li><li>nenhuma letra em caixas e placas</li><li>a altura da esteira, a velocidade e o verde se mantêm do 1º ao 30º segundo</li></ul></dd>
         <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
       </dl>
@@ -597,7 +602,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <dl class="rows">
         <dt>O que acontece</dt><dd>O travelling continua e passa a um laboratório verde com tubos de vidro. Uma vaca enche um tubo de ensaio, outra compara a cor com uma tira de amostras, a terceira aperta um botão num console e faz joinha. A câmera segue em frente.</dd>
         <dt>Como termina</dt><dd>O movimento continua, com um copo de polpa na esteira.</dd>
-        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_CIENTISTA (base no chaveiro Fábrica), placa do setor 2, kit de props (faltam)</span></dd>
+        <dt>Usa</dt><dd><span class="pending">look Cientista, no painel de looks da Alegrinha (falta)</span></dd>
         <dt>Testar no draft</dt><dd><ul><li>a esteira mantém altura e velocidade ao passar do Setor Sabores para o Setor Polpa</li><li>a polpa rosa nos tubos mantém cor e fluxo</li><li>crachá e tela sem letras nem números</li></ul></dd>
         <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
       </dl>
@@ -626,7 +631,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <dl class="rows">
         <dt>O que acontece</dt><dd>O travelling continua e passa a um estúdio verde; a composição vem do estúdio da tvN, a cor não. À esquerda, uma cabine com duas vacas de headphone; no centro e à direita, uma vaca ao microfone com uma bandeja. A câmera segue em frente.</dd>
         <dt>Como termina</dt><dd>O movimento continua, com a bandeja de cinco potes na esteira.</dd>
-        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_SOM, placa do setor 3, bandeja e pote toon (faltam)</span></dd>
+        <dt>Usa</dt><dd><span class="pending">look Som, no painel de looks da Alegrinha (falta)</span>; bandeja e pote toon (você vai fazer)</dd>
         <dt>Testar no draft</dt><dd><ul><li>cabine à esquerda e microfone à direita, sem trocar</li><li>nenhum som musical do medidor</li></ul></dd>
         <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
       </dl>
@@ -655,7 +660,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
       <dl class="rows">
         <dt>O que acontece</dt><dd>O travelling continua e passa a um ateliê verde. Três vacas de boina e avental, cada uma com uma tampa grande num cavalete. Uma recua para julgar a obra, outra mergulha o pincel no creme, a terceira passa a bisnaga.</dd>
         <dt>Como termina</dt><dd>É o último setor: o travelling pode terminar em plano aberto, no meio do movimento.</dd>
-        <dt>Usa</dt><dd><span class="pending">@ALEGRINHA_PINTORA, placa do setor 4, tampa toon (faltam)</span></dd>
+        <dt>Usa</dt><dd><span class="pending">look Pintora, no painel de looks da Alegrinha (falta)</span>; tampa toon (você vai fazer)</dd>
         <dt>Testar no draft</dt><dd><ul><li>nenhuma letra nas tampas, nem rabisco que pareça texto</li><li>três vacas, uma por cavalete</li></ul></dd>
         <dt>Prompt</dt><dd><span class="pending">Pendente</span></dd>
       </dl>
@@ -761,7 +766,7 @@ footer { margin-top: 48px; color: var(--muted); font-size: 13px; border-top: 1px
 
   <p style="font-size:13px;color:var(--muted);margin-top:14px">Fontes da pesquisa sobre como esses multipacks se separam: <a href="https://patents.google.com/patent/US10358260">US10358260, Multipack container</a> e <a href="https://patents.justia.com/patent/20090101662">Multipack for cups and pots</a>. São descrições genéricas de patentes, não da bandeja da Porto Alegre.</p>
 
-  <footer>Decupagem v0.7 gerada com a skill CINEORO. Quando você gerar a cozinha, a fábrica e a Alegrinha completa, eu escrevo os prompts de vídeo e atualizo este arquivo.</footer>
+  <footer>Decupagem v0.8 gerada com a skill CINEORO. Quando você gerar a cozinha, a fábrica e a Alegrinha completa, eu escrevo os prompts de vídeo e atualizo este arquivo.</footer>
 </section>
 
 </div>
