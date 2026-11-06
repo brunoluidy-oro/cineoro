@@ -2,9 +2,11 @@
 
 Filme de 60″ para o iogurte **Laticínios Porto Alegre** e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
 
-**Status:** direção das cenas e prompts de vídeo prontos (v1.2). Abra `shotlist.html`: cada geração tem o seu prompt recolhido e, no fim, a previsão de créditos.
+**Status:** direção das cenas e prompts de vídeo prontos (v1.3). Abra `shotlist.html`: cada geração tem o seu prompt recolhido e, no fim, a previsão de créditos.
 
-**v1.2:** novo prompt **1d** (1a + 1b + 1c numa geração só, 17 s, 6 planos, alternativa às três separadas). 1a agora é plano médio fixo com ele segurando a bandeja (sem plano fechado e recuo); 1b sem a pausa antes do créqui; 1c com o iogurte no lado prateado do foil, que ele lambe; sem fumaça nem vapor na geladeira e sem exageros. O balcão fica ao lado da geladeira, no lado esquerdo do quadro (a mão direita dele pousa o copo ali).
+**v1.3** (feedback do rascunho do 1d): itens sem rótulo na porta da geladeira; 1a/1d plano 2 é ele andando e saindo do quadro com a bandeja, geladeira fechada, sem olhar para a câmera; lente macro reescrita (24 mm tipo Laowa Probe, quadro 16:9 cheio, sem borda circular nem olho de peixe) com base em reviews do visual da lente; o créqui é uma dobra para dentro, um polegar sobre cada copo (também para a vaca da fábrica); momento nostálgico com olhar subindo de leve e câmera de fato em high angle; foil com mais iogurte colado e movimento contínuo para a frente seguindo a abertura; lambida mais perto, em três quartos, com congelamento no fim. O layout da cozinha agora segue o que o rascunho mostrou: sol e azulejo à esquerda, geladeira à direita, balcão à esquerda.
+
+**v1.2:** novo prompt **1d** (1a + 1b + 1c numa geração só, 17 s, 6 planos, alternativa às três separadas). 1a agora é plano médio fixo com ele segurando a bandeja (sem plano fechado e recuo); 1b sem a pausa antes do créqui; 1c com o iogurte no lado prateado do foil, que ele lambe; sem fumaça nem vapor na geladeira e sem exageros. (O layout do balcão foi revisto na v1.3.)
 
 **v1.1:** os prompts de vídeo foram refeitos na espinha completa da CINEORO (a v1.0 tinha uma versão comprimida sem atuação, quem é quem, geometria e física). Cada rosto do homem tem o bloco ACTING completo (evento, motivo, objetivo, obstáculo, tática, momento a momento, olhos vivos, NOT). As vacas pequenas na espinha de 30 s usam a forma curta. Tamanho: 900 a 2.000 palavras por prompt.
 
