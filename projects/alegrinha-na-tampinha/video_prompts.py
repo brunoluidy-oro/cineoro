@@ -263,7 +263,7 @@ P_1B = _join(
     "NEGATIVE: " + MACRO_NEG + "moving arms or elbows during the fold, a wide or medium shot instead of the close-up, a previz or clay look, doll-like hands, the joint dipping down, a pair twisted or pulled apart, three cups, a pause before the snap, a low "
     "angle with the ceiling in frame, " + LIVE_NEG_SPINE,
     "[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the gentle book-like fold, the snap at 2s; "
-    "(2, 3–5s) three-quarter slight high angle, small approving nods, light smile, a glance down to the sink. Invariants: the gentle book-like fold; left hand "
+    "(2, 3–5s) three-quarter slight high angle, small approving nods, light smile, a glance down to the sink. Invariants: two cups separated; left hand "
     "keeps one; full 16:9 frame. Look: 35mm negative. NO text.]",
 )
 
@@ -365,7 +365,7 @@ P_1BC = _join(
     "NEGATIVE: " + MACRO_NEG + "moving arms or elbows during the fold, a wide or medium shot instead of the close-up, a previz or clay look, doll-like hands, a sensual or slow lick, closed eyes, pleasure on his face, savouring, tongue play, a round foil, a round cup, a thin smear of yogurt, the pair held at face height, a tray, the joint dipping down, a pair twisted or pulled apart, a pause before the snap, a low angle, a different cup in "
     "his left hand, a clean silver side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
     "[ORDER: 4 shots, 3 hard cuts, 11s — (1, 0–3s) macro pull-back, the gentle book-like fold at 2s; (2, 3–5s) tight three-quarter close-up, small approving nods, light smile, a glance down to the sink; (3, 5–7s) macro push-in, the foil opens like a little door; (4, 7–11s) the "
-    "same three-quarter side, the lick, FREEZE from 10s. Invariants: the gentle book-like fold; the same cup in the left hand; a real layer of "
+    "same three-quarter side, the lick, FREEZE from 10s. Invariants: two cups separated; the same cup in the left hand; a real layer of "
     "yogurt; real hands; daylight frame-left. Look: 35mm negative. NO text.]",
 )
 
@@ -620,7 +620,7 @@ TOON_CAMERA_TRAVEL = (
 
 _OPEN_A = (
     "PART 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
-    "A cow in a white hairnet, pressed right up against the camera — the ONLY close moment of the take (her face fills the lower half of the frame) — wipes the lens with a white cloth in exactly two quick, over-eager strokes that clean it COMPLETELY: all the yogurt goes onto the cloth and the glass is left perfectly clear, no yogurt, smear or streak left anywhere on the lens. She hurries out "
+    "A cow in a white hairnet, pressed right up against the camera — the ONLY close moment of the take (her face fills the lower half of the frame) — wipes the lens with a white cloth in exactly two quick, over-eager strokes: the first takes most of the yogurt, the second takes the very last of it, edges and corners included. From that moment the lens is SPOTLESS for the rest of the take — no pink tint, no smear, no streak, no drop at the edges. She hurries out "
     "of frame toward frame-left, nearly tripping, and the camera is already far back: the very wide factory appears behind her, the travelling already moving."
 )
 _OPEN_B = (
@@ -654,7 +654,7 @@ def _spine(opening, name):
         "2. VERY WIDE: after the opening, the camera stays far back, each hall seen whole, moving FRAME-LEFT to FRAME-RIGHT at a constant speed, never cutting, stopping or reversing; each cow fills only about one sixth of the frame height — WRONG if the framing tightens or a cow fills the frame.\n"
         "3. HAPPY FACES: NO eyebrows, NO frown on any cow; her RIGHT ear is the black one; NO keyring.\n"
         "4. EACH HALL KEEPS ITS OUTFIT: hairnet and apron, lab coat, headphones, painter's smock and beret.\n"
-        "5. NO TEXT of any kind anywhere.",
+        "5. NO TEXT anywhere; after the opening the lens is SPOTLESS for the rest of the take — WRONG if any yogurt, smear or pink tint remains.",
         "TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:\n" + opening + "\n"
         "PART 2 (2–7s) — HALL 1, fruit selection: giant strawberries, apples and coconut halves ride the belt in the foreground. "
         "Three small cows in hairnets, white boots and aprons stand at small round tables behind the belt. COW A hugs a "
@@ -670,10 +670,7 @@ def _spine(opening, name):
         "gloves, then takes an empty pink yogurt cup from a stack beside the console and sets it on the belt with both gloves, "
         "proud. From here on pink cups ride the belt.\n"
         "PART 4 (14–21s) — HALL 3, sound studio: a tall wall of acoustic foam and a glass booth. Inside, standing on a little box "
-        "at a microphone stand taller than she is, COW A holds a PAIR — TWO cups joined side by side, one cup in each glove, "
-        "clearly two from the very first frame — with a gloved thumb flat on top of each cup, and gently closes the pair like a "
-        "book — the joint rising, the cup bottoms swinging together — until it gives with a crisp créqui and is two separate "
-        "cups; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B stands IN FRONT of a big "
+        "at a microphone stand taller than she is, COW A holds two joined yogurt cups, one in each glove, and separates them with a crisp créqui; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B stands IN FRONT of a big "
         "toy-like audio desk, her back to it, wearing headphones and turned toward the booth and COW A; when she hears the "
         "snap she nods with approval and purses her lips in a satisfied pout as if mooing.\n"
         "PART 5 (21–30s) — HALL 4, art studio: easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
@@ -803,11 +800,10 @@ P_5B = _insert(
     "SCENE & SOUL — SCENE: hall 3, the sound studio, in two wide shots. Already in progress.\n"
     "THE SOUL OF THE SCENE (play it, never explain it): the créqui is the sweetest sound the engineer has ever heard.",
     "1. EXACTLY TWO cows in this hall; each shot shows one — WRONG if a third appears.\n"
-    "2. THE FOLD: TWO joined cups before and TWO after; a gloved thumb flat on each cup, she gently closes the pair like a book, the joint rising and the bottoms swinging together — WRONG if the joint dips, or she twists or pulls it apart. Both cows small in frame.\n"
+    "2. TWO joined cups, one in each glove, that she separates — WRONG if she starts with a single cup. Both cows small in frame.\n"
     + _INS_LOCKS_TAIL,
     "SHOT 1 (0–4s) — wide, 63°, inside the glass acoustic booth: a tall wall of acoustic foam, a microphone with a round pop "
-    "filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds a PAIR — TWO cups joined "
-    "side by side, one cup in each glove, clearly two from the very first frame — a gloved thumb flat on top of each cup, and gently closes the pair like a book — the joint rising, the cup bottoms swinging together — until it gives with a crisp créqui; the needle on a meter jumps; she flinches at her "
+    "filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds two joined yogurt cups, one in each glove, and separates them with a crisp créqui; the needle on a meter jumps; she flinches at her "
     "own loud snap, ears flying, then grins.\n"
     "SHOT 2 (4–8s) — wide, 63°, outside the booth: COW B stands IN FRONT of a big toy-like audio desk with a few simple "
     "sliders, her back to it, wearing over-ear headphones and turned toward the booth glass at frame-left, where COW A is "
@@ -820,10 +816,10 @@ P_5B = _insert(
     "PHYSICS & MATERIAL — the plastic break line resists, then gives with a sharp snap; no splinters; the cups stay sealed; the "
     "meter's needle jumps and settles with a small overshoot; the glass booth shows soft reflections. Nothing floats, nothing "
     "loops. MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.",
-    "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow folds the pair like a book, the créqui, the flinch; "
-    "(2, 4–8s) in front of the desk facing the booth, the approving nod. Invariants: exactly two cows, small; the gentle book-like fold; no "
+    "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow separates the two cups, the créqui, the flinch; "
+    "(2, 4–8s) in front of the desk facing the booth, the approving nod. Invariants: exactly two cows, small; two cups separated; no "
     "eyebrows, no frowns; black right ear; no text.]",
-    extra_neg="a single cup turning into two, the desk cow behind or hidden by the desk, a third cow, a pair that never separates, the joint dipping down, a pair twisted or pulled apart, three cups, ",
+    extra_neg="a single cup turning into two, the desk cow behind or hidden by the desk, a third cow, a pair that never separates, three cups, ",
 )
 
 P_6B = _insert(
