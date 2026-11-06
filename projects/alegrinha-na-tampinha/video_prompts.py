@@ -48,7 +48,7 @@ LIVE_LIGHT = (
 )
 
 LIVE_NEG_SPINE = (
-    "smoke, vapour, steam, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, "
+    "smoke, vapour, steam, cartoon or clay hands, oversized hands, stiff robotic motion, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, "
     "readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect "
     "ratio."
 )
@@ -66,6 +66,8 @@ MACRO_LENS = (
     "plane of focus, nearby things pass soft in the foreground, the room falls away into soft colour; wide perspective with "
     "straight lines. A full, clean 16:9 frame edge to edge — NO fisheye, NO circular black border."
 )
+
+HANDS = "his hands are real human hands with natural proportions, skin and fluid motion; "
 
 DOOR_ITEMS = (
     "the inside of the open door shows the usual Brazilian fridge-door items, all plain and unlabeled: a carton of eggs, a "
@@ -115,9 +117,9 @@ PAIR_TEXT = (
     "FOIL."
 )
 FOIL_TEXT = (
-    "a thin, soft aluminum sheet, printed green on the outside; its inner face is bare SILVER thickly covered with pink yogurt "
-    "stuck to it in creamy smears, only a thin clean silver edge showing. It bends and crinkles, never stiff; NO tab, NO "
-    "writing."
+    "a thin, soft aluminum sheet, printed green on the outside; its inner face is bare SILVER with a real, generous layer of "
+    "pink yogurt stuck to it — about 2–3 mm thick, true to the size of one small cup, covering most of the silver with a thin "
+    "clean edge — never a heap. It bends and crinkles, never stiff; NO tab, NO writing."
 )
 
 LIVE_WORLD = (
@@ -125,33 +127,21 @@ LIVE_WORLD = (
     "FRAME-LEFT, the stainless fridge at FRAME-RIGHT, the counter in front of him. NO legible writing, NO other brand."
 )
 
-CREQUI_REF = (
-    "[video reference] CRÉQUI PREVIZ — MOTION AND CAMERA ONLY: copy its camera move (tight above the two thumbs, then a steady "
-    "pull-back) and its fold (the cup bottoms swinging toward each other under the joint). IGNORE its grey clay look, colours "
-    "and cartoon hands."
-)
-FOIL_REF = (
-    "[video reference] FOIL PREVIZ — MOTION AND CAMERA ONLY: copy its camera position beside his hand, the gentle push-in and "
-    "how the foil hinges up on its far edge to face the lens. IGNORE its grey clay look, colours and cartoon hands."
-)
 LIVE_SCOPE = (
-    "REFERENCE SCOPE: references supply identity, wardrobe, objects, architecture and motion ONLY — their light, grade and "
+    "REFERENCE SCOPE: references supply identity, wardrobe, objects and architecture ONLY — their light, grade and "
     "surfaces are replaced by what is written below."
 )
 
 # Planos compartilhados entre os takes separados e a 1d (texto idêntico)
 FRIDGE_SHOT = (
     "MCU, 84°, locked off INSIDE the fridge on the middle shelf, 0.7 m from the doorway, looking out. The door is already "
-    "opening past frame-left; " + DOOR_ITEMS + ". His face appears, eyes on a point inside the fridge just beside the lens; a "
-    "slow smile arrives; at 2s his right hand reaches in and fills the lens, so we never see what he takes."
-)
-WALK_SHOT = (
-    "MS, 47°, locked off at chest height, 1.6 m away. The fridge is closed. He is already walking from the fridge toward "
-    "frame-left at an easy, casual pace, eyes ahead, never on the camera, the tray hanging normally from his right hand at hip "
-    "height, foil up. He takes a few unhurried steps and stays in frame."
+    "open; " + DOOR_ITEMS + ". His face is in the doorway, eyes on a point inside the fridge just beside the lens; a slow "
+    "smile. At 1s his right hand reaches in and covers the lens for a moment, then pulls back out holding a PAIR of two "
+    "joined yogurt cups, foil up, clearly visible as it leaves the fridge; at 3s his left hand swings the door shut toward "
+    "the lens and the frame goes dark as it closes."
 )
 SNAP_SHOT = (
-    "extreme close-up with the macro probe, in front of him and above his hands: it starts 3 cm above the two foils, his two "
+    "extreme close-up with the macro probe, in front of him and above his hands (" + HANDS.rstrip("; ") + "): it starts 3 cm above the two foils, his two "
     "thumbs lying flat on them, one per cup, and makes ONE steady pull-back with a slight rise through the whole shot, "
     "revealing the pair at chest height and his shirt soft behind. He is already folding the pair toward its centre: thumbs "
     "press the outer halves down, fingers push up under the joint, the cup bottoms swing toward each other (an upside-down "
@@ -159,13 +149,13 @@ SNAP_SHOT = (
     "in each hand."
 )
 NOSTALGIA_SHOT = (
-    "CU, 29°, 0.9 m away, the camera 25 cm ABOVE his eye line looking down (a slight high angle, tile wall behind, no ceiling "
-    "in frame). A half-beat after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a "
+    "CU, 29°, 0.9 m away, the camera diagonal — about 35° toward his right side — and 25 cm ABOVE his eye line looking down: a "
+    "three-quarter, slightly high angle, tile wall behind, no ceiling in frame. A half-beat after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a "
     "small half-smile, never into the lens. His LEFT hand keeps one cup at chest height; his RIGHT hand sets the other on the "
     "counter without looking."
 )
 FOIL_SHOT = (
-    "extreme close-up with the macro probe beside his right hand: the back of that hand huge and soft in the foreground at "
+    "extreme close-up with the macro probe beside his right hand (" + HANDS.rstrip("; ") + "): the back of that hand large and soft in the foreground at "
     "frame-left, its fingertip under the near edge of the foil; the cup held by the fingers of his left hand at frame-right; "
     "the tile wall soft behind. ONE gentle, continuous push-in: the fingertip lifts the near edge and the foil hinges up on its "
     "far edge like a little door opening toward the lens, rising almost upright, its yogurt-thick silver side turned to the "
@@ -180,52 +170,46 @@ LICK_SHOT = (
 )
 
 # ===========================================================================
-# 1a — POV da geladeira (6 s)
+# 1a — POV da geladeira (4 s)
 # ===========================================================================
 P_1A = _join(
-    live_contract(6, "2 shots with 1 hard cut at 3s, both locked off"),
+    live_contract(4, "ONE locked-off shot"),
     "REFERENCES — each reference has ONE job:\n"
     "@man-portoalegre — IDENTITY of the man. 100% matches.\n"
     "@loc_cozinha — WORLD: the kitchen.\n"
-    "@prop_bandeja-morango — OBJECT ONLY: the six-cup tray.\n" + LIVE_SCOPE,
-    who_man("opens the fridge, takes the tray and walks a few steps with it; he never looks into the lens"),
-    "SCENE & SOUL — SCENE: a summer afternoon in a Brazilian kitchen. He opens the fridge, takes a yogurt tray, and walks a "
-    "few casual steps with it. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): the most important small ritual of his day, and nobody knows. He "
-    "is absolutely serious about it.\n"
-    "THE TRAY — " + TRAY_TEXT,
+    "@prop_pote-morango — OBJECT ONLY: one yogurt cup; here two of them are joined.\n" + LIVE_SCOPE,
+    who_man("reaches into the fridge, takes a pair of joined yogurts and shuts the door; he never looks into the lens"),
+    "SCENE & SOUL — SCENE: a summer afternoon in a Brazilian kitchen, seen from inside the fridge. He reaches in, takes a pair "
+    "of joined yogurt cups and shuts the door. Already in progress.\n"
+    "THE SOUL OF THE SCENE (play it, never explain it): the most important small ritual of his day, and nobody knows.\n"
+    "THE PAIR — " + PAIR_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
-    "1. ONE tray of exactly six joined cups — WRONG if a pair, a single cup or another count.\n"
-    "2. Shot 2: the fridge is CLOSED, the tray hangs normally in his RIGHT hand and he STAYS IN FRAME — WRONG if he shows the "
-    "tray to the camera or leaves the frame.\n"
-    "3. Both shots LOCKED OFF; he never looks into the lens.\n"
-    "4. Daylight from FRAME-LEFT, the fridge at FRAME-RIGHT; the lit side never flips.",
-    "TIMELINE — 2 shots, 1 hard cut:\n"
-    "SHOT 1 (0–3s) — " + FRIDGE_SHOT + " HARD CUT.\n"
-    "SHOT 2 (3–6s) — " + WALK_SHOT + " Hard end mid-stride.",
+    "1. He takes a PAIR of two joined cups — WRONG if a tray, a single cup or another count.\n"
+    "2. The pair is clearly visible as it leaves the fridge.\n"
+    "3. The camera is LOCKED OFF inside the fridge; he never looks into the lens.\n"
+    "4. The door closes toward the lens and the frame ends dark.",
+    "TIMELINE — ONE shot, already in progress:\n"
+    "SHOT 1 (0–4s) — " + FRIDGE_SHOT + " Hard end on the dark frame.",
     acting_man(
-        "collect the day's reward and carry it off, keeping the pleasure under control. Tactic: savour — half a beat slower "
-        "than needed, so the moment lasts.",
-        "— [0–1.5s] eyes settle on the point inside the fridge — [1.5–3s] the smile arrives late; the hand goes in before it is "
-        "finished — [3–6s] he walks easily, eyes ahead, a faint private satisfaction.",
+        "collect the day's reward, keeping the pleasure under control. Tactic: savour — half a beat slower than needed, so the "
+        "moment lasts.",
+        "— [0–1s] eyes settle on the point inside the fridge, the smile arrives late — [1–3s] the hand goes in and comes out "
+        "with the pair, eyes following it — [3–4s] a satisfied glance as the door closes.",
         "his eyes narrow slightly against the fridge light.",
-        "mugging, laughing, looking into the lens, presenting the tray.",
+        "mugging, laughing, looking into the lens, presenting the pair.",
     ),
-    "CAMERA — authored, designed camera: both shots locked off, STAY PUT, at 84° and 47°; level horizon. NOT: handheld shake, "
-    "push-in, pull-back, zoom, drone.",
-    "GEOMETRY — " + KITCHEN_GEOMETRY + ". In shot 1 the camera sits where the tray was, 0.7 m from his face.",
-    "PHYSICS & MATERIAL — the fridge door swings with weight and stops against its seal; the tray has the weight of six full "
-    "cups and swings slightly with his stride; the foil crinkles softly. OVER-REAL: a light film of condensation on the cups, "
-    "fold lines in the foil, the weave of his shirt, stubble and pores. If any surface looks smooth, plastic or rendered — "
-    "WRONG.",
+    "CAMERA — authored, designed camera: locked off, STAYS PUT, 84°; level horizon. NOT: handheld shake, push-in, zoom.",
+    "GEOMETRY — the camera sits where the pair was, 0.7 m from his face; the door swings from frame-left.",
+    "PHYSICS & MATERIAL — the door swings with weight and seals with a soft thump; the pair is cold and light. OVER-REAL: a "
+    "light film of condensation on the cups, the weave of his shirt, stubble and pores. If any surface looks smooth, plastic "
+    "or rendered — WRONG.",
     LIVE_LIGHT, LIVE_LOOK,
-    "SOUND — the fridge hum; the door seal's soft thup; the foil's crinkle; his footsteps and breath. " + MUSIC_BAN,
+    "SOUND — the fridge hum; the foil's faint crinkle; the door seal's soft thump at the end. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: a pair or a single cup instead of the tray, him leaving the frame, the fridge open in shot 2, the tray held up "
-    "to the camera, " + LIVE_NEG_SPINE,
-    "[ORDER: 2 shots, 1 hard cut, 6s, both locked off — (1, 0–3s) inside the fridge, door items, his hand covers the lens; "
-    "(2, 3–6s) fridge closed, a few casual steps with the tray in his right hand, staying in frame. Invariants: one tray of "
-    "six; carried normally, never shown; never into the lens; daylight frame-left. Look: 35mm negative. NO music. NO text.]",
+    "NEGATIVE: a tray, a single cup, the product hidden as it leaves, any camera movement, " + LIVE_NEG_SPINE,
+    "[ORDER: 1 locked-off shot, 4s — inside the fridge: his hand covers the lens, pulls out the pair, clearly seen, and the "
+    "door shuts to dark. Invariants: a pair of two joined cups; never into the lens; locked off. Look: 35mm negative. NO "
+    "music. NO text.]",
 )
 
 # ===========================================================================
@@ -236,20 +220,19 @@ P_1B = _join(
     "REFERENCES — each reference has ONE job:\n"
     "@man-portoalegre — IDENTITY of the man. 100% matches.\n"
     "@loc_cozinha — WORLD: the kitchen.\n"
-    "@prop_pote-morango — OBJECT ONLY: one yogurt cup; here two of them are joined.\n"
-    + CREQUI_REF.replace("MOTION AND CAMERA ONLY:", "MOTION AND CAMERA ONLY for shot 1:") + "\n" + LIVE_SCOPE,
+    "@prop_pote-morango — OBJECT ONLY: one yogurt cup; here two of them are joined.\n" + LIVE_SCOPE,
     who_man("splits a pair of joined yogurts with a crisp snap and keeps one cup"),
-    "SCENE & SOUL — SCENE: the same kitchen, moments later. He already holds a pair of joined cups, broken off the tray "
-    "off-camera, and splits it with a crisp snap. Already in progress.\n"
+    "SCENE & SOUL — SCENE: the same kitchen, moments later. He holds the pair of joined cups he just took from the "
+    "fridge and splits it with a crisp snap. Already in progress.\n"
     "THE SOUL OF THE SCENE (play it, never explain it): the snap is the sound he came for, and it takes him back to "
     "childhood.\n"
     "THE PAIR — " + PAIR_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
-    "1. NO tray in frame; two joined cups before the snap, exactly two after.\n"
+    "1. Two joined cups before the snap, exactly two after.\n"
     "2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause — WRONG if twisted, pulled apart "
     "or pinched.\n"
     "3. His LEFT hand keeps one cup; his RIGHT hand sets the other on the counter.\n"
-    "4. Shot 2 is a slight HIGH angle (no ceiling in frame); his gaze lifts slightly upward, never into the lens.",
+    "4. Shot 2 is a THREE-QUARTER, slight HIGH angle (no ceiling in frame); his gaze lifts slightly upward, never into the lens.",
     "TIMELINE — 2 shots, 1 hard cut:\n"
     "SHOT 1 (0–3s) — " + SNAP_SHOT.format(snap="2s") + " HARD CUT.\n"
     "SHOT 2 (3–5s) — " + NOSTALGIA_SHOT + " Hard end.",
@@ -270,10 +253,10 @@ P_1B = _join(
     "SOUND — the créqui, a short, crisp, bright plastic snap, the hero sound of the film; the foil's crinkle; a light knock on "
     "the counter; his breath. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "a tray in frame, a pair twisted or pulled apart, three cups, a pause before the snap, a low "
+    "NEGATIVE: " + MACRO_NEG + "a pair twisted or pulled apart, three cups, a pause before the snap, a low "
     "angle with the ceiling in frame, " + LIVE_NEG_SPINE,
     "[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the fold toward the centre, the snap at 2s; "
-    "(2, 3–5s) slight high angle, gaze lifting, one cup kept, the other set down. Invariants: no tray; the fold; left hand "
+    "(2, 3–5s) three-quarter slight high angle, gaze lifting, one cup kept, the other set down. Invariants: the fold; left hand "
     "keeps one; full 16:9 frame. Look: 35mm negative. NO music. NO text.]",
 )
 
@@ -285,16 +268,15 @@ P_1C = _join(
     "REFERENCES — each reference has ONE job:\n"
     "@man-portoalegre — IDENTITY of the man. 100% matches.\n"
     "@loc_cozinha — WORLD: the kitchen.\n"
-    "@prop_pote-morango — OBJECT ONLY: the yogurt cup and its green foil.\n"
-    + FOIL_REF.replace("MOTION AND CAMERA ONLY:", "MOTION AND CAMERA ONLY for shot 1:") + "\n" + LIVE_SCOPE,
+    "@prop_pote-morango — OBJECT ONLY: the yogurt cup and its green foil.\n" + LIVE_SCOPE,
     who_man("opens the cup in his left hand and licks the yogurt off the foil"),
-    "SCENE & SOUL — SCENE: the same kitchen. He opens the cup he kept; the foil comes away thick with yogurt and he licks it, "
+    "SCENE & SOUL — SCENE: the same kitchen. He opens the cup he kept; the foil comes away with yogurt on it and he licks it, "
     "and the image freezes. Already in progress.\n"
     "THE SOUL OF THE SCENE (play it, never explain it): the foil is a treasure and the lick is a ceremony.\n"
     "THE FOIL — " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
     "1. Cup in his LEFT hand, foil in his RIGHT; the FINGERTIP lifts the foil — no nail, no tab.\n"
-    "2. The silver side comes away THICK with pink yogurt and faces the lens as it opens — WRONG if clean.\n"
+    "2. The silver side comes away with a real 2–3 mm layer of pink yogurt and faces the lens as it opens — WRONG if clean or heaped.\n"
     "3. NO text or message on the foil.\n"
     "4. The last second is a TOTAL FREEZE mid-lick.",
     "TIMELINE — 2 shots, 1 hard cut:\n"
@@ -316,77 +298,70 @@ P_1C = _join(
     LIVE_LIGHT, LIVE_LOOK,
     "SOUND — the foil's soft crinkle; a small wet lick; his breath; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "a fingernail or pull tab, a clean silver side, a message on the foil, any movement after the "
+    "NEGATIVE: " + MACRO_NEG + "a fingernail or pull tab, a clean silver side, a heap of yogurt, a message on the foil, any movement after the "
     "freeze, " + LIVE_NEG_SPINE,
     "[ORDER: 2 shots, 1 hard cut, 6s — (1, 0–2s) macro beside his hand, push-in, the foil opens like a little door, yogurt "
     "side to the lens; (2, 2–6s) three-quarter slight high angle, the lick, FREEZE from 5s. Invariants: cup left, foil right; "
-    "thick yogurt; fingertip; no text. Look: 35mm negative. NO music. NO text.]",
+    "a real layer of yogurt; fingertip; no text. Look: 35mm negative. NO music. NO text.]",
 )
 
 # ===========================================================================
-# 1d — Cena 1 inteira (1a + 1b + 1c) numa geração só (17 s)
+# 1d — Cena 1 inteira (1a + 1b + 1c) numa geração só (15 s)
 # ===========================================================================
 P_1D = _join(
-    live_contract(17, "6 shots with 5 hard cuts at 3s, 6s, 9s, 11s and 13s"),
+    live_contract(15, "5 shots with 4 hard cuts at 4s, 7s, 9s and 11s"),
     "REFERENCES — each reference has ONE job:\n"
     "@man-portoalegre — IDENTITY of the man. 100% matches.\n"
     "@loc_cozinha — WORLD: the kitchen.\n"
-    "@prop_bandeja-morango — OBJECT ONLY, shots 1–2: the six-cup tray.\n"
-    "@prop_pote-morango — OBJECT ONLY, shots 3–6: the yogurt cup and its green foil.\n"
-    + CREQUI_REF.replace("MOTION AND CAMERA ONLY:", "MOTION AND CAMERA ONLY for shot 3:") + "\n"
-    + FOIL_REF.replace("MOTION AND CAMERA ONLY:", "MOTION AND CAMERA ONLY for shot 5:") + "\n" + LIVE_SCOPE,
-    who_man("takes the tray, splits a pair with a crisp snap, keeps one cup, opens it and licks the foil; he never looks "
-            "into the lens"),
-    "SCENE & SOUL — SCENE: one uninterrupted ritual in a summer kitchen, in six shots: the tray from the fridge; a pair is "
-    "broken off it off-camera between shots 2 and 3; the snap; one cup kept; the foil; the lick; the image freezes. Already in "
-    "progress.\n"
+    "@prop_pote-morango — OBJECT ONLY: the yogurt cup and its green foil; in shots 1–2 two of them are joined.\n" + LIVE_SCOPE,
+    who_man("takes a pair of joined yogurts from the fridge, splits it with a crisp snap, keeps one cup, opens it and licks "
+            "the foil; he never looks into the lens"),
+    "SCENE & SOUL — SCENE: one uninterrupted ritual in a summer kitchen, in five shots: the pair from the fridge; the snap; "
+    "one cup kept; the foil; the lick; the image freezes. Already in progress.\n"
     "THE SOUL OF THE SCENE (play it, never explain it): the most important small ritual of his day, and nobody knows; the "
     "snap takes him back to childhood.\n"
-    "THE PACK — shots 1–2: " + TRAY_TEXT + " Shot 3: " + PAIR_TEXT + " THE FOIL (shots 5–6): " + FOIL_TEXT,
+    "THE PAIR — " + PAIR_TEXT + " THE FOIL (shots 4–5): " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
-    "1. Tray of six (shots 1–2), pair (shot 3), two cups after; NO tray from shot 3 on. In shot 2 the fridge is CLOSED and he "
-    "stays in frame, the tray carried normally in his RIGHT hand.\n"
+    "1. A PAIR of two joined cups (shots 1–2), two separate cups after the snap; NO tray anywhere.\n"
     "2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause.\n"
     "3. LEFT hand keeps the cup, RIGHT hand sets the other down and lifts the foil with the FINGERTIP; the silver side comes "
-    "away THICK with yogurt.\n"
-    "4. Shot 4 is a slight HIGH angle; daylight from FRAME-LEFT; macro frames are full 16:9, no circular border.\n"
+    "away with a real 2–3 mm layer of yogurt, never a heap. Real human hands.\n"
+    "4. Shots 3 and 5 are THREE-QUARTER, slight HIGH angles; daylight from FRAME-LEFT; macro frames are full 16:9, no "
+    "circular border.\n"
     "5. The last second is a TOTAL FREEZE mid-lick.",
-    "TIMELINE — 6 shots, 5 hard cuts:\n"
-    "SHOT 1 (0–3s) — " + FRIDGE_SHOT + " HARD CUT.\n"
-    "SHOT 2 (3–6s) — " + WALK_SHOT + " HARD CUT.\n"
-    "SHOT 3 (6–9s) — " + SNAP_SHOT.format(snap="8s") + " HARD CUT.\n"
-    "SHOT 4 (9–11s) — " + NOSTALGIA_SHOT + " HARD CUT.\n"
-    "SHOT 5 (11–13s) — " + FOIL_SHOT + " HARD CUT.\n"
-    "SHOT 6 (13–17s) — " + LICK_SHOT.format(freeze="16s"),
+    "TIMELINE — 5 shots, 4 hard cuts:\n"
+    "SHOT 1 (0–4s) — " + FRIDGE_SHOT + " HARD CUT.\n"
+    "SHOT 2 (4–7s) — " + SNAP_SHOT.format(snap="6s") + " HARD CUT.\n"
+    "SHOT 3 (7–9s) — " + NOSTALGIA_SHOT + " HARD CUT.\n"
+    "SHOT 4 (9–11s) — " + FOIL_SHOT + " HARD CUT.\n"
+    "SHOT 5 (11–15s) — " + LICK_SHOT.format(freeze="14s"),
     acting_man(
         "the whole ritual, from the fridge to the last lick, keeping the pleasure small. Tactic: savour — half a beat slower "
         "at the fridge, no hesitation at the snap, reverence at the foil.",
-        "— [0–3s] eyes settle on the point in the fridge, the smile arrives late — [3–6s] he walks easily, a faint private "
-        "satisfaction — [6–9s] hands only, the crack at 8s — [9–11s] the gaze lifts slightly, faraway, nostalgic — [11–13s] "
-        "hands only — [13–16s] a long look at the yogurt, a small inhale, the lick — [16–17s] frozen.",
+        "— [0–4s] eyes settle on the point in the fridge, the smile arrives late, eyes follow the pair out — [4–7s] hands only, "
+        "the crack at 6s — [7–9s] the gaze lifts slightly, faraway, nostalgic — [9–11s] hands only — [11–14s] a long look at "
+        "the yogurt, a small inhale, the lick — [14–15s] frozen.",
         "his eyes narrow slightly against the fridge light; his shoulders drop a millimetre at the crack.",
-        "mugging, laughing, looking into the lens, presenting the tray, a pause before the snap, any movement after the "
-        "freeze.",
+        "mugging, laughing, looking into the lens, a pause before the snap, any movement after the freeze.",
     ),
-    "CAMERA — shots 1, 2, 4 and 6 locked off, STAY PUT, at 84°, 47°, 29° and 47°; shot 3: one steady macro pull-back; shot 5: "
-    "one gentle macro push-in.\n" + MACRO_LENS,
-    "GEOMETRY — " + KITCHEN_GEOMETRY + "; in shot 6 the lens is 35° toward his right side.",
+    "CAMERA — shots 1, 3 and 5 locked off, STAY PUT, at 84°, 29° and 47°; shot 2: one steady macro pull-back; shot 4: one "
+    "gentle macro push-in. Natural, fluid camera moves, never mechanical.\n" + MACRO_LENS,
+    "GEOMETRY — " + KITCHEN_GEOMETRY + "; in shots 3 and 5 the lens is 35° toward his right side.",
     "PHYSICS & MATERIAL — the break line resists, then gives all at once with a sharp snap, no splinters; the foil lifts "
-    "without tearing; the yogurt coat is thick, creamy and clinging; each lick wipes a clean silver stripe. OVER-REAL: "
-    "condensation on the cups, the ridge where the break line parted, foil creases, creamy yogurt on bare silver, the weave of "
-    "his shirt, pores. If any surface looks smooth, plastic or rendered — WRONG.",
+    "without tearing; the yogurt layer is creamy and clinging; each lick wipes a clean silver stripe. OVER-REAL: condensation "
+    "on the cups, the ridge where the break line parted, foil creases, yogurt on bare silver, the weave of his shirt, pores. "
+    "If any surface looks smooth, plastic or rendered — WRONG.",
     LIVE_LIGHT, LIVE_LOOK,
-    "SOUND — the fridge hum and the door seal's thup; footsteps; the créqui at 8s, a short, crisp, bright plastic snap; the "
-    "foil's crinkle; a small wet lick; near silence at the freeze. " + MUSIC_BAN,
+    "SOUND — the fridge hum; the door's soft thump; the créqui at 6s, a short, crisp, bright plastic snap; the foil's crinkle; "
+    "a small wet lick; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "a tray after shot 2, him leaving the frame, the fridge open in shot 2, a pair twisted or pulled "
-    "apart, a pause before the snap, a low angle in shot 4, a clean silver side, any movement after the freeze, "
-    + LIVE_NEG_SPINE,
-    "[ORDER: 6 shots, 5 hard cuts, 17s — (1, 0–3s) inside the fridge; (2, 3–6s) fridge closed, a few steps with the tray, in "
-    "frame; (3, 6–9s) macro pull-back, the fold, the snap at 8s; (4, 9–11s) slight high angle, the nostalgic gaze; (5, "
-    "11–13s) macro push-in, the foil opens like a little door; (6, 13–17s) three-quarter, the lick, FREEZE from 16s. "
-    "Invariants: tray only in shots 1–2; the fold; cup left, foil right; thick yogurt; daylight frame-left; full 16:9 macro "
-    "frames. Look: 35mm negative. NO music. NO text.]",
+    "NEGATIVE: " + MACRO_NEG + "a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a clean silver "
+    "side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
+    "[ORDER: 5 shots, 4 hard cuts, 15s — (1, 0–4s) inside the fridge, he takes the pair, the door shuts; (2, 4–7s) macro "
+    "pull-back, the fold, the snap at 6s; (3, 7–9s) three-quarter high angle, the nostalgic gaze; (4, 9–11s) macro push-in, "
+    "the foil opens like a little door; (5, 11–15s) three-quarter, the lick, FREEZE from 14s. Invariants: a pair, no tray; "
+    "the fold; cup left, foil right; a real layer of yogurt; real hands; daylight frame-left. Look: 35mm negative. NO music. "
+    "NO text.]",
 )
 
 # ===========================================================================
@@ -828,7 +803,7 @@ P_6B = _insert(
 
 # ===========================================================================
 PROMPTS = {
-    "1a": ("1a · POV da geladeira", 6, P_1A),
+    "1a": ("1a · POV da geladeira", 4, P_1A),
     "1b": ("1b · O créqui", 5, P_1B),
     "1c": ("1c · O foil e a lambida", 6, P_1C),
     "2a": ("2a · Mergulho", 4, P_2A),
@@ -840,8 +815,8 @@ PROMPTS = {
     "6b": ("6b · Inserts do Setor 4", 9, P_6B),
     "7a": ("7a · A vitória", 6, P_7A),
 }
-# 1d é uma alternativa a 1a+1b+1c (mesmos 17 s); fica fora de BASE_KEYS e ALT_KEYS para não somar duas vezes.
-PROMPTS["1d"] = ("1d · Cena 1 inteira (alternativa a 1a+1b+1c)", 17, P_1D)
+# 1d é uma alternativa a 1a+1b+1c (mesmos 15 s); fica fora de BASE_KEYS e ALT_KEYS para não somar duas vezes.
+PROMPTS["1d"] = ("1d · Cena 1 inteira (alternativa a 1a+1b+1c)", 15, P_1D)
 
 # Plano base: 3a conta uma vez (abertura A); a B só entra se for testada.
 BASE_KEYS = ["1a", "1b", "1c", "2a", "3a-A", "3b", "4b", "5b", "6b", "7a"]

@@ -2,58 +2,57 @@
 
 Gerado por `build.py` a partir de `video_prompts.py`. Edite lá, não aqui.
 
-## 1a · POV da geladeira (6 s)
+## 1a · POV da geladeira (4 s)
 
 ```
-CONTRACT — Live-action photoreal raw camera footage with production sound only, 16:9, 6 seconds total, 2 shots with 1 hard cut at 3s, both locked off, real-time motion. Dry comedy played completely straight. No dialogue (a voice-over is added in post). NO music, NO subtitles, NO on-screen text.
+CONTRACT — Live-action photoreal raw camera footage with production sound only, 16:9, 4 seconds total, ONE locked-off shot, real-time motion. Dry comedy played completely straight. No dialogue (a voice-over is added in post). NO music, NO subtitles, NO on-screen text.
 
 REFERENCES — each reference has ONE job:
 @man-portoalegre — IDENTITY of the man. 100% matches.
 @loc_cozinha — WORLD: the kitchen.
-@prop_bandeja-morango — OBJECT ONLY: the six-cup tray.
-REFERENCE SCOPE: references supply identity, wardrobe, objects, architecture and motion ONLY — their light, grade and surfaces are replaced by what is written below.
+@prop_pote-morango — OBJECT ONLY: one yogurt cup; here two of them are joined.
+REFERENCE SCOPE: references supply identity, wardrobe, objects and architecture ONLY — their light, grade and surfaces are replaced by what is written below.
 
-WHO IS WHO — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist — 100% matches its reference) — the MAN: opens the fridge, takes the tray and walks a few steps with it; he never looks into the lens; NEVER speaks, NEVER removes his glasses. He is alone; nobody else appears, not even as a reflection.
+WHO IS WHO — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist — 100% matches its reference) — the MAN: reaches into the fridge, takes a pair of joined yogurts and shuts the door; he never looks into the lens; NEVER speaks, NEVER removes his glasses. He is alone; nobody else appears, not even as a reflection.
 
-SCENE & SOUL — SCENE: a summer afternoon in a Brazilian kitchen. He opens the fridge, takes a yogurt tray, and walks a few casual steps with it. Already in progress.
-THE SOUL OF THE SCENE (play it, never explain it): the most important small ritual of his day, and nobody knows. He is absolutely serious about it.
-THE TRAY — a tray of exactly SIX pink ribbed yogurt cups joined in one block, each sealed with FOIL — a thin, soft aluminum sheet printed green that bends and crinkles, never stiff.
+SCENE & SOUL — SCENE: a summer afternoon in a Brazilian kitchen, seen from inside the fridge. He reaches in, takes a pair of joined yogurt cups and shuts the door. Already in progress.
+THE SOUL OF THE SCENE (play it, never explain it): the most important small ritual of his day, and nobody knows.
+THE PAIR — exactly TWO pink ribbed yogurt cups joined side by side by a thin plastic break line, each sealed with soft green-printed FOIL.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. ONE tray of exactly six joined cups — WRONG if a pair, a single cup or another count.
-2. Shot 2: the fridge is CLOSED, the tray hangs normally in his RIGHT hand and he STAYS IN FRAME — WRONG if he shows the tray to the camera or leaves the frame.
-3. Both shots LOCKED OFF; he never looks into the lens.
-4. Daylight from FRAME-LEFT, the fridge at FRAME-RIGHT; the lit side never flips.
+1. He takes a PAIR of two joined cups — WRONG if a tray, a single cup or another count.
+2. The pair is clearly visible as it leaves the fridge.
+3. The camera is LOCKED OFF inside the fridge; he never looks into the lens.
+4. The door closes toward the lens and the frame ends dark.
 
-TIMELINE — 2 shots, 1 hard cut:
-SHOT 1 (0–3s) — MCU, 84°, locked off INSIDE the fridge on the middle shelf, 0.7 m from the doorway, looking out. The door is already opening past frame-left; the inside of the open door shows the usual Brazilian fridge-door items, all plain and unlabeled: a carton of eggs, a water bottle, a juice jug, a jar of preserves, butter in a dish. His face appears, eyes on a point inside the fridge just beside the lens; a slow smile arrives; at 2s his right hand reaches in and fills the lens, so we never see what he takes. HARD CUT.
-SHOT 2 (3–6s) — MS, 47°, locked off at chest height, 1.6 m away. The fridge is closed. He is already walking from the fridge toward frame-left at an easy, casual pace, eyes ahead, never on the camera, the tray hanging normally from his right hand at hip height, foil up. He takes a few unhurried steps and stays in frame. Hard end mid-stride.
+TIMELINE — ONE shot, already in progress:
+SHOT 1 (0–4s) — MCU, 84°, locked off INSIDE the fridge on the middle shelf, 0.7 m from the doorway, looking out. The door is already open; the inside of the open door shows the usual Brazilian fridge-door items, all plain and unlabeled: a carton of eggs, a water bottle, a juice jug, a jar of preserves, butter in a dish. His face is in the doorway, eyes on a point inside the fridge just beside the lens; a slow smile. At 1s his right hand reaches in and covers the lens for a moment, then pulls back out holding a PAIR of two joined yogurt cups, foil up, clearly visible as it leaves the fridge; at 3s his left hand swings the door shut toward the lens and the frame goes dark as it closes. Hard end on the dark frame.
 
 ACTING — @man-portoalegre (dry comedy played completely straight; the work happens in the eyes)
 DIRECTION: treat the small thing as sacred.
-TASK: collect the day's reward and carry it off, keeping the pleasure under control. Tactic: savour — half a beat slower than needed, so the moment lasts.
-MOMENT TO MOMENT: — [0–1.5s] eyes settle on the point inside the fridge — [1.5–3s] the smile arrives late; the hand goes in before it is finished — [3–6s] he walks easily, eyes ahead, a faint private satisfaction.
+TASK: collect the day's reward, keeping the pleasure under control. Tactic: savour — half a beat slower than needed, so the moment lasts.
+MOMENT TO MOMENT: — [0–1s] eyes settle on the point inside the fridge, the smile arrives late — [1–3s] the hand goes in and comes out with the pair, eyes following it — [3–4s] a satisfied glance as the door closes.
 EYES: alive in every hold — they search and settle, blinks a beat late; involuntary detail: his eyes narrow slightly against the fridge light.
-NOT: mugging, laughing, looking into the lens, presenting the tray.
+NOT: mugging, laughing, looking into the lens, presenting the pair.
 
-CAMERA — authored, designed camera: both shots locked off, STAY PUT, at 84° and 47°; level horizon. NOT: handheld shake, push-in, pull-back, zoom, drone.
+CAMERA — authored, designed camera: locked off, STAYS PUT, 84°; level horizon. NOT: handheld shake, push-in, zoom.
 
-GEOMETRY — he faces the camera, so his RIGHT hand is on the frame-left side (the counter, the sunlit side) and his LEFT hand on the frame-right side (the fridge); the camera never crosses to the far side of the fridge. In shot 1 the camera sits where the tray was, 0.7 m from his face.
+GEOMETRY — the camera sits where the pair was, 0.7 m from his face; the door swings from frame-left.
 
-PHYSICS & MATERIAL — the fridge door swings with weight and stops against its seal; the tray has the weight of six full cups and swings slightly with his stride; the foil crinkles softly. OVER-REAL: a light film of condensation on the cups, fold lines in the foil, the weave of his shirt, stubble and pores. If any surface looks smooth, plastic or rendered — WRONG.
+PHYSICS & MATERIAL — the door swings with weight and seals with a soft thump; the pair is cold and light. OVER-REAL: a light film of condensation on the cups, the weave of his shirt, stubble and pores. If any surface looks smooth, plastic or rendered — WRONG.
 
 LIGHT — NATURAL LIGHT ONLY, a summer afternoon (KEY): warm daylight from the window side at FRAME-LEFT (~3800 K), with patches of sun on the green tile wall and on the frame-left side of his face; the fridge's cool light (~5000 K) only while its door is open. Highlights roll off warm, shadows hold detail. The lit side never flips.
 
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs; the warm halation stays soft and contained around bright edges.
 
-SOUND — the fridge hum; the door seal's soft thup; the foil's crinkle; his footsteps and breath. NO music of any kind (no score, soundtrack, BGM, jingle, beat or melody): raw production sound only. NO voice-over, NO subtitles.
+SOUND — the fridge hum; the foil's faint crinkle; the door seal's soft thump at the end. NO music of any kind (no score, soundtrack, BGM, jingle, beat or melody): raw production sound only. NO voice-over, NO subtitles.
 
 WORLD — the Brazilian summer kitchen of @loc_cozinha exactly as the reference shows it: the green tile wall with sun at FRAME-LEFT, the stainless fridge at FRAME-RIGHT, the counter in front of him. NO legible writing, NO other brand.
 
-NEGATIVE: a pair or a single cup instead of the tray, him leaving the frame, the fridge open in shot 2, the tray held up to the camera, smoke, vapour, steam, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
+NEGATIVE: a tray, a single cup, the product hidden as it leaves, any camera movement, smoke, vapour, steam, cartoon or clay hands, oversized hands, stiff robotic motion, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut, 6s, both locked off — (1, 0–3s) inside the fridge, door items, his hand covers the lens; (2, 3–6s) fridge closed, a few casual steps with the tray in his right hand, staying in frame. Invariants: one tray of six; carried normally, never shown; never into the lens; daylight frame-left. Look: 35mm negative. NO music. NO text.]
+[ORDER: 1 locked-off shot, 4s — inside the fridge: his hand covers the lens, pulls out the pair, clearly seen, and the door shuts to dark. Invariants: a pair of two joined cups; never into the lens; locked off. Look: 35mm negative. NO music. NO text.]
 ```
 
 ## 1b · O créqui (5 s)
@@ -65,24 +64,23 @@ REFERENCES — each reference has ONE job:
 @man-portoalegre — IDENTITY of the man. 100% matches.
 @loc_cozinha — WORLD: the kitchen.
 @prop_pote-morango — OBJECT ONLY: one yogurt cup; here two of them are joined.
-[video reference] CRÉQUI PREVIZ — MOTION AND CAMERA ONLY for shot 1: copy its camera move (tight above the two thumbs, then a steady pull-back) and its fold (the cup bottoms swinging toward each other under the joint). IGNORE its grey clay look, colours and cartoon hands.
-REFERENCE SCOPE: references supply identity, wardrobe, objects, architecture and motion ONLY — their light, grade and surfaces are replaced by what is written below.
+REFERENCE SCOPE: references supply identity, wardrobe, objects and architecture ONLY — their light, grade and surfaces are replaced by what is written below.
 
 WHO IS WHO — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist — 100% matches its reference) — the MAN: splits a pair of joined yogurts with a crisp snap and keeps one cup; NEVER speaks, NEVER removes his glasses. He is alone; nobody else appears, not even as a reflection.
 
-SCENE & SOUL — SCENE: the same kitchen, moments later. He already holds a pair of joined cups, broken off the tray off-camera, and splits it with a crisp snap. Already in progress.
+SCENE & SOUL — SCENE: the same kitchen, moments later. He holds the pair of joined cups he just took from the fridge and splits it with a crisp snap. Already in progress.
 THE SOUL OF THE SCENE (play it, never explain it): the snap is the sound he came for, and it takes him back to childhood.
 THE PAIR — exactly TWO pink ribbed yogurt cups joined side by side by a thin plastic break line, each sealed with soft green-printed FOIL.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. NO tray in frame; two joined cups before the snap, exactly two after.
+1. Two joined cups before the snap, exactly two after.
 2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause — WRONG if twisted, pulled apart or pinched.
 3. His LEFT hand keeps one cup; his RIGHT hand sets the other on the counter.
-4. Shot 2 is a slight HIGH angle (no ceiling in frame); his gaze lifts slightly upward, never into the lens.
+4. Shot 2 is a THREE-QUARTER, slight HIGH angle (no ceiling in frame); his gaze lifts slightly upward, never into the lens.
 
 TIMELINE — 2 shots, 1 hard cut:
-SHOT 1 (0–3s) — extreme close-up with the macro probe, in front of him and above his hands: it starts 3 cm above the two foils, his two thumbs lying flat on them, one per cup, and makes ONE steady pull-back with a slight rise through the whole shot, revealing the pair at chest height and his shirt soft behind. He is already folding the pair toward its centre: thumbs press the outer halves down, fingers push up under the joint, the cup bottoms swing toward each other (an upside-down V); at 2s the break line snaps with a crisp, bright crack — the créqui — and he draws the two cups apart, level, one in each hand. HARD CUT.
-SHOT 2 (3–5s) — CU, 29°, 0.9 m away, the camera 25 cm ABOVE his eye line looking down (a slight high angle, tile wall behind, no ceiling in frame). A half-beat after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a small half-smile, never into the lens. His LEFT hand keeps one cup at chest height; his RIGHT hand sets the other on the counter without looking. Hard end.
+SHOT 1 (0–3s) — extreme close-up with the macro probe, in front of him and above his hands (his hands are real human hands with natural proportions, skin and fluid motion): it starts 3 cm above the two foils, his two thumbs lying flat on them, one per cup, and makes ONE steady pull-back with a slight rise through the whole shot, revealing the pair at chest height and his shirt soft behind. He is already folding the pair toward its centre: thumbs press the outer halves down, fingers push up under the joint, the cup bottoms swing toward each other (an upside-down V); at 2s the break line snaps with a crisp, bright crack — the créqui — and he draws the two cups apart, level, one in each hand. HARD CUT.
+SHOT 2 (3–5s) — CU, 29°, 0.9 m away, the camera diagonal — about 35° toward his right side — and 25 cm ABOVE his eye line looking down: a three-quarter, slightly high angle, tile wall behind, no ceiling in frame. A half-beat after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a small half-smile, never into the lens. His LEFT hand keeps one cup at chest height; his RIGHT hand sets the other on the counter without looking. Hard end.
 
 ACTING — @man-portoalegre (dry comedy played completely straight; the work happens in the eyes)
 DIRECTION: treat the small thing as sacred.
@@ -107,9 +105,9 @@ SOUND — the créqui, a short, crisp, bright plastic snap, the hero sound of th
 
 WORLD — the Brazilian summer kitchen of @loc_cozinha exactly as the reference shows it: the green tile wall with sun at FRAME-LEFT, the stainless fridge at FRAME-RIGHT, the counter in front of him. NO legible writing, NO other brand.
 
-NEGATIVE: fisheye, circular black border, round lens mask, black corners, curved straight lines, a tray in frame, a pair twisted or pulled apart, three cups, a pause before the snap, a low angle with the ceiling in frame, smoke, vapour, steam, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
+NEGATIVE: fisheye, circular black border, round lens mask, black corners, curved straight lines, a pair twisted or pulled apart, three cups, a pause before the snap, a low angle with the ceiling in frame, smoke, vapour, steam, cartoon or clay hands, oversized hands, stiff robotic motion, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the fold toward the centre, the snap at 2s; (2, 3–5s) slight high angle, gaze lifting, one cup kept, the other set down. Invariants: no tray; the fold; left hand keeps one; full 16:9 frame. Look: 35mm negative. NO music. NO text.]
+[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the fold toward the centre, the snap at 2s; (2, 3–5s) three-quarter slight high angle, gaze lifting, one cup kept, the other set down. Invariants: the fold; left hand keeps one; full 16:9 frame. Look: 35mm negative. NO music. NO text.]
 ```
 
 ## 1c · O foil e a lambida (6 s)
@@ -121,23 +119,22 @@ REFERENCES — each reference has ONE job:
 @man-portoalegre — IDENTITY of the man. 100% matches.
 @loc_cozinha — WORLD: the kitchen.
 @prop_pote-morango — OBJECT ONLY: the yogurt cup and its green foil.
-[video reference] FOIL PREVIZ — MOTION AND CAMERA ONLY for shot 1: copy its camera position beside his hand, the gentle push-in and how the foil hinges up on its far edge to face the lens. IGNORE its grey clay look, colours and cartoon hands.
-REFERENCE SCOPE: references supply identity, wardrobe, objects, architecture and motion ONLY — their light, grade and surfaces are replaced by what is written below.
+REFERENCE SCOPE: references supply identity, wardrobe, objects and architecture ONLY — their light, grade and surfaces are replaced by what is written below.
 
 WHO IS WHO — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist — 100% matches its reference) — the MAN: opens the cup in his left hand and licks the yogurt off the foil; NEVER speaks, NEVER removes his glasses. He is alone; nobody else appears, not even as a reflection.
 
-SCENE & SOUL — SCENE: the same kitchen. He opens the cup he kept; the foil comes away thick with yogurt and he licks it, and the image freezes. Already in progress.
+SCENE & SOUL — SCENE: the same kitchen. He opens the cup he kept; the foil comes away with yogurt on it and he licks it, and the image freezes. Already in progress.
 THE SOUL OF THE SCENE (play it, never explain it): the foil is a treasure and the lick is a ceremony.
-THE FOIL — a thin, soft aluminum sheet, printed green on the outside; its inner face is bare SILVER thickly covered with pink yogurt stuck to it in creamy smears, only a thin clean silver edge showing. It bends and crinkles, never stiff; NO tab, NO writing.
+THE FOIL — a thin, soft aluminum sheet, printed green on the outside; its inner face is bare SILVER with a real, generous layer of pink yogurt stuck to it — about 2–3 mm thick, true to the size of one small cup, covering most of the silver with a thin clean edge — never a heap. It bends and crinkles, never stiff; NO tab, NO writing.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. Cup in his LEFT hand, foil in his RIGHT; the FINGERTIP lifts the foil — no nail, no tab.
-2. The silver side comes away THICK with pink yogurt and faces the lens as it opens — WRONG if clean.
+2. The silver side comes away with a real 2–3 mm layer of pink yogurt and faces the lens as it opens — WRONG if clean or heaped.
 3. NO text or message on the foil.
 4. The last second is a TOTAL FREEZE mid-lick.
 
 TIMELINE — 2 shots, 1 hard cut:
-SHOT 1 (0–2s) — extreme close-up with the macro probe beside his right hand: the back of that hand huge and soft in the foreground at frame-left, its fingertip under the near edge of the foil; the cup held by the fingers of his left hand at frame-right; the tile wall soft behind. ONE gentle, continuous push-in: the fingertip lifts the near edge and the foil hinges up on its far edge like a little door opening toward the lens, rising almost upright, its yogurt-thick silver side turned to the camera, the open cup and its pink yogurt below. HARD CUT.
+SHOT 1 (0–2s) — extreme close-up with the macro probe beside his right hand (his hands are real human hands with natural proportions, skin and fluid motion): the back of that hand large and soft in the foreground at frame-left, its fingertip under the near edge of the foil; the cup held by the fingers of his left hand at frame-right; the tile wall soft behind. ONE gentle, continuous push-in: the fingertip lifts the near edge and the foil hinges up on its far edge like a little door opening toward the lens, rising almost upright, its yogurt-thick silver side turned to the camera, the open cup and its pink yogurt below. HARD CUT.
 SHOT 2 (2–6s) — MCU, 47°, 0.8 m away, the camera diagonal — about 35° toward his right side — and 15 cm above his eye line: a three-quarter, slightly high angle, locked off. The open cup in his left hand at chest height; the foil in his right hand, nearer the lens, its yogurt side toward him, tilted so the pink catches the light. He looks at it with reverence, brings it to his mouth and licks the coat off in one slow sweep, a second beginning. At 5s the image FREEZES mid-lick — foil at his mouth, eyes half-closed — and stays frozen, like a photograph, to the end.
 
 ACTING — @man-portoalegre (dry comedy played completely straight; the work happens in the eyes)
@@ -163,9 +160,9 @@ SOUND — the foil's soft crinkle; a small wet lick; his breath; near silence at
 
 WORLD — the Brazilian summer kitchen of @loc_cozinha exactly as the reference shows it: the green tile wall with sun at FRAME-LEFT, the stainless fridge at FRAME-RIGHT, the counter in front of him. NO legible writing, NO other brand.
 
-NEGATIVE: fisheye, circular black border, round lens mask, black corners, curved straight lines, a fingernail or pull tab, a clean silver side, a message on the foil, any movement after the freeze, smoke, vapour, steam, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
+NEGATIVE: fisheye, circular black border, round lens mask, black corners, curved straight lines, a fingernail or pull tab, a clean silver side, a heap of yogurt, a message on the foil, any movement after the freeze, smoke, vapour, steam, cartoon or clay hands, oversized hands, stiff robotic motion, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut, 6s — (1, 0–2s) macro beside his hand, push-in, the foil opens like a little door, yogurt side to the lens; (2, 2–6s) three-quarter slight high angle, the lick, FREEZE from 5s. Invariants: cup left, foil right; thick yogurt; fingertip; no text. Look: 35mm negative. NO music. NO text.]
+[ORDER: 2 shots, 1 hard cut, 6s — (1, 0–2s) macro beside his hand, push-in, the foil opens like a little door, yogurt side to the lens; (2, 2–6s) three-quarter slight high angle, the lick, FREEZE from 5s. Invariants: cup left, foil right; a real layer of yogurt; fingertip; no text. Look: 35mm negative. NO music. NO text.]
 ```
 
 ## 2a · Mergulho (4 s)
@@ -547,7 +544,7 @@ REFERENCES — each reference has ONE job:
 @man-portoalegre — IDENTITY of the man. 100% matches.
 @loc_cozinha — WORLD: the kitchen.
 @prop_pote-morango — OBJECT ONLY: the cup and its green foil.
-REFERENCE SCOPE: references supply identity, wardrobe, objects, architecture and motion ONLY — their light, grade and surfaces are replaced by what is written below.
+REFERENCE SCOPE: references supply identity, wardrobe, objects and architecture ONLY — their light, grade and surfaces are replaced by what is written below.
 
 WHO IS WHO — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist — 100% matches its reference) — the MAN: finishes the lick, checks the foil, discovers he has won and celebrates; NEVER says a word (a wordless laugh is allowed), NEVER removes his glasses, NEVER shows a second person. He is alone; nobody else appears, not even as a reflection.
 
@@ -593,70 +590,66 @@ SOUND — DIEGETIC ONLY: the crinkle of the foil; a small wet lick; his breath; 
 
 WORLD — the Brazilian summer kitchen of @loc_cozinha exactly as the reference shows it: the green tile wall with sun at FRAME-LEFT, the stainless fridge at FRAME-RIGHT, the counter in front of him. NO legible writing, NO other brand.
 
-NEGATIVE: a pause before the joy, words or shouts, a keychain or any other prop, readable text on the foil, the camera moving, the foil in the left hand, smoke, vapour, steam, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
+NEGATIVE: a pause before the joy, words or shouts, a keychain or any other prop, readable text on the foil, the camera moving, the foil in the left hand, smoke, vapour, steam, cartoon or clay hands, oversized hands, stiff robotic motion, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
 
 [ORDER: 1 continuous take, 6s — (0–1s) the lick ends; (1–2s) he checks the foil; (2–3s) he sees he won, instantly happy; (3–6s) he raises the foil with his right arm, wordless laugh, hard end at the peak. Invariants: cup left hand, foil right hand; no pause; no text; the camera locked as the keyframe; alone. Look: 35mm negative, summer window light. NO music. NO text.]
 ```
 
-## 1d · Cena 1 inteira (alternativa a 1a+1b+1c) (17 s)
+## 1d · Cena 1 inteira (alternativa a 1a+1b+1c) (15 s)
 
 ```
-CONTRACT — Live-action photoreal raw camera footage with production sound only, 16:9, 17 seconds total, 6 shots with 5 hard cuts at 3s, 6s, 9s, 11s and 13s, real-time motion. Dry comedy played completely straight. No dialogue (a voice-over is added in post). NO music, NO subtitles, NO on-screen text.
+CONTRACT — Live-action photoreal raw camera footage with production sound only, 16:9, 15 seconds total, 5 shots with 4 hard cuts at 4s, 7s, 9s and 11s, real-time motion. Dry comedy played completely straight. No dialogue (a voice-over is added in post). NO music, NO subtitles, NO on-screen text.
 
 REFERENCES — each reference has ONE job:
 @man-portoalegre — IDENTITY of the man. 100% matches.
 @loc_cozinha — WORLD: the kitchen.
-@prop_bandeja-morango — OBJECT ONLY, shots 1–2: the six-cup tray.
-@prop_pote-morango — OBJECT ONLY, shots 3–6: the yogurt cup and its green foil.
-[video reference] CRÉQUI PREVIZ — MOTION AND CAMERA ONLY for shot 3: copy its camera move (tight above the two thumbs, then a steady pull-back) and its fold (the cup bottoms swinging toward each other under the joint). IGNORE its grey clay look, colours and cartoon hands.
-[video reference] FOIL PREVIZ — MOTION AND CAMERA ONLY for shot 5: copy its camera position beside his hand, the gentle push-in and how the foil hinges up on its far edge to face the lens. IGNORE its grey clay look, colours and cartoon hands.
-REFERENCE SCOPE: references supply identity, wardrobe, objects, architecture and motion ONLY — their light, grade and surfaces are replaced by what is written below.
+@prop_pote-morango — OBJECT ONLY: the yogurt cup and its green foil; in shots 1–2 two of them are joined.
+REFERENCE SCOPE: references supply identity, wardrobe, objects and architecture ONLY — their light, grade and surfaces are replaced by what is written below.
 
-WHO IS WHO — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist — 100% matches its reference) — the MAN: takes the tray, splits a pair with a crisp snap, keeps one cup, opens it and licks the foil; he never looks into the lens; NEVER speaks, NEVER removes his glasses. He is alone; nobody else appears, not even as a reflection.
+WHO IS WHO — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist — 100% matches its reference) — the MAN: takes a pair of joined yogurts from the fridge, splits it with a crisp snap, keeps one cup, opens it and licks the foil; he never looks into the lens; NEVER speaks, NEVER removes his glasses. He is alone; nobody else appears, not even as a reflection.
 
-SCENE & SOUL — SCENE: one uninterrupted ritual in a summer kitchen, in six shots: the tray from the fridge; a pair is broken off it off-camera between shots 2 and 3; the snap; one cup kept; the foil; the lick; the image freezes. Already in progress.
+SCENE & SOUL — SCENE: one uninterrupted ritual in a summer kitchen, in five shots: the pair from the fridge; the snap; one cup kept; the foil; the lick; the image freezes. Already in progress.
 THE SOUL OF THE SCENE (play it, never explain it): the most important small ritual of his day, and nobody knows; the snap takes him back to childhood.
-THE PACK — shots 1–2: a tray of exactly SIX pink ribbed yogurt cups joined in one block, each sealed with FOIL — a thin, soft aluminum sheet printed green that bends and crinkles, never stiff. Shot 3: exactly TWO pink ribbed yogurt cups joined side by side by a thin plastic break line, each sealed with soft green-printed FOIL. THE FOIL (shots 5–6): a thin, soft aluminum sheet, printed green on the outside; its inner face is bare SILVER thickly covered with pink yogurt stuck to it in creamy smears, only a thin clean silver edge showing. It bends and crinkles, never stiff; NO tab, NO writing.
+THE PAIR — exactly TWO pink ribbed yogurt cups joined side by side by a thin plastic break line, each sealed with soft green-printed FOIL. THE FOIL (shots 4–5): a thin, soft aluminum sheet, printed green on the outside; its inner face is bare SILVER with a real, generous layer of pink yogurt stuck to it — about 2–3 mm thick, true to the size of one small cup, covering most of the silver with a thin clean edge — never a heap. It bends and crinkles, never stiff; NO tab, NO writing.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. Tray of six (shots 1–2), pair (shot 3), two cups after; NO tray from shot 3 on. In shot 2 the fridge is CLOSED and he stays in frame, the tray carried normally in his RIGHT hand.
+1. A PAIR of two joined cups (shots 1–2), two separate cups after the snap; NO tray anywhere.
 2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause.
-3. LEFT hand keeps the cup, RIGHT hand sets the other down and lifts the foil with the FINGERTIP; the silver side comes away THICK with yogurt.
-4. Shot 4 is a slight HIGH angle; daylight from FRAME-LEFT; macro frames are full 16:9, no circular border.
+3. LEFT hand keeps the cup, RIGHT hand sets the other down and lifts the foil with the FINGERTIP; the silver side comes away with a real 2–3 mm layer of yogurt, never a heap. Real human hands.
+4. Shots 3 and 5 are THREE-QUARTER, slight HIGH angles; daylight from FRAME-LEFT; macro frames are full 16:9, no circular border.
 5. The last second is a TOTAL FREEZE mid-lick.
 
-TIMELINE — 6 shots, 5 hard cuts:
-SHOT 1 (0–3s) — MCU, 84°, locked off INSIDE the fridge on the middle shelf, 0.7 m from the doorway, looking out. The door is already opening past frame-left; the inside of the open door shows the usual Brazilian fridge-door items, all plain and unlabeled: a carton of eggs, a water bottle, a juice jug, a jar of preserves, butter in a dish. His face appears, eyes on a point inside the fridge just beside the lens; a slow smile arrives; at 2s his right hand reaches in and fills the lens, so we never see what he takes. HARD CUT.
-SHOT 2 (3–6s) — MS, 47°, locked off at chest height, 1.6 m away. The fridge is closed. He is already walking from the fridge toward frame-left at an easy, casual pace, eyes ahead, never on the camera, the tray hanging normally from his right hand at hip height, foil up. He takes a few unhurried steps and stays in frame. HARD CUT.
-SHOT 3 (6–9s) — extreme close-up with the macro probe, in front of him and above his hands: it starts 3 cm above the two foils, his two thumbs lying flat on them, one per cup, and makes ONE steady pull-back with a slight rise through the whole shot, revealing the pair at chest height and his shirt soft behind. He is already folding the pair toward its centre: thumbs press the outer halves down, fingers push up under the joint, the cup bottoms swing toward each other (an upside-down V); at 8s the break line snaps with a crisp, bright crack — the créqui — and he draws the two cups apart, level, one in each hand. HARD CUT.
-SHOT 4 (9–11s) — CU, 29°, 0.9 m away, the camera 25 cm ABOVE his eye line looking down (a slight high angle, tile wall behind, no ceiling in frame). A half-beat after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a small half-smile, never into the lens. His LEFT hand keeps one cup at chest height; his RIGHT hand sets the other on the counter without looking. HARD CUT.
-SHOT 5 (11–13s) — extreme close-up with the macro probe beside his right hand: the back of that hand huge and soft in the foreground at frame-left, its fingertip under the near edge of the foil; the cup held by the fingers of his left hand at frame-right; the tile wall soft behind. ONE gentle, continuous push-in: the fingertip lifts the near edge and the foil hinges up on its far edge like a little door opening toward the lens, rising almost upright, its yogurt-thick silver side turned to the camera, the open cup and its pink yogurt below. HARD CUT.
-SHOT 6 (13–17s) — MCU, 47°, 0.8 m away, the camera diagonal — about 35° toward his right side — and 15 cm above his eye line: a three-quarter, slightly high angle, locked off. The open cup in his left hand at chest height; the foil in his right hand, nearer the lens, its yogurt side toward him, tilted so the pink catches the light. He looks at it with reverence, brings it to his mouth and licks the coat off in one slow sweep, a second beginning. At 16s the image FREEZES mid-lick — foil at his mouth, eyes half-closed — and stays frozen, like a photograph, to the end.
+TIMELINE — 5 shots, 4 hard cuts:
+SHOT 1 (0–4s) — MCU, 84°, locked off INSIDE the fridge on the middle shelf, 0.7 m from the doorway, looking out. The door is already open; the inside of the open door shows the usual Brazilian fridge-door items, all plain and unlabeled: a carton of eggs, a water bottle, a juice jug, a jar of preserves, butter in a dish. His face is in the doorway, eyes on a point inside the fridge just beside the lens; a slow smile. At 1s his right hand reaches in and covers the lens for a moment, then pulls back out holding a PAIR of two joined yogurt cups, foil up, clearly visible as it leaves the fridge; at 3s his left hand swings the door shut toward the lens and the frame goes dark as it closes. HARD CUT.
+SHOT 2 (4–7s) — extreme close-up with the macro probe, in front of him and above his hands (his hands are real human hands with natural proportions, skin and fluid motion): it starts 3 cm above the two foils, his two thumbs lying flat on them, one per cup, and makes ONE steady pull-back with a slight rise through the whole shot, revealing the pair at chest height and his shirt soft behind. He is already folding the pair toward its centre: thumbs press the outer halves down, fingers push up under the joint, the cup bottoms swing toward each other (an upside-down V); at 6s the break line snaps with a crisp, bright crack — the créqui — and he draws the two cups apart, level, one in each hand. HARD CUT.
+SHOT 3 (7–9s) — CU, 29°, 0.9 m away, the camera diagonal — about 35° toward his right side — and 25 cm ABOVE his eye line looking down: a three-quarter, slightly high angle, tile wall behind, no ceiling in frame. A half-beat after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a small half-smile, never into the lens. His LEFT hand keeps one cup at chest height; his RIGHT hand sets the other on the counter without looking. HARD CUT.
+SHOT 4 (9–11s) — extreme close-up with the macro probe beside his right hand (his hands are real human hands with natural proportions, skin and fluid motion): the back of that hand large and soft in the foreground at frame-left, its fingertip under the near edge of the foil; the cup held by the fingers of his left hand at frame-right; the tile wall soft behind. ONE gentle, continuous push-in: the fingertip lifts the near edge and the foil hinges up on its far edge like a little door opening toward the lens, rising almost upright, its yogurt-thick silver side turned to the camera, the open cup and its pink yogurt below. HARD CUT.
+SHOT 5 (11–15s) — MCU, 47°, 0.8 m away, the camera diagonal — about 35° toward his right side — and 15 cm above his eye line: a three-quarter, slightly high angle, locked off. The open cup in his left hand at chest height; the foil in his right hand, nearer the lens, its yogurt side toward him, tilted so the pink catches the light. He looks at it with reverence, brings it to his mouth and licks the coat off in one slow sweep, a second beginning. At 14s the image FREEZES mid-lick — foil at his mouth, eyes half-closed — and stays frozen, like a photograph, to the end.
 
 ACTING — @man-portoalegre (dry comedy played completely straight; the work happens in the eyes)
 DIRECTION: treat the small thing as sacred.
 TASK: the whole ritual, from the fridge to the last lick, keeping the pleasure small. Tactic: savour — half a beat slower at the fridge, no hesitation at the snap, reverence at the foil.
-MOMENT TO MOMENT: — [0–3s] eyes settle on the point in the fridge, the smile arrives late — [3–6s] he walks easily, a faint private satisfaction — [6–9s] hands only, the crack at 8s — [9–11s] the gaze lifts slightly, faraway, nostalgic — [11–13s] hands only — [13–16s] a long look at the yogurt, a small inhale, the lick — [16–17s] frozen.
+MOMENT TO MOMENT: — [0–4s] eyes settle on the point in the fridge, the smile arrives late, eyes follow the pair out — [4–7s] hands only, the crack at 6s — [7–9s] the gaze lifts slightly, faraway, nostalgic — [9–11s] hands only — [11–14s] a long look at the yogurt, a small inhale, the lick — [14–15s] frozen.
 EYES: alive in every hold — they search and settle, blinks a beat late; involuntary detail: his eyes narrow slightly against the fridge light; his shoulders drop a millimetre at the crack.
-NOT: mugging, laughing, looking into the lens, presenting the tray, a pause before the snap, any movement after the freeze.
+NOT: mugging, laughing, looking into the lens, a pause before the snap, any movement after the freeze.
 
-CAMERA — shots 1, 2, 4 and 6 locked off, STAY PUT, at 84°, 47°, 29° and 47°; shot 3: one steady macro pull-back; shot 5: one gentle macro push-in.
+CAMERA — shots 1, 3 and 5 locked off, STAY PUT, at 84°, 29° and 47°; shot 2: one steady macro pull-back; shot 4: one gentle macro push-in. Natural, fluid camera moves, never mechanical.
 MACRO PROBE LENS (KEY): a 24 mm probe macro, about 74° horizontal: the object at the tip is huge and crisp on a thin plane of focus, nearby things pass soft in the foreground, the room falls away into soft colour; wide perspective with straight lines. A full, clean 16:9 frame edge to edge — NO fisheye, NO circular black border.
 
-GEOMETRY — he faces the camera, so his RIGHT hand is on the frame-left side (the counter, the sunlit side) and his LEFT hand on the frame-right side (the fridge); the camera never crosses to the far side of the fridge; in shot 6 the lens is 35° toward his right side.
+GEOMETRY — he faces the camera, so his RIGHT hand is on the frame-left side (the counter, the sunlit side) and his LEFT hand on the frame-right side (the fridge); the camera never crosses to the far side of the fridge; in shots 3 and 5 the lens is 35° toward his right side.
 
-PHYSICS & MATERIAL — the break line resists, then gives all at once with a sharp snap, no splinters; the foil lifts without tearing; the yogurt coat is thick, creamy and clinging; each lick wipes a clean silver stripe. OVER-REAL: condensation on the cups, the ridge where the break line parted, foil creases, creamy yogurt on bare silver, the weave of his shirt, pores. If any surface looks smooth, plastic or rendered — WRONG.
+PHYSICS & MATERIAL — the break line resists, then gives all at once with a sharp snap, no splinters; the foil lifts without tearing; the yogurt layer is creamy and clinging; each lick wipes a clean silver stripe. OVER-REAL: condensation on the cups, the ridge where the break line parted, foil creases, yogurt on bare silver, the weave of his shirt, pores. If any surface looks smooth, plastic or rendered — WRONG.
 
 LIGHT — NATURAL LIGHT ONLY, a summer afternoon (KEY): warm daylight from the window side at FRAME-LEFT (~3800 K), with patches of sun on the green tile wall and on the frame-left side of his face; the fridge's cool light (~5000 K) only while its door is open. Highlights roll off warm, shadows hold detail. The lit side never flips.
 
 FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
 NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs; the warm halation stays soft and contained around bright edges.
 
-SOUND — the fridge hum and the door seal's thup; footsteps; the créqui at 8s, a short, crisp, bright plastic snap; the foil's crinkle; a small wet lick; near silence at the freeze. NO music of any kind (no score, soundtrack, BGM, jingle, beat or melody): raw production sound only. NO voice-over, NO subtitles.
+SOUND — the fridge hum; the door's soft thump; the créqui at 6s, a short, crisp, bright plastic snap; the foil's crinkle; a small wet lick; near silence at the freeze. NO music of any kind (no score, soundtrack, BGM, jingle, beat or melody): raw production sound only. NO voice-over, NO subtitles.
 
 WORLD — the Brazilian summer kitchen of @loc_cozinha exactly as the reference shows it: the green tile wall with sun at FRAME-LEFT, the stainless fridge at FRAME-RIGHT, the counter in front of him. NO legible writing, NO other brand.
 
-NEGATIVE: fisheye, circular black border, round lens mask, black corners, curved straight lines, a tray after shot 2, him leaving the frame, the fridge open in shot 2, a pair twisted or pulled apart, a pause before the snap, a low angle in shot 4, a clean silver side, any movement after the freeze, smoke, vapour, steam, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
+NEGATIVE: fisheye, circular black border, round lens mask, black corners, curved straight lines, a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a clean silver side, a heap of yogurt, any movement after the freeze, smoke, vapour, steam, cartoon or clay hands, oversized hands, stiff robotic motion, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect ratio.
 
-[ORDER: 6 shots, 5 hard cuts, 17s — (1, 0–3s) inside the fridge; (2, 3–6s) fridge closed, a few steps with the tray, in frame; (3, 6–9s) macro pull-back, the fold, the snap at 8s; (4, 9–11s) slight high angle, the nostalgic gaze; (5, 11–13s) macro push-in, the foil opens like a little door; (6, 13–17s) three-quarter, the lick, FREEZE from 16s. Invariants: tray only in shots 1–2; the fold; cup left, foil right; thick yogurt; daylight frame-left; full 16:9 macro frames. Look: 35mm negative. NO music. NO text.]
+[ORDER: 5 shots, 4 hard cuts, 15s — (1, 0–4s) inside the fridge, he takes the pair, the door shuts; (2, 4–7s) macro pull-back, the fold, the snap at 6s; (3, 7–9s) three-quarter high angle, the nostalgic gaze; (4, 9–11s) macro push-in, the foil opens like a little door; (5, 11–15s) three-quarter, the lick, FREEZE from 14s. Invariants: a pair, no tray; the fold; cup left, foil right; a real layer of yogurt; real hands; daylight frame-left. Look: 35mm negative. NO music. NO text.]
 ```

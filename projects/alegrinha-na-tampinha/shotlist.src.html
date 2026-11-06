@@ -119,14 +119,14 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); o
 <!-- CENA 1 -->
 <div class="scene" data-scene="1">
   <div class="scene-head"><input type="checkbox" data-scene="1" aria-label="Cena 1 conferida"><div class="scene-num">1</div>
-    <div class="scene-desc"><b>Cozinha de verão: o ritual</b><span class="when">0″ a 14″ · captação · 3 gerações, ou a 1d que junta as três</span></div></div>
+    <div class="scene-desc"><b>Cozinha de verão: o ritual</b><span class="when">0″ a 14″ · captação · 3 gerações (1a 4 s, 1b 5 s, 1c 6 s), ou a 1d que junta as três</span></div></div>
 
   <div class="gen">
-    <div class="gen-bar"><span>1a · POV da geladeira</span><span class="meta">6 s · 2 planos</span></div>
+    <div class="gen-bar"><span>1a · POV da geladeira</span><span class="meta">4 s · 1 plano</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd><b>0–3 s</b> A câmera está dentro da geladeira, de frente para a porta. A porta abre, e na parte de dentro dela aparecem os itens que o brasileiro costuma deixar ali, todos sem rótulo (cartela de ovos, garrafa d’água, jarra de suco, um pote de conserva, manteiga). O homem aparece, fixa um ponto dentro da geladeira, sorri e leva a mão para pegar um produto. A mão cobre a lente: ainda não vemos o quê.<br><b>3–6 s</b> Plano médio, câmera parada. A geladeira já está fechada. Ele dá alguns passos casuais, sem olhar para a câmera e sem sair do quadro, levando a bandeja na mão direita, solta ao lado do quadril, do jeito normal de carregar (o foil verde não é mostrado para a câmera).</dd>
-      <dt>Termina</dt><dd>No meio de um passo, ainda em quadro, com a bandeja.</dd>
-      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_bandeja-morango</span></dd>
+      <dt>Acontece</dt><dd><b>0–4 s</b> A câmera está dentro da geladeira, de frente para a porta aberta, com os itens de porta sem rótulo (ovos, garrafa d’água, jarra de suco, um pote de conserva, manteiga). O homem fixa um ponto dentro da geladeira e sorri. A mão dele entra, tampa a lente por um instante e sai puxando uma <b>dupla</b> de iogurtes, que já vemos com clareza. Ele fecha a porta em direção à lente e o quadro escurece. Corta direto para o créqui.</dd>
+      <dt>Termina</dt><dd>Porta fechando, quadro escuro.</dd>
+      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
     <dt>Prompt</dt><dd>{{PROMPT:1a}}</dd>
     </dl>
   </div>
@@ -134,7 +134,7 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); o
   <div class="gen">
     <div class="gen-bar"><span>1b · O créqui</span><span class="meta">5 s · 2 planos</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd>Ele já segura uma dupla de iogurtes, separada da bandeja fora de quadro; nenhuma bandeja aparece.<br><b>0–3 s</b> Macro entre os dois copos da dupla, ao longo da linha de quebra que os une. Como no vídeo de referência: a câmera começa colada em cima dos dois foils, de frente para ele, com um polegar deitado sobre cada copo, e recua num movimento contínuo, revelando a dupla, os dedos por baixo e a camisa dele ao fundo. Sem pausa, ele dobra a dupla em direção ao centro: os polegares descem as metades de fora, os dedos empurram a junção para cima e os fundos dos copos se aproximam por baixo (um V invertido). O estalo, o “créqui”, separa a dupla e ele afasta os dois copos, nivelados, um em cada mão. Quadro 16:9 cheio, sem borda circular.<br><b>3–5 s</b> Close dele em high angle de leve (câmera acima do olhar, sem teto no quadro). O momento nostálgico: o olhar sobe de leve em direção à luz da janela, distante, com um meio sorriso, sem olhar para a câmera. Ele fica com um copo na mão esquerda e pousa o outro no balcão sem olhar.</dd>
+      <dt>Acontece</dt><dd>Ele segura a dupla que acabou de tirar da geladeira.<br><b>0–3 s</b> Macro entre os dois copos da dupla, ao longo da linha de quebra que os une. A câmera começa colada em cima dos dois foils, de frente para ele, com um polegar deitado sobre cada copo, e recua num movimento contínuo, revelando a dupla, os dedos por baixo e a camisa dele ao fundo. Sem pausa, ele dobra a dupla em direção ao centro: os polegares descem as metades de fora, os dedos empurram a junção para cima e os fundos dos copos se aproximam por baixo (um V invertido). O estalo, o “créqui”, separa a dupla e ele afasta os dois copos, nivelados, um em cada mão. Quadro 16:9 cheio, sem borda circular.<br><b>3–5 s</b> Close em três quartos, em high angle de leve, como o da lambida (câmera na diagonal, acima do olhar, sem teto no quadro). O momento nostálgico: o olhar sobe de leve em direção à luz da janela, distante, com um meio sorriso, sem olhar para a câmera. Ele fica com um copo na mão esquerda e pousa o outro no balcão sem olhar.</dd>
       <dt>Termina</dt><dd>Um copo na mão esquerda; o outro, solto, no balcão.</dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
     <dt>Prompt</dt><dd>{{PROMPT:1b}}</dd>
@@ -144,7 +144,7 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); o
   <div class="gen">
     <div class="gen-bar"><span>1c · O foil e a lambida</span><span class="meta">6 s · 2 planos</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd><b>0–2 s</b> Como no vídeo de referência: a câmera fica ao lado da mão direita dele (as costas da mão grandes e desfocadas num canto, a ponta do dedo sob a borda do foil), olhando o copo que a mão esquerda segura, num leve avanço contínuo. A ponta do dedo levanta a borda de perto e o foil gira na borda de trás como uma portinha abrindo em direção à lente, até quase ficar em pé: o lado prateado, coberto por uma camada grossa de iogurte colado, fica virado para a câmera, e o copo aberto aparece embaixo.<br><b>2–6 s</b> Mais perto do que antes (0,8 m), câmera em diagonal, em três quartos pelo lado direito dele, em high angle de leve. Ele olha o iogurte no lado prateado com reverência, leva o foil à boca e lambe. Aos 5 s a imagem congela no meio da lambida e fica parada até o fim.</dd>
+      <dt>Acontece</dt><dd><b>0–2 s</b> A câmera fica ao lado da mão direita dele (as costas de uma mão de verdade, grandes e desfocadas num canto, a ponta do dedo sob a borda do foil), olhando o copo que a mão esquerda segura, num leve avanço contínuo. A ponta do dedo levanta a borda de perto e o foil gira na borda de trás como uma portinha abrindo em direção à lente, até quase ficar em pé: o lado prateado, com uma camada de verdade de iogurte colado, de 2 a 3 mm, na escala de um potinho, fica virado para a câmera, e o copo aberto aparece embaixo.<br><b>2–6 s</b> Mais perto do que antes (0,8 m), câmera em diagonal, em três quartos pelo lado direito dele, em high angle de leve. Ele olha o iogurte no lado prateado com reverência, leva o foil à boca e lambe. Aos 5 s a imagem congela no meio da lambida e fica parada até o fim.</dd>
       <dt>Termina</dt><dd>Congelado no meio da lambida, foil na boca. Este é o quadro do congelamento.</dd>
       <dt>Locução</dt><dd><span class="quote">“Você já se perguntou: de onde vem esse gostinho de alegria que a gente nunca esquece?”</span></dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
@@ -153,12 +153,12 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); o
   </div>
 
   <div class="gen">
-    <div class="gen-bar"><span>1d · A cena 1 inteira em uma geração (alternativa a 1a + 1b + 1c)</span><span class="meta">17 s · 6 planos</span></div>
+    <div class="gen-bar"><span>1d · A cena 1 inteira em uma geração (alternativa a 1a + 1b + 1c)</span><span class="meta">15 s · 5 planos</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd>Os mesmos três takes em sequência, com cortes secos: <b>0–3 s</b> POV da geladeira · <b>3–6 s</b> plano médio, geladeira fechada, ele dá alguns passos com a bandeja na mão direita, sem sair do quadro · <b>6–9 s</b> macro recuando de cima dos polegares, a dupla dobrada em direção ao centro (fundos dos copos se aproximando), o créqui aos 8 s (a dupla foi separada da bandeja fora de quadro, entre o plano 2 e o 3) · <b>9–11 s</b> close em high angle de leve, olhar subindo de leve (nostalgia), um copo na esquerda e o outro no balcão · <b>11–13 s</b> macro ao lado da mão dele, num leve avanço, o foil abrindo como portinha e mostrando à câmera o lado prateado coberto de iogurte · <b>13–17 s</b> mais perto, em três quartos, ele lambe o foil; congela a partir dos 16 s.</dd>
+      <dt>Acontece</dt><dd>Os mesmos três takes em sequência, com cortes secos: <b>0–4 s</b> POV da geladeira, ele tira a dupla e fecha a porta · <b>4–7 s</b> macro recuando de cima dos polegares, a dupla dobrada em direção ao centro, o créqui aos 6 s · <b>7–9 s</b> close em três quartos, high angle de leve, o olhar nostálgico · <b>9–11 s</b> macro ao lado da mão, o foil abrindo como portinha · <b>11–15 s</b> três quartos, a lambida; congela a partir dos 14 s.</dd>
       <dt>Termina</dt><dd>Congelado no meio da lambida, foil na boca. É o quadro do congelamento, igual ao da 1c.</dd>
-      <dt>Quando usar</dt><dd>Se você quer uma única geração para a cena 1 (a luz e o homem tendem a se manter iguais nos seis planos). A bandeja só aparece nos planos 1 e 2. Se o rascunho errar um plano, a refação é dos 17 s inteiros; com 1a, 1b e 1c separadas, refaz-se só o take errado.</dd>
-      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_bandeja-morango</span><span class="chip">@prop_pote-morango</span></dd>
+      <dt>Quando usar</dt><dd>Se você quer uma única geração para a cena 1 (a luz e o homem tendem a se manter iguais nos cinco planos). Se o rascunho errar um plano, a refação é dos 15 s inteiros; com 1a, 1b e 1c separadas, refaz-se só o take errado.</dd>
+      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
     <dt>Prompt</dt><dd>{{PROMPT:1d}}</dd>
     </dl>
   </div>
@@ -187,7 +187,7 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); o
   <div class="gen">
     <div class="gen-bar"><span>3a · Espinha: o travelling</span><span class="meta">30 s · 1 take contínuo</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd><b>0–2 s, duas propostas para você escolher.</b> Nas duas, o primeiro quadro é o último de 2a, com a lente coberta de iogurte rosa.<br><b>A · A vaca limpa.</b> Uma Alegrinha de touca, bem perto da câmera, passa um pano rápido (uma ou duas passadas), limpa o vidro e sai de quadro. A fábrica aparece.<br><b>B · A lente se limpa sozinha.</b> O iogurte escorre pelo vidro, como um gel espesso, e sai pelas bordas de baixo, sem ninguém na frente da câmera. A fábrica vai aparecendo por baixo.<br><b>2–30 s</b> Um travelling horizontal único, da esquerda para a direita, na altura da esteira, de frente para os setores. A esteira atravessa a fábrica inteira e a câmera passa pelas aberturas em arco entre os setores, sem cortar. Em cada setor, de duas a três Alegrinhas trabalham (duas no Setor Créqui); só muda o look. O produto se transforma ao longo da linha: fruta, polpa, bandeja, tampa.</dd>
+      <dt>Acontece</dt><dd><b>0–2 s, duas propostas para você escolher.</b> Nas duas, o primeiro quadro é o último de 2a, com a lente coberta de iogurte rosa.<br><b>A · A vaca limpa.</b> Uma Alegrinha de touca, bem perto da câmera, passa um pano rápido (uma ou duas passadas), limpa o vidro e sai de quadro. A fábrica aparece.<br><b>B · A lente se limpa sozinha.</b> O iogurte escorre pelo vidro, como um gel espesso, e sai pelas bordas de baixo, sem ninguém na frente da câmera. A fábrica vai aparecendo por baixo.<br><b>2–30 s</b> Um travelling horizontal único, da esquerda para a direita, na altura da esteira, de frente para os setores. A esteira atravessa a fábrica inteira e a câmera passa pelas aberturas em arco entre os setores, sem cortar. Em cada setor, de duas a três Alegrinhas trabalham (duas no Setor Créqui); só muda o look. O produto se transforma ao longo da linha: fruta, polpa, potinho, foil.</dd>
       <dt>Termina</dt><dd>Aos 30 s, no fim do Setor Tampinha, em plano aberto e no meio do movimento.</dd>
       <dt>Elements</dt><dd>primeiro quadro: último quadro de 2a <span class="chip">@loc_fabrica</span><span class="chip">@char_alegrinha-looks</span><span class="chip">@char_vaca-vinil</span></dd>
     <dt>Prompt</dt><dd>{{PROMPTS:3a-A,3a-B}}</dd>
@@ -259,7 +259,7 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); o
 <h2>O que vamos olhar nos rascunhos</h2>
 <div class="note"><ul style="margin:0;padding-left:20px">
   <li>O interior da geladeira (plano 1a) e a fábrica vista de lado não têm referência: o motor deduz do texto. Se falhar, criamos a imagem.</li>
-  <li>A bandeja de 6 aparece só no 1a. Do 1b em diante é uma dupla de dois iogurtes unidos, separada da bandeja fora de quadro. Não existe imagem da dupla: o motor monta a partir de <span class="chip">@prop_pote-morango</span>. A bandeja de 6 não aparece em nenhum take de captação.</li>
+  <li>Não há mais bandeja: no 1a ele já tira uma dupla da geladeira, e o créqui a separa em duas unidades.</li>
   <li>A camisa verde dele pode se perder no azulejo verde da cozinha.</li>
   <li>A limpeza da lente no começo de 3a: o iogurte tem de sair sem restos no vidro, seja pelo pano (A) ou escorrendo (B). Plano B: 2a termina com o iogurte limpando sobre chroma e a transição é feita em pós.</li>
   <li>Uma geração de 30 s pode perder a altura da esteira ou a identidade das vacas. Se acontecer, divido em duas metades.</li>
@@ -274,7 +274,7 @@ button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); o
   <ul>
     <li>Gere os rascunhos 480p na ordem 1a, 1b, 1c e 2a, e confira antes de seguir.</li>
     <li>Escolha a abertura do 3a: A (a vaca limpa a lente) ou B (a lente se limpa sozinha). Os dois prompts estão no 3a.</li>
-    <li><b>Referências de vídeo (v1.8):</b> anexe os previz 3D como <i>reference video</i>: o da quebra no 1b (e no 1d), o da tampa no 1c (e no 1d), o travelling no 3a. Os prompts dizem a função de cada um: só movimento, câmera e escala, ignorando o cinza de argila, as cores e as mãos de boneco.</li>
+    <li><b>Referências de vídeo (v1.9):</b> os previz 3D da quebra e da tampa <b>não</b> entram mais como referência de vídeo: o motor copiou o movimento robótico, a textura e as mãos de boneco. O movimento agora está só no texto. O travelling da fábrica continua como referência no 3a (é animação, o risco é menor; se puxar o cinza, tiramos também).</li>
     <li><b>Prompts enxutos (v1.8):</b> cada coisa dita uma vez; só as travas críticas se repetem. Captação 1.200–1.350 palavras, 1d ~2.050, fábrica 1.300–2.150.</li>
     <li><b>Fábrica (v1.7):</b> plano aberto e baixo atrás da esteira, como no seu blocking: as vacas ocupam só um quarto da altura do quadro, com paredes altas e objetos gigantes (frutas maiores que a cabeça delas). Elas não têm sobrancelha, para nunca parecerem bravas, e atuam engraçadinhas e desastradinhas. O blocking entra no 3a como referência de vídeo só para câmera e escala.</li>
     <li><b>Música:</b> todos os prompts agora proíbem música de forma mais explícita (e não chamam mais o material de “comercial”, que puxava trilha). O motor ainda pode inventar som; se a Higgsfield tiver opção de gerar sem áudio, use, porque o créqui e a lambida entram na pós de qualquer forma.</li>
