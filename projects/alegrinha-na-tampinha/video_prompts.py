@@ -73,13 +73,13 @@ MUSIC_BAN = (
 # Lente macro com sonda: Laowa 24mm f/14 2x Probe (24 mm, ~85° na diagonal = ~74° na horizontal em 16:9, ponta de 20 mm,
 # foco a 2 cm, f/14 = foco profundo). Escrita como imagem retangular cheia, sem máscara circular.
 MACRO_LENS = (
-    "MACRO PROBE LENS (KEY — the look of a 24 mm probe/snorkel macro): a wide-angle macro on a thin barrel, about 74° "
-    "horizontal, its 20 mm tip 2 cm from the subject. The subject at the tip is huge and crisp; the kitchen behind it stays "
-    "readable but shrinks away fast, softly out of focus without creamy bokeh — a tiny camera in a big world, a smear of "
-    "yogurt like a landscape. The camera creeps close and intimate through the scene. A small soft highlight from the tip's own "
-    "light sits on wet or shiny surfaces. The picture is a full, clean 16:9 rectangle edge to edge: soft corners and a gentle "
-    "natural falloff, a very slight stretch at the extreme edges, but straight lines stay straight, NO fisheye bulge, NO "
-    "circular black frame, NO round lens mask."
+    "MACRO PROBE LENS (KEY — the look of a 24 mm probe/snorkel macro, as in a peek through flower stems or a mail slot): the "
+    "lens tip sits down inside the scene at the level of the object, grazing along its surfaces. The nearest things are huge, "
+    "soft and layered across the foreground like out-of-focus petals or a doorway frame, the subject is crisp on a thin plane "
+    "of focus seen past or through them, and the room behind falls away into soft colour. Strong wide-angle perspective, lines "
+    "converging toward the subject but straight, never bent. The camera creeps through and between objects, a tiny camera in a "
+    "big world. Natural contrasty light with warm highlights glowing on shiny surfaces. The picture is a full, clean 16:9 "
+    "rectangle edge to edge: NO fisheye bulge, NO circular black frame, NO round lens mask."
 )
 
 # Itens de porta de geladeira brasileira, sem rótulos
@@ -270,7 +270,7 @@ P_1B = _join(
     "CAMERA — Shot 1: a macro probe TRAVELS slowly along the break line, one movement only. Shot 2: locked off, STAYS PUT, "
     "slight high angle.\n"
     + MACRO_LENS + " Shot 2 is 29°; no lens drift inside a shot.\n"
-    "FOCUS: shot 1 sharp on the break line at the tip, the kitchen behind it readable and softly out of focus; shot 2 on his eyes.\nHORIZON: level.\n"
+    "FOCUS: shot 1 a thin plane of focus on the break line, the foreground thumbs and the kitchen softly out of focus; shot 2 on his eyes.\nHORIZON: level.\n"
     "NOT: handheld shake, orbit, zoom, drone, slow motion, fisheye, circular frame.",
     "GEOMETRY — " + KITCHEN_GEOMETRY + "; he stands at centre, torso square to the camera in shot 2, so his right hand is "
     "toward frame-left (the counter, the sunlit side) and his left hand toward frame-right (the fridge side). In shot 1 the "
@@ -346,7 +346,7 @@ P_1C = _join(
     "CAMERA — Shot 1: the macro probe TRAVELS in one continuous forward move following the foil as it opens. Shot 2: locked "
     "off, STAYS PUT, three-quarter slightly high angle.\n"
     + MACRO_LENS + " Shot 2 is 47°; no lens drift inside a shot.\n"
-    "FOCUS: shot 1 sharp on the foil at the tip, the kitchen behind it readable and softly out of focus; shot 2 on the foil and his lips, eyes just softer.\n"
+    "FOCUS: shot 1 a thin plane of focus on the foil, the cup rim in the foreground and the kitchen softly out of focus; shot 2 on the foil and his lips, eyes just softer.\n"
     "HORIZON: level.\nNOT: handheld shake, orbit, zoom, drone, slow motion, fisheye, circular frame.",
     "GEOMETRY — in shot 2 " + KITCHEN_GEOMETRY + "; he faces the original camera position, so the lens, 35° to his right, "
     "sees his right cheek and the foil hand nearer; the open cup in his LEFT hand toward frame-right, the foil in his RIGHT "
