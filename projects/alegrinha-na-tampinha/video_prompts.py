@@ -563,7 +563,7 @@ COW = (
 
 # Estilo de atuação pedido pelo diretor: engraçadinhas e desastradinhas (sem citar personagem de marca no prompt)
 COW_STYLE = (
-    "minion-style (KEY): the cows are cute, eager little workers a bit clumsy: they rush, "
+    "minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, "
     "overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. "
     "Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. "
     "Never angry, never bored, never blank."
@@ -571,11 +571,11 @@ COW_STYLE = (
 
 # Escala: vacas pequenas num mundo grande (do blocking do diretor)
 TOON_SCALE = (
-    "SCALE (KEY — small cows in a big world): the cows are small; each fills only about a quarter of the frame height. Above "
-    "them rises tall wall with portholes and high shelves of pink cups, at least twice their height. Everything they handle is "
-    "oversized for them: a strawberry or an apple is as big as a cow's head or bigger, a coconut half is as wide as a cow, the "
-    "pulp funnel is twice a cow's height, the microphone stand is taller than a cow, each easel is taller than its painter, "
-    "each pink yogurt cup is about half a cow's height."
+    "SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, "
+    "with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. "
+    "Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half "
+    "as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its "
+    "painter, each pink yogurt cup about half her height."
 )
 
 TOON_SCOPE = (
@@ -609,18 +609,20 @@ def toon_contract(secs, shots):
 
 
 TOON_CAMERA_TRAVEL = (
-    "CAMERA — a miniature rail just behind the near edge of the belt, planimetric (no yaw, roll or tilt), TRAVELS FRAME-LEFT "
-    "to FRAME-RIGHT at a constant calm speed, about one cow-length per second, never stopping, reversing or cutting. WIDE, "
-    "63°, the lens low at belt height: the belt big in the foreground across the bottom fifth of the frame, the cows about "
-    "1.5 cow-lengths behind it, small, tall wall above them; the dividing walls pass close to the lens as dark wipes; focus on "
-    "the cows; level horizon. NOT: close-ups, handheld shake, drone, zoom, speed ramps."
+    "CAMERA — a VERY WIDE side-on travelling shot: a miniature rail far back from the line, planimetric (no yaw, roll or "
+    "tilt), TRAVELS FRAME-LEFT to FRAME-RIGHT at a constant calm speed, never stopping, reversing or cutting. 70°, the lens "
+    "at belt height about 12 cow-heights from the back wall, so each hall is seen whole — floor, belt, all its cows, its "
+    "machines and its tall wall up to the ceiling — like a dollhouse cut open; the belt runs across the lower part of the "
+    "frame; the dividing walls slide through the frame as dark wipes; focus deep enough to hold the whole hall; level horizon. "
+    "Only the cow in the opening is close to the lens. NOT: close-ups, medium shots, cows filling the frame, handheld shake, "
+    "drone, zoom, speed ramps."
 )
 
 _OPEN_A = (
     "PART 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
-    "A cow in a white hairnet, VERY close to the camera (her face fills the lower half of the frame), wipes the lens with a "
+    "A cow in a white hairnet, pressed right up against the camera — the ONLY close moment of the take (her face fills the lower half of the frame) — wipes the lens with a "
     "white cloth in two quick, over-eager strokes; the yogurt goes onto the cloth and the glass is left clean. She hurries out "
-    "of frame toward frame-left, nearly tripping, and the wide factory appears behind her, the travelling already moving."
+    "of frame toward frame-left, nearly tripping, and the camera is already far back: the very wide factory appears behind her, the travelling already moving."
 )
 _OPEN_B = (
     "PART 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
@@ -631,12 +633,9 @@ _OPEN_B = (
 
 def _spine(opening, name):
     return _join(
-        toon_contract(30, "ONE continuous take with no cuts, a wide side-on travelling shot"),
+        toon_contract(30, "ONE continuous take with no cuts, a very wide side-on travelling shot"),
         "REFERENCES — each reference has ONE job:\n"
         "[first frame] KEYFRAME: the take STARTS from this exact frame (the lens covered in pink yogurt).\n"
-        "[video reference] BLOCKING — CAMERA AND SCALE ONLY: follow its camera path (side-on, left to right, constant speed), its "
-        "wide framing with the lens low behind the belt, the belt in the foreground, and the size of the cows relative to the "
-        "set and the props. IGNORE its untextured grey clay surfaces, its lighting and colours, and the cows' poses and faces.\n"
         "@char_vaca-vinil — IDENTITY of the cow.\n@char_alegrinha-looks — the cow's four outfits, one per hall.\n"
         "@loc_fabrica — WORLD: the factory's materials, props and colours.\n" + TOON_SCOPE,
         "WHO IS WHO — READ FIRST, ABSOLUTE:\n" + COW + "\n"
@@ -646,7 +645,7 @@ def _spine(opening, name):
         ("FACES: no cow looks into the lens (except the wiping cow in the opening, who looks at the glass); no cow speaks; no "
          "human exists.\nCONTACT: cows touch only fruit, tools and the cloth." if name == "A" else
          "FACES: no cow looks into the lens; no cow speaks; no human exists.\nCONTACT: cows touch only fruit and tools."),
-        "SCENE & SOUL — SCENE: a long, wide side-on travelling shot along a production line in a big green factory run by small "
+        "SCENE & SOUL — SCENE: a long, very wide side-on travelling shot along a production line in a big green factory run by small "
         "cows: giant fruit is selected, pressed into pulp, packed with a crisp créqui, and finally yogurt is painted onto foil. "
         "Already in progress at the first frame.\n"
         "THE SOUL OF THE SCENE (play it, never explain it): the cows are tiny, the job is huge, and they love it; every little "
@@ -654,9 +653,7 @@ def _spine(opening, name):
         "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
         "1. COW COUNTS: hall 1 three cows, hall 2 three, hall 3 exactly TWO, hall 4 three — WRONG if a count changes or two cows "
         "merge.\n"
-        "2. WIDE AND SMALL: the camera stays wide and low behind the belt and moves FRAME-LEFT to FRAME-RIGHT at a constant speed "
-        "for all 30 seconds, never cutting, stopping or reversing; each cow fills only about a quarter of the frame height — "
-        "WRONG if a cow fills the frame.\n"
+        "2. VERY WIDE: after the opening, the camera stays far back, each hall seen whole, moving FRAME-LEFT to FRAME-RIGHT at a constant speed, never cutting, stopping or reversing; each cow fills only about one sixth of the frame height — WRONG if the framing tightens or a cow fills the frame.\n"
         "3. HAPPY FACES: NO eyebrows, NO frown on any cow; her RIGHT ear is the black one; NO keyring.\n"
         "4. EACH HALL KEEPS ITS OUTFIT: hairnet and apron, lab coat, headphones, painter's smock and beret.\n"
         "5. NO TEXT of any kind anywhere.",
@@ -699,10 +696,10 @@ def _spine(opening, name):
         "glossy pulp and yogurt, rubbery fruit with modelled seeds; pristine, never dirt.",
         TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE, TOON_WORLD,
         "NEGATIVE: a fourth cow in hall 3, a cut, a stop, the camera reversing, close framing, " + TOON_NEG_SPINE,
-        "[ORDER: 1 continuous take, 30s, wide side-on travelling left to right, small cows in a big world — (0–2s) opening on the "
+        "[ORDER: 1 continuous take, 30s, very wide side-on travelling left to right, small cows in a big world — (0–2s) opening on the "
         "yogurt-covered lens; (2–7s) hall 1, giant fruit; (7–14s) hall 2, the funnel, the button, cups pop onto the belt; "
         "(14–21s) hall 3, the snap and the créqui, the pout; (21–30s) hall 4, the bump, the pink glove, the stroke. Invariants: "
-        "cow counts 3-3-2-3; wide, cows a quarter of the frame height; constant direction and speed, no cuts; no eyebrows, no "
+        "cow counts 3-3-2-3; very wide, each hall seen whole, cows a sixth of the frame height; constant direction and speed, no cuts; no eyebrows, no "
         "frowns, black right ear, no keyring; outfit per hall; no text. Look: matte vinyl, mostly monochromatic green, clean. "
         "NO text.]",
     )
@@ -722,7 +719,7 @@ def _insert(label, seconds, who, scene_soul, locks, shots, acting, geometry, phy
         "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n" + locks,
         "TIMELINE — hard cuts only at the specified seconds; the camera adds no cuts of its own:\n" + shots,
         "ACTING — " + COW_STYLE + " " + acting.replace("ACTING — ", "", 1),
-        "CAMERA — locked off in each shot, STAYS PUT; WIDE and LOW, never a close-up of a face: the cow is small in the frame and "
+        "CAMERA — locked off in each shot, STAYS PUT; WIDE — the whole setting around the cow in frame, never a close-up or a medium shot: the cow is small in the frame and "
         "the oversized props and the tall set around her dominate; shot sizes and angles as stated per shot; no lens drift inside "
         "a shot; level horizon unless a shot says top-down. NOT: close-ups, a cow filling the frame, handheld shake, drone, orbit, "
         "whip pan, zoom.",
@@ -750,7 +747,7 @@ P_3B = _insert(
     "SHOT 1 (0–4s) — straight-down top view, 63°, wide: the white belt crosses the frame left to right carrying giant "
     "strawberries, apples and coconut halves; at the belt's edges two small cows in hairnets reach in with both arms; one "
     "tugs a strawberry bigger than herself off the belt and staggers back with it, the other leans in after a bruised apple.\n"
-    "SHOT 2 (4–8s) — low wide angle at belt level, 47°: a giant strawberry soft in the foreground; behind it one small cow in a "
+    "SHOT 2 (4–8s) — wide, low at belt level, 63°: a giant strawberry soft in the foreground; behind it one small cow in a "
     "hairnet and apron hugs another strawberry bigger than her head, inspects it nose to seed, wobbles, and nods proudly. Hard "
     "end.",
     "ACTING — shot 1: two eager tuggers, one triumphant stagger. Shot 2: the cow inspects like a jeweller who can barely lift "
@@ -758,7 +755,7 @@ P_3B = _insert(
     "a blank face.",
     "Shot 1: the belt crosses the frame at its vertical centre, the cows at its top and bottom edges, small. Shot 2: the "
     "foreground strawberry fills the lower left corner, soft; the cow stands 1.5 cow-lengths behind it at screen-centre-right, "
-    "about a quarter of the frame height, tall wall above her.",
+    "about a sixth of the frame height, the tall hall above her.",
     "PHYSICS & MATERIAL — the strawberries are heavy for the cows and rubbery: they dent under a hug and recover slowly; the "
     "stagger has real weight; the bell swings and clinks softly. Nothing floats, nothing loops. MATERIAL TRUTH: matte "
     "vinyl, modelled seeds on the strawberry, soft fillets; never dirt.",
@@ -778,9 +775,9 @@ P_4B = _insert(
     + _INS_LOCKS_TAIL,
     "SHOT 1 (0–3s) — low wide angle, 63°: the huge pulp funnel towers over a small cow; on tiptoe she tosses a strawberry up "
     "into it; it drops in with a plop and she hops for joy; thick pink pulp runs down the glass tubes.\n"
-    "SHOT 2 (3–6s) — wide, 47°: a small cow in a lab coat in front of a strip of pink swatches taller than she is; she holds "
+    "SHOT 2 (3–6s) — wide, 63°: a small cow in a lab coat in front of a strip of pink swatches taller than she is; she holds "
     "a test tube of pink pulp up against it, compares, and nods so hard her bell rings.\n"
-    "SHOT 3 (6–9s) — low at belt level, 47°: a nozzle fills a pink cup on the belt with thick pink yogurt pulp; behind the "
+    "SHOT 3 (6–9s) — wide, low at belt level, 63°: a nozzle fills a pink cup on the belt with thick pink yogurt pulp; behind the "
     "cup, small, a cow peeks over the rim, delighted. Hard end.",
     "ACTING — shot 1: the tiptoe toss, the hop. Shot 2: the over-eager nod; detail: one ear tilts first. Shot 3: the peek of "
     "pure delight. NOT: looking into the lens, frowning, eyebrows, a blank face.",
@@ -804,11 +801,11 @@ P_5B = _insert(
     "1. EXACTLY TWO cows in this hall; each shot shows one — WRONG if a third appears.\n"
     "2. THE FOLD: TWO joined cups before and TWO after; a gloved thumb flat on each cup, she gently closes the pair like a book, the joint rising and the bottoms swinging together — WRONG if the joint dips, or she twists or pulls it apart. Both cows small in frame.\n"
     + _INS_LOCKS_TAIL,
-    "SHOT 1 (0–4s) — wide, 47°, inside the glass acoustic booth: a tall wall of acoustic foam, a microphone with a round pop "
+    "SHOT 1 (0–4s) — wide, 63°, inside the glass acoustic booth: a tall wall of acoustic foam, a microphone with a round pop "
     "filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds a pair of joined yogurt "
     "cups with a gloved thumb flat on top of each cup and gently closes the pair like a book — the joint rising, the cup bottoms swinging together — until it gives with a crisp créqui; the needle on a meter jumps; she flinches at her "
     "own loud snap, ears flying, then grins.\n"
-    "SHOT 2 (4–8s) — low, 47°, from behind the edge of a big toy-like audio desk with a few simple sliders, which fills the "
+    "SHOT 2 (4–8s) — wide and low, 63°, from behind the edge of a big toy-like audio desk with a few simple sliders, which fills the "
     "lower half of the frame: only COW B's head and headphones show above it; she listens, eyes closed, purses her lips in a "
     "small satisfied pout as if mooing then nods once at the snap sound. Hard end.",
     "ACTING — COW A: total concentration, then the flinch at her own snap, then the grin. COW B: bliss; detail: one slow nod at the snap sound. NOT: looking into the lens, mouths forming words, frowning, eyebrows, a blank face.",
@@ -833,11 +830,11 @@ P_6B = _insert(
     "1. THREE cows in this hall, one per easel; each shot shows one — WRONG if the count changes.\n"
     "2. The painting is PLAIN: simple yogurt strokes, NO decoration, NO drawing, NO letters; every easel is taller than its "
     "painter.\n" + _INS_LOCKS_TAIL,
-    "SHOT 1 (0–3s) — low wide angle, 47°: an easel taller than the painter holds a big flat sheet of soft aluminum foil; small "
+    "SHOT 1 (0–3s) — wide, low, 63°: an easel taller than the painter holds a big flat sheet of soft aluminum foil; small "
     "COW C, on tiptoe, brushes one plain stroke of yogurt onto it, the tip of her red tongue poking out in concentration.\n"
-    "SHOT 2 (3–6s) — wide, 47°: a pot of yogurt as tall as her waist; COW B dips her brush in so deep that her whole glove comes "
+    "SHOT 2 (3–6s) — wide, 63°: a pot of yogurt as tall as her waist; COW B dips her brush in so deep that her whole glove comes "
     "out pink, looks at it, and shrugs happily.\n"
-    "SHOT 3 (6–9s) — over-the-shoulder, 47°, from just behind COW A, who has stepped back to judge her work: she makes a finger "
+    "SHOT 3 (6–9s) — wide over-the-shoulder, 63°, from just behind COW A, who has stepped back to judge her work: she makes a finger "
     "frame with her gloved fingers around the foil on her towering easel. Hard end.",
     "ACTING — COW C: the tongue of concentration, the careful stroke. COW B: the pink glove, the happy shrug. COW A: the art "
     "critic's finger frame; detail: she tilts her head. NOT: looking into the lens, frowning, eyebrows, a blank face, "
