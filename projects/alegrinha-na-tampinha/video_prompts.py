@@ -620,14 +620,12 @@ TOON_CAMERA_TRAVEL = (
 
 _OPEN_A = (
     "PART 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
-    "A cow in a white hairnet, pressed right up against the camera — the ONLY close moment of the take (her face fills the lower half of the frame) — wipes the lens with a "
-    "white cloth in two quick, over-eager strokes; the yogurt goes onto the cloth and the glass is left clean. She hurries out "
+    "A cow in a white hairnet, pressed right up against the camera — the ONLY close moment of the take (her face fills the lower half of the frame) — wipes the lens with a white cloth in exactly two quick, over-eager strokes that clean it COMPLETELY: all the yogurt goes onto the cloth and the glass is left perfectly clear, no yogurt, smear or streak left anywhere on the lens. She hurries out "
     "of frame toward frame-left, nearly tripping, and the camera is already far back: the very wide factory appears behind her, the travelling already moving."
 )
 _OPEN_B = (
     "PART 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
-    "With nobody in front of the camera, the yogurt slides down the glass like a thick gel and runs off the bottom edge, leaving "
-    "a perfectly clean lens; the wide factory appears from the top down and the travelling is already moving."
+    "With nobody in front of the camera, the yogurt slides down the glass like a thick gel and runs off the bottom edge, leaving the lens COMPLETELY clean, no yogurt, smear or streak left; the wide factory appears from the top down and the travelling is already moving."
 )
 
 
@@ -665,15 +663,19 @@ def _spine(opening, name):
         "sets it on the belt; COW C shoves a coconut half onto the belt with her whole body, nearly slips and throws a quick "
         "thumbs-up.\n"
         "PART 3 (7–14s) — HALL 2, pulp lab: a huge pulp funnel twice a cow's height, thick pink pulp running in glass tubes. "
-        "Three small cows in white lab coats. COW A, on tiptoe, tosses a strawberry up into the funnel; it drops in with a plop "
-        "and she hops for joy; COW B holds a test tube up to a tall strip of pink swatches on the wall and nods so hard her bell "
-        "rings; COW C slaps a big green button with both gloves, a pink yogurt cup pops out onto the belt, she startles, then "
-        "claps. From here on pink cups ride the belt.\n"
+        "EXACTLY THREE small cows in white lab coats, all three in frame together, each at her own station: COW A at the "
+        "funnel on the left, COW B at the swatch strip in the centre, COW C at the console on the right. COW A, on tiptoe, "
+        "tosses a strawberry up into the funnel; it drops in with a plop and she hops for joy; COW B holds a test tube up to a "
+        "tall strip of pink swatches on the wall and nods so hard her bell clinks; COW C slaps a big green button with both "
+        "gloves, then takes an empty pink yogurt cup from a stack beside the console and sets it on the belt with both gloves, "
+        "proud. From here on pink cups ride the belt.\n"
         "PART 4 (14–21s) — HALL 3, sound studio: a tall wall of acoustic foam and a glass booth. Inside, standing on a little box "
-        "at a microphone stand taller than she is, COW A holds a pair of joined yogurt cups with a gloved thumb flat on top of "
-        "each cup and gently closes the pair like a book — the joint rising, the cup bottoms swinging together — until it gives with a crisp créqui; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B, only her head "
-        "and headphones showing above a big toy-like audio desk, closes her eyes, purses her lips in a satisfied pout as if mooing "
-        "then nods once at the snap sound.\n"
+        "at a microphone stand taller than she is, COW A holds a PAIR — TWO cups joined side by side, one cup in each glove, "
+        "clearly two from the very first frame — with a gloved thumb flat on top of each cup, and gently closes the pair like a "
+        "book — the joint rising, the cup bottoms swinging together — until it gives with a crisp créqui and is two separate "
+        "cups; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B stands IN FRONT of a big "
+        "toy-like audio desk, her back to it, wearing headphones and turned toward the booth and COW A; when she hears the "
+        "snap she nods with approval and purses her lips in a satisfied pout as if mooing.\n"
         "PART 5 (21–30s) — HALL 4, art studio: easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
         "Three small cows in painter's smocks and berets. COW A backs up to judge her work, bumps gently into the easel behind "
         "her, steadies it and tilts her head; COW B dips her brush so deep into a big pot of yogurt that her whole glove comes "
@@ -688,16 +690,16 @@ def _spine(opening, name):
         "booth at the left of the hall, the audio desk at the right.",
         "PHYSICS & MATERIAL — vinyl bodies have weight and a light squash on every landing and every wobble; fruit is big, heavy "
         "for them and rubbery: the strawberry dents under a hug and recovers slowly, the apple bounces in her gloves, the coconut "
-        "half drags; the pink pulp is thick and slow in the glass tubes; the cup pops out with a small hop; yogurt is thick and "
+        "half drags; the pink pulp is thick and slow in the glass tubes; the cup is set on the belt by hand, never appearing by itself; yogurt is thick and "
         "glossy and clings to the brush and the glove; the foil is a thin soft sheet that flexes when brushed; " + ("the cloth in "
         "the opening is white and absorbent; " if name == "A" else "in the opening the yogurt on the lens is a thick gel that "
         "slides down the glass by itself and leaves it clean; ") + "the bells clink softly. Nothing floats, nothing "
         "loops. MATERIAL TRUTH of this world: matte vinyl with faint seam lines and soft fillets, a tiny glint on the golden bells, "
         "glossy pulp and yogurt, rubbery fruit with modelled seeds; pristine, never dirt.",
         TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE, TOON_WORLD,
-        "NEGATIVE: a fourth cow in hall 3, a cut, a stop, the camera reversing, close framing, " + TOON_NEG_SPINE,
+        "NEGATIVE: only two cows in hall 2, a cup appearing by itself, yogurt left on the lens after the wipe, a single cup turning into two, a fourth cow in hall 3, a cut, a stop, the camera reversing, close framing, " + TOON_NEG_SPINE,
         "[ORDER: 1 continuous take, 30s, very wide side-on travelling left to right, small cows in a big world — (0–2s) opening on the "
-        "yogurt-covered lens; (2–7s) hall 1, giant fruit; (7–14s) hall 2, the funnel, the button, cups pop onto the belt; "
+        "yogurt-covered lens; (2–7s) hall 1, giant fruit; (7–14s) hall 2, three cows, the funnel, the button, a cup set on the belt by hand; "
         "(14–21s) hall 3, the snap and the créqui, the pout; (21–30s) hall 4, the bump, the pink glove, the stroke. Invariants: "
         "cow counts 3-3-2-3; very wide, each hall seen whole, cows a sixth of the frame height; constant direction and speed, no cuts; no eyebrows, no "
         "frowns, black right ear, no keyring; outfit per hall; no text. Look: matte vinyl, mostly monochromatic green, clean. "
@@ -795,30 +797,31 @@ P_4B = _insert(
 P_5B = _insert(
     "2 shots with 1 hard cut at 4s", 8,
     "HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, in plain cream vinyl, at the microphone; COW B outside the "
-    "booth at the audio desk, wearing over-ear headphones. Each shot shows ONE of them.",
+    "booth, standing in front of the audio desk and facing the booth, wearing over-ear headphones. Each shot shows ONE of them.",
     "SCENE & SOUL — SCENE: hall 3, the sound studio, in two wide shots. Already in progress.\n"
     "THE SOUL OF THE SCENE (play it, never explain it): the créqui is the sweetest sound the engineer has ever heard.",
     "1. EXACTLY TWO cows in this hall; each shot shows one — WRONG if a third appears.\n"
     "2. THE FOLD: TWO joined cups before and TWO after; a gloved thumb flat on each cup, she gently closes the pair like a book, the joint rising and the bottoms swinging together — WRONG if the joint dips, or she twists or pulls it apart. Both cows small in frame.\n"
     + _INS_LOCKS_TAIL,
     "SHOT 1 (0–4s) — wide, 63°, inside the glass acoustic booth: a tall wall of acoustic foam, a microphone with a round pop "
-    "filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds a pair of joined yogurt "
-    "cups with a gloved thumb flat on top of each cup and gently closes the pair like a book — the joint rising, the cup bottoms swinging together — until it gives with a crisp créqui; the needle on a meter jumps; she flinches at her "
+    "filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds a PAIR — TWO cups joined "
+    "side by side, one cup in each glove, clearly two from the very first frame — a gloved thumb flat on top of each cup, and gently closes the pair like a book — the joint rising, the cup bottoms swinging together — until it gives with a crisp créqui; the needle on a meter jumps; she flinches at her "
     "own loud snap, ears flying, then grins.\n"
-    "SHOT 2 (4–8s) — wide and low, 63°, from behind the edge of a big toy-like audio desk with a few simple sliders, which fills the "
-    "lower half of the frame: only COW B's head and headphones show above it; she listens, eyes closed, purses her lips in a "
-    "small satisfied pout as if mooing then nods once at the snap sound. Hard end.",
-    "ACTING — COW A: total concentration, then the flinch at her own snap, then the grin. COW B: bliss; detail: one slow nod at the snap sound. NOT: looking into the lens, mouths forming words, frowning, eyebrows, a blank face.",
+    "SHOT 2 (4–8s) — wide, 63°, outside the booth: COW B stands IN FRONT of a big toy-like audio desk with a few simple "
+    "sliders, her back to it, wearing over-ear headphones and turned toward the booth glass at frame-left, where COW A is "
+    "small inside; when the snap sounds she nods with approval and purses her lips in a small satisfied pout as if mooing. "
+    "Hard end.",
+    "ACTING — COW A: total concentration, then the flinch at her own snap, then the grin. COW B: listens toward the booth, then nods with approval at the snap. NOT: looking into the lens, mouths forming words, frowning, eyebrows, a blank face.",
     "Shot 1: the cow at screen-centre on her box, the microphone between her and frame-left, the foam wall rising behind her "
-    "out of the top of the frame. Shot 2: the desk across the lower half, the cow's head at the screen-right third, the booth "
-    "glass soft behind her at frame-left.",
+    "out of the top of the frame. Shot 2: the cow at the screen-right third standing in front of the desk, the desk "
+    "behind her, the booth glass at frame-left with COW A small inside.",
     "PHYSICS & MATERIAL — the plastic break line resists, then gives with a sharp snap; no splinters; the cups stay sealed; the "
     "meter's needle jumps and settles with a small overshoot; the glass booth shows soft reflections. Nothing floats, nothing "
     "loops. MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.",
     "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow folds the pair like a book, the créqui, the flinch; "
-    "(2, 4–8s) behind the big desk, the satisfied pout. Invariants: exactly two cows, small; the gentle book-like fold; no "
+    "(2, 4–8s) in front of the desk facing the booth, the approving nod. Invariants: exactly two cows, small; the gentle book-like fold; no "
     "eyebrows, no frowns; black right ear; no text.]",
-    extra_neg="a third cow, a pair that never separates, the joint dipping down, a pair twisted or pulled apart, three cups, ",
+    extra_neg="a single cup turning into two, the desk cow behind or hidden by the desk, a third cow, a pair that never separates, the joint dipping down, a pair twisted or pulled apart, three cups, ",
 )
 
 P_6B = _insert(
