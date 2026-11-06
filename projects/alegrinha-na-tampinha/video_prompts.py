@@ -882,6 +882,58 @@ P_6B = _insert_iso(
 )
 
 # ===========================================================================
+# ===========================================================================
+# 5c — Bastidores do setor de som (8 s, extra): a cabine e a vaca da mesa
+# ===========================================================================
+P_5C = _join(
+    toon_contract(8, "2 shots with 1 hard cut at 4s, both ground-level backstage handheld"),
+    "REFERENCES — each reference has ONE job:\n" + INSERT_LOOK_REF + "\n@char_vaca-vinil — IDENTITY of the cow.\n"
+    "@char_alegrinha-looks — the hall 3 outfit (over-ear headphones) for COW B.\n@loc_fabrica — WORLD: the materials, props and "
+    "colours of the sound studio only; IGNORE every other hall in it and its camera angle.\n" + TOON_SCOPE,
+    "WHO IS WHO — READ FIRST, ABSOLUTE:\n" + COW + "\n"
+    "HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, plain cream vinyl, at a tall microphone; COW B outside "
+    "the booth, wearing over-ear headphones, standing in front of a big toy-like audio desk. Each shot shows ONE of them up "
+    "close enough to read; the other may be tiny in the background.",
+    "SCENE & SOUL — SCENE: hall 3, the sound studio, filmed like behind-the-scenes footage from the floor: first the créqui "
+    "inside the booth, then the engineer's reaction. Already in progress.\n"
+    "THE SOUL OF THE SCENE (play it, never explain it): the créqui is the sweetest sound the engineer has ever heard.",
+    "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
+    "1. EXACTLY TWO cows in this hall.\n"
+    "2. COW A starts with ONE pack of two cups stuck together side by side and pulls them apart into two — WRONG if she starts "
+    "with a single cup or with two loose cups.\n"
+    "3. In shot 2 the audio desk is BEHIND COW B, and she moos softly and nods her head up and down in approval.\n"
+    "4. ONLY the sound studio is seen; " + "HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring. NO "
+    "text anywhere.",
+    "TIMELINE — 2 shots, 1 hard cut:\n"
+    "SHOT 1 (0–4s) — ground-level backstage inside the booth: the base of the microphone stand huge and soft in the near "
+    "foreground, the tall wall of acoustic foam behind; small and sharp, COW A stands on her little box and holds ONE pack of "
+    "two small yogurt cups stuck together side by side, both gloves on the pack; she pulls the two cups apart with a crisp "
+    "créqui, ending with one cup in each glove; she flinches at her own loud snap, ears flying, then grins. HARD CUT.\n"
+    "SHOT 2 (4–8s) — ground-level backstage outside the booth: COW B in over-ear headphones fills the middle of the frame, "
+    "small against the room, the big toy-like audio desk with its sliders and a volume meter right behind her; she hears the "
+    "snap, closes her eyes with satisfaction, lets out a soft, happy moo, and nods her head up and down in approval, a few "
+    "slow nods. Hard end.",
+    "ACTING — " + COW_STYLE + " COW A: total concentration, then the flinch at her own snap, then the grin. COW B: pure "
+    "approval — the soft moo and the slow nods. NOT: looking into the lens, mouths forming words, frowning, a blank face.",
+    "CAMERA — " + GROUND_CAMERA + " Both shots handheld at floor level, with a gentle natural sway. NOT: close-ups of faces, "
+    "a high angle, a locked-off tripod look, drone, whip pan, zoom.",
+    "GEOMETRY — " + TOON_SCALE + " Shot 1: COW A at screen-centre on her box, the microphone between her and frame-left. "
+    "Shot 2: COW B at the screen-centre, the desk behind her across the frame, the booth glass soft at frame-left.",
+    "PHYSICS & MATERIAL — the plastic break line gives with a sharp snap; the cups stay sealed; the meter's needle jumps and "
+    "settles; the headphones bob slightly with each nod; the glass booth shows soft reflections. Nothing floats, nothing loops. "
+    "MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.",
+    TOON_LIGHT, TOON_LOOK,
+    "SOUND — SOFT FOLEY ONLY: the créqui, a short, crisp, bright plastic snap; the meter's small click; a soft, happy cow moo "
+    "(no words); padded hoof steps; quiet room tone. " + MUSIC_BAN,
+    "WORLD — ONLY hall 3, the sound studio, is seen, closed in by its own walls: NO other hall, NO opening into a neighbouring "
+    "hall. No humans. Signs and screens are blank: NO letters, NO numerals, NO logos.",
+    "NEGATIVE: a third cow, a single cup turning into two, two loose cups from the start, the desk in front of COW B, another "
+    "hall in view, singing, dancing, " + TOON_NEG_SPINE.replace("camera shake, ", ""),
+    "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) from the floor inside the booth, COW A pulls the two stuck cups apart, the "
+    "créqui, the flinch; (2, 4–8s) from the floor outside, COW B with the desk behind her moos softly and nods in approval. "
+    "Invariants: exactly two cows; one pack of two cups that becomes two; the desk behind her; no eyebrows; no text.]",
+)
+
 PROMPTS = {
     "1a": ("1a · POV da geladeira", 5, P_1A),
     "1b": ("1b · O créqui", 5, P_1B),
@@ -893,6 +945,7 @@ PROMPTS = {
     "3b": ("3b · Inserts do Setor 1", 8, P_3B),
     "4b": ("4b · Inserts do Setor 2", 8, P_4B),
     "5b": ("5b · Inserts do Setor 3", 8, P_5B),
+    "5c": ("5c · Bastidores do Setor 3 (extra)", 8, P_5C),
     "6b": ("6b · Inserts do Setor 4", 8, P_6B),
     "7a": ("7a · A vitória", 6, P_7A),
 }
