@@ -112,18 +112,18 @@ td b { font-family: var(--font-display); }
   <div class="gen">
     <div class="gen-bar"><span>1a · POV da geladeira</span><span class="meta">6 s · 2 planos</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd><b>0–3 s</b> A câmera está dentro da geladeira, de frente para a porta. A porta abre, o homem aparece, fixa um ponto dentro da geladeira, sorri e leva a mão para pegar um produto. A mão cobre a lente: ainda não vemos o quê.<br><b>3–6 s</b> Plano fechado na bandeja, saindo da geladeira na mão direita dele. A câmera recua e revela o homem.</dd>
-      <dt>Termina</dt><dd>Plano médio dele em pé na porta aberta, com a bandeja na mão direita.</dd>
-      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_bandeja-morango</span></dd>
+      <dt>Acontece</dt><dd><b>0–3 s</b> A câmera está dentro da geladeira, de frente para a porta. A porta abre, o homem aparece, fixa um ponto dentro da geladeira, sorri e leva a mão para pegar um produto. A mão cobre a lente: ainda não vemos o quê.<br><b>3–6 s</b> Plano fechado na embalagem que sai da geladeira na mão direita dele: dois iogurtes unidos. A câmera recua e revela o homem.</dd>
+      <dt>Termina</dt><dd>Plano médio dele em pé na porta aberta, com a embalagem de dois iogurtes na mão direita.</dd>
+      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
     </dl>
   </div>
 
   <div class="gen">
     <div class="gen-bar"><span>1b · O créqui</span><span class="meta">5 s · 2 planos</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd><b>0–3 s</b> Macro entre os potes. Dois dedos pinçam um copo. Uma pausa curta. Ele dobra o copo contra a linha de quebra e o estalo, o “créqui”, o destaca da bandeja.<br><b>3–5 s</b> Close dele, olhos meio fechados, um prazer contido. Ele pousa a bandeja no balcão.</dd>
-      <dt>Termina</dt><dd>Copo na mão esquerda; no balcão, a bandeja com cinco potes.</dd>
-      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_bandeja-morango</span><span class="chip">@prop_pote-morango</span></dd>
+      <dt>Acontece</dt><dd><b>0–3 s</b> Macro entre os dois copos da dupla, ao longo da linha de quebra que os une. Dois dedos pinçam. Uma pausa curta. Ele dobra a dupla contra a linha de quebra e o estalo, o “créqui”, a separa em duas unidades.<br><b>3–5 s</b> Close dele, olhos meio fechados, um prazer contido. Ele fica com um copo na mão esquerda e pousa o outro no balcão.</dd>
+      <dt>Termina</dt><dd>Um copo na mão esquerda; o outro, solto, no balcão.</dd>
+      <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
     </dl>
   </div>
 
@@ -236,6 +236,7 @@ td b { font-family: var(--font-display); }
 <h2>O que vamos olhar nos rascunhos</h2>
 <div class="note"><ul style="margin:0;padding-left:20px">
   <li>O interior da geladeira (plano 1a) e a fábrica vista de lado não têm referência: o motor deduz do texto. Se falhar, criamos a imagem.</li>
+  <li>A embalagem em cena é uma dupla de dois iogurtes unidos, e não existe imagem dela: o motor monta a partir de <span class="chip">@prop_pote-morango</span>. A bandeja de 6 não aparece em nenhum take de captação.</li>
   <li>A camisa verde dele pode se perder no azulejo verde da cozinha.</li>
   <li>Uma geração de 30 s pode perder a altura da esteira ou a identidade das vacas. Se acontecer, divido em duas metades.</li>
 </ul></div>
@@ -244,7 +245,7 @@ td b { font-family: var(--font-display); }
   <b>Para eu escrever os prompts</b>
   <ul>
     <li>Marque as cenas que estão certas e diga o que mudar nas outras.</li>
-    <li>Tamanho dos prompts de vídeo: <b>compacto</b> (cerca de 300 palavras, com as travas que o motor esquece: contagem de potes, lado das mãos, ordem dos setores) ou <b>bem curto</b> (cerca de 120)? Se não disser, uso o compacto.</li>
+    <li>Tamanho dos prompts de vídeo: <b>compacto</b> (cerca de 300 palavras, com as travas que o motor esquece: contagem de copos (dois unidos, depois um e um), lado das mãos, ordem dos setores) ou <b>bem curto</b> (cerca de 120)? Se não disser, uso o compacto.</li>
   </ul>
 </div>
 
