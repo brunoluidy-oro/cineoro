@@ -114,9 +114,10 @@ PAIR_TEXT = (
     "FOIL."
 )
 FOIL_TEXT = (
-    "a thin, soft aluminum sheet, printed green on the outside; its inner face is bare SILVER with a real, generous layer of "
-    "pink yogurt stuck to it — about 2–3 mm thick, true to the size of one small cup, covering most of the silver with a thin "
-    "clean edge — never a heap. It bends and crinkles, never stiff; NO tab, NO writing."
+    "a thin, soft aluminum sheet, SQUARE with small rounded corners like the square rim of the cup, printed green on the "
+    "outside; its inner face is bare SILVER covered edge to edge with a generous, creamy layer of pink yogurt stuck to it, "
+    "about 3–4 mm thick, only a thin silver line at the edges — plenty, but true to one small cup, never a heap. It bends and "
+    "crinkles, never stiff; NO tab, NO writing."
 )
 
 LIVE_WORLD = (
@@ -142,11 +143,12 @@ FRIDGE_SHOT = (
 SNAP_SHOT = (
     "extreme close-up with the macro probe, in front of him and above his hands (" + HANDS.rstrip("; ") + "): the pair is "
     "held LOW, at the height of his belly, well below his face. Each hand grips one cup in a C — fingers wrapped around the "
-    "side and under the cup, the THUMB lying flat on top of that cup's foil. The probe starts 3 cm above the two foils and "
-    "the two thumbs and makes ONE steady pull-back with a slight rise through the whole shot, revealing the pair at belly "
-    "height and his shirt soft behind. He is already folding the pair toward its centre: the thumbs press the outer halves "
-    "down, the fingers push up under the joint, the cup bottoms swing toward each other (an upside-down V); at {snap} the "
-    "break line snaps with a crisp, bright crack — the créqui — and he draws the two cups apart, level, one in each hand."
+    "side and under the cup, the THUMB flat on top of that cup's foil. The probe starts 3 cm above the two foils and the two "
+    "thumbs and makes ONE steady pull-back with a slight rise through the whole shot, revealing the pair at belly height and "
+    "his shirt soft behind. He breaks it like snapping a chocolate bar: the thumbs press DOWN hard on the outer halves while "
+    "the fingers push UP under the joint, a short, sharp, forceful bend of only a few degrees, his knuckles tightening with "
+    "the effort; at {snap} the break line gives all at once with a crisp, bright crack — the créqui — and his hands spring "
+    "apart with the release, one cup in each."
 )
 NOSTALGIA_SHOT = (
     "CU, 29°, 0.9 m away, the camera diagonal — about 35° toward his right side — and 25 cm ABOVE his eye line looking down: a "
@@ -165,9 +167,10 @@ FOIL_SHOT = (
 LICK_SHOT = (
     "MCU, 47°, 0.8 m away, the camera diagonal — about 35° toward his right side — and 15 cm above his eye line: a "
     "three-quarter, slightly high angle, locked off. The foil is still ATTACHED to the cup by a small strip at the rim, folded "
-    "back and up. He raises the cup in his left hand to his mouth, cup and foil together, his right fingertip steadying the "
-    "foil, and licks the yogurt off the foil's silver side in one slow sweep, a second beginning. At {freeze} the image "
-    "FREEZES mid-lick — cup and foil at his mouth, eyes half-closed — and stays frozen, like a photograph, to the end."
+    "back and up. Casually, the way anyone cleans a yogurt lid, he raises the cup in his left hand to his mouth, cup and foil "
+    "together, and licks the yogurt off the foil's silver side in one quick, matter-of-fact lick, eyes OPEN and looking down "
+    "at the foil the whole time. At {freeze} the image FREEZES mid-lick — cup and foil at his mouth, eyes open on the foil — "
+    "and stays frozen, like a photograph, to the end."
 )
 
 # ===========================================================================
@@ -230,8 +233,7 @@ P_1B = _join(
     "THE PAIR — " + PAIR_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
     "1. Two joined cups before the snap, exactly two after.\n"
-    "2. THE FOLD: a C-grip, thumb flat on each cup's foil, the pair at BELLY height; the cup BOTTOMS swing toward each other, "
-    "no pause — WRONG if twisted, pulled apart, pinched or held at face height.\n"
+    "2. THE SNAP: a C-grip, thumb flat on each cup's foil, the pair at BELLY height; one short, sharp, forceful snap like breaking a chocolate bar, no pause — WRONG if it folds slowly like closing a book, twists, pulls apart or is held at face height.\n"
     "3. His LEFT hand keeps one cup; his RIGHT hand sets the other on the counter.\n"
     "4. Shot 2 is a THREE-QUARTER, slight HIGH angle (no ceiling in frame); his gaze lifts slightly upward, never into the lens.",
     "TIMELINE — 2 shots, 1 hard cut:\n"
@@ -256,8 +258,8 @@ P_1B = _join(
     LIVE_WORLD,
     "NEGATIVE: " + MACRO_NEG + "a pair twisted or pulled apart, three cups, a pause before the snap, a low "
     "angle with the ceiling in frame, " + LIVE_NEG_SPINE,
-    "[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the fold toward the centre, the snap at 2s; "
-    "(2, 3–5s) three-quarter slight high angle, gaze lifting, one cup kept, the other set down. Invariants: the fold; left hand "
+    "[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the forceful snap, the snap at 2s; "
+    "(2, 3–5s) three-quarter slight high angle, gaze lifting, one cup kept, the other set down. Invariants: the forceful snap; left hand "
     "keeps one; full 16:9 frame. Look: 35mm negative. NO text.]",
 )
 
@@ -273,22 +275,22 @@ P_1C = _join(
     who_man("opens the cup in his left hand and licks the yogurt off the foil"),
     "SCENE & SOUL — SCENE: the same kitchen. He opens the cup he kept; the foil comes away with yogurt on it and he licks it, "
     "and the image freezes. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): the foil is a treasure and the lick is a ceremony.\n"
+    "THE SOUL OF THE SCENE (play it, never explain it): opening the cup is serious business; licking the foil is pure habit, done without thinking.\n"
     "THE FOIL — " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
     "1. The cup is in his LEFT hand; the FINGERTIP lifts the foil — no nail, no tab — and the foil stays ATTACHED to the cup by a small strip; he brings cup and foil together to his mouth.\n"
-    "2. The silver side comes away with a real 2–3 mm layer of pink yogurt and faces the lens as it opens — WRONG if clean or heaped.\n"
+    "2. The silver side comes away with a generous 3–4 mm layer of pink yogurt and faces the lens as it opens — WRONG if clean or heaped.\n"
     "3. NO text or message on the foil.\n"
     "4. The last second is a TOTAL FREEZE mid-lick.",
     "TIMELINE — 2 shots, 1 hard cut:\n"
     "SHOT 1 (0–2s) — " + FOIL_SHOT + " HARD CUT.\n"
     "SHOT 2 (2–6s) — " + LICK_SHOT.format(freeze="5s"),
     acting_man(
-        "get every bit of yogurt off the foil, against his hunger. Tactic: treat the foil like a treasure that could break.",
-        "— [0–2s] hands only — [2–3s] a long look at the yogurt — [3–4s] he lifts it, a small inhale — [4–5s] the lick, eyes "
-        "half-closed — [5–6s] frozen.",
-        "a small inhale before the lick.",
-        "mugging, looking into the lens, any movement after the freeze.",
+        "clean the yogurt off the foil, the way anyone does. Tactic: none — he licks it casually, out of habit, without emotion.",
+        "— [0–2s] hands only — [2–3s] a plain look at the foil — [3–4s] he lifts cup and foil — [4–5s] a quick lick, eyes "
+        "open on the foil — [5–6s] frozen.",
+        "none.",
+        "mugging, a sensual or slow lick, closed eyes, pleasure or savouring, looking into the lens, any movement after the freeze.",
     ),
     "CAMERA — Shot 1: the macro probe TRAVELS in one gentle push-in. Shot 2: locked off, STAYS PUT, 47°.\n" + MACRO_LENS,
     "GEOMETRY — " + KITCHEN_GEOMETRY + "; in shot 2 the lens is 35° toward his right side, so the foil hand is nearer.",
@@ -299,7 +301,7 @@ P_1C = _join(
     LIVE_LIGHT, LIVE_LOOK,
     "SOUND — the foil's soft crinkle; a small wet lick; his breath; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "the foil pulled fully off the cup, a fingertip pinch grip, the pair held at face height, a fingernail or pull tab, a clean silver side, a heap of yogurt, a message on the foil, any movement after the "
+    "NEGATIVE: " + MACRO_NEG + "a sensual or slow lick, closed eyes, pleasure on his face, savouring, tongue play, a round foil, a round cup, a thin smear of yogurt, the foil pulled fully off the cup, a fingertip pinch grip, the pair held at face height, a fingernail or pull tab, a clean silver side, a heap of yogurt, a message on the foil, any movement after the "
     "freeze, " + LIVE_NEG_SPINE,
     "[ORDER: 2 shots, 1 hard cut, 6s — (1, 0–2s) macro beside his hand, push-in, the foil opens like a little door, yogurt "
     "side to the lens; (2, 2–6s) three-quarter slight high angle, the lick, FREEZE from 5s. Invariants: the foil stays attached to the cup; "
@@ -319,15 +321,14 @@ P_1BC = _join(
             "never looks into the lens"),
     "SCENE & SOUL — SCENE: the same summer kitchen, right after he took a pair of joined cups from the fridge. In four shots: "
     "the snap; one cup kept; the foil; the lick; the image freezes. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): the snap takes him back to childhood, and the lick is the ceremony that "
-    "follows; it is one continuous private moment.\n"
+    "THE SOUL OF THE SCENE (play it, never explain it): the snap takes him back to childhood; then licking the foil is pure "
+    "habit, done without thinking.\n"
     "THE PAIR — " + PAIR_TEXT + " THE FOIL (shots 3–4): " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
-    "1. Two joined cups before the snap, exactly two after; NO tray. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing "
-    "toward each other, no pause; C-grip, at belly height.\n"
+    "1. Two joined cups before the snap, exactly two after; NO tray. THE SNAP: C-grip, thumb flat on each foil, at belly height; one short, sharp, forceful snap like breaking a chocolate bar — never a slow fold like closing a book.\n"
     "2. C-GRIP at belly height for the snap; his LEFT hand keeps the same cup to the lick; his RIGHT fingertip lifts the "
     "foil, which stays ATTACHED to the cup; he brings cup and foil together to his mouth. Real human hands.\n"
-    "3. The silver side comes away with a real 2–3 mm layer of yogurt — never clean, never a heap; no text on the foil.\n"
+    "3. The silver side comes away with a generous 3–4 mm layer of yogurt — never clean, never a heap; no text on the foil.\n"
     "4. Shots 2 and 4 are THREE-QUARTER, slight HIGH angles from the same side, 35° toward his right; daylight from "
     "FRAME-LEFT; macro frames are full 16:9, no circular border.\n"
     "5. The last second is a TOTAL FREEZE mid-lick.",
@@ -338,14 +339,14 @@ P_1BC = _join(
     "SHOT 4 (7–11s) — " + LICK_SHOT.format(freeze="10s"),
     acting_man(
         "take in the snap without showing how much it matters, then get every bit of yogurt off the foil. Tactic: savour — no "
-        "hesitation at the snap, let the sound carry him away, then reverence at the foil. The nostalgia of shot 2 is still in "
+        "hesitation at the snap, let the sound carry him away, then the lick is casual, a habit. The nostalgia of shot 2 is still in "
         "his face when the lick begins.",
         "— [0–2s] hands only, the crack at 2s — [3–5s] the gaze lifts slightly upward toward the light, faraway; one corner of "
-        "the mouth moves once; the gaze stays up while his hand sets the cup down by feel — [5–7s] hands only — [7–8s] a long "
-        "look at the yogurt — [8–9s] he lifts it, a small inhale — [9–10s] the lick, eyes half-closed — [10–11s] frozen.",
-        "his shoulders drop a millimetre at the crack; a small inhale before the lick.",
-        "sitcom delight, mugging, looking into the lens, looking down at the cup in shot 2, a pause before the snap, any movement "
-        "after the freeze.",
+        "the mouth moves once; the gaze stays up while his hand sets the cup down by feel — [5–7s] hands only — [7–8s] a plain "
+        "look at the foil — [8–9s] he lifts cup and foil — [9–10s] a quick lick, eyes open on the foil — [10–11s] frozen.",
+        "his shoulders drop a millimetre at the crack; none.",
+        "sitcom delight, mugging, looking into the lens, looking down at the cup in shot 2, a pause before the snap, a sensual or slow lick, closed eyes, "
+        "savouring, any movement after the freeze.",
     ),
     "CAMERA — Shot 1: one steady macro pull-back. Shots 2 and 4: locked off, STAY PUT, 29° and 47°. Shot 3: one gentle macro "
     "push-in. Natural, fluid camera moves, never mechanical.\n" + MACRO_LENS,
@@ -359,11 +360,11 @@ P_1BC = _join(
     "SOUND — the créqui at 2s, a short, crisp, bright plastic snap, the most important sound of the scene; a light knock on the counter; "
     "the foil's crinkle; a small wet lick; his breath; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "the foil pulled fully off the cup, the pair held at face height, a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a different cup in "
+    "NEGATIVE: " + MACRO_NEG + "a sensual or slow lick, closed eyes, pleasure on his face, savouring, tongue play, a round foil, a round cup, a thin smear of yogurt, the foil pulled fully off the cup, the pair held at face height, a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a different cup in "
     "his left hand, a clean silver side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
-    "[ORDER: 4 shots, 3 hard cuts, 11s — (1, 0–3s) macro pull-back, the fold, the snap at 2s; (2, 3–5s) three-quarter high "
+    "[ORDER: 4 shots, 3 hard cuts, 11s — (1, 0–3s) macro pull-back, the forceful snap at 2s; (2, 3–5s) three-quarter high "
     "angle, the nostalgic gaze, one cup set down; (3, 5–7s) macro push-in, the foil opens like a little door; (4, 7–11s) the "
-    "same three-quarter side, the lick, FREEZE from 10s. Invariants: the fold; the same cup in the left hand; a real layer of "
+    "same three-quarter side, the lick, FREEZE from 10s. Invariants: the forceful snap; the same cup in the left hand; a real layer of "
     "yogurt; real hands; daylight frame-left. Look: 35mm negative. NO text.]",
 )
 
@@ -385,9 +386,9 @@ P_1D = _join(
     "THE PAIR — " + PAIR_TEXT + " THE FOIL (shots 4–5): " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
     "1. A PAIR of TWO joined cups (shots 1–2), never a single cup; two separate cups after the snap. The fridge door opens on camera.\n"
-    "2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause; C-grip, at belly height.\n"
+    "2. THE SNAP: C-grip, thumb flat on each foil, at belly height; one short, sharp, forceful snap like breaking a chocolate bar — never a slow fold like closing a book.\n"
     "3. C-GRIP at belly height for the snap; the LEFT hand keeps the cup; the RIGHT fingertip lifts the foil, which stays "
-    "ATTACHED to the cup, with a real 2–3 mm layer of yogurt; cup and foil go to his mouth together. Real human hands.\n"
+    "ATTACHED to the cup, with a generous 3–4 mm layer of yogurt; cup and foil go to his mouth together. Real human hands.\n"
     "4. Shots 3 and 5 are THREE-QUARTER, slight HIGH angles; daylight from FRAME-LEFT; macro frames are full 16:9, no "
     "circular border.\n"
     "5. The last second is a TOTAL FREEZE mid-lick.",
@@ -399,12 +400,12 @@ P_1D = _join(
     "SHOT 5 (12–16s) — " + LICK_SHOT.format(freeze="15s"),
     acting_man(
         "the whole ritual, from the fridge to the last lick, keeping the pleasure small. Tactic: savour — a moment slower "
-        "at the fridge, no hesitation at the snap, reverence at the foil.",
+        "at the fridge, no hesitation at the snap, the lick casual, a habit.",
         "— [0–5s] he opens the door, the smile arrives late, eyes follow the pair out — [5–8s] hands only, "
-        "the crack at 7s — [8–10s] the gaze lifts slightly, faraway, nostalgic — [10–12s] hands only — [12–15s] a long look at "
-        "the yogurt, a small inhale, the lick — [15–16s] frozen.",
+        "the crack at 7s — [8–10s] the gaze lifts slightly, faraway, nostalgic — [10–12s] hands only — [12–15s] a plain look at "
+        "the foil, a quick casual lick, eyes open — [15–16s] frozen.",
         "his eyes narrow slightly against the fridge light; his shoulders drop a millimetre at the crack.",
-        "mugging, laughing, looking into the lens, a pause before the snap, any movement after the freeze.",
+        "mugging, laughing, looking into the lens, a pause before the snap, a sensual or slow lick, closed eyes, savouring, any movement after the freeze.",
     ),
     "CAMERA — shots 1, 3 and 5 locked off, STAY PUT, at 84°, 29° and 47°; shot 2: one steady macro pull-back; shot 4: one "
     "gentle macro push-in. Natural, fluid camera moves, never mechanical.\n" + MACRO_LENS,
@@ -417,10 +418,9 @@ P_1D = _join(
     "SOUND — the fridge hum; the door's soft thump; the créqui at 7s, a short, crisp, bright plastic snap; the foil's crinkle; "
     "a small wet lick; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "the foil pulled fully off the cup, the pair held at face height, a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a clean silver "
+    "NEGATIVE: " + MACRO_NEG + "a sensual or slow lick, closed eyes, pleasure on his face, savouring, tongue play, a round foil, a round cup, a thin smear of yogurt, the foil pulled fully off the cup, the pair held at face height, a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a clean silver "
     "side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
-    "[ORDER: 5 shots, 4 hard cuts, 16s — (1, 0–5s) inside the fridge, the door opens, he takes the pair, the door shuts; (2, 5–8s) macro "
-    "pull-back, the fold, the snap at 7s; (3, 8–10s) three-quarter high angle, the nostalgic gaze; (4, 10–12s) macro push-in, "
+    "[ORDER: 5 shots, 4 hard cuts, 16s — (1, 0–5s) inside the fridge, the door opens, he takes the pair, the door shuts; (2, 5–8s) macro pull-back, the forceful snap at 7s; (3, 8–10s) three-quarter high angle, the nostalgic gaze; (4, 10–12s) macro push-in, "
     "the foil opens like a little door; (5, 12–16s) three-quarter, the lick, FREEZE from 15s. Invariants: TWO joined cups, never one; "
     "the fold; the foil stays attached to the cup; a real layer of yogurt; real hands; daylight frame-left. Look: 35mm negative. NO text.]",
 )
@@ -506,7 +506,7 @@ P_7A = _join(
     "end at the peak of the celebration.",
     acting_man(
         "own the win, now, in his whole body. Tactic: verify, then pure joy — a quick check that turns into joy with no pause.",
-        "— [0–1s] the last sweep of the lick — [1–2s] eyes open and search the foil — [2–3s] the discovery: the eyes widen and "
+        "— [0–1s] the end of the quick lick, eyes open on the foil — [1–2s] eyes open and search the foil — [2–3s] the discovery: the eyes widen and "
         "the smile arrives instantly — [3–6s] the right arm goes up with the foil, he laughs without words.",
         "a sharp inhale at the discovery.",
         "a pause before the joy, speaking, shouting words, looking into the lens, a keychain.",
@@ -673,8 +673,7 @@ def _spine(opening, name):
         "claps. From here on pink cups ride the belt.\n"
         "PART 4 (14–21s) — HALL 3, sound studio: a tall wall of acoustic foam and a glass booth. Inside, standing on a little box "
         "at a microphone stand taller than she is, COW A holds a pair of joined yogurt cups with a gloved thumb flat on top of "
-        "each cup and folds the pair toward its centre, the cup bottoms swinging toward each other underneath, until it snaps "
-        "with a crisp créqui; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B, only her head "
+        "each cup and snaps it in two like breaking a chocolate bar — a short, sharp, forceful bend — with a crisp créqui; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B, only her head "
         "and headphones showing above a big toy-like audio desk, closes her eyes, purses her lips in a satisfied pout as if mooing "
         "then nods once at the snap sound.\n"
         "PART 5 (21–30s) — HALL 4, art studio: easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
@@ -701,7 +700,7 @@ def _spine(opening, name):
         "NEGATIVE: a fourth cow in hall 3, a cut, a stop, the camera reversing, close framing, " + TOON_NEG_SPINE,
         "[ORDER: 1 continuous take, 30s, wide side-on travelling left to right, small cows in a big world — (0–2s) opening on the "
         "yogurt-covered lens; (2–7s) hall 1, giant fruit; (7–14s) hall 2, the funnel, the button, cups pop onto the belt; "
-        "(14–21s) hall 3, the fold and the créqui, the pout; (21–30s) hall 4, the bump, the pink glove, the stroke. Invariants: "
+        "(14–21s) hall 3, the snap and the créqui, the pout; (21–30s) hall 4, the bump, the pink glove, the stroke. Invariants: "
         "cow counts 3-3-2-3; wide, cows a quarter of the frame height; constant direction and speed, no cuts; no eyebrows, no "
         "frowns, black right ear, no keyring; outfit per hall; no text. Look: matte vinyl, mostly monochromatic green, clean. "
         "NO text.]",
@@ -802,13 +801,11 @@ P_5B = _insert(
     "SCENE & SOUL — SCENE: hall 3, the sound studio, in two wide shots. Already in progress.\n"
     "THE SOUL OF THE SCENE (play it, never explain it): the créqui is the sweetest sound the engineer has ever heard.",
     "1. EXACTLY TWO cows in this hall; each shot shows one — WRONG if a third appears.\n"
-    "2. THE FOLD: TWO joined cups before the snap and TWO after; a gloved thumb flat on top of each cup, the cup bottoms "
-    "swinging toward each other underneath — WRONG if she twists or pulls it apart. Both cows small in frame.\n"
+    "2. THE SNAP: TWO joined cups before and TWO after; a gloved thumb flat on each cup, one short, sharp, forceful snap like breaking a chocolate bar — WRONG if she folds it slowly, twists or pulls it apart. Both cows small in frame.\n"
     + _INS_LOCKS_TAIL,
     "SHOT 1 (0–4s) — wide, 47°, inside the glass acoustic booth: a tall wall of acoustic foam, a microphone with a round pop "
     "filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds a pair of joined yogurt "
-    "cups with a gloved thumb flat on top of each cup and folds the pair toward its centre, the cup bottoms swinging toward "
-    "each other underneath, until the break line snaps with a crisp créqui; the needle on a meter jumps; she flinches at her "
+    "cups with a gloved thumb flat on top of each cup and snaps it in two like breaking a chocolate bar — a short, sharp, forceful bend — with a crisp créqui; the needle on a meter jumps; she flinches at her "
     "own loud snap, ears flying, then grins.\n"
     "SHOT 2 (4–8s) — low, 47°, from behind the edge of a big toy-like audio desk with a few simple sliders, which fills the "
     "lower half of the frame: only COW B's head and headphones show above it; she listens, eyes closed, purses her lips in a "
@@ -820,8 +817,8 @@ P_5B = _insert(
     "PHYSICS & MATERIAL — the plastic break line resists, then gives with a sharp snap; no splinters; the cups stay sealed; the "
     "meter's needle jumps and settles with a small overshoot; the glass booth shows soft reflections. Nothing floats, nothing "
     "loops. MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.",
-    "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow folds the pair, the créqui, the flinch; "
-    "(2, 4–8s) behind the big desk, the satisfied pout. Invariants: exactly two cows, small; the fold toward the centre; no "
+    "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow snaps the pair, the créqui, the flinch; "
+    "(2, 4–8s) behind the big desk, the satisfied pout. Invariants: exactly two cows, small; the forceful snap; no "
     "eyebrows, no frowns; black right ear; no text.]",
     extra_neg="a third cow, a pair that never separates, a pair twisted or pulled apart, three cups, ",
 )
