@@ -940,8 +940,9 @@ P_5C = _join(
 # 8a — Finalização alternativa (4 s): tela verde chroma que se enche de iogurte rosa
 # ===========================================================================
 P_8A = _join(
-    "CONTRACT — Photoreal macro footage, 16:9, 4 seconds total, ONE continuous locked-off take, real-time motion: thick pink "
-    "yogurt closes over the camera lens. No people, no cows, no product, no dialogue. NO music, NO subtitles, NO on-screen text.",
+    "CONTRACT — 3D animated footage in the exact style of the film's factory scenes (a miniature designer-toy world), 16:9, 4 "
+    "seconds total, ONE continuous locked-off take, real-time animation at 24 fps: thick, stylized pink yogurt closes over the "
+    "camera lens. No characters, no cows, no product, no dialogue. NO music, NO subtitles, NO on-screen text.",
     "REFERENCES — each reference has ONE job:\n"
     "[last frame] END FRAME: the take ENDS exactly on this image — a flat, uniform, matte strawberry-yogurt pink (about "
     "#D88B88) filling the whole frame, with only a very soft, smooth tonal variation and no edge, bubble or highlight.",
@@ -967,19 +968,22 @@ P_8A = _join(
     "CAMERA — locked off, STAYS PUT, frontal and square to the screen; the yogurt sits on the lens glass, so its rim is soft "
     "and close while the green behind stays flat; no lens drift; level. NOT: camera movement, zoom, a visible edge of the "
     "screen.",
-    "PHYSICS & MATERIAL — the yogurt is thick and creamy, heavier than paint: its rim advances slowly and evenly, rounded and "
-    "glossy, with soft folds; no splashes, no drips, no bubbles. START flat green, clean lens; DURING a round green window "
-    "shrinking inside a creamy pink rim; END flat uniform pink. Nothing floats, nothing loops.",
-    "LIGHT — one large, soft, even frontal light: the green is perfectly uniform for a clean key; the yogurt rim shows soft "
-    "glossy highlights while it moves, and none once it settles. NO shadows on the green, NO hard highlights.",
-    "LOOK (KEY): clean, graphic, photoreal macro; flat colour fields; no grain, no lens flares, no light streaks.",
+    "PHYSICS & MATERIAL — cartoon physics with weight: the yogurt is thick and creamy, its rim advances slowly and evenly, "
+    "rounded and glossy, with soft folds and a light squash and stretch; no splashes, no drips, no bubbles. START flat green, clean lens; DURING a round green window "
+    "shrinking inside a creamy pink rim; END flat uniform pink. Nothing floats, nothing loops. MATERIAL TRUTH of this world: smooth, stylized 3D yogurt, clean and pristine.",
+    "LIGHT — stylized studio light, soft and clear, as in the factory: one large soft key from FRAME-LEFT; the green is "
+    "perfectly uniform for a clean key; the yogurt rim shows soft, smooth glossy highlights while it moves, and none once it "
+    "settles. NO shadows on the green, NO hard highlights.",
+    TOON_LOOK,
+    "IDENTITY (KEY): the yogurt is EXACTLY the yogurt of the factory scenes and of the opening where the cow wipes the lens — "
+    "the same cartoon 3D pink, the same soft, rounded, glossy, slightly chunky rim — just moving the other way.",
     "SOUND — a soft, thick, creamy squelch as the yogurt closes, and a gentle settle, nothing else. " + MUSIC_BAN,
     "NEGATIVE: yogurt pouring from the top or one side, filling from the bottom, uneven or textured green, green left at the "
     "end, a cow, a cup, a spoon, a hand, fruit, splashes, bubbles, drops, a visible screen edge, camera movement, readable "
-    "text, logos, subtitles, grain, lens flares, wrong aspect ratio.",
+    "text, logos, subtitles, photoreal or live-action yogurt, film grain, lens flares, wrong aspect ratio.",
     "[ORDER: 1 locked-off take, 4s — (0–0.5s) flat chroma green; (0.5–3s) yogurt closes over the lens from all edges, a round "
     "green window shrinking to the centre like an iris; (3–4s) it seals and settles into the uniform pink of the end frame. "
-    "Invariants: flat green start; closes from the edges to the centre; locked camera; uniform pink end. NO text.]",
+    "Invariants: the factory's cartoon 3D look; flat green start; closes from the edges to the centre; locked camera; uniform pink end. NO text.]",
 )
 
 PROMPTS = {

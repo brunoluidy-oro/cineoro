@@ -713,7 +713,7 @@ NEGATIVE: a pause before the joy, words or shouts, a fully clean or a fully cove
 ## 8a · Finalização: chroma verde que se enche de iogurte (4 s)
 
 ```
-CONTRACT — Photoreal macro footage, 16:9, 4 seconds total, ONE continuous locked-off take, real-time motion: thick pink yogurt closes over the camera lens. No people, no cows, no product, no dialogue. NO music, NO subtitles, NO on-screen text.
+CONTRACT — 3D animated footage in the exact style of the film's factory scenes (a miniature designer-toy world), 16:9, 4 seconds total, ONE continuous locked-off take, real-time animation at 24 fps: thick, stylized pink yogurt closes over the camera lens. No characters, no cows, no product, no dialogue. NO music, NO subtitles, NO on-screen text.
 
 REFERENCES — each reference has ONE job:
 [last frame] END FRAME: the take ENDS exactly on this image — a flat, uniform, matte strawberry-yogurt pink (about #D88B88) filling the whole frame, with only a very soft, smooth tonal variation and no edge, bubble or highlight.
@@ -734,17 +734,20 @@ PART 3 (3–4s) — the window closes in the centre and the yogurt settles into 
 
 CAMERA — locked off, STAYS PUT, frontal and square to the screen; the yogurt sits on the lens glass, so its rim is soft and close while the green behind stays flat; no lens drift; level. NOT: camera movement, zoom, a visible edge of the screen.
 
-PHYSICS & MATERIAL — the yogurt is thick and creamy, heavier than paint: its rim advances slowly and evenly, rounded and glossy, with soft folds; no splashes, no drips, no bubbles. START flat green, clean lens; DURING a round green window shrinking inside a creamy pink rim; END flat uniform pink. Nothing floats, nothing loops.
+PHYSICS & MATERIAL — cartoon physics with weight: the yogurt is thick and creamy, its rim advances slowly and evenly, rounded and glossy, with soft folds and a light squash and stretch; no splashes, no drips, no bubbles. START flat green, clean lens; DURING a round green window shrinking inside a creamy pink rim; END flat uniform pink. Nothing floats, nothing loops. MATERIAL TRUTH of this world: smooth, stylized 3D yogurt, clean and pristine.
 
-LIGHT — one large, soft, even frontal light: the green is perfectly uniform for a clean key; the yogurt rim shows soft glossy highlights while it moves, and none once it settles. NO shadows on the green, NO hard highlights.
+LIGHT — stylized studio light, soft and clear, as in the factory: one large soft key from FRAME-LEFT; the green is perfectly uniform for a clean key; the yogurt rim shows soft, smooth glossy highlights while it moves, and none once it settles. NO shadows on the green, NO hard highlights.
 
-LOOK (KEY): clean, graphic, photoreal macro; flat colour fields; no grain, no lens flares, no light streaks.
+LOOK (KEY — reproduce this exact look): premium 3D animation, a miniature designer-toy diorama. The WORLD and the CHARACTERS are matte soft-touch vinyl and painted resin with rounded bevels and no gloss. Palette: mostly monochromatic green (varied greens, a white floor and a white belt); the cows and the fruit keep their own colours, brand accents only in tiny details. Soft global illumination, gentle ambient occlusion in every crevice, short soft contact shadows, lifted pastel shadows with no hard black. Miniature-photography focus: a thin sharp plane with a soft falloff in front and behind. Clean image: NO film grain, NO noise, NO vignette, even exposure to all four corners, nothing from live action.
+FLARE/GLOW POLICY: NO LENS FLARES, no light streaks, no bokeh orbs; the only glow is the small warm halo of tiny bulbs on the machines, contained.
+
+IDENTITY (KEY): the yogurt is EXACTLY the yogurt of the factory scenes and of the opening where the cow wipes the lens — the same cartoon 3D pink, the same soft, rounded, glossy, slightly chunky rim — just moving the other way.
 
 SOUND — a soft, thick, creamy squelch as the yogurt closes, and a gentle settle, nothing else. AUDIO: only the sounds listed here, with quiet room tone between them; nothing else is heard — NO music. NO voice-over.
 
-NEGATIVE: yogurt pouring from the top or one side, filling from the bottom, uneven or textured green, green left at the end, a cow, a cup, a spoon, a hand, fruit, splashes, bubbles, drops, a visible screen edge, camera movement, readable text, logos, subtitles, grain, lens flares, wrong aspect ratio.
+NEGATIVE: yogurt pouring from the top or one side, filling from the bottom, uneven or textured green, green left at the end, a cow, a cup, a spoon, a hand, fruit, splashes, bubbles, drops, a visible screen edge, camera movement, readable text, logos, subtitles, photoreal or live-action yogurt, film grain, lens flares, wrong aspect ratio.
 
-[ORDER: 1 locked-off take, 4s — (0–0.5s) flat chroma green; (0.5–3s) yogurt closes over the lens from all edges, a round green window shrinking to the centre like an iris; (3–4s) it seals and settles into the uniform pink of the end frame. Invariants: flat green start; closes from the edges to the centre; locked camera; uniform pink end. NO text.]
+[ORDER: 1 locked-off take, 4s — (0–0.5s) flat chroma green; (0.5–3s) yogurt closes over the lens from all edges, a round green window shrinking to the centre like an iris; (3–4s) it seals and settles into the uniform pink of the end frame. Invariants: the factory's cartoon 3D look; flat green start; closes from the edges to the centre; locked camera; uniform pink end. NO text.]
 ```
 
 ## 1d · Cena 1 inteira (alternativa a 1a+1bc) (16 s)
