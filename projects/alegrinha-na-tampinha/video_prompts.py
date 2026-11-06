@@ -480,57 +480,59 @@ P_2A = _join(
 # 7a — A vitória (6 s)
 # ===========================================================================
 P_7A = _join(
-    live_contract(6, "ONE continuous take", "; a wordless laugh is allowed, no words and no exclamations"),
+    live_contract(6, "ONE continuous locked-off take", "; a wordless laugh is allowed, no words"),
     "REFERENCES — each reference has ONE job:\n"
-    "[first frame] KEYFRAME: the take STARTS from this exact frame (the man mid-lick, the foil at his mouth, the open cup in his left hand) and comes alive from it; light, grade and skin continue the keyframe exactly.\n"
+    "[first frame] KEYFRAME: the take STARTS from this exact frame — the frozen frame of him mid-lick, the foil at his mouth, "
+    "the open cup in his left hand — and comes alive from it; framing, light, grade and skin continue the keyframe exactly.\n"
     "@man-portoalegre — IDENTITY of the man. 100% matches.\n"
     "@loc_cozinha — WORLD: the kitchen.\n"
     "@prop_pote-morango — OBJECT ONLY: the cup and its green foil.\n" + LIVE_SCOPE,
-    who_man("finishes the lick, checks the foil, discovers he has won and celebrates",
-            never="NEVER says a word (a wordless laugh is allowed), NEVER removes his glasses, NEVER shows a second person"),
-    "SCENE & SOUL — SCENE: the freeze releases. He finishes the lick, checks the foil for leftover yogurt, sees that he has won "
-    "and is instantly, completely happy, with no pause. He celebrates by raising the foil with his arm.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): luck lands on a man who was only here for a snack, and he takes it with "
-    "his whole body.",
+    who_man("comes back to life from the frozen lick, looks at the foil, sees something and celebrates",
+            never="NEVER says a word (a wordless laugh is allowed), NEVER removes his glasses"),
+    "SCENE & SOUL — SCENE: the frozen image comes back to life. He finishes the lick, moves the foil away from his mouth, "
+    "sees something on it and celebrates, very happy. Already in progress.\n"
+    "THE SOUL OF THE SCENE (play it, never explain it): a man who only wanted a snack is hit by luck, and the joy takes his "
+    "whole body at once.\n"
+    "THE FOIL — " + FOIL_TEXT.replace("covered edge to edge with a generous, creamy layer of pink yogurt stuck to it, about 3–4 "
+    "mm thick, only a thin silver line at the edges — plenty, but true to one small cup, never a heap.",
+    "now HALF licked clean — one half bare silver, the other half still covered with pink yogurt."),
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
-    "1. The open cup stays in his LEFT hand; the foil is in his RIGHT hand, soft and crinkly.\n"
-    "2. NO PAUSE between seeing it and being happy — WRONG if there is a beat of stillness or doubt.\n"
-    "3. NOTHING readable on the foil; no keychain and no other prop appears.\n"
-    "4. The framing stays exactly that of the keyframe — WRONG if the camera moves.\n"
-    "5. He is ALONE; wordless — WRONG if he says anything.",
-    "TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:\n"
-    "PART 1 (0–1s) — the lick ends and the foil leaves his mouth.\n"
-    "PART 2 (1–2s) — he looks at the foil in his right hand to check for leftover yogurt; its silver inner side, licked almost "
-    "clean with a last faint pink smear at one corner, faces him, not the camera.\n"
-    "PART 3 (2–3s) — he sees he has won: his face lights up at once.\n"
-    "PART 4 (3–6s) — he celebrates, raising the foil high with his right arm, laughing without words. Hard "
-    "end at the peak of the celebration.",
+    "1. The first frame IS the frozen keyframe; the framing never changes — the camera is locked.\n"
+    "2. Cup in his LEFT hand, foil in his RIGHT; when he moves the foil away, HALF of its silver side is clean and half still "
+    "has yogurt.\n"
+    "3. NO PAUSE between seeing it and being happy; NOTHING readable on the foil and no keychain appears.\n"
+    "4. He is ALONE and wordless.",
+    "TIMELINE — ONE continuous take, no cuts:\n"
+    "PART 1 (0–1s) — the frozen frame comes alive: he finishes the lick, eyes open on the foil.\n"
+    "PART 2 (1–2s) — he moves the foil a hand's width away from his mouth and looks at it: half of the silver side is now "
+    "clean, half still has yogurt; its inner side faces him, not the camera.\n"
+    "PART 3 (2–3s) — he sees something on the clean half: his eyes widen and a huge smile arrives at once.\n"
+    "PART 4 (3–6s) — he celebrates, very happy, raising the foil high with his right arm, the cup steady in his left, laughing "
+    "without words. Hard end at the peak of the celebration.",
     acting_man(
-        "own the win, now, in his whole body. Tactic: verify, then pure joy — a quick check that turns into joy with no pause.",
-        "— [0–1s] the end of the quick lick, eyes open on the foil — [1–2s] eyes open and search the foil — [2–3s] the discovery: the eyes widen and "
-        "the smile arrives instantly — [3–6s] the right arm goes up with the foil, he laughs without words.",
+        "own the win, now, with his whole body. Tactic: a casual check that turns into pure joy with no pause between the two.",
+        "— [0–1s] the end of a casual lick, eyes open on the foil — [1–2s] a plain look at the half-clean foil — [2–3s] the "
+        "discovery: the eyes widen, the smile arrives instantly — [3–6s] the right arm goes up with the foil, he laughs without "
+        "words, his shoulders lift.",
         "a sharp inhale at the discovery.",
-        "a pause before the joy, speaking, shouting words, looking into the lens, a keychain.",
+        "a pause before the joy, words or shouts, looking into the lens, a keychain, a sensual lick.",
         direction="be as happy as a person can be, immediately.",
     ),
-    "CAMERA — MCU, 47°, 0.8 m from him, the camera diagonal, about 35° toward his right side, 15 cm above his eye line looking "
-    "down a little (a three-quarter, slightly high angle), locked off exactly as the keyframe; STAYS PUT.\nOPTICS: 47°, no lens drift.\nFOCUS: on his face; the foil sharp when it "
-    "rises.\nHORIZON: level.\nNOT: handheld shake, push-in, orbit, zoom, slow motion.",
-    "GEOMETRY — he is centre, turned a little away from the diagonal lens; the open cup in his LEFT hand at chest height; his "
-    "RIGHT arm, the one nearer the lens, rises with the foil ending above the top of his head; the green tile wall with sun at "
-    "frame-left and the stainless fridge at frame-right, soft behind him.",
-    "PHYSICS & MATERIAL — the foil crinkles as the arm rises, catching the window light in soft glints; "
-    "the cup in his left hand stays steady; his shoulders and torso carry the weight of the celebration with a small lift. "
-    "Nothing floats, nothing loops. OVER-REAL: foil creases with moving glints, the weave of his shirt moving, skin pores, a trace "
-    "of yogurt on his lip. If any surface looks clean, smooth, plastic, CGI or rendered — WRONG.",
+    "CAMERA — locked off exactly as the keyframe: MCU, 47°, 0.8 m away, diagonal about 35° toward his right side, 15 cm above "
+    "his eye line; STAYS PUT; level horizon. NOT: push-in, zoom, handheld shake.",
+    "GEOMETRY — " + KITCHEN_GEOMETRY + "; his right arm, the one nearer the lens, rises with the foil above his head.",
+    "PHYSICS & MATERIAL — the foil crinkles and flexes as it moves, catching the window light in soft glints; the yogurt left "
+    "on its other half is creamy and stays put; the cup in his left hand stays steady; his body carries the celebration with a "
+    "small lift. OVER-REAL: the clean silver stripe beside the yogurt, foil creases, a trace of yogurt on his lip, the weave of "
+    "his shirt, pores. If any surface looks smooth, plastic or rendered — WRONG.",
     LIVE_LIGHT, LIVE_LOOK,
-    "SOUND — DIEGETIC ONLY: the crinkle of the foil; a small wet lick; his breath; a wordless laugh. " + MUSIC_BAN,
+    "SOUND — the foil's crinkle; his breath; a sharp inhale at the discovery; a wordless laugh. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: a pause before the joy, words or shouts, a keychain or any other prop, readable text on the foil, the camera moving, "
-    "the foil in the left hand, " + LIVE_NEG_SPINE,
-    "[ORDER: 1 continuous take, 6s — (0–1s) the lick ends; (1–2s) he checks the foil; (2–3s) he sees he won, instantly happy; "
-    "(3–6s) he raises the foil with his right arm, wordless laugh, hard end at the peak. Invariants: cup left hand, foil right "
-    "hand; no pause; no text; the camera locked as the keyframe; alone. Look: 35mm negative, summer window light. NO text.]",
+    "NEGATIVE: a pause before the joy, words or shouts, a fully clean or a fully covered foil, readable text on the foil, a "
+    "keychain or any other prop, the camera moving, " + LIVE_NEG_SPINE,
+    "[ORDER: 1 locked-off take, 6s — (0–1s) the frozen lick comes alive; (1–2s) the foil moves away, half clean, half yogurt; "
+    "(2–3s) he sees something, instant joy; (3–6s) he celebrates, foil raised high, a wordless laugh. Invariants: starts on "
+    "the freeze frame; half-clean foil; no pause; no text; locked camera. Look: 35mm negative. NO text.]",
 )
 
 # ===========================================================================
