@@ -578,6 +578,12 @@ TOON_SCALE = (
     "painter, each pink yogurt cup about half her height."
 )
 
+FAR_SIDE = (
+    "BELT SIDE (KEY): every cow, table, machine and easel stands on the FAR side of the belt, between the belt and the back "
+    "wall — in the isometric view, above the belt in the frame. NOTHING and NOBODY is ever on the camera side of the belt; "
+    "the near side is empty floor."
+)
+
 TOON_SCOPE = (
     "REFERENCE SCOPE: @char_vaca-vinil and @char_alegrinha-looks supply the cow, her proportions, colours and outfits ONLY — IGNORE "
     "their grey backdrops and lighting. @loc_fabrica supplies layout, materials, props and colours ONLY — it is an isometric "
@@ -653,7 +659,7 @@ def _spine(opening, name):
         "merge.\n"
         "2. VERY WIDE: after the opening, the camera stays far back, each hall seen whole, moving FRAME-LEFT to FRAME-RIGHT at a constant speed, never cutting, stopping or reversing; each cow fills only about one sixth of the frame height — WRONG if the framing tightens or a cow fills the frame.\n"
         "3. HAPPY FACES: NO eyebrows, NO frown on any cow; her RIGHT ear is the black one; NO keyring.\n"
-        "4. EACH HALL KEEPS ITS OUTFIT: hairnet and apron, lab coat, headphones, painter's smock and beret.\n"
+        "4. EACH HALL KEEPS ITS OUTFIT (hairnet and apron, lab coat, headphones, painter's smock and beret), and every cow stands on the FAR side of the belt, never the camera side.\n"
         "5. NO TEXT anywhere; after the opening the lens is SPOTLESS for the rest of the take — WRONG if any yogurt, smear or pink tint remains.",
         "TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:\n" + opening + "\n"
         "PART 2 (2–7s) — HALL 1, fruit selection: giant strawberries, apples and coconut halves ride the belt in the foreground. "
@@ -673,7 +679,7 @@ def _spine(opening, name):
         "at a microphone stand taller than she is, COW A holds ONE pack made of two small yogurt cups stuck together side by side, both gloves on the pack, and pulls the two cups apart with a crisp créqui, ending with one cup in each glove; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B stands IN FRONT of a big "
         "toy-like audio desk, her back to it, wearing headphones and turned toward the booth and COW A; when she hears the "
         "snap she nods with approval and purses her lips in a satisfied pout as if mooing.\n"
-        "PART 5 (21–30s) — HALL 4, art studio: easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
+        "PART 5 (21–30s) — HALL 4, art studio, its walls and floor in a warm yellow-green (olive and lime): easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
         "Three small cows in painter's smocks and berets. COW A backs up to judge her work, bumps gently into the easel behind "
         "her, steadies it and tilts her head; COW B dips her brush so deep into a big pot of yogurt that her whole glove comes "
         "out pink, and shrugs happily; COW C, on tiptoe, paints one plain stroke of yogurt onto the foil, the tip of her red "
@@ -682,7 +688,7 @@ def _spine(opening, name):
         "commitment; the happiness shows in ears, bell and body. NOT: looking into the lens, mouths forming words, frowning, a "
         "blank face.",
         TOON_CAMERA_TRAVEL,
-        "GEOMETRY — " + TOON_SCALE + " In each hall the cows stand about 2.5 cow-lengths apart, all of a hall's cows in frame "
+        "GEOMETRY — " + FAR_SIDE + " " + TOON_SCALE + " In each hall the cows stand about 2.5 cow-lengths apart, all of a hall's cows in frame "
         "together; the back wall rises to the top of the frame; the arched openings are about 3 cow-heights tall. Hall 3: the "
         "booth at the left of the hall, the audio desk at the right.",
         "PHYSICS & MATERIAL — vinyl bodies have weight and a light squash on every landing and every wobble; fruit is big, heavy "
@@ -694,7 +700,7 @@ def _spine(opening, name):
         "loops. MATERIAL TRUTH of this world: matte vinyl with faint seam lines and soft fillets, a tiny glint on the golden bells, "
         "glossy pulp and yogurt, rubbery fruit with modelled seeds; pristine, never dirt.",
         TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE, TOON_WORLD,
-        "NEGATIVE: only two cows in hall 2, a cup appearing by itself, yogurt left on the lens after the wipe, a single cup turning into two, a fourth cow in hall 3, a cut, a stop, the camera reversing, close framing, " + TOON_NEG_SPINE,
+        "NEGATIVE: a cow or prop on the camera side of the belt, only two cows in hall 2, a cup appearing by itself, yogurt left on the lens after the wipe, a single cup turning into two, a fourth cow in hall 3, a cut, a stop, the camera reversing, close framing, " + TOON_NEG_SPINE,
         "[ORDER: 1 continuous take, 30s, very wide side-on travelling left to right, small cows in a big world — (0–2s) opening on the "
         "yogurt-covered lens; (2–7s) hall 1, giant fruit; (7–14s) hall 2, three cows, the funnel, the button, a cup set on the belt by hand; "
         "(14–21s) hall 3, the snap and the créqui, the pout; (21–30s) hall 4, the bump, the pink glove, the stroke. Invariants: "
@@ -770,19 +776,19 @@ def _insert_iso(hall, who, soul, locks, iso_action, ground_action, acting, physi
         "backstage shot. Already in progress.\nTHE SOUL OF THE SCENE (play it, never explain it): " + soul,
         "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n" + locks + "\n"
         "LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.\n"
-        "ONLY THIS HALL: no other sector appears anywhere in frame; the belt moves LEFT to RIGHT — WRONG otherwise.",
+        "ONLY THIS HALL: no other sector appears anywhere in frame; the belt moves LEFT to RIGHT; every cow and prop is on the FAR side of the belt — WRONG otherwise.",
         "TIMELINE — 2 shots, 1 hard cut:\nSHOT 1 (0–4s) — isometric overview: " + iso_action + " HARD CUT.\n"
         "SHOT 2 (4–8s) — ground-level backstage: " + ground_action + " Hard end.",
         "ACTING — " + COW_STYLE + " " + acting,
         "CAMERA — " + ISO_CAMERA + "\n" + GROUND_CAMERA + "\nNOT: close-ups of faces, a low or eye-level angle in shot 1, a "
         "high angle in shot 2, drone, whip pan, zoom.",
-        "GEOMETRY — " + TOON_SCALE,
+        "GEOMETRY — " + FAR_SIDE + " " + TOON_SCALE,
         physics,
         TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE,
         "WORLD — ONLY " + hall + " is seen, closed in by its own walls: NO other hall, NO arched opening looking into a "
         "neighbouring hall, NO machines, props or outfits from another sector. The belt runs LEFT to RIGHT. No humans. Signs "
         "and screens are blank: NO letters, NO numerals, NO logos.",
-        "NEGATIVE: another hall or sector in view, an opening into a neighbouring hall, the belt moving right to left, "
+        "NEGATIVE: a cow, easel or prop on the camera side of the belt, another hall or sector in view, an opening into a neighbouring hall, the belt moving right to left, "
         + extra_neg + TOON_NEG_SPINE.replace("camera shake, ", ""),
         "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) isometric overview: " + order_iso + "; (2, 4–8s) ground-level backstage: "
         + order_ground + ". Invariants: only this hall, belt left to right; the same isometric angle and look as the other inserts; cows small; no eyebrows, no "
@@ -852,17 +858,19 @@ P_5B = _insert_iso(
 )
 
 P_6B = _insert_iso(
-    "hall 4, the art studio",
-    "HALL 4 outfit: a cream painter's smock and a small beret between the horns. Shot 1 shows the hall's THREE cows; shot 2 "
-    "shows ONE.",
+    "hall 4, the art studio (its walls and floor in a warm yellow-green, olive and lime, unlike the mint halls)",
+    "HALL 4 outfit, on ALL THREE cows: a cream painter's smock with a few paint spots and a small beret between the horns — "
+    "NO hairnets, NO aprons, NO lab coats. Shot 1 shows the hall's THREE cows; shot 2 shows ONE.",
     "they paint yogurt onto foil with the gravity of old masters and the coordination of toddlers.",
     "1. Shot 1: exactly THREE small cows, one per easel; shot 2: exactly ONE.\n2. The painting is PLAIN yogurt strokes — NO "
     "decoration, NO drawing, NO letters; every easel is taller than its painter.\n3. " + _TAIL,
-    "three easels taller than the painters, each with a big square sheet of soft aluminum foil; one cow backs up to judge her "
+    "three easels taller than the painters, all on the far side of the belt, each with a big square sheet of soft aluminum foil; one cow backs up to judge her "
     "work and bumps gently into the easel behind her, one dips her brush so deep into a big pot of yogurt that her glove comes "
     "out pink, one paints a plain stroke on tiptoe.",
-    "from the floor just behind COW A, who has stepped back: her soft shoulder in the near foreground, and beyond it, sharp, "
-    "her gloved fingers making a finger frame around the foil on her towering easel.",
+    "from the floor just behind COW A, who has stepped back from her easel: her soft shoulder and beret in the near foreground; "
+    "she raises BOTH gloves and makes a director's finger frame — the thumb and index finger of each glove forming the corners "
+    "of a rectangle — and through that rectangle we see her canvas: the square foil on the towering easel, already painted with "
+    "a few plain pink yogurt strokes.",
     "Shot 1: the bump, the pink glove, the tiptoe stroke. Shot 2: the art critic's finger frame; detail: she tilts her head. "
     "NOT: looking into the lens, frowning, a blank face, decoration on the foil.",
     "PHYSICS & MATERIAL — the foil flexes slightly under the brush; the yogurt is thick and glossy and leaves a clean ridge; "
@@ -870,7 +878,7 @@ P_6B = _insert_iso(
     "never dirt.",
     "three easels, the bump, the pink glove, the stroke",
     "over her shoulder from the floor, the finger frame",
-    extra_neg="decoration or drawings on the foil, ",
+    extra_neg="hairnets or aprons in hall 4, a mint-green art studio, a blank canvas in shot 2, a one-hand finger frame, decoration or drawings on the foil, ",
 )
 
 # ===========================================================================
