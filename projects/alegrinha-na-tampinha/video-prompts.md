@@ -713,38 +713,38 @@ NEGATIVE: a pause before the joy, words or shouts, a fully clean or a fully cove
 ## 8a · Finalização: chroma verde que se enche de iogurte (4 s)
 
 ```
-CONTRACT — Photoreal macro footage of a liquid, 16:9, 4 seconds total, ONE continuous locked-off take, real-time motion. No people, no product, no dialogue. NO music, NO subtitles, NO on-screen text.
+CONTRACT — Photoreal macro footage, 16:9, 4 seconds total, ONE continuous locked-off take, real-time motion: thick pink yogurt closes over the camera lens. No people, no cows, no product, no dialogue. NO music, NO subtitles, NO on-screen text.
 
 REFERENCES — each reference has ONE job:
 [last frame] END FRAME: the take ENDS exactly on this image — a flat, uniform, matte strawberry-yogurt pink (about #D88B88) filling the whole frame, with only a very soft, smooth tonal variation and no edge, bubble or highlight.
 
-SCENE & SOUL — SCENE: a plain chroma-key green screen fills, edge to edge, with thick pink strawberry yogurt, until only pink remains.
-THE SOUL OF THE SCENE (play it, never explain it): the creamiest possible way to end a film.
+SCENE & SOUL — SCENE: the camera looks at a plain chroma-key green screen while thick pink yogurt spreads over its lens from the edges inward, closing like an iris, until the whole lens is covered and only pink remains.
+THE SOUL OF THE SCENE (play it, never explain it): the creamiest possible way to end a film — the yogurt swallows the picture.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
 1. The first frame is a FLAT, EVEN chroma-key green (about #00B140) filling the whole frame — no texture, no shadow, no object.
-2. The camera is LOCKED OFF; only the yogurt moves.
-3. The last frame is EXACTLY the end-frame reference: uniform matte pink, no green left anywhere, not even at the corners.
-4. Nothing else ever appears: no cup, no spoon, no hand, no fruit, no text.
+2. The yogurt is ON THE LENS and closes from ALL edges toward the CENTRE, the green shrinking to a round window that seals in the middle — WRONG if it pours from one side or fills from the bottom.
+3. The camera is LOCKED OFF; only the yogurt moves.
+4. The last frame is EXACTLY the end-frame reference: uniform matte pink, no green left anywhere; nothing else ever appears.
 
 TIMELINE — ONE continuous take, no cuts:
-PART 1 (0–0.5s) — only the flat green screen.
-PART 2 (0.5–3s) — a thick wave of pink yogurt pours in from the top edge of the frame and spreads down and sideways across the green like a slow, creamy curtain, folding over itself in soft, glossy ribbons; the green shrinks to the lower corners and disappears.
-PART 3 (3–4s) — the surface settles and smooths out until the frame is one flat, uniform matte pink — the end frame. Hard end on the uniform pink.
+PART 1 (0–0.5s) — only the flat green screen, the lens clean.
+PART 2 (0.5–3s) — thick pink yogurt creeps onto the lens from all four edges and corners at once: the green becomes a soft, slightly irregular round window framed by a thick, creamy, glossy rim of yogurt, and the window shrinks steadily toward the centre of the frame, like an iris closing.
+PART 3 (3–4s) — the window closes in the centre and the yogurt settles into one flat, uniform matte pink — the end frame. Hard end on the uniform pink.
 
-CAMERA — locked off, STAYS PUT, frontal and perfectly square to the screen, the frame filled edge to edge; no lens drift; level. NOT: camera movement, zoom, a visible edge of the screen, a vignette.
+CAMERA — locked off, STAYS PUT, frontal and square to the screen; the yogurt sits on the lens glass, so its rim is soft and close while the green behind stays flat; no lens drift; level. NOT: camera movement, zoom, a visible edge of the screen.
 
-PHYSICS & MATERIAL — the yogurt is thick and creamy, heavier than paint: it flows slowly, folds, and leaves soft ribbons that melt back into a smooth surface; no splashes, no drops flying, no bubbles. START flat green; DURING the pink advancing over it; END flat uniform pink. Nothing floats, nothing loops.
+PHYSICS & MATERIAL — the yogurt is thick and creamy, heavier than paint: its rim advances slowly and evenly, rounded and glossy, with soft folds; no splashes, no drips, no bubbles. START flat green, clean lens; DURING a round green window shrinking inside a creamy pink rim; END flat uniform pink. Nothing floats, nothing loops.
 
-LIGHT — one large, soft, even frontal light: the green is perfectly uniform for a clean key; the yogurt shows only small soft glossy highlights while it moves, and none once it settles. NO shadows on the green, NO hard highlights, NO vignette.
+LIGHT — one large, soft, even frontal light: the green is perfectly uniform for a clean key; the yogurt rim shows soft glossy highlights while it moves, and none once it settles. NO shadows on the green, NO hard highlights.
 
 LOOK (KEY): clean, graphic, photoreal macro; flat colour fields; no grain, no lens flares, no light streaks.
 
-SOUND — a soft, thick, creamy pour and a gentle settle, nothing else. AUDIO: only the sounds listed here, with quiet room tone between them; nothing else is heard — NO music. NO voice-over.
+SOUND — a soft, thick, creamy squelch as the yogurt closes, and a gentle settle, nothing else. AUDIO: only the sounds listed here, with quiet room tone between them; nothing else is heard — NO music. NO voice-over.
 
-NEGATIVE: uneven or textured green, green left in the corners at the end, a cup, a spoon, a hand, fruit, splashes, bubbles, drops, a visible screen edge, camera movement, readable text, logos, subtitles, grain, vignette, lens flares, wrong aspect ratio.
+NEGATIVE: yogurt pouring from the top or one side, filling from the bottom, uneven or textured green, green left at the end, a cow, a cup, a spoon, a hand, fruit, splashes, bubbles, drops, a visible screen edge, camera movement, readable text, logos, subtitles, grain, lens flares, wrong aspect ratio.
 
-[ORDER: 1 locked-off take, 4s — (0–0.5s) flat chroma green; (0.5–3s) thick pink yogurt pours in from the top and covers the green; (3–4s) it settles into the flat uniform pink of the end frame. Invariants: flat green start; locked camera; uniform pink end, no green left; nothing else appears. NO text.]
+[ORDER: 1 locked-off take, 4s — (0–0.5s) flat chroma green; (0.5–3s) yogurt closes over the lens from all edges, a round green window shrinking to the centre like an iris; (3–4s) it seals and settles into the uniform pink of the end frame. Invariants: flat green start; closes from the edges to the centre; locked camera; uniform pink end. NO text.]
 ```
 
 ## 1d · Cena 1 inteira (alternativa a 1a+1bc) (16 s)
