@@ -160,7 +160,7 @@ SNAP_SHOT = (
 NOSTALGIA_SHOT = (
     "TIGHT CLOSE-UP, 29°, only 0.5 m from his face, the camera diagonal — about 35° toward his right side — and 20 cm ABOVE "
     "his eye line looking down: a three-quarter, slightly high angle. His face fills the frame from chin to hairline; his "
-    "hands are below frame; the tile wall soft behind, no ceiling. A moment after the crack he nods slightly, a few small up-and-down nods of quiet approval, with a light smile; his gaze stays level, never lifting upward and never into the lens."
+    "hands are below frame; the tile wall soft behind, no ceiling. A moment after the crack he nods slightly, a few small up-and-down nods of quiet approval, with a light smile; then he glances down toward the sink at frame-left, where his right hand, below frame, sets the other cup down. He never looks upward and never into the lens."
 )
 FOIL_SHOT = (
     "extreme close-up with the macro probe beside his right hand (" + HANDS.rstrip("; ") + "): the back of that hand large and "
@@ -240,14 +240,14 @@ P_1B = _join(
     "1. Two joined cups before the snap, exactly two after.\n"
     "2. THE FOLD: a C-grip, thumb flat on each cup's foil, the pair at BELLY height; gently, like closing a book, the joint RISES and the cup BOTTOMS swing together — WRONG if the joint dips, if he twists or pulls it apart, or holds it at face height.\n"
     "3. His LEFT hand keeps one cup; his RIGHT hand sets the other on the counter.\n"
-    "4. Shot 2 is a THREE-QUARTER, slight HIGH angle (no ceiling in frame); he nods slightly with a light smile, gaze level, never into the lens.",
+    "4. Shot 2 is a THREE-QUARTER, slight HIGH angle (no ceiling in frame); he nods slightly with a light smile, then glances down toward the sink; never upward, never into the lens.",
     "TIMELINE — 2 shots, 1 hard cut:\n"
     "SHOT 1 (0–3s) — " + SNAP_SHOT.format(snap="2s") + " HARD CUT.\n"
     "SHOT 2 (3–5s) — " + NOSTALGIA_SHOT + " Hard end.",
     acting_man(
         "get the snap clean and take it in without showing how much it matters. Tactic: savour — straight in, no hesitation, "
         "then a few small nods of approval.",
-        "— [0–2s] hands only — [2s] the crack — [3–5s] a few small nods of quiet approval, a light smile, gaze level.",
+        "— [0–2s] hands only — [2s] the crack — [3–4s] a few small nods of quiet approval, a light smile — [4–5s] he glances down toward the sink as he sets the other cup down.",
         "his shoulders drop a millimetre at the crack.",
         "sitcom delight, mugging, looking into the lens, looking down at the cup, a pause before the snap.",
     ),
@@ -263,7 +263,7 @@ P_1B = _join(
     "NEGATIVE: " + MACRO_NEG + "moving arms or elbows during the fold, a wide or medium shot instead of the close-up, a previz or clay look, doll-like hands, the joint dipping down, a pair twisted or pulled apart, three cups, a pause before the snap, a low "
     "angle with the ceiling in frame, " + LIVE_NEG_SPINE,
     "[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the gentle book-like fold, the snap at 2s; "
-    "(2, 3–5s) three-quarter slight high angle, small approving nods, light smile. Invariants: the gentle book-like fold; left hand "
+    "(2, 3–5s) three-quarter slight high angle, small approving nods, light smile, a glance down to the sink. Invariants: the gentle book-like fold; left hand "
     "keeps one; full 16:9 frame. Look: 35mm negative. NO text.]",
 )
 
@@ -344,7 +344,7 @@ P_1BC = _join(
     acting_man(
         "take in the snap without showing how much it matters, then get every bit of yogurt off the foil. Tactic: savour — no "
         "hesitation at the snap, let the sound carry him away, then the lick is casual, a habit. ",
-        "— [0–2s] hands only, the crack at 2s — [3–5s] a few small nods of quiet approval, a light smile, gaze level — [5–7s] hands only — [7–8s] a plain "
+        "— [0–2s] hands only, the crack at 2s — [3–4s] a few small nods of quiet approval, a light smile — [4–5s] he glances down toward the sink as he sets the other cup down — [5–7s] hands only — [7–8s] a plain "
         "look at the foil — [8–9s] he lifts the foil — [9–10s] a quick lick, eyes open on the foil — [10–11s] frozen.",
         "his shoulders drop a millimetre at the crack; none.",
         "sitcom delight, mugging, looking up, big nods, looking into the lens, a pause before the snap, a sensual or slow lick, closed eyes, "
@@ -364,7 +364,7 @@ P_1BC = _join(
     LIVE_WORLD,
     "NEGATIVE: " + MACRO_NEG + "moving arms or elbows during the fold, a wide or medium shot instead of the close-up, a previz or clay look, doll-like hands, a sensual or slow lick, closed eyes, pleasure on his face, savouring, tongue play, a round foil, a round cup, a thin smear of yogurt, the pair held at face height, a tray, the joint dipping down, a pair twisted or pulled apart, a pause before the snap, a low angle, a different cup in "
     "his left hand, a clean silver side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
-    "[ORDER: 4 shots, 3 hard cuts, 11s — (1, 0–3s) macro pull-back, the gentle book-like fold at 2s; (2, 3–5s) tight three-quarter close-up, small approving nods, light smile; (3, 5–7s) macro push-in, the foil opens like a little door; (4, 7–11s) the "
+    "[ORDER: 4 shots, 3 hard cuts, 11s — (1, 0–3s) macro pull-back, the gentle book-like fold at 2s; (2, 3–5s) tight three-quarter close-up, small approving nods, light smile, a glance down to the sink; (3, 5–7s) macro push-in, the foil opens like a little door; (4, 7–11s) the "
     "same three-quarter side, the lick, FREEZE from 10s. Invariants: the gentle book-like fold; the same cup in the left hand; a real layer of "
     "yogurt; real hands; daylight frame-left. Look: 35mm negative. NO text.]",
 )
@@ -403,7 +403,7 @@ P_1D = _join(
         "the whole ritual, from the fridge to the last lick, keeping the pleasure small. Tactic: savour — a moment slower "
         "at the fridge, no hesitation at the snap, the lick casual, a habit.",
         "— [0–5s] he opens the door, the smile arrives late, eyes follow the pair out — [5–8s] hands only, "
-        "the crack at 7s — [8–10s] a few small nods of quiet approval, a light smile — [10–12s] hands only — [12–15s] a plain look at "
+        "the crack at 7s — [8–9s] a few small nods of quiet approval, a light smile — [9–10s] he glances down toward the sink as he sets the other cup down — [10–12s] hands only — [12–15s] a plain look at "
         "the foil, a quick casual lick, eyes open — [15–16s] frozen.",
         "his eyes narrow slightly against the fridge light; his shoulders drop a millimetre at the crack.",
         "mugging, laughing, looking into the lens, a pause before the snap, a sensual or slow lick, closed eyes, savouring, any movement after the freeze.",
