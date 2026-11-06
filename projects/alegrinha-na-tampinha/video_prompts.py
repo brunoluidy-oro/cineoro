@@ -737,118 +737,138 @@ _INS_LOCKS_TAIL = (
     "5. Lit side FRAME-LEFT."
 )
 
-P_3B = _insert(
-    "2 shots with 1 hard cut at 4s", 8,
-    "HALL 1 outfit: a white hairnet with the horns poking through, white rubber boots and a pale-green apron.",
-    "SCENE & SOUL — SCENE: hall 1, fruit selection, seen from above and from belt level. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): the fruit is enormous, the cows are tiny, and they are thrilled.",
-    "1. SHOT 1 shows exactly TWO small cows; SHOT 2 shows EXACTLY ONE cow — WRONG if more cows appear.\n"
-    "2. WIDE AND SMALL: every cow is small in frame and the fruit is bigger than her head — WRONG if a cow fills the frame.\n"
-    + _INS_LOCKS_TAIL,
-    "SHOT 1 (0–4s) — straight-down top view, 63°, wide: the white belt crosses the frame left to right carrying giant "
-    "strawberries, apples and coconut halves; at the belt's edges two small cows in hairnets reach in with both arms; one "
-    "tugs a strawberry bigger than herself off the belt and staggers back with it, the other leans in after a bruised apple.\n"
-    "SHOT 2 (4–8s) — wide, low at belt level, 63°: a giant strawberry soft in the foreground; behind it one small cow in a "
-    "hairnet and apron hugs another strawberry bigger than her head, inspects it nose to seed, wobbles, and nods proudly. Hard "
-    "end.",
-    "ACTING — shot 1: two eager tuggers, one triumphant stagger. Shot 2: the cow inspects like a jeweller who can barely lift "
-    "the jewel; detail: her left ear flicks when she approves; the smile wide. NOT: looking into the lens, frowning, eyebrows, "
-    "a blank face.",
-    "Shot 1: the belt crosses the frame at its vertical centre, the cows at its top and bottom edges, small. Shot 2: the "
-    "foreground strawberry fills the lower left corner, soft; the cow stands 1.5 cow-lengths behind it at screen-centre-right, "
-    "about a sixth of the frame height, the tall hall above her.",
-    "PHYSICS & MATERIAL — the strawberries are heavy for the cows and rubbery: they dent under a hug and recover slowly; the "
-    "stagger has real weight; the bell swings and clinks softly. Nothing floats, nothing loops. MATERIAL TRUTH: matte "
-    "vinyl, modelled seeds on the strawberry, soft fillets; never dirt.",
-    "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) top view, giant fruit, two small cows tugging; (2, 4–8s) low wide, one small "
-    "cow hugging a giant strawberry. Invariants: cows small, fruit giant; no eyebrows, no frowns; black right ear; no text. "
-    "]",
+# Inserts padronizados (v1.22): 2 planos de 4 s em todos os setores
+#  plano 1 = ISOMÉTRICO (o ângulo do insert de frutas aprovado) com a ação geral do setor
+#  plano 2 = CHÃO, BASTIDOR, câmera na mão, um objeto gigante desfocado na frente e um detalhe da ação
+ISO_CAMERA = (
+    "SHOT 1 — ISOMETRIC (KEY, identical in all four factory inserts): a high three-quarter view looking down at about 45° onto "
+    "the hall from far away with a long lens (about 30°), so lines stay nearly parallel like an isometric diorama; the white "
+    "belt runs diagonally from the upper left to the lower right of the frame; the whole hall and all its cows are in frame, "
+    "small, each cow about one sixth of the frame height; the camera is locked off with only a very slow, steady drift."
+)
+GROUND_CAMERA = (
+    "SHOT 2 — GROUND-LEVEL BACKSTAGE (KEY, identical in all four factory inserts): a small handheld camera resting almost on "
+    "the floor at belt height, as if a behind-the-scenes crew were filming, with a gentle natural sway; a giant object huge "
+    "and soft out of focus in the near foreground, and behind it, sharp, one small cow doing one detail of the work, the hall "
+    "rising tall around her; 47°."
+)
+INSERT_LOOK_REF = (
+    "[image reference] INSERT LOOK — the approved isometric frame of the hall 1 insert: copy ONLY its camera angle, lens, "
+    "light, palette and material look, so all four inserts match; IGNORE its content."
 )
 
-P_4B = _insert(
-    "3 shots with 2 hard cuts at 3s and 6s", 9,
-    "HALL 2 outfit: a white lab coat with a blank badge and white rubber boots.",
-    "SCENE & SOUL — SCENE: hall 2, the pulp lab, in three wide details. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): science, taken far too seriously by someone far too small, and loved "
-    "completely.",
-    "1. EACH SHOT shows EXACTLY ONE small cow (in shot 3 she is in the background) — WRONG if more cows appear.\n"
-    "2. WIDE AND SMALL: the funnel is twice her height, the swatch strip taller than her — WRONG if a cow fills the frame.\n"
-    + _INS_LOCKS_TAIL,
-    "SHOT 1 (0–3s) — low wide angle, 63°: the huge pulp funnel towers over a small cow; on tiptoe she tosses a strawberry up "
-    "into it; it drops in with a plop and she hops for joy; thick pink pulp runs down the glass tubes.\n"
-    "SHOT 2 (3–6s) — wide, 63°: a small cow in a lab coat in front of a strip of pink swatches taller than she is; she holds "
-    "a test tube of pink pulp up against it, compares, and nods so hard her bell rings.\n"
-    "SHOT 3 (6–9s) — wide, low at belt level, 63°: a nozzle fills a pink cup on the belt with thick pink yogurt pulp; behind the "
-    "cup, small, a cow peeks over the rim, delighted. Hard end.",
-    "ACTING — shot 1: the tiptoe toss, the hop. Shot 2: the over-eager nod; detail: one ear tilts first. Shot 3: the peek of "
-    "pure delight. NOT: looking into the lens, frowning, eyebrows, a blank face.",
-    "Shot 1: the funnel at frame-centre rising out of the top of the frame, the cow small at its foot, frame-left. Shot 2: the "
-    "cow at the screen-left third, the swatch strip rising behind her. Shot 3: the nozzle above the belt at frame-centre, the "
-    "cup beneath it in the foreground, the cow 1.5 cow-lengths behind.",
-    "PHYSICS & MATERIAL — the pulp is thick and slow, it coats the glass and gathers in the cup; the strawberry tumbles once "
-    "and drops; the cup fills gradually (START empty, DURING rising pink, END full to the rim). Nothing floats, nothing loops. "
-    "MATERIAL TRUTH: matte vinyl machines, glossy pulp, clear glass tubes; never dirt.",
-    "[ORDER: 3 shots, 2 hard cuts, 9s — (1, 0–3s) the giant funnel, the tiptoe toss; (2, 3–6s) the tall swatch strip, the "
-    "nod; (3, 6–9s) the nozzle fills the cup, the cow peeks. Invariants: one small cow per shot; giant props; no eyebrows, no "
-    "frowns; black right ear; no text.]",
+
+def _insert_iso(hall, who, soul, locks, iso_action, ground_action, acting, physics, order_iso, order_ground, extra_neg=""):
+    return _join(
+        toon_contract(8, "2 shots with 1 hard cut at 4s: an isometric overview, then a ground-level backstage shot"),
+        "REFERENCES — each reference has ONE job:\n" + INSERT_LOOK_REF + "\n@char_vaca-vinil — IDENTITY of the cow.\n"
+        "@char_alegrinha-looks — the cow's outfit for this hall.\n@loc_fabrica — WORLD: the hall's materials, props and colours.\n"
+        + TOON_SCOPE,
+        "WHO IS WHO — READ FIRST, ABSOLUTE:\n" + COW + "\n" + who,
+        "SCENE & SOUL — SCENE: " + hall + ", seen first from above as an isometric overview, then from the floor like a "
+        "backstage shot. Already in progress.\nTHE SOUL OF THE SCENE (play it, never explain it): " + soul,
+        "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n" + locks + "\n"
+        "LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.",
+        "TIMELINE — 2 shots, 1 hard cut:\nSHOT 1 (0–4s) — isometric overview: " + iso_action + " HARD CUT.\n"
+        "SHOT 2 (4–8s) — ground-level backstage: " + ground_action + " Hard end.",
+        "ACTING — " + COW_STYLE + " " + acting,
+        "CAMERA — " + ISO_CAMERA + "\n" + GROUND_CAMERA + "\nNOT: close-ups of faces, a low or eye-level angle in shot 1, a "
+        "high angle in shot 2, drone, whip pan, zoom.",
+        "GEOMETRY — " + TOON_SCALE,
+        physics,
+        TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE, TOON_WORLD,
+        "NEGATIVE: " + extra_neg + TOON_NEG_SPINE.replace("camera shake, ", ""),
+        "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) isometric overview: " + order_iso + "; (2, 4–8s) ground-level backstage: "
+        + order_ground + ". Invariants: the same isometric angle and look as the other inserts; cows small; no eyebrows, no "
+        "frowns; black right ear; no text.]",
+    )
+
+
+_TAIL = "HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring. NO text anywhere."
+
+P_3B = _insert_iso(
+    "hall 1, fruit selection",
+    "HALL 1 outfit: a white hairnet with the horns poking through, white rubber boots and a pale-green apron. Shot 1 shows "
+    "the hall's THREE cows; shot 2 shows ONE.",
+    "the fruit is enormous, the cows are tiny, and they are thrilled.",
+    "1. Shot 1: exactly THREE small cows; shot 2: exactly ONE.\n2. Every fruit is bigger than a cow's head.\n3. " + _TAIL,
+    "giant strawberries, apples and coconut halves ride the diagonal belt; one cow hugs a strawberry bigger than her head and "
+    "waddles it onto the belt, one lifts an apple to inspect it, one shoves a coconut half along with her whole body.",
+    "a giant strawberry soft in the near foreground; behind it one small cow in a hairnet and apron hugs another strawberry "
+    "bigger than her head, inspects it, wobbles and nods proudly.",
+    "Shot 1: three eager workers, one wobble. Shot 2: the proud nod; detail: her left ear flicks when she approves. NOT: "
+    "looking into the lens, frowning, a blank face.",
+    "PHYSICS & MATERIAL — the fruit is heavy for the cows and rubbery: it dents under a hug and recovers slowly; the belt moves "
+    "steadily; the bells clink softly. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, modelled seeds, soft "
+    "fillets; never dirt.",
+    "giant fruit on the diagonal belt, three small cows at work",
+    "a giant strawberry in front, one cow hugging another",
 )
 
-P_5B = _insert(
-    "2 shots with 1 hard cut at 4s", 8,
-    "HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, in plain cream vinyl, at the microphone; COW B outside the "
-    "booth, standing in front of the audio desk and facing the booth, wearing over-ear headphones. Each shot shows ONE of them.",
-    "SCENE & SOUL — SCENE: hall 3, the sound studio, in two wide shots. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): the créqui is the sweetest sound the engineer has ever heard.",
-    "1. EXACTLY TWO cows in this hall; each shot shows one — WRONG if a third appears.\n"
-    "2. TWO joined cups, one in each glove, that she separates — WRONG if she starts with a single cup. Both cows small in frame.\n"
-    + _INS_LOCKS_TAIL,
-    "SHOT 1 (0–4s) — wide, 63°, inside the glass acoustic booth: a tall wall of acoustic foam, a microphone with a round pop "
-    "filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds two joined yogurt cups, one in each glove, and separates them with a crisp créqui; the needle on a meter jumps; she flinches at her "
-    "own loud snap, ears flying, then grins.\n"
-    "SHOT 2 (4–8s) — wide, 63°, outside the booth: COW B stands IN FRONT of a big toy-like audio desk with a few simple "
-    "sliders, her back to it, wearing over-ear headphones and turned toward the booth glass at frame-left, where COW A is "
-    "small inside; when the snap sounds she nods with approval and purses her lips in a small satisfied pout as if mooing. "
-    "Hard end.",
-    "ACTING — COW A: total concentration, then the flinch at her own snap, then the grin. COW B: listens toward the booth, then nods with approval at the snap. NOT: looking into the lens, mouths forming words, frowning, eyebrows, a blank face.",
-    "Shot 1: the cow at screen-centre on her box, the microphone between her and frame-left, the foam wall rising behind her "
-    "out of the top of the frame. Shot 2: the cow at the screen-right third standing in front of the desk, the desk "
-    "behind her, the booth glass at frame-left with COW A small inside.",
-    "PHYSICS & MATERIAL — the plastic break line resists, then gives with a sharp snap; no splinters; the cups stay sealed; the "
-    "meter's needle jumps and settles with a small overshoot; the glass booth shows soft reflections. Nothing floats, nothing "
-    "loops. MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.",
-    "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow separates the two cups, the créqui, the flinch; "
-    "(2, 4–8s) in front of the desk facing the booth, the approving nod. Invariants: exactly two cows, small; two cups separated; no "
-    "eyebrows, no frowns; black right ear; no text.]",
-    extra_neg="a single cup turning into two, the desk cow behind or hidden by the desk, a third cow, a pair that never separates, three cups, ",
+P_4B = _insert_iso(
+    "hall 2, the pulp lab",
+    "HALL 2 outfit: a white lab coat with a blank badge and white rubber boots. Shot 1 shows the hall's THREE cows; shot 2 "
+    "shows ONE.",
+    "science, taken far too seriously by someone far too small, and loved completely.",
+    "1. Shot 1: exactly THREE small cows, each at her station (funnel, swatch strip, console); shot 2: exactly ONE.\n"
+    "2. The cup is set on the belt by a cow's gloves, never appearing by itself.\n3. " + _TAIL,
+    "a huge pulp funnel with thick pink pulp running through glass tubes; one cow on tiptoe tosses a strawberry into the "
+    "funnel, one holds a test tube up to a tall strip of pink swatches, one presses a big green button and then sets an "
+    "empty pink cup on the diagonal belt with both gloves.",
+    "a pink yogurt cup on the belt huge in the near foreground while a nozzle fills it with thick pink pulp; behind the cup, "
+    "small and sharp, a cow peeks over the rim, delighted.",
+    "Shot 1: the tiptoe toss, the over-eager nod, the proud placing of the cup. Shot 2: the peek of pure delight. NOT: looking "
+    "into the lens, frowning, a blank face.",
+    "PHYSICS & MATERIAL — the pulp is thick and slow in the glass tubes and in the cup, which fills gradually (START empty, "
+    "DURING rising pink, END full); the strawberry tumbles once and drops. Nothing floats, nothing loops. MATERIAL TRUTH: matte "
+    "vinyl machines, glossy pulp, clear glass; never dirt.",
+    "the funnel, the swatches, the button and the cup placed on the belt",
+    "the nozzle fills the cup, a cow peeks",
+    extra_neg="a cup appearing by itself, only two cows in shot 1, ",
 )
 
-P_6B = _insert(
-    "3 shots with 2 hard cuts at 3s and 6s", 9,
-    "HALL 4 outfit: a cream painter's smock and a small beret between the horns. Three cows, one per easel; each shot shows one.",
-    "SCENE & SOUL — SCENE: hall 4, the art studio, in three wide beats. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): they paint yogurt onto foil with the gravity of old masters and the "
-    "coordination of toddlers.",
-    "1. THREE cows in this hall, one per easel; each shot shows one — WRONG if the count changes.\n"
-    "2. The painting is PLAIN: simple yogurt strokes, NO decoration, NO drawing, NO letters; every easel is taller than its "
-    "painter.\n" + _INS_LOCKS_TAIL,
-    "SHOT 1 (0–3s) — wide, low, 63°: an easel taller than the painter holds a big flat sheet of soft aluminum foil; small "
-    "COW C, on tiptoe, brushes one plain stroke of yogurt onto it, the tip of her red tongue poking out in concentration.\n"
-    "SHOT 2 (3–6s) — wide, 63°: a pot of yogurt as tall as her waist; COW B dips her brush in so deep that her whole glove comes "
-    "out pink, looks at it, and shrugs happily.\n"
-    "SHOT 3 (6–9s) — wide over-the-shoulder, 63°, from just behind COW A, who has stepped back to judge her work: she makes a finger "
-    "frame with her gloved fingers around the foil on her towering easel. Hard end.",
-    "ACTING — COW C: the tongue of concentration, the careful stroke. COW B: the pink glove, the happy shrug. COW A: the art "
-    "critic's finger frame; detail: she tilts her head. NOT: looking into the lens, frowning, eyebrows, a blank face, "
-    "decoration on the foil.",
-    "Shots 1 and 2: the cow small at the screen-left third, the easel or the pot rising beside her; shot 3: the camera 0.5 "
-    "cow-lengths behind and to the left of COW A's shoulder, her finger frame at frame-centre, the foil on the easel sharp "
-    "inside it, the easel about 2 cow-lengths away and taller than her.",
-    "PHYSICS & MATERIAL — the foil is a thin soft aluminum sheet that flexes slightly under the brush; the yogurt is thick and "
-    "glossy, it drags and leaves a clean ridge; the brush dips and lifts heavy with yogurt; the pink glove drips once into the "
-    "pot. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, glossy yogurt, soft foil; never dirt.",
-    "[ORDER: 3 shots, 2 hard cuts, 9s — (1, 0–3s) the tall easel, the tiptoe stroke; (2, 3–6s) the big pot, the pink glove; "
-    "(3, 6–9s) over the shoulder, the finger frame. Invariants: three cows, one per shot, small; plain, no decoration; no "
-    "eyebrows, no frowns; black right ear; no text.]",
+P_5B = _insert_iso(
+    "hall 3, the sound studio",
+    "HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, in plain cream vinyl, at a tall microphone; COW B "
+    "outside the booth, standing in front of a big toy-like audio desk and facing the booth, wearing over-ear headphones.",
+    "the créqui is the sweetest sound the engineer has ever heard.",
+    "1. EXACTLY TWO cows in this hall.\n2. COW A holds two joined cups, one in each glove, and separates them — WRONG if she "
+    "starts with a single cup.\n3. " + _TAIL,
+    "the glass booth with a tall wall of acoustic foam; inside, COW A on a little box holds two joined yogurt cups, one in each "
+    "glove, and separates them with a crisp créqui; outside, COW B stands in front of the audio desk, turned toward the booth, "
+    "and nods with approval when she hears it.",
+    "from the floor just outside the booth, the corner of the audio desk huge and soft in the near foreground; behind it, "
+    "sharp, COW B in headphones listens toward the booth and nods with approval, a small satisfied pout as if mooing; COW A "
+    "is tiny behind the glass.",
+    "COW A: total concentration, then a flinch at her own snap, then a grin. COW B: listens toward the booth, then nods with "
+    "approval. NOT: looking into the lens, mouths forming words, frowning, a blank face.",
+    "PHYSICS & MATERIAL — the plastic break line gives with a sharp snap; the cups stay sealed; a meter's needle jumps; the "
+    "glass booth shows soft reflections. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, clear glass, soft "
+    "acoustic foam; never dirt.",
+    "the booth, the two cups separated, the engineer's nod",
+    "the engineer in headphones nodding, the booth behind",
+    extra_neg="a third cow, a single cup turning into two, ",
+)
+
+P_6B = _insert_iso(
+    "hall 4, the art studio",
+    "HALL 4 outfit: a cream painter's smock and a small beret between the horns. Shot 1 shows the hall's THREE cows; shot 2 "
+    "shows ONE.",
+    "they paint yogurt onto foil with the gravity of old masters and the coordination of toddlers.",
+    "1. Shot 1: exactly THREE small cows, one per easel; shot 2: exactly ONE.\n2. The painting is PLAIN yogurt strokes — NO "
+    "decoration, NO drawing, NO letters; every easel is taller than its painter.\n3. " + _TAIL,
+    "three easels taller than the painters, each with a big square sheet of soft aluminum foil; one cow backs up to judge her "
+    "work and bumps gently into the easel behind her, one dips her brush so deep into a big pot of yogurt that her glove comes "
+    "out pink, one paints a plain stroke on tiptoe.",
+    "from the floor just behind COW A, who has stepped back: her soft shoulder in the near foreground, and beyond it, sharp, "
+    "her gloved fingers making a finger frame around the foil on her towering easel.",
+    "Shot 1: the bump, the pink glove, the tiptoe stroke. Shot 2: the art critic's finger frame; detail: she tilts her head. "
+    "NOT: looking into the lens, frowning, a blank face, decoration on the foil.",
+    "PHYSICS & MATERIAL — the foil flexes slightly under the brush; the yogurt is thick and glossy and leaves a clean ridge; "
+    "the brush lifts heavy with yogurt. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, glossy yogurt, soft foil; "
+    "never dirt.",
+    "three easels, the bump, the pink glove, the stroke",
+    "over her shoulder from the floor, the finger frame",
     extra_neg="decoration or drawings on the foil, ",
 )
 
@@ -862,9 +882,9 @@ PROMPTS = {
     "3a-A": ("3a · Espinha, abertura A (a vaca limpa)", 30, P_3A_A),
     "3a-B": ("3a · Espinha, abertura B (a lente se limpa sozinha)", 30, P_3A_B),
     "3b": ("3b · Inserts do Setor 1", 8, P_3B),
-    "4b": ("4b · Inserts do Setor 2", 9, P_4B),
+    "4b": ("4b · Inserts do Setor 2", 8, P_4B),
     "5b": ("5b · Inserts do Setor 3", 8, P_5B),
-    "6b": ("6b · Inserts do Setor 4", 9, P_6B),
+    "6b": ("6b · Inserts do Setor 4", 8, P_6B),
     "7a": ("7a · A vitória", 6, P_7A),
 }
 # 1d é uma alternativa a 1a+1b+1c (mesmos 15 s); fica fora de BASE_KEYS e ALT_KEYS para não somar duas vezes.

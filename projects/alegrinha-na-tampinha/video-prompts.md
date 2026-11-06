@@ -389,9 +389,10 @@ NEGATIVE: only two cows in hall 2, a cup appearing by itself, yogurt left on the
 ## 3b · Inserts do Setor 1 (8 s)
 
 ```
-CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds total, 2 shots with 1 hard cut at 4s, backstage handheld camera, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
+CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds total, 2 shots with 1 hard cut at 4s: an isometric overview, then a ground-level backstage shot, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
 
 REFERENCES — each reference has ONE job:
+[image reference] INSERT LOOK — the approved isometric frame of the hall 1 insert: copy ONLY its camera angle, lens, light, palette and material look, so all four inserts match; IGNORE its content.
 @char_vaca-vinil — IDENTITY of the cow.
 @char_alegrinha-looks — the cow's outfit for this hall.
 @loc_fabrica — WORLD: the hall's materials, props and colours.
@@ -399,29 +400,30 @@ REFERENCE SCOPE: @char_vaca-vinil and @char_alegrinha-looks supply the cow, her 
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 THE ALEGRINHA — the matte vinyl cow of @char_vaca-vinil (100% matches): cream body, her RIGHT ear black (screen-left when she faces the camera), small horns, round dot eyes, a wide smile that can open to show a small red mouth, a pink belly patch, black flank patches, black gloves and hooves, a golden bell on a cord; NO keyring. NO EYEBROWS and no brow line, so she can never look angry. Outfits per hall from @char_alegrinha-looks: hairnet, boots and pale-green apron (hall 1); white lab coat (hall 2); over-ear headphones (hall 3); painter's smock and beret (hall 4).
-HALL 1 outfit: a white hairnet with the horns poking through, white rubber boots and a pale-green apron.
+HALL 1 outfit: a white hairnet with the horns poking through, white rubber boots and a pale-green apron. Shot 1 shows the hall's THREE cows; shot 2 shows ONE.
 
-SCENE & SOUL — SCENE: hall 1, fruit selection, seen from above and from belt level. Already in progress.
+SCENE & SOUL — SCENE: hall 1, fruit selection, seen first from above as an isometric overview, then from the floor like a backstage shot. Already in progress.
 THE SOUL OF THE SCENE (play it, never explain it): the fruit is enormous, the cows are tiny, and they are thrilled.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. SHOT 1 shows exactly TWO small cows; SHOT 2 shows EXACTLY ONE cow — WRONG if more cows appear.
-2. WIDE AND SMALL: every cow is small in frame and the fruit is bigger than her head — WRONG if a cow fills the frame.
-3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring.
-4. NO text anywhere.
-5. Lit side FRAME-LEFT.
+1. Shot 1: exactly THREE small cows; shot 2: exactly ONE.
+2. Every fruit is bigger than a cow's head.
+3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring. NO text anywhere.
+LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.
 
-TIMELINE — hard cuts only at the specified seconds; the camera adds no cuts of its own:
-SHOT 1 (0–4s) — straight-down top view, 63°, wide: the white belt crosses the frame left to right carrying giant strawberries, apples and coconut halves; at the belt's edges two small cows in hairnets reach in with both arms; one tugs a strawberry bigger than herself off the belt and staggers back with it, the other leans in after a bruised apple.
-SHOT 2 (4–8s) — wide, low at belt level, 63°: a giant strawberry soft in the foreground; behind it one small cow in a hairnet and apron hugs another strawberry bigger than her head, inspects it nose to seed, wobbles, and nods proudly. Hard end.
+TIMELINE — 2 shots, 1 hard cut:
+SHOT 1 (0–4s) — isometric overview: giant strawberries, apples and coconut halves ride the diagonal belt; one cow hugs a strawberry bigger than her head and waddles it onto the belt, one lifts an apple to inspect it, one shoves a coconut half along with her whole body. HARD CUT.
+SHOT 2 (4–8s) — ground-level backstage: a giant strawberry soft in the near foreground; behind it one small cow in a hairnet and apron hugs another strawberry bigger than her head, inspects it, wobbles and nods proudly. Hard end.
 
-ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. shot 1: two eager tuggers, one triumphant stagger. Shot 2: the cow inspects like a jeweller who can barely lift the jewel; detail: her left ear flicks when she approves; the smile wide. NOT: looking into the lens, frowning, eyebrows, a blank face.
+ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. Shot 1: three eager workers, one wobble. Shot 2: the proud nod; detail: her left ear flicks when she approves. NOT: looking into the lens, frowning, a blank face.
 
-CAMERA — BACKSTAGE HANDHELD (KEY): as if a behind-the-scenes crew were filming the factory at work — a small handheld camera held at cow height by an operator standing among the machines, with a gentle, natural sway, small breathing reframes and the occasional quick correction to keep the action in frame, never shaky or chaotic; still WIDE, the whole setting around the cow in frame, never a close-up or a medium shot; shot sizes and angles as stated per shot; level horizon on average unless a shot says top-down. NOT: a locked-off tripod look, a smooth rail or gimbal glide, drone, whip pan, zoom, close-ups.
+CAMERA — SHOT 1 — ISOMETRIC (KEY, identical in all four factory inserts): a high three-quarter view looking down at about 45° onto the hall from far away with a long lens (about 30°), so lines stay nearly parallel like an isometric diorama; the white belt runs diagonally from the upper left to the lower right of the frame; the whole hall and all its cows are in frame, small, each cow about one sixth of the frame height; the camera is locked off with only a very slow, steady drift.
+SHOT 2 — GROUND-LEVEL BACKSTAGE (KEY, identical in all four factory inserts): a small handheld camera resting almost on the floor at belt height, as if a behind-the-scenes crew were filming, with a gentle natural sway; a giant object huge and soft out of focus in the near foreground, and behind it, sharp, one small cow doing one detail of the work, the hall rising tall around her; 47°.
+NOT: close-ups of faces, a low or eye-level angle in shot 1, a high angle in shot 2, drone, whip pan, zoom.
 
-GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height. Shot 1: the belt crosses the frame at its vertical centre, the cows at its top and bottom edges, small. Shot 2: the foreground strawberry fills the lower left corner, soft; the cow stands 1.5 cow-lengths behind it at screen-centre-right, about a sixth of the frame height, the tall hall above her.
+GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height.
 
-PHYSICS & MATERIAL — the strawberries are heavy for the cows and rubbery: they dent under a hug and recover slowly; the stagger has real weight; the bell swings and clinks softly. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, modelled seeds on the strawberry, soft fillets; never dirt.
+PHYSICS & MATERIAL — the fruit is heavy for the cows and rubbery: it dents under a hug and recovers slowly; the belt moves steadily; the bells clink softly. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, modelled seeds, soft fillets; never dirt.
 
 LIGHT — STYLIZED STUDIO LIGHT, soft and clear (KEY): one large soft key that travels with the camera, high at FRAME-LEFT (~5600 K); a pale sky-blue bounce from FRAME-RIGHT; small warm bulbs on the machines; the back wall half a stop darker. Shadows lifted pastel, never black. The lit side of every cow is FRAME-LEFT and never flips.
 
@@ -434,15 +436,16 @@ WORLD — a big green factory for small cows: one white belt runs FRAME-LEFT to 
 
 NEGATIVE: eyebrows, frowning or angry faces, cows filling the frame, normal-size fruit, humans, speech or lip-sync, keyring, wrong number of cows, merged cows, swapped ear colours, 2D cel look, glossy plastic, hard black shadows, dirt, film grain, readable text, logos, subtitles, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) top view, giant fruit, two small cows tugging; (2, 4–8s) low wide, one small cow hugging a giant strawberry. Invariants: cows small, fruit giant; no eyebrows, no frowns; black right ear; no text. ]
+[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) isometric overview: giant fruit on the diagonal belt, three small cows at work; (2, 4–8s) ground-level backstage: a giant strawberry in front, one cow hugging another. Invariants: the same isometric angle and look as the other inserts; cows small; no eyebrows, no frowns; black right ear; no text.]
 ```
 
-## 4b · Inserts do Setor 2 (9 s)
+## 4b · Inserts do Setor 2 (8 s)
 
 ```
-CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 9 seconds total, 3 shots with 2 hard cuts at 3s and 6s, backstage handheld camera, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
+CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds total, 2 shots with 1 hard cut at 4s: an isometric overview, then a ground-level backstage shot, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
 
 REFERENCES — each reference has ONE job:
+[image reference] INSERT LOOK — the approved isometric frame of the hall 1 insert: copy ONLY its camera angle, lens, light, palette and material look, so all four inserts match; IGNORE its content.
 @char_vaca-vinil — IDENTITY of the cow.
 @char_alegrinha-looks — the cow's outfit for this hall.
 @loc_fabrica — WORLD: the hall's materials, props and colours.
@@ -450,30 +453,30 @@ REFERENCE SCOPE: @char_vaca-vinil and @char_alegrinha-looks supply the cow, her 
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 THE ALEGRINHA — the matte vinyl cow of @char_vaca-vinil (100% matches): cream body, her RIGHT ear black (screen-left when she faces the camera), small horns, round dot eyes, a wide smile that can open to show a small red mouth, a pink belly patch, black flank patches, black gloves and hooves, a golden bell on a cord; NO keyring. NO EYEBROWS and no brow line, so she can never look angry. Outfits per hall from @char_alegrinha-looks: hairnet, boots and pale-green apron (hall 1); white lab coat (hall 2); over-ear headphones (hall 3); painter's smock and beret (hall 4).
-HALL 2 outfit: a white lab coat with a blank badge and white rubber boots.
+HALL 2 outfit: a white lab coat with a blank badge and white rubber boots. Shot 1 shows the hall's THREE cows; shot 2 shows ONE.
 
-SCENE & SOUL — SCENE: hall 2, the pulp lab, in three wide details. Already in progress.
+SCENE & SOUL — SCENE: hall 2, the pulp lab, seen first from above as an isometric overview, then from the floor like a backstage shot. Already in progress.
 THE SOUL OF THE SCENE (play it, never explain it): science, taken far too seriously by someone far too small, and loved completely.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. EACH SHOT shows EXACTLY ONE small cow (in shot 3 she is in the background) — WRONG if more cows appear.
-2. WIDE AND SMALL: the funnel is twice her height, the swatch strip taller than her — WRONG if a cow fills the frame.
-3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring.
-4. NO text anywhere.
-5. Lit side FRAME-LEFT.
+1. Shot 1: exactly THREE small cows, each at her station (funnel, swatch strip, console); shot 2: exactly ONE.
+2. The cup is set on the belt by a cow's gloves, never appearing by itself.
+3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring. NO text anywhere.
+LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.
 
-TIMELINE — hard cuts only at the specified seconds; the camera adds no cuts of its own:
-SHOT 1 (0–3s) — low wide angle, 63°: the huge pulp funnel towers over a small cow; on tiptoe she tosses a strawberry up into it; it drops in with a plop and she hops for joy; thick pink pulp runs down the glass tubes.
-SHOT 2 (3–6s) — wide, 63°: a small cow in a lab coat in front of a strip of pink swatches taller than she is; she holds a test tube of pink pulp up against it, compares, and nods so hard her bell rings.
-SHOT 3 (6–9s) — wide, low at belt level, 63°: a nozzle fills a pink cup on the belt with thick pink yogurt pulp; behind the cup, small, a cow peeks over the rim, delighted. Hard end.
+TIMELINE — 2 shots, 1 hard cut:
+SHOT 1 (0–4s) — isometric overview: a huge pulp funnel with thick pink pulp running through glass tubes; one cow on tiptoe tosses a strawberry into the funnel, one holds a test tube up to a tall strip of pink swatches, one presses a big green button and then sets an empty pink cup on the diagonal belt with both gloves. HARD CUT.
+SHOT 2 (4–8s) — ground-level backstage: a pink yogurt cup on the belt huge in the near foreground while a nozzle fills it with thick pink pulp; behind the cup, small and sharp, a cow peeks over the rim, delighted. Hard end.
 
-ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. shot 1: the tiptoe toss, the hop. Shot 2: the over-eager nod; detail: one ear tilts first. Shot 3: the peek of pure delight. NOT: looking into the lens, frowning, eyebrows, a blank face.
+ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. Shot 1: the tiptoe toss, the over-eager nod, the proud placing of the cup. Shot 2: the peek of pure delight. NOT: looking into the lens, frowning, a blank face.
 
-CAMERA — BACKSTAGE HANDHELD (KEY): as if a behind-the-scenes crew were filming the factory at work — a small handheld camera held at cow height by an operator standing among the machines, with a gentle, natural sway, small breathing reframes and the occasional quick correction to keep the action in frame, never shaky or chaotic; still WIDE, the whole setting around the cow in frame, never a close-up or a medium shot; shot sizes and angles as stated per shot; level horizon on average unless a shot says top-down. NOT: a locked-off tripod look, a smooth rail or gimbal glide, drone, whip pan, zoom, close-ups.
+CAMERA — SHOT 1 — ISOMETRIC (KEY, identical in all four factory inserts): a high three-quarter view looking down at about 45° onto the hall from far away with a long lens (about 30°), so lines stay nearly parallel like an isometric diorama; the white belt runs diagonally from the upper left to the lower right of the frame; the whole hall and all its cows are in frame, small, each cow about one sixth of the frame height; the camera is locked off with only a very slow, steady drift.
+SHOT 2 — GROUND-LEVEL BACKSTAGE (KEY, identical in all four factory inserts): a small handheld camera resting almost on the floor at belt height, as if a behind-the-scenes crew were filming, with a gentle natural sway; a giant object huge and soft out of focus in the near foreground, and behind it, sharp, one small cow doing one detail of the work, the hall rising tall around her; 47°.
+NOT: close-ups of faces, a low or eye-level angle in shot 1, a high angle in shot 2, drone, whip pan, zoom.
 
-GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height. Shot 1: the funnel at frame-centre rising out of the top of the frame, the cow small at its foot, frame-left. Shot 2: the cow at the screen-left third, the swatch strip rising behind her. Shot 3: the nozzle above the belt at frame-centre, the cup beneath it in the foreground, the cow 1.5 cow-lengths behind.
+GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height.
 
-PHYSICS & MATERIAL — the pulp is thick and slow, it coats the glass and gathers in the cup; the strawberry tumbles once and drops; the cup fills gradually (START empty, DURING rising pink, END full to the rim). Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl machines, glossy pulp, clear glass tubes; never dirt.
+PHYSICS & MATERIAL — the pulp is thick and slow in the glass tubes and in the cup, which fills gradually (START empty, DURING rising pink, END full); the strawberry tumbles once and drops. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl machines, glossy pulp, clear glass; never dirt.
 
 LIGHT — STYLIZED STUDIO LIGHT, soft and clear (KEY): one large soft key that travels with the camera, high at FRAME-LEFT (~5600 K); a pale sky-blue bounce from FRAME-RIGHT; small warm bulbs on the machines; the back wall half a stop darker. Shadows lifted pastel, never black. The lit side of every cow is FRAME-LEFT and never flips.
 
@@ -484,17 +487,18 @@ SOUND — SOFT FOLEY ONLY: the belt's soft rumble, padded footsteps of vinyl hoo
 
 WORLD — a big green factory for small cows: one white belt runs FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings; fruit rides it in hall 1, pink yogurt cups from hall 2 on. No humans. Signs and screens are blank: NO letters, NO numerals, NO logos.
 
-NEGATIVE: eyebrows, frowning or angry faces, cows filling the frame, normal-size fruit, humans, speech or lip-sync, keyring, wrong number of cows, merged cows, swapped ear colours, 2D cel look, glossy plastic, hard black shadows, dirt, film grain, readable text, logos, subtitles, wrong aspect ratio.
+NEGATIVE: a cup appearing by itself, only two cows in shot 1, eyebrows, frowning or angry faces, cows filling the frame, normal-size fruit, humans, speech or lip-sync, keyring, wrong number of cows, merged cows, swapped ear colours, 2D cel look, glossy plastic, hard black shadows, dirt, film grain, readable text, logos, subtitles, wrong aspect ratio.
 
-[ORDER: 3 shots, 2 hard cuts, 9s — (1, 0–3s) the giant funnel, the tiptoe toss; (2, 3–6s) the tall swatch strip, the nod; (3, 6–9s) the nozzle fills the cup, the cow peeks. Invariants: one small cow per shot; giant props; no eyebrows, no frowns; black right ear; no text.]
+[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) isometric overview: the funnel, the swatches, the button and the cup placed on the belt; (2, 4–8s) ground-level backstage: the nozzle fills the cup, a cow peeks. Invariants: the same isometric angle and look as the other inserts; cows small; no eyebrows, no frowns; black right ear; no text.]
 ```
 
 ## 5b · Inserts do Setor 3 (8 s)
 
 ```
-CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds total, 2 shots with 1 hard cut at 4s, backstage handheld camera, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
+CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds total, 2 shots with 1 hard cut at 4s: an isometric overview, then a ground-level backstage shot, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
 
 REFERENCES — each reference has ONE job:
+[image reference] INSERT LOOK — the approved isometric frame of the hall 1 insert: copy ONLY its camera angle, lens, light, palette and material look, so all four inserts match; IGNORE its content.
 @char_vaca-vinil — IDENTITY of the cow.
 @char_alegrinha-looks — the cow's outfit for this hall.
 @loc_fabrica — WORLD: the hall's materials, props and colours.
@@ -502,29 +506,30 @@ REFERENCE SCOPE: @char_vaca-vinil and @char_alegrinha-looks supply the cow, her 
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 THE ALEGRINHA — the matte vinyl cow of @char_vaca-vinil (100% matches): cream body, her RIGHT ear black (screen-left when she faces the camera), small horns, round dot eyes, a wide smile that can open to show a small red mouth, a pink belly patch, black flank patches, black gloves and hooves, a golden bell on a cord; NO keyring. NO EYEBROWS and no brow line, so she can never look angry. Outfits per hall from @char_alegrinha-looks: hairnet, boots and pale-green apron (hall 1); white lab coat (hall 2); over-ear headphones (hall 3); painter's smock and beret (hall 4).
-HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, in plain cream vinyl, at the microphone; COW B outside the booth, standing in front of the audio desk and facing the booth, wearing over-ear headphones. Each shot shows ONE of them.
+HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, in plain cream vinyl, at a tall microphone; COW B outside the booth, standing in front of a big toy-like audio desk and facing the booth, wearing over-ear headphones.
 
-SCENE & SOUL — SCENE: hall 3, the sound studio, in two wide shots. Already in progress.
+SCENE & SOUL — SCENE: hall 3, the sound studio, seen first from above as an isometric overview, then from the floor like a backstage shot. Already in progress.
 THE SOUL OF THE SCENE (play it, never explain it): the créqui is the sweetest sound the engineer has ever heard.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. EXACTLY TWO cows in this hall; each shot shows one — WRONG if a third appears.
-2. TWO joined cups, one in each glove, that she separates — WRONG if she starts with a single cup. Both cows small in frame.
-3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring.
-4. NO text anywhere.
-5. Lit side FRAME-LEFT.
+1. EXACTLY TWO cows in this hall.
+2. COW A holds two joined cups, one in each glove, and separates them — WRONG if she starts with a single cup.
+3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring. NO text anywhere.
+LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.
 
-TIMELINE — hard cuts only at the specified seconds; the camera adds no cuts of its own:
-SHOT 1 (0–4s) — wide, 63°, inside the glass acoustic booth: a tall wall of acoustic foam, a microphone with a round pop filter on a stand taller than the cow; small COW A stands on a little box in front of it, holds two joined yogurt cups, one in each glove, and separates them with a crisp créqui; the needle on a meter jumps; she flinches at her own loud snap, ears flying, then grins.
-SHOT 2 (4–8s) — wide, 63°, outside the booth: COW B stands IN FRONT of a big toy-like audio desk with a few simple sliders, her back to it, wearing over-ear headphones and turned toward the booth glass at frame-left, where COW A is small inside; when the snap sounds she nods with approval and purses her lips in a small satisfied pout as if mooing. Hard end.
+TIMELINE — 2 shots, 1 hard cut:
+SHOT 1 (0–4s) — isometric overview: the glass booth with a tall wall of acoustic foam; inside, COW A on a little box holds two joined yogurt cups, one in each glove, and separates them with a crisp créqui; outside, COW B stands in front of the audio desk, turned toward the booth, and nods with approval when she hears it. HARD CUT.
+SHOT 2 (4–8s) — ground-level backstage: from the floor just outside the booth, the corner of the audio desk huge and soft in the near foreground; behind it, sharp, COW B in headphones listens toward the booth and nods with approval, a small satisfied pout as if mooing; COW A is tiny behind the glass. Hard end.
 
-ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. COW A: total concentration, then the flinch at her own snap, then the grin. COW B: listens toward the booth, then nods with approval at the snap. NOT: looking into the lens, mouths forming words, frowning, eyebrows, a blank face.
+ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. COW A: total concentration, then a flinch at her own snap, then a grin. COW B: listens toward the booth, then nods with approval. NOT: looking into the lens, mouths forming words, frowning, a blank face.
 
-CAMERA — BACKSTAGE HANDHELD (KEY): as if a behind-the-scenes crew were filming the factory at work — a small handheld camera held at cow height by an operator standing among the machines, with a gentle, natural sway, small breathing reframes and the occasional quick correction to keep the action in frame, never shaky or chaotic; still WIDE, the whole setting around the cow in frame, never a close-up or a medium shot; shot sizes and angles as stated per shot; level horizon on average unless a shot says top-down. NOT: a locked-off tripod look, a smooth rail or gimbal glide, drone, whip pan, zoom, close-ups.
+CAMERA — SHOT 1 — ISOMETRIC (KEY, identical in all four factory inserts): a high three-quarter view looking down at about 45° onto the hall from far away with a long lens (about 30°), so lines stay nearly parallel like an isometric diorama; the white belt runs diagonally from the upper left to the lower right of the frame; the whole hall and all its cows are in frame, small, each cow about one sixth of the frame height; the camera is locked off with only a very slow, steady drift.
+SHOT 2 — GROUND-LEVEL BACKSTAGE (KEY, identical in all four factory inserts): a small handheld camera resting almost on the floor at belt height, as if a behind-the-scenes crew were filming, with a gentle natural sway; a giant object huge and soft out of focus in the near foreground, and behind it, sharp, one small cow doing one detail of the work, the hall rising tall around her; 47°.
+NOT: close-ups of faces, a low or eye-level angle in shot 1, a high angle in shot 2, drone, whip pan, zoom.
 
-GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height. Shot 1: the cow at screen-centre on her box, the microphone between her and frame-left, the foam wall rising behind her out of the top of the frame. Shot 2: the cow at the screen-right third standing in front of the desk, the desk behind her, the booth glass at frame-left with COW A small inside.
+GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height.
 
-PHYSICS & MATERIAL — the plastic break line resists, then gives with a sharp snap; no splinters; the cups stay sealed; the meter's needle jumps and settles with a small overshoot; the glass booth shows soft reflections. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.
+PHYSICS & MATERIAL — the plastic break line gives with a sharp snap; the cups stay sealed; a meter's needle jumps; the glass booth shows soft reflections. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.
 
 LIGHT — STYLIZED STUDIO LIGHT, soft and clear (KEY): one large soft key that travels with the camera, high at FRAME-LEFT (~5600 K); a pale sky-blue bounce from FRAME-RIGHT; small warm bulbs on the machines; the back wall half a stop darker. Shadows lifted pastel, never black. The lit side of every cow is FRAME-LEFT and never flips.
 
@@ -535,17 +540,18 @@ SOUND — SOFT FOLEY ONLY: the belt's soft rumble, padded footsteps of vinyl hoo
 
 WORLD — a big green factory for small cows: one white belt runs FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings; fruit rides it in hall 1, pink yogurt cups from hall 2 on. No humans. Signs and screens are blank: NO letters, NO numerals, NO logos.
 
-NEGATIVE: a single cup turning into two, the desk cow behind or hidden by the desk, a third cow, a pair that never separates, three cups, eyebrows, frowning or angry faces, cows filling the frame, normal-size fruit, humans, speech or lip-sync, keyring, wrong number of cows, merged cows, swapped ear colours, 2D cel look, glossy plastic, hard black shadows, dirt, film grain, readable text, logos, subtitles, wrong aspect ratio.
+NEGATIVE: a third cow, a single cup turning into two, eyebrows, frowning or angry faces, cows filling the frame, normal-size fruit, humans, speech or lip-sync, keyring, wrong number of cows, merged cows, swapped ear colours, 2D cel look, glossy plastic, hard black shadows, dirt, film grain, readable text, logos, subtitles, wrong aspect ratio.
 
-[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow separates the two cups, the créqui, the flinch; (2, 4–8s) in front of the desk facing the booth, the approving nod. Invariants: exactly two cows, small; two cups separated; no eyebrows, no frowns; black right ear; no text.]
+[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) isometric overview: the booth, the two cups separated, the engineer's nod; (2, 4–8s) ground-level backstage: the engineer in headphones nodding, the booth behind. Invariants: the same isometric angle and look as the other inserts; cows small; no eyebrows, no frowns; black right ear; no text.]
 ```
 
-## 6b · Inserts do Setor 4 (9 s)
+## 6b · Inserts do Setor 4 (8 s)
 
 ```
-CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 9 seconds total, 3 shots with 2 hard cuts at 3s and 6s, backstage handheld camera, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
+CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds total, 2 shots with 1 hard cut at 4s: an isometric overview, then a ground-level backstage shot, real-time animation at 24 fps with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos.
 
 REFERENCES — each reference has ONE job:
+[image reference] INSERT LOOK — the approved isometric frame of the hall 1 insert: copy ONLY its camera angle, lens, light, palette and material look, so all four inserts match; IGNORE its content.
 @char_vaca-vinil — IDENTITY of the cow.
 @char_alegrinha-looks — the cow's outfit for this hall.
 @loc_fabrica — WORLD: the hall's materials, props and colours.
@@ -553,30 +559,30 @@ REFERENCE SCOPE: @char_vaca-vinil and @char_alegrinha-looks supply the cow, her 
 
 WHO IS WHO — READ FIRST, ABSOLUTE:
 THE ALEGRINHA — the matte vinyl cow of @char_vaca-vinil (100% matches): cream body, her RIGHT ear black (screen-left when she faces the camera), small horns, round dot eyes, a wide smile that can open to show a small red mouth, a pink belly patch, black flank patches, black gloves and hooves, a golden bell on a cord; NO keyring. NO EYEBROWS and no brow line, so she can never look angry. Outfits per hall from @char_alegrinha-looks: hairnet, boots and pale-green apron (hall 1); white lab coat (hall 2); over-ear headphones (hall 3); painter's smock and beret (hall 4).
-HALL 4 outfit: a cream painter's smock and a small beret between the horns. Three cows, one per easel; each shot shows one.
+HALL 4 outfit: a cream painter's smock and a small beret between the horns. Shot 1 shows the hall's THREE cows; shot 2 shows ONE.
 
-SCENE & SOUL — SCENE: hall 4, the art studio, in three wide beats. Already in progress.
+SCENE & SOUL — SCENE: hall 4, the art studio, seen first from above as an isometric overview, then from the floor like a backstage shot. Already in progress.
 THE SOUL OF THE SCENE (play it, never explain it): they paint yogurt onto foil with the gravity of old masters and the coordination of toddlers.
 
 ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:
-1. THREE cows in this hall, one per easel; each shot shows one — WRONG if the count changes.
-2. The painting is PLAIN: simple yogurt strokes, NO decoration, NO drawing, NO letters; every easel is taller than its painter.
-3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring.
-4. NO text anywhere.
-5. Lit side FRAME-LEFT.
+1. Shot 1: exactly THREE small cows, one per easel; shot 2: exactly ONE.
+2. The painting is PLAIN yogurt strokes — NO decoration, NO drawing, NO letters; every easel is taller than its painter.
+3. HAPPY FACES: NO eyebrows, NO frown; her RIGHT ear is the black one; NO keyring. NO text anywhere.
+LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.
 
-TIMELINE — hard cuts only at the specified seconds; the camera adds no cuts of its own:
-SHOT 1 (0–3s) — wide, low, 63°: an easel taller than the painter holds a big flat sheet of soft aluminum foil; small COW C, on tiptoe, brushes one plain stroke of yogurt onto it, the tip of her red tongue poking out in concentration.
-SHOT 2 (3–6s) — wide, 63°: a pot of yogurt as tall as her waist; COW B dips her brush in so deep that her whole glove comes out pink, looks at it, and shrugs happily.
-SHOT 3 (6–9s) — wide over-the-shoulder, 63°, from just behind COW A, who has stepped back to judge her work: she makes a finger frame with her gloved fingers around the foil on her towering easel. Hard end.
+TIMELINE — 2 shots, 1 hard cut:
+SHOT 1 (0–4s) — isometric overview: three easels taller than the painters, each with a big square sheet of soft aluminum foil; one cow backs up to judge her work and bumps gently into the easel behind her, one dips her brush so deep into a big pot of yogurt that her glove comes out pink, one paints a plain stroke on tiptoe. HARD CUT.
+SHOT 2 (4–8s) — ground-level backstage: from the floor just behind COW A, who has stepped back: her soft shoulder in the near foreground, and beyond it, sharp, her gloved fingers making a finger frame around the foil on her towering easel. Hard end.
 
-ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. COW C: the tongue of concentration, the careful stroke. COW B: the pink glove, the happy shrug. COW A: the art critic's finger frame; detail: she tilts her head. NOT: looking into the lens, frowning, eyebrows, a blank face, decoration on the foil.
+ACTING — minion-style (KEY): the cows are cute, eager little workers, a bit clumsy: they rush, overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. Never angry, never bored, never blank. Shot 1: the bump, the pink glove, the tiptoe stroke. Shot 2: the art critic's finger frame; detail: she tilts her head. NOT: looking into the lens, frowning, a blank face, decoration on the foil.
 
-CAMERA — BACKSTAGE HANDHELD (KEY): as if a behind-the-scenes crew were filming the factory at work — a small handheld camera held at cow height by an operator standing among the machines, with a gentle, natural sway, small breathing reframes and the occasional quick correction to keep the action in frame, never shaky or chaotic; still WIDE, the whole setting around the cow in frame, never a close-up or a medium shot; shot sizes and angles as stated per shot; level horizon on average unless a shot says top-down. NOT: a locked-off tripod look, a smooth rail or gimbal glide, drone, whip pan, zoom, close-ups.
+CAMERA — SHOT 1 — ISOMETRIC (KEY, identical in all four factory inserts): a high three-quarter view looking down at about 45° onto the hall from far away with a long lens (about 30°), so lines stay nearly parallel like an isometric diorama; the white belt runs diagonally from the upper left to the lower right of the frame; the whole hall and all its cows are in frame, small, each cow about one sixth of the frame height; the camera is locked off with only a very slow, steady drift.
+SHOT 2 — GROUND-LEVEL BACKSTAGE (KEY, identical in all four factory inserts): a small handheld camera resting almost on the floor at belt height, as if a behind-the-scenes crew were filming, with a gentle natural sway; a giant object huge and soft out of focus in the near foreground, and behind it, sharp, one small cow doing one detail of the work, the hall rising tall around her; 47°.
+NOT: close-ups of faces, a low or eye-level angle in shot 1, a high angle in shot 2, drone, whip pan, zoom.
 
-GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height. Shots 1 and 2: the cow small at the screen-left third, the easel or the pot rising beside her; shot 3: the camera 0.5 cow-lengths behind and to the left of COW A's shoulder, her finger frame at frame-centre, the foil on the easel sharp inside it, the easel about 2 cow-lengths away and taller than her.
+GEOMETRY — SCALE (KEY — small cows in a big world): seen from far away, each cow fills only about ONE SIXTH of the frame height, with the tall hall rising above her: wall with portholes and high shelves of pink cups, at least three times her height. Everything she handles is oversized for her: a strawberry or an apple is as big as her head or bigger, a coconut half as wide as she is, the pulp funnel twice her height, the microphone stand taller than she is, each easel taller than its painter, each pink yogurt cup about half her height.
 
-PHYSICS & MATERIAL — the foil is a thin soft aluminum sheet that flexes slightly under the brush; the yogurt is thick and glossy, it drags and leaves a clean ridge; the brush dips and lifts heavy with yogurt; the pink glove drips once into the pot. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, glossy yogurt, soft foil; never dirt.
+PHYSICS & MATERIAL — the foil flexes slightly under the brush; the yogurt is thick and glossy and leaves a clean ridge; the brush lifts heavy with yogurt. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, glossy yogurt, soft foil; never dirt.
 
 LIGHT — STYLIZED STUDIO LIGHT, soft and clear (KEY): one large soft key that travels with the camera, high at FRAME-LEFT (~5600 K); a pale sky-blue bounce from FRAME-RIGHT; small warm bulbs on the machines; the back wall half a stop darker. Shadows lifted pastel, never black. The lit side of every cow is FRAME-LEFT and never flips.
 
@@ -589,7 +595,7 @@ WORLD — a big green factory for small cows: one white belt runs FRAME-LEFT to 
 
 NEGATIVE: decoration or drawings on the foil, eyebrows, frowning or angry faces, cows filling the frame, normal-size fruit, humans, speech or lip-sync, keyring, wrong number of cows, merged cows, swapped ear colours, 2D cel look, glossy plastic, hard black shadows, dirt, film grain, readable text, logos, subtitles, wrong aspect ratio.
 
-[ORDER: 3 shots, 2 hard cuts, 9s — (1, 0–3s) the tall easel, the tiptoe stroke; (2, 3–6s) the big pot, the pink glove; (3, 6–9s) over the shoulder, the finger frame. Invariants: three cows, one per shot, small; plain, no decoration; no eyebrows, no frowns; black right ear; no text.]
+[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) isometric overview: three easels, the bump, the pink glove, the stroke; (2, 4–8s) ground-level backstage: over her shoulder from the floor, the finger frame. Invariants: the same isometric angle and look as the other inserts; cows small; no eyebrows, no frowns; black right ear; no text.]
 ```
 
 ## 7a · A vitória (6 s)
