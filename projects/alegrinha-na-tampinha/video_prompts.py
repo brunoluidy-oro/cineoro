@@ -936,6 +936,48 @@ P_5C = _join(
     "Invariants: exactly two cows; one pack of two cups that becomes two; the desk behind her; no eyebrows; no text.]",
 )
 
+# ===========================================================================
+# 8a — Finalização alternativa (4 s): tela verde chroma que se enche de iogurte rosa
+# ===========================================================================
+P_8A = _join(
+    "CONTRACT — Photoreal macro footage of a liquid, 16:9, 4 seconds total, ONE continuous locked-off take, real-time "
+    "motion. No people, no product, no dialogue. NO music, NO subtitles, NO on-screen text.",
+    "REFERENCES — each reference has ONE job:\n"
+    "[last frame] END FRAME: the take ENDS exactly on this image — a flat, uniform, matte strawberry-yogurt pink (about "
+    "#D88B88) filling the whole frame, with only a very soft, smooth tonal variation and no edge, bubble or highlight.",
+    "SCENE & SOUL — SCENE: a plain chroma-key green screen fills, edge to edge, with thick pink strawberry yogurt, until "
+    "only pink remains.\nTHE SOUL OF THE SCENE (play it, never explain it): the creamiest possible way to end a film.",
+    "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
+    "1. The first frame is a FLAT, EVEN chroma-key green (about #00B140) filling the whole frame — no texture, no shadow, no "
+    "object.\n"
+    "2. The camera is LOCKED OFF; only the yogurt moves.\n"
+    "3. The last frame is EXACTLY the end-frame reference: uniform matte pink, no green left anywhere, not even at the "
+    "corners.\n"
+    "4. Nothing else ever appears: no cup, no spoon, no hand, no fruit, no text.",
+    "TIMELINE — ONE continuous take, no cuts:\n"
+    "PART 1 (0–0.5s) — only the flat green screen.\n"
+    "PART 2 (0.5–3s) — a thick wave of pink yogurt pours in from the top edge of the frame and spreads down and sideways "
+    "across the green like a slow, creamy curtain, folding over itself in soft, glossy ribbons; the green shrinks to the lower "
+    "corners and disappears.\n"
+    "PART 3 (3–4s) — the surface settles and smooths out until the frame is one flat, uniform matte pink — the end frame. "
+    "Hard end on the uniform pink.",
+    "CAMERA — locked off, STAYS PUT, frontal and perfectly square to the screen, the frame filled edge to edge; no lens drift; "
+    "level. NOT: camera movement, zoom, a visible edge of the screen, a vignette.",
+    "PHYSICS & MATERIAL — the yogurt is thick and creamy, heavier than paint: it flows slowly, folds, and leaves soft "
+    "ribbons that melt back into a smooth surface; no splashes, no drops flying, no bubbles. START flat green; DURING the "
+    "pink advancing over it; END flat uniform pink. Nothing floats, nothing loops.",
+    "LIGHT — one large, soft, even frontal light: the green is perfectly uniform for a clean key; the yogurt shows only small "
+    "soft glossy highlights while it moves, and none once it settles. NO shadows on the green, NO hard highlights, NO vignette.",
+    "LOOK (KEY): clean, graphic, photoreal macro; flat colour fields; no grain, no lens flares, no light streaks.",
+    "SOUND — a soft, thick, creamy pour and a gentle settle, nothing else. " + MUSIC_BAN,
+    "NEGATIVE: uneven or textured green, green left in the corners at the end, a cup, a spoon, a hand, fruit, splashes, "
+    "bubbles, drops, a visible screen edge, camera movement, readable text, logos, subtitles, grain, vignette, lens flares, "
+    "wrong aspect ratio.",
+    "[ORDER: 1 locked-off take, 4s — (0–0.5s) flat chroma green; (0.5–3s) thick pink yogurt pours in from the top and covers "
+    "the green; (3–4s) it settles into the flat uniform pink of the end frame. Invariants: flat green start; locked camera; "
+    "uniform pink end, no green left; nothing else appears. NO text.]",
+)
+
 PROMPTS = {
     "1a": ("1a · POV da geladeira", 5, P_1A),
     "1b": ("1b · O créqui", 5, P_1B),
@@ -950,6 +992,7 @@ PROMPTS = {
     "5c": ("5c · Bastidores do Setor 3 (extra)", 8, P_5C),
     "6b": ("6b · Inserts do Setor 4", 8, P_6B),
     "7a": ("7a · A vitória", 6, P_7A),
+    "8a": ("8a · Finalização: chroma verde que se enche de iogurte", 4, P_8A),
 }
 # 1d é uma alternativa a 1a+1b+1c (mesmos 15 s); fica fora de BASE_KEYS e ALT_KEYS para não somar duas vezes.
 PROMPTS["1d"] = ("1d · Cena 1 inteira (alternativa a 1a+1bc)", 16, P_1D)
