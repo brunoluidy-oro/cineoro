@@ -1,55 +1,35 @@
 # Alegrinha na Tampinha (título de trabalho)
 
-Filme de 60″ para o iogurte **Laticínios Porto Alegre** (bandeja de 540 g, 6 potes de 90 g) e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
+Filme de 60″ para o iogurte **Laticínios Porto Alegre** e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
 
-**Status:** decupagem v0.8. Os prompts de **vídeo** ainda não foram escritos, a pedido. Abra `shotlist.html` para tudo.
+**Status:** direção das cenas v0.9, aguardando o OK do diretor. Os prompts de vídeo saem depois do OK. Abra `shotlist.html`.
 
-## Decisões do diretor
+## Regras do filme
 
-- **Formato 16:9.** Sabor-herói **Morango**.
-- **Tom cômico** vindo do feeling e da atuação, não de piadas físicas. Sem gags específicos.
-- **Captação:** cozinha brasileira de verão, luz natural, macro com lente probe. Look da Codemig (negativo colorido 35 mm), bloco travado no HTML, ajustado para 16:9. **Só na captação.**
-- **Plano 1:** POV da geladeira. A câmera começa dentro dela, o homem abre a porta e pega um produto que ainda não vemos.
-- **Créqui** é destacar o copo da bandeja (nesses multipacks, normalmente dobrando o copo contra uma linha de quebra; não há fonte sobre esta bandeja, então vale gravar um pote real).
-- **Fábrica:** tudo fosco e **meio monocromática em verde**. Limpa, sem grão. Acentos da marca podem aparecer em detalhes.
-- **Espinha:** um travelling horizontal contínuo de 30 s, **uma geração só**, insinuando uma linha de produção. Sem cortes entre os setores; as paredes com abertura em arco do panorama são atravessadas pela câmera. Inserts (de cima, close, macro) entram por cima como cutaways.
-- **Vacas** sempre felizes por estarem trabalhando, com o sorriso variando. O vermelho do chaveiro é a boca dela, não uma coleira.
-- **Cena 7:** ele só comemora; nenhum chaveiro aparece. O tempo se ajusta na pós, cortando.
+- 60″, 16:9. Comédia seca: o humor vem da atuação e do timing.
+- Captação: cozinha de verão, luz natural, macro com sonda. Look da Codemig (negativo 35 mm), só na captação.
+- Fábrica: vinil fosco, meio monocromática em verde, limpa. Alegrinhas sempre felizes trabalhando.
+- Um travelling horizontal contínuo de 30 s (uma geração) atravessa os 4 setores; inserts de cima e closes entram por cima.
+- Texto, locução, trilha e SFX na pós. O tempo se ajusta cortando.
 
-## O que já temos
+## Elements (Higgsfield)
 
-Roteiro de 60″ decupado em 8 cenas e 10 gerações (mais 1 opcional) · homem · vaca fosca (model sheet, 3 vistas) · 3 bandejas inteiras · 4 chaveiros · pote real (Element `prop_pote-morango-real`) · cozinha (Element `loc_cozinha`) · panorama isométrico da fábrica.
+`@man-portoalegre` · `@loc_cozinha` · `@loc_fabrica` (panorama isométrico) · `@char_vaca-vinil` · `@char_alegrinha-looks` · `@prop_bandeja-morango` · `@prop_pote-morango` · `@prop_pelucia-fabrica` / `-frutas` / `-morango`
 
-## O que falta
+Sem referência por enquanto (o motor deduz do texto; se falhar, criamos): interior da geladeira (POV do plano 1a) e a fábrica vista de lado.
 
-**Você gera as imagens**
-1. **Alegrinha:** painel com os 4 looks lado a lado (Seletora, Cientista, Som, Pintora) e painel de expressões felizes. Prompts curtos em `assets-prompts.md`.
-2. **Interior da geladeira**, visto de dentro, olhando para fora (o POV do plano 1).
-3. **Fábrica vista de lado**, na altura da esteira, de frente para os setores (o ângulo do travelling). O panorama atual é isométrico.
-4. Toons: bandeja e pote (prompts em `assets-prompts.md`).
+## Estrutura
 
-**Pós (pode vir depois)**: logo vetorial, tipografia dos letterings, arte da mensagem da tampa, layout da cartela, locução, SFX do “créqui”, trilha.
-
-**Eu faço**: os prompts de vídeo, depois que as imagens 1–3 estiverem prontas.
-
-**Em aberto**: só a geração opcional 7b (macro da mensagem na tampa).
-
-## Estrutura do filme
-
-| Cena | Mundo | Gerações | No filme |
-|---|---|---|---|
-| 1 | captação | 1a POV da geladeira (6 s) · 1b o créqui (5 s) · 1c tampa e lambida (6 s) | 0″–14″ |
-| 2 | captação | 2a mergulho no iogurte (4 s, 3 usados) | 14″–17″ |
-| 3–6 | animação | **3a espinha completa (30 s)** + inserts 3b, 4b, 5b, 6b (8 s cada) | 17″–46″ |
-| 7 | captação | 7a a vitória (6 s) · 7b macro da tampa (4 s, opcional) | 46″–52″ |
-| 8 | pós | assinatura, cartela, chaveiros | 52″–60″ |
-
-Tempos nominais: você ajusta cortando na pós.
+| Cena | Gerações | No filme |
+|---|---|---|
+| 1 | 1a POV da geladeira · 1b o créqui · 1c tampa e lambida | 0″–14″ |
+| 2 | 2a mergulho no iogurte | 14″–17″ |
+| 3–6 | 3a espinha (30 s) + inserts 3b, 4b, 5b, 6b | 17″–46″ |
+| 7 | 7a a vitória (+ 7b opcional) | 46″–52″ |
+| 8 | pós | 52″–60″ |
 
 ## Arquivos
 
-- `shotlist.src.html`: fonte editável da página.
-- `shotlist.html`: página final (gerada).
-- `assets_prompts.py`: prompts de imagem (fonte). `assets-prompts.md`: os mesmos, em texto puro (gerado).
-- `build.py`: gerador. Rode `python3 build.py` nesta pasta.
-- `thumbs/`: miniaturas dos assets recebidos (os originais não estão no repositório).
+- `shotlist.src.html` / `shotlist.html`: a página de direção das cenas (o `.html` é gerado por `python3 build.py`).
+- `assets-prompts.md` (e `assets_prompts.py`): prompts de imagem já usados (pote real, bandeja e pote toon, looks e expressões da Alegrinha).
+- `thumbs/`: miniaturas antigas dos assets (a página enxuta não usa mais).
