@@ -15,14 +15,14 @@ Filme de 60″ para o iogurte **Laticínios Porto Alegre** e a promoção dos ch
 ## Regras que valem para todos os prompts
 
 - **Foil, nunca “tampa”**: a vedação é uma lâmina de alumínio impressa em verde, macia e maleável. Sem aba, sem “PUXE” e sem mensagem escrita.
-- A embalagem em cena é uma dupla de dois iogurtes unidos.
+- A bandeja de 6 aparece só no 1a. Do 1b em diante é uma dupla de dois iogurtes unidos, separada da bandeja fora de quadro.
 - Abertura do 3a ainda em aberto: A (a vaca limpa a lente) ou B (a lente se limpa sozinha). Os dois prompts existem.
 
 ## Elements (Higgsfield)
 
-`@man-portoalegre` · `@loc_cozinha` · `@loc_fabrica` (panorama isométrico) · `@char_vaca-vinil` · `@char_alegrinha-looks` · `@prop_bandeja-morango` (não entra nos takes de captação) · `@prop_pote-morango` · `@prop_pelucia-fabrica` / `-frutas` / `-morango`
+`@man-portoalegre` · `@loc_cozinha` · `@loc_fabrica` (panorama isométrico) · `@char_vaca-vinil` · `@char_alegrinha-looks` · `@prop_bandeja-morango` (só no 1a) · `@prop_pote-morango` · `@prop_pelucia-fabrica` / `-frutas` / `-morango`
 
-A embalagem em cena é uma **dupla** (2 iogurtes unidos) que o créqui separa em duas unidades; a bandeja de 6 não aparece na captação.
+No 1b ele já tem uma **dupla** (2 iogurtes unidos), separada da bandeja fora de quadro; o créqui separa a dupla em duas unidades.
 
 Sem referência por enquanto (o motor deduz do texto; se falhar, criamos): a dupla, o interior da geladeira (POV do plano 1a) e a fábrica vista de lado.
 

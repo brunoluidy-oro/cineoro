@@ -9,15 +9,15 @@ CONTRACT — Live-action photoreal commercial footage, 16:9, 6 seconds, 2 shots,
 
 REFERENCES — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist), the only person in frame. @loc_cozinha: the kitchen (ignore its camera angle).
 
-SCENE — Summer afternoon in a Brazilian kitchen. He opens the fridge, takes a pack of yogurt and steps into the light holding it, serious as a man in a ritual. Already in progress.
+SCENE — Summer afternoon in a Brazilian kitchen. He opens the fridge, takes a tray of yogurt and steps into the light holding it, serious as a man in a ritual. Already in progress.
 
-The pack is exactly TWO pink ribbed yogurt cups joined side by side by a break line, each sealed with FOIL: a thin, soft, flexible aluminum sheet printed in green that bends and crinkles, never stiff (@prop_pote-morango shows one cup).
+The pack is a multipack TRAY of six pink ribbed yogurt cups joined in one block, sealed with FOIL: a thin, soft, flexible aluminum sheet printed in green that bends and crinkles, never stiff (@prop_bandeja-morango).
 
-LOCKS — 1. Exactly two joined cups with soft foil; WRONG if a tray of six or a rigid cover. 2. From second 3 the pack is in his RIGHT hand. 3. In shot 1 the camera is the fridge: he never looks into the lens, only at a point inside the fridge beside it. 4. Fridge at FRAME-LEFT in shot 2.
+LOCKS — 1. Exactly one tray of six joined cups with soft foil; WRONG if a pair, a single cup or a rigid cover. 2. From second 3 the tray is in his RIGHT hand. 3. In shot 1 the camera is the fridge: he never looks into the lens, only at a point inside the fridge beside it. 4. Fridge at FRAME-LEFT in shot 2.
 
 TIMELINE —
 SHOT 1 (0–3s) — MCU, 84°, locked off inside the fridge at shelf height, 0.7 m from the doorway. The door is already swinging open, cool light on the lens. His face appears, eyes on a fixed point inside the fridge, a slow smile; at 2s his right hand reaches in and covers the lens, so we do not see what he takes. HARD CUT.
-SHOT 2 (3–6s) — starts CU, 29°, tight on the pack leaving the fridge in his right hand; the camera pulls straight back 1.2 m, smooth, to MS 47°, revealing him at the open fridge, pack at chest height, deadpan. Hard end.
+SHOT 2 (3–6s) — starts CU, 29°, tight on the tray leaving the fridge in his right hand; the camera pulls straight back 1.2 m, smooth, to MS 47°, revealing him at the open fridge, tray at chest height, deadpan. Hard end.
 
 CAMERA — shot 1 stays put; shot 2 travels back in one smooth move. Level horizon. NOT: handheld shake, orbit, zoom.
 
@@ -37,11 +37,11 @@ CONTRACT — Live-action photoreal commercial footage, 16:9, 5 seconds, 2 shots,
 
 REFERENCES — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist), the only person in frame. @loc_cozinha: the kitchen.
 
-SCENE — The same kitchen and light. He splits the two-cup pack with a crisp snap. Already in progress.
+SCENE — The same kitchen and light. He already holds a pair of two joined cups, broken off the tray before the shot, off-camera. He splits the pair with a crisp snap. Already in progress.
 
 The pack is exactly TWO pink ribbed yogurt cups joined side by side by a break line, each sealed with FOIL: a thin, soft, flexible aluminum sheet printed in green that bends and crinkles, never stiff (@prop_pote-morango shows one cup).
 
-LOCKS — 1. Two joined cups before the snap, exactly two separate cups after; WRONG if it stays joined or becomes three. 2. After the snap one cup in his LEFT hand, the other set on the counter at FRAME-RIGHT. 3. Foil stays on, soft.
+LOCKS — 1. NO tray anywhere in frame. 2. Two joined cups before the snap, exactly two separate cups after; WRONG if it stays joined or becomes three. 3. After the snap one cup in his LEFT hand, the other set on the counter at FRAME-RIGHT. 4. Foil stays on, soft.
 
 TIMELINE —
 SHOT 1 (0–3s) — extreme close-up, slim probe macro lens, about 84° of exaggerated perspective, 2 cm from the pack, gliding slowly along the break line between the cups. Two fingertips pinch the cups. A short beat of stillness. At 2s he bends the pack against the break line and it snaps with a crisp, bright crack (the créqui): two separate cups. HARD CUT.
