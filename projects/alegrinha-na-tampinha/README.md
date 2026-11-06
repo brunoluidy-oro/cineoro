@@ -2,7 +2,9 @@
 
 Filme de 60″ para o iogurte **Laticínios Porto Alegre** e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
 
-**Status:** direção das cenas e prompts de vídeo prontos (v1.0). Abra `shotlist.html`: cada geração tem o seu prompt recolhido e, no fim, a previsão de créditos.
+**Status:** direção das cenas e prompts de vídeo prontos (v1.1). Abra `shotlist.html`: cada geração tem o seu prompt recolhido e, no fim, a previsão de créditos.
+
+**v1.1:** os prompts de vídeo foram refeitos na espinha completa da CINEORO (a v1.0 tinha uma versão comprimida sem atuação, quem é quem, geometria e física). Cada rosto do homem tem o bloco ACTING completo (evento, motivo, objetivo, obstáculo, tática, momento a momento, olhos vivos, NOT). As vacas pequenas na espinha de 30 s usam a forma curta. Tamanho: 900 a 2.000 palavras por prompt.
 
 ## Regras do filme
 
@@ -30,7 +32,7 @@ Sem referência por enquanto (o motor deduz do texto; se falhar, criamos): a dup
 
 | Cena | Gerações | No filme |
 |---|---|---|
-| 1 | 1a POV da geladeira · 1b o créqui · 1c tampa e lambida | 0″–14″ |
+| 1 | 1a POV da geladeira · 1b o créqui · 1c foil e lambida | 0″–14″ |
 | 2 | 2a mergulho no iogurte | 14″–17″ |
 | 3–6 | 3a espinha (30 s) + inserts 3b, 4b, 5b, 6b | 17″–46″ |
 | 7 | 7a a vitória | 46″–52″ |
