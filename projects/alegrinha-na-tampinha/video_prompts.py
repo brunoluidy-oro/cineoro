@@ -743,14 +743,15 @@ _INS_LOCKS_TAIL = (
 ISO_CAMERA = (
     "SHOT 1 — ISOMETRIC (KEY, identical in all four factory inserts): a high three-quarter view looking down at about 45° onto "
     "the hall from far away with a long lens (about 30°), so lines stay nearly parallel like an isometric diorama; the white "
-    "belt runs diagonally from the upper left to the lower right of the frame; the whole hall and all its cows are in frame, "
+    "belt runs diagonally from the upper left to the lower right of the frame and everything on it travels from LEFT to "
+    "RIGHT, toward the lower right; the whole hall and all its cows are in frame, "
     "small, each cow about one sixth of the frame height; the camera is locked off with only a very slow, steady drift."
 )
 GROUND_CAMERA = (
     "SHOT 2 — GROUND-LEVEL BACKSTAGE (KEY, identical in all four factory inserts): a small handheld camera resting almost on "
     "the floor at belt height, as if a behind-the-scenes crew were filming, with a gentle natural sway; a giant object huge "
     "and soft out of focus in the near foreground, and behind it, sharp, one small cow doing one detail of the work, the hall "
-    "rising tall around her; 47°."
+    "rising tall around her; the belt, when in frame, moves from LEFT to RIGHT; 47°."
 )
 INSERT_LOOK_REF = (
     "[image reference] INSERT LOOK — the approved isometric frame of the hall 1 insert: copy ONLY its camera angle, lens, "
@@ -762,13 +763,14 @@ def _insert_iso(hall, who, soul, locks, iso_action, ground_action, acting, physi
     return _join(
         toon_contract(8, "2 shots with 1 hard cut at 4s: an isometric overview, then a ground-level backstage shot"),
         "REFERENCES — each reference has ONE job:\n" + INSERT_LOOK_REF + "\n@char_vaca-vinil — IDENTITY of the cow.\n"
-        "@char_alegrinha-looks — the cow's outfit for this hall.\n@loc_fabrica — WORLD: the hall's materials, props and colours.\n"
-        + TOON_SCOPE,
+        "@char_alegrinha-looks — the cow's outfit for this hall.\n@loc_fabrica — WORLD: the materials, props and colours of THIS "
+        "hall only; it shows the whole factory, so IGNORE every other hall in it and its camera angle.\n" + TOON_SCOPE,
         "WHO IS WHO — READ FIRST, ABSOLUTE:\n" + COW + "\n" + who,
         "SCENE & SOUL — SCENE: " + hall + ", seen first from above as an isometric overview, then from the floor like a "
         "backstage shot. Already in progress.\nTHE SOUL OF THE SCENE (play it, never explain it): " + soul,
         "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n" + locks + "\n"
-        "LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.",
+        "LOOK LOCK: the same isometric angle, light, palette and vinyl look as the other factory inserts.\n"
+        "ONLY THIS HALL: no other sector appears anywhere in frame; the belt moves LEFT to RIGHT — WRONG otherwise.",
         "TIMELINE — 2 shots, 1 hard cut:\nSHOT 1 (0–4s) — isometric overview: " + iso_action + " HARD CUT.\n"
         "SHOT 2 (4–8s) — ground-level backstage: " + ground_action + " Hard end.",
         "ACTING — " + COW_STYLE + " " + acting,
@@ -776,10 +778,14 @@ def _insert_iso(hall, who, soul, locks, iso_action, ground_action, acting, physi
         "high angle in shot 2, drone, whip pan, zoom.",
         "GEOMETRY — " + TOON_SCALE,
         physics,
-        TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE, TOON_WORLD,
-        "NEGATIVE: " + extra_neg + TOON_NEG_SPINE.replace("camera shake, ", ""),
+        TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE,
+        "WORLD — ONLY " + hall + " is seen, closed in by its own walls: NO other hall, NO arched opening looking into a "
+        "neighbouring hall, NO machines, props or outfits from another sector. The belt runs LEFT to RIGHT. No humans. Signs "
+        "and screens are blank: NO letters, NO numerals, NO logos.",
+        "NEGATIVE: another hall or sector in view, an opening into a neighbouring hall, the belt moving right to left, "
+        + extra_neg + TOON_NEG_SPINE.replace("camera shake, ", ""),
         "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) isometric overview: " + order_iso + "; (2, 4–8s) ground-level backstage: "
-        + order_ground + ". Invariants: the same isometric angle and look as the other inserts; cows small; no eyebrows, no "
+        + order_ground + ". Invariants: only this hall, belt left to right; the same isometric angle and look as the other inserts; cows small; no eyebrows, no "
         "frowns; black right ear; no text.]",
     )
 
