@@ -8,12 +8,12 @@ Como usar: uma imagem por vez; anexe o que a nota pede; depois de aprovada, anex
 
 **Anexar:** Anexe a bandeja Morango (a de 1920×1080).
 
-> Já gerado pelo diretor (Element prop_pote-morango-real). Fica aqui como registro. A tampa está descrita em palavras: película verde impressa, quadrada de cantos arredondados, com aba.
+> Já gerado pelo diretor (Element prop_pote-morango-real). Fica aqui como registro. A tampa está descrita em palavras: película verde impressa, quadrada de cantos arredondados, sem aba.
 
 ### Visão: painel: fechado à esquerda, aberto à direita
 
 ```
-A 16:9 image split into two equal panels by a thin vertical line, same plain medium-grey background and soft studio light in both. LEFT: one single yogurt pot with its lid closed. RIGHT: the same pot opened, the lid resting against the cup beside it, smooth pink yogurt visible inside. Three-quarter view from above in both. The cup is pink, rounded-square, with vertical ribs and a thin white rim. The lid is a flat rounded-square film printed in green, with a white shield logo with a small gold bell, the word MORANGO, a strawberry picture and a small pull tab at one corner. Use the attached tray for the exact colors and lid print. Photorealistic. One pot per panel: no tray, no hands, no other text.
+A 16:9 image split into two equal panels by a thin vertical line, same plain medium-grey background and soft studio light in both. LEFT: one single yogurt pot with its lid closed. RIGHT: the same pot opened, the lid resting against the cup beside it, smooth pink yogurt visible inside. Three-quarter view from above in both. The cup is pink, rounded-square, with vertical ribs and a thin white rim. The lid is a flat rounded-square film printed in green, with a white shield logo with a small gold bell, the word MORANGO, a strawberry picture. Use the attached tray for the exact colors and lid print. Photorealistic. One pot per panel: no tray, no hands, no other text.
 ```
 
 ## Alegrinha: 4 looks e expressões (`@ALEGRINHA_LOOKS`)
@@ -55,11 +55,11 @@ Redraw the attached tray as a 3D toy object in the same matte style as the attac
 ### Visão: painel: fechado à esquerda, aberto à direita
 
 ```
-A 16:9 image split into two equal panels by a thin vertical line, same plain medium-grey background and soft studio light in both. LEFT: one single yogurt pot with its lid closed. RIGHT: the same pot opened, the lid resting against the cup beside it, soft pink yogurt inside. Three-quarter view from above in both. Make it a 3D toy object in the same matte style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Pink ribbed cup with a thin white rim; the lid is a flat rounded-square green film with a white shield, a small gold bell, one flat strawberry and a small pull tab; no text.
+A 16:9 image split into two equal panels by a thin vertical line, same plain medium-grey background and soft studio light in both. LEFT: one single yogurt pot with its lid closed. RIGHT: the same pot opened, the lid resting against the cup beside it, soft pink yogurt inside. Three-quarter view from above in both. Make it a 3D toy object in the same matte style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Pink ribbed cup with a thin white rim; the lid is a flat rounded-square green film with a white shield, a small gold bell, one flat strawberry; no text.
 ```
 
 ### Visão: tampa de frente (opcional)
 
 ```
-Only the lid of the attached toy pot, seen straight from above with its underside facing the camera: a flat rounded-square matte cream shape with a thin ring of pink yogurt along the edge and a small pull tab at one corner. The center is completely smooth and empty. Plain medium-grey background, soft studio light.
+Only the lid of the attached toy pot, seen straight from above with its underside facing the camera: a flat rounded-square matte cream shape with a thin ring of pink yogurt along the edge. The center is completely smooth and empty. Plain medium-grey background, soft studio light.
 ```

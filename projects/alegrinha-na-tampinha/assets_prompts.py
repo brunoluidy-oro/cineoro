@@ -5,7 +5,7 @@ esquerda, aberto com a tampa por perto à direita. Os prompts ficam em inglês; 
 A bandeja real já existe (render 1920x1080 enviado), então não há prompt dela.
 
 Fato do produto (explicado pelo diretor): o verde que cobre a bandeja é a TAMPA, uma película impressa
-com aba "PUXE", sobre copos rosa ribados com borda branca. A tampa é quadrada de cantos arredondados.
+sem aba, sobre copos rosa ribados com borda branca. A tampa é quadrada de cantos arredondados e se abre com a ponta do dedo.
 """
 
 SPLIT = (
@@ -21,11 +21,11 @@ OBJECTS = [
         "kind": "real",
         "tag": "@POTE",
         "attach": "Anexe a bandeja Morango (a de 1920×1080).",
-        "note": "Já gerado pelo diretor (Element prop_pote-morango-real). Fica aqui como registro. A tampa está descrita em palavras: película verde impressa, quadrada de cantos arredondados, com aba.",
+        "note": "Já gerado pelo diretor (Element prop_pote-morango-real). Fica aqui como registro. A tampa está descrita em palavras: película verde impressa, quadrada de cantos arredondados, sem aba.",
         "prompts": [
             ("painel: fechado à esquerda, aberto à direita",
              SPLIT.format(yogurt="smooth pink yogurt visible")
-             + " The cup is pink, rounded-square, with vertical ribs and a thin white rim. The lid is a flat rounded-square film printed in green, with a white shield logo with a small gold bell, the word MORANGO, a strawberry picture and a small pull tab at one corner. Use the attached tray for the exact colors and lid print. Photorealistic. One pot per panel: no tray, no hands, no other text."),
+             + " The cup is pink, rounded-square, with vertical ribs and a thin white rim. The lid is a flat rounded-square film printed in green, with a white shield logo with a small gold bell, the word MORANGO, a strawberry picture. Use the attached tray for the exact colors and lid print. Photorealistic. One pot per panel: no tray, no hands, no other text."),
         ],
     },
     {
@@ -64,9 +64,9 @@ OBJECTS = [
         "prompts": [
             ("painel: fechado à esquerda, aberto à direita",
              SPLIT.format(yogurt="soft pink yogurt")
-             + " Make it a 3D toy object in the same matte style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Pink ribbed cup with a thin white rim; the lid is a flat rounded-square green film with a white shield, a small gold bell, one flat strawberry and a small pull tab; no text."),
+             + " Make it a 3D toy object in the same matte style as the attached cow: smooth matte vinyl, rounded edges, no gloss. Pink ribbed cup with a thin white rim; the lid is a flat rounded-square green film with a white shield, a small gold bell, one flat strawberry; no text."),
             ("tampa de frente (opcional)",
-             "Only the lid of the attached toy pot, seen straight from above with its underside facing the camera: a flat rounded-square matte cream shape with a thin ring of pink yogurt along the edge and a small pull tab at one corner. The center is completely smooth and empty. Plain medium-grey background, soft studio light."),
+             "Only the lid of the attached toy pot, seen straight from above with its underside facing the camera: a flat rounded-square matte cream shape with a thin ring of pink yogurt along the edge. The center is completely smooth and empty. Plain medium-grey background, soft studio light."),
         ],
     },
 ]
