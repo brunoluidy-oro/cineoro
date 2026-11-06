@@ -2,7 +2,9 @@
 
 Filme de 60″ para o iogurte **Laticínios Porto Alegre** e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
 
-**Status:** direção das cenas e prompts de vídeo prontos (v1.1). Abra `shotlist.html`: cada geração tem o seu prompt recolhido e, no fim, a previsão de créditos.
+**Status:** direção das cenas e prompts de vídeo prontos (v1.2). Abra `shotlist.html`: cada geração tem o seu prompt recolhido e, no fim, a previsão de créditos.
+
+**v1.2:** novo prompt **1d** (1a + 1b + 1c numa geração só, 17 s, 6 planos, alternativa às três separadas). 1a agora é plano médio fixo com ele segurando a bandeja (sem plano fechado e recuo); 1b sem a pausa antes do créqui; 1c com o iogurte no lado prateado do foil, que ele lambe; sem fumaça nem vapor na geladeira e sem exageros. O balcão fica ao lado da geladeira, no lado esquerdo do quadro (a mão direita dele pousa o copo ali).
 
 **v1.1:** os prompts de vídeo foram refeitos na espinha completa da CINEORO (a v1.0 tinha uma versão comprimida sem atuação, quem é quem, geometria e física). Cada rosto do homem tem o bloco ACTING completo (evento, motivo, objetivo, obstáculo, tática, momento a momento, olhos vivos, NOT). As vacas pequenas na espinha de 30 s usam a forma curta. Tamanho: 900 a 2.000 palavras por prompt.
 
@@ -32,7 +34,7 @@ Sem referência por enquanto (o motor deduz do texto; se falhar, criamos): a dup
 
 | Cena | Gerações | No filme |
 |---|---|---|
-| 1 | 1a POV da geladeira · 1b o créqui · 1c foil e lambida | 0″–14″ |
+| 1 | 1a POV da geladeira · 1b o créqui · 1c foil e lambida (ou 1d, as três juntas) | 0″–14″ |
 | 2 | 2a mergulho no iogurte | 14″–17″ |
 | 3–6 | 3a espinha (30 s) + inserts 3b, 4b, 5b, 6b | 17″–46″ |
 | 7 | 7a a vitória | 46″–52″ |

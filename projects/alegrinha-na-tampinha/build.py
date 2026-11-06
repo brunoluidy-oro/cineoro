@@ -73,6 +73,7 @@ def credits_html() -> str:
                f'<li><b>Preço usado:</b> a página oficial da Higgsfield (verificada em 20/10/2026) diz que um clipe de 8 s custa 128 créditos em 1080p, 56 em 720p e 24 em 480p. Por segundo, isso dá {CR_1080} no 1080p e {CR_480} no 480p (divisão minha).</li>'
                '<li><b>O que eu assumi:</b> finalizar um draft em 1080p custa uma geração 1080p inteira. Esse preço não é publicado. Outra página da própria Higgsfield cita 72 créditos para 8 s em 1080p (9 por segundo); se for esse o preço real, o total cai bastante. Confira o preço no botão Gerar antes do primeiro lote.</li>'
                f'<li><b>Refação:</b> contei 50% dos segundos, não 50% dos takes. Se a espinha de 30 s (3a) precisar ser refeita, são +{n(30 * (CR_480 + CR_1080))} créditos de uma vez.</li>'
+               f'<li><b>1d:</b> tem os mesmos {PROMPTS["1d"][1]} s de 1a + 1b + 1c, então usar a 1d no lugar das três não muda o total. A diferença está na refação: refazer a 1d custa {n(PROMPTS["1d"][1] * (CR_480 + CR_1080))} créditos de uma vez (draft + final), e refazer só um dos três takes custa de {n(min(PROMPTS[k][1] for k in ("1a", "1b", "1c")) * (CR_480 + CR_1080))} a {n(max(PROMPTS[k][1] for k in ("1a", "1b", "1c")) * (CR_480 + CR_1080))}.</li>'
                '<li>Os Elements são imagens e eu não contei custo extra por referência. O plano Plus inclui 1.000 créditos por mês; não sei qual é o seu plano.</li>'
                '</ul>')
     return "\n".join(out)
