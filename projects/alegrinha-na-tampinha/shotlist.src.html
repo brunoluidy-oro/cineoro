@@ -68,6 +68,17 @@ td b { font-family: var(--font-display); }
 .note { background: var(--amber-soft); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; margin: 14px 0; }
 .ok { background: var(--green-soft); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin-top: 26px; }
 .ok ul { margin: 6px 0 0; padding-left: 20px; }
+details.pbox { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); margin: 8px 0; }
+details.pbox summary { cursor: pointer; padding: 10px 14px; font-weight: 600; font-size: 14px; }
+details.pbox summary .meta { color: var(--muted); font-weight: 500; font-size: 12px; margin-left: 6px; }
+.pbar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: center; padding: 8px 14px; background: var(--surface-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 13px; font-weight: 600; }
+.copy { background: var(--surface); color: var(--green); border: 1px solid var(--line); border-radius: 6px; padding: 5px 12px; font: 600 12px var(--font-body); cursor: pointer; }
+.copy:hover { border-color: var(--green); } .copy.ok2 { background: var(--green-soft); }
+pre.prompt { margin: 0; padding: 14px 16px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 12.5px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; background: var(--bg); }
+table.credits { min-width: 420px; } table.credits .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.credits tr.tot td { background: var(--surface-2); }
+.small-notes { max-width: 70ch; padding-left: 20px; margin: 14px 0 0; color: var(--muted); font-size: 14px; } .small-notes li { margin: 5px 0; }
+button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
 @media (max-width: 640px) {
   dl.rows { grid-template-columns: 1fr; }
   dl.rows dt { padding-bottom: 0; } dl.rows dd { border-top: 0; padding-top: 2px; }
@@ -81,7 +92,7 @@ td b { font-family: var(--font-display); }
 <header class="hero">
   <div class="eyebrow">Filme 60″ · Porto Alegre · direção das cenas</div>
   <h1>Alegrinha na Tampinha</h1>
-  <p class="lede">Confira cada cena e marque a caixa quando estiver certa. Com o seu OK, eu escrevo os prompts.</p>
+  <p class="lede">Confira cada cena e marque a caixa quando estiver certa. Os prompts de cada geração estão dentro dela, recolhidos.</p>
 </header>
 
 <h2>Regras do filme</h2>
@@ -115,6 +126,7 @@ td b { font-family: var(--font-display); }
       <dt>Acontece</dt><dd><b>0–3 s</b> A câmera está dentro da geladeira, de frente para a porta. A porta abre, o homem aparece, fixa um ponto dentro da geladeira, sorri e leva a mão para pegar um produto. A mão cobre a lente: ainda não vemos o quê.<br><b>3–6 s</b> Plano fechado na embalagem que sai da geladeira na mão direita dele: dois iogurtes unidos. A câmera recua e revela o homem.</dd>
       <dt>Termina</dt><dd>Plano médio dele em pé na porta aberta, com a embalagem de dois iogurtes na mão direita.</dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd>{{PROMPT:1a}}</dd>
     </dl>
   </div>
 
@@ -124,16 +136,18 @@ td b { font-family: var(--font-display); }
       <dt>Acontece</dt><dd><b>0–3 s</b> Macro entre os dois copos da dupla, ao longo da linha de quebra que os une. Dois dedos pinçam. Uma pausa curta. Ele dobra a dupla contra a linha de quebra e o estalo, o “créqui”, a separa em duas unidades.<br><b>3–5 s</b> Close dele em high angle de leve, olhos meio fechados, um prazer contido. Ele fica com um copo na mão esquerda e pousa o outro no balcão.</dd>
       <dt>Termina</dt><dd>Um copo na mão esquerda; o outro, solto, no balcão.</dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd>{{PROMPT:1b}}</dd>
     </dl>
   </div>
 
   <div class="gen">
-    <div class="gen-bar"><span>1c · A tampa e a lambida</span><span class="meta">6 s · 2 planos</span></div>
+    <div class="gen-bar"><span>1c · O foil e a lambida</span><span class="meta">6 s · 2 planos</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd><b>0–2 s</b> Macro na borda da tampa: a ponta do dedo (a ponta da última falange) levanta a borda e a tampa sai.<br><b>2–6 s</b> Plano médio fechado em high angle de leve. Ele olha a tampa com reverência, leva à boca e lambe.</dd>
-      <dt>Termina</dt><dd>No meio da lambida, tampa na boca. Este é o quadro do congelamento.</dd>
+      <dt>Acontece</dt><dd><b>0–2 s</b> Macro na borda do foil: a ponta do dedo (a ponta da última falange) levanta a borda e o foil sai, uma lâmina macia de alumínio.<br><b>2–6 s</b> Plano médio fechado em high angle de leve. Ele olha o foil com reverência, leva à boca e lambe.</dd>
+      <dt>Termina</dt><dd>No meio da lambida, foil na boca. Este é o quadro do congelamento.</dd>
       <dt>Locução</dt><dd><span class="quote">“Você já se perguntou: de onde vem esse gostinho de alegria que a gente nunca esquece?”</span></dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd>{{PROMPT:1c}}</dd>
     </dl>
   </div>
 </div>
@@ -145,9 +159,10 @@ td b { font-family: var(--font-display); }
   <div class="gen">
     <div class="gen-bar"><span>2a · Mergulho</span><span class="meta">4 s (3 usados) · 1 take</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd>Tempo parado: ele, a tampa na boca e o brilho nos óculos ficam imóveis; só a câmera se move. A sonda desce em arco do rosto congelado até o pote e mergulha no iogurte, que enche o quadro.</dd>
+      <dt>Acontece</dt><dd>Tempo parado: ele, o foil na boca e o brilho nos óculos ficam imóveis; só a câmera se move. A sonda desce em arco do rosto congelado até o pote e mergulha no iogurte, que enche o quadro.</dd>
       <dt>Termina</dt><dd>Quadro cheio e uniforme de rosa-creme, sem borda de pote: a câmera está suja de iogurte. Este é o primeiro quadro de 3a, sem corte visível.</dd>
       <dt>Elements</dt><dd>último quadro de 1c <span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd>{{PROMPT:2a}}</dd>
     </dl>
   </div>
 </div>
@@ -163,6 +178,7 @@ td b { font-family: var(--font-display); }
       <dt>Acontece</dt><dd><b>0–2 s, duas propostas para você escolher.</b> Nas duas, o primeiro quadro é o último de 2a, com a lente coberta de iogurte rosa.<br><b>A · A vaca limpa.</b> Uma Alegrinha de touca, bem perto da câmera, passa um pano rápido (uma ou duas passadas), limpa o vidro e sai de quadro. A fábrica aparece.<br><b>B · A lente se limpa sozinha.</b> O iogurte escorre pelo vidro, como um gel espesso, e sai pelas bordas de baixo, sem ninguém na frente da câmera. A fábrica vai aparecendo por baixo.<br><b>2–30 s</b> Um travelling horizontal único, da esquerda para a direita, na altura da esteira, de frente para os setores. A esteira atravessa a fábrica inteira e a câmera passa pelas aberturas em arco entre os setores, sem cortar. Em cada setor, de duas a três Alegrinhas trabalham (duas no Setor Créqui); só muda o look. O produto se transforma ao longo da linha: fruta, polpa, bandeja, tampa.</dd>
       <dt>Termina</dt><dd>Aos 30 s, no fim do Setor Tampinha, em plano aberto e no meio do movimento.</dd>
       <dt>Elements</dt><dd>primeiro quadro: último quadro de 2a <span class="chip">@loc_fabrica</span><span class="chip">@char_alegrinha-looks</span><span class="chip">@char_vaca-vinil</span></dd>
+    <dt>Prompt</dt><dd>{{PROMPTS:3a-A,3a-B}}</dd>
     </dl>
   </div>
 
@@ -182,9 +198,9 @@ td b { font-family: var(--font-display); }
         <td><b>Close:</b> a vaca da cabine quebra a dupla diante do microfone.<br><b>Close:</b> a vaca da mesa de som, de fone, faz um biquinho como se mugisse de satisfação com o barulho.</td>
         <td><span class="quote">“Na embalagem, é hora de encontrar o ‘créqui’ que soa como MÚUUsica ‘pros’ ouvidos.”</span><br>Setor Créqui Perfeito</td></tr>
       <tr><td><b>4 · Tampinha</b><br>21–30 s<br>look Pintora</td>
-        <td>Três vacas de boina e avental, cada uma com uma tampa grande num cavalete. Uma se afasta para julgar a obra, outra mergulha o pincel no iogurte, a terceira pincela o iogurte na tampa, sem decoração.</td>
-        <td><b>1.</b> Uma vaca pincela o iogurte na tampa, simples, sem decorações.<br><b>2.</b> Outra vaca mergulha o pincel no iogurte.<br><b>3.</b> Over the shoulder da vaca que se afastou para julgar a obra: ela faz um finger framing, enquadrando a tampa com os dedos.</td>
-        <td><span class="quote">“Já no toque final, cada tampinha é preparada ‘pra’ ter recheio até a ÚUUltima lambida…”</span><br>Setor Tampinha Recheada. A mensagem da tampa é escrita em pós.</td></tr>
+        <td>Três vacas de boina e avental, cada uma com uma lâmina grande de foil num cavalete. Uma se afasta para julgar a obra, outra mergulha o pincel no iogurte, a terceira pincela o iogurte no foil, sem decoração.</td>
+        <td><b>1.</b> Uma vaca pincela o iogurte no foil, simples, sem decorações.<br><b>2.</b> Outra vaca mergulha o pincel no iogurte.<br><b>3.</b> Over the shoulder da vaca que se afastou para julgar a obra: ela faz um finger framing, enquadrando o foil com os dedos.</td>
+        <td><span class="quote">“Já no toque final, cada tampinha é preparada ‘pra’ ter recheio até a ÚUUltima lambida…”</span><br>Setor Tampinha Recheada</td></tr>
     </tbody>
   </table></div>
 
@@ -193,6 +209,7 @@ td b { font-family: var(--font-display); }
     <dl class="rows">
       <dt>Acontece</dt><dd>Uma geração por setor, com os planos da tabela. Entram por cima da espinha como cutaways (cerca de 1,5 s cada) e a espinha segue por baixo. A espinha segue por baixo o tempo todo.</dd>
       <dt>Elements</dt><dd><span class="chip">@loc_fabrica</span><span class="chip">@char_alegrinha-looks</span></dd>
+    <dt>Prompt</dt><dd>{{PROMPTS:3b,4b,5b,6b}}</dd>
     </dl>
   </div>
 </div>
@@ -200,21 +217,15 @@ td b { font-family: var(--font-display); }
 <!-- CENA 7 -->
 <div class="scene" data-scene="7">
   <div class="scene-head"><input type="checkbox" data-scene="7" aria-label="Cena 7 conferida"><div class="scene-num">7</div>
-    <div class="scene-desc"><b>A imagem descongela: ele ganhou</b><span class="when">46″ a 52″ · captação · 1 geração (+1 opcional)</span></div></div>
+    <div class="scene-desc"><b>A imagem descongela: ele ganhou</b><span class="when">46″ a 52″ · captação · 1 geração</span></div></div>
   <div class="gen">
     <div class="gen-bar"><span>7a · A vitória</span><span class="meta">6 s · 1 take</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd>Começa no mesmo quadro da lambida. Ele termina de lamber e olha a tampa para ver se sobrou iogurte. Vê que foi premiado e fica feliz na hora, sem pausa. Comemora levantando a tampa com o braço, sem palavras. Nenhum chaveiro aparece.</dd>
+      <dt>Acontece</dt><dd>Começa no mesmo quadro da lambida. Ele termina de lamber e olha o foil para ver se sobrou iogurte. Vê que foi premiado e fica feliz na hora, sem pausa. Comemora levantando o foil com o braço, sem palavras. Nenhum chaveiro aparece.</dd>
       <dt>Termina</dt><dd>No auge da comemoração.</dd>
       <dt>Locução</dt><dd><span class="quote">“E, ‘pros’ mais sortudos, até uma sÚUUrpresa escondida.”</span></dd>
       <dt>Elements</dt><dd>último quadro de 1c <span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span><span class="chip">@loc_cozinha</span></dd>
-    </dl>
-  </div>
-  <div class="gen">
-    <div class="gen-bar"><span>7b · Macro da tampa <span class="tag post">opcional</span></span><span class="meta">4 s · 1 take</span></div>
-    <dl class="rows">
-      <dt>Acontece</dt><dd>Macro com a sonda sobre o verso da tampa, até o centro, onde a mensagem é composta em pós. É o que ele vê.</dd>
-      <dt>Elements</dt><dd><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd>{{PROMPT:7a}}</dd>
     </dl>
   </div>
 </div>
@@ -231,7 +242,7 @@ td b { font-family: var(--font-display); }
 </div>
 
 <h2>Fica para a pós</h2>
-<div class="card"><p style="margin:0">Letterings dos setores, mensagem da tampa, logo e rótulo (composição, se deformarem), locução, SFX do créqui e da lambida, trilha pop, cena 8.</p></div>
+<div class="card"><p style="margin:0">Letterings dos setores, logo e estampa do foil (composição, se deformarem), locução, SFX do créqui e da lambida, trilha pop, cena 8.</p></div>
 
 <h2>O que vamos olhar nos rascunhos</h2>
 <div class="note"><ul style="margin:0;padding-left:20px">
@@ -242,11 +253,15 @@ td b { font-family: var(--font-display); }
   <li>Uma geração de 30 s pode perder a altura da esteira ou a identidade das vacas. Se acontecer, divido em duas metades.</li>
 </ul></div>
 
+<h2>Previsão de créditos</h2>
+<p style="color:var(--muted);max-width:68ch">Rascunho em 480p e depois 1080p, sobre os segundos de cada geração. Os números estão explicados logo abaixo da tabela.</p>
+{{CREDITS}}
+
 <div class="ok">
-  <b>Para eu escrever os prompts</b>
+  <b>Próximo passo</b>
   <ul>
-    <li>Marque as cenas que estão certas e diga o que mudar nas outras.</li>
-    <li>Tamanho dos prompts de vídeo: <b>compacto</b> (cerca de 300 palavras, com as travas que o motor esquece: contagem de copos (dois unidos, depois um e um), lado das mãos, ordem dos setores) ou <b>bem curto</b> (cerca de 120)? Se não disser, uso o compacto.</li>
+    <li>Gere os rascunhos 480p na ordem 1a, 1b, 1c e 2a, e confira antes de seguir.</li>
+    <li>Escolha a abertura do 3a: A (a vaca limpa a lente) ou B (a lente se limpa sozinha). Os dois prompts estão no 3a.</li>
   </ul>
 </div>
 
@@ -260,6 +275,14 @@ td b { font-family: var(--font-display); }
     cb.addEventListener('change', function () {
       try { localStorage.setItem(key, cb.checked ? '1' : '0'); } catch (e) {}
       cb.closest('.scene').classList.toggle('done', cb.checked);
+    });
+  });
+  document.querySelectorAll('button.copy').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var el = document.getElementById(btn.dataset.target); if (!el) return;
+      var done = function () { var t = btn.textContent; btn.textContent = 'Copiado'; btn.classList.add('ok2'); setTimeout(function () { btn.textContent = t; btn.classList.remove('ok2'); }, 1500); };
+      var fallback = function () { var r = document.createRange(); r.selectNodeContents(el); var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r); };
+      try { navigator.clipboard.writeText(el.textContent).then(done, fallback); } catch (e) { fallback(); }
     });
   });
 })();

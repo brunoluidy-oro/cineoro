@@ -68,6 +68,17 @@ td b { font-family: var(--font-display); }
 .note { background: var(--amber-soft); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; margin: 14px 0; }
 .ok { background: var(--green-soft); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; margin-top: 26px; }
 .ok ul { margin: 6px 0 0; padding-left: 20px; }
+details.pbox { border: 1px solid var(--line); border-radius: 10px; background: var(--surface); margin: 8px 0; }
+details.pbox summary { cursor: pointer; padding: 10px 14px; font-weight: 600; font-size: 14px; }
+details.pbox summary .meta { color: var(--muted); font-weight: 500; font-size: 12px; margin-left: 6px; }
+.pbar { display: flex; flex-wrap: wrap; gap: 8px; justify-content: space-between; align-items: center; padding: 8px 14px; background: var(--surface-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 13px; font-weight: 600; }
+.copy { background: var(--surface); color: var(--green); border: 1px solid var(--line); border-radius: 6px; padding: 5px 12px; font: 600 12px var(--font-body); cursor: pointer; }
+.copy:hover { border-color: var(--green); } .copy.ok2 { background: var(--green-soft); }
+pre.prompt { margin: 0; padding: 14px 16px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 12.5px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; background: var(--bg); }
+table.credits { min-width: 420px; } table.credits .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+table.credits tr.tot td { background: var(--surface-2); }
+.small-notes { max-width: 70ch; padding-left: 20px; margin: 14px 0 0; color: var(--muted); font-size: 14px; } .small-notes li { margin: 5px 0; }
+button:focus-visible, summary:focus-visible { outline: 2px solid var(--green); outline-offset: 2px; }
 @media (max-width: 640px) {
   dl.rows { grid-template-columns: 1fr; }
   dl.rows dt { padding-bottom: 0; } dl.rows dd { border-top: 0; padding-top: 2px; }
@@ -81,7 +92,7 @@ td b { font-family: var(--font-display); }
 <header class="hero">
   <div class="eyebrow">Filme 60″ · Porto Alegre · direção das cenas</div>
   <h1>Alegrinha na Tampinha</h1>
-  <p class="lede">Confira cada cena e marque a caixa quando estiver certa. Com o seu OK, eu escrevo os prompts.</p>
+  <p class="lede">Confira cada cena e marque a caixa quando estiver certa. Os prompts de cada geração estão dentro dela, recolhidos.</p>
 </header>
 
 <h2>Regras do filme</h2>
@@ -115,6 +126,29 @@ td b { font-family: var(--font-display); }
       <dt>Acontece</dt><dd><b>0–3 s</b> A câmera está dentro da geladeira, de frente para a porta. A porta abre, o homem aparece, fixa um ponto dentro da geladeira, sorri e leva a mão para pegar um produto. A mão cobre a lente: ainda não vemos o quê.<br><b>3–6 s</b> Plano fechado na embalagem que sai da geladeira na mão direita dele: dois iogurtes unidos. A câmera recua e revela o homem.</dd>
       <dt>Termina</dt><dd>Plano médio dele em pé na porta aberta, com a embalagem de dois iogurtes na mão direita.</dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd><details class="pbox"><summary>1a · POV da geladeira <span class="meta">6 s · 546 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-1a">Copiar prompt</button></div><pre class="prompt" id="pv-1a">CONTRACT — Live-action photoreal commercial footage, 16:9, 6 seconds, 2 shots, 1 hard cut at 3s. Dry comedy played straight. No dialogue, no voice-over. NO music, NO score, NO subtitles, NO on-screen text.
+
+REFERENCES — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist), the only person in frame. @loc_cozinha: the kitchen (ignore its camera angle).
+
+SCENE — Summer afternoon in a Brazilian kitchen. He opens the fridge, takes a pack of yogurt and steps into the light holding it, serious as a man in a ritual. Already in progress.
+
+The pack is exactly TWO pink ribbed yogurt cups joined side by side by a break line, each sealed with FOIL: a thin, soft, flexible aluminum sheet printed in green that bends and crinkles, never stiff (@prop_pote-morango shows one cup).
+
+LOCKS — 1. Exactly two joined cups with soft foil; WRONG if a tray of six or a rigid cover. 2. From second 3 the pack is in his RIGHT hand. 3. In shot 1 the camera is the fridge: he never looks into the lens, only at a point inside the fridge beside it. 4. Fridge at FRAME-LEFT in shot 2.
+
+TIMELINE —
+SHOT 1 (0–3s) — MCU, 84°, locked off inside the fridge at shelf height, 0.7 m from the doorway. The door is already swinging open, cool light on the lens. His face appears, eyes on a fixed point inside the fridge, a slow smile; at 2s his right hand reaches in and covers the lens, so we do not see what he takes. HARD CUT.
+SHOT 2 (3–6s) — starts CU, 29°, tight on the pack leaving the fridge in his right hand; the camera pulls straight back 1.2 m, smooth, to MS 47°, revealing him at the open fridge, pack at chest height, deadpan. Hard end.
+
+CAMERA — shot 1 stays put; shot 2 travels back in one smooth move. Level horizon. NOT: handheld shake, orbit, zoom.
+
+LIGHT — warm natural summer window light from FRAME-RIGHT; the open fridge&#x27;s cool light from FRAME-LEFT on his face. The lit sides never flip.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+
+SOUND — fridge hum, the door seal&#x27;s soft thup, the crinkle of the foil. NO music, NO voice.
+
+NEGATIVE: glassy stare, warped hands, extra fingers, a second person, speech, voice-over, readable text, stiff foil, music, subtitles, handheld shake, CGI gloss, wrong aspect ratio.</pre></details></dd>
     </dl>
   </div>
 
@@ -124,16 +158,62 @@ td b { font-family: var(--font-display); }
       <dt>Acontece</dt><dd><b>0–3 s</b> Macro entre os dois copos da dupla, ao longo da linha de quebra que os une. Dois dedos pinçam. Uma pausa curta. Ele dobra a dupla contra a linha de quebra e o estalo, o “créqui”, a separa em duas unidades.<br><b>3–5 s</b> Close dele em high angle de leve, olhos meio fechados, um prazer contido. Ele fica com um copo na mão esquerda e pousa o outro no balcão.</dd>
       <dt>Termina</dt><dd>Um copo na mão esquerda; o outro, solto, no balcão.</dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd><details class="pbox"><summary>1b · O créqui <span class="meta">5 s · 509 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-1b">Copiar prompt</button></div><pre class="prompt" id="pv-1b">CONTRACT — Live-action photoreal commercial footage, 16:9, 5 seconds, 2 shots, 1 hard cut at 3s. Dry comedy played straight. No dialogue, no voice-over. NO music, NO score, NO subtitles, NO on-screen text.
+
+REFERENCES — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist), the only person in frame. @loc_cozinha: the kitchen.
+
+SCENE — The same kitchen and light. He splits the two-cup pack with a crisp snap. Already in progress.
+
+The pack is exactly TWO pink ribbed yogurt cups joined side by side by a break line, each sealed with FOIL: a thin, soft, flexible aluminum sheet printed in green that bends and crinkles, never stiff (@prop_pote-morango shows one cup).
+
+LOCKS — 1. Two joined cups before the snap, exactly two separate cups after; WRONG if it stays joined or becomes three. 2. After the snap one cup in his LEFT hand, the other set on the counter at FRAME-RIGHT. 3. Foil stays on, soft.
+
+TIMELINE —
+SHOT 1 (0–3s) — extreme close-up, slim probe macro lens, about 84° of exaggerated perspective, 2 cm from the pack, gliding slowly along the break line between the cups. Two fingertips pinch the cups. A short beat of stillness. At 2s he bends the pack against the break line and it snaps with a crisp, bright crack (the créqui): two separate cups. HARD CUT.
+SHOT 2 (3–5s) — CU, 29°, camera slightly above his eye line looking down a little (slight high angle): eyes half-closed, a contained pleasure, a tiny shiver. He keeps one cup in his left hand and sets the other on the counter. Hard end.
+
+CAMERA — shot 1 glides along the break line; shot 2 stays put. NOT: handheld shake, orbit, zoom.
+
+LIGHT — warm natural summer window light from FRAME-RIGHT; the open fridge&#x27;s cool light from FRAME-LEFT on his face. The lit sides never flip.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+
+SOUND — the créqui, a short crisp plastic snap, the hero sound; the foil&#x27;s crinkle. NO music, NO voice.
+
+NEGATIVE: glassy stare, warped hands, extra fingers, a second person, speech, voice-over, readable text, stiff foil, music, subtitles, handheld shake, CGI gloss, wrong aspect ratio.</pre></details></dd>
     </dl>
   </div>
 
   <div class="gen">
-    <div class="gen-bar"><span>1c · A tampa e a lambida</span><span class="meta">6 s · 2 planos</span></div>
+    <div class="gen-bar"><span>1c · O foil e a lambida</span><span class="meta">6 s · 2 planos</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd><b>0–2 s</b> Macro na borda da tampa: a ponta do dedo (a ponta da última falange) levanta a borda e a tampa sai.<br><b>2–6 s</b> Plano médio fechado em high angle de leve. Ele olha a tampa com reverência, leva à boca e lambe.</dd>
-      <dt>Termina</dt><dd>No meio da lambida, tampa na boca. Este é o quadro do congelamento.</dd>
+      <dt>Acontece</dt><dd><b>0–2 s</b> Macro na borda do foil: a ponta do dedo (a ponta da última falange) levanta a borda e o foil sai, uma lâmina macia de alumínio.<br><b>2–6 s</b> Plano médio fechado em high angle de leve. Ele olha o foil com reverência, leva à boca e lambe.</dd>
+      <dt>Termina</dt><dd>No meio da lambida, foil na boca. Este é o quadro do congelamento.</dd>
       <dt>Locução</dt><dd><span class="quote">“Você já se perguntou: de onde vem esse gostinho de alegria que a gente nunca esquece?”</span></dd>
       <dt>Elements</dt><dd><span class="chip">@loc_cozinha</span><span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd><details class="pbox"><summary>1c · O foil e a lambida <span class="meta">6 s · 496 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-1c">Copiar prompt</button></div><pre class="prompt" id="pv-1c">CONTRACT — Live-action photoreal commercial footage, 16:9, 6 seconds, 2 shots, 1 hard cut at 2s. Dry comedy played straight. No dialogue, no voice-over. NO music, NO score, NO subtitles, NO on-screen text.
+
+REFERENCES — @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist), the only person in frame. @loc_cozinha: the kitchen. @prop_pote-morango: the cup with its green foil.
+
+SCENE — The same kitchen and light. He opens the single cup in his left hand and licks the yogurt off the foil. Already in progress.
+
+FOIL — a thin, soft, flexible aluminum sheet printed in green with a white shield logo and a strawberry; its inner side carries a film of pink yogurt. It bends and crinkles, never stiff. NO tab, NO writing to read.
+
+LOCKS — 1. Cup in his LEFT hand, foil in his RIGHT hand. 2. The fingertip (the tip of the last phalanx) lifts the foil&#x27;s edge and the foil comes away. 3. No readable text, no message.
+
+TIMELINE —
+SHOT 1 (0–2s) — extreme close-up, slim probe macro lens, about 84°, 2 cm from the cup&#x27;s edge: the fingertip of his right hand lifts the edge of the foil and it comes away. HARD CUT.
+SHOT 2 (2–6s) — MCU, 47°, camera slightly above his eye line looking down a little (slight high angle), locked off. He looks at the foil with reverence, brings it to his mouth and licks the yogurt off its inside. Hard end mid-lick, foil at his mouth, eyes half-closed, open cup in his left hand at chest height: this frame becomes the freeze frame.
+
+CAMERA — both shots stay put. NOT: handheld shake, orbit, zoom.
+
+LIGHT — warm natural summer window light from FRAME-RIGHT; the open fridge&#x27;s cool light from FRAME-LEFT on his face. The lit sides never flip.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+
+SOUND — the foil&#x27;s crinkle, a small wet lick, his breath. NO music, NO voice.
+
+NEGATIVE: glassy stare, warped hands, extra fingers, a second person, speech, voice-over, readable text, stiff foil, music, subtitles, handheld shake, CGI gloss, wrong aspect ratio.</pre></details></dd>
     </dl>
   </div>
 </div>
@@ -145,9 +225,29 @@ td b { font-family: var(--font-display); }
   <div class="gen">
     <div class="gen-bar"><span>2a · Mergulho</span><span class="meta">4 s (3 usados) · 1 take</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd>Tempo parado: ele, a tampa na boca e o brilho nos óculos ficam imóveis; só a câmera se move. A sonda desce em arco do rosto congelado até o pote e mergulha no iogurte, que enche o quadro.</dd>
+      <dt>Acontece</dt><dd>Tempo parado: ele, o foil na boca e o brilho nos óculos ficam imóveis; só a câmera se move. A sonda desce em arco do rosto congelado até o pote e mergulha no iogurte, que enche o quadro.</dd>
       <dt>Termina</dt><dd>Quadro cheio e uniforme de rosa-creme, sem borda de pote: a câmera está suja de iogurte. Este é o primeiro quadro de 3a, sem corte visível.</dd>
       <dt>Elements</dt><dd>último quadro de 1c <span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd><details class="pbox"><summary>2a · Mergulho <span class="meta">4 s · 401 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-2a">Copiar prompt</button></div><pre class="prompt" id="pv-2a">CONTRACT — Live-action photoreal commercial footage, 16:9, 4 seconds, ONE continuous take, time-freeze: everything in the scene is motionless like a photograph and ONLY the camera moves. NO music, NO subtitles, NO on-screen text.
+
+REFERENCES — [first frame] KEYFRAME: the take STARTS from this exact frame (the man mid-lick, the foil at his mouth, the open cup in his left hand); light, grade and skin continue it exactly. @prop_pote-morango: the open cup.
+
+SCENE — The instant after the lick. Time stops. The camera, a slim probe lens, slides forward and down in one arc toward the cup and dives into the pink yogurt.
+
+LOCKS — 1. Nothing moves except the camera; WRONG if he blinks or breathes. 2. One smooth arc, no cuts. 3. The last frame is a uniform strawberry-cream pink filling the frame, with no cup, rim, highlight or edge.
+
+TIMELINE —
+BEAT 1 (0–1s) — MCU 47°, the frozen frame; the camera starts to drift forward.
+BEAT 2 (1–3s) — the camera arcs forward and down past his chest, 20 cm above his thumb, toward the open cup; the rim grows and the yogurt fills the frame.
+BEAT 3 (3–4s) — the lens dives through the surface; the frame fills with soft, uniform strawberry-cream pink. Hard end.
+
+CAMERA — an impossible camera on a curve, one smooth move, no zoom. NOT: handheld shake, cut.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+
+SOUND — near silence, a soft airy whoosh at 3s. NO music, NO voice.
+
+NEGATIVE: any movement in the man, blinking, yogurt ripple, cuts, readable text, music, handheld shake, wrong aspect ratio.</pre></details></dd>
     </dl>
   </div>
 </div>
@@ -163,6 +263,61 @@ td b { font-family: var(--font-display); }
       <dt>Acontece</dt><dd><b>0–2 s, duas propostas para você escolher.</b> Nas duas, o primeiro quadro é o último de 2a, com a lente coberta de iogurte rosa.<br><b>A · A vaca limpa.</b> Uma Alegrinha de touca, bem perto da câmera, passa um pano rápido (uma ou duas passadas), limpa o vidro e sai de quadro. A fábrica aparece.<br><b>B · A lente se limpa sozinha.</b> O iogurte escorre pelo vidro, como um gel espesso, e sai pelas bordas de baixo, sem ninguém na frente da câmera. A fábrica vai aparecendo por baixo.<br><b>2–30 s</b> Um travelling horizontal único, da esquerda para a direita, na altura da esteira, de frente para os setores. A esteira atravessa a fábrica inteira e a câmera passa pelas aberturas em arco entre os setores, sem cortar. Em cada setor, de duas a três Alegrinhas trabalham (duas no Setor Créqui); só muda o look. O produto se transforma ao longo da linha: fruta, polpa, bandeja, tampa.</dd>
       <dt>Termina</dt><dd>Aos 30 s, no fim do Setor Tampinha, em plano aberto e no meio do movimento.</dd>
       <dt>Elements</dt><dd>primeiro quadro: último quadro de 2a <span class="chip">@loc_fabrica</span><span class="chip">@char_alegrinha-looks</span><span class="chip">@char_vaca-vinil</span></dd>
+    <dt>Prompt</dt><dd><details class="pbox"><summary>3a · Espinha, abertura A (a vaca limpa) <span class="meta">30 s · 726 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-3a-A">Copiar prompt</button></div><pre class="prompt" id="pv-3a-A">CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 30 seconds, ONE continuous take, no cuts, a side-on travelling shot. No speech, no lip-sync. NO music, NO subtitles, NO on-screen text.
+
+REFERENCES — [first frame] KEYFRAME: the take STARTS from this exact frame. @loc_fabrica, @char_alegrinha-looks, @char_vaca-vinil.
+
+COW — the matte vinyl cow of @char_vaca-vinil: cream body, her RIGHT ear black (screen-left when she faces the camera) and her left ear cream, small horns, dot eyes, a thin smile that can widen to show a small red mouth, pink belly patch, black flank patches, black glove hands and hooves, a golden bell on a cord, NO keyring. Always happy to be working, never sad or blank. Outfits per hall in @char_alegrinha-looks.
+
+WORLD — a tiny factory for tiny cows: one white belt running FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings. @loc_fabrica gives layout and materials (ignore its isometric angle). NO text, letters or numerals anywhere.
+
+LOCKS — 1. Cow counts: hall 1 three, hall 2 three, hall 3 exactly TWO, hall 4 three. 2. The camera moves FRAME-LEFT to FRAME-RIGHT at a constant speed for all 30s and never cuts. 3. Right ear black, no keyring. 4. Each hall keeps its outfit. 5. No text anywhere.
+
+TIMELINE — ONE continuous take, no cuts:
+BEAT 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. A cow in a hairnet, VERY close to the camera, wipes the lens with a white cloth in two quick strokes; the yogurt goes onto the cloth and the glass is clean. She steps out of frame; the factory appears and the travelling is already moving.
+BEAT 2 (2–7s) — hall 1, fruit selection: three cows in hairnets, white boots and aprons, one at each of three small round tables behind the belt. The left cow turns a big strawberry in her gloves and sets it on the belt; the middle cow holds up a bruised apple, judges it solemnly and drops it in a bin; the right cow carries half a coconut onto the belt, leaning back for the weight.
+BEAT 3 (7–14s) — hall 2, pulp lab: three cows in white lab coats. One throws a strawberry into the funnel of a pulp press; another holds a test tube against a strip of pink swatches; the third presses a green button on a console and gives a thumbs-up. Pink pulp runs through glass tubes.
+BEAT 4 (14–21s) — hall 3, sound studio: inside a glass acoustic booth with a microphone, a cow holds a pair of joined yogurt cups and snaps them in two with a crisp créqui; the needle of a meter jumps. Outside, a cow in headphones operates a cartoon audio desk, listening, lips pursed in a satisfied pout.
+BEAT 5 (21–30s) — hall 4, art studio: three cows in painter&#x27;s smocks and berets, each with a large flat sheet of soft aluminum foil on a small easel. One steps back to judge her work, one dips a brush into yogurt, one brushes yogurt onto the foil, plain, no decoration. Hard end at 30s, wide, mid-movement.
+
+CAMERA — a side-on rail travelling parallel to the belt, 47°, lens at 1 cow-height, the belt in the lower third, moving FRAME-LEFT to FRAME-RIGHT at a constant calm speed (about one cow-length per second), no stops, no cuts.
+
+LIGHT — one big soft key travelling with the camera at FRAME-LEFT. The lit side never flips.
+
+LOOK — premium 3D animation, a miniature designer-toy diorama: matte soft-touch vinyl world and characters, rounded bevels, no gloss; mostly monochromatic green with a white floor and belt; the cows and the fruit keep their own colours. Soft global illumination, lifted pastel shadows, a thin plane of sharp focus. Clean image: NO grain, NO vignette, NO lens flares.
+
+SOUND — soft cartoon foley (belt hum, footsteps, bell dings, squeaky fruit). NO music, NO voice.
+
+NEGATIVE: photoreal humans, human hands, speech, keyring, wrong cow count, merged cows, swapped ear colours, glossy plastic, hard shadows, film grain, camera shake, any text, music, wrong aspect ratio.
+
+[ORDER: 1 take, 30s, side-on travelling left to right — (0–2s) opening on the yogurt-covered lens; (2–7s) hall 1; (7–14s) hall 2; (14–21s) hall 3; (21–30s) hall 4. Cows 3-3-2-3; constant direction; no text. NO music.]</pre></details><details class="pbox"><summary>3a · Espinha, abertura B (a lente se limpa sozinha) <span class="meta">30 s · 721 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-3a-B">Copiar prompt</button></div><pre class="prompt" id="pv-3a-B">CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 30 seconds, ONE continuous take, no cuts, a side-on travelling shot. No speech, no lip-sync. NO music, NO subtitles, NO on-screen text.
+
+REFERENCES — [first frame] KEYFRAME: the take STARTS from this exact frame. @loc_fabrica, @char_alegrinha-looks, @char_vaca-vinil.
+
+COW — the matte vinyl cow of @char_vaca-vinil: cream body, her RIGHT ear black (screen-left when she faces the camera) and her left ear cream, small horns, dot eyes, a thin smile that can widen to show a small red mouth, pink belly patch, black flank patches, black glove hands and hooves, a golden bell on a cord, NO keyring. Always happy to be working, never sad or blank. Outfits per hall in @char_alegrinha-looks.
+
+WORLD — a tiny factory for tiny cows: one white belt running FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings. @loc_fabrica gives layout and materials (ignore its isometric angle). NO text, letters or numerals anywhere.
+
+LOCKS — 1. Cow counts: hall 1 three, hall 2 three, hall 3 exactly TWO, hall 4 three. 2. The camera moves FRAME-LEFT to FRAME-RIGHT at a constant speed for all 30s and never cuts. 3. Right ear black, no keyring. 4. Each hall keeps its outfit. 5. No text anywhere.
+
+TIMELINE — ONE continuous take, no cuts:
+BEAT 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. With nobody in front of the camera, the yogurt slides down the glass like a thick gel and runs off the bottom edge, leaving a perfectly clean lens; the factory appears from the top down and the travelling is already moving.
+BEAT 2 (2–7s) — hall 1, fruit selection: three cows in hairnets, white boots and aprons, one at each of three small round tables behind the belt. The left cow turns a big strawberry in her gloves and sets it on the belt; the middle cow holds up a bruised apple, judges it solemnly and drops it in a bin; the right cow carries half a coconut onto the belt, leaning back for the weight.
+BEAT 3 (7–14s) — hall 2, pulp lab: three cows in white lab coats. One throws a strawberry into the funnel of a pulp press; another holds a test tube against a strip of pink swatches; the third presses a green button on a console and gives a thumbs-up. Pink pulp runs through glass tubes.
+BEAT 4 (14–21s) — hall 3, sound studio: inside a glass acoustic booth with a microphone, a cow holds a pair of joined yogurt cups and snaps them in two with a crisp créqui; the needle of a meter jumps. Outside, a cow in headphones operates a cartoon audio desk, listening, lips pursed in a satisfied pout.
+BEAT 5 (21–30s) — hall 4, art studio: three cows in painter&#x27;s smocks and berets, each with a large flat sheet of soft aluminum foil on a small easel. One steps back to judge her work, one dips a brush into yogurt, one brushes yogurt onto the foil, plain, no decoration. Hard end at 30s, wide, mid-movement.
+
+CAMERA — a side-on rail travelling parallel to the belt, 47°, lens at 1 cow-height, the belt in the lower third, moving FRAME-LEFT to FRAME-RIGHT at a constant calm speed (about one cow-length per second), no stops, no cuts.
+
+LIGHT — one big soft key travelling with the camera at FRAME-LEFT. The lit side never flips.
+
+LOOK — premium 3D animation, a miniature designer-toy diorama: matte soft-touch vinyl world and characters, rounded bevels, no gloss; mostly monochromatic green with a white floor and belt; the cows and the fruit keep their own colours. Soft global illumination, lifted pastel shadows, a thin plane of sharp focus. Clean image: NO grain, NO vignette, NO lens flares.
+
+SOUND — soft cartoon foley (belt hum, footsteps, bell dings, squeaky fruit). NO music, NO voice.
+
+NEGATIVE: photoreal humans, human hands, speech, keyring, wrong cow count, merged cows, swapped ear colours, glossy plastic, hard shadows, film grain, camera shake, any text, music, wrong aspect ratio.
+
+[ORDER: 1 take, 30s, side-on travelling left to right — (0–2s) opening on the yogurt-covered lens; (2–7s) hall 1; (7–14s) hall 2; (14–21s) hall 3; (21–30s) hall 4. Cows 3-3-2-3; constant direction; no text. NO music.]</pre></details></dd>
     </dl>
   </div>
 
@@ -182,9 +337,9 @@ td b { font-family: var(--font-display); }
         <td><b>Close:</b> a vaca da cabine quebra a dupla diante do microfone.<br><b>Close:</b> a vaca da mesa de som, de fone, faz um biquinho como se mugisse de satisfação com o barulho.</td>
         <td><span class="quote">“Na embalagem, é hora de encontrar o ‘créqui’ que soa como MÚUUsica ‘pros’ ouvidos.”</span><br>Setor Créqui Perfeito</td></tr>
       <tr><td><b>4 · Tampinha</b><br>21–30 s<br>look Pintora</td>
-        <td>Três vacas de boina e avental, cada uma com uma tampa grande num cavalete. Uma se afasta para julgar a obra, outra mergulha o pincel no iogurte, a terceira pincela o iogurte na tampa, sem decoração.</td>
-        <td><b>1.</b> Uma vaca pincela o iogurte na tampa, simples, sem decorações.<br><b>2.</b> Outra vaca mergulha o pincel no iogurte.<br><b>3.</b> Over the shoulder da vaca que se afastou para julgar a obra: ela faz um finger framing, enquadrando a tampa com os dedos.</td>
-        <td><span class="quote">“Já no toque final, cada tampinha é preparada ‘pra’ ter recheio até a ÚUUltima lambida…”</span><br>Setor Tampinha Recheada. A mensagem da tampa é escrita em pós.</td></tr>
+        <td>Três vacas de boina e avental, cada uma com uma lâmina grande de foil num cavalete. Uma se afasta para julgar a obra, outra mergulha o pincel no iogurte, a terceira pincela o iogurte no foil, sem decoração.</td>
+        <td><b>1.</b> Uma vaca pincela o iogurte no foil, simples, sem decorações.<br><b>2.</b> Outra vaca mergulha o pincel no iogurte.<br><b>3.</b> Over the shoulder da vaca que se afastou para julgar a obra: ela faz um finger framing, enquadrando o foil com os dedos.</td>
+        <td><span class="quote">“Já no toque final, cada tampinha é preparada ‘pra’ ter recheio até a ÚUUltima lambida…”</span><br>Setor Tampinha Recheada</td></tr>
     </tbody>
   </table></div>
 
@@ -193,6 +348,97 @@ td b { font-family: var(--font-display); }
     <dl class="rows">
       <dt>Acontece</dt><dd>Uma geração por setor, com os planos da tabela. Entram por cima da espinha como cutaways (cerca de 1,5 s cada) e a espinha segue por baixo. A espinha segue por baixo o tempo todo.</dd>
       <dt>Elements</dt><dd><span class="chip">@loc_fabrica</span><span class="chip">@char_alegrinha-looks</span></dd>
+    <dt>Prompt</dt><dd><details class="pbox"><summary>3b · Inserts do Setor 1 <span class="meta">8 s · 419 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-3b">Copiar prompt</button></div><pre class="prompt" id="pv-3b">CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds, 2 shots with 1 hard cut at 4s. No speech, no lip-sync. NO music, NO subtitles, NO on-screen text.
+
+REFERENCES — @loc_fabrica, @char_alegrinha-looks, @char_vaca-vinil.
+
+COW — the matte vinyl cow of @char_vaca-vinil: cream body, her RIGHT ear black (screen-left when she faces the camera) and her left ear cream, small horns, dot eyes, a thin smile that can widen to show a small red mouth, pink belly patch, black flank patches, black glove hands and hooves, a golden bell on a cord, NO keyring. Always happy to be working, never sad or blank. Outfits per hall in @char_alegrinha-looks.
+
+WORLD — a tiny factory for tiny cows: one white belt running FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings. @loc_fabrica gives layout and materials (ignore its isometric angle). NO text, letters or numerals anywhere.
+
+LOCKS — Shot 1 shows only gloves, fruit and belt; shot 2 exactly one cow. The belt runs FRAME-LEFT to FRAME-RIGHT on screen in every shot. Right ear black, no keyring. No text anywhere.
+
+TIMELINE — hard cuts only at the specified seconds:
+SHOT 1 (0–4s) — straight-down top view, 63°, locked off: the white belt crossing the frame left to right with strawberries, apples and coconut halves, and black gloves picking them one by one; a bruised apple is lifted off the line.
+SHOT 2 (4–8s) — CU, 29°, side-on, locked off: a cow in a white hairnet and pale-green apron turns a big strawberry in her gloves to inspect it, the golden bell swinging, her happy face intent on the fruit. Hard end.
+
+LIGHT — one big soft key travelling with the camera at FRAME-LEFT. The lit side never flips.
+
+LOOK — premium 3D animation, a miniature designer-toy diorama: matte soft-touch vinyl world and characters, rounded bevels, no gloss; mostly monochromatic green with a white floor and belt; the cows and the fruit keep their own colours. Soft global illumination, lifted pastel shadows, a thin plane of sharp focus. Clean image: NO grain, NO vignette, NO lens flares.
+
+SOUND — soft cartoon foley (belt hum, footsteps, bell dings, squeaky fruit). NO music, NO voice.
+
+NEGATIVE: photoreal humans, human hands, speech, keyring, wrong cow count, merged cows, swapped ear colours, glossy plastic, hard shadows, film grain, camera shake, any text, music, wrong aspect ratio.
+
+[ORDER: 2 shots, 8s — (0–4s) top view of the belt and gloves; (4–8s) CU of the strawberry inspection. One cow in shot 2. NO music.]</pre></details><details class="pbox"><summary>4b · Inserts do Setor 2 <span class="meta">9 s · 425 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-4b">Copiar prompt</button></div><pre class="prompt" id="pv-4b">CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 9 seconds, 3 shots with 2 hard cuts at 3s and 6s. No speech, no lip-sync. NO music, NO subtitles, NO on-screen text.
+
+REFERENCES — @loc_fabrica, @char_alegrinha-looks, @char_vaca-vinil.
+
+COW — the matte vinyl cow of @char_vaca-vinil: cream body, her RIGHT ear black (screen-left when she faces the camera) and her left ear cream, small horns, dot eyes, a thin smile that can widen to show a small red mouth, pink belly patch, black flank patches, black glove hands and hooves, a golden bell on a cord, NO keyring. Always happy to be working, never sad or blank. Outfits per hall in @char_alegrinha-looks.
+
+WORLD — a tiny factory for tiny cows: one white belt running FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings. @loc_fabrica gives layout and materials (ignore its isometric angle). NO text, letters or numerals anywhere.
+
+LOCKS — Shot 1 shows only the press and tubes; shot 2 exactly one cow; shot 3 only the nozzle and the pot. The belt runs FRAME-LEFT to FRAME-RIGHT on screen in every shot. Right ear black, no keyring. No text anywhere.
+
+TIMELINE — hard cuts only at the specified seconds:
+SHOT 1 (0–3s) — high angle, 63°, locked off: strawberries drop down the funnel of the pulp press and thick pink pulp runs through the glass tubes.
+SHOT 2 (3–6s) — CU, 29°, side-on: a cow in a white lab coat holds a test tube of pink pulp against a strip of pink swatches, her happy face intent.
+SHOT 3 (6–9s) — CU, 29°, side-on: a nozzle injects thick pink yogurt pulp into a small pot on the belt, filling it. Hard end.
+
+LIGHT — one big soft key travelling with the camera at FRAME-LEFT. The lit side never flips.
+
+LOOK — premium 3D animation, a miniature designer-toy diorama: matte soft-touch vinyl world and characters, rounded bevels, no gloss; mostly monochromatic green with a white floor and belt; the cows and the fruit keep their own colours. Soft global illumination, lifted pastel shadows, a thin plane of sharp focus. Clean image: NO grain, NO vignette, NO lens flares.
+
+SOUND — soft cartoon foley (belt hum, footsteps, bell dings, squeaky fruit). NO music, NO voice.
+
+NEGATIVE: photoreal humans, human hands, speech, keyring, wrong cow count, merged cows, swapped ear colours, glossy plastic, hard shadows, film grain, camera shake, any text, music, wrong aspect ratio.
+
+[ORDER: 3 shots, 9s — (0–3s) press and tubes; (3–6s) test tube against swatches; (6–9s) nozzle fills the pot. NO music.]</pre></details><details class="pbox"><summary>5b · Inserts do Setor 3 <span class="meta">8 s · 432 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-5b">Copiar prompt</button></div><pre class="prompt" id="pv-5b">CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 8 seconds, 2 shots with 1 hard cut at 4s. No speech, no lip-sync. NO music, NO subtitles, NO on-screen text.
+
+REFERENCES — @loc_fabrica, @char_alegrinha-looks, @char_vaca-vinil.
+
+COW — the matte vinyl cow of @char_vaca-vinil: cream body, her RIGHT ear black (screen-left when she faces the camera) and her left ear cream, small horns, dot eyes, a thin smile that can widen to show a small red mouth, pink belly patch, black flank patches, black glove hands and hooves, a golden bell on a cord, NO keyring. Always happy to be working, never sad or blank. Outfits per hall in @char_alegrinha-looks.
+
+WORLD — a tiny factory for tiny cows: one white belt running FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings. @loc_fabrica gives layout and materials (ignore its isometric angle). NO text, letters or numerals anywhere.
+
+LOCKS — Exactly two cows in this hall: one in the booth, one at the desk; each shot shows one. The belt runs FRAME-LEFT to FRAME-RIGHT on screen in every shot. Right ear black, no keyring. No text anywhere.
+
+TIMELINE — hard cuts only at the specified seconds:
+SHOT 1 (0–4s) — CU, 29°, side-on, inside the glass acoustic booth: in front of a microphone with a round pop filter, a cow bends a pair of joined yogurt cups against their break line and snaps them apart with a crisp créqui; the needle on a meter jumps.
+SHOT 2 (4–8s) — CU, 29°, outside the booth: a cow in over-ear headphones at a cartoon audio desk with a few simple sliders listens, then makes a small satisfied pout as if mooing, her eyes closing happily. Hard end.
+
+LIGHT — one big soft key travelling with the camera at FRAME-LEFT. The lit side never flips.
+
+LOOK — premium 3D animation, a miniature designer-toy diorama: matte soft-touch vinyl world and characters, rounded bevels, no gloss; mostly monochromatic green with a white floor and belt; the cows and the fruit keep their own colours. Soft global illumination, lifted pastel shadows, a thin plane of sharp focus. Clean image: NO grain, NO vignette, NO lens flares.
+
+SOUND — soft cartoon foley (belt hum, footsteps, bell dings, squeaky fruit). NO music, NO voice.
+
+NEGATIVE: photoreal humans, human hands, speech, keyring, wrong cow count, merged cows, swapped ear colours, glossy plastic, hard shadows, film grain, camera shake, any text, music, wrong aspect ratio.
+
+[ORDER: 2 shots, 8s — (0–4s) the cow in the booth snaps the pair; (4–8s) the cow at the desk pouts like a satisfied moo. NO music.]</pre></details><details class="pbox"><summary>6b · Inserts do Setor 4 <span class="meta">9 s · 422 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-6b">Copiar prompt</button></div><pre class="prompt" id="pv-6b">CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, 9 seconds, 3 shots with 2 hard cuts at 3s and 6s. No speech, no lip-sync. NO music, NO subtitles, NO on-screen text.
+
+REFERENCES — @loc_fabrica, @char_alegrinha-looks, @char_vaca-vinil.
+
+COW — the matte vinyl cow of @char_vaca-vinil: cream body, her RIGHT ear black (screen-left when she faces the camera) and her left ear cream, small horns, dot eyes, a thin smile that can widen to show a small red mouth, pink belly patch, black flank patches, black glove hands and hooves, a golden bell on a cord, NO keyring. Always happy to be working, never sad or blank. Outfits per hall in @char_alegrinha-looks.
+
+WORLD — a tiny factory for tiny cows: one white belt running FRAME-LEFT to FRAME-RIGHT through four halls divided by walls with arched openings. @loc_fabrica gives layout and materials (ignore its isometric angle). NO text, letters or numerals anywhere.
+
+LOCKS — Three cows in this hall, one per easel; each shot shows one. The belt runs FRAME-LEFT to FRAME-RIGHT on screen in every shot. Right ear black, no keyring. No text anywhere.
+
+TIMELINE — hard cuts only at the specified seconds:
+SHOT 1 (0–3s) — CU, 29°, side-on: a cow in a painter&#x27;s smock and beret brushes yogurt onto a flat sheet of soft aluminum foil on her easel, simple strokes, no decoration.
+SHOT 2 (3–6s) — CU, 29°, side-on: another cow dips her brush into a cup of yogurt.
+SHOT 3 (6–9s) — over-the-shoulder, 47°, from just behind the cow who stepped back to judge her work: she makes a finger frame with her gloved fingers around the foil on the easel. Hard end.
+
+LIGHT — one big soft key travelling with the camera at FRAME-LEFT. The lit side never flips.
+
+LOOK — premium 3D animation, a miniature designer-toy diorama: matte soft-touch vinyl world and characters, rounded bevels, no gloss; mostly monochromatic green with a white floor and belt; the cows and the fruit keep their own colours. Soft global illumination, lifted pastel shadows, a thin plane of sharp focus. Clean image: NO grain, NO vignette, NO lens flares.
+
+SOUND — soft cartoon foley (belt hum, footsteps, bell dings, squeaky fruit). NO music, NO voice.
+
+NEGATIVE: photoreal humans, human hands, speech, keyring, wrong cow count, merged cows, swapped ear colours, glossy plastic, hard shadows, film grain, camera shake, any text, music, wrong aspect ratio.
+
+[ORDER: 3 shots, 9s — (0–3s) brushing yogurt on the foil; (3–6s) dipping the brush; (6–9s) over the shoulder, finger frame. Plain, no decoration. NO music.]</pre></details></dd>
     </dl>
   </div>
 </div>
@@ -200,21 +446,37 @@ td b { font-family: var(--font-display); }
 <!-- CENA 7 -->
 <div class="scene" data-scene="7">
   <div class="scene-head"><input type="checkbox" data-scene="7" aria-label="Cena 7 conferida"><div class="scene-num">7</div>
-    <div class="scene-desc"><b>A imagem descongela: ele ganhou</b><span class="when">46″ a 52″ · captação · 1 geração (+1 opcional)</span></div></div>
+    <div class="scene-desc"><b>A imagem descongela: ele ganhou</b><span class="when">46″ a 52″ · captação · 1 geração</span></div></div>
   <div class="gen">
     <div class="gen-bar"><span>7a · A vitória</span><span class="meta">6 s · 1 take</span></div>
     <dl class="rows">
-      <dt>Acontece</dt><dd>Começa no mesmo quadro da lambida. Ele termina de lamber e olha a tampa para ver se sobrou iogurte. Vê que foi premiado e fica feliz na hora, sem pausa. Comemora levantando a tampa com o braço, sem palavras. Nenhum chaveiro aparece.</dd>
+      <dt>Acontece</dt><dd>Começa no mesmo quadro da lambida. Ele termina de lamber e olha o foil para ver se sobrou iogurte. Vê que foi premiado e fica feliz na hora, sem pausa. Comemora levantando o foil com o braço, sem palavras. Nenhum chaveiro aparece.</dd>
       <dt>Termina</dt><dd>No auge da comemoração.</dd>
       <dt>Locução</dt><dd><span class="quote">“E, ‘pros’ mais sortudos, até uma sÚUUrpresa escondida.”</span></dd>
       <dt>Elements</dt><dd>último quadro de 1c <span class="chip">@man-portoalegre</span><span class="chip">@prop_pote-morango</span><span class="chip">@loc_cozinha</span></dd>
-    </dl>
-  </div>
-  <div class="gen">
-    <div class="gen-bar"><span>7b · Macro da tampa <span class="tag post">opcional</span></span><span class="meta">4 s · 1 take</span></div>
-    <dl class="rows">
-      <dt>Acontece</dt><dd>Macro com a sonda sobre o verso da tampa, até o centro, onde a mensagem é composta em pós. É o que ele vê.</dd>
-      <dt>Elements</dt><dd><span class="chip">@prop_pote-morango</span></dd>
+    <dt>Prompt</dt><dd><details class="pbox"><summary>7a · A vitória <span class="meta">6 s · 499 palavras</span></summary><div class="pbar"><span>Copie e cole no Seedance 2.5</span><button class="copy" type="button" data-target="pv-7a">Copiar prompt</button></div><pre class="prompt" id="pv-7a">CONTRACT — Live-action photoreal commercial footage, 16:9, 6 seconds, ONE continuous take. Dry comedy played straight. No dialogue, no voice-over. NO music, NO score, NO subtitles, NO on-screen text. A wordless laugh is allowed, no words.
+
+REFERENCES — [first frame] KEYFRAME: the take STARTS from this exact frame (the man mid-lick, the foil at his mouth, the open cup in his left hand); light, grade and skin continue it exactly. @man-portoalegre (round black glasses, dark curly hair, short beard, sage-green check short-sleeve shirt over a white T-shirt, thin silver bracelet on his LEFT wrist), the only person in frame. @loc_cozinha: the kitchen.
+
+SCENE — The freeze releases. He finishes the lick, checks the foil for leftover yogurt, sees that he has won and is instantly happy, with no pause. He celebrates by raising the foil with his arm.
+
+LOCKS — 1. The cup stays in his LEFT hand; the foil in his RIGHT hand, soft and crinkly. 2. NO pause between seeing it and being happy. 3. Nothing readable on the foil; no keychain, no other prop. 4. He is alone.
+
+TIMELINE — ONE continuous take:
+BEAT 1 (0–1s) — the lick ends, the foil leaves his mouth.
+BEAT 2 (1–2s) — he looks at the foil in his right hand to check for leftover yogurt; its inner side faces him, not the camera.
+BEAT 3 (2–3s) — he sees he has won and lights up at once.
+BEAT 4 (3–6s) — he celebrates, raising the foil high with his right arm, shaking it with joy, laughing without words. Hard end at the peak.
+
+CAMERA — MCU 47°, slightly above his eye line looking down a little (slight high angle), locked off exactly as the keyframe. NOT: handheld shake, push-in, orbit.
+
+LIGHT — warm natural summer window light from FRAME-RIGHT; the open fridge&#x27;s cool light from FRAME-LEFT on his face. The lit sides never flip.
+
+FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI commercial look.
+
+SOUND — the foil&#x27;s crinkle, a small lick, his breath, a wordless laugh. NO music, NO speech.
+
+NEGATIVE: glassy stare, warped hands, extra fingers, a second person, speech, voice-over, readable text, stiff foil, music, subtitles, handheld shake, CGI gloss, wrong aspect ratio.</pre></details></dd>
     </dl>
   </div>
 </div>
@@ -231,7 +493,7 @@ td b { font-family: var(--font-display); }
 </div>
 
 <h2>Fica para a pós</h2>
-<div class="card"><p style="margin:0">Letterings dos setores, mensagem da tampa, logo e rótulo (composição, se deformarem), locução, SFX do créqui e da lambida, trilha pop, cena 8.</p></div>
+<div class="card"><p style="margin:0">Letterings dos setores, logo e estampa do foil (composição, se deformarem), locução, SFX do créqui e da lambida, trilha pop, cena 8.</p></div>
 
 <h2>O que vamos olhar nos rascunhos</h2>
 <div class="note"><ul style="margin:0;padding-left:20px">
@@ -242,11 +504,34 @@ td b { font-family: var(--font-display); }
   <li>Uma geração de 30 s pode perder a altura da esteira ou a identidade das vacas. Se acontecer, divido em duas metades.</li>
 </ul></div>
 
+<h2>Previsão de créditos</h2>
+<p style="color:var(--muted);max-width:68ch">Rascunho em 480p e depois 1080p, sobre os segundos de cada geração. Os números estão explicados logo abaixo da tabela.</p>
+<div class="scroll-x"><table class="credits"><thead><tr><th>Geração</th><th class="num">Segundos</th><th class="num">Draft 480p</th><th class="num">Final 1080p</th><th class="num">Ciclo</th></tr></thead><tbody>
+<tr><td>1a · POV da geladeira</td><td class="num">6</td><td class="num">18</td><td class="num">96</td><td class="num">114</td></tr>
+<tr><td>1b · O créqui</td><td class="num">5</td><td class="num">15</td><td class="num">80</td><td class="num">95</td></tr>
+<tr><td>1c · O foil e a lambida</td><td class="num">6</td><td class="num">18</td><td class="num">96</td><td class="num">114</td></tr>
+<tr><td>2a · Mergulho</td><td class="num">4</td><td class="num">12</td><td class="num">64</td><td class="num">76</td></tr>
+<tr><td>3a · Espinha, abertura A (a vaca limpa)</td><td class="num">30</td><td class="num">90</td><td class="num">480</td><td class="num">570</td></tr>
+<tr><td>3b · Inserts do Setor 1</td><td class="num">8</td><td class="num">24</td><td class="num">128</td><td class="num">152</td></tr>
+<tr><td>4b · Inserts do Setor 2</td><td class="num">9</td><td class="num">27</td><td class="num">144</td><td class="num">171</td></tr>
+<tr><td>5b · Inserts do Setor 3</td><td class="num">8</td><td class="num">24</td><td class="num">128</td><td class="num">152</td></tr>
+<tr><td>6b · Inserts do Setor 4</td><td class="num">9</td><td class="num">27</td><td class="num">144</td><td class="num">171</td></tr>
+<tr><td>7a · A vitória</td><td class="num">6</td><td class="num">18</td><td class="num">96</td><td class="num">114</td></tr>
+<tr class="tot"><td><b>Total</b></td><td class="num"><b>91</b></td><td class="num"><b>273</b></td><td class="num"><b>1.456</b></td><td class="num"><b>1.729</b></td></tr></tbody></table></div>
+<div class="scroll-x"><table class="credits"><thead><tr><th>Cenário</th><th class="num">Créditos</th></tr></thead><tbody>
+<tr><td>Sem nenhuma refação</td><td class="num">1.729</td></tr>
+<tr><td><b>50% dos takes com 1 refação completa</b> (refaz o draft e o 1080p)</td><td class="num"><b>2.594</b></td></tr>
+<tr><td>50% dos takes com 1 refação pega ainda no draft (só o 480p se repete)</td><td class="num">1.866</td></tr>
+<tr><td>Testando também a abertura B do 3a (+30 s), refação completa</td><td class="num">3.449</td></tr>
+<tr><td>Testando também a abertura B do 3a, refação só no draft</td><td class="num">2.481</td></tr>
+</tbody></table></div>
+<ul class="small-notes"><li><b>Preço usado:</b> a página oficial da Higgsfield (verificada em 20/10/2026) diz que um clipe de 8 s custa 128 créditos em 1080p, 56 em 720p e 24 em 480p. Por segundo, isso dá 16 no 1080p e 3 no 480p (divisão minha).</li><li><b>O que eu assumi:</b> finalizar um draft em 1080p custa uma geração 1080p inteira. Esse preço não é publicado. Outra página da própria Higgsfield cita 72 créditos para 8 s em 1080p (9 por segundo); se for esse o preço real, o total cai bastante. Confira o preço no botão Gerar antes do primeiro lote.</li><li><b>Refação:</b> contei 50% dos segundos, não 50% dos takes. Se a espinha de 30 s (3a) precisar ser refeita, são +570 créditos de uma vez.</li><li>Os Elements são imagens e eu não contei custo extra por referência. O plano Plus inclui 1.000 créditos por mês; não sei qual é o seu plano.</li></ul>
+
 <div class="ok">
-  <b>Para eu escrever os prompts</b>
+  <b>Próximo passo</b>
   <ul>
-    <li>Marque as cenas que estão certas e diga o que mudar nas outras.</li>
-    <li>Tamanho dos prompts de vídeo: <b>compacto</b> (cerca de 300 palavras, com as travas que o motor esquece: contagem de copos (dois unidos, depois um e um), lado das mãos, ordem dos setores) ou <b>bem curto</b> (cerca de 120)? Se não disser, uso o compacto.</li>
+    <li>Gere os rascunhos 480p na ordem 1a, 1b, 1c e 2a, e confira antes de seguir.</li>
+    <li>Escolha a abertura do 3a: A (a vaca limpa a lente) ou B (a lente se limpa sozinha). Os dois prompts estão no 3a.</li>
   </ul>
 </div>
 
@@ -260,6 +545,14 @@ td b { font-family: var(--font-display); }
     cb.addEventListener('change', function () {
       try { localStorage.setItem(key, cb.checked ? '1' : '0'); } catch (e) {}
       cb.closest('.scene').classList.toggle('done', cb.checked);
+    });
+  });
+  document.querySelectorAll('button.copy').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var el = document.getElementById(btn.dataset.target); if (!el) return;
+      var done = function () { var t = btn.textContent; btn.textContent = 'Copiado'; btn.classList.add('ok2'); setTimeout(function () { btn.textContent = t; btn.classList.remove('ok2'); }, 1500); };
+      var fallback = function () { var r = document.createRange(); r.selectNodeContents(el); var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r); };
+      try { navigator.clipboard.writeText(el.textContent).then(done, fallback); } catch (e) { fallback(); }
     });
   });
 })();

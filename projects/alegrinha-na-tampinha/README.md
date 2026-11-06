@@ -2,7 +2,7 @@
 
 Filme de 60″ para o iogurte **Laticínios Porto Alegre** e a promoção dos chaveiros Alegrinha. Seedance 2.5 com a skill CINEORO.
 
-**Status:** direção das cenas v0.9, aguardando o OK do diretor. Os prompts de vídeo saem depois do OK. Abra `shotlist.html`.
+**Status:** direção das cenas e prompts de vídeo prontos (v1.0). Abra `shotlist.html`: cada geração tem o seu prompt recolhido e, no fim, a previsão de créditos.
 
 ## Regras do filme
 
@@ -11,6 +11,12 @@ Filme de 60″ para o iogurte **Laticínios Porto Alegre** e a promoção dos ch
 - Fábrica: vinil fosco, meio monocromática em verde, limpa. Alegrinhas sempre felizes trabalhando.
 - Um travelling horizontal contínuo de 30 s (uma geração) atravessa os 4 setores; inserts de cima e closes entram por cima.
 - Texto, locução, trilha e SFX na pós. O tempo se ajusta cortando.
+
+## Regras que valem para todos os prompts
+
+- **Foil, nunca “tampa”**: a vedação é uma lâmina de alumínio impressa em verde, macia e maleável. Sem aba, sem “PUXE” e sem mensagem escrita.
+- A embalagem em cena é uma dupla de dois iogurtes unidos.
+- Abertura do 3a ainda em aberto: A (a vaca limpa a lente) ou B (a lente se limpa sozinha). Os dois prompts existem.
 
 ## Elements (Higgsfield)
 
@@ -27,7 +33,7 @@ Sem referência por enquanto (o motor deduz do texto; se falhar, criamos): a dup
 | 1 | 1a POV da geladeira · 1b o créqui · 1c tampa e lambida | 0″–14″ |
 | 2 | 2a mergulho no iogurte | 14″–17″ |
 | 3–6 | 3a espinha (30 s) + inserts 3b, 4b, 5b, 6b | 17″–46″ |
-| 7 | 7a a vitória (+ 7b opcional) | 46″–52″ |
+| 7 | 7a a vitória | 46″–52″ |
 | 8 | pós | 52″–60″ |
 
 ## Arquivos
@@ -35,3 +41,4 @@ Sem referência por enquanto (o motor deduz do texto; se falhar, criamos): a dup
 - `shotlist.src.html` / `shotlist.html`: a página de direção das cenas (o `.html` é gerado por `python3 build.py`).
 - `assets-prompts.md` (e `assets_prompts.py`): prompts de imagem já usados (pote real, bandeja e pote toon, looks e expressões da Alegrinha).
 - `thumbs/`: miniaturas antigas dos assets (a página enxuta não usa mais).
+- `video-prompts.md` (fonte: `video_prompts.py`): os prompts de vídeo, em inglês, e os preços de crédito da previsão.
