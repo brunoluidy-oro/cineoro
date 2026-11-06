@@ -670,7 +670,7 @@ def _spine(opening, name):
         "gloves, then takes an empty pink yogurt cup from a stack beside the console and sets it on the belt with both gloves, "
         "proud. From here on pink cups ride the belt.\n"
         "PART 4 (14–21s) — HALL 3, sound studio: a tall wall of acoustic foam and a glass booth. Inside, standing on a little box "
-        "at a microphone stand taller than she is, COW A holds two joined yogurt cups, one in each glove, and separates them with a crisp créqui; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B stands IN FRONT of a big "
+        "at a microphone stand taller than she is, COW A holds ONE pack made of two small yogurt cups stuck together side by side, both gloves on the pack, and pulls the two cups apart with a crisp créqui, ending with one cup in each glove; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B stands IN FRONT of a big "
         "toy-like audio desk, her back to it, wearing headphones and turned toward the booth and COW A; when she hears the "
         "snap she nods with approval and purses her lips in a satisfied pout as if mooing.\n"
         "PART 5 (21–30s) — HALL 4, art studio: easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
@@ -838,22 +838,17 @@ P_5B = _insert_iso(
     "HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, in plain cream vinyl, at a tall microphone; COW B "
     "outside the booth, standing in front of a big toy-like audio desk and facing the booth, wearing over-ear headphones.",
     "the créqui is the sweetest sound the engineer has ever heard.",
-    "1. EXACTLY TWO cows in this hall.\n2. COW A holds two joined cups, one in each glove, and separates them — WRONG if she "
-    "starts with a single cup.\n3. " + _TAIL,
-    "the glass booth with a tall wall of acoustic foam; inside, COW A on a little box holds two joined yogurt cups, one in each "
-    "glove, and separates them with a crisp créqui; outside, COW B stands in front of the audio desk, turned toward the booth, "
+    "1. EXACTLY TWO cows in this hall.\n2. COW A starts with ONE pack of two cups stuck together side by side and pulls them apart into two — WRONG if she starts with a single cup or with two loose cups.\n3. " + _TAIL,
+    "the glass booth with a tall wall of acoustic foam; inside, COW A on a little box holds ONE pack made of two small yogurt cups stuck together side by side, both gloves on the pack, and pulls the two cups apart with a crisp créqui, ending with one cup in each glove; outside, COW B stands in front of the audio desk, turned toward the booth, "
     "and nods with approval when she hears it.",
-    "from the floor just outside the booth, the corner of the audio desk huge and soft in the near foreground; behind it, "
-    "sharp, COW B in headphones listens toward the booth and nods with approval, a small satisfied pout as if mooing; COW A "
-    "is tiny behind the glass.",
-    "COW A: total concentration, then a flinch at her own snap, then a grin. COW B: listens toward the booth, then nods with "
-    "approval. NOT: looking into the lens, mouths forming words, frowning, a blank face.",
+    "from the floor just outside the booth, a slider of the audio desk huge and soft in the near foreground; behind it, sharp, COW B in headphones watches the big volume meter on the desk; its needle jumps with the snap and she nods with approval, a small satisfied pout as if mooing; COW A is tiny behind the glass.",
+    "COW A: total concentration, then a flinch at her own snap, then a grin. COW B: watches the volume meter, then nods with approval as the needle jumps. NOT: looking into the lens, mouths forming words, frowning, a blank face.",
     "PHYSICS & MATERIAL — the plastic break line gives with a sharp snap; the cups stay sealed; a meter's needle jumps; the "
     "glass booth shows soft reflections. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, clear glass, soft "
     "acoustic foam; never dirt.",
     "the booth, the two cups separated, the engineer's nod",
-    "the engineer in headphones nodding, the booth behind",
-    extra_neg="a third cow, a single cup turning into two, ",
+    "the engineer watching the volume meter and nodding",
+    extra_neg="a third cow, a single cup turning into two, two loose cups from the start, ",
 )
 
 P_6B = _insert_iso(
