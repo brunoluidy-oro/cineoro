@@ -713,7 +713,7 @@ P_3A_B = _spine(_OPEN_B, "B")
 
 def _insert(label, seconds, who, scene_soul, locks, shots, acting, geometry, physics, order, extra_neg=""):
     return _join(
-        toon_contract(seconds, label),
+        toon_contract(seconds, label + ", backstage handheld camera"),
         "REFERENCES — each reference has ONE job:\n@char_vaca-vinil — IDENTITY of the cow.\n@char_alegrinha-looks — the cow's outfit "
         "for this hall.\n@loc_fabrica — WORLD: the hall's materials, props and colours.\n" + TOON_SCOPE,
         "WHO IS WHO — READ FIRST, ABSOLUTE:\n" + COW + "\n" + who,
@@ -721,14 +721,16 @@ def _insert(label, seconds, who, scene_soul, locks, shots, acting, geometry, phy
         "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n" + locks,
         "TIMELINE — hard cuts only at the specified seconds; the camera adds no cuts of its own:\n" + shots,
         "ACTING — " + COW_STYLE + " " + acting.replace("ACTING — ", "", 1),
-        "CAMERA — locked off in each shot, STAYS PUT; WIDE — the whole setting around the cow in frame, never a close-up or a medium shot: the cow is small in the frame and "
-        "the oversized props and the tall set around her dominate; shot sizes and angles as stated per shot; no lens drift inside "
-        "a shot; level horizon unless a shot says top-down. NOT: close-ups, a cow filling the frame, handheld shake, drone, orbit, "
-        "whip pan, zoom.",
+        "CAMERA — BACKSTAGE HANDHELD (KEY): as if a behind-the-scenes crew were filming the factory at work — a small handheld "
+        "camera held at cow height by an operator standing among the machines, with a gentle, natural sway, small breathing "
+        "reframes and the occasional quick correction to keep the action in frame, never shaky or chaotic; still WIDE, the whole "
+        "setting around the cow in frame, never a close-up or a medium shot; shot sizes and angles as stated per shot; level "
+        "horizon on average unless a shot says top-down. NOT: a locked-off tripod look, a smooth rail or gimbal glide, drone, "
+        "whip pan, zoom, close-ups.",
         "GEOMETRY — " + TOON_SCALE + " " + geometry,
         physics,
         TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE, TOON_WORLD,
-        "NEGATIVE: " + extra_neg + TOON_NEG_SPINE,
+        "NEGATIVE: " + extra_neg + TOON_NEG_SPINE.replace("camera shake, ", ""),
         order,
     )
 
