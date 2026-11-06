@@ -306,6 +306,67 @@ P_1C = _join(
 )
 
 # ===========================================================================
+# 1bc — Créqui + foil + lambida numa geração só (11 s), substitui 1b e 1c
+# ===========================================================================
+P_1BC = _join(
+    live_contract(11, "4 shots with 3 hard cuts at 3s, 5s and 7s"),
+    "REFERENCES — each reference has ONE job:\n"
+    "@man-portoalegre — IDENTITY of the man. 100% matches.\n"
+    "@loc_cozinha — WORLD: the kitchen.\n"
+    "@prop_pote-morango — OBJECT ONLY: the yogurt cup and its green foil; in shot 1 two of them are joined.\n" + LIVE_SCOPE,
+    who_man("splits the pair he just took from the fridge with a crisp snap, keeps one cup, opens it and licks the foil; he "
+            "never looks into the lens"),
+    "SCENE & SOUL — SCENE: the same summer kitchen, right after he took a pair of joined cups from the fridge. In four shots: "
+    "the snap; one cup kept; the foil; the lick; the image freezes. Already in progress.\n"
+    "THE SOUL OF THE SCENE (play it, never explain it): the snap takes him back to childhood, and the lick is the ceremony that "
+    "follows; it is one continuous private moment.\n"
+    "THE PAIR — " + PAIR_TEXT + " THE FOIL (shots 3–4): " + FOIL_TEXT,
+    "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
+    "1. Two joined cups before the snap, exactly two after; NO tray. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing "
+    "toward each other, no pause.\n"
+    "2. His LEFT hand keeps the same cup from the snap to the lick; his RIGHT hand sets the other on the counter and lifts the "
+    "foil with the FINGERTIP. Real human hands.\n"
+    "3. The silver side comes away with a real 2–3 mm layer of yogurt — never clean, never a heap; no text on the foil.\n"
+    "4. Shots 2 and 4 are THREE-QUARTER, slight HIGH angles from the same side, 35° toward his right; daylight from "
+    "FRAME-LEFT; macro frames are full 16:9, no circular border.\n"
+    "5. The last second is a TOTAL FREEZE mid-lick.",
+    "TIMELINE — 4 shots, 3 hard cuts:\n"
+    "SHOT 1 (0–3s) — " + SNAP_SHOT.format(snap="2s") + " HARD CUT.\n"
+    "SHOT 2 (3–5s) — " + NOSTALGIA_SHOT + " HARD CUT.\n"
+    "SHOT 3 (5–7s) — " + FOIL_SHOT + " HARD CUT.\n"
+    "SHOT 4 (7–11s) — " + LICK_SHOT.format(freeze="10s"),
+    acting_man(
+        "take in the snap without showing how much it matters, then get every bit of yogurt off the foil. Tactic: savour — no "
+        "hesitation at the snap, let the sound carry him away, then reverence at the foil. The nostalgia of shot 2 is still in "
+        "his face when the lick begins.",
+        "— [0–2s] hands only, the crack at 2s — [3–5s] the gaze lifts slightly upward toward the light, faraway; one corner of "
+        "the mouth moves once; the gaze stays up while his hand sets the cup down by feel — [5–7s] hands only — [7–8s] a long "
+        "look at the yogurt — [8–9s] he lifts it, a small inhale — [9–10s] the lick, eyes half-closed — [10–11s] frozen.",
+        "his shoulders drop a millimetre at the crack; a small inhale before the lick.",
+        "sitcom delight, mugging, looking into the lens, looking down at the cup in shot 2, a pause before the snap, any movement "
+        "after the freeze.",
+    ),
+    "CAMERA — Shot 1: one steady macro pull-back. Shots 2 and 4: locked off, STAY PUT, 29° and 47°. Shot 3: one gentle macro "
+    "push-in. Natural, fluid camera moves, never mechanical.\n" + MACRO_LENS,
+    "GEOMETRY — " + KITCHEN_GEOMETRY + "; in shots 2 and 4 the lens is 35° toward his right side, so the right hand is nearer.",
+    "PHYSICS & MATERIAL — the break line resists, then gives all at once with a sharp snap, no splinters, both cups sealed; the "
+    "counter takes the cup with a small knock; the foil lifts without tearing; the yogurt layer is creamy and clinging and "
+    "does not drip; each lick wipes a clean silver stripe and leaves a slight smear at his lip. OVER-REAL: condensation on the "
+    "cups, the ridge where the break line parted, foil creases, yogurt on bare silver, pores. If any surface looks smooth, "
+    "plastic or rendered — WRONG.",
+    LIVE_LIGHT, LIVE_LOOK,
+    "SOUND — the créqui at 2s, a short, crisp, bright plastic snap, the hero sound of the film; a light knock on the counter; "
+    "the foil's crinkle; a small wet lick; his breath; near silence at the freeze. " + MUSIC_BAN,
+    LIVE_WORLD,
+    "NEGATIVE: " + MACRO_NEG + "a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a different cup in "
+    "his left hand, a clean silver side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
+    "[ORDER: 4 shots, 3 hard cuts, 11s — (1, 0–3s) macro pull-back, the fold, the snap at 2s; (2, 3–5s) three-quarter high "
+    "angle, the nostalgic gaze, one cup set down; (3, 5–7s) macro push-in, the foil opens like a little door; (4, 7–11s) the "
+    "same three-quarter side, the lick, FREEZE from 10s. Invariants: the fold; the same cup in the left hand; a real layer of "
+    "yogurt; real hands; daylight frame-left. Look: 35mm negative. NO music. NO text.]",
+)
+
+# ===========================================================================
 # 1d — Cena 1 inteira (1a + 1b + 1c) numa geração só (15 s)
 # ===========================================================================
 P_1D = _join(
@@ -806,6 +867,7 @@ PROMPTS = {
     "1a": ("1a · POV da geladeira", 4, P_1A),
     "1b": ("1b · O créqui", 5, P_1B),
     "1c": ("1c · O foil e a lambida", 6, P_1C),
+    "1bc": ("1bc · Créqui, foil e lambida", 11, P_1BC),
     "2a": ("2a · Mergulho", 4, P_2A),
     "3a-A": ("3a · Espinha, abertura A (a vaca limpa)", 30, P_3A_A),
     "3a-B": ("3a · Espinha, abertura B (a lente se limpa sozinha)", 30, P_3A_B),
@@ -819,7 +881,7 @@ PROMPTS = {
 PROMPTS["1d"] = ("1d · Cena 1 inteira (alternativa a 1a+1b+1c)", 15, P_1D)
 
 # Plano base: 3a conta uma vez (abertura A); a B só entra se for testada.
-BASE_KEYS = ["1a", "1b", "1c", "2a", "3a-A", "3b", "4b", "5b", "6b", "7a"]
+BASE_KEYS = ["1a", "1bc", "2a", "3a-A", "3b", "4b", "5b", "6b", "7a"]
 ALT_KEYS = ["3a-B"]
 
 # Higgsfield (página oficial, verificada em 20/10/2026): 8 s = 128 (1080p), 56 (720p), 24 (480p).
