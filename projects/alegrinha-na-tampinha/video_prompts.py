@@ -16,15 +16,13 @@ def _join(*blocks):
 # MUNDO LIVE (captação)
 # ===========================================================================
 LIVE_LOOK = (
-    "FILM LOOK (KEY — reproduce this exact photographic character): 35mm color negative film look. Organic grain, fine to "
+    "LOOK (KEY — reproduce this exact photographic character): 35mm color negative look. Organic grain, fine to "
     "medium, alive in the shadows and midtones. Soft highlight roll-off with gentle warm halation blooming around windows, "
     "sunlit patches and bright skin edges; highlights creamy and warm, never pure white. Blacks slightly lifted and never "
     "crushed, shadows holding detail with a faint cool teal-green cast. Vintage spherical glass character: moderate "
     "micro-contrast, slight softness toward the frame edges, a gentle natural vignette darkening the corners, subtle "
     "chromatic fringing on high-contrast edges. Colour comes from the place itself — the real materials, surfaces and light "
-    "of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal "
-    "live-action cinema, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI "
-    "commercial look.\n"
+    "of each location — never a grade laid over it; skin golden and natural with visible pores and texture. Photoreal live-action footage, 16:9, real-time 24fps cadence with natural motion blur. NOT a render, NOT HDR, NOT the glossy AI look.\n"
     "NO LENS FLARES: no flares, no light streaks, no floating bokeh orbs; the warm halation stays soft and contained around "
     "bright edges."
 )
@@ -49,15 +47,14 @@ LIVE_LIGHT = (
 
 LIVE_NEG_SPINE = (
     "smoke, vapour, steam, cartoon or clay hands, oversized hands, stiff robotic motion, glassy stare, frozen pupils, warped hands, extra fingers, a second person, speech or lip-sync, "
-    "readable text, invented logos, stiff foil, music, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect "
+    "readable text, invented logos, stiff foil, subtitles, handheld shake, CGI-gloss look, cartoon look, wrong aspect "
     "ratio."
 )
 
 MACRO_NEG = "fisheye, circular black border, round lens mask, black corners, curved straight lines, "
 
 MUSIC_BAN = (
-    "NO music of any kind (no score, soundtrack, BGM, jingle, beat or melody): raw production sound only. NO voice-over, NO "
-    "subtitles."
+    "AUDIO: only the sounds listed here, with quiet room tone between them; nothing else is heard — NO music. NO voice-over."
 )
 
 # Lente macro com sonda (24 mm tipo Laowa Probe): o visual, dito uma vez; o movimento vem de cada plano e do previz
@@ -83,7 +80,7 @@ KITCHEN_GEOMETRY = (
 def live_contract(secs, shots, extra=""):
     return (
         "CONTRACT — Live-action photoreal raw camera footage with production sound only, 16:9, %d seconds total, %s, real-time "
-        "motion. Dry comedy played completely straight. No dialogue (a voice-over is added in post)%s. NO music, NO "
+        "motion. Deadpan, played completely straight. No dialogue (a voice-over is added in post)%s. NO music, NO "
         "subtitles, NO on-screen text." % (secs, shots, extra)
     )
 
@@ -99,11 +96,11 @@ def who_man(role, never="NEVER speaks, NEVER removes his glasses"):
 def acting_man(task, moments, detail, nots, direction="treat the small thing as sacred."):
     # forma enxuta (comédia seca): direção, tarefa em uma linha, momento a momento, olhos, NOT
     return (
-        "ACTING — @man-portoalegre (dry comedy played completely straight; the work happens in the eyes)\n"
+        "ACTING — @man-portoalegre (deadpan, played completely straight; the work happens in the eyes)\n"
         "DIRECTION: " + direction + "\n"
         "TASK: " + task + "\n"
         "MOMENT TO MOMENT: " + moments + "\n"
-        "EYES: alive in every hold — they search and settle, blinks a beat late; involuntary detail: " + detail + "\n"
+        "EYES: alive in every hold — they search and settle, blinks a moment late; involuntary detail: " + detail + "\n"
         "NOT: " + nots
     )
 
@@ -143,32 +140,34 @@ FRIDGE_SHOT = (
     "shut toward the lens and the frame goes dark."
 )
 SNAP_SHOT = (
-    "extreme close-up with the macro probe, in front of him and above his hands (" + HANDS.rstrip("; ") + "): it starts 3 cm above the two foils, his two "
-    "thumbs lying flat on them, one per cup, and makes ONE steady pull-back with a slight rise through the whole shot, "
-    "revealing the pair at chest height and his shirt soft behind. He is already folding the pair toward its centre: thumbs "
-    "press the outer halves down, fingers push up under the joint, the cup bottoms swing toward each other (an upside-down "
-    "V); at {snap} the break line snaps with a crisp, bright crack — the créqui — and he draws the two cups apart, level, one "
-    "in each hand."
+    "extreme close-up with the macro probe, in front of him and above his hands (" + HANDS.rstrip("; ") + "): the pair is "
+    "held LOW, at the height of his belly, well below his face. Each hand grips one cup in a C — fingers wrapped around the "
+    "side and under the cup, the THUMB lying flat on top of that cup's foil. The probe starts 3 cm above the two foils and "
+    "the two thumbs and makes ONE steady pull-back with a slight rise through the whole shot, revealing the pair at belly "
+    "height and his shirt soft behind. He is already folding the pair toward its centre: the thumbs press the outer halves "
+    "down, the fingers push up under the joint, the cup bottoms swing toward each other (an upside-down V); at {snap} the "
+    "break line snaps with a crisp, bright crack — the créqui — and he draws the two cups apart, level, one in each hand."
 )
 NOSTALGIA_SHOT = (
     "CU, 29°, 0.9 m away, the camera diagonal — about 35° toward his right side — and 25 cm ABOVE his eye line looking down: a "
-    "three-quarter, slightly high angle, tile wall behind, no ceiling in frame. A half-beat after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a "
+    "three-quarter, slightly high angle, tile wall behind, no ceiling in frame. A moment after the crack his gaze lifts slightly upward toward the window light, faraway and nostalgic, a "
     "small half-smile, never into the lens. His LEFT hand keeps one cup at chest height; his RIGHT hand sets the other on the "
     "counter without looking."
 )
 FOIL_SHOT = (
-    "extreme close-up with the macro probe beside his right hand (" + HANDS.rstrip("; ") + "): the back of that hand large and soft in the foreground at "
-    "frame-left, its fingertip under the near edge of the foil; the cup held by the fingers of his left hand at frame-right; "
-    "the tile wall soft behind. ONE gentle, continuous push-in: the fingertip lifts the near edge and the foil hinges up on its "
-    "far edge like a little door opening toward the lens, rising almost upright, its yogurt-thick silver side turned to the "
-    "camera, the open cup and its pink yogurt below."
+    "extreme close-up with the macro probe beside his right hand (" + HANDS.rstrip("; ") + "): the back of that hand large and "
+    "soft in the foreground at frame-left, its fingertip under the near edge of the foil; the cup held in his left hand at "
+    "chest height at frame-right; the tile wall soft behind. ONE gentle, continuous push-in: the fingertip lifts the near edge "
+    "and the foil hinges up on its far edge like a little door opening toward the lens, rising almost upright, its "
+    "yogurt-coated silver side turned to the camera, the open cup and its pink yogurt below. The foil stays ATTACHED to the "
+    "rim by that far edge — it is never pulled off."
 )
 LICK_SHOT = (
     "MCU, 47°, 0.8 m away, the camera diagonal — about 35° toward his right side — and 15 cm above his eye line: a "
-    "three-quarter, slightly high angle, locked off. The open cup in his left hand at chest height; the foil in his right hand, "
-    "nearer the lens, its yogurt side toward him, tilted so the pink catches the light. He looks at it with reverence, brings "
-    "it to his mouth and licks the coat off in one slow sweep, a second beginning. At {freeze} the image FREEZES mid-lick — "
-    "foil at his mouth, eyes half-closed — and stays frozen, like a photograph, to the end."
+    "three-quarter, slightly high angle, locked off. The foil is still ATTACHED to the cup by a small strip at the rim, folded "
+    "back and up. He raises the cup in his left hand to his mouth, cup and foil together, his right fingertip steadying the "
+    "foil, and licks the yogurt off the foil's silver side in one slow sweep, a second beginning. At {freeze} the image "
+    "FREEZES mid-lick — cup and foil at his mouth, eyes half-closed — and stays frozen, like a photograph, to the end."
 )
 
 # ===========================================================================
@@ -194,7 +193,7 @@ P_1A = _join(
     "TIMELINE — ONE shot, already in progress:\n"
     "SHOT 1 (0–5s) — " + FRIDGE_SHOT + " Hard end on the dark frame.",
     acting_man(
-        "collect the day's reward, keeping the pleasure under control. Tactic: savour — half a beat slower than needed, so the "
+        "collect the day's reward, keeping the pleasure under control. Tactic: savour — a moment slower than needed, so the "
         "moment lasts.",
         "— [0–1s] he opens the door, eyes already searching — [1–2s] eyes settle on the pair, the smile arrives late — [2–4s] the "
         "hand goes in and comes out with the pair, eyes following it — [4–5s] a satisfied glance as the door closes.",
@@ -211,8 +210,7 @@ P_1A = _join(
     LIVE_WORLD,
     "NEGATIVE: a single cup, one cup alone, a tray, the door already open at the first frame, the product hidden as it leaves, any camera movement, " + LIVE_NEG_SPINE,
     "[ORDER: 1 locked-off shot, 5s — inside the fridge: the door opens, his hand covers the lens, pulls out the pair, clearly "
-    "seen, and the door shuts to dark. Invariants: TWO joined cups, never one; the door opens on camera; never into the lens; locked off. Look: 35mm negative. NO "
-    "music. NO text.]",
+    "seen, and the door shuts to dark. Invariants: TWO joined cups, never one; the door opens on camera; never into the lens; locked off. Look: 35mm negative. NO text.]",
 )
 
 # ===========================================================================
@@ -232,8 +230,8 @@ P_1B = _join(
     "THE PAIR — " + PAIR_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
     "1. Two joined cups before the snap, exactly two after.\n"
-    "2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause — WRONG if twisted, pulled apart "
-    "or pinched.\n"
+    "2. THE FOLD: a C-grip, thumb flat on each cup's foil, the pair at BELLY height; the cup BOTTOMS swing toward each other, "
+    "no pause — WRONG if twisted, pulled apart, pinched or held at face height.\n"
     "3. His LEFT hand keeps one cup; his RIGHT hand sets the other on the counter.\n"
     "4. Shot 2 is a THREE-QUARTER, slight HIGH angle (no ceiling in frame); his gaze lifts slightly upward, never into the lens.",
     "TIMELINE — 2 shots, 1 hard cut:\n"
@@ -253,14 +251,14 @@ P_1B = _join(
     "sealed; the counter takes the cup with a small knock. OVER-REAL: the ridge where the break line parted, foil creases, "
     "condensation, fine hairs on his thumbs. If any surface looks smooth, plastic or rendered — WRONG.",
     LIVE_LIGHT, LIVE_LOOK,
-    "SOUND — the créqui, a short, crisp, bright plastic snap, the hero sound of the film; the foil's crinkle; a light knock on "
+    "SOUND — the créqui, a short, crisp, bright plastic snap, the most important sound of the scene; the foil's crinkle; a light knock on "
     "the counter; his breath. " + MUSIC_BAN,
     LIVE_WORLD,
     "NEGATIVE: " + MACRO_NEG + "a pair twisted or pulled apart, three cups, a pause before the snap, a low "
     "angle with the ceiling in frame, " + LIVE_NEG_SPINE,
     "[ORDER: 2 shots, 1 hard cut, 5s — (1, 0–3s) macro pull-back from the thumbs, the fold toward the centre, the snap at 2s; "
     "(2, 3–5s) three-quarter slight high angle, gaze lifting, one cup kept, the other set down. Invariants: the fold; left hand "
-    "keeps one; full 16:9 frame. Look: 35mm negative. NO music. NO text.]",
+    "keeps one; full 16:9 frame. Look: 35mm negative. NO text.]",
 )
 
 # ===========================================================================
@@ -278,7 +276,7 @@ P_1C = _join(
     "THE SOUL OF THE SCENE (play it, never explain it): the foil is a treasure and the lick is a ceremony.\n"
     "THE FOIL — " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
-    "1. Cup in his LEFT hand, foil in his RIGHT; the FINGERTIP lifts the foil — no nail, no tab.\n"
+    "1. The cup is in his LEFT hand; the FINGERTIP lifts the foil — no nail, no tab — and the foil stays ATTACHED to the cup by a small strip; he brings cup and foil together to his mouth.\n"
     "2. The silver side comes away with a real 2–3 mm layer of pink yogurt and faces the lens as it opens — WRONG if clean or heaped.\n"
     "3. NO text or message on the foil.\n"
     "4. The last second is a TOTAL FREEZE mid-lick.",
@@ -301,11 +299,11 @@ P_1C = _join(
     LIVE_LIGHT, LIVE_LOOK,
     "SOUND — the foil's soft crinkle; a small wet lick; his breath; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "a fingernail or pull tab, a clean silver side, a heap of yogurt, a message on the foil, any movement after the "
+    "NEGATIVE: " + MACRO_NEG + "the foil pulled fully off the cup, a fingertip pinch grip, the pair held at face height, a fingernail or pull tab, a clean silver side, a heap of yogurt, a message on the foil, any movement after the "
     "freeze, " + LIVE_NEG_SPINE,
     "[ORDER: 2 shots, 1 hard cut, 6s — (1, 0–2s) macro beside his hand, push-in, the foil opens like a little door, yogurt "
-    "side to the lens; (2, 2–6s) three-quarter slight high angle, the lick, FREEZE from 5s. Invariants: cup left, foil right; "
-    "a real layer of yogurt; fingertip; no text. Look: 35mm negative. NO music. NO text.]",
+    "side to the lens; (2, 2–6s) three-quarter slight high angle, the lick, FREEZE from 5s. Invariants: the foil stays attached to the cup; "
+    "a real layer of yogurt; fingertip; no text. Look: 35mm negative. NO text.]",
 )
 
 # ===========================================================================
@@ -326,9 +324,9 @@ P_1BC = _join(
     "THE PAIR — " + PAIR_TEXT + " THE FOIL (shots 3–4): " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
     "1. Two joined cups before the snap, exactly two after; NO tray. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing "
-    "toward each other, no pause.\n"
-    "2. His LEFT hand keeps the same cup from the snap to the lick; his RIGHT hand sets the other on the counter and lifts the "
-    "foil with the FINGERTIP. Real human hands.\n"
+    "toward each other, no pause; C-grip, at belly height.\n"
+    "2. C-GRIP at belly height for the snap; his LEFT hand keeps the same cup to the lick; his RIGHT fingertip lifts the "
+    "foil, which stays ATTACHED to the cup; he brings cup and foil together to his mouth. Real human hands.\n"
     "3. The silver side comes away with a real 2–3 mm layer of yogurt — never clean, never a heap; no text on the foil.\n"
     "4. Shots 2 and 4 are THREE-QUARTER, slight HIGH angles from the same side, 35° toward his right; daylight from "
     "FRAME-LEFT; macro frames are full 16:9, no circular border.\n"
@@ -358,15 +356,15 @@ P_1BC = _join(
     "cups, the ridge where the break line parted, foil creases, yogurt on bare silver, pores. If any surface looks smooth, "
     "plastic or rendered — WRONG.",
     LIVE_LIGHT, LIVE_LOOK,
-    "SOUND — the créqui at 2s, a short, crisp, bright plastic snap, the hero sound of the film; a light knock on the counter; "
+    "SOUND — the créqui at 2s, a short, crisp, bright plastic snap, the most important sound of the scene; a light knock on the counter; "
     "the foil's crinkle; a small wet lick; his breath; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a different cup in "
+    "NEGATIVE: " + MACRO_NEG + "the foil pulled fully off the cup, the pair held at face height, a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a different cup in "
     "his left hand, a clean silver side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
     "[ORDER: 4 shots, 3 hard cuts, 11s — (1, 0–3s) macro pull-back, the fold, the snap at 2s; (2, 3–5s) three-quarter high "
     "angle, the nostalgic gaze, one cup set down; (3, 5–7s) macro push-in, the foil opens like a little door; (4, 7–11s) the "
     "same three-quarter side, the lick, FREEZE from 10s. Invariants: the fold; the same cup in the left hand; a real layer of "
-    "yogurt; real hands; daylight frame-left. Look: 35mm negative. NO music. NO text.]",
+    "yogurt; real hands; daylight frame-left. Look: 35mm negative. NO text.]",
 )
 
 # ===========================================================================
@@ -387,9 +385,9 @@ P_1D = _join(
     "THE PAIR — " + PAIR_TEXT + " THE FOIL (shots 4–5): " + FOIL_TEXT,
     "ABSOLUTE LOCKS — break one and the take is WRONG, regenerate:\n"
     "1. A PAIR of TWO joined cups (shots 1–2), never a single cup; two separate cups after the snap. The fridge door opens on camera.\n"
-    "2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause.\n"
-    "3. LEFT hand keeps the cup, RIGHT hand sets the other down and lifts the foil with the FINGERTIP; the silver side comes "
-    "away with a real 2–3 mm layer of yogurt, never a heap. Real human hands.\n"
+    "2. THE FOLD: a thumb flat on each cup, the cup BOTTOMS swing toward each other, no pause; C-grip, at belly height.\n"
+    "3. C-GRIP at belly height for the snap; the LEFT hand keeps the cup; the RIGHT fingertip lifts the foil, which stays "
+    "ATTACHED to the cup, with a real 2–3 mm layer of yogurt; cup and foil go to his mouth together. Real human hands.\n"
     "4. Shots 3 and 5 are THREE-QUARTER, slight HIGH angles; daylight from FRAME-LEFT; macro frames are full 16:9, no "
     "circular border.\n"
     "5. The last second is a TOTAL FREEZE mid-lick.",
@@ -400,7 +398,7 @@ P_1D = _join(
     "SHOT 4 (10–12s) — " + FOIL_SHOT + " HARD CUT.\n"
     "SHOT 5 (12–16s) — " + LICK_SHOT.format(freeze="15s"),
     acting_man(
-        "the whole ritual, from the fridge to the last lick, keeping the pleasure small. Tactic: savour — half a beat slower "
+        "the whole ritual, from the fridge to the last lick, keeping the pleasure small. Tactic: savour — a moment slower "
         "at the fridge, no hesitation at the snap, reverence at the foil.",
         "— [0–5s] he opens the door, the smile arrives late, eyes follow the pair out — [5–8s] hands only, "
         "the crack at 7s — [8–10s] the gaze lifts slightly, faraway, nostalgic — [10–12s] hands only — [12–15s] a long look at "
@@ -419,13 +417,12 @@ P_1D = _join(
     "SOUND — the fridge hum; the door's soft thump; the créqui at 7s, a short, crisp, bright plastic snap; the foil's crinkle; "
     "a small wet lick; near silence at the freeze. " + MUSIC_BAN,
     LIVE_WORLD,
-    "NEGATIVE: " + MACRO_NEG + "a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a clean silver "
+    "NEGATIVE: " + MACRO_NEG + "the foil pulled fully off the cup, the pair held at face height, a tray, a pair twisted or pulled apart, a pause before the snap, a low angle, a clean silver "
     "side, a heap of yogurt, any movement after the freeze, " + LIVE_NEG_SPINE,
     "[ORDER: 5 shots, 4 hard cuts, 16s — (1, 0–5s) inside the fridge, the door opens, he takes the pair, the door shuts; (2, 5–8s) macro "
     "pull-back, the fold, the snap at 7s; (3, 8–10s) three-quarter high angle, the nostalgic gaze; (4, 10–12s) macro push-in, "
     "the foil opens like a little door; (5, 12–16s) three-quarter, the lick, FREEZE from 15s. Invariants: TWO joined cups, never one; "
-    "the fold; cup left, foil right; a real layer of yogurt; real hands; daylight frame-left. Look: 35mm negative. NO music. "
-    "NO text.]",
+    "the fold; the foil stays attached to the cup; a real layer of yogurt; real hands; daylight frame-left. Look: 35mm negative. NO text.]",
 )
 
 # ===========================================================================
@@ -433,11 +430,10 @@ P_1D = _join(
 # ===========================================================================
 P_2A = _join(
     "CONTRACT — Live-action photoreal raw camera footage with production sound only, 16:9, 4 seconds total, ONE continuous take, time-freeze: everything in "
-    "the scene is motionless like a photograph and ONLY the camera moves. Dry comedy played straight. No dialogue. NO music, "
+    "the scene is motionless like a photograph and ONLY the camera moves. Deadpan, played straight. No dialogue. NO music, "
     "NO score, NO subtitles, NO on-screen text.",
     "REFERENCES — each reference has ONE job:\n"
-    "[first frame] KEYFRAME: the take STARTS from this exact frame (the man mid-lick, the foil at his mouth, the open cup in his "
-    "left hand) and the world stays frozen in it; light, grade and skin continue the keyframe exactly.\n"
+    "[first frame] KEYFRAME: the take STARTS from this exact frame (the man mid-lick, the cup with its half-open foil at his mouth, in his left hand) and the world stays frozen in it; light, grade and skin continue the keyframe exactly.\n"
     "@prop_pote-morango — OBJECT ONLY: the open cup and its yogurt.",
     "WHO IS WHO — @man-portoalegre is the frozen man in the keyframe; he NEVER moves in this take; nobody else exists.",
     "SCENE & SOUL — SCENE: the instant after the lick. Time stops. The camera, a slim probe lens, slides forward and down in one "
@@ -450,12 +446,11 @@ P_2A = _join(
     "any object remains.\n"
     "4. Light and grade stay exactly those of the keyframe.",
     "TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:\n"
-    "BEAT 1 (0–1s) — MCU 47°, the frozen frame, the camera 0.8 m from him and diagonal, about 35° toward his right side, 15 cm "
+    "PART 1 (0–1s) — MCU 47°, the frozen frame, the camera 0.8 m from him and diagonal, about 35° toward his right side, 15 cm "
     "above his eye line; the camera begins to drift forward.\n"
-    "BEAT 2 (1–3s) — the camera arcs forward and down past his chest, 20 cm above his thumb, toward the open cup in his left "
-    "hand; the rim grows in the lower right of the frame and the yogurt surface, glossy with one frozen swirl, fills the "
+    "PART 2 (1–3s) — the camera arcs forward and down past his chest, 20 cm above his thumb, toward the open cup at his mouth; the rim grows in the lower right of the frame and the yogurt surface, glossy with one frozen swirl, fills the "
     "lens.\n"
-    "BEAT 3 (3–4s) — the lens dives through the surface; the frame fills with soft, uniform strawberry-cream pink. Hard end on the "
+    "PART 3 (3–4s) — the lens dives through the surface; the frame fills with soft, uniform strawberry-cream pink. Hard end on the "
     "uniform pink.",
     "ACTING — none: he is a frozen photograph. NOT: a blink, a breath, any micro-movement, a changing expression.",
     "CAMERA — an impossible camera, a slim probe lens gliding on a curve, TRAVELS in one smooth move, no zoom. OPTICS: 47° at the "
@@ -477,7 +472,7 @@ P_2A = _join(
     "readable text, music, score, subtitles, handheld shake, wrong aspect ratio.",
     "[ORDER: 1 continuous take, 4s, time-freeze, camera only — (0–1s) the frozen frame; (1–3s) the arc to the cup; (3–4s) the dive "
     "into uniform pink. Invariants: nothing moves but the camera; one arc; last frame uniform pink; light of the keyframe. Look: "
-    "35mm negative. NO music. NO text.]",
+    "35mm negative. NO text.]",
 )
 
 # ===========================================================================
@@ -486,8 +481,7 @@ P_2A = _join(
 P_7A = _join(
     live_contract(6, "ONE continuous take", "; a wordless laugh is allowed, no words and no exclamations"),
     "REFERENCES — each reference has ONE job:\n"
-    "[first frame] KEYFRAME: the take STARTS from this exact frame (the man mid-lick, the foil at his mouth, the open cup in his "
-    "left hand) and comes alive from it; light, grade and skin continue the keyframe exactly.\n"
+    "[first frame] KEYFRAME: the take STARTS from this exact frame (the man mid-lick, the cup with its half-open foil at his mouth, in his left hand) and comes alive from it; light, grade and skin continue the keyframe exactly.\n"
     "@man-portoalegre — IDENTITY of the man. 100% matches.\n"
     "@loc_cozinha — WORLD: the kitchen.\n"
     "@prop_pote-morango — OBJECT ONLY: the cup and its green foil.\n" + LIVE_SCOPE,
@@ -504,11 +498,11 @@ P_7A = _join(
     "4. The framing stays exactly that of the keyframe — WRONG if the camera moves.\n"
     "5. He is ALONE; wordless — WRONG if he says anything.",
     "TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:\n"
-    "BEAT 1 (0–1s) — the lick ends and the foil leaves his mouth.\n"
-    "BEAT 2 (1–2s) — he looks at the foil in his right hand to check for leftover yogurt; its silver inner side, licked almost "
+    "PART 1 (0–1s) — the lick ends; he lowers the cup and, with his right hand, pulls the foil the rest of the way off the rim.\n"
+    "PART 2 (1–2s) — he looks at the foil in his right hand to check for leftover yogurt; its silver inner side, licked almost "
     "clean with a last faint pink smear at one corner, faces him, not the camera.\n"
-    "BEAT 3 (2–3s) — he sees he has won: his face lights up at once.\n"
-    "BEAT 4 (3–6s) — he celebrates, raising the foil high with his right arm, laughing without words. Hard "
+    "PART 3 (2–3s) — he sees he has won: his face lights up at once.\n"
+    "PART 4 (3–6s) — he celebrates, raising the foil high with his right arm, laughing without words. Hard "
     "end at the peak of the celebration.",
     acting_man(
         "own the win, now, in his whole body. Tactic: verify, then pure joy — a quick check that turns into joy with no pause.",
@@ -535,15 +529,14 @@ P_7A = _join(
     "the foil in the left hand, " + LIVE_NEG_SPINE,
     "[ORDER: 1 continuous take, 6s — (0–1s) the lick ends; (1–2s) he checks the foil; (2–3s) he sees he won, instantly happy; "
     "(3–6s) he raises the foil with his right arm, wordless laugh, hard end at the peak. Invariants: cup left hand, foil right "
-    "hand; no pause; no text; the camera locked as the keyframe; alone. Look: 35mm negative, summer window light. NO music. NO "
-    "text.]",
+    "hand; no pause; no text; the camera locked as the keyframe; alone. Look: 35mm negative, summer window light. NO text.]",
 )
 
 # ===========================================================================
 # MUNDO TOON (fábrica)
 # ===========================================================================
 TOON_LOOK = (
-    "FILM LOOK (KEY — reproduce this exact look): premium 3D animation, a miniature designer-toy diorama. The WORLD and the "
+    "LOOK (KEY — reproduce this exact look): premium 3D animation, a miniature designer-toy diorama. The WORLD and the "
     "CHARACTERS are matte soft-touch vinyl and painted resin with rounded bevels and no gloss. Palette: mostly monochromatic "
     "green (varied greens, a white floor and a white belt); the cows and the fruit keep their own colours, brand accents only "
     "in tiny details. Soft global illumination, gentle ambient occlusion in every crevice, short soft contact shadows, lifted "
@@ -569,7 +562,7 @@ COW = (
 
 # Estilo de atuação pedido pelo diretor: engraçadinhas e desastradinhas (sem citar personagem de marca no prompt)
 COW_STYLE = (
-    "minion-style (KEY): the cows are cute, eager little workers in a family animated comedy, a bit clumsy: they rush, "
+    "minion-style (KEY): the cows are cute, eager little workers a bit clumsy: they rush, "
     "overcommit, wobble under things too big for them, nearly drop them, recover in a hurry and look very proud of themselves. "
     "Quick, bouncy reactions, big round happy smiles, open eyes; tiny mishaps that never break anything and never hurt anyone. "
     "Never angry, never bored, never blank."
@@ -597,22 +590,20 @@ TOON_WORLD = (
 )
 
 TOON_SOUND_BASE = (
-    "SOUND — SOFT CARTOON FOLEY ONLY: the belt's low hum, padded footsteps of vinyl hooves, the golden bells' soft ding (one "
-    "note per weight shift), squeaky rubbery fruit, gentle machine puffs, small happy grunts of effort (no words). " + MUSIC_BAN
+    "SOUND — SOFT FOLEY ONLY: the belt's soft rumble, padded footsteps of vinyl hooves, a soft clink of the golden bells, squeaky rubbery fruit, gentle machine puffs, small happy grunts of effort (no words). " + MUSIC_BAN
 )
 
 TOON_NEG_SPINE = (
     "eyebrows, frowning or angry faces, cows filling the frame, normal-size fruit, humans, speech or lip-sync, keyring, wrong "
     "number of cows, merged cows, swapped ear colours, 2D cel look, glossy plastic, hard black shadows, dirt, film grain, "
-    "camera shake, readable text, logos, subtitles, music, wrong aspect ratio."
+    "camera shake, readable text, logos, subtitles, wrong aspect ratio."
 )
 
 
 def toon_contract(secs, shots):
     return (
         "CONTRACT — 3D animated footage, miniature designer-toy diorama, 16:9, %d seconds total, %s, real-time animation at 24 fps "
-        "with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). ABSOLUTELY NO "
-        "MUSIC, NO score, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos." % (secs, shots)
+        "with light squash and stretch. No speech, no lip-sync, no voice-over (a voice-over is added in post). NO music, NO subtitles, NO on-screen text of any kind: no letters, no numerals, no logos." % (secs, shots)
     )
 
 
@@ -625,13 +616,13 @@ TOON_CAMERA_TRAVEL = (
 )
 
 _OPEN_A = (
-    "BEAT 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
+    "PART 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
     "A cow in a white hairnet, VERY close to the camera (her face fills the lower half of the frame), wipes the lens with a "
     "white cloth in two quick, over-eager strokes; the yogurt goes onto the cloth and the glass is left clean. She hurries out "
     "of frame toward frame-left, nearly tripping, and the wide factory appears behind her, the travelling already moving."
 )
 _OPEN_B = (
-    "BEAT 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
+    "PART 1 (0–2s) — the first frame is the approved last frame of the previous shot: the lens is covered in thick pink yogurt. "
     "With nobody in front of the camera, the yogurt slides down the glass like a thick gel and runs off the bottom edge, leaving "
     "a perfectly clean lens; the wide factory appears from the top down and the travelling is already moving."
 )
@@ -669,24 +660,24 @@ def _spine(opening, name):
         "4. EACH HALL KEEPS ITS OUTFIT: hairnet and apron, lab coat, headphones, painter's smock and beret.\n"
         "5. NO TEXT of any kind anywhere.",
         "TIMELINE — ONE continuous take, no cuts, already in progress at the first frame:\n" + opening + "\n"
-        "BEAT 2 (2–7s) — HALL 1, fruit selection: giant strawberries, apples and coconut halves ride the belt in the foreground. "
+        "PART 2 (2–7s) — HALL 1, fruit selection: giant strawberries, apples and coconut halves ride the belt in the foreground. "
         "Three small cows in hairnets, white boots and aprons stand at small round tables behind the belt. COW A hugs a "
         "strawberry bigger than her head, waddles it to the belt, wobbles, drops it on with a bounce and pats it proudly; COW B "
         "lifts an apple bigger than her head to inspect it, it slips, she juggles it twice, catches it with a relieved grin and "
         "sets it on the belt; COW C shoves a coconut half onto the belt with her whole body, nearly slips and throws a quick "
         "thumbs-up.\n"
-        "BEAT 3 (7–14s) — HALL 2, pulp lab: a huge pulp funnel twice a cow's height, thick pink pulp running in glass tubes. "
+        "PART 3 (7–14s) — HALL 2, pulp lab: a huge pulp funnel twice a cow's height, thick pink pulp running in glass tubes. "
         "Three small cows in white lab coats. COW A, on tiptoe, tosses a strawberry up into the funnel; it drops in with a plop "
         "and she hops for joy; COW B holds a test tube up to a tall strip of pink swatches on the wall and nods so hard her bell "
         "rings; COW C slaps a big green button with both gloves, a pink yogurt cup pops out onto the belt, she startles, then "
         "claps. From here on pink cups ride the belt.\n"
-        "BEAT 4 (14–21s) — HALL 3, sound studio: a tall wall of acoustic foam and a glass booth. Inside, standing on a little box "
+        "PART 4 (14–21s) — HALL 3, sound studio: a tall wall of acoustic foam and a glass booth. Inside, standing on a little box "
         "at a microphone stand taller than she is, COW A holds a pair of joined yogurt cups with a gloved thumb flat on top of "
         "each cup and folds the pair toward its centre, the cup bottoms swinging toward each other underneath, until it snaps "
         "with a crisp créqui; she flinches at her own loud snap, ears flying, then grins. Outside the booth, COW B, only her head "
-        "and headphones showing above a big cartoon audio desk, closes her eyes, purses her lips in a satisfied pout as if mooing "
-        "and sways.\n"
-        "BEAT 5 (21–30s) — HALL 4, art studio: easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
+        "and headphones showing above a big toy-like audio desk, closes her eyes, purses her lips in a satisfied pout as if mooing "
+        "then nods once at the snap sound.\n"
+        "PART 5 (21–30s) — HALL 4, art studio: easels taller than the painters, each with a big flat sheet of soft aluminum foil. "
         "Three small cows in painter's smocks and berets. COW A backs up to judge her work, bumps gently into the easel behind "
         "her, steadies it and tilts her head; COW B dips her brush so deep into a big pot of yogurt that her whole glove comes "
         "out pink, and shrugs happily; COW C, on tiptoe, paints one plain stroke of yogurt onto the foil, the tip of her red "
@@ -703,7 +694,7 @@ def _spine(opening, name):
         "half drags; the pink pulp is thick and slow in the glass tubes; the cup pops out with a small hop; yogurt is thick and "
         "glossy and clings to the brush and the glove; the foil is a thin soft sheet that flexes when brushed; " + ("the cloth in "
         "the opening is white and absorbent; " if name == "A" else "in the opening the yogurt on the lens is a thick gel that "
-        "slides down the glass by itself and leaves it clean; ") + "the bells ding once per weight shift. Nothing floats, nothing "
+        "slides down the glass by itself and leaves it clean; ") + "the bells clink softly. Nothing floats, nothing "
         "loops. MATERIAL TRUTH of this world: matte vinyl with faint seam lines and soft fillets, a tiny glint on the golden bells, "
         "glossy pulp and yogurt, rubbery fruit with modelled seeds; pristine, never dirt.",
         TOON_LIGHT, TOON_LOOK, TOON_SOUND_BASE, TOON_WORLD,
@@ -713,7 +704,7 @@ def _spine(opening, name):
         "(14–21s) hall 3, the fold and the créqui, the pout; (21–30s) hall 4, the bump, the pink glove, the stroke. Invariants: "
         "cow counts 3-3-2-3; wide, cows a quarter of the frame height; constant direction and speed, no cuts; no eyebrows, no "
         "frowns, black right ear, no keyring; outfit per hall; no text. Look: matte vinyl, mostly monochromatic green, clean. "
-        "ABSOLUTELY NO MUSIC. NO text.]",
+        "NO text.]",
     )
 
 
@@ -769,11 +760,11 @@ P_3B = _insert(
     "foreground strawberry fills the lower left corner, soft; the cow stands 1.5 cow-lengths behind it at screen-centre-right, "
     "about a quarter of the frame height, tall wall above her.",
     "PHYSICS & MATERIAL — the strawberries are heavy for the cows and rubbery: they dent under a hug and recover slowly; the "
-    "stagger has real weight; the bell swings and dings once per wobble. Nothing floats, nothing loops. MATERIAL TRUTH: matte "
+    "stagger has real weight; the bell swings and clinks softly. Nothing floats, nothing loops. MATERIAL TRUTH: matte "
     "vinyl, modelled seeds on the strawberry, soft fillets; never dirt.",
     "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) top view, giant fruit, two small cows tugging; (2, 4–8s) low wide, one small "
     "cow hugging a giant strawberry. Invariants: cows small, fruit giant; no eyebrows, no frowns; black right ear; no text. "
-    "ABSOLUTELY NO MUSIC.]",
+    "]",
 )
 
 P_4B = _insert(
@@ -801,7 +792,7 @@ P_4B = _insert(
     "MATERIAL TRUTH: matte vinyl machines, glossy pulp, clear glass tubes; never dirt.",
     "[ORDER: 3 shots, 2 hard cuts, 9s — (1, 0–3s) the giant funnel, the tiptoe toss; (2, 3–6s) the tall swatch strip, the "
     "nod; (3, 6–9s) the nozzle fills the cup, the cow peeks. Invariants: one small cow per shot; giant props; no eyebrows, no "
-    "frowns; black right ear; no text. ABSOLUTELY NO MUSIC.]",
+    "frowns; black right ear; no text.]",
 )
 
 P_5B = _insert(
@@ -809,7 +800,7 @@ P_5B = _insert(
     "HALL 3: exactly TWO cows — COW A inside the glass acoustic booth, in plain cream vinyl, at the microphone; COW B outside the "
     "booth at the audio desk, wearing over-ear headphones. Each shot shows ONE of them.",
     "SCENE & SOUL — SCENE: hall 3, the sound studio, in two wide shots. Already in progress.\n"
-    "THE SOUL OF THE SCENE (play it, never explain it): the créqui is music to the engineer's ears.",
+    "THE SOUL OF THE SCENE (play it, never explain it): the créqui is the sweetest sound the engineer has ever heard.",
     "1. EXACTLY TWO cows in this hall; each shot shows one — WRONG if a third appears.\n"
     "2. THE FOLD: TWO joined cups before the snap and TWO after; a gloved thumb flat on top of each cup, the cup bottoms "
     "swinging toward each other underneath — WRONG if she twists or pulls it apart. Both cows small in frame.\n"
@@ -819,10 +810,10 @@ P_5B = _insert(
     "cups with a gloved thumb flat on top of each cup and folds the pair toward its centre, the cup bottoms swinging toward "
     "each other underneath, until the break line snaps with a crisp créqui; the needle on a meter jumps; she flinches at her "
     "own loud snap, ears flying, then grins.\n"
-    "SHOT 2 (4–8s) — low, 47°, from behind the edge of a big cartoon audio desk with a few simple sliders, which fills the "
+    "SHOT 2 (4–8s) — low, 47°, from behind the edge of a big toy-like audio desk with a few simple sliders, which fills the "
     "lower half of the frame: only COW B's head and headphones show above it; she listens, eyes closed, purses her lips in a "
-    "small satisfied pout as if mooing and sways. Hard end.",
-    "ACTING — COW A: total concentration, then the flinch at her own snap, then the grin. COW B: bliss; detail: a slow, dreamy sway. NOT: looking into the lens, mouths forming words, frowning, eyebrows, a blank face.",
+    "small satisfied pout as if mooing then nods once at the snap sound. Hard end.",
+    "ACTING — COW A: total concentration, then the flinch at her own snap, then the grin. COW B: bliss; detail: one slow nod at the snap sound. NOT: looking into the lens, mouths forming words, frowning, eyebrows, a blank face.",
     "Shot 1: the cow at screen-centre on her box, the microphone between her and frame-left, the foam wall rising behind her "
     "out of the top of the frame. Shot 2: the desk across the lower half, the cow's head at the screen-right third, the booth "
     "glass soft behind her at frame-left.",
@@ -831,7 +822,7 @@ P_5B = _insert(
     "loops. MATERIAL TRUTH: matte vinyl, clear glass, soft acoustic foam; never dirt.",
     "[ORDER: 2 shots, 1 hard cut, 8s — (1, 0–4s) wide in the booth, the small cow folds the pair, the créqui, the flinch; "
     "(2, 4–8s) behind the big desk, the satisfied pout. Invariants: exactly two cows, small; the fold toward the centre; no "
-    "eyebrows, no frowns; black right ear; no text. ABSOLUTELY NO MUSIC.]",
+    "eyebrows, no frowns; black right ear; no text.]",
     extra_neg="a third cow, a pair that never separates, a pair twisted or pulled apart, three cups, ",
 )
 
@@ -861,7 +852,7 @@ P_6B = _insert(
     "pot. Nothing floats, nothing loops. MATERIAL TRUTH: matte vinyl, glossy yogurt, soft foil; never dirt.",
     "[ORDER: 3 shots, 2 hard cuts, 9s — (1, 0–3s) the tall easel, the tiptoe stroke; (2, 3–6s) the big pot, the pink glove; "
     "(3, 6–9s) over the shoulder, the finger frame. Invariants: three cows, one per shot, small; plain, no decoration; no "
-    "eyebrows, no frowns; black right ear; no text. ABSOLUTELY NO MUSIC.]",
+    "eyebrows, no frowns; black right ear; no text.]",
     extra_neg="decoration or drawings on the foil, ",
 )
 
